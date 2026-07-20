@@ -25,7 +25,7 @@ export default function HeaderTop() {
               <a href="#">About Us</a>{" "}
               <a href="#">Leadership Team</a>{" "}
               <a href="#">Careers</a>{" "}
-              <a href="#">Blogs</a>{" "}
+              <a href="/blog">Blogs</a>{" "}
               <a href="#">Newsletters</a>{" "}
               <a href="#">Press Releases</a>{" "}
               <a href="#">Media</a>{" "}
