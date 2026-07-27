@@ -677,7 +677,7 @@ section { padding: 80px 0; position: relative; }
 
 /* Department-specific hover animations */
 /* Cardiac: ECG pulse */
-.cardiac-line { stroke-dasharray: 200; stroke-dashoffset: 200; transition: none; }
+.cardiac-line { stroke-dasharray: 200; stroke-dashoffset: 0; transition: none; }
 .coe-compact:hover .cardiac-line { animation: cardiacPulse 1.4s linear infinite; }
 @keyframes cardiacPulse { 0% { stroke-dashoffset: 200; } 100% { stroke-dashoffset: -200; } }
 
