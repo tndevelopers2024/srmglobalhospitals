@@ -1,25 +1,53 @@
-export default function FilterBar() {
+import { SPECIALTIES, type Specialty } from "@/lib/blog-posts";
+
+export type SortOrder = "recent" | "az";
+
+type Props = {
+  counts: Record<string, number>;
+  total: number;
+  active: Specialty | "All";
+  onFilter: (filter: Specialty | "All") => void;
+  sort: SortOrder;
+  onSort: (sort: SortOrder) => void;
+};
+
+export default function FilterBar({ counts, total, active, onFilter, sort, onSort }: Props) {
+  // A specialty with nothing published under it would be a dead-end filter.
+  const specialties = SPECIALTIES.filter((s) => (counts[s.name] ?? 0) > 0);
+
   return (
     <div className="filter-bar">
       <div className="container">
         <div className="filter-bar-inner">
           <div className="filter-pills">
-            <button className="filter-pill active">All <span style={{ opacity: '0.55' }}>148</span></button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#ef4444' }} />Cardiology</button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#8b3dff' }} />Neurology</button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#f59e0b' }} />Orthopaedics</button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#14b8a6' }} />Diabetes</button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#ec4899' }} />Gastro</button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#f43f5e' }} />Women's Health</button>{" "}
-            <button className="filter-pill"><span className="cdot" style={{ background: '#3b82f6' }} />Paediatrics</button>{" "}
-            <button className="filter-pill">Mental Health</button>{" "}
-            <button className="filter-pill">Pulmonology</button>{" "}
+            <button
+              type="button"
+              className={active === "All" ? "filter-pill active" : "filter-pill"}
+              onClick={() => onFilter("All")}
+              aria-pressed={active === "All"}
+            >
+              All <span style={{ opacity: 0.55 }}>{total}</span>
+            </button>{" "}
+            {specialties.map((s) => (
+              <button
+                key={s.name}
+                type="button"
+                className={active === s.name ? "filter-pill active" : "filter-pill"}
+                onClick={() => onFilter(s.name)}
+                aria-pressed={active === s.name}
+              >
+                <span className="cdot" style={{ background: s.color }} />
+                {s.name}
+              </button>
+            ))}
           </div>{" "}
-          <div className="filter-sort"> Sort: <select>
-  <option>Most recent</option>
-  <option>Most read</option>
-  <option>A to Z</option>
-</select></div>{" "}
+          <div className="filter-sort">
+            <label htmlFor="blog-sort">Sort:</label>{" "}
+            <select id="blog-sort" value={sort} onChange={(e) => onSort(e.target.value as SortOrder)}>
+              <option value="recent">Most recent</option>
+              <option value="az">A to Z</option>
+            </select>{" "}
+          </div>{" "}
         </div>{" "}
       </div>{" "}
     </div>

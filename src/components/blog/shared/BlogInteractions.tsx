@@ -2,8 +2,9 @@
 
 import { useEffect } from "react";
 
-// Ports the blog reference pages' vanilla JS: scroll reveal, sticky nav,
-// filter pill toggling (listing) and the reading-progress bar (article).
+// Ports the blog reference pages' vanilla JS: scroll reveal, sticky nav and
+// the reading-progress bar (article). The listing's filter, sort and load-more
+// are React state in ArticleBrowser rather than DOM handlers.
 export default function BlogInteractions() {
   useEffect(() => {
     const cleanups: (() => void)[] = [];
@@ -32,17 +33,6 @@ export default function BlogInteractions() {
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     cleanups.push(() => window.removeEventListener("scroll", onScroll));
-
-    // Filter pills (listing page)
-    const pills = document.querySelectorAll<HTMLElement>(".filter-pill");
-    pills.forEach((p) => {
-      const onClick = () => {
-        pills.forEach((x) => x.classList.remove("active"));
-        p.classList.add("active");
-      };
-      p.addEventListener("click", onClick);
-      cleanups.push(() => p.removeEventListener("click", onClick));
-    });
 
     // Reading progress bar (article page)
     const progressFill = document.getElementById("readProgress");
