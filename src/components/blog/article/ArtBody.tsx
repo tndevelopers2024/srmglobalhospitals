@@ -13,8 +13,8 @@ export default function ArtBody() {
           <li>What recovery and remission actually look like in practice</li>{" "}
         </ul>{" "}
       </div>{" "}
-      <p>The moment a patient hears the words "multiple sclerosis", the next decision they make is usually the wrong one. Not because they choose badly, but because they choose alone. The condition is treatable in ways that did not exist a decade ago, but the treatments only work if they begin before the damage accumulates. That window is shorter than most people realise.</p>{" "}
-      <p>Multiple sclerosis is an autoimmune condition where the body's immune system attacks the myelin sheath, the insulating cover around nerve fibres in the brain and spinal cord. The result is patchy, unpredictable nerve damage that can cause vision changes, numbness, weakness, balance problems, and cognitive fog.</p>{" "}
+      <p>The moment a patient hears the words &quot;multiple sclerosis&quot;, the next decision they make is usually the wrong one. Not because they choose badly, but because they choose alone. The condition is treatable in ways that did not exist a decade ago, but the treatments only work if they begin before the damage accumulates. That window is shorter than most people realise.</p>{" "}
+      <p>Multiple sclerosis is an autoimmune condition where the body&apos;s immune system attacks the myelin sheath, the insulating cover around nerve fibres in the brain and spinal cord. The result is patchy, unpredictable nerve damage that can cause vision changes, numbness, weakness, balance problems, and cognitive fog.</p>{" "}
       <div className="stat-hl">
         <div className="stat-hl-num">2.8M</div>{" "}
         <div className="stat-hl-text"><strong>people live with multiple sclerosis globally.</strong> In India, the incidence is rising, partly because diagnosis is becoming more accurate. Most cases are diagnosed between ages 20 and 40.</div>{" "}
@@ -33,7 +33,7 @@ export default function ArtBody() {
         <li><strong>Oral high-efficacy drugs</strong> like fingolimod, dimethyl fumarate, and cladribine.</li>{" "}
         <li><strong>Monoclonal antibody infusions</strong> like ocrelizumab, natalizumab, and ofatumumab. The strongest efficacy, given less frequently.</li>{" "}
       </ul>{" "}
-      <p>The choice depends on disease activity at presentation, lifestyle factors, family planning, and access. At SRM Global Hospitals, the decision is made in a multidisciplinary clinic that includes the patient's neurologist, an MS nurse, a pharmacist, and where relevant, a fertility consultant.</p>{" "}
+      <p>The choice depends on disease activity at presentation, lifestyle factors, family planning, and access. At SRM Global Hospitals, the decision is made in a multidisciplinary clinic that includes the patient&apos;s neurologist, an MS nurse, a pharmacist, and where relevant, a fertility consultant.</p>{" "}
       <div className="cta-card-inline">
         <div className="cta-card-text">
           <strong>Talk to the neurology team</strong>{" "}

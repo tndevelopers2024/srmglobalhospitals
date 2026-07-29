@@ -70,7 +70,7 @@ export default function Insurance() {
             </div>{" "}
             <div className="corporate-card-text">
               <h3>Corporate Health Packages</h3>
-              <p>Annual health checks, wellness programmes, and on-site health camps for your organisation's workforce.</p>
+              <p>Annual health checks, wellness programmes, and on-site health camps for your organisation&apos;s workforce.</p>
             </div>{" "}
           </div>{" "}
           <div className="corporate-card">
@@ -93,7 +93,7 @@ export default function Insurance() {
             </div>{" "}
             <div className="corporate-card-text">
               <h3>Government Scheme Coverage</h3>
-              <p>Empanelled under CGHS, ECHS, and Chief Minister's Comprehensive Health Insurance Scheme (CMCHIS).</p>
+              <p>Empanelled under CGHS, ECHS, and Chief Minister&apos;s Comprehensive Health Insurance Scheme (CMCHIS).</p>
             </div>{" "}
           </div>{" "}
         </div>{" "}

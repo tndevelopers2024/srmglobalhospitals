@@ -39,7 +39,7 @@ export default function ArtSide() {
         });
       });
       if (extracted.length > 0) {
-        setItems(extracted);
+        queueMicrotask(() => setItems(extracted));
       }
     }
 

@@ -76,6 +76,10 @@ docs/
 Keep `src/app/` for routing files; a page's sections belong in
 `src/components/<area>/`.
 
+## Architecture & Analysis
+
+For a deep breakdown of system architecture, technology comparisons, build verification, and component diagrams, see **[PROJECT_ANALYSIS.md](PROJECT_ANALYSIS.md)**.
+
 ## Adding pages
 
 See **[docs/ADDING-PAGES.md](docs/ADDING-PAGES.md)**. In short: create

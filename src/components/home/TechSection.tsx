@@ -16,7 +16,7 @@ export default function TechSection() {
                 <span className="tech-feature-num">01</span>{" "}
                 <h3>Real-Time Remote Monitoring</h3>{" "}
               </div>{" "}
-              <p>Continuous tracking of vitals across ICU and ward beds, viewable on the clinician's device. No delay between deterioration and response.</p>{" "}
+              <p>Continuous tracking of vitals across ICU and ward beds, viewable on the clinician&apos;s device. No delay between deterioration and response.</p>{" "}
             </div>{" "}
             <div className="tech-feature">
               <div className="tech-feature-head">

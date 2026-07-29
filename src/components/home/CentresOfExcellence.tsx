@@ -48,7 +48,7 @@ export default function CentresOfExcellence() {
               </svg>{" "}
             </div>{" "}
             <span className="coe-compact-label">Obstetrics &amp; Gynaecology</span>{" "}
-            <h3 className="coe-compact-name">Centre for Women's Health</h3>{" "}
+            <h3 className="coe-compact-name">Centre for Women&apos;s Health</h3>{" "}
             <span className="coe-compact-tags">High-Risk Pregnancy · Fetal Medicine · IVF</span>{" "}
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
