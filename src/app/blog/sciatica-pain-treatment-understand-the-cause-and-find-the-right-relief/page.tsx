@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
+  title: "Sciatica Pain Treatment: Understand the Cause and Find the Right Relief",
   description:
-    "Multiple sclerosis treatment at SRM Global Hospitals covers diagnosis, disease-modifying therapies, acute attack management, symptom control, physical therapy and lifestyle support guided by experienced neurologists.",
-  path: "/blog/multiple-sclerosis-expert-care",
-  image: "/images/blog/articles/ms-hero.jpeg",
-  author: "Neurology Specialist",
-  section: "Neurology",
-  publishedTime: "2026-05-14",
+    "Sciatica pain treatment at SRM Global Hospitals covers the causes of sciatic nerve compression, diagnosis, home care, physiotherapy, medical treatment and surgical options guided by orthopaedic spine specialists.",
+  path: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
+  image: "/images/blog/articles/sc-hero.jpeg",
+  author: "Orthopaedic Specialist",
+  section: "Orthopaedics",
+  publishedTime: "2026-04-01",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function MultipleSclerosisArticle() {
+export default function SciaticaArticle() {
   return (
     <>
       <script
@@ -66,52 +66,49 @@ export default function MultipleSclerosisArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-neurology"
-        category="Neurology"
+        dotClass="dot-orthopaedics"
+        category="Orthopaedics"
         title={article.title}
-        specialistTitle="Neurology Specialist"
-        department="Institute of Neuro Sciences"
-        date="May 14, 2026"
-        readMinutes={15}
-        reads="5,940"
+        specialistTitle="Orthopaedic Specialist"
+        department="Centre for Bone, Joint & Spine Care"
+        date="April 1, 2026"
+        readMinutes={11}
+        reads="9,840"
       />
       <div className="art-wrap">
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Neurology Specialist"
-          department="Institute of Neuro Sciences"
-          blurb="Our neurology specialists are available across the week, in-person and via tele-consult."
+          specialistTitle="Orthopaedic Specialist"
+          department="Centre for Bone, Joint & Spine Care"
+          blurb="Our spine specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "ms-impact-cns", title: "Impact on the nervous system" },
-            { id: "ms-types", title: "Types of MS" },
-            { id: "ms-diagnosis", title: "Diagnosis" },
-            { id: "ms-dmt", title: "Disease-modifying therapies" },
-            { id: "ms-acute-attack", title: "Managing an acute attack" },
-            { id: "ms-symptom-management", title: "Symptom management" },
-            { id: "ms-physical-therapy", title: "Physical therapy" },
-            { id: "ms-lifestyle-choices", title: "Lifestyle choices" },
-            { id: "ms-faqs", title: "FAQs" },
+            { id: "sc-causes", title: "What causes sciatic nerve pain" },
+            { id: "sc-symptoms", title: "Sciatica symptoms" },
+            { id: "sc-diagnosis", title: "How sciatica is diagnosed" },
+            { id: "sc-management", title: "Management and treatment" },
+            { id: "sc-prevention", title: "Preventing recurrence" },
+            { id: "sc-faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
-              href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
-              title: "Types of cerebral palsy: what it means for your child",
-              meta: "13 min · Neurology",
+              href: "/blog/multiple-sclerosis-expert-care",
+              image: "/images/blog/articles/ms-hero.jpeg",
+              title: "Multiple sclerosis: what expert care at the right time can actually do",
+              meta: "12 min · Neurology",
             },
             {
-              href: "/blog/multiple-sclerosis-expert-care",
+              href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
               image: "https://images.unsplash.com/photo-1606206522398-de2884d8c8e1?w=120&q=85",
               title: "Migraine vs tension headache: how a neurologist tells them apart",
               meta: "6 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
-              title: "Sciatica pain treatment: understand the cause and find the right relief",
-              meta: "11 min · Orthopaedics",
+              image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=120&q=85",
+              title: "Knee pain after 40: when it's arthritis, and when it isn't",
+              meta: "8 min · Orthopaedics",
             },
           ]}
         />
@@ -120,19 +117,19 @@ export default function MultipleSclerosisArticle() {
       <MoreArticles
         items={[
           {
-            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/articles/cp-hero.jpeg",
+            href: "/blog/multiple-sclerosis-expert-care",
+            image: "/images/blog/articles/ms-hero.jpeg",
             category: "Neurology",
-            title: "Types of cerebral palsy: what it means for your child",
+            title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
-            href: "/blog/multiple-sclerosis-expert-care",
+            href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
             image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
-            href: "/blog/multiple-sclerosis-expert-care",
+            href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
             image: "https://images.unsplash.com/photo-1616093875092-19208e6c4d35?w=600&q=85",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",

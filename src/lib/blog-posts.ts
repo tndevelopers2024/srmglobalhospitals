@@ -64,7 +64,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
     image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 9,
+    readMinutes: 11,
     date: "2026-04-01",
   },
   {
@@ -72,8 +72,8 @@ export const blogPosts: BlogPost[] = [
     title: "Types of Cerebral Palsy: What It Means for Your Child?",
     href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
     image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
-    specialty: "Paediatrics",
-    readMinutes: 4,
+    specialty: "Neurology",
+    readMinutes: 13,
     date: "2026-04-01",
   },
   {
@@ -82,8 +82,8 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/multiple-sclerosis-expert-care",
     image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do.jpeg",
     specialty: "Neurology",
-    readMinutes: 4,
-    date: "2026-04-01",
+    readMinutes: 15,
+    date: "2026-05-14",
   },
   {
     slug: "chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",

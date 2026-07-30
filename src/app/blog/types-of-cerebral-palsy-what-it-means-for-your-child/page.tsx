@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
+  title: "Types of Cerebral Palsy: What It Means for Your Child?",
   description:
-    "Multiple sclerosis treatment at SRM Global Hospitals covers diagnosis, disease-modifying therapies, acute attack management, symptom control, physical therapy and lifestyle support guided by experienced neurologists.",
-  path: "/blog/multiple-sclerosis-expert-care",
-  image: "/images/blog/articles/ms-hero.jpeg",
+    "Cerebral palsy is classified into spastic, dyskinetic, ataxic, hypotonic and mixed types. Pediatric neurologists at SRM Global Hospitals explain the causes, classification, symptoms, diagnosis and multidisciplinary treatment.",
+  path: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
+  image: "/images/blog/articles/cp-hero.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
-  publishedTime: "2026-05-14",
+  publishedTime: "2026-04-01",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function MultipleSclerosisArticle() {
+export default function CerebralPalsyArticle() {
   return (
     <>
       <script
@@ -71,9 +71,9 @@ export default function MultipleSclerosisArticle() {
         title={article.title}
         specialistTitle="Neurology Specialist"
         department="Institute of Neuro Sciences"
-        date="May 14, 2026"
-        readMinutes={15}
-        reads="5,940"
+        date="April 1, 2026"
+        readMinutes={13}
+        reads="7,260"
       />
       <div className="art-wrap">
         <ShareRail />
@@ -81,28 +81,27 @@ export default function MultipleSclerosisArticle() {
         <ArtSide
           specialistTitle="Neurology Specialist"
           department="Institute of Neuro Sciences"
-          blurb="Our neurology specialists are available across the week, in-person and via tele-consult."
+          blurb="Our pediatric neurology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "ms-impact-cns", title: "Impact on the nervous system" },
-            { id: "ms-types", title: "Types of MS" },
-            { id: "ms-diagnosis", title: "Diagnosis" },
-            { id: "ms-dmt", title: "Disease-modifying therapies" },
-            { id: "ms-acute-attack", title: "Managing an acute attack" },
-            { id: "ms-symptom-management", title: "Symptom management" },
-            { id: "ms-physical-therapy", title: "Physical therapy" },
-            { id: "ms-lifestyle-choices", title: "Lifestyle choices" },
-            { id: "ms-faqs", title: "FAQs" },
+            { id: "cp-impact", title: "Impact of cerebral palsy" },
+            { id: "cp-risk-factors", title: "Risk factors" },
+            { id: "cp-classification", title: "Classification" },
+            { id: "cp-types", title: "Types of cerebral palsy" },
+            { id: "cp-symptoms", title: "Common symptoms" },
+            { id: "cp-gmfcs", title: "Diagnosis with GMFCS" },
+            { id: "cp-multidisciplinary", title: "Multidisciplinary treatment" },
+            { id: "cp-faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
-              href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
-              title: "Types of cerebral palsy: what it means for your child",
-              meta: "13 min · Neurology",
+              href: "/blog/multiple-sclerosis-expert-care",
+              image: "/images/blog/articles/ms-hero.jpeg",
+              title: "Multiple sclerosis: what expert care at the right time can actually do",
+              meta: "12 min · Neurology",
             },
             {
-              href: "/blog/multiple-sclerosis-expert-care",
+              href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
               image: "https://images.unsplash.com/photo-1606206522398-de2884d8c8e1?w=120&q=85",
               title: "Migraine vs tension headache: how a neurologist tells them apart",
               meta: "6 min · Neurology",
@@ -120,19 +119,19 @@ export default function MultipleSclerosisArticle() {
       <MoreArticles
         items={[
           {
-            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/articles/cp-hero.jpeg",
+            href: "/blog/multiple-sclerosis-expert-care",
+            image: "/images/blog/articles/ms-hero.jpeg",
             category: "Neurology",
-            title: "Types of cerebral palsy: what it means for your child",
+            title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
-            href: "/blog/multiple-sclerosis-expert-care",
+            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
             image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
-            href: "/blog/multiple-sclerosis-expert-care",
+            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
             image: "https://images.unsplash.com/photo-1616093875092-19208e6c4d35?w=600&q=85",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",

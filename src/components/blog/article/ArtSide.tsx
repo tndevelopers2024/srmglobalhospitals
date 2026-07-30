@@ -7,16 +7,30 @@ interface TocItem {
   title: string;
 }
 
-export default function ArtSide() {
-  const [items, setItems] = useState<TocItem[]>([
-    { id: "what-you-will-learn", title: "What you will learn" },
-    { id: "first-six-months-matter", title: "First six months matter" },
-    { id: "what-dmt-looks-like", title: "What DMT looks like" },
-    { id: "five-questions-to-ask", title: "Five questions to ask" },
-    { id: "what-recovery-looks-like", title: "What recovery looks like" },
-    { id: "life-beyond-prescription", title: "Life beyond prescription" },
-  ]);
-  const [activeId, setActiveId] = useState<string>("what-you-will-learn");
+export interface RelatedReadingItem {
+  href: string;
+  image: string;
+  title: string;
+  meta: string;
+}
+
+interface ArtSideProps {
+  specialistTitle: string;
+  department: string;
+  blurb: string;
+  initialToc: TocItem[];
+  relatedReading: RelatedReadingItem[];
+}
+
+export default function ArtSide({
+  specialistTitle,
+  department,
+  blurb,
+  initialToc,
+  relatedReading,
+}: ArtSideProps) {
+  const [items, setItems] = useState<TocItem[]>(initialToc);
+  const [activeId, setActiveId] = useState<string>(initialToc[0]?.id ?? "");
 
   useEffect(() => {
     const article = document.querySelector(".art-body");
@@ -77,13 +91,18 @@ export default function ArtSide() {
     <aside className="art-side">
       <div className="side-doctor">
         <div className="side-doctor-head">
-          <div className="side-doctor-av">RM</div>{" "}
+          <div className="side-doctor-av">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 3l7 3v5c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6z" />
+              <path d="M12 9v6M9 12h6" />
+            </svg>
+          </div>{" "}
           <div className="side-doctor-info">
-            <strong>Dr. R. Muralidharan</strong>{" "}
-            <span>Senior Consultant, Neurology</span>{" "}
+            <strong>{specialistTitle}</strong>{" "}
+            <span>{department}</span>{" "}
           </div>{" "}
         </div>{" "}
-        <p>Available Mon, Wed, Fri at SRM Global Hospitals. In-person and tele-consult.</p>{" "}
+        <p>{blurb}</p>{" "}
         <a href="#" className="btn btn-primary">Book Appointment</a>{" "}
       </div>{" "}
       <div className="side-box">
@@ -104,30 +123,17 @@ export default function ArtSide() {
       <div className="side-box">
         <h4>Related reading</h4>{" "}
         <div className="side-related">
-          <a href="/blog/multiple-sclerosis-expert-care">
-            <img src="https://images.unsplash.com/photo-1606206522398-de2884d8c8e1?w=120&q=85" alt="" />{" "}
-            <div className="side-related-info">
-              <h5>Migraine vs tension headache: how a neurologist tells them apart</h5>{" "}
-              <span>6 min · Neurology</span>{" "}
-            </div>{" "}
-          </a>{" "}
-          <a href="/blog/multiple-sclerosis-expert-care">
-            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=120&q=85" alt="" />{" "}
-            <div className="side-related-info">
-              <h5>Sciatica: when surgery is genuinely the right answer</h5>{" "}
-              <span>7 min · Spine Care</span>{" "}
-            </div>{" "}
-          </a>{" "}
-          <a href="/blog/multiple-sclerosis-expert-care">
-            <img src="https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=120&q=85" alt="" />{" "}
-            <div className="side-related-info">
-              <h5>Stroke recovery: what the first 90 days determine</h5>{" "}
-              <span>9 min · Neurology</span>{" "}
-            </div>{" "}
-          </a>{" "}
+          {relatedReading.map((item) => (
+            <a key={item.href + item.title} href={item.href}>
+              <img src={item.image} alt="" />{" "}
+              <div className="side-related-info">
+                <h5>{item.title}</h5>{" "}
+                <span>{item.meta}</span>{" "}
+              </div>{" "}
+            </a>
+          ))}
         </div>{" "}
       </div>{" "}
     </aside>
   );
 }
-
