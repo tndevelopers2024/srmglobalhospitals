@@ -163,7 +163,7 @@
 .cta-card-text p { font-size: 14px; line-height: 1.5; color: var(--ink-soft); margin: 0 0 16px; }
 .cta-card-visual { background: linear-gradient(135deg, var(--ink-deep), #2a1f8e); display: flex; align-items: center; justify-content: center; position: relative; }
 .cta-card-visual svg { color: var(--cyan); opacity: 0.55; }
-.art-side { position: sticky; top: 180px; }
+.art-side { position: sticky; top: 100px; align-self: start; height: fit-content; z-index: 10; }
 .side-box { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 22px; margin-bottom: 16px; }
 .side-box h4 { font: 700 11px var(--font-body); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 16px; }
 .side-toc { display: flex; flex-direction: column; gap: 4px; }
