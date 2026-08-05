@@ -23,7 +23,7 @@ const article = {
   description:
     "Stroke recovery unfolds in stages, from the first week to 18 months and beyond. Neurologists and rehabilitation specialists at SRM Global Hospitals explain warning signs, recovery timelines, core therapies, and emotional health support.",
   path: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-  image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+  image: "/images/blog/blog-11/the-steps-forward-for-functional-independence-image-1-by-srm.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
   publishedTime: "2026-04-01",

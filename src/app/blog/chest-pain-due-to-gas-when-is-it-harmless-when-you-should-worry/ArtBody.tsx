@@ -128,7 +128,7 @@ export default function ArtBody() {
       <h2 id="relief-and-prevention" data-toc-title="Relief and prevention">
         How to Relieve Gas Pain in the Chest?
       </h2>
-      <img src="/images/blog/How-to-Relieve-Gas-Pain-in-the-Chest-2048x1365.png" alt=""></img>
+      <img src="/images/blog/blog-5/when-is-it-harmless-when-you-should-worry-image-2-by-srm.jpeg" alt=""></img>
       <p>Most mild pain improves with simple supportive measures, such as:</p>
       <ul>
         <li>Drink warm water or sip hot water slowly</li>
@@ -166,7 +166,7 @@ export default function ArtBody() {
       <h2 id="when-to-seek-medical-advice" data-toc-title="When to seek medical advice">
         When to Seek Medical Advice?
       </h2>
-      <img src="/images/blog/When-to-Seek-Medical-Advice-2048x1367.png" alt=""></img>
+      <img src="/images/blog/blog-5/when-is-it-harmless-when-you-should-worry-image-3-by-srm.jpeg" alt=""></img>
       <p>
         Gas-related chest pain is usually harmless and temporary. However, certain symptoms demand immediate attention and require immediate evaluation by emergency physicians and cardiologists at SRM Global Hospitals, such as:
       </p>

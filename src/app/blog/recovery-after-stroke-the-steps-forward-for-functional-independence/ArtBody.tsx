@@ -49,7 +49,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="stages-of-stroke-recovery" data-toc-title="Stages of stroke recovery">The Stages of Stroke Recovery</h2>{" "}
-      <img src="/images/blog/The-Stages-of-Stroke-Recovery-2048x1365.jpeg" alt="The Stages of Stroke Recovery" />{" "}
+      <img src="/images/blog/blog-11/the-steps-forward-for-functional-independence-image-2-by-srm.jpeg" alt="The Stages of Stroke Recovery" />{" "}
 
       <p>In stroke, the outcomes differ based on age, severity, and overall health. The neurologists and rehabilitation specialists at SRM Global Hospitals often describe progress using the stages of stroke recovery, which outline motor and functional milestones to coordinated voluntary movement. These stages provide patients and caregivers with a structured understanding of how improvement unfolds.</p>{" "}
 
@@ -111,7 +111,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="core-therapies" data-toc-title="Core therapies">Core Therapies in Stroke Rehabilitation</h2>{" "}
-      <img src="/images/blog/Core-Therapies-in-Stroke-Rehabilitation-2048x1365.jpeg" alt="The Stages of Stroke Recovery" />{" "}
+      <img src="/images/blog/blog-11/the-steps-forward-for-functional-independence-image-3-by-srm.jpeg" alt="The Stages of Stroke Recovery" />{" "}
       <p>Effective stroke recovery depends on three key therapies: physical therapy, occupational therapy, and speech and language therapy, delivered through coordinated multidisciplinary care at SRM Global Hospitals.</p>{" "}
 
       <h3>Physical Therapy</h3>{" "}

@@ -23,7 +23,7 @@ const article = {
   description:
     "Paediatric occupational therapy helps children build fine and gross motor skills, sensory regulation, self-care, and social skills. Specialists at SRM Global Hospitals explain assessment, core therapy areas, and how families and schools can help.",
   path: "/blog/occupational-therapy-for-children-expert-support-for-real-life-development",
-  image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development.jpeg",
+  image: "/images/blog/blog-10/expert-support-for-real-life-development-image-1-by-srm.jpeg",
   author: "Paediatrics Specialist",
   section: "Paediatrics",
   publishedTime: "2026-04-01",
