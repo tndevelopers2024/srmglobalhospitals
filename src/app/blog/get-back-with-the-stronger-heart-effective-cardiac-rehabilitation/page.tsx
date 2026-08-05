@@ -23,7 +23,7 @@ const article = {
   description:
     "Cardiac rehabilitation at SRM Global Hospitals combines supervised exercise, risk factor management, medication support, and emotional care to help patients recover after a heart attack, cardiac surgery, or heart failure.",
   path: "/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation",
-  image: "/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation.jpeg",
+  image: "/images/blog/blog-20/effective-cardiac-rehabilitation-image-1-by-srm.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2026-10-07",

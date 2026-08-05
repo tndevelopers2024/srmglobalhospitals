@@ -23,7 +23,7 @@ const article = {
   description:
     "White vaginal discharge during pregnancy is usually normal, but changes in colour, smell, or texture can signal infection or amniotic fluid leakage. Obstetricians at SRM Global Hospitals explain what's healthy, what's a warning sign, and how it's treated.",
   path: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
-  image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not.jpeg",
+  image: "/images/blog/blog-12/what's-normal-and-what's-not-image-1-by-srm.jpeg",
   author: "Women's Health Specialist",
   section: "Women's Health",
   publishedTime: "2026-04-01",

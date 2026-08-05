@@ -23,7 +23,7 @@ const article = {
   description:
     "Cervical length screening at 20 weeks helps identify preterm birth risk early. Obstetricians at SRM Global Hospitals explain normal ranges, when evaluation is needed, and management options for a short cervix.",
   path: "/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know",
-  image: "/images/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know.jpeg",
+  image: "/images/blog/blog-14/what-every-mom-to-be-should-know-image-1-by-srm.jpeg",
   author: "Women's Health Specialist",
   section: "Women's Health",
   publishedTime: "2026-08-26",

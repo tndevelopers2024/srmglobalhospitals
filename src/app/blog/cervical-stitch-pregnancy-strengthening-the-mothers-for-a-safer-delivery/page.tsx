@@ -23,7 +23,7 @@ const article = {
   description:
     "Cervical cerclage is a stitch placed around the cervix to prevent preterm birth in women with cervical insufficiency. Obstetricians at SRM Global Hospitals explain risk factors, procedure types, timing, and recovery.",
   path: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-  image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery.jpeg",
+  image: "/images/blog/blog-13/strengthening-the-mothers-for-a-safer-delivery-image-1-by-srm.jpeg",
   author: "Women's Health Specialist",
   section: "Women's Health",
   publishedTime: "2026-07-15",
