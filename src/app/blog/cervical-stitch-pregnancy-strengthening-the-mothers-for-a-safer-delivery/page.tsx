@@ -23,7 +23,7 @@ const article = {
   description:
     "Cervical cerclage is a stitch placed around the cervix to prevent preterm birth in women with cervical insufficiency. Obstetricians at SRM Global Hospitals explain risk factors, procedure types, timing, and recovery.",
   path: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-  image: "/images/blog/blog-13/strengthening-the-mothers-for-a-safer-delivery-image-1-by-srm.jpeg",
+  image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
   author: "Women's Health Specialist",
   section: "Women's Health",
   publishedTime: "2026-07-15",
@@ -96,19 +96,19 @@ export default function CervicalStitchPregnancyArticle() {
           relatedReading={[
             {
               href: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
-              image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not.jpeg",
+              image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/hero.jpeg",
               title: "White discharge during pregnancy: what's normal and what's not",
               meta: "11 min · Women's Health",
             },
             {
               href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
               title: "Recovery after stroke: the steps forward for functional independence",
               meta: "14 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -120,19 +120,19 @@ export default function CervicalStitchPregnancyArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
             href: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
-            image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not.jpeg",
+            image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/hero.jpeg",
             category: "Women's Health",
             title: "White discharge during pregnancy: what's normal and what's not",
           },

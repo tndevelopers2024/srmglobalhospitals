@@ -51,7 +51,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="role-of-therapist" data-toc-title="Role of the therapist">Role of a Paediatric Occupational Therapist</h2>{" "}
-      <img src="/images/blog/blog-10/expert-support-for-real-life-development-image-2-by-srm.jpeg" alt="Role of a Paediatric Occupational Therapist" />{" "}
+      <img src="/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development/image-2.jpeg" alt="Role of a Paediatric Occupational Therapist" />{" "}
 
       <p>A paediatric occupational therapist at SRM Global Hospitals evaluates how physical strength, coordination, sensory processing, cognitive skills, and emotional regulation affect a child&apos;s ability to manage daily tasks. The therapist works with infants, preschool children, school-aged children, and adolescents experiencing developmental delays, physical disabilities, or sensory processing difficulties, such as:</p>{" "}
       <ul>
@@ -91,7 +91,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="core-areas" data-toc-title="Core areas of therapy">Core Areas in Pediatric Occupational Therapy</h2>{" "}
-      <img src="/images/blog//blog-10/expert-support-for-real-life-development-image-3-by-srm.jpeg" alt="Core Areas in Pediatric Occupational Therapy" />{" "}
+      <img src="/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development/image-3.jpeg" alt="Core Areas in Pediatric Occupational Therapy" />{" "}
 
       <p>Pediatric occupational therapy in SRM Global Hospitals focuses on developing essential skills that enable children to participate confidently in daily life. In this, the core areas address physical, sensory, functional, and social abilities in a structured and holistic manner. Strengthening these foundations supports independence at home, improved school performance, and effective participation in play and social activities.</p>{" "}
 

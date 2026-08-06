@@ -23,7 +23,7 @@ const article = {
   description:
     "Amputation rehabilitation at SRM Global Hospitals combines pain management, prosthetic training, physical and occupational therapy, and psychosocial support to help patients regain mobility and independence.",
   path: "/blog/redefining-life-through-amputation-rehabilitation",
-  image: "/images/blog/redefining-life-through-amputation-rehabilitation.jpeg",
+  image: "/images/blog/redefining-life-through-amputation-rehabilitation/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-03-31",
@@ -94,19 +94,19 @@ export default function AmputationRehabilitationArticle() {
           relatedReading={[
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
               title: "Recovery after stroke: the steps forward for functional independence",
               meta: "14 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -118,7 +118,7 @@ export default function AmputationRehabilitationArticle() {
         items={[
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of Cerebral Palsy: What It Means for Your Child?",
           },

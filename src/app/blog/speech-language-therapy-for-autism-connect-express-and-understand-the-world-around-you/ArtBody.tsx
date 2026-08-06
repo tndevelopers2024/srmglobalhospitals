@@ -61,7 +61,7 @@ export default function ArtBody() {
       <h2 id="speech-language-assessment" data-toc-title="Assessment">
         Speech-language Assessment
       </h2>
-      <img src="/images/blog/Speech-language-Assessment-2048x1365.png" alt=""></img>
+      <img src="/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you/image-2.png" alt=""></img>
       <p>
         Speech-language pathologists begin with a detailed communication assessment, which identifies strengths, developmental delays, and areas needing targeted support, such as:
       </p>
@@ -95,7 +95,7 @@ export default function ArtBody() {
       <h2 id="core-techniques" data-toc-title="Core techniques">
         Speech Therapy
       </h2>
-      <img src="/images/blog/Speech-Therapy-2048x1365.png" alt=""></img>
+      <img src="/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you/image-3.png" alt=""></img>
       <p>
         Speech therapy sessions are personalised and goal-oriented session which targets specific communication challenges while supporting overall language development through:
       </p>
@@ -127,7 +127,7 @@ export default function ArtBody() {
       <p>Consistent practice improves communication abilities and reduces frustration linked to misunderstanding.</p>
 
       <h3>Augmentative and Alternative Communication (AAC)</h3>
-      <img src="/images/blog/Augmentative-and-Alternative-Communication-AAC-2048x1365.png" alt=""></img>
+      <img src="/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you/image-4.png" alt=""></img>
       <p>
         Augmentative and Alternative Communication (AAC) supports children who are nonverbal or have limited spoken language. It enhances an individual&apos;s communication without preventing speech development.
       </p>

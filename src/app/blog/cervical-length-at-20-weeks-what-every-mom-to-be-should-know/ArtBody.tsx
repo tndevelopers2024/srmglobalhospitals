@@ -21,7 +21,7 @@ export default function ArtBody() {
       <p>The length of the cervix refers to the distance between the internal opening near the uterus and the external opening near the vagina. Cervical muscles remain firm and elongated during early pregnancy, preventing early opening as fetal weight increases. Hormonal influence initiates gradual cervical changes as gestation advances. Structural weakening or inflammation may reduce cervical resistance, increasing the risk of preterm delivery. Measurement of cervical length allows objective evaluation of these changes before symptoms such as contractions appear and predicts preterm delivery more reliably than symptom-based observation alone.</p>{" "}
 
       <h2 id="why-20-weeks-matters" data-toc-title="Why 20 weeks matters">Why Cervical Length is Assessed at 20 Weeks?</h2>{" "}
-      <img src="/images/blog/blog-14/what-every-mom-to-be-should-know-image-2-by-srm.jpeg" alt="Cervical Length Ultrasound Measurement" />{" "}
+      <img src="/images/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know/image-2.jpeg" alt="Cervical Length Ultrasound Measurement" />{" "}
 
       <p>The 20-week anatomy scan provides an ideal opportunity for cervical evaluation. Several practices now perform universal screening during this scan to identify early cervical shortening. Clinical data show that cervical length is best assessed between 16 and 24 weeks of gestation. A cervix that rapidly shortens between the first trimester and the 20–24 week scan carries a higher risk of premature labour and early delivery. Early identification during this window allows doctors to prevent preterm births through timely medical intervention.</p>{" "}
 
@@ -57,7 +57,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="normal-vs-short-cervix" data-toc-title="Normal vs short cervix">Normal Cervical Length at 20 Weeks</h2>{" "}
-      <img src="/images/blog/blog-14/what-every-mom-to-be-should-know-image-3-by-srm.jpeg" alt="Normal Cervical Length at 20 Weeks" />{" "}
+      <img src="/images/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know/image-3.jpeg" alt="Normal Cervical Length at 20 Weeks" />{" "}
       <p>A typical cervical length at 20 weeks measures between 30 and 40 mm. The average cervical length during pregnancy ranges from 30 to 50 mm and is considered normal within this range.</p>{" "}
       <p>Clinical observations include:</p>{" "}
       <table>
@@ -135,7 +135,7 @@ export default function ArtBody() {
       </blockquote>{" "}
 
       <h2 id="management-options" data-toc-title="Management options">Management Options for Short Cervical Length</h2>{" "}
-      <img src="/images/blog/blog-14/what-every-mom-to-be-should-know-image-4-by-srm.jpeg" alt="" />{" "}
+      <img src="/images/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know/image-4.jpeg" alt="" />{" "}
       <p>Management for short cervical length focuses on stabilising the cervix, maintaining uterine quiescence (rest state), and reducing mechanical stress on the cervix. Treatment is individualised based on cervical length, gestational age, and obstetric history.</p>{" "}
 
       <h3>Progesterone Therapy</h3>{" "}

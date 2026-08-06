@@ -23,7 +23,7 @@ const article = {
   description:
     "Pediatric rehabilitation at SRM Global Hospitals combines sensory integration, feeding therapy, AAC and assistive technology, delivered by a multidisciplinary team through personalised, family-centred programs.",
   path: "/blog/pediatric-rehabilitation-focused-on-your-children",
-  image: "/images/blog/articles/pr-hero.jpeg",
+  image: "/images/blog/pediatric-rehabilitation-focused-on-your-children/hero.jpeg",
   author: "Paediatrics Specialist",
   section: "Paediatrics",
   publishedTime: "2026-03-30",
@@ -92,19 +92,19 @@ export default function PediatricRehabilitationArticle() {
           relatedReading={[
             {
               href: "/blog/pediatric-rehabilitation-focused-on-your-children",
-              image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development.jpeg",
+              image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development/hero.jpeg",
               title: "Occupational therapy for children: expert support for real-life development",
               meta: "9 min · Paediatrics",
             },
             {
               href: "/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you",
-              image: "/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you.jpeg",
+              image: "/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you/hero.jpeg",
               title: "Speech-language therapy for autism: connect, express, understand",
               meta: "13 min · Paediatrics",
             },
             {
               href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
+              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
               title: "Types of cerebral palsy: what it means for your child",
               meta: "13 min · Neurology",
             },
@@ -116,19 +116,19 @@ export default function PediatricRehabilitationArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/articles/rc-hero.jpeg",
+            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
             category: "Cardiology",
             title: "Right side chest pain: what your symptoms could be telling you",
           },
           {
             href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-            image: "/images/blog/articles/sc-hero.jpeg",
+            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
             category: "Orthopaedics",
             title: "Sciatica pain treatment: understand the cause and find the right relief",
           },

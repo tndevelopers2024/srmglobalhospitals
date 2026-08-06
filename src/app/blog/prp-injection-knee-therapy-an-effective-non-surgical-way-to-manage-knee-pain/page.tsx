@@ -23,7 +23,7 @@ const article = {
   description:
     "PRP injection knee therapy at SRM Global Hospitals: how the procedure works, which knee conditions respond best, what recovery looks like, and how many sessions most patients need.",
   path: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-  image: "/images/blog/articles/pk-hero.jpeg",
+  image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-05-27",
@@ -93,13 +93,13 @@ export default function PrpInjectionKneeTherapyArticle() {
           relatedReading={[
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
             {
               href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/articles/ms-hero.jpeg",
+              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
               title: "Multiple sclerosis: what expert care at the right time can actually do",
               meta: "12 min · Neurology",
             },
@@ -117,7 +117,7 @@ export default function PrpInjectionKneeTherapyArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },

@@ -23,7 +23,7 @@ const article = {
     description:
         "SRM Global Hospitals provides advanced neurological rehabilitation for individuals affected by injuries, diseases, or disorders of the nervous system.",
     path: "/blog/empower-your-neurological-rehabilitation-journey",
-    image: "/images/blog/srm-blog24-img1.webp",
+    image: "/images/blog/empower-your-neurological-rehabilitation-journey/hero.webp",
     author: "Neurology Specialist",
     section: "Neurology",
     publishedTime: "2026-08-04",
@@ -93,13 +93,13 @@ export default function NeuroRehabArticle() {
                     relatedReading={[
                         {
                             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-                            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
+                            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
                             title: "Types of Cerebral Palsy: What It Means for Your Child?",
                             meta: "13 min · Neurology",
                         },
                         {
                             href: "/blog/multiple-sclerosis-expert-care",
-                            image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do.jpeg",
+                            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
                             title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
                             meta: "15 min · Neurology",
                         },
@@ -111,13 +111,13 @@ export default function NeuroRehabArticle() {
                 items={[
                     {
                         href: "/blog/expert-physiotherapy-for-geriatric-rehabilitation",
-                        image: "/images/blog/srm-blog23-img1.webp",
+                        image: "/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/hero.webp",
                         category: "Orthopaedics",
                         title: "Expert Physiotherapy for Geriatric Rehabilitation",
                     },
                     {
                         href: "/blog/pulmonary-rehabilitation-for-effective-respiratory-health",
-                        image: "/images/blog/srm-blog22-img1.webp",
+                        image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/hero.webp",
                         category: "Pulmonology",
                         title: "Pulmonary Rehabilitation for Effective Respiratory Health",
                     },

@@ -23,7 +23,7 @@ const article = {
   description:
     "How sarcoidosis is diagnosed and treated at SRM Global Hospitals — from imaging and biopsy through corticosteroid and immunosuppressive therapy, organ-specific complications, and emerging treatments.",
   path: "/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game",
-  image: "/images/blog/articles/sd-hero.jpeg",
+  image: "/images/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game/hero.jpeg",
   author: "Pulmonology Specialist",
   section: "Pulmonology",
   publishedTime: "2026-01-14",
@@ -93,19 +93,19 @@ export default function SarcoidosisTreatmentArticle() {
           relatedReading={[
             {
               href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-              image: "/images/blog/articles/rc-hero.jpeg",
+              image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
               title: "Right side chest pain: what your symptoms could be telling you",
               meta: "6 min · Cardiology",
             },
             {
               href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-              image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+              image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
               title: "Chest pain due to gas: when is it harmless, when you should worry",
               meta: "9 min · Cardiology",
             },
             {
               href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/articles/ms-hero.jpeg",
+              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
               title: "Multiple sclerosis: what expert care at the right time can actually do",
               meta: "12 min · Neurology",
             },
@@ -117,19 +117,19 @@ export default function SarcoidosisTreatmentArticle() {
         items={[
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/articles/cp-hero.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of cerebral palsy: what it means for your child",
           },
           {
             href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-            image: "/images/blog/articles/sc-hero.jpeg",
+            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
             category: "Orthopaedics",
             title: "Sciatica pain treatment: understand the cause and find the right relief",
           },
           {
             href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-            image: "/images/blog/articles/pk-hero.jpeg",
+            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
             category: "Orthopaedics",
             title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
           },

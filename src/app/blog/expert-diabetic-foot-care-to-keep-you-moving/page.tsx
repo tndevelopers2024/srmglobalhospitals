@@ -23,7 +23,7 @@ const article = {
   description:
     "Diabetic foot care at SRM Global Hospitals' Podiatric Care & Diabetic Foot Clinic covers prevention, assessment, advanced wound management, and severe complication care to protect mobility and limb health.",
   path: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
-  image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving.jpeg",
+  image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
   author: "Diabetes Specialist",
   section: "Diabetes",
   publishedTime: "2026-03-31",
@@ -94,19 +94,19 @@ export default function DiabeticFootCareArticle() {
           relatedReading={[
             {
               href: "/blog/redefining-life-through-amputation-rehabilitation",
-              image: "/images/blog/redefining-life-through-amputation-rehabilitation.jpeg",
+              image: "/images/blog/redefining-life-through-amputation-rehabilitation/hero.jpeg",
               title: "Redefining life through amputation rehabilitation",
               meta: "13 min · Orthopaedics",
             },
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -118,7 +118,7 @@ export default function DiabeticFootCareArticle() {
         items={[
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of Cerebral Palsy: What It Means for Your Child?",
           },

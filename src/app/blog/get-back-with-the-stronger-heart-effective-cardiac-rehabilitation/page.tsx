@@ -23,7 +23,7 @@ const article = {
   description:
     "Cardiac rehabilitation at SRM Global Hospitals combines supervised exercise, risk factor management, medication support, and emotional care to help patients recover after a heart attack, cardiac surgery, or heart failure.",
   path: "/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation",
-  image: "/images/blog/blog-20/effective-cardiac-rehabilitation-image-1-by-srm.jpeg",
+  image: "/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2026-10-07",
@@ -95,19 +95,19 @@ export default function CardiacRehabilitationArticle() {
           relatedReading={[
             {
               href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-              image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+              image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
               title: "Chest pain due to gas: when is it harmless, when you should worry",
               meta: "10 min · Cardiology",
             },
             {
               href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-              image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you.jpeg",
+              image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
               title: "Right side chest pain: what your symptoms could be telling you",
               meta: "11 min · Cardiology",
             },
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
@@ -119,19 +119,19 @@ export default function CardiacRehabilitationArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you.jpeg",
+            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
             category: "Cardiology",
             title: "Right side chest pain: what your symptoms could be telling you",
           },
           {
             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
