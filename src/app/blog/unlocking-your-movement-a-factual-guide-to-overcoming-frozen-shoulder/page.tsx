@@ -23,7 +23,7 @@ const article = {
   description:
     "Frozen shoulder explained by SRM Global Hospitals orthopaedic specialists — how adhesive capsulitis develops, its three stages, how it is diagnosed, the risk factors, and the non-surgical treatments that work for most patients.",
   path: "/blog/unlocking-your-movement-a-factual-guide-to-overcoming-frozen-shoulder",
-  image: "/images/blog/articles/fs-hero.jpeg",
+  image: "/images/blog/unlocking-your-movement-a-factual-guide-to-overcoming-frozen-shoulder/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-01-14",
@@ -93,19 +93,19 @@ export default function FrozenShoulderArticle() {
           relatedReading={[
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/articles/pk-hero.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/power-your-comeback-through-sports-rehabilitation",
-              image: "/images/blog/articles/sr-hero.jpeg",
+              image: "/images/blog/power-your-comeback-through-sports-rehabilitation/hero.jpeg",
               title: "Power your comeback through sports rehabilitation",
               meta: "11 min · Orthopaedics",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -117,19 +117,19 @@ export default function FrozenShoulderArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/articles/rc-hero.jpeg",
+            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
             category: "Cardiology",
             title: "Right side chest pain: what your symptoms could be telling you",
           },
           {
             href: "/blog/pediatric-rehabilitation-focused-on-your-children",
-            image: "/images/blog/articles/pr-hero.jpeg",
+            image: "/images/blog/pediatric-rehabilitation-focused-on-your-children/hero.jpeg",
             category: "Paediatrics",
             title: "Pediatric rehabilitation focused on your children",
           },

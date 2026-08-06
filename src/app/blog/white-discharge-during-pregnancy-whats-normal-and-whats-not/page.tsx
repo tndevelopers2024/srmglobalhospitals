@@ -23,7 +23,7 @@ const article = {
   description:
     "White vaginal discharge during pregnancy is usually normal, but changes in colour, smell, or texture can signal infection or amniotic fluid leakage. Obstetricians at SRM Global Hospitals explain what's healthy, what's a warning sign, and how it's treated.",
   path: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
-  image: "/images/blog/blog-12/what's-normal-and-what's-not-image-1-by-srm.jpeg",
+  image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/hero.jpeg",
   author: "Women's Health Specialist",
   section: "Women's Health",
   publishedTime: "2026-04-01",
@@ -94,19 +94,19 @@ export default function WomensHealthWhiteDischargeDirectArticle() {
           relatedReading={[
             {
               href: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-              image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery.jpeg",
+              image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
               title: "Cervical stitch pregnancy: strengthening the mothers for a safer delivery",
               meta: "13 min · Women's Health",
             },
             {
               href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
               title: "Recovery after stroke: the steps forward for functional independence",
               meta: "14 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -118,19 +118,19 @@ export default function WomensHealthWhiteDischargeDirectArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-            image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+            image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
             category: "Neurology",
             title: "Recovery after stroke: the steps forward for functional independence",
           },
           {
             href: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-            image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery.jpeg",
+            image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
             category: "Women's Health",
             title: "Cervical stitch pregnancy: strengthening the mothers for a safer delivery",
           },

@@ -23,7 +23,7 @@ const article = {
   description:
     "Sciatica pain treatment at SRM Global Hospitals covers the causes of sciatic nerve compression, diagnosis, home care, physiotherapy, medical treatment and surgical options guided by orthopaedic spine specialists.",
   path: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-  image: "/images/blog/articles/sc-hero.jpeg",
+  image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-04-01",
@@ -94,7 +94,7 @@ export default function SciaticaArticle() {
           relatedReading={[
             {
               href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/articles/ms-hero.jpeg",
+              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
               title: "Multiple sclerosis: what expert care at the right time can actually do",
               meta: "12 min · Neurology",
             },
@@ -118,7 +118,7 @@ export default function SciaticaArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },

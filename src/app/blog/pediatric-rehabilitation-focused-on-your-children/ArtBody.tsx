@@ -25,7 +25,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="pr-team" data-toc-title="Multidisciplinary team">Multidisciplinary Team Approach</h2>{" "}
-      <img src="/images/blog/articles/pr-team.jpeg" alt="" />{" "}
+      <img src="/images/blog/pediatric-rehabilitation-focused-on-your-children/image-2.jpeg" alt="" />{" "}
       <p>Pediatric rehabilitation is a complex process requiring a coordinated, family-centred approach. At SRM, our team of doctors, therapists, and specialists works closely together to create an integrated plan that addresses both physical and cognitive development:</p>{" "}
       <ul>
         <li><strong>Pediatric Rehabilitation Medicine (PRM) Physicians:</strong> Lead therapy plans, oversee progress, and apply research-based interventions in physical medicine to manage pain, musculoskeletal conditions, and neurological disorders.</li>{" "}
@@ -51,7 +51,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="pr-programs" data-toc-title="Individualised programs">Individualised Therapy Programs</h2>{" "}
-      <img src="/images/blog/articles/pr-programs.jpeg" alt="" />{" "}
+      <img src="/images/blog/pediatric-rehabilitation-focused-on-your-children/image-3.jpeg" alt="" />{" "}
       <p>Every child&apos;s age, developmental stage, and health needs are carefully assessed to create a personalised rehabilitation plan. Therapy begins with a minimum of three hours daily. It can expand to full-day programs as the child progresses to enhanced physical endurance, cognitive skills, and emotional resilience.</p>{" "}
 
       <h2>From Childhood to Adulthood</h2>{" "}

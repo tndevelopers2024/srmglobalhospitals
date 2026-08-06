@@ -23,7 +23,7 @@ const article = {
   description:
     "Learn about the body's defense mechanism: cervical lymph nodes, their function, and what swollen lymph nodes indicate.",
   path: "/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about",
-  image: "/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about.jpeg",
+  image: "/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/hero.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
   publishedTime: "2026-03-31",
@@ -94,19 +94,19 @@ export default function CervicalLymphNodesArticle() {
           relatedReading={[
             {
               href: "/blog/cervical-mucus-your-bodys-fertility-guide-explained",
-              image: "/images/blog/cervical-mucus-your-bodys-fertility-guide-explained.jpeg",
+              image: "/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/hero.jpeg",
               title: "Cervical mucus: your body's fertility guide explained",
               meta: "10 min · Women's Health",
             },
             {
               href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
               title: "Recovery after stroke: the steps forward for functional independence",
               meta: "14 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -118,7 +118,7 @@ export default function CervicalLymphNodesArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },

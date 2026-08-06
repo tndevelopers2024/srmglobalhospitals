@@ -20,7 +20,7 @@ export default function ArtBody() {
       <p>Sarcoidosis is not cancer. Cancer involves out-of-control cell growth, while sarcoidosis is an inflammatory disease. However, having a chronic illness may lead to an increased risk of other health issues. Doctors often monitor cancer patients and sarcoidosis patients using similar scans, like a CT or PET scan, which adds to the confusion.</p>{" "}
 
       <h2 id="sd-diagnosis" data-toc-title="Diagnosis">How Doctors Diagnose Sarcoidosis?</h2>{" "}
-      <img src="/images/blog/articles/sd-diagnosis.jpeg" alt="" />{" "}
+      <img src="/images/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game/image-2.jpeg" alt="" />{" "}
       <p>Identifying this chronic disease requires several steps. A physical exam is the first step, followed by specific tests:</p>{" "}
       <ul>
         <li><strong>Chest X-rays and Computed Tomography (CT):</strong> These scans show enlarged lymph nodes or lung lesions.</li>{" "}
@@ -64,7 +64,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2>Future of Sarcoidosis Treatment</h2>{" "}
-      <img src="/images/blog/articles/sd-future.jpeg" alt="" />{" "}
+      <img src="/images/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game/image-3.jpeg" alt="" />{" "}
       <p>The European Respiratory Society (ERS) and the Indian Council of Medical Research (ICMR) update clinical practice guidelines regularly to ensure that Sarcoidosis treatment follows a highly individualised, stepwise approach.</p>{" "}
       <p>Recent milestones in sarcoidosis research include:</p>{" "}
       <ul>

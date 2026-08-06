@@ -23,7 +23,7 @@ const article = {
   description:
     "Speech therapy techniques explained by SRM Global Hospitals specialists — when to consult a speech therapist, what an assessment covers, core therapy techniques, and how home training supports recovery.",
   path: "/blog/speech-therapy-techniques-for-real-life-communication-challenges",
-  image: "/images/blog/articles/st-hero.jpeg",
+  image: "/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/hero.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
   publishedTime: "2026-06-03",
@@ -93,7 +93,7 @@ export default function SpeechTherapyTechniquesArticle() {
           relatedReading={[
             {
               href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
+              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
               title: "Types of cerebral palsy: what it means for your child",
               meta: "13 min · Neurology",
             },
@@ -105,7 +105,7 @@ export default function SpeechTherapyTechniquesArticle() {
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -117,7 +117,7 @@ export default function SpeechTherapyTechniquesArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },

@@ -23,7 +23,7 @@ const article = {
   description:
     "Multiple sclerosis treatment at SRM Global Hospitals covers diagnosis, disease-modifying therapies, acute attack management, symptom control, physical therapy and lifestyle support guided by experienced neurologists.",
   path: "/blog/multiple-sclerosis-expert-care",
-  image: "/images/blog/articles/ms-hero.jpeg",
+  image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
   publishedTime: "2026-05-14",
@@ -97,7 +97,7 @@ export default function MultipleSclerosisArticle() {
           relatedReading={[
             {
               href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
+              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
               title: "Types of cerebral palsy: what it means for your child",
               meta: "13 min · Neurology",
             },
@@ -109,7 +109,7 @@ export default function MultipleSclerosisArticle() {
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -121,7 +121,7 @@ export default function MultipleSclerosisArticle() {
         items={[
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/articles/cp-hero.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of cerebral palsy: what it means for your child",
           },

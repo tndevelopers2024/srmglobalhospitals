@@ -18,7 +18,7 @@ export default function ArtBody() {
 </div>
 <p>Cervical mucus is more than just a natural fluid; it plays a vital role in women&apos;s reproductive health and fertility. Its appearance, texture, and volume change throughout the menstrual cycle, providing essential clues about ovulation and the best time for conception. Understanding these changes can help women track their fertility, identify potential health issues, and make informed decisions about reproductive care. This guide explores how cervical mucus is produced, its role in fertility and early pregnancy, factors that affect its quality, and clinical evaluation methods offered at SRM Global Hospitals to support women&apos;s reproductive well-being.</p>
 <h2 id="production" data-toc-title="Production">How Cervical Mucus is Produced?</h2>
-<img src="/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/how-cervical-mucus-is-produced.webp" alt="How Cervical Mucus is Produced" />
+<img src="/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/image-2.webp" alt="How Cervical Mucus is Produced" />
 <p>The cervix produces cervical mucus through approximately 100 small glands called crypts. These crypts act as production sites and reservoirs, releasing cervical fluid in response to hormonal changes. Estrogen levels rise before ovulation, stimulating the production of fertile cervical mucus that is thin, clear, and slippery. Following ovulation, progesterone levels increase, causing cervical mucus to become thicker, cloudier, and less abundant.</p>
 <h2 id="cycle" data-toc-title="Menstrual cycle">Cervical Mucus Throughout the Menstrual Cycle</h2>
 <p>Distinct stages of cervical mucus occur throughout a typical 28-day cycle:</p>
@@ -30,10 +30,10 @@ export default function ArtBody() {
 </ul>
 <p>Fluctuating hormone levels primarily drive cervical mucus changes throughout the menstrual cycle. Tracking these changes helps women predict ovulation, identify the most fertile days, and monitor reproductive health.</p>
 <h3>Cervical Mucus and Fertility</h3>
-<img src="/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/cervical-mucus-and-fertility.webp" alt="Cervical Mucus and Fertility" />
+<img src="/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/image-3.webp" alt="Cervical Mucus and Fertility" />
 <p>The primary function of cervical mucus is to facilitate conception by helping sperm move through the cervix. Slippery cervical mucus during the fertile time allows intercourse to result in higher chances of fertilisation. Women can monitor cervical mucus by checking consistency and appearance daily, using a clean finger or toilet paper. Fertility treatments may also include cervical mucus monitoring to enhance the probability of conception. Cervical mucus acts as a natural fertility indicator. Fertile cervical mucus typically appears as transparent, stretchy fluid, while non-fertile mucus is thick and sticky. Tracking cervical mucus changes enables women to identify peak fertility, predict ovulation, and time intercourse effectively.</p>
 <h3>Cervical Mucus in Early Pregnancy</h3>
-<img src="/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/cervical-mucus-in-early-pregnancy.webp" alt="Cervical Mucus in Early Pregnancy" />
+<img src="/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/image-4.webp" alt="Cervical Mucus in Early Pregnancy" />
 <p>Cervical mucus in early pregnancy can provide early clues even before a positive pregnancy test. In the first trimester, progesterone levels remain high, keeping cervical mucus thick, creamy, and lotion-like. Early pregnancy cervical mucus may also form a mucus plug that seals the cervix, protecting the uterus and developing embryo. Women often notice consistent cervical mucus that does not dry out, unlike the fluctuations experienced in a regular menstrual cycle.</p>
 <h2 id="abnormal" data-toc-title="Abnormal mucus">Abnormal Cervical Mucus</h2>
 <p>Changes in cervical mucus may indicate underlying health issues:</p>

@@ -23,7 +23,7 @@ const article = {
   description:
     "Gait training helps restore safe, confident walking after stroke, spinal cord injury, or orthopaedic surgery. Rehabilitation specialists at SRM Global Hospitals explain the gait cycle, assessment, exercises, and recovery approach.",
   path: "/blog/restoring-hope-through-professional-gait-training",
-  image: "/images/blog/restoring-hope-through-professional-gait-training.jpeg",
+  image: "/images/blog/restoring-hope-through-professional-gait-training/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-03-31",
@@ -93,19 +93,19 @@ export default function GaitTrainingArticle() {
           relatedReading={[
             {
               href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence.jpeg",
+              image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
               title: "Recovery after stroke: the steps forward for functional independence",
               meta: "14 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP Injection Knee Therapy: An Effective Non-surgical Way to Manage Knee Pain",
               meta: "5 min · Orthopaedics",
             },
@@ -117,7 +117,7 @@ export default function GaitTrainingArticle() {
         items={[
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of Cerebral Palsy: What It Means for Your Child?",
           },

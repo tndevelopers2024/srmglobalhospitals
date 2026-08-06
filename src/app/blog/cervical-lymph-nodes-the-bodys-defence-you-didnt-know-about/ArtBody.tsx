@@ -91,7 +91,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="swollen-lymph-nodes" data-toc-title="Swollen lymph nodes">Swollen / Enlarged Cervical Lymph Nodes</h2>
-      <img src="/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/enlarged-cervical-lymph-nodes.webp" alt="Swollen Cervical Lymph Nodes" />
+      <img src="/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/image-2.webp" alt="Swollen Cervical Lymph Nodes" />
       <p>Swollen cervical lymph nodes are important indicators of health in the head and neck, providing critical prognostic information regarding tumours. The swelling occurs as the body responds to infection, inflammation, or abnormal cellular proliferation.</p>
       <p>While enlarged nodes often reflect an immune reaction, oncology research from 2023 shows that 60–70% of advanced head and neck malignancies involve these cervical lymph nodes.</p>
 
@@ -129,7 +129,7 @@ export default function ArtBody() {
       </table>
 
       <h3>Children Vs Adults</h3>
-      <img src="/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/children-vs-adults.webp" alt="Children Vs Adults" />
+      <img src="/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/image-3.webp" alt="Children Vs Adults" />
       <ul>
         <li><strong>Children:</strong> Reactive cervical lymph nodes are common as part of the developing immune system. About 45–50% of healthy children may have palpable lymph nodes, usually due to minor infections or immune activity.</li>
         <li><strong>Adults:</strong> Persistent lymph nodes swollen for more than two weeks, especially if firm, fixed, or painless, should be evaluated by a healthcare professional. These may indicate infections, autoimmune conditions, or malignancy.</li>
@@ -184,7 +184,7 @@ export default function ArtBody() {
       </blockquote>
 
       <h2 id="monitoring-prevention" data-toc-title="Monitoring and prevention">Monitoring and Prevention of Swollen / Enlarged Cervical Lymph Node</h2>
-      <img src="/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/monitoring-and-prevention.webp" alt="Monitoring and Prevention" />
+      <img src="/images/blog/cervical-lymph-nodes-the-bodys-defence-you-didnt-know-about/image-4.webp" alt="Monitoring and Prevention" />
 
       <h3>Good Oral Hygiene</h3>
       <p>Maintaining good oral and overall hygiene reduces infections in the mouth, throat, and neck, lowering the risk of cervical lymph node swelling. Brushing, flossing, and regular dental check-ups prevent bacteria from entering the lymphatic system.</p>

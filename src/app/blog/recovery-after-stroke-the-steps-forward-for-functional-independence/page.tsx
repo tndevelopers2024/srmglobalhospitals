@@ -23,7 +23,7 @@ const article = {
   description:
     "Stroke recovery unfolds in stages, from the first week to 18 months and beyond. Neurologists and rehabilitation specialists at SRM Global Hospitals explain warning signs, recovery timelines, core therapies, and emotional health support.",
   path: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-  image: "/images/blog/blog-11/the-steps-forward-for-functional-independence-image-1-by-srm.jpeg",
+  image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
   publishedTime: "2026-04-01",
@@ -95,19 +95,19 @@ export default function RecoveryAfterStrokeArticle() {
           relatedReading={[
             {
               href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/articles/ms-hero.jpeg",
+              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
               title: "Multiple sclerosis: what expert care at the right time can actually do",
               meta: "15 min · Neurology",
             },
             {
               href: "/blog/speech-therapy-techniques-for-real-life-communication-challenges",
-              image: "/images/blog/articles/st-hero.jpeg",
+              image: "/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/hero.jpeg",
               title: "Speech therapy techniques for real-life communication challenges",
               meta: "12 min · Neurology",
             },
             {
               href: "/blog/occupational-therapy-for-children-expert-support-for-real-life-development",
-              image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development.jpeg",
+              image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development/hero.jpeg",
               title: "Occupational therapy for children: expert support for real-life development",
               meta: "9 min · Paediatrics",
             },
@@ -119,13 +119,13 @@ export default function RecoveryAfterStrokeArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },

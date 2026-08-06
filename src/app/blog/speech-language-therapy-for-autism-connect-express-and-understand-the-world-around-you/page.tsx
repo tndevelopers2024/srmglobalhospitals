@@ -23,7 +23,7 @@ const article = {
   description:
     "Speech-language therapy for autism spectrum disorder builds practical communication skills through speech therapy, language therapy, AAC, and social communication therapy. Paediatric specialists at SRM Global Hospitals explain assessment, techniques, and family support.",
   path: "/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you",
-  image: "/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you.jpeg",
+  image: "/images/blog/speech-language-therapy-for-autism-connect-express-and-understand-the-world-around-you/hero.jpeg",
   author: "Paediatrics Specialist",
   section: "Paediatrics",
   publishedTime: "2026-06-17",
@@ -94,19 +94,19 @@ export default function SpeechLanguageTherapyAutismArticle() {
           relatedReading={[
             {
               href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
+              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
               title: "Types of cerebral palsy: what it means for your child",
               meta: "13 min · Neurology",
             },
             {
               href: "/blog/speech-therapy-techniques-for-real-life-communication-challenges",
-              image: "/images/blog/speech-therapy-techniques-for-real-life-communication-challenges.jpeg",
+              image: "/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/hero.jpeg",
               title: "Speech therapy techniques for real-life communication challenges",
               meta: "12 min · Neurology",
             },
             {
               href: "/blog/occupational-therapy-for-children-expert-support-for-real-life-development",
-              image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development.jpeg",
+              image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development/hero.jpeg",
               title: "Occupational therapy for children: expert support for real-life development",
               meta: "11 min · Paediatrics",
             },
@@ -118,19 +118,19 @@ export default function SpeechLanguageTherapyAutismArticle() {
         items={[
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of Cerebral Palsy: What It Means for Your Child?",
           },
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
           },
           {
             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest Pain Due to Gas: When is It Harmless? When You Should Worry?",
           },

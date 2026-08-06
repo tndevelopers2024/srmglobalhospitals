@@ -27,7 +27,7 @@ export default function ArtBody() {
       <p>Children learn communication through interaction first, as interaction is the foundation of improving communication skills. Imitation then becomes the stepping stone to verbal communication. Through play activities and daily routines, children gradually build language abilities and confidence with structured guidance from speech therapists and developmental specialists at SRM Global Hospitals.</p>{" "}
 
       <h2 id="st-when-to-consult" data-toc-title="When to consult a speech therapist">When to Consult the Speech Therapist?</h2>{" "}
-      <img src="/images/blog/articles/st-when-to-consult.jpeg" alt="" />{" "}
+      <img src="/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/image-2.jpeg" alt="" />{" "}
       <ul>
         <li><strong>Children:</strong> When a child&apos;s speech shows limited vocabulary, difficulty forming simple sentences, or trouble making simple conversations, parents should seek help from a speech pathologist or therapist for early intervention at SRM Global Hospitals.</li>{" "}
         <li><strong>Adults:</strong> They lose speech and language skills after a stroke, brain injury, or neurological disease. In such cases, therapy rebuilds communication abilities through structured rehabilitation guided by neurologists, rehabilitation physicians, and speech therapists at SRM Global Hospitals.</li>{" "}
@@ -99,7 +99,7 @@ export default function ArtBody() {
       <p>Voice therapy in SRM Global Hospitals improves pitch, breath support, and resonance for enhanced vocal quality. Individuals with hoarseness (strained voice), weak projection, or vocal fatigue benefit from targeted exercises that strengthen vocal control to restore confidence in professional and social communication.</p>{" "}
 
       <h3>Augmentative and Alternative Communication (AAC)</h3>{" "}
-      <img src="/images/blog/articles/st-aac.jpeg" alt="" />{" "}
+      <img src="/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/image-3.jpeg" alt="" />{" "}
       <p>AAC therapy in SRM Global Hospitals provides alternative systems when speech alone is not sufficient, in which the options include:</p>{" "}
       <ul>
         <li>Communication boards</li>{" "}
@@ -140,7 +140,7 @@ export default function ArtBody() {
       </blockquote>{" "}
 
       <h3 id="st-home-training" data-toc-title="Home training">Home Training for Children and Adults</h3>{" "}
-      <img src="/images/blog/articles/st-home-training.jpeg" alt="" />{" "}
+      <img src="/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/image-4.jpeg" alt="" />{" "}
       <p>Home training plays an essential role in strengthening the results of speech therapy for both children and adults. Consistent practice outside therapy sessions helps reinforce new skills, supports steady progress, and improves long-term communication abilities as recommended by the clinical team at SRM Global Hospitals.</p>{" "}
       <p>For children, daily reinforcement builds confidence and supports natural language development. For adults, especially those recovering from stroke, brain injury, or neurological conditions, regular practice helps rebuild speech and language skills more effectively.</p>{" "}
       <p>Families and caregivers can support improving communication skills by:</p>{" "}

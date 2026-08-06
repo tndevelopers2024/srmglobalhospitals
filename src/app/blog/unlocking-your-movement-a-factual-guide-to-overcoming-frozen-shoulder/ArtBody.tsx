@@ -28,7 +28,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="fs-diagnosis" data-toc-title="Diagnosis">How Doctors Diagnose Frozen Shoulder?</h2>{" "}
-      <img src="/images/blog/articles/fs-diagnosis.jpeg" alt="" />{" "}
+      <img src="/images/blog/unlocking-your-movement-a-factual-guide-to-overcoming-frozen-shoulder/image-2.jpeg" alt="" />{" "}
       <p>The diagnosis of frozen shoulder is primarily clinical, based on medical history and physical examination. During a physical exam, the expert checks the active range of your shoulder rotation. Doctors also check the passive range of motion, where the expert moves your arm for you. If the passive range is equal to the active range, the issue is likely shoulder adhesive capsulitis, as the lower shoulder external rotation is a classic sign rather than a rotator cuff tear. X-rays cannot help to view the soft tissues, yet they help to detect whether it is a rotator cuff tendinitis (inflammation or irritation of the tendons in the shoulder) or a torn rotator cuff (tendon rips or pulls away from the shoulder bone).</p>{" "}
 
       <h2 id="fs-risk" data-toc-title="Risk factors">Risk Factors of Frozen Shoulder</h2>{" "}
@@ -52,7 +52,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="fs-treatment" data-toc-title="Non-surgical treatment">Non-Surgical Treatments for Frozen Shoulder</h2>{" "}
-      <img src="/images/blog/articles/fs-treatment.jpeg" alt="" />{" "}
+      <img src="/images/blog/unlocking-your-movement-a-factual-guide-to-overcoming-frozen-shoulder/image-3.jpeg" alt="" />{" "}
       <ul>
         <li>Nonsteroidal anti-inflammatory drugs (NSAIDs) are commonly used to manage the pain of frozen shoulder.</li>{" "}
         <li>Corticosteroid injections can help relieve inflammation along with pain in frozen shoulder.</li>{" "}

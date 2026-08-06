@@ -23,7 +23,7 @@ const article = {
   description:
     "Cerebral palsy is classified into spastic, dyskinetic, ataxic, hypotonic and mixed types. Pediatric neurologists at SRM Global Hospitals explain the causes, classification, symptoms, diagnosis and multidisciplinary treatment.",
   path: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-  image: "/images/blog/articles/cp-hero.jpeg",
+  image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
   author: "Neurology Specialist",
   section: "Neurology",
   publishedTime: "2026-04-01",
@@ -96,7 +96,7 @@ export default function CerebralPalsyArticle() {
           relatedReading={[
             {
               href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/articles/ms-hero.jpeg",
+              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
               title: "Multiple sclerosis: what expert care at the right time can actually do",
               meta: "12 min · Neurology",
             },
@@ -108,7 +108,7 @@ export default function CerebralPalsyArticle() {
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -120,7 +120,7 @@ export default function CerebralPalsyArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },

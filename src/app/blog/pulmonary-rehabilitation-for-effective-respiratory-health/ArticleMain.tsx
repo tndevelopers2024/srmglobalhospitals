@@ -24,7 +24,7 @@ export default function ArticleBody() {
             <h2 id="benefits" data-toc-title="Who Benefits?">
                 Who Benefits from Pulmonary Rehabilitation?
             </h2>
-            <img src="/images/blog/srm-blog22-img2.webp" alt="Doctor examining patient lungs" />
+            <img src="/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/image-2.webp" alt="Doctor examining patient lungs" />
             <p>
                 Pulmonary rehabilitation is recommended for individuals with a wide range of chronic respiratory conditions who experience breathlessness, reduced physical activity, or declining functional independence.
             </p>
@@ -58,7 +58,7 @@ export default function ArticleBody() {
                 SRM Global Hospitals employs a holistic and patient-centred approach, offering evidence-based interventions aligned with international standards of pulmonary rehabilitation.
             </p>
 
-            <img src="/images/blog/srm-blog22-img3.webp" alt="Patient undergoing stress testing" />
+            <img src="/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/image-3.webp" alt="Patient undergoing stress testing" />
 
             <h3>Comprehensive Patient Assessment</h3>
             <p>
@@ -93,7 +93,7 @@ export default function ArticleBody() {
             <h2 id="team" data-toc-title="Multidisciplinary Team">
                 Multidisciplinary Pulmonary Rehabilitation Team
             </h2>
-            <img src="/images/blog/srm-blog22-img4.webp" alt="Medical team meeting" />
+            <img src="/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/image-4.webp" alt="Medical team meeting" />
             <p>
                 A specialised multidisciplinary team delivers SRM Global Hospitals’ pulmonary rehabilitation programs to ensure coordinated, comprehensive care:
             </p>
@@ -149,7 +149,7 @@ export default function ArticleBody() {
             <h2 id="why-choose" data-toc-title="Why Choose Us?">
                 Why Choose SRM Global Hospitals for Pulmonary Rehabilitation?
             </h2>
-            <img src="/images/blog/srm-blog22-img5.webp" alt="Doctor and patient viewing lung scan" />
+            <img src="/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/image-5.webp" alt="Doctor and patient viewing lung scan" />
             <p>
                 SRM Global Hospitals in Chennai is a trusted centre for comprehensive pulmonary rehabilitation, delivering care that integrates clinical excellence, advanced technology, and patient-centred rehabilitation models.
             </p>
