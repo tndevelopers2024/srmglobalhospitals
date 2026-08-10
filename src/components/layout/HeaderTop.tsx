@@ -22,13 +22,31 @@ export default function HeaderTop() {
           </div>{" "}
           <div className="header-secondary">
             <nav className="secondary-nav" aria-label="Secondary">
-              <a href="#">About Us</a>{" "}
-              <a href="#">Leadership Team</a>{" "}
-              <a href="#">Careers</a>{" "}
-              <a href="/blog">Blogs</a>{" "}
-              <a href="#">Newsletters</a>{" "}
-              <a href="#">Press Releases</a>{" "}
-              <a href="#">Media</a>{" "}
+              <div className="nav-dropdown">
+                <a href="#" className="nav-dropdown-toggle">
+                  About Us{" "}
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </a>
+                <div className="nav-dropdown-menu">
+                  <a href="#">About Us</a>
+                  <a href="#">Leadership Team</a>
+                </div>
+              </div>{" "}
+              <div className="nav-dropdown">
+                <a href="#" className="nav-dropdown-toggle">
+                  Media{" "}
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </a>
+                <div className="nav-dropdown-menu">
+                  <a href="/blog">Blogs</a>
+                  <a href="#">Newsletters</a>
+                  <a href="#">Press Releases</a>
+                </div>
+              </div>{" "}
               <a href="#">Contact Us</a>{" "}
             </nav>{" "}
             <a href="#" className="btn btn-primary header-cta"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

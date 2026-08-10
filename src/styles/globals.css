@@ -572,7 +572,7 @@ section {
   background: var(--paper);
   border-bottom: 1px solid var(--rule);
   position: relative;
-  z-index: 100;
+  z-index: 1050;
   transition: box-shadow 200ms var(--ease);
 }
 
@@ -660,6 +660,91 @@ section {
 }
 
 .secondary-nav a:hover {
+  color: var(--purple);
+}
+
+.secondary-nav .nav-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.secondary-nav .nav-dropdown-toggle {
+  font-size: 10px;
+  color: var(--ink-soft);
+  padding: 3px 8px;
+  transition: color 180ms var(--ease);
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.secondary-nav .nav-dropdown-toggle svg {
+  transition: transform 180ms var(--ease);
+}
+
+.secondary-nav .nav-dropdown:hover .nav-dropdown-toggle,
+.secondary-nav .nav-dropdown:focus-within .nav-dropdown-toggle {
+  color: var(--purple);
+}
+
+.secondary-nav .nav-dropdown:hover .nav-dropdown-toggle svg,
+.secondary-nav .nav-dropdown:focus-within .nav-dropdown-toggle svg {
+  transform: rotate(180deg);
+}
+
+.secondary-nav .nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  min-width: 140px;
+  padding: 4px 0;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(26, 31, 92, 0.12);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 180ms var(--ease), transform 180ms var(--ease), visibility 180ms var(--ease);
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.secondary-nav .nav-dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  right: 0;
+  height: 8px;
+}
+
+.secondary-nav .nav-dropdown:hover .nav-dropdown-menu,
+.secondary-nav .nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(2px);
+  pointer-events: auto;
+}
+
+.secondary-nav .nav-dropdown-menu a {
+  display: block;
+  font-size: 11px;
+  padding: 6px 12px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: background 150ms var(--ease), color 150ms var(--ease);
+  text-align: left;
+}
+
+.secondary-nav .nav-dropdown-menu a:hover {
+  background: var(--brand-soft);
   color: var(--purple);
 }
 
