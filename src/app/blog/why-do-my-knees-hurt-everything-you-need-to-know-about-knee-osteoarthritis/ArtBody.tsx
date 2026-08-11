@@ -33,7 +33,7 @@ export default function ArtBody() {
       <p>Risk factors include modifiable things like obesity, injury, and occupation, along with non-modifiable things like age, gender, and genetics.</p>{" "}
 
       <h2 id="imaging-diagnosis" data-toc-title="Diagnosis">Imaging and Diagnosis of Knee Osteoarthritis</h2>{" "}
-      <img src="/images/blog/blog-32/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis-image-2-by-srm.jpeg" alt="Imaging and Diagnosis of Knee Osteoarthritis" />{" "}
+      <img src="/images/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis/image-2.jpeg" alt="Imaging and Diagnosis of Knee Osteoarthritis" />{" "}
 
       <p>An orthopaedic surgeon uses different tools to diagnose osteoarthritis. Clinical examination combined with X-rays establishes the diagnosis. Knee radiographs show radiographic findings like joint space narrowing and bone changes. Healthcare providers rely on X-rays to research the breakdown of cartilage and the formation of bone spurs.</p>{" "}
 
@@ -69,7 +69,7 @@ export default function ArtBody() {
 
       <h2>Treatment and Management of Knee Osteoarthritis</h2>
       <h2 id="non-surgical-treatment" data-toc-title="Non-surgical treatment">Non-Surgical Treatment and Management</h2>{" "}
-      <img src="/images/blog/blog-32/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis-image-3-by-srm.jpeg" alt="Non-Surgical Treatment and Management" />{" "}
+      <img src="/images/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis/image-3.jpeg" alt="Non-Surgical Treatment and Management" />{" "}
 
       <p>The goal of osteoarthritis management is to reduce pain and keep the joint moving. Initial treatment for symptomatic knee osteoarthritis focuses on education and physical therapy. Conservative treatment always begins before moving to surgery.</p>{" "}
       <ul>
@@ -86,7 +86,7 @@ export default function ArtBody() {
       <p>Managing knee OA requires the efficient consistency of exercise, diet, and medical help. Early care delays the need for surgery. If your knee joint feels stiff or painful, seeking help early is the best path.</p>{" "}
 
       <h3 id="surgical-treatments" data-toc-title="Surgical treatments">Surgical Treatments</h3>{" "}
-      <img src="/images/blog/blog-32/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis-image-4-by-srm.jpeg" alt="Non-Surgical Treatment and Management" />{" "}
+      <img src="/images/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis/image-4.jpeg" alt="Non-Surgical Treatment and Management" />{" "}
       <p>When conservative treatment fails, surgical management becomes necessary. Surgeons offer several surgical treatment options based on the damage.</p>{" "}
       <ul>
         <li><strong>Osteotomy:</strong> The surgeon reshapes the bones to shift weight.</li>{" "}

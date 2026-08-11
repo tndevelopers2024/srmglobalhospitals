@@ -23,7 +23,7 @@ const article = {
   description:
     "Histoplasmosis is a fungal lung infection from soil containing bird or bat droppings. Pulmonologists at SRM Global Hospitals explain the forms, symptoms, diagnosis, and antifungal treatment options.",
   path: "/blog/why-expertise-matters-in-managing-histoplasmosis",
-  image: "/images/blog/why-expertise-matters-in-managing-histoplasmosis.jpeg",
+  image: "/images/blog/why-expertise-matters-in-managing-histoplasmosis/hero.jpeg",
   author: "Pulmonology Specialist",
   section: "Pulmonology",
   publishedTime: "2027-02-03",

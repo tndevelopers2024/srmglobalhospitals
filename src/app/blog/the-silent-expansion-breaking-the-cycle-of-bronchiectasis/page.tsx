@@ -23,7 +23,7 @@ const article = {
   description:
     "Bronchiectasis causes permanent widening of the airways, trapping mucus and inviting recurrent infection. Pulmonologists at SRM Global Hospitals explain the four types, causes, symptoms, diagnosis, and treatment.",
   path: "/blog/the-silent-expansion-breaking-the-cycle-of-bronchiectasis",
-  image: "/images/blog/the-silent-expansion-breaking-the-cycle-of-bronchiectasis.jpeg",
+  image: "/images/blog/the-silent-expansion-breaking-the-cycle-of-bronchiectasis/hero.jpeg",
   author: "Pulmonology Specialist",
   section: "Pulmonology",
   publishedTime: "2027-01-13",

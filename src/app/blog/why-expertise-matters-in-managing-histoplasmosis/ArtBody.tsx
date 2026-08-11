@@ -32,7 +32,7 @@ export default function ArtBody() {
       <p>People with weakened immune systems face the highest risk. Groups at risk include solid organ transplant recipients and people with human immunodeficiency virus (HIV). Progressive disseminated histoplasmosis is a defining opportunistic infection for patients with advanced HIV infection. Immunosuppressed patients struggle to fight the acute infection. Patients with advanced HIV may experience severe acute pneumonia along with other complications. The fungus can reach the central nervous system, causing central nervous system histoplasmosis. It primarily affects the brain and can lead to meningitis or focal brain lesions. Cutaneous lesions are more common in this group and can appear in various forms. Despite these risks, the majority of physicians do not recommend screening for histoplasmosis before starting immunosuppressive therapy.</p>{" "}
 
       <h2 id="symptoms" data-toc-title="Symptoms">Symptoms of Histoplasmosis</h2>{" "}
-      <img src="/images/blog/blog-33/why-expertise-matters-in-managing-histoplasmosis-image-2-by-srm.jpeg" alt="Symptoms of Histoplasmosis" />{" "}
+      <img src="/images/blog/why-expertise-matters-in-managing-histoplasmosis/image-2.jpeg" alt="Symptoms of Histoplasmosis" />{" "}
 
       <p>The clinical characteristics of this disease vary. A high clinical suspicion is necessary because symptoms are often nonspecific. However, symptomatic patients report:</p>{" "}
       <ul>
@@ -74,7 +74,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="treatment-management" data-toc-title="Treatment & management">Histoplasmosis Treatment and Management</h2>{" "}
-      <img src="/images/blog/blog-33/why-expertise-matters-in-managing-histoplasmosis-image-3-by-srm.jpeg" alt="Histoplasmosis Treatment and Management" />{" "}
+      <img src="/images/blog/why-expertise-matters-in-managing-histoplasmosis/image-3.jpeg" alt="Histoplasmosis Treatment and Management" />{" "}
 
       <p>The Indian Council of Medical Research and the Infectious Diseases Society of America provide clinical practice guidelines for recovery. The goal of histoplasmosis treatment is to kill the fungus.</p>{" "}
       <ul>

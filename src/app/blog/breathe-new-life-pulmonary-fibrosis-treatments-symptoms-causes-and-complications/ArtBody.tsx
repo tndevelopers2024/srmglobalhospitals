@@ -17,7 +17,7 @@ export default function ArtBody() {
       <p>Healthy lung tissue remains soft and stretchy, allowing air sacs to fill with oxygen easily. However, when people face a condition called pulmonary fibrosis, the lung tissue becomes thick and stiff. The growth of scar tissue, or lung scarring, makes it hard for oxygen to enter the blood flow, which prevents the body from getting the air it needs to function well. Idiopathic pulmonary fibrosis (IPF) occurs in most pulmonary fibrosis patients, where the cause of lung scarring cannot be specified. The number of people with pulmonary fibrosis is rising due to environmental factors like dust and smoke in India. At SRM Global Hospitals, we focus on early diagnosis and a strong treatment plan to help you maintain your quality of life.</p>{" "}
 
       <h2 id="causes-risk-factors" data-toc-title="Causes and risk factors">Causes and Risk Factors of Pulmonary Fibrosis</h2>{" "}
-      <img src="/images/blog/blog-35/pulmonary-fibrosis-treatments-symptoms-causes-and-complications-image-2-by-srm.jpeg" alt="Symptoms of Pulmonary Fibrosis" />{" "}
+      <img src="/images/blog/breathe-new-life-pulmonary-fibrosis-treatments-symptoms-causes-and-complications/image-2.jpeg" alt="Symptoms of Pulmonary Fibrosis" />{" "}
 
       <p>Lungs face danger from various sources, yet doctors often struggle to find one exact reason for the damage. The uncertainty lies highly in idiopathic pulmonary fibrosis, where the cause of lung scarring remains unknown. Understanding the risk factors that pulmonary fibrosis carries helps individuals seek help at SRM Global Hospitals before lung damage becomes severe.</p>{" "}
       <ul>
@@ -51,7 +51,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="diagnosis" data-toc-title="Diagnosis">Diagnosis of Pulmonary Fibrosis</h2>{" "}
-      <img src="/images/blog/blog-35/pulmonary-fibrosis-treatments-symptoms-causes-and-complications-image-3-by-srm.jpeg" alt="Pulmonary Fibrosis Treatment" />{" "}
+      <img src="/images/blog/breathe-new-life-pulmonary-fibrosis-treatments-symptoms-causes-and-complications/image-3.jpeg" alt="Pulmonary Fibrosis Treatment" />{" "}
 
       <p>Consulting a pulmonologist from SRM Global Hospitals leads to an accurate assessment, as pulmonary fibrosis often shares symptoms with other lung disorders, making expert eyes necessary.</p>{" "}
       <ul>

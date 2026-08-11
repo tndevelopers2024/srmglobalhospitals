@@ -23,7 +23,7 @@ const article = {
   description:
     "Knee osteoarthritis affects over 20% of the Indian population. Orthopaedic specialists at SRM Global Hospitals explain the forms, symptoms, diagnosis, and treatment options from lifestyle changes to surgery.",
   path: "/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis",
-  image: "/images/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis.jpeg",
+  image: "/images/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2027-02-10",

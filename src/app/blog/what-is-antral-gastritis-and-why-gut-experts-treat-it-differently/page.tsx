@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "Esophageal Varices: What Happens When Blood Flow Is Blocked",
+  title: "What is Antral Gastritis and Why Gut Experts Treat it Differently",
   description:
-    "Esophageal varices are enlarged veins caused by portal hypertension from liver disease. Gastroenterologists at SRM Global Hospitals explain warning signs, diagnosis, emergency treatment, and prevention.",
-  path: "/blog/esophageal-varices-what-happens-when-blood-flow-is-blocked",
-  image: "/images/blog/esophageal-varices-what-happens-when-blood-flow-is-blocked/hero.jpeg",
+    "Antral gastritis affects the lower, funnel-shaped part of the stomach. Gastroenterologists at SRM Global Hospitals explain why this region is a common target, symptoms, causes, diagnosis, and treatment.",
+  path: "/blog/what-is-antral-gastritis-and-why-gut-experts-treat-it-differently",
+  image: "/images/blog/what-is-antral-gastritis-and-why-gut-experts-treat-it-differently/hero.jpeg",
   author: "Gastro Specialist",
   section: "Gastro",
-  publishedTime: "2027-01-06",
+  publishedTime: "2026-12-16",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function EsophagealVaricesArticle() {
+export default function AntralGastritisArticle() {
   return (
     <>
       <script
@@ -71,9 +71,9 @@ export default function EsophagealVaricesArticle() {
         title={article.title}
         specialistTitle="Gastro Specialist"
         department="Institute of Gastro and Liver Sciences"
-        date="January 06, 2027"
-        readMinutes={14}
-        reads="3,290"
+        date="December 16, 2026"
+        readMinutes={13}
+        reads="3,940"
       />
       <div className="art-wrap">
         <ShareRail />
@@ -84,31 +84,34 @@ export default function EsophagealVaricesArticle() {
           blurb="Our gastroenterology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "why-occur", title: "Why do varices occur" },
-            { id: "symptoms", title: "Symptoms & warning signs" },
-            { id: "diagnosis", title: "Diagnosis" },
-            { id: "treatment", title: "Treatment & emergency care" },
-            { id: "prevention", title: "Liver health & prevention" },
+            { id: "what-is-antral-region", title: "Stomach antral region" },
+            { id: "why-antral-gastritis-common", title: "Why antral gastritis is common" },
+            { id: "complications", title: "Potential complications" },
+            { id: "symptoms", title: "Antral gastritis symptoms" },
+            { id: "causes", title: "Causes of antral gastritis" },
+            { id: "diagnosis", title: "How we diagnose" },
+            { id: "treatment-management", title: "Treatment and management" },
+            { id: "restore-gut-health", title: "Restore gut health" },
             { id: "faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
+              href: "/blog/all-about-esophagitis-types-causes-complications-treatments-and-management",
+              image: "/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/hero.jpeg",
+              title: "All about esophagitis: types, causes, complications & treatment",
+              meta: "15 min · Gastro",
+            },
+            {
               href: "/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates",
-              image: "/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates.jpeg",
-              title: "Hiatal Hernia: A Threat to the Muscle That Separates",
-              meta: "10 min · Gastro",
+              image: "/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates/hero.jpeg",
+              title: "Hiatal hernia: a threat to the muscle that separates",
+              meta: "16 min · Gastro",
             },
             {
-              href: "/blog/understanding-esophageal-ulcer-symptoms-causes-diagnosis-and-treatment",
-              image: "/images/blog/understanding-esophageal-ulcer-symptoms-causes-diagnosis-and-treatment.jpeg",
-              title: "Understanding Esophageal Ulcer: Symptoms, Causes & Treatment",
-              meta: "8 min · Gastro",
-            },
-            {
-              href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-              image: "/images/blog/articles/chest-pain-hero.jpeg",
-              title: "Chest pain at 40: When is it your heart, and when is it not?",
-              meta: "7 min · Gastro",
+              href: "/blog/what-you-must-know-about-gastritis-causes-symptoms-complications-treatment-and-management",
+              image: "/images/blog/what-you-must-know-about-gastritis-causes-symptoms-complications-treatment-and-management/hero.jpeg",
+              title: "What you must know about gastritis",
+              meta: "14 min · Gastro",
             },
           ]}
         />
@@ -118,19 +121,19 @@ export default function EsophagealVaricesArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/articles/chest-pain-hero.jpeg",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
             href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
-            image: "/images/blog/articles/diabetic-foot-hero.jpeg",
+            image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
           },

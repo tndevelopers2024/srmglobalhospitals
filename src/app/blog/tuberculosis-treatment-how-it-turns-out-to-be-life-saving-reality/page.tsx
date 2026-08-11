@@ -23,7 +23,7 @@ const article = {
   description:
     "Tuberculosis is now a highly curable disease with a 90% success rate in India. Pulmonologists at SRM Global Hospitals explain TB types, transmission, symptoms, diagnosis, and modern treatment regimens.",
   path: "/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality",
-  image: "/images/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality.jpeg",
+  image: "/images/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality/hero.jpeg",
   author: "Pulmonology Specialist",
   section: "Pulmonology",
   publishedTime: "2027-01-27",
