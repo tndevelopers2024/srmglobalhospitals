@@ -163,7 +163,7 @@ export default function ArtBody() {
       </table>{" "}
 
       <h2 id="diagnosis" data-toc-title="How we diagnose">How We Diagnose Antral Gastritis</h2>{" "}
-      <img src="/images/blog/what-is-antral-gastritis-and-why-gut-experts-treat-it-differently/image-1.jpeg" alt="" />{" "}
+      <img src="/images/blog/what-is-antral-gastritis-and-why-gut-experts-treat-it-differently/image-2.jpeg" alt="" />{" "}
 
       <p>Diagnosing antral gastritis involves identifying the cause, severity, and potential complications along with an advanced treatment plan of SRM Global Hospital.</p>{" "}
       <ul>
