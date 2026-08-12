@@ -51,7 +51,7 @@ export default function ArtBody() {
       <p>About 5% to 10% of people with latent TB will develop active disease at some point in their lives. Active TB disease occurs when the body is unable to kill or contain the bacteria, allowing them to continue growing. The risk increases with problems regarding immune system weakening, such as HIV infection, blood cancer, diabetes, or malnutrition.</p>{" "}
 
       <h2 id="symptoms-diagnosis" data-toc-title="Symptoms and diagnosis">Symptoms of Tuberculosis</h2>{" "}
-            <img src="/images/blog/blog-34/how-it-turns-out-to-be-life-saving-reality-image-2-by-srm.jpeg" alt="Treatments of Tuberculosis" />{" "}
+            <img src="/images/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality/image-2.jpeg" alt="Treatments of Tuberculosis" />{" "}
 
       <ul>
         <li><strong>Persistent Cough:</strong> A dry or productive cough that lasts for more than three weeks is a primary warning sign. Patients often cough up thick mucus or blood, which indicates damage to the lung tissue.</li>{" "}
@@ -109,7 +109,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="treatment-regimens" data-toc-title="Treatment regimens">Treatments of Tuberculosis</h2>{" "}
-      <img src="/images/blog/blog-34/how-it-turns-out-to-be-life-saving-reality-image-3-by-srm.jpeg" alt="Treatments of Tuberculosis" />{" "}
+      <img src="/images/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality/image-3.jpeg" alt="Treatments of Tuberculosis" />{" "}
 
       <h3>TB Medications</h3>{" "}
       <p>The TB medication involves an effective 4-drug regimen that includes isoniazid, rifampicin, pyrazinamide, and ethambutol, which work together to kill the TB bacteria at different stages of their growth. Taking this mix of medications is vital because using only one drug can lead to drug-resistant TB.</p>{" "}

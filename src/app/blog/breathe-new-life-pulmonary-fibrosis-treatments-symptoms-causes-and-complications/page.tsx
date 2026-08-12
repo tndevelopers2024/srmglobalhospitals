@@ -23,7 +23,7 @@ const article = {
   description:
     "Pulmonary fibrosis causes permanent lung scarring that makes breathing progressively harder. Pulmonologists at SRM Global Hospitals explain causes, symptoms, complications, diagnosis, and treatment options including transplant.",
   path: "/blog/breathe-new-life-pulmonary-fibrosis-treatments-symptoms-causes-and-complications",
-  image: "/images/blog/breathe-new-life-pulmonary-fibrosis-treatments-symptoms-causes-and-complications.jpeg",
+  image: "/images/blog/breathe-new-life-pulmonary-fibrosis-treatments-symptoms-causes-and-complications/hero.jpeg",
   author: "Pulmonology Specialist",
   section: "Pulmonology",
   publishedTime: "2027-01-20",

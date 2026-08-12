@@ -45,7 +45,7 @@ export default function ArtBody() {
       <p>Liver specialists often suspect varices when a patient shows general signs of advanced liver disease, as portal hypertension is the invisible force driving the symptoms of these advanced-stage diseases. The signs include jaundice (yellowing of the eyes and skin) and ascites (fluid buildup in the abdomen). The 2025 clinical research suggests the 6-week mortality rate for acute bleeding in advanced liver disease is between 15% and 20%. Furthermore, patients with poor liver function face a 20% higher risk of death during a severe bleeding event.</p>{" "}
 
       <h2 id="diagnosis" data-toc-title="Diagnosis">How are Esophageal Varices Diagnosed?</h2>{" "}
-      <img src="/images/blog/blog-37/what-happens-when-blood-flow-is-blocked-image-2-by-srm.jpeg" alt="How are Esophageal Varices Diagnosed?" />{" "}
+      <img src="/images/blog/esophageal-varices-what-happens-when-blood-flow-is-blocked/image-2.jpeg" alt="How are Esophageal Varices Diagnosed?" />{" "}
 
       <h3>Minimally Invasive Diagnosis - Endoscopy</h3>{" "}
       <p>Doctors at SRM Global Hospitals use upper endoscopy, a minimally invasive procedure on a flexible tube with a camera to find these affected veins. Regular screening via endoscopy is recommended for at-risk patients. During the exam, doctors check the veins in the oesophagus for size. Esophageal varices diagnosed this way are graded to assess the risk of bleeding. Varices larger than 5 mm or those with &quot;red wale signs&quot; are at the highest risk of rupture.</p>{" "}
@@ -109,7 +109,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="prevention" data-toc-title="Liver health & prevention">Managing and Preventing Liver Diseases: A Proactive Step for Esophageal Varices</h2>{" "}
-      <img src="/images/blog/blog-37/what-happens-when-blood-flow-is-blocked-image-3-by-srm.jpeg" alt="Managing and Preventing Liver Diseases" />{" "}
+      <img src="/images/blog/esophageal-varices-what-happens-when-blood-flow-is-blocked/image-3.jpeg" alt="Managing and Preventing Liver Diseases" />{" "}
 
       <p>Managing and preventing liver disease is a significant part of staying away from esophageal varices. Alcoholic liver disease and fatty liver disease are growing concerns in India and are also called a silent epidemic. Preventing these conditions involves managing the underlying causes and keeping portal pressure low.</p>{" "}
 

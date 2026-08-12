@@ -27,7 +27,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="causes" data-toc-title="Causes">Causes of Bronchiectasis</h2>{" "}
-      <img src="/images/blog/blog-36/breaking-the-cycle-of-bronchiectasis-image-2-by-srm.jpeg" alt="Different Forms of Bronchiectasis" />{" "}
+      <img src="/images/blog/the-silent-expansion-breaking-the-cycle-of-bronchiectasis/image-2.jpeg" alt="Different Forms of Bronchiectasis" />{" "}
 
       <p>Knowing what triggers this lung damage helps the healthcare team at SRM Global Hospitals stop the condition from getting worse.</p>{" "}
 
@@ -61,7 +61,7 @@ export default function ArtBody() {
       <p>Allergic Bronchopulmonary Aspergillosis (ABPA) causes a severe hypersensitivity to a common fungus, leading to thick mucus plugs and traction bronchiectasis (lung tissue scarring pulls the airways), especially in asthma patients. Toxic gases, like ammonia, can also cause immediate damage to lung airways upon exposure.</p>{" "}
 
       <h2 id="symptoms" data-toc-title="Symptoms">Symptoms of Bronchiectasis</h2>{" "}
-      <img src="/images/blog/blog-36/breaking-the-cycle-of-bronchiectasis-image-3-by-srm.jpeg" alt="Symptoms of Bronchiectasis" />{" "}
+      <img src="/images/blog/the-silent-expansion-breaking-the-cycle-of-bronchiectasis/image-3.jpeg" alt="Symptoms of Bronchiectasis" />{" "}
 
       <p>Healthy lungs depend on clear, open airways to move air and clear out dust. When these tubes are damaged, symptoms often take months or years to develop. The main symptoms of bronchiectasis include a daily wet cough and heavy mucus production. Lungs facing severe bronchiectasis often struggle with problems that affect the entire body. Patients experience systemic symptoms like fevers, chills, night sweats, fatigue and weight loss when a chronic infection settles deep in the lung tissue. As the condition gradually worsens over time, you may notice deeper signs with shortness of breath, wheezing and chest pain.</p>{" "}
 
@@ -128,7 +128,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="treatment" data-toc-title="Treatment">Treatment for Bronchiectasis</h2>{" "}
-      <img src="/images/blog/blog-36/breaking-the-cycle-of-bronchiectasis-image-4-by-srm.jpeg" alt="Treatment for Bronchiectasis" />{" "}
+      <img src="/images/blog/the-silent-expansion-breaking-the-cycle-of-bronchiectasis/image-4.jpeg" alt="Treatment for Bronchiectasis" />{" "}
 
       <p>Lungs affected by bronchiectasis cannot usually be cured. The primary aim of treatment at SRM Global Hospitals is to manage symptoms and prevent them from worsening.</p>{" "}
 
