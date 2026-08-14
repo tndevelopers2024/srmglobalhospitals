@@ -23,7 +23,7 @@ const article = {
     description:
         "SRM Global Hospitals in Chennai, Tamil Nadu, is a leading superspeciality hospital dedicated to the well-being of elderly patients. Our specialised geriatric rehabilitation assists older patients in achieving functional independence.",
     path: "/blog/expert-physiotherapy-for-geriatric-rehabilitation",
-    image: "/images/blog/srm-blog23-img1.webp",
+    image: "/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/hero.webp",
     author: "Geriatric Rehabilitation Specialist",
     section: "Orthopaedics",
     publishedTime: "2026-08-04",
@@ -94,13 +94,13 @@ export default function GeriatricPhysiotherapyArticle() {
                     relatedReading={[
                         {
                             href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-                            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+                            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
                             title: "Sciatica Pain Treatment: Understand the Cause and Find the Right Relief",
                             meta: "11 min · Orthopaedics",
                         },
                         {
                             href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-                            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+                            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
                             title: "PRP Injection Knee Therapy: Effective Non-Surgical Way",
                             meta: "5 min · Orthopaedics",
                         },
@@ -112,13 +112,13 @@ export default function GeriatricPhysiotherapyArticle() {
                 items={[
                     {
                         href: "/blog/empowering-independence-advanced-assistive-device-technology",
-                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology.jpeg",
+                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
                         category: "Orthopaedics",
                         title: "Empowering Independence: Advanced Assistive Device Technology",
                     },
                     {
                         href: "/blog/pulmonary-rehabilitation-for-effective-respiratory-health",
-                        image: "/images/blog/srm-blog22-img1.webp",
+                        image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/hero.webp",
                         category: "Pulmonology",
                         title: "Pulmonary Rehabilitation for Effective Respiratory Health",
                     },

@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# Refact.ai local assistant state
+.refact/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

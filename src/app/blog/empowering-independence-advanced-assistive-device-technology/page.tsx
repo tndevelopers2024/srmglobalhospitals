@@ -23,7 +23,7 @@ const article = {
     description:
         "SRM Global Hospitals in Chennai provides clinically guided assistive device technology services, including device selection, fitting, training, and follow-up.",
     path: "/blog/empowering-independence-advanced-assistive-device-technology",
-    image: "/images/blog/empowering-independence-advanced-assistive-device-technology.jpeg",
+    image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
     author: "Orthopaedics Specialist",
     section: "Orthopaedics",
     publishedTime: "2026-03-31",
@@ -96,19 +96,19 @@ export default function AssistiveTechnologyArticle() {
                     relatedReading={[
                         {
                             href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-                            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+                            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
                             title: "Sciatica Pain Treatment: Understand the Cause and Find Relief",
                             meta: "11 min · Orthopaedics",
                         },
                         {
                             href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-                            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+                            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
                             title: "PRP Injection Knee Therapy: Effective Non-Surgical Way",
                             meta: "5 min · Orthopaedics",
                         },
                         {
                             href: "/blog/empower-your-neurological-rehabilitation-journey",
-                            image: "/images/blog/empower-your-neurological-rehabilitation-journey.jpeg",
+                            image: "/images/blog/empower-your-neurological-rehabilitation-journey/hero.webp",
                             title: "Empower Your Neurological Rehabilitation Journey",
                             meta: "8 min · Neurology",
                         },
@@ -120,19 +120,19 @@ export default function AssistiveTechnologyArticle() {
                 items={[
                     {
                         href: "/blog/personalised-orthopedic-rehabilitation-for-faster-recovery",
-                        image: "/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery.jpeg",
+                        image: "/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/hero.webp",
                         category: "Orthopaedics",
                         title: "Personalised Orthopedic Rehabilitation for Faster Recovery",
                     },
                     {
                         href: "/blog/pediatric-rehabilitation-focused-on-your-children",
-                        image: "/images/blog/pediatric-rehabilitation-focused-on-your-children.jpeg",
+                        image: "/images/blog/pediatric-rehabilitation-focused-on-your-children/hero.jpeg",
                         category: "Paediatrics",
                         title: "Pediatric Rehabilitation Focused on Your Children",
                     },
                     {
                         href: "/blog/restoring-hope-through-professional-gait-training",
-                        image: "/images/blog/restoring-hope-through-professional-gait-training.jpeg",
+                        image: "/images/blog/restoring-hope-through-professional-gait-training/hero.jpeg",
                         category: "Neurology",
                         title: "Restoring Hope Through Professional Gait Training",
                     },

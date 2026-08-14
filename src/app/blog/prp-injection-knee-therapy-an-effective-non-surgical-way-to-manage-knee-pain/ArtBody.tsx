@@ -26,7 +26,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="prp-how-works" data-toc-title="How PRP works">How PRP Works in the Knee Joint?</h2>{" "}
-      <img src="/images/blog/articles/pk-how-works.jpeg" alt="" />{" "}
+      <img src="/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/image-2.jpeg" alt="" />{" "}
       <p>When platelet-rich plasma is injected into the knee joint, it activates the body&apos;s natural healing process, which helps to:</p>{" "}
       <ul>
         <li>Decrease inflammation</li>{" "}
@@ -73,7 +73,7 @@ export default function ArtBody() {
       <p>When knee pain persists beyond three months despite medication or rehabilitation, PRP injection knee therapy could serve as an effective treatment option to reduce pain and restore function.</p>{" "}
 
       <h3 id="prp-recovery" data-toc-title="Recovery and sessions needed">What Happens After PRP Injection in the Knee?</h3>{" "}
-      <img src="/images/blog/articles/pk-recovery.jpeg" alt="" />{" "}
+      <img src="/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/image-3.jpeg" alt="" />{" "}
       <p>Most individuals begin noticing improvement in knee pain and mobility between two and six weeks after the injection. Maximum benefit is typically felt between three and six months as the healing process continues. In this phase, patients are generally advised to:</p>{" "}
       <ul>
         <li>Avoid strenuous activity for a short period</li>{" "}

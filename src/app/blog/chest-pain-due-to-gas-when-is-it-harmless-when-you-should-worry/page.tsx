@@ -23,7 +23,7 @@ const article = {
   description:
     "Chest pain due to gas can mimic a heart attack. Cardiologists at SRM Global Hospitals explain how to tell gas pain from cardiac pain, the warning signs that need urgent care, and how to relieve and prevent gas-related chest discomfort.",
   path: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-  image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+  image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2026-05-20",

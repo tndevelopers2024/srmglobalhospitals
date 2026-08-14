@@ -31,7 +31,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="ms-diagnosis" data-toc-title="Diagnosis">Diagnosis of Multiple Sclerosis (MS)</h2>{" "}
-      <img src="/images/blog/articles/ms-diagnosis.jpeg" alt="" />{" "}
+      <img src="/images/blog/multiple-sclerosis-expert-care/image-2.jpeg" alt="" />{" "}
 
       <p>Neurologists perform a comprehensive evaluation combining a physical examination with specialised tests. A detailed medical history serves as the starting point to track the onset of common symptoms through Mc Donald Criteria, followed by advanced neuroimaging and laboratory support services available at SRM Global Hospitals.</p>{" "}
 
@@ -105,7 +105,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="ms-symptom-management" data-toc-title="Symptom management">Symptom Management in Multiple Sclerosis (MS)</h2>{" "}
-      <img src="/images/blog/articles/ms-symptom-management.jpeg" alt="" />{" "}
+      <img src="/images/blog/multiple-sclerosis-expert-care/image-3.jpeg" alt="" />{" "}
       <p>While disease-modifying therapies (DMTs) focus on slowing future disease activity, symptom management focuses on improving daily quality of life.</p>{" "}
 
       <h3>Fatigue Management</h3>{" "}
@@ -135,7 +135,7 @@ export default function ArtBody() {
       <p>Many patients experience worsening of symptoms in hot weather. So, avoiding saunas, hot tubs, and prolonged hot showers and using cooling techniques can help prevent temporary symptom flare-ups.</p>{" "}
 
       <h2 id="ms-physical-therapy" data-toc-title="Physical therapy">Physical Therapy in Multiple Sclerosis (MS)</h2>{" "}
-      <img src="/images/blog/articles/ms-physical-therapy.jpeg" alt="" />{" "}
+      <img src="/images/blog/multiple-sclerosis-expert-care/image-4.jpeg" alt="" />{" "}
       <p>Physical therapy provides structured and supervised training to maintain mobility and independence in people with multiple sclerosis. A physiotherapist or occupational therapist creates an individual plan based on strength, balance, and daily function needs, with exercises such as:</p>{" "}
       <ul>
         <li><strong>Stretching Exercises:</strong> Help reduce muscle stiffness and improve flexibility, especially in patients with spasticity.</li>{" "}

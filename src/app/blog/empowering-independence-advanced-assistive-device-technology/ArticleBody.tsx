@@ -12,7 +12,7 @@ export default function ArtBody() {
             <h2 id="global-needs" data-toc-title="Global Needs for Assistive Technology">
                 Global Needs for Assistive Technology
             </h2>
-            <img src="/images/blog/srm-blog21-img1.webp" alt="Virtual Reality Assistive Technology" />
+<img src="/images/blog/empowering-independence-advanced-assistive-device-technology/image-2.webp" alt="Virtual Reality Assistive Technology" />
             <p>
                 The World Health Organisation (WHO) estimates that 2.5 billion people worldwide currently use assistive Technology, a number expected to rise to 3.5 billion by 2050. Timely access to these products significantly improves quality of life by enhancing independence, enabling daily activities, and improving access to essential services.
             </p>
@@ -30,7 +30,7 @@ export default function ArtBody() {
             <h2 id="mobility-seating" data-toc-title="Mobility, Seating, and Positioning Devices">
                 Mobility, Seating, and Positioning Devices
             </h2>
-            <img src="/images/blog/srm-blog21-img2.webp" alt="Mobility and Rehabilitation Equipment" />
+<img src="/images/blog/empowering-independence-advanced-assistive-device-technology/image-3.webp" alt="Mobility and Rehabilitation Equipment" />
             <p>
                 Specialists perform detailed assessments to select mobility and positioning devices that optimise comfort, posture, pressure management, and movement. These services are essential for wheelchair users, people with mobility limitations, cerebral palsy, spinal cord injury, and other neurological or orthopaedic conditions. Proper seating and postural support prevent pressure injuries, pain, and long-term posture problems while enhancing participation in daily activities.
             </p>
@@ -50,7 +50,7 @@ export default function ArtBody() {
             <h2 id="neurological-high-tech" data-toc-title="Neurological and High-Tech Rehabilitation Technologies">
                 Neurological and High-Tech Rehabilitation Technologies
             </h2>
-            <img src="/images/blog/srm-blog21-img3.webp" alt="High-Tech Neurological Rehabilitation" />
+<img src="/images/blog/empowering-independence-advanced-assistive-device-technology/image-4.webp" alt="High-Tech Neurological Rehabilitation" />
             <p>
                 SRM Global Hospitals employs advanced assistive Technology and high-tech rehabilitation equipment to support recovery after stroke, spinal cord injury, traumatic brain injury, and neuromuscular disorders.
             </p>
@@ -85,7 +85,7 @@ export default function ArtBody() {
             <h2 id="sensory-access" data-toc-title="Sensory Access and Digital Accessibility">
                 Sensory Access and Digital Accessibility
             </h2>
-            <img src="/images/blog/srm-blog21-img4.webp" alt="Digital Accessibility Tools" />
+<img src="/images/blog/empowering-independence-advanced-assistive-device-technology/image-5.webp" alt="Digital Accessibility Tools" />
             <p>
                 To support individuals with visual or hearing impairments, SRM Global Hospitals provides solutions for digital accessibility and sensory access.
             </p>

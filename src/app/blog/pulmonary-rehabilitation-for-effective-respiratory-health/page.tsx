@@ -23,7 +23,7 @@ const article = {
     description:
         "SRM Global Hospitals in Chennai offers comprehensive pulmonary rehabilitation programs for patients with chronic lung conditions.",
     path: "/blog/pulmonary-rehabilitation-for-effective-respiratory-health",
-    image: "/images/blog/srm-blog22-img1.webp",
+    image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/hero.webp",
     author: "Pulmonology Specialist",
     section: "Pulmonology",
     publishedTime: "2026-08-04",
@@ -96,13 +96,13 @@ export default function PulmonaryRehabArticle() {
                     relatedReading={[
                         {
                             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-                            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+                            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
                             title: "Chest Pain Due to Gas: When is It Harmless? When You Should Worry?",
                             meta: "9 min · Cardiology",
                         },
                         {
                             href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-                            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you.jpeg",
+                            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
                             title: "Right Side Chest Pain: What Your Symptoms Could Be Telling You",
                             meta: "10 min · Cardiology",
                         },
@@ -114,7 +114,7 @@ export default function PulmonaryRehabArticle() {
                 items={[
                     {
                         href: "/blog/empowering-independence-advanced-assistive-device-technology",
-                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology.jpeg",
+                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
                         category: "Orthopaedics",
                         title: "Empowering Independence: Advanced Assistive Device Technology",
                     },
