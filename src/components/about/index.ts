@@ -1,0 +1,11 @@
+export { default as AboutHero } from "./AboutHero";
+export { default as AboutStory } from "./AboutStory";
+export { default as AboutRealm } from "./AboutRealm";
+export { default as AboutLeader } from "./AboutLeader";
+export { default as AboutVisionMission } from "./AboutVisionMission";
+export { default as AboutCoreValues } from "./AboutCoreValues";
+export { default as AboutExcellenceStats } from "./AboutExcellenceStats";
+export { default as AboutEmergencyCare } from "./AboutEmergencyCare";
+export { default as AboutIcu } from "./AboutIcu";
+export { default as AboutCentresOfExcellence } from "./AboutCentresOfExcellence";
+export { default as AboutCta } from "./AboutCta";
