@@ -53,6 +53,9 @@ export default function SiteFooter() {
                 <Link href="/#intl">International Patients</Link>
               </li>{" "}
               <li>
+                <Link href="/services">Hospital Services</Link>
+              </li>{" "}
+              <li>
                 <Link href="/#emergency">Emergency</Link>
               </li>{" "}
             </ul>{" "}

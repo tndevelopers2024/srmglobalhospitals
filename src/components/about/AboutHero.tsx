@@ -15,7 +15,7 @@ export default function AboutHero() {
             care in the heart of Kattankulathur, Chennai.
           </p>
           <div className="about-hero-actions">
-            <Link href="/#specialties" className="about-hero-btn-primary">
+            <Link href="/services" className="about-hero-btn-primary">
               Our Services
             </Link>
             <Link href="/#contact" className="about-hero-btn-secondary">
@@ -30,10 +30,9 @@ export default function AboutHero() {
             className="about-hero-img"
           />
           <div className="about-hero-badge">
-            <div className="about-hero-badge-num">30+</div>
+            <div className="about-hero-badge-num">100+</div>
             <div>
-              <div className="about-hero-badge-title">Years of</div>
-              <div className="about-hero-badge-sub">Excellence</div>
+              <div className="about-hero-badge-title">Doctors</div>
             </div>
           </div>
         </div>

@@ -15,8 +15,18 @@ export default function manifest(): MetadataRoute.Manifest {
     lang: siteConfig.lang,
     categories: ["health", "medical"],
     icons: [
-      { src: "/icon", sizes: "512x512", type: "image/png", purpose: "any" },
-      { src: "/apple-icon", sizes: "180x180", type: "image/png" },
+      {
+        src: "/images/favicon/srm-logo-favicon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+        purpose: "any",
+      },
+      {
+        src: "/images/favicon/srm-logo-favicon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+        purpose: "maskable",
+      },
     ],
   };
 }

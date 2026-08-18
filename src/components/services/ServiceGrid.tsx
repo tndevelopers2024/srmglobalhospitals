@@ -1,113 +1,143 @@
-'use client';
-import React, { useState } from 'react';
-
-const servicesData = [
-    {
-        title: "Pharmacy",
-        desc: "In-house pharmacy stocked with all prescribed medications. Fills prescriptions before you leave the hospital — no second trip needed.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-    },
-    {
-        title: "Dialysis Centre",
-        desc: "Dedicated dialysis unit with modern machines and trained nephrology support. Scheduled and emergency dialysis sessions available.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-    },
-    {
-        title: "Nutrition & Dietetics",
-        desc: "Clinical dietitians work with your medical team to build meal plans that support recovery, manage chronic conditions, and improve long-term health.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-    },
-    {
-        title: "Occupational Therapy",
-        desc: "Helps patients regain daily living skills after surgery, injury, or neurological events. Personalised rehabilitation programmes for each patient.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-    },
-    {
-        title: "Speech Therapy",
-        desc: "For patients recovering from stroke, head injury, or surgery affecting speech and swallowing. Assessment and treatment by certified speech-language pathologists.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-    },
-    {
-        title: "Physiotherapy",
-        desc: "Post-surgical rehab, musculoskeletal recovery, and mobility restoration. In-patient and out-patient programmes with dedicated physiotherapy staff.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-    },
-    {
-        title: "Laboratory",
-        desc: "NABL-certified diagnostic laboratory on-site. Blood work, pathology, microbiology, and biochemistry. Results delivered directly to your treating doctor.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3a1 1 0 112 0v4m-3-1-4 14m3-14c1.55 0 2 1.5 2 3s-1.5 3-3 3-3-1.5-3-3 1.5-3 3-3z" />
-    },
-    {
-        title: "Radiology & Imaging",
-        desc: "24/7 radio imaging services including X-ray, CT, MRI, ultrasound, and interventional radiology. On-site reporting for faster diagnosis.",
-        icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
-    }
-];
+import React from "react";
 
 export default function ServiceGrid() {
-    return (
-        <section style={{ padding: '100px 0', background: 'var(--paper)' }}>
-            <div className="container">
-                <div className="section-head">
-                    <div>
-                        <span className="eyebrow eyebrow-brand">Medical Support</span>
-                        <h2 className="display-2" style={{ marginTop: '12px', letterSpacing: '-0.01em' }}>Comprehensive Care Facilities</h2>
-                    </div>
-                </div>
+  return (
+    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 40px 0" }}>
+      <div className="services-cards-grid" style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "20px" }}>
 
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '32px' }}>
-                    {servicesData.map((svc, i) => (
-                        <ServiceCard key={i} svc={svc} />
-                    ))}
-                </div>
+        {/* Pharmacy */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <line x1="3" y1="9" x2="21" y2="9" />
+                <line x1="9" y1="21" x2="9" y2="9" />
+              </svg>
             </div>
-        </section>
-    );
-}
-
-function ServiceCard({ svc }: { svc: { title: string; desc: string; icon: React.ReactNode } }) {
-    const [hovered, setHovered] = useState(false);
-
-    return (
-        <div
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-            style={{
-                padding: '36px',
-                background: hovered ? 'var(--paper)' : 'var(--mist)',
-                borderRadius: '8px',
-                border: '1px solid',
-                borderColor: hovered ? 'var(--purple)' : 'var(--rule)',
-                transition: 'all 300ms var(--ease)',
-                transform: hovered ? 'translateY(-6px)' : 'translateY(0)',
-                boxShadow: hovered ? '0 16px 40px -10px rgba(139, 61, 255, 0.15)' : 'none',
-                display: 'flex',
-                flexDirection: 'column'
-            }}
-        >
-            <div style={{
-                width: '56px',
-                height: '56px',
-                borderRadius: '50%',
-                background: hovered ? 'var(--gradient-flat)' : 'var(--brand-soft)',
-                color: hovered ? 'var(--paper)' : 'var(--purple)',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginBottom: '24px',
-                transition: 'all 300ms var(--ease)'
-            }}>
-                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" style={{ width: '28px', height: '28px' }}>
-                    {svc.icon}
-                </svg>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Pharmacy</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>In-house pharmacy stocked with all prescribed medications. Fills prescriptions before you leave the hospital — no second trip needed.</p>
             </div>
-
-            <h3 className="h3" style={{ marginBottom: '12px', color: hovered ? 'var(--brand-deep)' : 'var(--ink)', transition: 'color 300ms ease' }}>
-                {svc.title}
-            </h3>
-            <p className="body" style={{ margin: 0, opacity: hovered ? 0.9 : 0.8, transition: 'opacity 300ms ease' }}>
-                {svc.desc}
-            </p>
+          </div>
         </div>
-    );
+
+        {/* Dialysis Centre */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Dialysis Centre</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>Dedicated dialysis unit with modern machines and trained nephrology support. Scheduled and emergency dialysis sessions available.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Nutrition & Dietetics */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1" />
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z" />
+                <line x1="6" y1="1" x2="6" y2="4" />
+                <line x1="10" y1="1" x2="10" y2="4" />
+                <line x1="14" y1="1" x2="14" y2="4" />
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Nutrition &amp; Dietetics</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>Clinical dietitians work with your medical team to build meal plans that support recovery, manage chronic conditions, and improve long-term health.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Occupational Therapy */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Occupational Therapy</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>Helps patients regain daily living skills after surgery, injury, or neurological events. Personalised rehabilitation programmes for each patient.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Speech Therapy */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Speech Therapy</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>For patients recovering from stroke, head injury, or surgery affecting speech and swallowing. Assessment and treatment by certified speech-language pathologists.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Physiotherapy */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Physiotherapy</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>Post-surgical rehab, musculoskeletal recovery, and mobility restoration. In-patient and out-patient programmes with dedicated physiotherapy staff.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Laboratory */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                <polyline points="14 2 14 8 20 8" />
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Laboratory</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>NABL-certified diagnostic laboratory on-site. Blood work, pathology, microbiology, and biochemistry. Results delivered directly to your treating doctor.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Radiology */}
+        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+          <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+            <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div>
+              <h3 style={{ fontFamily: "Poppins, sans-serif", fontSize: "18px", fontWeight: 600, color: "#1a1a2e", margin: "0 0 8px" }}>Radiology &amp; Imaging</h3>
+              <p style={{ fontFamily: "Inter,sans-serif", fontSize: "14px", lineHeight: 1.7, color: "#666666", margin: 0 }}>24/7 radio imaging services including X-ray, CT, MRI, ultrasound, and interventional radiology. On-site reporting for faster diagnosis.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
 }

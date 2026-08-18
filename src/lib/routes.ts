@@ -44,6 +44,7 @@ const DEFAULT_SETTING: RouteSetting = {
 const routeSettings: Record<string, RouteSetting> = {
   "/": { priority: 1, changeFrequency: "weekly" },
   "/about": { priority: 0.9, changeFrequency: "monthly" },
+  "/services": { priority: 0.9, changeFrequency: "monthly" },
   "/blog": { priority: 0.8, changeFrequency: "weekly" },
 };
 
