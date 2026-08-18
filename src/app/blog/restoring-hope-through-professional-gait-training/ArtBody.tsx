@@ -18,7 +18,7 @@ export default function ArtBody() {
       <p>Walking helps people stay independent, mobile, and active in daily life. When the way a person walks (gait) changes, it can affect balance, reduce confidence, and make movement difficult. SRM Global Hospitals, a leading superspeciality hospital in Chennai, offers structured gait training through expert physical medicine and rehabilitation services.</p>
       
       <h2 id="gait-cycle" data-toc-title="The gait cycle">The Science of Walking: Gait Cycle and Speed</h2>
-      <img src="/images/blog/restoring-hope-through-professional-gait-training/the-science-of-walking-gait-cycle-and-speed.webp" alt="The Science of Walking: Gait Cycle and Speed" />
+      <img src="/images/blog/restoring-hope-through-professional-gait-training/image-2.webp" alt="The Science of Walking: Gait Cycle and Speed" />
       <p>Walking follows a natural movement pattern called the gait cycle. It starts when one foot touches the ground and ends when the same foot touches the ground again.</p>
       <ul>
         <li><strong>The Stance Phase (Support):</strong> This is when the foot stays firmly on the ground. Its job is to support your full body weight and maintain balance while the rest of your body moves forward.</li>
@@ -27,7 +27,7 @@ export default function ArtBody() {
       <p>If any part of this cycle is interrupted, walking can become slow, unstable, or unsafe, which is where professional gait training becomes essential.</p>
       
       <h2 id="conditions" data-toc-title="Conditions requiring gait training">Gait Training - a Functional Rehabilitation Process</h2>
-      <img src="/images/blog/restoring-hope-through-professional-gait-training/gait-training-a-functional-rehabilitation-process.webp" alt="Gait Training - a Functional Rehabilitation Process" />
+      <img src="/images/blog/restoring-hope-through-professional-gait-training/image-3.webp" alt="Gait Training - a Functional Rehabilitation Process" />
       <p>Gait training is a specialised form of physical therapy designed to improve the ability to walk safely and comfortably. By integrating repeated, guided practice, the muscles, joints, and nerves learn to work together, enhancing the control, confidence, and accuracy of every step.</p>
       <p>Being able to walk safely at home and outdoors restores confidence and freedom of movement. Successful gait training:</p>
       <ul>
@@ -45,7 +45,7 @@ export default function ArtBody() {
       </ul>
       
       <h2 id="assessment" data-toc-title="Clinical assessment">The Clinical Assessment Process</h2>
-      <img src="/images/blog/restoring-hope-through-professional-gait-training/the-clinical-assessment-process.webp" alt="The Clinical Assessment Process" />
+      <img src="/images/blog/restoring-hope-through-professional-gait-training/image-4.webp" alt="The Clinical Assessment Process" />
       <p>Gait training begins with a detailed clinical assessment by physiotherapists who check walking patterns, speed, step length, balance, and the ability to put weight on the legs with simple walking tests. Using rehabilitation medicine guidelines, experts carefully observe:</p>
       <ul>
         <li>Foot placement.</li>

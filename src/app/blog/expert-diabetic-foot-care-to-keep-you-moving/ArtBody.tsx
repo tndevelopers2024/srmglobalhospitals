@@ -18,7 +18,7 @@ export default function ArtBody() {
       <p>SRM Global Hospitals, a leading multispecialty hospital in Chennai, offers specialised services through its Podiatric Care &amp; Diabetic Foot Clinic, dedicated exclusively to the prevention, diagnosis, and management of diabetes-related foot conditions. The clinic delivers structured diabetic foot care by integrating advanced wound management, offloading techniques, vascular interventions, comprehensive foot examinations, and patient education. A multidisciplinary team comprising podiatrists, foot and ankle surgeons, vascular surgeons, endocrinologists, and wound care nurses works collaboratively to ensure limb preservation, maintain functional mobility, and achieve improved patient outcomes.</p>
       
       <h2 id="how-foot-conditions-occur" data-toc-title="How foot conditions occur">How Diabetes-Related Foot Conditions Occur?</h2>
-      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/how-diabetes-related-foot-conditions-occur.webp" alt="How Diabetes-Related Foot Conditions Occur" />
+      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/image-2.webp" alt="How Diabetes-Related Foot Conditions Occur" />
       <p>Diabetes-related foot conditions develop due to multiple interconnected factors:</p>
       <ul>
         <li><strong>Uncontrolled blood sugar and high blood pressure:</strong> Increase damage to blood vessels and nerves, delaying healing.</li>
@@ -32,7 +32,7 @@ export default function ArtBody() {
       </ul>
       
       <h2 id="foot-assessment" data-toc-title="Foot assessment">Comprehensive Foot Assessment</h2>
-      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/comprehensive-foot-assessment.webp" alt="Comprehensive Foot Assessment" />
+      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/image-3.webp" alt="Comprehensive Foot Assessment" />
       <p>The Podiatric Care &amp; Diabetic Foot Clinic at SRM Global Hospitals provides structured evaluations to detect early signs of diabetic foot disease:</p>
       <ul>
         <li>Neurological testing using monofilaments to detect early nerve damage.</li>
@@ -69,7 +69,7 @@ export default function ArtBody() {
       </div>
       
       <h2 id="wound-management" data-toc-title="Wound management">Advanced Wound Management</h2>
-      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/advanced-wound-management.webp" alt="Advanced Wound Management" />
+      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/image-4.webp" alt="Advanced Wound Management" />
       <p>The clinic follows evidence-based protocols for managing diabetic foot ulcers, focusing on infection control, circulation, and tissue repair:</p>
       <ul>
         <li>Advanced wound dressings to maintain a moist healing environment</li>
@@ -80,7 +80,7 @@ export default function ArtBody() {
       <p>Continuous supervision by wound care nurses and podiatric specialists ensures optimal healing and reduces the risk of lower-extremity amputation.</p>
       
       <h2>Technological Advancements in Diabetic Foot Care</h2>
-      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/technological-advancements-in-diabetic-foot-care.webp" alt="Technological Advancements in Diabetic Foot Care" />
+      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/image-5.webp" alt="Technological Advancements in Diabetic Foot Care" />
       <p>The Podiatric Care &amp; Diabetic Foot Clinic integrates modern technology to enhance patient outcomes:</p>
       <ul>
         <li>Online consultation platforms for remote monitoring and follow-up of high-risk patients</li>
@@ -117,7 +117,7 @@ export default function ArtBody() {
       <p>Timely intervention significantly lowers the risk of limb loss and improves recovery.</p>
       
       <h2>Healing and Recovery</h2>
-      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/healing-and-recovery.webp" alt="Healing and Recovery" />
+      <img src="/images/blog/expert-diabetic-foot-care-to-keep-you-moving/image-6.webp" alt="Healing and Recovery" />
       <p>Structured follow-up at the clinic supports sustained recovery:</p>
       <ul>
         <li>Continuous monitoring of wounds for delayed healing or infection</li>

@@ -5,7 +5,7 @@ interface ArtCoverProps {
   title: string;
   specialistTitle: string;
   department: string;
-  date: string;
+  date?: string;
   readMinutes: number;
   reads: string;
 }
@@ -42,8 +42,6 @@ export default function ArtCover({
               <span style={{ opacity: '0.8', fontSize: '11px' }}>{department}</span>{" "}
             </div>{" "}
           </div>{" "}
-          <span style={{ opacity: '0.5' }}>•</span>{" "}
-          <span>{date}</span>{" "}
           <span style={{ opacity: '0.5' }}>•</span>{" "}
           <span>{readMinutes} min read</span>{" "}
           <span style={{ opacity: '0.5' }}>•</span>{" "}

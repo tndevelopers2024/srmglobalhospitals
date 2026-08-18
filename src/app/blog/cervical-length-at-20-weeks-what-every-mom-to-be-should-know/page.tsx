@@ -23,7 +23,7 @@ const article = {
   description:
     "Cervical length screening at 20 weeks helps identify preterm birth risk early. Obstetricians at SRM Global Hospitals explain normal ranges, when evaluation is needed, and management options for a short cervix.",
   path: "/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know",
-  image: "/images/blog/blog-14/what-every-mom-to-be-should-know-image-1-by-srm.jpeg",
+  image: "/images/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know/hero.jpeg",
   author: "Women's Health Specialist",
   section: "Women's Health",
   publishedTime: "2026-08-26",
@@ -95,19 +95,19 @@ export default function CervicalLengthAt20WeeksArticle() {
           relatedReading={[
             {
               href: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-              image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery.jpeg",
+              image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
               title: "Cervical stitch pregnancy: strengthening the mothers for a safer delivery",
               meta: "16 min · Women's Health",
             },
             {
               href: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
-              image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not.jpeg",
+              image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/hero.jpeg",
               title: "White discharge during pregnancy: what's normal and what's not",
               meta: "11 min · Women's Health",
             },
             {
               href: "/blog/cervical-mucus-your-bodys-fertility-guide-explained",
-              image: "/images/blog/cervical-mucus-your-bodys-fertility-guide-explained.jpeg",
+              image: "/images/blog/cervical-mucus-your-bodys-fertility-guide-explained/hero.jpeg",
               title: "Cervical mucus: your body's fertility guide explained",
               meta: "8 min · Women's Health",
             },
@@ -119,19 +119,19 @@ export default function CervicalLengthAt20WeeksArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry.jpeg",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
             href: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-            image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery.jpeg",
+            image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
             category: "Women's Health",
             title: "Cervical stitch pregnancy: strengthening the mothers for a safer delivery",
           },

@@ -59,7 +59,7 @@ export default function ArtBody() {
       <p>When knee pain persists or mechanical symptoms like locking occur, meniscus surgery becomes necessary. Orthopaedic surgeons at SRM Global Hospitals use arthroscopic surgery. This surgical technique involves minor cuts and a tiny camera to see inside the joint capsule.</p>{" "}
 
       <h2>Types of Surgical Procedures</h2>{" "}
-      <img src="/images/blog/articles/mt-surgery.jpeg" alt="" />{" "}
+      <img src="/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain/image-2.jpeg" alt="" />{" "}
       <ul>
         <li><strong>Meniscal repair</strong> sews the torn cartilage back together. Meniscus repair has a high success rate of 85% to 90%. Meniscal tears that occur in the peripheral meniscal rim are more likely to heal after a meniscal repair due to better blood supply. Meniscal repair has a higher success rate when performed alongside anterior cruciate ligament (ACL) reconstruction.</li>{" "}
         <li><strong>Arthroscopic Partial Meniscectomy</strong> removes only the damaged part of the meniscus.</li>{" "}

@@ -113,7 +113,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="sc-diagnosis" data-toc-title="How sciatica is diagnosed">How is Sciatica Diagnosed?</h2>{" "}
-      <img src="/images/blog/articles/sc-diagnosis.jpeg" alt="" />{" "}
+      <img src="/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/image-2.jpeg" alt="" />{" "}
 
       <p>Diagnosing the source of sciatic nerve pain requires a systematic approach to differentiate between simple muscle strain and nerve root compression.</p>{" "}
 
@@ -146,7 +146,7 @@ export default function ArtBody() {
       </blockquote>{" "}
 
       <h2 id="sc-management" data-toc-title="Management and treatment">Management and Treatment of Sciatica</h2>{" "}
-      <img src="/images/blog/articles/sc-management.jpeg" alt="" />{" "}
+      <img src="/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/image-3.jpeg" alt="" />{" "}
 
       <p>Optimising recovery from sciatic nerve pain requires a transition from immediate symptom relief to long-term structural stabilisation. Since the sciatic nerve is the largest in the human body, a structured recovery plan ensures that the underlying cause of irritation is addressed rather than just the pain itself.</p>{" "}
 
@@ -187,7 +187,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="sc-prevention" data-toc-title="Preventing recurrence">How to Prevent Sciatica Recurrence?</h2>{" "}
-      <img src="/images/blog/articles/sc-prevention.jpeg" alt="" />{" "}
+      <img src="/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/image-4.jpeg" alt="" />{" "}
 
       <p>Preventing sciatica is largely about reducing the daily &quot;wear and tear&quot; on your lower back. By making small changes to how you move and sit, you can keep your spinal discs healthy and avoid putting pressure on the sciatic nerve.</p>{" "}
       <ul>

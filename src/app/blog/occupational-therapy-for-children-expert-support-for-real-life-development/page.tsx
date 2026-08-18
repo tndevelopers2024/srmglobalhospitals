@@ -23,7 +23,7 @@ const article = {
   description:
     "Paediatric occupational therapy helps children build fine and gross motor skills, sensory regulation, self-care, and social skills. Specialists at SRM Global Hospitals explain assessment, core therapy areas, and how families and schools can help.",
   path: "/blog/occupational-therapy-for-children-expert-support-for-real-life-development",
-  image: "/images/blog/blog-10/expert-support-for-real-life-development-image-1-by-srm.jpeg",
+  image: "/images/blog/occupational-therapy-for-children-expert-support-for-real-life-development/hero.jpeg",
   author: "Paediatrics Specialist",
   section: "Paediatrics",
   publishedTime: "2026-04-01",
@@ -93,19 +93,19 @@ export default function OccupationalTherapyChildrenArticle() {
           relatedReading={[
             {
               href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
+              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
               title: "Types of cerebral palsy: what it means for your child",
               meta: "13 min · Neurology",
             },
             {
               href: "/blog/speech-therapy-techniques-for-real-life-communication-challenges",
-              image: "/images/blog/speech-therapy-techniques-for-real-life-communication-challenges.jpeg",
+              image: "/images/blog/speech-therapy-techniques-for-real-life-communication-challenges/hero.jpeg",
               title: "Speech-language therapy for autism: connect, express, understand",
               meta: "13 min · Paediatrics",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Speech therapy techniques for real-life communication challenges",
               meta: "12 min · Neurology",
             },
@@ -117,7 +117,7 @@ export default function OccupationalTherapyChildrenArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },

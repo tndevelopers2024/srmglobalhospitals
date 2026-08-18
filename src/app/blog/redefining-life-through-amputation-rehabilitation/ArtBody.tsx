@@ -28,7 +28,7 @@ export default function ArtBody() {
       <p>Early intervention minimises complications and optimises recovery outcomes for major amputation or leg amputation procedures.</p>
       
       <h2>Surgical and Immediate Postoperative Care</h2>
-      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/surgical-and-immediate-postoperative-care.webp" alt="Surgical and Immediate Postoperative Care" />
+      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/image-2.webp" alt="Surgical and Immediate Postoperative Care" />
       <p>Acute post-surgical care emphasises:</p>
       <ul>
         <li>Pain management, including phantom pain control</li>
@@ -40,7 +40,7 @@ export default function ArtBody() {
       <p>Effective surgery pain control improves participation in pre-prosthetic training and long-term functional outcomes.</p>
       
       <h2>Residual Limb Care and Pre-Prosthetic Training</h2>
-      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/residual-limb-care-and-pre-prosthetic-training.webp" alt="Residual Limb Care and Pre-Prosthetic Training" />
+      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/image-3.webp" alt="Residual Limb Care and Pre-Prosthetic Training" />
       <p>Proper preparation of the amputated limb ensures optimal prosthetic fitting:</p>
       <ul>
         <li>Compression and shaping exercises to reduce oedema</li>
@@ -65,7 +65,7 @@ export default function ArtBody() {
       </div>
       
       <h2>Physical Therapy for Strength and Functional Mobility</h2>
-      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/physical-therapy-for-strength-and-functional-mobility.webp" alt="Physical Therapy for Strength and Functional Mobility" />
+      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/image-4.webp" alt="Physical Therapy for Strength and Functional Mobility" />
       <p>Physical therapy is vital for restoring mobility and independence:</p>
       <ul>
         <li>Strengthening the knee joint, hip flexion, hip extension, and overall joint range of motion</li>
@@ -100,7 +100,7 @@ export default function ArtBody() {
       </div>
       
       <h2>Occupational Therapy and Activities of Daily Living</h2>
-      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/occupational-therapy-and-activities-of-daily-living.webp" alt="Occupational Therapy and Activities of Daily Living" />
+      <img src="/images/blog/redefining-life-through-amputation-rehabilitation/image-5.webp" alt="Occupational Therapy and Activities of Daily Living" />
       <p>Occupational therapy restores functional independence:</p>
       <ul>
         <li>Relearning ADLs such as dressing, bathing, and home management</li>

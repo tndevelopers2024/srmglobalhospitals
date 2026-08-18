@@ -23,7 +23,7 @@ const article = {
   description:
     "Meniscus tears explained by SRM Global Hospitals orthopaedic specialists — what causes them, how MRI and the McMurray test diagnose them, the recovery exercises that avoid surgery, and how the surgical options compare.",
   path: "/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain",
-  image: "/images/blog/articles/mt-hero.jpeg",
+  image: "/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-01-14",
@@ -93,19 +93,19 @@ export default function MeniscusTearArticle() {
           relatedReading={[
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/articles/pk-hero.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
             {
               href: "/blog/unlocking-your-movement-a-factual-guide-to-overcoming-frozen-shoulder",
-              image: "/images/blog/articles/fs-hero.jpeg",
+              image: "/images/blog/unlocking-your-movement-a-factual-guide-to-overcoming-frozen-shoulder/hero.jpeg",
               title: "Unlocking your movement: a factual guide to overcoming frozen shoulder",
               meta: "11 min · Orthopaedics",
             },
@@ -117,19 +117,19 @@ export default function MeniscusTearArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/articles/rc-hero.jpeg",
+            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
             category: "Cardiology",
             title: "Right side chest pain: what your symptoms could be telling you",
           },
           {
             href: "/blog/power-your-comeback-through-sports-rehabilitation",
-            image: "/images/blog/articles/sr-hero.jpeg",
+            image: "/images/blog/power-your-comeback-through-sports-rehabilitation/hero.jpeg",
             category: "Orthopaedics",
             title: "Power your comeback through sports rehabilitation",
           },

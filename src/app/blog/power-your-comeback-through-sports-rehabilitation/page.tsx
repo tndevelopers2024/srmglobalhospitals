@@ -23,7 +23,7 @@ const article = {
   description:
     "Sports rehabilitation at SRM Global Hospitals guides athletes through a five-stage recovery process, from pain management to psychological readiness, using advanced tools and a multidisciplinary team.",
   path: "/blog/power-your-comeback-through-sports-rehabilitation",
-  image: "/images/blog/articles/sr-hero.jpeg",
+  image: "/images/blog/power-your-comeback-through-sports-rehabilitation/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-03-30",
@@ -93,19 +93,19 @@ export default function SportsRehabilitationArticle() {
           relatedReading={[
             {
               href: "/blog/power-your-comeback-through-sports-rehabilitation",
-              image: "/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain.jpeg",
+              image: "/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain/hero.jpeg",
               title: "The silent shock absorber: why a meniscus tear is more than just knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/articles/pk-hero.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -117,19 +117,19 @@ export default function SportsRehabilitationArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
             href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/articles/rc-hero.jpeg",
+            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
             category: "Cardiology",
             title: "Right side chest pain: what your symptoms could be telling you",
           },
           {
             href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/articles/cp-hero.jpeg",
+            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
             category: "Neurology",
             title: "Types of cerebral palsy: what it means for your child",
           },

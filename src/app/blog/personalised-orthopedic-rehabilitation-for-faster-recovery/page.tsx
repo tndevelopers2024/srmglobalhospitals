@@ -23,7 +23,7 @@ const article = {
     description:
         "SRM Global Hospitals offers an advanced structured and doctor-supervised approach to orthopedic rehabilitation, ensuring individuals recover from injuries.",
     path: "/blog/personalised-orthopedic-rehabilitation-for-faster-recovery",
-    image: "/images/blog/srm-blog25-img1.webp",
+    image: "/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/hero.webp",
     author: "Orthopaedic Specialist",
     section: "Orthopaedics",
     publishedTime: "2026-03-30",
@@ -94,13 +94,13 @@ export default function OrthopedicRehabArticle() {
                     relatedReading={[
                         {
                             href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-                            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief.jpeg",
+                            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
                             title: "Sciatica Pain Treatment: Understand the Cause and Find the Right Relief",
                             meta: "11 min · Orthopaedics",
                         },
                         {
                             href: "/blog/expert-physiotherapy-for-geriatric-rehabilitation",
-                            image: "/images/blog/srm-blog23-img1.webp",
+                            image: "/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/hero.webp",
                             title: "Expert Physiotherapy for Geriatric Rehabilitation",
                             meta: "6 min · Orthopaedics",
                         },
@@ -112,13 +112,13 @@ export default function OrthopedicRehabArticle() {
                 items={[
                     {
                         href: "/blog/empower-your-neurological-rehabilitation-journey",
-                        image: "/images/blog/srm-blog24-img1.webp",
+                        image: "/images/blog/empower-your-neurological-rehabilitation-journey/hero.webp",
                         category: "Neurology",
                         title: "Empower Your Neurological Rehabilitation Journey",
                     },
                     {
                         href: "/blog/empowering-independence-advanced-assistive-device-technology",
-                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology.jpeg",
+                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
                         category: "Orthopaedics",
                         title: "Empowering Independence: Advanced Assistive Device Technology",
                     },

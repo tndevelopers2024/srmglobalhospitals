@@ -23,7 +23,7 @@ const article = {
   description:
     "Right side chest pain explained by SRM Global Hospitals specialists — the musculoskeletal, lung, digestive and cardiac causes, warning signs that need emergency care, and how it is diagnosed and treated.",
   path: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-  image: "/images/blog/articles/rc-hero.jpeg",
+  image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2026-06-10",
@@ -102,13 +102,13 @@ export default function RightSideChestPainArticle() {
             },
             {
               href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "/images/blog/articles/cp-hero.jpeg",
+              image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
               title: "Types of cerebral palsy: what it means for your child",
               meta: "13 min · Neurology",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/articles/sc-hero.jpeg",
+              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",
               meta: "11 min · Orthopaedics",
             },
@@ -120,7 +120,7 @@ export default function RightSideChestPainArticle() {
         items={[
           {
             href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
+            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
             category: "Neurology",
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
