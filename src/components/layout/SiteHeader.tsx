@@ -4,13 +4,13 @@ export default function SiteHeader() {
       <div className="container">
         <div className="header-nav-inner">
           <nav className="main-nav" role="navigation" aria-label="Main">
-            <a href="#">Home</a>{" "}
-            <a href="#specialties">Our Specialties</a>{" "}
-            <a href="#coe">Clinical Excellence</a>{" "}
-            <a href="#doctors">Doctors</a>{" "}
-            <a href="#intl">International Patients</a>{" "}
-            <a href="#">Services</a>{" "}
-            <a href="#insights">Health Information</a>{" "}
+            <a href="/">Home</a>{" "}
+            <a href="/#specialties">Our Specialties</a>{" "}
+            <a href="/#coe">Clinical Excellence</a>{" "}
+            <a href="/#doctors">Doctors</a>{" "}
+            <a href="/#intl">International Patients</a>{" "}
+            <a href="/services">Services</a>{" "}
+            <a href="/#insights">Health Information</a>{" "}
           </nav>{" "}
           <div className="header-social">
             <a href="#" aria-label="Facebook">
