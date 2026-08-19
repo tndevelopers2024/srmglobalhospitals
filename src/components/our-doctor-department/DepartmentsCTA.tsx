@@ -4,7 +4,7 @@ export default function DepartmentsCTA() {
   return (
     <div style={{ position: "relative", overflow: "hidden" }}>
       <img
-        src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=1400&q=80"
+        src="/images/our-doctor-department/cta-team.jpg"
         alt="Team"
         style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
       />
