@@ -26,7 +26,7 @@ export default function Hero() {
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
               </a>
               <div className="hidden md:block w-px h-8 bg-slate-200 mx-2" />
-              <a href="#doctors" className="w-full md:w-auto flex items-center justify-center px-6 py-3 rounded-full font-semibold text-slate-700 hover:bg-slate-100 transition-colors">
+              <a href="/best-doctor" className="w-full md:w-auto flex items-center justify-center px-6 py-3 rounded-full font-semibold text-slate-700 hover:bg-slate-100 transition-colors">
                 Find a doctor
               </a>
               <div className="hidden md:block w-px h-8 bg-slate-200 mx-2" />

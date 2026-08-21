@@ -1,4 +1,4 @@
-import "@/styles/our-doctor-department.css";
+import "@/styles/best-doctor.css";
 
 import { createMetadata } from "@/lib/seo";
 import { breadcrumbSchema, jsonLdScriptProps } from "@/lib/structured-data";
@@ -8,13 +8,13 @@ import {
   DepartmentsStats,
   DepartmentsGrid,
   DepartmentsCTA,
-} from "@/components/our-doctor-department";
+} from "@/components/best-doctor";
 
 export const metadata = createMetadata({
   title: "Our Departments | SRM Global Hospitals",
   description:
     "Explore our full range of super speciality departments and centres of clinical excellence at SRM Global Hospitals Chennai.",
-  path: "/our-doctor-department",
+  path: "/best-doctor",
 });
 
 export default function OurDoctorDepartmentPage() {
@@ -25,13 +25,13 @@ export default function OurDoctorDepartmentPage() {
         {...jsonLdScriptProps(
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Departments", path: "/our-doctor-department" },
+            { name: "Departments", path: "/best-doctor" },
           ]),
         )}
       />
       <HeaderTop />
       <SiteHeader activeNav="specialties" />
-      <main className="our-doctor-department-page" id="main-content">
+      <main className="best-doctor-page" id="main-content">
         <DepartmentsHero />
         <DepartmentsStats />
         <DepartmentsGrid />
