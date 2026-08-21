@@ -1,4 +1,4 @@
-﻿import { createMetadata } from "@/lib/seo";
+import { createMetadata } from "@/lib/seo";
 import { breadcrumbSchema, jsonLdScriptProps } from "@/lib/structured-data";
 import { HeaderTop, SiteHeader, SiteFooter } from "@/components/layout";
 import Link from "next/link";
@@ -11,15 +11,15 @@ export const metadata = createMetadata({
 });
 
 const DOCTORS = [
-  { initials: "VC", name: "Dr. Varun. C",           role: "Senior Consultant", quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)" },
-  { initials: "K",  name: "Dr. Ksheerabdhi",        role: "Consultant",        quals: "MBBS, MD",      color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)" },
-  { initials: "SR", name: "Dr. Shanmitha R",        role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)" },
-  { initials: "KA", name: "Dr. K.Y. Aravindhan",   role: "Consultant",        quals: "MBBS, MD",      color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)" },
-  { initials: "SK", name: "Dr. Satheesh Kumar. R", role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)" },
-  { initials: "SC", name: "Dr. Saravanan. C. R",   role: "Consultant",        quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)" },
-  { initials: "KK", name: "Dr. Karthik. K",         role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)" },
-  { initials: "TT", name: "Dr. Teena Thomas",       role: "Consultant",        quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)" },
-  { initials: "AS", name: "Dr. Ajay Sankar. G. R", role: "Consultant",        quals: "MBBS, MD, FNB", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)" },
+  { initials: "VC", name: "Dr. Varun. C",           role: "Senior Consultant", quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-varun-c.jpg" },
+  { initials: "K",  name: "Dr. Ksheerabdhi",        role: "Consultant",        quals: "MBBS, MD",      color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ksheerabdhi.jpg" },
+  { initials: "SR", name: "Dr. Shanmitha R",        role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-shanmitha-r.jpg" },
+  { initials: "KA", name: "Dr. K.Y. Aravindhan",   role: "Consultant",        quals: "MBBS, MD",      color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ky-aravindhan.jpg" },
+  { initials: "SK", name: "Dr. Satheesh Kumar. R", role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-satheesh-kumar-r.jpg" },
+  { initials: "SC", name: "Dr. Saravanan. C. R",   role: "Consultant",        quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-saravanan-cr.jpg" },
+  { initials: "KK", name: "Dr. Karthik. K",         role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-karthik-k.jpg" },
+  { initials: "TT", name: "Dr. Teena Thomas",       role: "Consultant",        quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-teena-thomas.jpg" },
+  { initials: "AS", name: "Dr. Ajay Sankar. G. R", role: "Consultant",        quals: "MBBS, MD, FNB", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-ajay-sankar-gr.jpg" },
 ];
 
 export default function AnaesthesiologyPage() {
@@ -105,10 +105,18 @@ export default function AnaesthesiologyPage() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "24px" }}>
               {DOCTORS.map((doc) => (
                 <div key={doc.name} style={{ background: "#faf8ff", borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.05)", transition: "all 0.3s" }}>
-                  <div style={{ height: "280px", background: doc.bg, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden" }}>
-                    <div style={{ width: "100px", height: "100px", background: doc.color, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Poppins, sans-serif", fontSize: "32px", fontWeight: 700, color: "#fff" }}>
-                      {doc.initials}
-                    </div>
+                  <div style={{ height: "280px", background: doc.bg, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", position: "relative" }}>
+                    {doc.image ? (
+                      <img
+                        src={doc.image}
+                        alt={doc.name}
+                        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
+                      />
+                    ) : (
+                      <div style={{ width: "100px", height: "100px", background: doc.color, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: "Poppins, sans-serif", fontSize: "32px", fontWeight: 700, color: "#fff" }}>
+                        {doc.initials}
+                      </div>
+                    )}
                   </div>
                   <div style={{ padding: "24px" }}>
                     <div style={{ fontFamily: "Poppins, sans-serif", fontSize: "10px", fontWeight: 600, color: doc.color, textTransform: "uppercase", letterSpacing: "1.5px", marginBottom: "6px" }}>
