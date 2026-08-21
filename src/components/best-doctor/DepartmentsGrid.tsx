@@ -1,13 +1,16 @@
 import React from "react";
+import Link from "next/link";
 
 interface Department {
   name: string;
   icon: React.ReactNode;
+  href?: string;
 }
 
 const DEPARTMENTS: Department[] = [
   {
     name: "Anaesthesiology",
+    href: "/best-doctor/anaesthesiology",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
@@ -437,14 +440,26 @@ export default function DepartmentsGrid() {
       </div>
 
       <div className="dept-grid">
-        {DEPARTMENTS.map((dept, index) => (
-          <div key={index} className="dept-card">
-            <div className="dept-icon" style={{ background: "#f3ebff" }}>
-              {dept.icon}
+        {DEPARTMENTS.map((dept, index) => {
+          const content = (
+            <>
+              <div className="dept-icon" style={{ background: "#f3ebff" }}>
+                {dept.icon}
+              </div>
+              <div className="dept-name">{dept.name}</div>
+            </>
+          );
+
+          return dept.href ? (
+            <Link key={index} href={dept.href} className="dept-card" style={{ textDecoration: "none" }}>
+              {content}
+            </Link>
+          ) : (
+            <div key={index} className="dept-card">
+              {content}
             </div>
-            <div className="dept-name">{dept.name}</div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
