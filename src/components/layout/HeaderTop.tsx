@@ -17,7 +17,7 @@ export default function HeaderTop() {
   <circle cx="9" cy="7" r="4" />
   <path d="M22 11h-6M19 8v6" />
 </svg> Master Health Checkup </Link>{" "}
-            <Link href="/#doctors" className="header-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+            <Link href="/best-doctor" className="header-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
   <circle cx="11" cy="11" r="7" />
   <path d="m21 21-4.35-4.35" />
 </svg> Find A Doctor </Link>{" "}

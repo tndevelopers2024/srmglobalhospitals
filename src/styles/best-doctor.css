@@ -2,26 +2,26 @@
    SRM GLOBAL HOSPITALS - OUR DEPARTMENTS PAGE STYLES
    ============================================================ */
 
-.our-doctor-department-page {
+.best-doctor-page {
   background: #faf8ff;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
   color: #1a1a2e;
 }
 
-.our-doctor-department-page a,
-.our-doctor-department-page a:hover {
+.best-doctor-page a,
+.best-doctor-page a:hover {
   color: #8b3dff;
 }
 
 /* DEPARTMENTS DIRECTORY GRID */
-.our-doctor-department-page .dept-grid {
+.best-doctor-page .dept-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 20px;
 }
 
-.our-doctor-department-page .dept-card {
+.best-doctor-page .dept-card {
   background: #ffffff;
   border-radius: 14px;
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -36,7 +36,7 @@
   text-decoration: none;
 }
 
-.our-doctor-department-page .dept-icon {
+.best-doctor-page .dept-icon {
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -46,11 +46,11 @@
   transition: all 0.28s ease;
 }
 
-.our-doctor-department-page .dept-icon-svg {
+.best-doctor-page .dept-icon-svg {
   transition: all 0.28s ease;
 }
 
-.our-doctor-department-page .dept-name {
+.best-doctor-page .dept-name {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -60,28 +60,28 @@
 }
 
 /* HOVER EFFECTS */
-.our-doctor-department-page .dept-card:hover {
+.best-doctor-page .dept-card:hover {
   background: #8b3dff;
   border-color: #8b3dff;
   transform: translateY(-4px);
   box-shadow: 0 14px 32px rgba(139, 61, 255, 0.28);
 }
 
-.our-doctor-department-page .dept-card:hover .dept-icon {
+.best-doctor-page .dept-card:hover .dept-icon {
   background: #ffffff;
 }
 
-.our-doctor-department-page .dept-card:hover .dept-icon-svg {
+.best-doctor-page .dept-card:hover .dept-icon-svg {
   stroke: #8b3dff !important;
   fill: #8b3dff;
 }
 
-.our-doctor-department-page .dept-card:hover .dept-name {
+.best-doctor-page .dept-card:hover .dept-name {
   color: #ffffff;
 }
 
 /* STATS SECTION */
-.our-doctor-department-page .stats-grid {
+.best-doctor-page .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
@@ -89,7 +89,7 @@
 }
 
 @media (max-width: 768px) {
-  .our-doctor-department-page .stats-grid {
+  .best-doctor-page .stats-grid {
     grid-template-columns: 1fr;
     gap: 32px;
   }
