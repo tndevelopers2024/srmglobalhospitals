@@ -13,7 +13,7 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
             <Link href="/" className={activeNav === "home" ? "active" : undefined}>Home</Link>{" "}
             <Link href="/#specialties" className={activeNav === "specialties" ? "active" : undefined}>Our Specialties</Link>{" "}
             <Link href="/#coe" className={activeNav === "coe" ? "active" : undefined}>Clinical Excellence</Link>{" "}
-            <Link href="/#doctors" className={activeNav === "doctors" ? "active" : undefined}>Doctors</Link>{" "}
+            <Link href="/best-doctor" className={activeNav === "doctors" ? "active" : undefined}>Doctors</Link>{" "}
             <Link href="/#intl" className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
             <Link href="/services" className={activeNav === "services" ? "active" : undefined}>Services</Link>{" "}
             <Link href="/blog" className={activeNav === "insights" ? "active" : undefined}>Health Information</Link>{" "}

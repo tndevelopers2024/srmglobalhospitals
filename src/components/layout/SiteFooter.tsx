@@ -44,7 +44,7 @@ export default function SiteFooter() {
                 <Link href="/#specialties">Specialties</Link>
               </li>{" "}
               <li>
-                <Link href="/#doctors">Doctors</Link>
+                <Link href="/best-doctor">Doctors</Link>
               </li>{" "}
               <li>
                 <Link href="/#packages">Health Packages</Link>
