@@ -1,8 +1,10 @@
 /* ============================================================
-   SRM GLOBAL HOSPITALS - OUR DEPARTMENTS PAGE STYLES
+   SRM GLOBAL HOSPITALS - BEST DOCTOR & DEPARTMENT STYLES
    ============================================================ */
 
-.best-doctor-page {
+.best-doctor-page,
+.dermatology-page,
+.dept-page {
   background: #faf8ff;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
@@ -10,18 +12,26 @@
 }
 
 .best-doctor-page a,
-.best-doctor-page a:hover {
+.best-doctor-page a:hover,
+.dermatology-page a,
+.dermatology-page a:hover,
+.dept-page a,
+.dept-page a:hover {
   color: #8b3dff;
 }
 
-/* DEPARTMENTS DIRECTORY GRID */
-.best-doctor-page .dept-grid {
+/* ============================================================
+   COMMON DEPARTMENT CARDS ("dept-card")
+   ============================================================ */
+.best-doctor-page .dept-grid,
+.dept-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 20px;
 }
 
-.best-doctor-page .dept-card {
+.best-doctor-page .dept-card,
+.dept-card {
   background: #ffffff;
   border-radius: 14px;
   border: 1px solid rgba(0, 0, 0, 0.06);
@@ -36,7 +46,8 @@
   text-decoration: none;
 }
 
-.best-doctor-page .dept-icon {
+.best-doctor-page .dept-icon,
+.dept-card .dept-icon {
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -46,11 +57,13 @@
   transition: all 0.28s ease;
 }
 
-.best-doctor-page .dept-icon-svg {
+.best-doctor-page .dept-icon-svg,
+.dept-card .dept-icon-svg {
   transition: all 0.28s ease;
 }
 
-.best-doctor-page .dept-name {
+.best-doctor-page .dept-name,
+.dept-card .dept-name {
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 600;
@@ -59,28 +72,34 @@
   transition: color 0.28s ease;
 }
 
-/* HOVER EFFECTS */
-.best-doctor-page .dept-card:hover {
+/* DEPT-CARD HOVER EFFECTS */
+.best-doctor-page .dept-card:hover,
+.dept-card:hover {
   background: #8b3dff;
   border-color: #8b3dff;
   transform: translateY(-4px);
   box-shadow: 0 14px 32px rgba(139, 61, 255, 0.28);
 }
 
-.best-doctor-page .dept-card:hover .dept-icon {
-  background: #ffffff;
+.best-doctor-page .dept-card:hover .dept-icon,
+.dept-card:hover .dept-icon {
+  background: #ffffff !important;
 }
 
-.best-doctor-page .dept-card:hover .dept-icon-svg {
+.best-doctor-page .dept-card:hover .dept-icon-svg,
+.dept-card:hover .dept-icon-svg {
   stroke: #8b3dff !important;
   fill: #8b3dff;
 }
 
-.best-doctor-page .dept-card:hover .dept-name {
+.best-doctor-page .dept-card:hover .dept-name,
+.dept-card:hover .dept-name {
   color: #ffffff;
 }
 
-/* STATS SECTION */
+/* ============================================================
+   MAIN PAGE STATS SECTION
+   ============================================================ */
 .best-doctor-page .stats-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -92,5 +111,89 @@
   .best-doctor-page .stats-grid {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+}
+
+/* ============================================================
+   SPECIALTY DEPARTMENT PAGES - DOCTOR CARDS ("doctor-card")
+   ============================================================ */
+.best-doctor-page .doctor-card,
+.dermatology-page .doctor-card,
+.dept-page .doctor-card {
+  background: #faf8ff !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.3s ease !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.best-doctor-page .doctor-card:hover,
+.dermatology-page .doctor-card:hover,
+.dept-page .doctor-card:hover {
+  box-shadow: 0 8px 32px rgba(139, 61, 255, 0.12) !important;
+  transform: translateY(-2px) !important;
+  border-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+/* ============================================================
+   SPECIALTY DEPARTMENT PAGES - RESPONSIVE LAYOUTS
+   ============================================================ */
+@media (max-width: 992px) {
+  .best-doctor-page .overview-grid,
+  .dermatology-page .overview-grid,
+  .dept-page .overview-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+
+  .best-doctor-page .doctors-grid,
+  .dermatology-page .doctors-grid,
+  .dept-page .doctors-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .best-doctor-page .hero-inner,
+  .dermatology-page .hero-inner,
+  .dept-page .hero-inner,
+  .best-doctor-page .overview-inner,
+  .dermatology-page .overview-inner,
+  .dept-page .overview-inner,
+  .best-doctor-page .doctors-inner,
+  .dermatology-page .doctors-inner,
+  .dept-page .doctors-inner,
+  .best-doctor-page .cta-inner,
+  .dermatology-page .cta-inner,
+  .dept-page .cta-inner {
+    padding: 48px 20px !important;
+  }
+
+  .best-doctor-page .hero-title,
+  .dermatology-page .hero-title,
+  .dept-page .hero-title {
+    font-size: 36px !important;
+  }
+
+  .best-doctor-page .overview-stats-grid,
+  .dermatology-page .overview-stats-grid,
+  .dept-page .overview-stats-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .best-doctor-page .doctors-grid,
+  .dermatology-page .doctors-grid,
+  .dept-page .doctors-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .best-doctor-page .cta-title,
+  .dermatology-page .cta-title,
+  .dept-page .cta-title {
+    font-size: 28px !important;
   }
 }

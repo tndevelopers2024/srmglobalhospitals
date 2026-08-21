@@ -1,8 +1,11 @@
 import React from "react";
+import Link from "next/link";
+import type { Route } from "next";
 
 interface Department {
   name: string;
   icon: React.ReactNode;
+  href?: Route;
 }
 
 const DEPARTMENTS: Department[] = [
@@ -40,6 +43,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Dermatology",
+    href: "/best-doctor/dermatology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="5" />
@@ -49,6 +53,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Diabetology",
+    href: "/best-doctor/diabetology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <line x1="19" y1="5" x2="5" y2="19" />
@@ -59,6 +64,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Emergency Medicine & Critical Care",
+    href: "/best-doctor/emergency-medicine-critical-care",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 3v18M3 12h18" strokeWidth="3" strokeLinecap="round" />
@@ -67,6 +73,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "ENT",
+    href: "/best-doctor/ent",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M11 5 6 9H2v6h4l5 4V5Z" />
@@ -437,14 +444,26 @@ export default function DepartmentsGrid() {
       </div>
 
       <div className="dept-grid">
-        {DEPARTMENTS.map((dept, index) => (
-          <div key={index} className="dept-card">
-            <div className="dept-icon" style={{ background: "#f3ebff" }}>
-              {dept.icon}
+        {DEPARTMENTS.map((dept, index) => {
+          if (dept.href) {
+            return (
+              <Link key={index} href={dept.href} className="dept-card">
+                <div className="dept-icon" style={{ background: "rgb(243, 235, 255)" }}>
+                  {dept.icon}
+                </div>
+                <div className="dept-name">{dept.name}</div>
+              </Link>
+            );
+          }
+          return (
+            <div key={index} className="dept-card">
+              <div className="dept-icon" style={{ background: "rgb(243, 235, 255)" }}>
+                {dept.icon}
+              </div>
+              <div className="dept-name">{dept.name}</div>
             </div>
-            <div className="dept-name">{dept.name}</div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
