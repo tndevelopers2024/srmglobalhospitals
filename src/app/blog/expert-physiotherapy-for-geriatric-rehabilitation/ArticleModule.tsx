@@ -8,7 +8,7 @@ export default function ArticleMain() {
             <h2 id="geriatric-rehab-goals" data-toc-title="The Goal of Geriatric Rehabilitation">
                 The Goal of Geriatric Rehabilitation
             </h2>
-            <img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-2.webp" alt="Doctor conducting a geriatric assessment with an elderly woman" />
+<img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-2.webp" alt="Doctor conducting a geriatric assessment with an elderly woman" />
             <p>
                 Geriatric rehabilitation is a specialised medical discipline that focuses on restoring functional ability and enhancing residual capacity in older adults. It addresses physiological changes associated with normal ageing while managing complex age-related conditions. At SRM Global Hospitals, the recovery approach combines clinical expertise, a multidisciplinary approach, and personalised care:
             </p>
@@ -26,7 +26,7 @@ export default function ArticleMain() {
             <h2 id="managing-chronic-conditions" data-toc-title="Managing Chronic Conditions in Older Adults">
                 Managing Chronic Conditions in Older Adults
             </h2>
-            <img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-3.webp" alt="Doctor reviewing medications and health with an older couple" />
+<img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-3.webp" alt="Doctor reviewing medications and health with an older couple" />
             <p>
                 Geriatric rehabilitation at SRM Global Hospitals addresses a wide range of chronic conditions and disabling impairments. Our multidisciplinary approach ensures that every aspect of health is managed comprehensively:
             </p>
@@ -40,7 +40,7 @@ export default function ArticleMain() {
             <h2 id="role-of-physiotherapy" data-toc-title="The Role of Physiotherapy in Geriatric Rehabilitation">
                 The Role of Physiotherapy in Geriatric Rehabilitation
             </h2>
-            <img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-4.webp" alt="Physiotherapist assisting an elderly patient in a wheelchair with exercises" />
+<img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-4.webp" alt="Physiotherapist assisting an elderly patient in a wheelchair with exercises" />
             <p>
                 Physiotherapy plays a critical role in geriatric care at SRM Global Hospitals. Physical therapy programs are designed for older people to improve strength, flexibility, endurance, and confidence, allowing older adults to regain independence.
             </p>
@@ -81,7 +81,7 @@ export default function ArticleMain() {
             <h2 id="advanced-tools" data-toc-title="Advanced Tools and Services">
                 Advanced Tools and Services
             </h2>
-            <img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-5.webp" alt="Advanced physical therapy with geriatric rehabilitation tools" />
+<img src="/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/image-5.webp" alt="Advanced physical therapy with geriatric rehabilitation tools" />
             <p>
                 SRM Global Hospitals integrates advanced technology with evidence-based care to deliver precise, effective rehabilitation:
             </p>

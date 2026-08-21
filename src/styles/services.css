@@ -1,0 +1,40 @@
+/* ============================================================
+   SRM GLOBAL HOSPITALS - SERVICES PAGE STYLES
+   Sole visual and structural reference: "Services.dc.html"
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+.services-page {
+  background: #ffffff;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a2e;
+}
+
+.services-page a,
+.services-page a:hover {
+  color: #6B4A98;
+}
+
+@media (max-width: 900px) {
+  .services-emergency-grid {
+    grid-template-columns: 1fr !important;
+  }
+  
+  .services-ambulance-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .services-cta-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-cards-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

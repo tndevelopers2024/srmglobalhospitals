@@ -59,6 +59,13 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} | ${siteConfig.tagline}`,
     description: siteConfig.description,
   },
+  icons: {
+    icon: [
+      { url: "/images/favicon/srm-logo-favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/images/favicon/srm-logo-favicon.svg",
+    apple: "/images/favicon/srm-logo-favicon.svg",
+  },
   // Set NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION when claiming Search Console.
   verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
     ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }

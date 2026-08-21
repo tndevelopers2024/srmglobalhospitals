@@ -8,7 +8,7 @@ export default function Doctors() {
             <h2 className="display-2">Care, led by experience.</h2>{" "}
             <p className="body-lg lead">A small selection from a panel of 100+ senior specialists across our seven centres of excellence.</p>{" "}
           </div>{" "}
-          <a href="#" className="link-arrow">Find a doctor<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <a href="/best-doctor" className="link-arrow">Find a doctor<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
         </div>{" "}

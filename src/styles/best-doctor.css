@@ -1,0 +1,96 @@
+/* ============================================================
+   SRM GLOBAL HOSPITALS - OUR DEPARTMENTS PAGE STYLES
+   ============================================================ */
+
+.best-doctor-page {
+  background: #faf8ff;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a2e;
+}
+
+.best-doctor-page a,
+.best-doctor-page a:hover {
+  color: #8b3dff;
+}
+
+/* DEPARTMENTS DIRECTORY GRID */
+.best-doctor-page .dept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px;
+}
+
+.best-doctor-page .dept-card {
+  background: #ffffff;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 26px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  transition: all 0.28s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.best-doctor-page .dept-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.28s ease;
+}
+
+.best-doctor-page .dept-icon-svg {
+  transition: all 0.28s ease;
+}
+
+.best-doctor-page .dept-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+  line-height: 1.4;
+  transition: color 0.28s ease;
+}
+
+/* HOVER EFFECTS */
+.best-doctor-page .dept-card:hover {
+  background: #8b3dff;
+  border-color: #8b3dff;
+  transform: translateY(-4px);
+  box-shadow: 0 14px 32px rgba(139, 61, 255, 0.28);
+}
+
+.best-doctor-page .dept-card:hover .dept-icon {
+  background: #ffffff;
+}
+
+.best-doctor-page .dept-card:hover .dept-icon-svg {
+  stroke: #8b3dff !important;
+  fill: #8b3dff;
+}
+
+.best-doctor-page .dept-card:hover .dept-name {
+  color: #ffffff;
+}
+
+/* STATS SECTION */
+.best-doctor-page .stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .best-doctor-page .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
