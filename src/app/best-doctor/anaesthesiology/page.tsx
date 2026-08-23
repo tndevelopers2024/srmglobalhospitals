@@ -11,15 +11,15 @@ export const metadata = createMetadata({
 });
 
 const DOCTORS = [
-  { initials: "VC", name: "Dr. Varun. C", role: "Senior Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-varun-c.jpg" },
-  { initials: "K", name: "Dr. Ksheerabdhi", role: "Consultant", quals: "MBBS, MD", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ksheerabdhi.jpg" },
-  { initials: "SR", name: "Dr. Shanmitha R", role: "Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-shanmitha-r.jpg" },
-  { initials: "KA", name: "Dr. K.Y. Aravindhan", role: "Consultant", quals: "MBBS, MD", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/Dr.-Aravindhan.jpg" },
-  { initials: "SK", name: "Dr. Satheesh Kumar. R", role: "Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-satheesh-kumar-r.jpg" },
-  { initials: "SC", name: "Dr. Saravanan. C. R", role: "Consultant", quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-saravanan-cr.jpg" },
-  { initials: "KK", name: "Dr. Karthik. K", role: "Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-Karthik-k.jpg" },
-  { initials: "TT", name: "Dr. Teena Thomas", role: "Consultant", quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/Dr.Teena.jpg" },
-  { initials: "AS", name: "Dr. Ajay Sankar. G. R", role: "Consultant", quals: "MBBS, MD, FNB", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/Ajay-Sankar.jpg" },
+  { initials: "VC", name: "Dr. Varun. C", role: "Senior Consultant", quals: "MBBS, MD", exp: "15+ Years", specialties: "Regional & General Anaesthesia, Transplant & Obstetric Care", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-varun-c.jpg", profileUrl: "https://srmglobalhospitals.com/dr-varun-c/" },
+  { initials: "K", name: "Dr. Ksheerabdhi", role: "Consultant", quals: "MBBS, MD", exp: "8+ Years", specialties: "Perioperative Care & Emergency Critical Anaesthesia", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ksheerabdhi.jpg", profileUrl: "https://srmglobalhospitals.com/dr-ksheerabdhi/" },
+  { initials: "SR", name: "Dr. Shanmitha R", role: "Consultant", quals: "MBBS, MD", exp: "7+ Years", specialties: "Acute Pain Services & Nerve Blocks", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-shanmitha-r.jpg", profileUrl: "https://srmglobalhospitals.com/dr-shanmitha-r/" },
+  { initials: "KA", name: "Dr. K.Y. Aravindhan", role: "Consultant", quals: "MBBS, MD", exp: "9+ Years", specialties: "Trauma & Acute Care Anaesthesia", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/Dr.-Aravindhan.jpg", profileUrl: "https://srmglobalhospitals.com/dr-k-y-aravindhan/" },
+  { initials: "SK", name: "Dr. Satheesh Kumar. R", role: "Consultant", quals: "MBBS, MD", exp: "10+ Years", specialties: "Geriatric & Surgical Anaesthesia", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-satheesh-kumar-r.jpg", profileUrl: "https://srmglobalhospitals.com/dr-satheesh-kumar-r/" },
+  { initials: "SC", name: "Dr. Saravanan. C. R", role: "Consultant", quals: "MBBS, MD, DNB", exp: "16+ Years", specialties: "Airway Management & Chronic Pain Management", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-saravanan-cr.jpg", profileUrl: "https://srmglobalhospitals.com/dr-saravanan-c-r/" },
+  { initials: "KK", name: "Dr. Karthik. K", role: "Consultant", quals: "MBBS, MD", exp: "8+ Years", specialties: "Neuro-Anaesthesia & Day-Care Surgery", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-Karthik-k.jpg", profileUrl: "https://srmglobalhospitals.com/dr-karthik-k/" },
+  { initials: "TT", name: "Dr. Teena Thomas", role: "Consultant", quals: "MBBS, MD, DNB", exp: "9+ Years", specialties: "Obstetric & High-Risk Surgical Anaesthesia", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/Dr.Teena.jpg", profileUrl: "https://srmglobalhospitals.com/dr-teena-thomas/" },
+  { initials: "AS", name: "Dr. Ajay Sankar. G. R", role: "Consultant", quals: "MBBS, MD, FNB", exp: "10+ Years", specialties: "Critical Care Medicine & Complex Surgical Care", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/Ajay-Sankar.jpg", profileUrl: "https://srmglobalhospitals.com/dr-ajay-sankar-g-r/" },
 ];
 
 export default function AnaesthesiologyPage() {
@@ -125,16 +125,19 @@ export default function AnaesthesiologyPage() {
                     <h3 style={{ fontFamily: "'Source Serif 4', serif", fontSize: "20px", color: "#14092b", margin: "0 0 6px", fontWeight: 700 }}>
                       {doc.name}
                     </h3>
-                    <div style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "#888", marginBottom: "16px" }}>
-                      {doc.quals}
+                    <div style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "#666", marginBottom: "8px" }}>
+                      {doc.quals} • <span style={{ fontWeight: 600, color: doc.color }}>{doc.exp}</span>
+                    </div>
+                    <div style={{ fontFamily: "Inter, sans-serif", fontSize: "12px", color: "#888", marginBottom: "16px", minHeight: "36px", lineHeight: 1.4 }}>
+                      {doc.specialties}
                     </div>
                     <div style={{ display: "flex", gap: "10px" }}>
                       <a href="tel:+919644496444" style={{ flex: 1, background: "#8b3dff", color: "#fff", padding: "10px", borderRadius: "8px", fontFamily: "Poppins, sans-serif", fontSize: "12px", fontWeight: 600, textAlign: "center", textDecoration: "none" }}>
                         Book Appointment
                       </a>
-                      <div style={{ background: "#f3ebff", color: "#8b3dff", padding: "10px 16px", borderRadius: "8px", fontFamily: "Poppins, sans-serif", fontSize: "12px", fontWeight: 600, textAlign: "center", cursor: "pointer" }}>
+                      <a href={doc.profileUrl} target="_blank" rel="noopener noreferrer" style={{ background: "#f3ebff", color: "#8b3dff", padding: "10px 16px", borderRadius: "8px", fontFamily: "Poppins, sans-serif", fontSize: "12px", fontWeight: 600, textAlign: "center", textDecoration: "none", display: "inline-block" }}>
                         Profile
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
