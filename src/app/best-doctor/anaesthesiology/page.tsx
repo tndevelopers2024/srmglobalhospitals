@@ -11,15 +11,15 @@ export const metadata = createMetadata({
 });
 
 const DOCTORS = [
-  { initials: "VC", name: "Dr. Varun. C",           role: "Senior Consultant", quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-varun-c.jpg" },
-  { initials: "K",  name: "Dr. Ksheerabdhi",        role: "Consultant",        quals: "MBBS, MD",      color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ksheerabdhi.jpg" },
-  { initials: "SR", name: "Dr. Shanmitha R",        role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-shanmitha-r.jpg" },
-  { initials: "KA", name: "Dr. K.Y. Aravindhan",   role: "Consultant",        quals: "MBBS, MD",      color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ky-aravindhan.jpg" },
-  { initials: "SK", name: "Dr. Satheesh Kumar. R", role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-satheesh-kumar-r.jpg" },
-  { initials: "SC", name: "Dr. Saravanan. C. R",   role: "Consultant",        quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-saravanan-cr.jpg" },
-  { initials: "KK", name: "Dr. Karthik. K",         role: "Consultant",        quals: "MBBS, MD",      color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-karthik-k.jpg" },
-  { initials: "TT", name: "Dr. Teena Thomas",       role: "Consultant",        quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-teena-thomas.jpg" },
-  { initials: "AS", name: "Dr. Ajay Sankar. G. R", role: "Consultant",        quals: "MBBS, MD, FNB", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-ajay-sankar-gr.jpg" },
+  { initials: "VC", name: "Dr. Varun. C", role: "Senior Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-varun-c.jpg" },
+  { initials: "K", name: "Dr. Ksheerabdhi", role: "Consultant", quals: "MBBS, MD", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-ksheerabdhi.jpg" },
+  { initials: "SR", name: "Dr. Shanmitha R", role: "Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-shanmitha-r.jpg" },
+  { initials: "KA", name: "Dr. K.Y. Aravindhan", role: "Consultant", quals: "MBBS, MD", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/Dr.-Aravindhan.jpg" },
+  { initials: "SK", name: "Dr. Satheesh Kumar. R", role: "Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-satheesh-kumar-r.jpg" },
+  { initials: "SC", name: "Dr. Saravanan. C. R", role: "Consultant", quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/dr-saravanan-cr.jpg" },
+  { initials: "KK", name: "Dr. Karthik. K", role: "Consultant", quals: "MBBS, MD", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/dr-Karthik-k.jpg" },
+  { initials: "TT", name: "Dr. Teena Thomas", role: "Consultant", quals: "MBBS, MD, DNB", color: "#1fb6e0", bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)", image: "/images/best-doctor/Anaesthesiology/Dr.Teena.jpg" },
+  { initials: "AS", name: "Dr. Ajay Sankar. G. R", role: "Consultant", quals: "MBBS, MD, FNB", color: "#8b3dff", bg: "linear-gradient(135deg, #f3ebff, #e4cffe)", image: "/images/best-doctor/Anaesthesiology/Ajay-Sankar.jpg" },
 ];
 
 export default function AnaesthesiologyPage() {
@@ -76,10 +76,10 @@ export default function AnaesthesiologyPage() {
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
               {[
-                { value: "9",    label: "Specialists",           color: "#8b3dff" },
-                { value: "24/7", label: "Availability",          color: "#1fb6e0" },
-                { value: "All",  label: "Surgical Disciplines",  color: "#8b3dff" },
-                { value: "ICU",  label: "Critical Care Support", color: "#1fb6e0" },
+                { value: "9", label: "Specialists", color: "#8b3dff" },
+                { value: "24/7", label: "Availability", color: "#1fb6e0" },
+                { value: "All", label: "Surgical Disciplines", color: "#8b3dff" },
+                { value: "ICU", label: "Critical Care Support", color: "#1fb6e0" },
               ].map((stat) => (
                 <div key={stat.label} style={{ background: "#fff", borderRadius: "14px", padding: "24px 20px", border: "1px solid rgba(0,0,0,0.05)", textAlign: "center" }}>
                   <div style={{ fontFamily: "Poppins, sans-serif", fontSize: "28px", fontWeight: 700, color: stat.color }}>{stat.value}</div>
