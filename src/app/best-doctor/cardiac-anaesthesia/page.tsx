@@ -18,6 +18,7 @@ const DOCTORS = [
     quals: "MBBS, MD, DM",
     color: "#8b3dff",
     bg: "linear-gradient(135deg, #f3ebff, #e4cffe)",
+    image: "/images/best-doctor/caradiac-anaesthesia/Dr-Srinath.jpg",
   },
   {
     initials: "SV",
@@ -26,6 +27,7 @@ const DOCTORS = [
     quals: "MBBS, MBA, MD, PDCC",
     color: "#1fb6e0",
     bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)",
+    image: "/images/best-doctor/caradiac-anaesthesia/Dr.-Swamynathan.jpg",
   },
   {
     initials: "MS",
@@ -34,6 +36,7 @@ const DOCTORS = [
     quals: "MBBS, MD (Anaesthesiology), FIPM",
     color: "#8b3dff",
     bg: "linear-gradient(135deg, #f3ebff, #e4cffe)",
+    image: "/images/best-doctor/caradiac-anaesthesia/Dr.-Mercy-Anaesthesia.jpg",
   },
 ];
 
@@ -259,23 +262,31 @@ export default function CardiacAnaesthesiaPage() {
                       position: "relative",
                     }}
                   >
-                    <div
-                      style={{
-                        width: "100px",
-                        height: "100px",
-                        background: doc.color,
-                        borderRadius: "50%",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontFamily: "Poppins, sans-serif",
-                        fontSize: "32px",
-                        fontWeight: 700,
-                        color: "#fff",
-                      }}
-                    >
-                      {doc.initials}
-                    </div>
+                    {doc.image ? (
+                      <img
+                        src={doc.image}
+                        alt={doc.name}
+                        style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
+                      />
+                    ) : (
+                      <div
+                        style={{
+                          width: "100px",
+                          height: "100px",
+                          background: doc.color,
+                          borderRadius: "50%",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                          fontFamily: "Poppins, sans-serif",
+                          fontSize: "32px",
+                          fontWeight: 700,
+                          color: "#fff",
+                        }}
+                      >
+                        {doc.initials}
+                      </div>
+                    )}
                   </div>
                   <div style={{ padding: "24px" }}>
                     <div
