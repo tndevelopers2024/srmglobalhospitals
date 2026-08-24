@@ -18,7 +18,7 @@ const DOCTORS = [
     quals: "MBBS, MD, DM",
     color: "#8b3dff",
     bg: "linear-gradient(135deg, #f3ebff, #e4cffe)",
-    image: "/images/best-doctor/caradiac-anaesthesia/Dr-Srinath.jpg",
+    image: "/images/departments/cardiac-anaesthesia/Dr-Srinath.jpg",
   },
   {
     initials: "SV",
@@ -27,7 +27,7 @@ const DOCTORS = [
     quals: "MBBS, MBA, MD, PDCC",
     color: "#1fb6e0",
     bg: "linear-gradient(135deg, #e7f8fc, #c9edf8)",
-    image: "/images/best-doctor/caradiac-anaesthesia/Dr.-Swamynathan.jpg",
+    image: "/images/departments/cardiac-anaesthesia/Dr.-Swamynathan.jpg",
   },
   {
     initials: "MS",
@@ -36,7 +36,7 @@ const DOCTORS = [
     quals: "MBBS, MD (Anaesthesiology), FIPM",
     color: "#8b3dff",
     bg: "linear-gradient(135deg, #f3ebff, #e4cffe)",
-    image: "/images/best-doctor/caradiac-anaesthesia/Dr.-Mercy-Anaesthesia.jpg",
+    image: "/images/departments/cardiac-anaesthesia/Dr.-Mercy-Anaesthesia.jpg",
   },
 ];
 
