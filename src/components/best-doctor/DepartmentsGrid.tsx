@@ -179,6 +179,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Nephrology",
+    href: "/best-doctor/nephrology",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path fillRule="evenodd" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm3 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z" />
@@ -187,6 +188,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Neurology",
+    href: "/best-doctor/neurology",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-1 5.83V15a3 3 0 0 0 3 3h1v2h6v-2h1a3 3 0 0 0 3-3v-2.17A3 3 0 0 0 18 7a3 3 0 0 0-3-3 3 3 0 0 0-3 1 3 3 0 0 0-3-1Z" />
@@ -195,6 +197,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "NeuroSurgery",
+    href: "/best-doctor/neurosurgery",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-1 5.83V15a3 3 0 0 0 3 3h1v2h6v-2h1a3 3 0 0 0 3-3v-2.17A3 3 0 0 0 18 7a3 3 0 0 0-3-3 3 3 0 0 0-3 1 3 3 0 0 0-3-1Z" />
@@ -203,6 +206,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Obstetrics & Gynecology",
+    href: "/best-doctor/obstetrics-gynecology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 4v6" />
@@ -215,6 +219,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Ophthalmology",
+    href: "/best-doctor/ophthalmology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
@@ -224,6 +229,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Orthopaedics",
+    href: "/best-doctor/orthopaedics",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <g transform="rotate(45 12 12)">
@@ -238,6 +244,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Paediatric Critical Care",
+    href: "/best-doctor/paediatric-critical-care",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
@@ -246,6 +253,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Paediatric Endocrinology",
+    href: "/best-doctor/paediatric-endocrinology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="9" />
@@ -255,6 +263,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Paediatric Surgery",
+    href: "/best-doctor/paediatric-surgery",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="6" cy="6" r="3" />
@@ -267,6 +276,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Paediatrics",
+    href: "/best-doctor/paediatrics",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="9" r="5" />
