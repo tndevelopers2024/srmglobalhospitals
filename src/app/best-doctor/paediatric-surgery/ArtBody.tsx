@@ -300,7 +300,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Paediatric Surgery/image-1.png"
+                  src="/images/departments/paediatric-surgery/image-1.png"
                   alt="Dr. Saravana Balaji. M"
                   width={280}
                   height={280}
@@ -414,7 +414,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Paediatric Surgery/image-2.png"
+                  src="/images/departments/paediatric-surgery/image-2.png"
                   alt="Dr. Prathiba N"
                   width={280}
                   height={280}
@@ -528,7 +528,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Paediatric Surgery/image-3.png"
+                  src="/images/departments/paediatric-surgery/image-3.png"
                   alt="Dr. K. Mohan Kumar"
                   width={280}
                   height={280}

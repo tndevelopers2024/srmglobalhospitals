@@ -300,7 +300,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-1.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-1.png"
                   alt="Dr. R.K. Vidhyalakshmi"
                   width={280}
                   height={280}
@@ -414,7 +414,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-2.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-2.png"
                   alt="Dr. P. Mathumathi"
                   width={280}
                   height={280}
@@ -528,7 +528,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-3.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-3.png"
                   alt="Dr. Harini Sivamani"
                   width={280}
                   height={280}
@@ -642,7 +642,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-4.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-4.png"
                   alt="Dr. Prithiv Raj. O G"
                   width={280}
                   height={280}
@@ -756,7 +756,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-5.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-5.png"
                   alt="Dr. Sahana. N"
                   width={280}
                   height={280}
@@ -870,7 +870,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-6.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-6.png"
                   alt="Dr. Karthiga Prabhu J"
                   width={280}
                   height={280}
@@ -984,7 +984,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-7.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-7.png"
                   alt="Dr. C. Shanmuga Priya"
                   width={280}
                   height={280}
@@ -1098,12 +1098,12 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-8.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-8.png"
                   alt="Dr. Anuradha. M"
                   width={280}
                   height={280}
                   style={{
-                    width: "85%",
+                    width: "75%",
                     height: "100%",
                     objectFit: "fill",
                     objectPosition: "top center",
@@ -1212,12 +1212,12 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-9.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-9.png"
                   alt="Dr. Sajeetha Kumari. R"
                   width={280}
                   height={280}
                   style={{
-                    width: "85%",
+                    width: "75%",
                     height: "100%",
                     objectFit: "fill",
                     objectPosition: "top center",
@@ -1326,7 +1326,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-10.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-10.png"
                   alt="Dr. M. Swarnalatha"
                   width={280}
                   height={280}
@@ -1440,7 +1440,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-11.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-11.png"
                   alt="Dr. Maitrayee Sen"
                   width={280}
                   height={280}
@@ -1554,7 +1554,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-12.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-12.png"
                   alt="Dr. Vinodhini. S"
                   width={280}
                   height={280}
@@ -1668,7 +1668,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-13.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-13.png"
                   alt="Dr. Uma Maheswari. R"
                   width={280}
                   height={280}
@@ -1782,7 +1782,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-14.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-14.png"
                   alt="Dr. S.M. Shakthimani"
                   width={280}
                   height={280}
@@ -1896,7 +1896,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Obstetrics & Gynecology/image-15.png"
+                  src="/images/departments/obstetrics-and-gynecology/image-15.png"
                   alt="Dr. Hamsathvani. I"
                   width={280}
                   height={280}

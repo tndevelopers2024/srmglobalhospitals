@@ -302,7 +302,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Nephrology/image-1.png"
+                  src="/images/departments/nephrology/image-1.png"
                   alt="Dr. Mathew Gerry George"
                   width={280}
                   height={280}
@@ -416,7 +416,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Nephrology/image-2.png"
+                  src="/images/departments/nephrology/image-2.png"
                   alt="Dr. Jayaprakash. V"
                   width={280}
                   height={280}

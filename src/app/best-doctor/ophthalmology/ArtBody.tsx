@@ -300,7 +300,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-1.png"
+                  src="/images/departments/ophthalmology/image-1.png"
                   alt="Dr. Venkatesan. C"
                   width={280}
                   height={280}
@@ -414,7 +414,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-2.png"
+                  src="/images/departments/ophthalmology/image-2.png"
                   alt="Dr. Lily Daniel"
                   width={280}
                   height={280}
@@ -528,7 +528,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-3.png"
+                  src="/images/departments/ophthalmology/image-3.png"
                   alt="Dr. Vijaya Shankari"
                   width={280}
                   height={280}
@@ -642,7 +642,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-4.png"
+                  src="/images/departments/ophthalmology/image-4.png"
                   alt="Dr. Arvind Babu. C"
                   width={280}
                   height={280}
@@ -756,7 +756,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-5.png"
+                  src="/images/departments/ophthalmology/image-5.png"
                   alt="Dr. Pamdi Jayashree"
                   width={280}
                   height={280}
@@ -870,7 +870,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-6.png"
+                  src="/images/departments/ophthalmology/image-6.png"
                   alt="Dr. Naveena"
                   width={280}
                   height={280}
@@ -984,7 +984,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-7.png"
+                  src="/images/departments/ophthalmology/image-7.png"
                   alt="Dr. Aishwarya Thanasekaran. T"
                   width={280}
                   height={280}
@@ -1098,7 +1098,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Ophthalmology/image-8.png"
+                  src="/images/departments/ophthalmology/image-8.png"
                   alt="Dr. Kalpana. R"
                   width={280}
                   height={280}

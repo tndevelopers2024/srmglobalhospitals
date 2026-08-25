@@ -302,7 +302,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Paediatric Critical Care/image-1.png"
+                  src="/images/departments/paediatric-critical-care/image-1.png"
                   alt="Dr. P. Priyatharshini"
                   width={280}
                   height={280}
