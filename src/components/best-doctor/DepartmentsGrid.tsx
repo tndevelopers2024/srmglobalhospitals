@@ -11,6 +11,7 @@ interface Department {
 const DEPARTMENTS: Department[] = [
   {
     name: "Anaesthesiology",
+    href: "/best-doctor/anaesthesiology",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" />
@@ -19,6 +20,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Arthroscopy & Sports Medicine",
+    href: "/best-doctor/arthroscopy-sports-medicine",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z" />
@@ -27,6 +29,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Cardiac Anaesthesia",
+    href: "/best-doctor/cardiac-anaesthesia",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
@@ -35,6 +38,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Dental",
+    href: "/best-doctor/dental",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path d="M12 3c-1.7 0-3.1.6-4.1 1.5C6.9 5.4 6 6.9 6 9c0 2 .6 3.4.9 5 .3 1.6.6 3.5 1.4 5.2.3.6.9 1.1 1.5 1.1.9 0 1-1.4 1.2-2.6.2-1 .4-2.2 1-2.2s.8 1.2 1 2.2c.2 1.2.3 2.6 1.2 2.6.6 0 1.2-.5 1.5-1.1.8-1.7 1.1-3.6 1.4-5.2.3-1.6.9-3 .9-5 0-2.1-.9-3.6-1.9-4.5C15.1 3.6 13.7 3 12 3Z" />
@@ -465,22 +469,22 @@ export default function DepartmentsGrid() {
 
       <div className="dept-grid">
         {DEPARTMENTS.map((dept, index) => {
-          if (dept.href) {
-            return (
-              <Link key={index} href={dept.href} className="dept-card">
-                <div className="dept-icon" style={{ background: "rgb(243, 235, 255)" }}>
-                  {dept.icon}
-                </div>
-                <div className="dept-name">{dept.name}</div>
-              </Link>
-            );
-          }
-          return (
-            <div key={index} className="dept-card">
-              <div className="dept-icon" style={{ background: "rgb(243, 235, 255)" }}>
+          const content = (
+            <>
+              <div className="dept-icon" style={{ background: "#f3ebff" }}>
                 {dept.icon}
               </div>
               <div className="dept-name">{dept.name}</div>
+            </>
+          );
+
+          return dept.href ? (
+            <Link key={index} href={dept.href} className="dept-card" style={{ textDecoration: "none" }}>
+              {content}
+            </Link>
+          ) : (
+            <div key={index} className="dept-card">
+              {content}
             </div>
           );
         })}
