@@ -28,7 +28,7 @@ export default function ArtBody() {
               Our Specialties
             </Link>
             <span style={{ opacity: 0.4 }}>›</span>
-            <span style={{ color: "rgba(255, 255, 255, 0.85)" }}>Arthroscopy &amp; Sports Medicine</span>
+            <span style={{ color: "rgba(255, 255, 255, 0.85)" }}>Anaesthesiology &amp; Cardiac Anaesthesia</span>
           </div>
           <h1
             className="hero-title"
@@ -41,7 +41,7 @@ export default function ArtBody() {
               fontWeight: 700,
             }}
           >
-            Arthroscopy &amp; Sports Medicine
+            Anaesthesiology &amp; Cardiac Anaesthesia
           </h1>
           <p
             style={{
@@ -53,7 +53,7 @@ export default function ArtBody() {
               maxWidth: "560px",
             }}
           >
-            Minimally invasive arthroscopic care for sports injuries and joint disorders, helping athletes and active patients return safely to movement.
+            Specialised perioperative anaesthesia and critical care for cardiac and cardiothoracic surgery, delivered in close coordination with the Institute of Cardiac Sciences.
           </p>
         </div>
       </div>
@@ -94,7 +94,7 @@ export default function ArtBody() {
                 margin: "0 0 14px",
               }}
             >
-              The Department of Arthroscopy &amp; Sports Medicine at SRM Global Hospitals specialises in the diagnosis and minimally invasive surgical treatment of sports-related injuries and joint disorders, managing conditions affecting the shoulder, knee, and other major joints using advanced arthroscopic techniques.
+              The Cardiac Anaesthesia unit, within the Department of Anaesthesiology at SRM Global Hospitals, provides specialised perioperative anaesthesia care for patients undergoing cardiac and cardiothoracic surgery. The team works in close coordination with the Institute of Cardiac Sciences on every case, from pre-operative risk assessment through post-operative recovery.
             </p>
             <p
               style={{
@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              With expertise spanning cartilage reconstruction, ligament reconstruction, and shoulder and knee arthroscopy, the team combines surgical precision with structured rehabilitation planning to help athletes and active patients return to their sport and daily activities safely.
+              With focused expertise in managing high-risk cardiac patients, the team provides advanced haemodynamic monitoring, transoesophageal echocardiography-guided anaesthesia, and dedicated post-operative pain and critical care support, ensuring safe outcomes for even the most complex cardiac procedures.
             </p>
           </div>
           <div
@@ -129,7 +129,7 @@ export default function ArtBody() {
                   color: "#8b3dff",
                 }}
               >
-                2
+                3
               </div>
               <div
                 style={{
@@ -159,7 +159,7 @@ export default function ArtBody() {
                   color: "#1fb6e0",
                 }}
               >
-                Minimally
+                24/7
               </div>
               <div
                 style={{
@@ -169,7 +169,7 @@ export default function ArtBody() {
                   marginTop: "4px",
                 }}
               >
-                Invasive Arthroscopy
+                Availability
               </div>
             </div>
             <div
@@ -189,7 +189,7 @@ export default function ArtBody() {
                   color: "#8b3dff",
                 }}
               >
-                Sports
+                Cardiac
               </div>
               <div
                 style={{
@@ -199,7 +199,7 @@ export default function ArtBody() {
                   marginTop: "4px",
                 }}
               >
-                Injury Focus
+                Surgery Focus
               </div>
             </div>
             <div
@@ -219,7 +219,7 @@ export default function ArtBody() {
                   color: "#1fb6e0",
                 }}
               >
-                Joint
+                ICU
               </div>
               <div
                 style={{
@@ -229,7 +229,7 @@ export default function ArtBody() {
                   marginTop: "4px",
                 }}
               >
-                Preservation Care
+                Critical Care Support
               </div>
             </div>
           </div>
@@ -258,10 +258,10 @@ export default function ArtBody() {
                 fontWeight: 700,
               }}
             >
-              Our Arthroscopy &amp; Sports Medicine Team
+              Our Anaesthesiology &amp; Cardiac Anaesthesia Team
             </h2>
             <p style={{ fontFamily: "Inter, sans-serif", fontSize: "15px", color: "#888", margin: 0 }}>
-              2 specialists in arthroscopic surgery and sports injury care.
+              3 specialists dedicated to cardiac and cardiothoracic surgical care.
             </p>
           </div>
 
@@ -269,13 +269,11 @@ export default function ArtBody() {
             className="doctors-grid"
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(2, 1fr)",
+              gridTemplateColumns: "repeat(3, 1fr)",
               gap: "24px",
-              maxWidth: "760px",
-              margin: "0 auto",
             }}
           >
-            {/* Dr. Saseendar Shanmugasundaram (Male) */}
+            {/* Dr. Srinath. D (Male) */}
             <div
               className="doctor-card"
               style={{
@@ -302,12 +300,12 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/arthroscopy-and-sports-medicine/image-1.png"
-                  alt="Dr. Saseendar Shanmugasundaram"
+                  src="/images/departments/anaesthesiology-cardiac anaesthesia/image-1.png"
+                  alt="Dr. Srinath. D"
                   width={280}
                   height={280}
                   style={{
-                    width: "75%",
+                    width: "85%",
                     height: "100%",
                     objectFit: "fill",
                     objectPosition: "top center",
@@ -326,7 +324,7 @@ export default function ArtBody() {
                     marginBottom: "6px",
                   }}
                 >
-                  Senior Consultant - Arthroscopy &amp; Sports Medicine
+                  Senior Consultant - Cardiac Anaesthesia
                 </div>
                 <h3
                   style={{
@@ -337,7 +335,7 @@ export default function ArtBody() {
                     fontWeight: 700,
                   }}
                 >
-                  Dr. Saseendar Shanmugasundaram
+                  Dr. Srinath. D
                 </h3>
                 <div
                   style={{
@@ -348,7 +346,7 @@ export default function ArtBody() {
                     lineHeight: 1.5,
                   }}
                 >
-                  MBBS, MS (Ortho), DNB (Ortho), Fellow – Arthroscopy &amp; Sports Surgery (Singapore)
+                  MBBS, MD, DM
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
                   <a
@@ -389,7 +387,121 @@ export default function ArtBody() {
               </div>
             </div>
 
-            {/* Dr. Samundeeswari S (Female) */}
+            {/* Dr. R. Swaminathan Veerasamy (Male) */}
+            <div
+              className="doctor-card"
+              style={{
+                background: "#faf8ff",
+                borderRadius: "16px",
+                overflow: "hidden",
+                border: "1px solid rgba(0,0,0,0.05)",
+                transition: "all 0.3s",
+                padding: 0,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div
+                style={{
+                  height: "280px",
+                  background: "linear-gradient(135deg, rgb(231, 248, 252), rgb(201, 237, 248))",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  overflow: "hidden",
+                  width: "100%",
+                  position: "relative",
+                }}
+              >
+                <Image
+                  src="/images/departments/anaesthesiology-cardiac anaesthesia/image-2.png"
+                  alt="Dr. R. Swaminathan Veerasamy"
+                  width={280}
+                  height={280}
+                  style={{
+                    width: "75%",
+                    height: "100%",
+                    objectFit: "fill",
+                    objectPosition: "top center",
+                  }}
+                />
+              </div>
+              <div style={{ padding: "24px", display: "flex", flexDirection: "column", flex: 1 }}>
+                <div
+                  style={{
+                    fontFamily: "Poppins, sans-serif",
+                    fontSize: "10px",
+                    fontWeight: 600,
+                    color: "#1fb6e0",
+                    textTransform: "uppercase",
+                    letterSpacing: "1.5px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  Consultant - Cardiac Anaesthesia
+                </div>
+                <h3
+                  style={{
+                    fontFamily: "'Source Serif 4', serif",
+                    fontSize: "20px",
+                    color: "#14092b",
+                    margin: "0 0 6px",
+                    fontWeight: 700,
+                  }}
+                >
+                  Dr. R. Swaminathan Veerasamy
+                </h3>
+                <div
+                  style={{
+                    fontFamily: "Inter, sans-serif",
+                    fontSize: "13px",
+                    color: "#888",
+                    marginBottom: "16px",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  MBBS, MBA, MD, PDCC
+                </div>
+                <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
+                  <a
+                    href="tel:+919644496444"
+                    style={{
+                      flex: 1,
+                      background: "#8b3dff",
+                      color: "#fff",
+                      padding: "10px",
+                      borderRadius: "8px",
+                      fontFamily: "Poppins, sans-serif",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      textAlign: "center",
+                      cursor: "pointer",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                  >
+                    Book Appointment
+                  </a>
+                  <div
+                    style={{
+                      background: "#e7f8fc",
+                      color: "#1fb6e0",
+                      padding: "10px 16px",
+                      borderRadius: "8px",
+                      fontFamily: "Poppins, sans-serif",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      textAlign: "center",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Profile
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Dr. Mercy Saghana. S (Female) */}
             <div
               className="doctor-card"
               style={{
@@ -416,12 +528,12 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/arthroscopy-and-sports-medicine/image-2.png"
-                  alt="Dr. Samundeeswari S"
+                  src="/images/departments/anaesthesiology-cardiac anaesthesia/image-3.png"
+                  alt="Dr. Mercy Saghana. S"
                   width={280}
                   height={280}
                   style={{
-                    width: "85%",
+                    width: "75%",
                     height: "100%",
                     objectFit: "fill",
                     objectPosition: "top center",
@@ -440,7 +552,7 @@ export default function ArtBody() {
                     marginBottom: "6px",
                   }}
                 >
-                  Consultant - Arthroscopy &amp; Sports Medicine
+                  Consultant - Cardiac Anaesthesia
                 </div>
                 <h3
                   style={{
@@ -451,7 +563,7 @@ export default function ArtBody() {
                     fontWeight: 700,
                   }}
                 >
-                  Dr. Samundeeswari S
+                  Dr. Mercy Saghana. S
                 </h3>
                 <div
                   style={{
@@ -462,7 +574,7 @@ export default function ArtBody() {
                     lineHeight: 1.5,
                   }}
                 >
-                  MBBS, MS (Ortho), MBA (HHSM), Fellowship in Shoulder &amp; Knee Arthroscopy
+                  MBBS, MD (Anaesthesiology), FIPM
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
                   <a

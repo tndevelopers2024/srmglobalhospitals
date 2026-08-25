@@ -53,8 +53,7 @@ export default function ArtBody() {
               maxWidth: "560px",
             }}
           >
-            Comprehensive dental care and oral &amp; maxillofacial surgical treatment for patients of all ages,
-            from routine dental health to complex jaw and facial conditions.
+            Comprehensive dental care and oral &amp; maxillofacial surgical treatment for patients of all ages, from routine dental health to complex jaw and facial conditions.
           </p>
         </div>
       </div>
@@ -95,9 +94,7 @@ export default function ArtBody() {
                 margin: "0 0 14px",
               }}
             >
-              The Department of Dental Care at SRM Global Hospitals provides comprehensive dental care and oral &amp;
-              maxillofacial surgical treatment for children and adults, covering routine oral health as well as
-              more complex conditions affecting the teeth, gums, jaw, and facial structures.
+              The Department of Dental Care at SRM Global Hospitals provides comprehensive dental care and oral &amp; maxillofacial surgical treatment for children and adults, covering routine oral health as well as more complex conditions affecting the teeth, gums, jaw, and facial structures.
             </p>
             <p
               style={{
@@ -108,10 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              Beyond general dentistry, the team manages oral &amp; maxillofacial surgical needs such as tooth
-              extractions and other minor oral surgical procedures, working closely with other specialities
-              whenever a patient&apos;s dental condition is linked to their broader medical care, with every treatment
-              plan tailored for comfort and lasting outcomes.
+              Beyond general dentistry, the team manages oral &amp; maxillofacial surgical needs such as tooth extractions and other minor oral surgical procedures, working closely with other specialities whenever a patient&apos;s dental condition is linked to their broader medical care, with every treatment plan tailored for comfort and lasting outcomes.
             </p>
           </div>
           <div
@@ -165,7 +159,7 @@ export default function ArtBody() {
                   color: "#1fb6e0",
                 }}
               >
-                General &amp;
+                General
               </div>
               <div
                 style={{
@@ -175,7 +169,7 @@ export default function ArtBody() {
                   marginTop: "4px",
                 }}
               >
-                Cosmetic Dentistry
+                &amp; Cosmetic Dentistry
               </div>
             </div>
             <div
@@ -195,7 +189,7 @@ export default function ArtBody() {
                   color: "#8b3dff",
                 }}
               >
-                Oral &amp;
+                Oral
               </div>
               <div
                 style={{
@@ -205,7 +199,7 @@ export default function ArtBody() {
                   marginTop: "4px",
                 }}
               >
-                Maxillofacial Surgery
+                &amp; Maxillofacial Surgery
               </div>
             </div>
             <div
@@ -225,7 +219,7 @@ export default function ArtBody() {
                   color: "#1fb6e0",
                 }}
               >
-                Restorative &amp;
+                Restorative
               </div>
               <div
                 style={{
@@ -235,7 +229,7 @@ export default function ArtBody() {
                   marginTop: "4px",
                 }}
               >
-                Preventive Care
+                &amp; Preventive Care
               </div>
             </div>
           </div>
@@ -281,7 +275,7 @@ export default function ArtBody() {
               margin: "0 auto",
             }}
           >
-            {/* Dr. S. Siva Shankar */}
+            {/* Dr. S. Siva Shankar (Male) */}
             <div
               className="doctor-card"
               style={{
@@ -298,7 +292,7 @@ export default function ArtBody() {
               <div
                 style={{
                   height: "280px",
-                  background: "linear-gradient(135deg, #f3ebff, #e4cffe)",
+                  background: "linear-gradient(135deg, rgb(231, 248, 252), rgb(201, 237, 248))",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
@@ -308,14 +302,14 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/dental/Dr.-Siva-Shankar.jpg"
+                  src="/images/departments/dental/image-1.png"
                   alt="Dr. S. Siva Shankar"
                   width={280}
                   height={280}
                   style={{
-                    width: "100%",
+                    width: "75%",
                     height: "100%",
-                    objectFit: "cover",
+                    objectFit: "fill",
                     objectPosition: "top center",
                   }}
                 />
@@ -326,7 +320,7 @@ export default function ArtBody() {
                     fontFamily: "Poppins, sans-serif",
                     fontSize: "10px",
                     fontWeight: 600,
-                    color: "#8b3dff",
+                    color: "#1fb6e0",
                     textTransform: "uppercase",
                     letterSpacing: "1.5px",
                     marginBottom: "6px",
@@ -378,8 +372,8 @@ export default function ArtBody() {
                   </a>
                   <div
                     style={{
-                      background: "#f3ebff",
-                      color: "#8b3dff",
+                      background: "#e7f8fc",
+                      color: "#1fb6e0",
                       padding: "10px 16px",
                       borderRadius: "8px",
                       fontFamily: "Poppins, sans-serif",

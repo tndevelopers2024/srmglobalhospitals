@@ -6,13 +6,13 @@ import { HeaderTop, SiteHeader, SiteFooter } from "@/components/layout";
 import ArtBody from "./ArtBody";
 
 export const metadata = createMetadata({
-  title: "Dental | SRM Global Hospitals",
+  title: "Anaesthesiology & Cardiac Anaesthesia | SRM Global Hospitals",
   description:
-    "Comprehensive dental care and oral &amp; maxillofacial surgical treatment for patients of all ages, from routine dental health to complex jaw and facial conditions.",
-  path: "/best-doctor/dental",
+    "Specialised perioperative anaesthesia and critical care for cardiac and cardiothoracic surgery, delivered in close coordination with the Institute of Cardiac Sciences.",
+  path: "/best-doctor/anaesthesiology-cardiac-anaesthesia",
 });
 
-export default function DentalDepartmentPage() {
+export default function AnaesthesiologyCardiacAnaesthesiaDepartmentPage() {
   return (
     <>
       <script
@@ -21,7 +21,7 @@ export default function DentalDepartmentPage() {
           breadcrumbSchema([
             { name: "Home", path: "/" },
             { name: "Our Specialties", path: "/#specialties" },
-            { name: "Dental", path: "/best-doctor/dental" },
+            { name: "Anaesthesiology & Cardiac Anaesthesia", path: "/best-doctor/anaesthesiology-cardiac-anaesthesia" },
           ]),
         )}
       />
