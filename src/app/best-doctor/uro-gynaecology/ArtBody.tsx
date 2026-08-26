@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              The team manages conditions such as urinary incontinence, pelvic organ prolapse, and bladder dysfunction using a blend of medical, non-surgical, and minimally invasive surgical approaches tailored to each patient's needs.
+              The team manages conditions such as urinary incontinence, pelvic organ prolapse, and bladder dysfunction using a blend of medical, non-surgical, and minimally invasive surgical approaches tailored to each patient&apos;s needs.
             </p>
           </div>
           <div

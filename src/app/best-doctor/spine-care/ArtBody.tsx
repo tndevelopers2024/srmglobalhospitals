@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              The team offers a spectrum of care ranging from conservative, non-surgical pain management to minimally invasive and complex spine surgery, with treatment plans tailored to each patient's condition and functional goals.
+              The team offers a spectrum of care ranging from conservative, non-surgical pain management to minimally invasive and complex spine surgery, with treatment plans tailored to each patient&apos;s condition and functional goals.
             </p>
           </div>
           <div

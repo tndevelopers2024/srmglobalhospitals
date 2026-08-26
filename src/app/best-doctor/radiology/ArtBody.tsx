@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              Working closely with clinical teams throughout the hospital, the department's radiologists play a central role in disease detection, treatment planning, and monitoring, combining clinical expertise with modern imaging technology to deliver precise diagnostic insights.
+              Working closely with clinical teams throughout the hospital, the department&apos;s radiologists play a central role in disease detection, treatment planning, and monitoring, combining clinical expertise with modern imaging technology to deliver precise diagnostic insights.
             </p>
           </div>
           <div

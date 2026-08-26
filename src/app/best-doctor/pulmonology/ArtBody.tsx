@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              The team's expertise extends to sleep-related breathing disorders, pulmonary function assessment, and bronchoscopic procedures, with care plans built around each patient's respiratory health and long-term lung function.
+              The team&apos;s expertise extends to sleep-related breathing disorders, pulmonary function assessment, and bronchoscopic procedures, with care plans built around each patient&apos;s respiratory health and long-term lung function.
             </p>
           </div>
           <div

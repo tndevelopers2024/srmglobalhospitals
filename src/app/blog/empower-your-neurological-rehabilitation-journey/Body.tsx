@@ -64,7 +64,7 @@ export default function ArticleContent() {
             </ul>
 
             <h2 id="expertise" data-toc-title="Expertise of the Centre">
-                Expertise of SRM Global Hospital's Neuro-Rehabilitation Centre
+                Expertise of SRM Global Hospital&apos;s Neuro-Rehabilitation Centre
             </h2>
             <img src="/images/blog/empower-your-neurological-rehabilitation-journey/image-4.webp" alt="Multidisciplinary neurology team discussing brain scans" />
             <p>

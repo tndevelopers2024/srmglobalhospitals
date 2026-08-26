@@ -94,7 +94,7 @@ export default function ArtBody() {
                 margin: "0 0 14px",
               }}
             >
-              The Department of Surgical Oncology at SRM Global Hospitals focuses on the surgical removal of cancerous tumours and accurate staging of the disease, using both minimally invasive and complex open surgical techniques tailored to each patient's cancer type and stage.
+              The Department of Surgical Oncology at SRM Global Hospitals focuses on the surgical removal of cancerous tumours and accurate staging of the disease, using both minimally invasive and complex open surgical techniques tailored to each patient&apos;s cancer type and stage.
             </p>
             <p
               style={{

@@ -790,7 +790,7 @@ export default function ArtBody() {
               lineHeight: 1.6,
             }}
           >
-            Book an appointment or call us directly. We'll connect you with the right doctor for your concern.
+            Book an appointment or call us directly. We&apos;ll connect you with the right doctor for your concern.
           </p>
           <div style={{ display: "inline-flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
             <a

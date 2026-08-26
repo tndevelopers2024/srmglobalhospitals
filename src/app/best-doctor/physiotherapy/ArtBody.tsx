@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              Care plans are tailored to each patient's condition and goals, spanning post-operative rehabilitation, sports and musculoskeletal injuries, and management of pain and mobility limitations, with an emphasis on gradual, guided recovery.
+              Care plans are tailored to each patient&apos;s condition and goals, spanning post-operative rehabilitation, sports and musculoskeletal injuries, and management of pain and mobility limitations, with an emphasis on gradual, guided recovery.
             </p>
           </div>
           <div

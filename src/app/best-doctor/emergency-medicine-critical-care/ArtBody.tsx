@@ -97,7 +97,7 @@ export default function ArtBody() {
             >
               The Department of Emergency Medicine &amp; Critical Care Unit at SRM Global Hospitals provides
               round-the-clock emergency response and critical care for patients arriving with acute,
-              life-threatening, or time-sensitive conditions. The team is the hospital's first point of contact
+              life-threatening, or time-sensitive conditions. The team is the hospital&apos;s first point of contact
               for every emergency case, stabilising and triaging patients before coordinating with the relevant
               specialty teams.
             </p>
@@ -1474,7 +1474,7 @@ export default function ArtBody() {
               lineHeight: 1.6,
             }}
           >
-            Book an appointment or call us directly. We'll connect you with the right doctor for your concern.
+            Book an appointment or call us directly. We&apos;ll connect you with the right doctor for your concern.
           </p>
           <div style={{ display: "inline-flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
             <a

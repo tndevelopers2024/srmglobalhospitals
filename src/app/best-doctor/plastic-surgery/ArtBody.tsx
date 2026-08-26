@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              The team's approach combines reconstructive techniques, including microsurgery and flap reconstruction, with aesthetic surgery, helping patients restore both function and appearance with individualised surgical planning.
+              The team&apos;s approach combines reconstructive techniques, including microsurgery and flap reconstruction, with aesthetic surgery, helping patients restore both function and appearance with individualised surgical planning.
             </p>
           </div>
           <div

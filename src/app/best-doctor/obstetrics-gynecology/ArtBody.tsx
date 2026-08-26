@@ -53,7 +53,7 @@ export default function ArtBody() {
               maxWidth: "560px",
             }}
           >
-            Complete maternity care through pregnancy, labour and childbirth, together with gynaecological care for women's reproductive health at every life stage.
+            Complete maternity care through pregnancy, labour and childbirth, together with gynaecological care for women&apos;s reproductive health at every life stage.
           </p>
         </div>
       </div>
@@ -219,7 +219,7 @@ export default function ArtBody() {
                   color: "#1fb6e0",
                 }}
               >
-                Women's
+                Women&apos;s
               </div>
               <div
                 style={{

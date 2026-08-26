@@ -105,7 +105,7 @@ export default function ArtBody() {
                 margin: 0,
               }}
             >
-              Care spans reproductive endocrinology and assisted reproductive techniques such as IUI and IVF, with treatment plans personalised to each couple's fertility journey.
+              Care spans reproductive endocrinology and assisted reproductive techniques such as IUI and IVF, with treatment plans personalised to each couple&apos;s fertility journey.
             </p>
           </div>
           <div
