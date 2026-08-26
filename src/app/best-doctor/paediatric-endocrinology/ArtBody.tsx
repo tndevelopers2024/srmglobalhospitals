@@ -302,7 +302,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Paediatric Endocronology/image-1.png"
+                  src="/images/departments/paediatric-endocronology/image-1.png"
                   alt="Dr. Subash. S"
                   width={280}
                   height={280}

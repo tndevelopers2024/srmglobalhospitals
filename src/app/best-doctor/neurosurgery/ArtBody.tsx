@@ -300,7 +300,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/NeuroSurgery/image-1.png"
+                  src="/images/departments/neurosurgery/image-1.png"
                   alt="Dr. Ilankumaran"
                   width={280}
                   height={280}
@@ -414,7 +414,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/NeuroSurgery/image-2.png"
+                  src="/images/departments/neurosurgery/image-2.png"
                   alt="Dr. T.P. Jeya Selva Senthilkumar"
                   width={280}
                   height={280}
@@ -528,7 +528,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/NeuroSurgery/image-3.png"
+                  src="/images/departments/neurosurgery/image-3.png"
                   alt="Dr. Mohamed Naleer H"
                   width={280}
                   height={280}

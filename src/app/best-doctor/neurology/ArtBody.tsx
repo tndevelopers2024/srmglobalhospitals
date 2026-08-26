@@ -300,7 +300,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Neurology/image-1.png"
+                  src="/images/departments/neurology/image-1.png"
                   alt="Dr. Elanthiraiyan. G.C"
                   width={280}
                   height={280}
@@ -414,7 +414,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Neurology/image-2.png"
+                  src="/images/departments/neurology/image-2.png"
                   alt="Dr. R. Kalpana"
                   width={280}
                   height={280}
@@ -528,7 +528,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/Neurology/image-3.png"
+                  src="/images/departments/neurology/image-3.png"
                   alt="Dr. S. Robert Wilson"
                   width={280}
                   height={280}

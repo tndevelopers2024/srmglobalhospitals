@@ -5,7 +5,7 @@ import type { Route } from "next";
 interface Department {
   name: string;
   icon: React.ReactNode;
-  href?: Route;
+  href?: string;
 }
 
 const DEPARTMENTS: Department[] = [
@@ -28,7 +28,7 @@ const DEPARTMENTS: Department[] = [
     ),
   },
   {
-    name: "Anaesthesiology & Cardiac Anaesthesia",
+    name: "Cardiac Anaesthesia",
     href: "/best-doctor/anaesthesiology-cardiac-anaesthesia",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -301,6 +301,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Physical Medicine and Rehabilitation",
+    href: "/best-doctor/physical-medicine-and-rehabilitation",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="23 4 23 10 17 10" />
@@ -311,6 +312,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Physiotherapy",
+    href: "/best-doctor/physiotherapy",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <polyline points="23 4 23 10 17 10" />
@@ -321,6 +323,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Plastic Surgery",
+    href: "/best-doctor/plastic-surgery",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8Z" />
@@ -329,6 +332,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Pulmonology",
+    href: "/best-doctor/pulmonology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 3v7" />
@@ -339,6 +343,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Radiology",
+    href: "/best-doctor/radiology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10" />
@@ -351,6 +356,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Reproductive Medicine",
+    href: "/best-doctor/reproductive-medicine",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 4v6" />
@@ -363,6 +369,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Rheumatology",
+    href: "/best-doctor/rheumatology",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <g transform="rotate(45 12 12)">
@@ -377,6 +384,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Spine Care",
+    href: "/best-doctor/spine-care",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <g transform="rotate(45 12 12)">
@@ -391,6 +399,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Surgical Gastroenterology",
+    href: "/best-doctor/surgical-gastroenterology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="6" cy="6" r="3" />
@@ -403,6 +412,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Surgical Oncology",
+    href: "/best-doctor/surgical-oncology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="9" />
@@ -413,6 +423,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Trauma & Acute Care Surgery",
+    href: "/best-doctor/trauma-and-acute-care-surgery",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0Z" />
@@ -423,6 +434,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Urology",
+    href: "/best-doctor/urology",
     icon: (
       <svg className="dept-icon-svg" width="24" height="24" viewBox="0 0 24 24" fill="#8b3dff">
         <path fillRule="evenodd" d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm3 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z" />
@@ -431,6 +443,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Uro-Gynaecology",
+    href: "/best-doctor/uro-gynaecology",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 4v6" />
@@ -443,6 +456,7 @@ const DEPARTMENTS: Department[] = [
   },
   {
     name: "Vascular Surgery",
+    href: "/best-doctor/vascular-surgery",
     icon: (
       <svg className="dept-icon-svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b3dff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2v6" />
@@ -469,9 +483,19 @@ export default function DepartmentsGrid() {
 
       <div className="dept-grid">
         {DEPARTMENTS.map((dept, index) => {
-          const content = (
-            <>
-              <div className="dept-icon" style={{ background: "#f3ebff" }}>
+          if (dept.href) {
+            return (
+              <Link key={index} href={dept.href as Route} className="dept-card">
+                <div className="dept-icon" style={{ background: "rgb(243, 235, 255)" }}>
+                  {dept.icon}
+                </div>
+                <div className="dept-name">{dept.name}</div>
+              </Link>
+            );
+          }
+          return (
+            <div key={index} className="dept-card">
+              <div className="dept-icon" style={{ background: "rgb(243, 235, 255)" }}>
                 {dept.icon}
               </div>
               <div className="dept-name">{dept.name}</div>
