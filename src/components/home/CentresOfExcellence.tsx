@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CentresOfExcellence() {
   return (
     <section id="coe" className="reveal">
@@ -7,12 +9,15 @@ export default function CentresOfExcellence() {
             <span className="eyebrow">Centres of Excellence</span>{" "}
             <h2 className="display-2">Seven centres of excellence. One campus.</h2>{" "}
           </div>{" "}
-          <a href="#" className="link-arrow"> View all centres of excellence <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-  <path d="M5 12h14M13 5l7 7-7 7" />
-</svg></a>{" "}
+          <Link href="/centres-of-excellence" className="link-arrow">
+            View all centres of excellence{" "}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M5 12h14M13 5l7 7-7 7" />
+            </svg>
+          </Link>{" "}
         </div>{" "}
         <div className="coe-grid-compact">
-          <a href="#" className="coe-compact" data-dept="cardiac">
+          <Link href="/best-doctor/institute-of-cardiac-sciences" className="coe-compact" data-dept="cardiac">
             <div className="coe-compact-icon cardiac-icon">
               <svg viewBox="0 0 60 50" className="coe-anim cardiac-anim">
                 <path className="cardiac-line" d="M0,25 L12,25 L16,10 L20,38 L24,5 L28,35 L32,25 L48,25 L52,18 L56,32 L60,25" fill="none" stroke="var(--purple)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -24,8 +29,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="gastro">
+          </Link>{" "}
+          <Link href="/centres-of-excellence/gastro-and-liver-sciences" className="coe-compact" data-dept="gastro">
             <div className="coe-compact-icon gastro-icon">
               <svg viewBox="0 0 60 50" className="coe-anim gastro-anim">
                 <circle className="gastro-bubble" cx="20" cy="25" r="4" fill="none" stroke="var(--cyan)" strokeWidth="1.5" />
@@ -39,8 +44,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="womens">
+          </Link>{" "}
+          <Link href="/centres-of-excellence/womens-health" className="coe-compact" data-dept="womens">
             <div className="coe-compact-icon womens-icon">
               <svg viewBox="0 0 60 50" className="coe-anim womens-anim">
                 <circle className="womens-ring" cx="30" cy="25" r="12" fill="none" stroke="var(--purple)" strokeWidth="1.5" />
@@ -53,8 +58,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="ortho">
+          </Link>{" "}
+          <Link href="/centres-of-excellence/bone-joint-spine" className="coe-compact" data-dept="ortho">
             <div className="coe-compact-icon ortho-icon">
               <svg viewBox="0 0 60 50" className="coe-anim ortho-anim">
                 <line className="ortho-bone" x1="15" y1="10" x2="45" y2="40" stroke="var(--purple)" strokeWidth="2" strokeLinecap="round" />
@@ -67,8 +72,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="emergency">
+          </Link>{" "}
+          <Link href="/centres-of-excellence/emergency-and-critical-care" className="coe-compact" data-dept="emergency">
             <div className="coe-compact-icon emergency-icon">
               <svg viewBox="0 0 60 50" className="coe-anim emerg-anim">
                 <path className="emerg-cross-h" d="M18,25 L42,25" stroke="var(--emergency)" strokeWidth="3" strokeLinecap="round" />
@@ -81,8 +86,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="neuro">
+          </Link>{" "}
+          <Link href="/centres-of-excellence/neuro-sciences" className="coe-compact" data-dept="neuro">
             <div className="coe-compact-icon neuro-icon">
               <svg viewBox="0 0 60 50" className="coe-anim neuro-anim">
                 <path className="neuro-wave" d="M5,25 Q15,10 25,25 T45,25 T60,25" fill="none" stroke="var(--purple)" strokeWidth="1.5" strokeLinecap="round" />
@@ -95,8 +100,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="renal">
+          </Link>{" "}
+          <Link href="/best-doctor/nephrology" className="coe-compact" data-dept="renal">
             <div className="coe-compact-icon renal-icon">
               <svg viewBox="0 0 60 50" className="coe-anim renal-anim">
                 <circle className="renal-drop" cx="30" cy="20" r="5" fill="var(--cyan)" opacity="0.3" />
@@ -109,8 +114,8 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
-          <a href="#" className="coe-compact" data-dept="transplant">
+          </Link>{" "}
+          <Link href="/best-doctor/hepatology" className="coe-compact" data-dept="transplant">
             <div className="coe-compact-icon transplant-icon">
               <svg viewBox="0 0 60 50" className="coe-anim transplant-anim">
                 <circle className="tx-ring1" cx="24" cy="25" r="10" fill="none" stroke="var(--purple)" strokeWidth="1.5" />
@@ -123,7 +128,7 @@ export default function CentresOfExcellence() {
             <svg className="coe-compact-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
-          </a>{" "}
+          </Link>{" "}
         </div>{" "}
       </div>{" "}
     </section>
