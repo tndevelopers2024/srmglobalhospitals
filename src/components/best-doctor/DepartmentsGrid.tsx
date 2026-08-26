@@ -499,6 +499,16 @@ export default function DepartmentsGrid() {
                 {dept.icon}
               </div>
               <div className="dept-name">{dept.name}</div>
+            </>
+          );
+
+          return dept.href ? (
+            <Link key={index} href={dept.href} className="dept-card" style={{ textDecoration: "none" }}>
+              {content}
+            </Link>
+          ) : (
+            <div key={index} className="dept-card">
+              {content}
             </div>
           );
         })}
