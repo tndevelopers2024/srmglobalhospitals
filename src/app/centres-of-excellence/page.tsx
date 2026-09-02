@@ -73,7 +73,7 @@ const coeCentres: Array<{
     description:
       "State-of-the-art interventional cardiology, electrophysiology, coronary artery bypass grafting (CABG), valve replacements, and 24/7 primary angioplasty.",
     stats: "24/7 Cath Lab | Advanced Coronary Care",
-    href: "/best-doctor/institute-of-cardiac-sciences",
+    href: "/centres-of-excellence/cardiac-sciences",
   },
   {
     slug: "renal-sciences",
@@ -82,16 +82,16 @@ const coeCentres: Array<{
     description:
       "Dialysis care, kidney disease management, laser stone surgery, prostate treatments, and comprehensive urological interventions.",
     stats: "Advanced Dialysis | Laser Lithotripsy",
-    href: "/best-doctor/nephrology",
+    href: "/centres-of-excellence/renal-sciences",
   },
   {
-    slug: "solid-organ-transplant",
+    slug: "solid-organ-transplants",
     title: "Centre for Solid Organ Transplants",
     badge: "Transplant Excellence",
     description:
       "Multi-organ transplant infrastructure with dedicated pre-transplant workup, laminar OT suites, and lifelong post-transplant immunosuppression management.",
     stats: "Multidisciplinary Transplant Team",
-    href: "/best-doctor/hepatology",
+    href: "/centres-of-excellence/solid-organ-transplants",
   },
 ];
 

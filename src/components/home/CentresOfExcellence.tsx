@@ -17,7 +17,7 @@ export default function CentresOfExcellence() {
           </Link>{" "}
         </div>{" "}
         <div className="coe-grid-compact">
-          <Link href="/best-doctor/institute-of-cardiac-sciences" className="coe-compact" data-dept="cardiac">
+          <Link href="/centres-of-excellence/cardiac-sciences" className="coe-compact" data-dept="cardiac">
             <div className="coe-compact-icon cardiac-icon">
               <svg viewBox="0 0 60 50" className="coe-anim cardiac-anim">
                 <path className="cardiac-line" d="M0,25 L12,25 L16,10 L20,38 L24,5 L28,35 L32,25 L48,25 L52,18 L56,32 L60,25" fill="none" stroke="var(--purple)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -101,7 +101,7 @@ export default function CentresOfExcellence() {
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
           </Link>{" "}
-          <Link href="/best-doctor/nephrology" className="coe-compact" data-dept="renal">
+          <Link href="/centres-of-excellence/renal-sciences" className="coe-compact" data-dept="renal">
             <div className="coe-compact-icon renal-icon">
               <svg viewBox="0 0 60 50" className="coe-anim renal-anim">
                 <circle className="renal-drop" cx="30" cy="20" r="5" fill="var(--cyan)" opacity="0.3" />
@@ -115,7 +115,7 @@ export default function CentresOfExcellence() {
               <path d="M7 17L17 7M17 7H7M17 7v10" />
             </svg>{" "}
           </Link>{" "}
-          <Link href="/best-doctor/hepatology" className="coe-compact" data-dept="transplant">
+          <Link href="/centres-of-excellence/solid-organ-transplants" className="coe-compact" data-dept="transplant">
             <div className="coe-compact-icon transplant-icon">
               <svg viewBox="0 0 60 50" className="coe-anim transplant-anim">
                 <circle className="tx-ring1" cx="24" cy="25" r="10" fill="none" stroke="var(--purple)" strokeWidth="1.5" />
