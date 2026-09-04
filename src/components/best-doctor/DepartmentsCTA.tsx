@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DepartmentsCTA() {
   return (
-    <div style={{ position: "relative", overflow: "hidden" }}>
+    <div id="appointment" style={{ position: "relative", overflow: "hidden", scrollMarginTop: "80px" }}>
       <img
         src="/images/best-doctor/hero-image.jpg"
         alt="Team"

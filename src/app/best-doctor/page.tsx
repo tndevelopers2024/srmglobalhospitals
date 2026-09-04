@@ -30,7 +30,7 @@ export default function OurDoctorDepartmentPage() {
         )}
       />
       <HeaderTop />
-      <SiteHeader activeNav="specialties" />
+      <SiteHeader activeNav="doctors" />
       <main className="best-doctor-page" id="main-content">
         <DepartmentsHero />
         <DepartmentsStats />
