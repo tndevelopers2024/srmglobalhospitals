@@ -1,19 +1,178 @@
+"use client";
+
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import SpecialtiesMegaMenu from "./SpecialtiesMegaMenu";
+import ClinicalExcellenceDropdown from "./ClinicalExcellenceDropdown";
+import DoctorsDropdown from "./DoctorsDropdown";
 
 interface SiteHeaderProps {
   activeNav?: "home" | "about" | "specialties" | "coe" | "doctors" | "intl" | "services" | "insights" | string;
 }
 
 export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
+  const [isSpecialtiesOpen, setIsSpecialtiesOpen] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
+
+  const [isCoeOpen, setIsCoeOpen] = useState(false);
+  const coeTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const coeWrapperRef = useRef<HTMLDivElement>(null);
+
+  const [isDoctorsOpen, setIsDoctorsOpen] = useState(false);
+  const doctorsTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const doctorsWrapperRef = useRef<HTMLDivElement>(null);
+
+  const handleMouseEnter = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setIsSpecialtiesOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setIsSpecialtiesOpen(false);
+    }, 180);
+  };
+
+  const handleCoeMouseEnter = () => {
+    if (coeTimeoutRef.current) {
+      clearTimeout(coeTimeoutRef.current);
+      coeTimeoutRef.current = null;
+    }
+    setIsCoeOpen(true);
+  };
+
+  const handleCoeMouseLeave = () => {
+    coeTimeoutRef.current = setTimeout(() => {
+      setIsCoeOpen(false);
+    }, 180);
+  };
+
+  const handleDoctorsMouseEnter = () => {
+    if (doctorsTimeoutRef.current) {
+      clearTimeout(doctorsTimeoutRef.current);
+      doctorsTimeoutRef.current = null;
+    }
+    setIsDoctorsOpen(true);
+  };
+
+  const handleDoctorsMouseLeave = () => {
+    doctorsTimeoutRef.current = setTimeout(() => {
+      setIsDoctorsOpen(false);
+    }, 180);
+  };
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (wrapperRef.current && !wrapperRef.current.contains(e.target as Node)) {
+        setIsSpecialtiesOpen(false);
+      }
+      if (coeWrapperRef.current && !coeWrapperRef.current.contains(e.target as Node)) {
+        setIsCoeOpen(false);
+      }
+      if (doctorsWrapperRef.current && !doctorsWrapperRef.current.contains(e.target as Node)) {
+        setIsDoctorsOpen(false);
+      }
+    };
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setIsSpecialtiesOpen(false);
+        setIsCoeOpen(false);
+        setIsDoctorsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handleKeyDown);
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      if (coeTimeoutRef.current) clearTimeout(coeTimeoutRef.current);
+      if (doctorsTimeoutRef.current) clearTimeout(doctorsTimeoutRef.current);
+    };
+  }, []);
+
   return (
     <div className="header-nav-bar">
       <div className="container">
         <div className="header-nav-inner">
           <nav className="main-nav" role="navigation" aria-label="Main">
             <Link href="/" className={activeNav === "home" ? "active" : undefined}>Home</Link>{" "}
-            <Link href="/#specialties" className={activeNav === "specialties" ? "active" : undefined}>Our Specialties</Link>{" "}
-            <Link href="/#coe" className={activeNav === "coe" ? "active" : undefined}>Clinical Excellence</Link>{" "}
-            <Link href="/best-doctor" className={activeNav === "doctors" ? "active" : undefined}>Doctors</Link>{" "}
+            <div
+              className="nav-dropdown-wrapper"
+              ref={wrapperRef}
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <Link
+                href="/#specialties"
+                className={`${activeNav === "specialties" ? "active" : ""} ${isSpecialtiesOpen ? "dropdown-open" : ""}`}
+                aria-haspopup="true"
+                aria-expanded={isSpecialtiesOpen}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsSpecialtiesOpen((prev) => !prev);
+                }}
+              >
+                Our Specialties
+              </Link>
+              <SpecialtiesMegaMenu
+                isOpen={isSpecialtiesOpen}
+                onClose={() => setIsSpecialtiesOpen(false)}
+              />
+            </div>{" "}
+            <div
+              className="nav-dropdown-wrapper"
+              ref={coeWrapperRef}
+              onMouseEnter={handleCoeMouseEnter}
+              onMouseLeave={handleCoeMouseLeave}
+            >
+              <Link
+                href="/#coe"
+                className={`${activeNav === "coe" ? "active" : ""} ${isCoeOpen ? "dropdown-open" : ""}`}
+                aria-haspopup="true"
+                aria-expanded={isCoeOpen}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsCoeOpen((prev) => !prev);
+                }}
+              >
+                Clinical Excellence
+              </Link>
+              <ClinicalExcellenceDropdown
+                isOpen={isCoeOpen}
+                onClose={() => setIsCoeOpen(false)}
+              />
+            </div>{" "}
+            <div
+              className="nav-dropdown-wrapper"
+              ref={doctorsWrapperRef}
+              onMouseEnter={handleDoctorsMouseEnter}
+              onMouseLeave={handleDoctorsMouseLeave}
+            >
+              <Link
+                href="/best-doctor"
+                className={`${activeNav === "doctors" ? "active" : ""} ${isDoctorsOpen ? "dropdown-open" : ""}`}
+                aria-haspopup="true"
+                aria-expanded={isDoctorsOpen}
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsDoctorsOpen((prev) => !prev);
+                }}
+              >
+                Doctors
+              </Link>
+              <DoctorsDropdown
+                isOpen={isDoctorsOpen}
+                onClose={() => setIsDoctorsOpen(false)}
+              />
+            </div>{" "}
             <Link href="/#intl" className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
             <Link href="/services" className={activeNav === "services" ? "active" : undefined}>Services</Link>{" "}
             <Link href="/blog" className={activeNav === "insights" ? "active" : undefined}>Health Information</Link>{" "}
