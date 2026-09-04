@@ -69,12 +69,12 @@ const specialtiesList: Array<{
     href: "/specialties/diabetology",
   },
   {
-    slug: "emergency-medicine",
+    slug: "emergency-medicine-critical-care",
     title: "Department of Emergency Medicine & Critical Care",
     subtitle: "Every Second Matters.",
     description:
       "24/7 emergency care for trauma, cardiac arrest, stroke, and life-threatening conditions backed by advanced life support and intensive care.",
-    href: "/specialties/emergency-medicine",
+    href: "/specialties/emergency-medicine-critical-care",
   },
   {
     slug: "endocrinology",
@@ -122,7 +122,7 @@ export default function SpecialtiesIndexPage() {
               <h1>Our Specialties</h1>
               <p className="hero-subtitle">World-Class Care Across Medical Specialties</p>
               <p className="hero-desc">
-                From specialized surgical interventions to advanced medical diagnostics and therapy, explore SRM Global Hospitals' comprehensive clinical departments.
+                From specialized surgical interventions to advanced medical diagnostics and therapy, explore SRM Global Hospitals&apos; comprehensive clinical departments.
               </p>
             </div>
           </div>

@@ -6,12 +6,12 @@ import { HeaderTop, SiteHeader, SiteFooter } from "@/components/layout";
 import ArtBody from "./ArtBody";
 
 export const metadata = createMetadata({
-  title: "Best Emergency Hospital in Chengalpattu | SRM Global Hospitals",
-  description: "Recognized as the best emergency hospital in Chengalpattu, our Emergency Medicine Department and Critical Care Unit deliver 24/7 emergency care for trauma emergency, cardiac arrest, stroke, and life-threatening conditions.",
-  path: "/specialties/emergency-medicine-critical-care",
+  title: "Best Cardiac Hospital in Chengalpattu | SRM Global Hospitals",
+  description: "Recognized as the best cardiac hospital in Chengalpattu, our cardiologists and heart specialists provide advanced heart disease treatment and interventional ...",
+  path: "/specialties/institute-of-cardiac-sciences",
 });
 
-export default function EmergencyMedicineCriticalCarePage() {
+export default function InstituteOfCardiacSciencesPage() {
   return (
     <>
       <script
@@ -20,7 +20,7 @@ export default function EmergencyMedicineCriticalCarePage() {
           breadcrumbSchema([
             { name: "Home", path: "/" },
             { name: "Our Specialties", path: "/#specialties" },
-            { name: "Department of Emergency Medicine & Critical Care", path: "/specialties/emergency-medicine-critical-care" },
+            { name: "Institute of Cardiac Sciences", path: "/specialties/institute-of-cardiac-sciences" },
           ]),
         )}
       />

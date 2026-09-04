@@ -17,7 +17,7 @@ const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
     { label: "Dental/OMFS", href: "/specialties/dental-omfs" },
     { label: "Dermatology", href: "/specialties/dermatology" },
     { label: "Diabetology", href: "/specialties/diabetology" },
-    { label: "Emergency Medicine & Critical Care Unit", href: "/specialties/emergency-medicine" },
+    { label: "Emergency Medicine & Critical Care Unit", href: "/specialties/emergency-medicine-critical-care" },
     { label: "Endocrinology", href: "/specialties/endocrinology" },
     { label: "ENT", href: "/specialties/ent" },
     { label: "Fetal Medicine", href: "/specialties/fetal-medicine" },
