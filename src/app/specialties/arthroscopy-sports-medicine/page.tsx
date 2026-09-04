@@ -1,0 +1,36 @@
+import "@/styles/specialty.css";
+
+import { createMetadata } from "@/lib/seo";
+import { breadcrumbSchema, jsonLdScriptProps } from "@/lib/structured-data";
+import { HeaderTop, SiteHeader, SiteFooter } from "@/components/layout";
+import ArtBody from "./ArtBody";
+
+export const metadata = createMetadata({
+  title: "Best Arthroscopy and Sports Medicine Hospital in Chengalpattu | SRM Global Hospitals",
+  description:
+    "Recognized as the best arthroscopy and sports medicine hospital in Chengalpattu, our team of experienced sports medicine doctors specializes in arthroscopy...",
+  path: "/specialties/arthroscopy-sports-medicine",
+});
+
+export default function ArthroscopySportsMedicinePage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        {...jsonLdScriptProps(
+          breadcrumbSchema([
+            { name: "Home", path: "/" },
+            { name: "Our Specialties", path: "/#specialties" },
+            { name: "Department of Arthroscopy & Sports Medicine", path: "/specialties/arthroscopy-sports-medicine" },
+          ]),
+        )}
+      />
+      <HeaderTop />
+      <SiteHeader activeNav="specialties" />
+      <main className="specialty-page" id="main-content">
+        <ArtBody />
+      </main>
+      <SiteFooter />
+    </>
+  );
+}
