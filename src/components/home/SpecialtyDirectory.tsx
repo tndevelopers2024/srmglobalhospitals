@@ -141,30 +141,62 @@ export default function SpecialtyDirectory() {
               </svg>
             </Link>
           </li>{" "}
-          <li className="specialty-item">Joint Replacement <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Medical Gastroenterology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Medical Oncology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Nephrology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Neurology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Neurosurgery <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Obstetrics &amp; Gynaecology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
-          <li className="specialty-item">Ophthalmology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M5 12h14M13 5l7 7-7 7" />
-          </svg></li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/joint-replacement" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Joint Replacement <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/medical-gastroenterology" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Medical Gastroenterology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/medical-oncology" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Medical Oncology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/nephrology" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Nephrology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/neurology" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Neurology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/neurosurgery" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Neurosurgery <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/obstetrics-gynecology" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Obstetrics &amp; Gynaecology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
+          <li className="specialty-item">
+            <Link href={"/specialties/ophthalmology" as Route} style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
+              Ophthalmology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M13 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </li>{" "}
           <li className="specialty-item">Orthopaedics <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M5 12h14M13 5l7 7-7 7" />
           </svg></li>{" "}

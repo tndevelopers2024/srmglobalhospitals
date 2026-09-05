@@ -92,6 +92,78 @@ const specialtiesList: Array<{
       "Comprehensive ear, nose, and throat care, sinus treatments, hearing evaluations, and advanced microsurgical and endoscopic procedures.",
     href: "/specialties/ent",
   },
+  {
+    slug: "joint-replacement",
+    title: "Department of Joint Replacement",
+    subtitle: "Precision Joint Replacement Surgery for a Pain-Free Life.",
+    description:
+      "Advanced joint replacement surgery, from total and partial knee replacement to hip replacement surgery, robotic joint replacement, and revision joint replacement.",
+    href: "/specialties/joint-replacement",
+  },
+  {
+    slug: "lactation-pre-natal-yoga",
+    title: "Department of Lactation and Pre-Natal Yoga",
+    subtitle: "Holistic Support for Every Stage of Motherhood.",
+    description:
+      "Breastfeeding support, antenatal care, and postnatal care, from newborn feeding support to pregnancy yoga, lamaze classes, and birth preparation classes.",
+    href: "/specialties/lactation-pre-natal-yoga",
+  },
+  {
+    slug: "medical-gastroenterology",
+    title: "Department of Medical Gastroenterology",
+    subtitle: "Comprehensive, Evidence-Based Care for Digestive Health.",
+    description:
+      "Advanced digestive disease treatment, from endoscopy and colonoscopy to the ERCP procedure, IBS treatment, acid reflux treatment, and ulcer treatment.",
+    href: "/specialties/medical-gastroenterology",
+  },
+  {
+    slug: "medical-oncology",
+    title: "Department of Medical Oncology",
+    subtitle: "Comprehensive, Compassionate Care at Every Stage of Cancer.",
+    description:
+      "Advanced cancer treatment, from chemotherapy, targeted therapy, and immunotherapy to cancer screening, tumor board review, and palliative oncology.",
+    href: "/specialties/medical-oncology",
+  },
+  {
+    slug: "nephrology",
+    title: "Department of Nephrology",
+    subtitle: "Advanced, Compassionate Care for Every Stage of Kidney Disease.",
+    description:
+      "Comprehensive kidney disease treatment, from haemodialysis and peritoneal dialysis to kidney biopsy, chronic kidney disease treatment, and kidney transplant evaluation.",
+    href: "/specialties/nephrology",
+  },
+  {
+    slug: "neurology",
+    title: "Department of Neurology",
+    subtitle: "Comprehensive Care for the Brain, Spine, and Nervous System.",
+    description:
+      "Expert neurological disorder treatment, from stroke treatment and epilepsy treatment to migraine treatment, Parkinson's disease treatment, and neuropathy treatment.",
+    href: "/specialties/neurology",
+  },
+  {
+    slug: "neurosurgery",
+    title: "Department of Neurosurgery",
+    subtitle: "Advanced Surgical Care for the Brain, Spine, and Nervous System.",
+    description:
+      "Comprehensive brain surgery and spine surgery, from brain tumour surgery and craniotomy to endoscopic brain surgery, deep brain stimulation, and minimally invasive neurosurgery.",
+    href: "/specialties/neurosurgery",
+  },
+  {
+    slug: "obstetrics-gynecology",
+    title: "Department of Obstetrics & Gynecology",
+    subtitle: "Comprehensive Care for Every Stage of a Woman's Life.",
+    description:
+      "Expert pregnancy care, from normal delivery and C-section to laparoscopic gynaecology surgery, infertility treatment, and high-risk pregnancy management.",
+    href: "/specialties/obstetrics-gynecology",
+  },
+  {
+    slug: "ophthalmology",
+    title: "Department of Ophthalmology",
+    subtitle: "Comprehensive Eye Care for Every Stage of Life.",
+    description:
+      "Expert eye surgery, from cataract surgery and LASIK surgery to glaucoma treatment, retina treatment, diabetic retinopathy treatment, and corneal transplant.",
+    href: "/specialties/ophthalmology",
+  },
 ];
 
 export default function SpecialtiesIndexPage() {
