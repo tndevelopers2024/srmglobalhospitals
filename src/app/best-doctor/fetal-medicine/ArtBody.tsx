@@ -5,9 +5,49 @@ import Image from "next/image";
 export default function ArtBody() {
   return (
     <>
-      {/* HERO */}
-      <div style={{ background: "linear-gradient(135deg, #14092b 0%, #23134a 55%, #0d1b3a 100%)" }}>
-        <div className="hero-inner" style={{ maxWidth: "1200px", margin: "0 auto", padding: "80px 40px 60px" }}>
+      {/* HERO — 3-layer stack */}
+      <div style={{ position: "relative", overflow: "hidden" }}>
+
+        {/* Layer 3 (back): image — covers the right side */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            left: "45%",
+            zIndex: 0,
+          }}
+        >
+          <Image
+            src="/images/departments/fetal-medicine/hero-1.avif"
+            alt="Fetal Medicine Department"
+            fill
+            style={{ objectFit: "cover", objectPosition: "center" }}
+            priority
+          />
+        </div>
+
+        {/* Layer 2 (middle): gradient overlay */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(to right, #14092b 0%, #23134a 45%, rgba(35,19,74,0.82) 60%, rgba(13,27,58,0.35) 80%, transparent 100%)",
+            zIndex: 1,
+          }}
+        />
+
+        {/* Layer 1 (front): content — exact same position as before */}
+        <div
+          className="hero-inner"
+          style={{
+            position: "relative",
+            zIndex: 2,
+            maxWidth: "1200px",
+            margin: "0 auto",
+            padding: "80px 40px 60px",
+          }}
+        >
           <div
             style={{
               display: "flex",
