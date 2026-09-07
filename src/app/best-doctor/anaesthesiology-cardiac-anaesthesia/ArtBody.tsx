@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/anaesthesiology-cardiac anaesthesia/hero.avif"
+            src="/images/departments/anaesthesiology-cardiac anaesthesia/hero-1.avif"
             alt="Anaesthesiology & Cardiac Anaesthesia Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
