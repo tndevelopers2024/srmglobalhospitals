@@ -656,12 +656,15 @@
 }
 
 .specialty-page .why-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 28px;
 }
 
 .specialty-page .why-item {
+  flex: 0 1 calc(25% - 21px);
+  max-width: calc(25% - 21px);
   text-align: center;
 }
 
@@ -695,10 +698,20 @@
   line-height: 1.5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .specialty-page .why-grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+  }
+  .specialty-page .why-item {
+    flex: 0 1 calc(50% - 12px);
+    max-width: calc(50% - 12px);
+  }
+}
+
+@media (max-width: 576px) {
+  .specialty-page .why-item {
+    flex: 0 1 100%;
+    max-width: 100%;
   }
 }
 
