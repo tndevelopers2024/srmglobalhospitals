@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/obstetrics-and-gynecology/hero.avif"
+            src="/images/departments/obstetrics-and-gynecology/hero-1.avif"
             alt="Obstetrics & Gynecology Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}

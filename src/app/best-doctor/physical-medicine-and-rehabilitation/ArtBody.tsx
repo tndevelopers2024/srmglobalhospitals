@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/physical-medicine-and-rehabilitation/hero.avif"
+            src="/images/departments/physical-medicine-and-rehabilitation/hero-1.avif"
             alt="Physical Medicine and Rehabilitation Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}

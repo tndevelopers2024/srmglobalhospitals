@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/paediatric-critical-care/hero.avif"
+            src="/images/departments/paediatric-critical-care/hero-1.avif"
             alt="Paediatric Critical Care Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
