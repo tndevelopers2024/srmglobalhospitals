@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/emergency-medicine-and-critical-care/hero-1.avif"
+            src="/images/departments/emergency-medicine-and-critical-care/hero-2.avif"
             alt="Emergency Medicine & Critical Care Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
