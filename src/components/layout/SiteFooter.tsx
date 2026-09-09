@@ -1,6 +1,105 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 export default function SiteFooter() {
+  const pathname = usePathname();
+  const footerBottomRef = useRef<HTMLDivElement>(null);
+  const [hasStickyBar, setHasStickyBar] = useState(false);
+  const [stickyHeight, setStickyHeight] = useState(60);
+
+  useEffect(() => {
+    let ticking = false;
+
+    const getStickyElements = () => {
+      return document.querySelectorAll<HTMLElement>(".sticky-bar, .sticky-cta");
+    };
+
+    const detectSticky = () => {
+      const els = getStickyElements();
+      if (els.length > 0) {
+        setHasStickyBar(true);
+        let maxH = 0;
+        els.forEach((el) => {
+          if (el.offsetHeight > maxH) maxH = el.offsetHeight;
+        });
+        if (maxH > 0) setStickyHeight(maxH);
+      } else {
+        setHasStickyBar(false);
+      }
+    };
+
+    detectSticky();
+    const t1 = setTimeout(detectSticky, 200);
+    const t2 = setTimeout(detectSticky, 600);
+
+    const onScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const footerBottom = footerBottomRef.current;
+          const els = getStickyElements();
+          const floatingCta = document.querySelector<HTMLElement>(".floating-cta");
+
+          if (footerBottom && els.length > 0) {
+            const rect = footerBottom.getBoundingClientRect();
+            const winH = window.innerHeight;
+
+            if (rect.top < winH) {
+              const overlap = Math.max(0, winH - rect.top);
+              els.forEach((el) => {
+                el.style.bottom = `${overlap}px`;
+                // Ensure sticky bar stays visible when docked in footer
+                if (el.classList.contains("sticky-bar")) {
+                  el.classList.add("visible");
+                } else if (el.classList.contains("sticky-cta")) {
+                  el.classList.add("show");
+                  el.classList.add("visible");
+                }
+              });
+              if (floatingCta) {
+                floatingCta.style.bottom = `${overlap + 28}px`;
+              }
+            } else {
+              els.forEach((el) => {
+                el.style.bottom = "0px";
+              });
+              if (floatingCta) {
+                floatingCta.style.bottom = "";
+              }
+            }
+          }
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", () => {
+      detectSticky();
+      onScroll();
+    }, { passive: true });
+
+    onScroll();
+
+    return () => {
+      clearTimeout(t1);
+      clearTimeout(t2);
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+      const els = getStickyElements();
+      els.forEach((el) => {
+        el.style.bottom = "";
+      });
+      const floatingCta = document.querySelector<HTMLElement>(".floating-cta");
+      if (floatingCta) {
+        floatingCta.style.bottom = "";
+      }
+    };
+  }, [pathname]);
+
   return (
     <footer>
       <div className="container">
@@ -110,7 +209,11 @@ export default function SiteFooter() {
             </ul>{" "}
           </div>{" "}
         </div>{" "}
-        <div className="footer-bottom">
+        <div
+          className="footer-sticky-spacer"
+          style={{ height: hasStickyBar ? `${stickyHeight + 16}px` : 0 }}
+        />{" "}
+        <div className="footer-bottom" ref={footerBottomRef}>
           <div>©️ 2026 SRM Global Hospitals (A part of SRM Group). All Rights Reserved.</div>{" "}
           <div className="footer-bottom-links">
             <Link href="/#privacy">Privacy Policy</Link>{" "}
