@@ -111,7 +111,7 @@ export default function SiteFooter() {
           </div>{" "}
         </div>{" "}
         <div className="footer-bottom">
-          <div>© 2026 SRM Global Hospitals Pvt Ltd. All rights reserved.</div>{" "}
+          <div>©️ 2026 SRM Global Hospitals (A part of SRM Group). All Rights Reserved.</div>{" "}
           <div className="footer-bottom-links">
             <Link href="/#privacy">Privacy Policy</Link>{" "}
             <Link href="/#terms">Terms &amp; Conditions</Link>{" "}
