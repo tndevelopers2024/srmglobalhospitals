@@ -126,14 +126,14 @@ export default function ArtBody() {
           </div>
           <div className="hero-image">
             <div className="hero-image-wrapper">
-              <div className="hero-image-placeholder">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <path d="M21 15l-5-5L5 21" />
-                </svg>
-                <span>Orthopaedics Team Photo</span>
-              </div>
+              <Image
+                src="/images/coe/bone-joint-spine/hero.avif"
+                alt="Bone, Joint & Spine Centre"
+                width={640}
+                height={480}
+                priority
+                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+              />
             </div>
           </div>
         </div>
