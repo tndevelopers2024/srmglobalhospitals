@@ -198,9 +198,13 @@ export default function ArtBody() {
             </a>
           </div>
           <div className="about-image">
-            <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-              Orthopaedic Team
-            </div>
+            <Image
+              src="/images/coe/bone-joint-spine/team.avif"
+              alt="Centre for Bone Joint Spine Care Team"
+              width={600}
+              height={450}
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+            />
           </div>
         </div>
       </section>
@@ -305,10 +309,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/bone-joint-spine/dr-dilip-kumar-naidu-e.png"
+                    alt="Dr. Dilip Kumar Naidu E"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -322,10 +329,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/bone-joint-spine/dr-prasad-dakshinamoorthy.png"
+                    alt="Dr. Prasad Dakshinamoorthy"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -339,10 +349,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/bone-joint-spine/dr-saravanan-j.png"
+                    alt="Dr. Saravanan J"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -356,10 +369,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/bone-joint-spine/dr-arun-karthik-r.png"
+                    alt="Dr. Arun Karthik R"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -425,9 +441,13 @@ export default function ArtBody() {
           {activeTab === "knee-replace" && (
             <div className="tab-panel active" id="tab-knee-replace">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Knee Replacement
-                </div>
+                <Image
+                  src="/images/coe/bone-joint-spine/knee-replacement.avif"
+                  alt="Total Knee Replacement"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Total Knee Replacement</h3>
@@ -446,9 +466,13 @@ export default function ArtBody() {
           {activeTab === "hip-replace" && (
             <div className="tab-panel active" id="tab-hip-replace">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Hip Replacement
-                </div>
+                <Image
+                  src="/images/coe/bone-joint-spine/hip-replacement.avif"
+                  alt="Total Hip Replacement"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Total Hip Replacement</h3>
@@ -467,9 +491,13 @@ export default function ArtBody() {
           {activeTab === "arthroscopy" && (
             <div className="tab-panel active" id="tab-arthroscopy">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Arthroscopy
-                </div>
+                <Image
+                  src="/images/coe/bone-joint-spine/arthroscopic-surgery.avif"
+                  alt="Arthroscopic Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Arthroscopic Surgery</h3>
@@ -488,9 +516,13 @@ export default function ArtBody() {
           {activeTab === "spine-surg" && (
             <div className="tab-panel active" id="tab-spine-surg">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Spine Surgery
-                </div>
+                <Image
+                  src="/images/coe/bone-joint-spine/spine-surgery.avif"
+                  alt="Spine Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Spine Surgery</h3>
@@ -509,9 +541,13 @@ export default function ArtBody() {
           {activeTab === "fracture-fix" && (
             <div className="tab-panel active" id="tab-fracture-fix">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Fracture Surgery
-                </div>
+                <Image
+                  src="/images/coe/bone-joint-spine/fracture-fixation.avif"
+                  alt="Fracture Fixation Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Fracture Fixation &amp; Trauma Surgery</h3>
@@ -541,21 +577,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: OT</div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/ot.avif" alt="Advanced Operating Theatres" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Operating Theatres</h3>
                 <p>Laminar airflow OTs with arthroscopy towers, image intensifiers (C-arm), and navigation systems for joint replacement and spine surgery. Strict infection control protocols for implant-based procedures.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Rehab</div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/rehab.avif" alt="Physiotherapy and Rehabilitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Physiotherapy &amp; Rehabilitation</h3>
                 <p>Dedicated rehabilitation unit with trained physiotherapists for post-operative recovery, sports injury rehabilitation, and chronic pain management. Early mobilisation protocols for joint replacement and fracture patients.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Imaging</div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/imaging.avif" alt="Imaging and Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Imaging &amp; Diagnostics</h3>
                 <p>On-site digital X-ray, CT, and MRI for immediate fracture assessment, pre-surgical planning, and spinal imaging. Weight-bearing X-rays and full-limb alignment scans available for joint replacement planning.</p>
@@ -774,7 +810,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-1.avif" alt="Knee Replacement Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Joint Replacement</span>
                 <h3>Knee Replacement: What to Expect Before, During, and After</h3>
@@ -785,7 +821,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-2.avif" alt="ACL Injury Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Sports Medicine</span>
                 <h3>ACL Injury: When Surgery is Needed and When It Isn&apos;t</h3>
@@ -796,7 +832,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-3.avif" alt="Back Pain Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Spine</span>
                 <h3>Back Pain That Won&apos;t Go Away: When to See a Spine Specialist</h3>
