@@ -821,7 +821,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-2.avif" alt="ACL Injury Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-3.avif" alt="ACL Injury Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Sports Medicine</span>
                 <h3>ACL Injury: When Surgery is Needed and When It Isn&apos;t</h3>
@@ -832,7 +832,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-3.avif" alt="Back Pain Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-2.avif" alt="Back Pain Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Spine</span>
                 <h3>Back Pain That Won&apos;t Go Away: When to See a Spine Specialist</h3>

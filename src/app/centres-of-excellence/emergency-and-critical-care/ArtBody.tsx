@@ -200,7 +200,7 @@ export default function ArtBody() {
           </div>
           <div className="about-image">
             <Image
-              src="/images/coe/emergency-and-critical-care/team.avif"
+              src="/images/coe/emergency-and-critical-care/team-1.avif"
               alt="Emergency and Critical Care Team"
               width={600}
               height={450}
@@ -553,7 +553,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-critical-care">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/e2c88703-9bbd-45e2-8adf-1fff87b447cd-clean.avif"
+                  src="/images/coe/emergency-and-critical-care/critical-care-1.avif"
                   alt="Intensive Care ICU"
                   width={600}
                   height={400}
@@ -578,7 +578,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-paediatric-emergency">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/2784b6de-8302-45aa-bc79-ccc9ed923abd-clean.avif"
+                  src="/images/coe/emergency-and-critical-care/pediatric-emergency.avif"
                   alt="Paediatric Emergency"
                   width={600}
                   height={400}
