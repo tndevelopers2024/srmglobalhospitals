@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Trauma &amp; Acute Care Surgery Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/trauma-acute-care-surgery/hero.avif"
+          alt="trauma-acute-care-surgery Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our department is dedicated to the rapid assessment, resuscitation, surgical stabilization, and critical care management of trauma patients, ensuring seamless care from the Emergency Room to the Operating Theatre, ICU, and rehabilitation pathway.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Trauma ICU / Critical Care Unit</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/trauma-acute-care-surgery/dept.avif"
+          alt="Trauma ICU / Critical Care Unit - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

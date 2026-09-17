@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Urology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/urology/hero-2.avif"
+          alt="urology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>From kidney stones and urinary tract infections to prostate cancer and erectile dysfunction, our experts provide personalized care tailored to each patient's needs. Equipped with advanced diagnostic tools and state-of-the-art surgical facilities, patients benefit from the latest advancements in urological care, whether through minimally invasive procedures, endoscopic techniques, or traditional surgery, ensuring optimal outcomes and speedy recovery. With a commitment to excellence and patient-centric care, our Urology department strives to improve the quality of life for individuals dealing with urological issues.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Urology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/urology/dept-1.avif"
+          alt="Urology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

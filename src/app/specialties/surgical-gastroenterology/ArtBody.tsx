@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Surgical Gastroenterology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/surgical-gastroenterology/hero-3.avif"
+          alt="surgical-gastroenterology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>With state-of-the-art facilities and cutting-edge technologies, including laparoscopic and robotic-assisted surgery capabilities, the department provides the most advanced and minimally invasive treatments available. This approach minimizes post-operative pain, reduces recovery time, and enhances overall patient outcomes. Our department emphasizes a multidisciplinary approach, collaborating closely with other specialties such as medical oncology, radiology, and gastroenterology to provide comprehensive, integrated care for patients with complex gastrointestinal conditions.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Surgical Gastroenterology Clinic / Operating Room</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/surgical-gastroenterology/dept-1.avif"
+          alt="Surgical Gastroenterology Clinic / Operating Room - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

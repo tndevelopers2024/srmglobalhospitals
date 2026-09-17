@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Dental &amp; OMFS Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/dental-omfs/hero.avif"
+          alt="dental-omfs Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our dental surgery specialists offer dental implants, wisdom tooth removal, jaw surgery, orthodontic treatment, and impacted tooth extraction alongside advanced procedures such as cleft palate surgery, TMJ treatment, and dental trauma treatment. We work closely with our critical care and reconstructive surgery teams to provide patient-centered, comprehensive care that improves both oral health and overall well-being.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Dental Surgical Suite / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/dental-omfs/dept-1.avif"
+          alt="Dental Surgical Suite / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

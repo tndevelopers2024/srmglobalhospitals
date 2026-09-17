@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Rheumatology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/rheumatology/hero-2.avif"
+          alt="rheumatology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>With a multidisciplinary approach, the Rheumatology department at SRM Global Hospitals collaborates closely with other specialties such as orthopedics, physiotherapy, and immunology to provide integrated care for conditions including rheumatoid arthritis, osteoarthritis, lupus, ankylosing spondylitis, and gout, using advanced diagnostic techniques to accurately diagnose and monitor rheumatic diseases and enable timely, targeted interventions.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Rheumatology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/rheumatology/dept-1.avif"
+          alt="Rheumatology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

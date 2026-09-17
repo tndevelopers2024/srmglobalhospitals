@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Institute of Cardiac Sciences</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/institute-of-cardiac-sciences/hero-1.avif"
+          alt="institute-of-cardiac-sciences Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>As the best cardiac hospital in Chengalpattu, we offer comprehensive cardiac care programs, specialized treatment, and a range of diagnostic tools to prevent and address heart disease. Our commitment is to ensure your heart remains healthy, whether you are seeking preventive measures or requiring urgent medical attention, so you can live your life.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Institute of Cardiac Sciences Clinic / Consultation</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/institute-of-cardiac-sciences/dept-1.avif"
+                alt="Institute of Cardiac Sciences Clinic / Consultation - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

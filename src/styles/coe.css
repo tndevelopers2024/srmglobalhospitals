@@ -1539,7 +1539,11 @@
   border-radius: var(--radius);
   border: 1px solid var(--rule);
   overflow: hidden;
-  transition: var(--transition);
+  transition: box-shadow 0.3s;
+}
+
+.coe-page .faq-item:hover {
+  box-shadow: var(--shadow);
 }
 
 .coe-page .faq-item.open {
@@ -1554,12 +1558,12 @@
   padding: 20px 24px;
   cursor: pointer;
   gap: 16px;
-  transition: var(--transition);
   user-select: none;
+  transition: background 0.2s;
 }
 
 .coe-page .faq-question:hover {
-  background: var(--brand-soft);
+  background: var(--mist);
 }
 
 .coe-page .faq-question h3 {
@@ -1570,37 +1574,36 @@
   font-family: var(--font-display);
 }
 
+.coe-page .faq-item.open .faq-question h3 {
+  color: var(--ink-deep);
+}
+
 .coe-page .faq-toggle {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background: var(--brand-soft);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  transition: var(--transition);
+  transition: transform 0.3s ease;
 }
 
 .coe-page .faq-item.open .faq-toggle {
-  background: var(--brand);
   transform: rotate(180deg);
 }
 
 .coe-page .faq-toggle svg {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   color: var(--brand);
 }
 
 .coe-page .faq-item.open .faq-toggle svg {
-  color: #fff;
+  color: var(--brand);
 }
 
 .coe-page .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: max-height 0.4s ease;
 }
 
 .coe-page .faq-item.open .faq-answer {

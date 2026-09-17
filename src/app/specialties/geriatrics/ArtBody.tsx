@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function ArtBody() {
@@ -116,7 +117,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Geriatrics Department</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/geriatrics/hero-1.avif"
+          alt="geriatrics Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +176,14 @@ export default function ArtBody() {
             <p>As the best geriatrics hospital in Chengalpattu, our geriatricians and elderly care specialists provide old age care spanning fall prevention, dementia care, geriatric rehabilitation, and age-related disease management, along with palliative care for elderly patients who need it, all guided by a genuine commitment to senior citizen health.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Geriatrics Clinic / Consultation</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/geriatrics/dept-2.avif"
+                alt="Geriatrics Clinic / Consultation - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

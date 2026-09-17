@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Radiology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/radiology/hero.avif"
+          alt="radiology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Equipped with state-of-the-art imaging technologies including MRI, CT scans, ultrasound, X-ray, and interventional radiology suites, the department ensures precise and detailed imaging studies for patients across all specialties. Whether detecting early signs of disease, guiding minimally invasive treatments, or monitoring treatment response, we employ cutting-edge technologies to ensure timely and accurate results.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Radiology Imaging Suite</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/radiology/dept.avif"
+          alt="Radiology Imaging Suite - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

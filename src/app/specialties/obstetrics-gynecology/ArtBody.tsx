@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Obstetrics &amp; Gynecology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/obstetrics-gynecology/hero-1.avif"
+          alt="obstetrics-gynecology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>As the best obstetrics and gynecology hospital in Chengalpattu, our subspecialties contribute to a holistic approach to women's health, including High-Risk Obstetrics, Reproductive Endocrinology and Infertility, Family Planning, and Pelvic Medicine and Reconstructive Surgery.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Obstetrics &amp; Gynecology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/obstetrics-gynecology/dept.avif"
+          alt="Obstetrics & Gynecology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

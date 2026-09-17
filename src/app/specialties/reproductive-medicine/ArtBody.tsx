@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Reproductive Medicine Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/reproductive-medicine/hero-2.avif"
+          alt="reproductive-medicine Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our highly skilled reproductive fertility specialists work on providing comprehensive care for individuals and couples seeking parenthood. From advanced assisted reproductive technologies (ART) to hormonal therapies and minimally invasive procedures, our department is committed to delivering the highest standards of reproductive healthcare.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Reproductive Medicine Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/reproductive-medicine/dept-2.avif"
+          alt="Reproductive Medicine Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

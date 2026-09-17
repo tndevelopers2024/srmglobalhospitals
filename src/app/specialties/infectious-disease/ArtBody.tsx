@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Infectious Disease Department</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/infectious-disease/hero.avif"
+          alt="infectious-disease Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>As the best infectious disease hospital in Chengalpattu, our team, led by trained infectious disease specialists, works closely with Microbiology, Critical Care, General Medicine, Pulmonology, and Surgical teams to manage a wide range of infections in both outpatient and inpatient settings. We are committed to evidence-based treatment, rational antibiotic use, and strict infection control practices to ensure safe and successful outcomes for every patient.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Infectious Disease Clinic / Consultation</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/infectious-disease/dept-1.avif"
+                alt="Infectious Disease Clinic / Consultation - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

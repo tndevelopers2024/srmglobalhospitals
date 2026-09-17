@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Vascular Surgery Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/vascular-surgery/hero-3.avif"
+          alt="vascular-surgery Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>From minimally invasive endovascular procedures to complex open surgeries, the Vascular Surgery team at SRM Global Hospitals utilizes state-of-the-art techniques and advanced technologies to deliver optimal outcomes for patients. The department is supported by a multidisciplinary team of specialists, including interventional radiologists, cardiologists, vascular nurses, and rehabilitation therapists, ensuring a holistic approach to patient care.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Vascular Surgery Operating Theatre</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/vascular-surgery/dept.avif"
+          alt="Vascular Surgery Operating Theatre - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

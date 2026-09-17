@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Surgical Oncology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/surgical-oncology/hero-1.avif"
+          alt="surgical-oncology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Every treatment plan is developed through a multidisciplinary approach, working closely with Medical Oncology, Radiation Oncology, and Pathology teams to ensure comprehensive and coordinated cancer care. We are equipped to handle surgeries ranging from early-stage tumors to complex, advanced cancers requiring reconstruction, minimally invasive approaches, and post-operative rehabilitation.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Surgical Oncology Operating Theatre</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/surgical-oncology/dept-1.avif"
+          alt="Surgical Oncology Operating Theatre - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

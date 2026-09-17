@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Hepatology Department</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/hepatology/hero-2.avif"
+          alt="hepatology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>Stem cell and regenerative therapies are among the most exciting and emerging therapies in medical science, studying the use of human cells or tissues to revert or improve a chronic medical condition. As the best hepatology hospital in Chengalpattu, our stem cell research involves basic and pre-clinical studies followed by use in humans as part of approved research projects.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Hepatology Clinic / Consultation</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/hepatology/dept.avif"
+                alt="Hepatology Clinic / Consultation - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

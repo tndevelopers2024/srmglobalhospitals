@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Anaesthesiology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/anaesthesiology/hero.avif"
+          alt="Anaesthesiology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>From a thorough pre-operative assessment to managing anaesthesia for high-risk surgeries such as bariatric procedures, laparoscopy, thyroidectomy, and complex craniotomies, our general anaesthesia specialists work closely with our surgical, critical care, and pain management clinic teams to deliver safe, seamless perioperative care, including epidural anaesthesia and spinal anaesthesia for labour, orthopaedic, and abdominal procedures.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Anaesthesia Workstation / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/anaesthesiology/dept-1.avif"
+          alt="Anaesthesia Workstation / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

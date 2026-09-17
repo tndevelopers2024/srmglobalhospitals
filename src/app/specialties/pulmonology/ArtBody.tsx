@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ArtBody() {
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -97,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal visible">
-      <div className="img-placeholder">Hero Image — Pulmonology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/pulmonology/hero-1.avif"
+          alt="Pulmonology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -152,7 +161,14 @@ export default function ArtBody() {
       <p>From managing chronic conditions like asthma and COPD to treating complex cases of interstitial lung disease and pulmonary infections, our multidisciplinary approach integrates the latest evidence-based therapies with compassionate patient care. We work closely with our critical care and thoracic surgery teams to deliver seamless, end-to-end respiratory care.</p>
     </div>
     <div className="about-img reveal visible">
-      <div className="img-placeholder">Department Image — Pulmonary Lab / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/pulmonology/dept-1.avif"
+          alt="Pulmonary Lab / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

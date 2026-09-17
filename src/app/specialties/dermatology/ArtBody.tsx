@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Dermatology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/dermatology/hero-2.avif"
+          alt="dermatology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>From acne treatment and hair loss treatment to psoriasis treatment, eczema treatment, vitiligo treatment, and fungal infection treatment, our dermatologists use diagnostic skin biopsies, immunotherapy, and other advanced techniques to ensure accurate diagnosis and effective care. We work closely with our cosmetic and reconstructive teams to deliver both medical and cosmetic dermatology solutions tailored to each patient.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Dermatology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/dermatology/dept-2.avif"
+          alt="Dermatology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

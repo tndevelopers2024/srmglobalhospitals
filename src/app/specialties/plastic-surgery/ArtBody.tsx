@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Plastic Surgery Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/plastic-surgery/hero-2.avif"
+          alt="plastic-surgery Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our board-certified plastic surgeons and skilled healthcare professionals bring years of experience in cosmetic surgery, reconstructive surgery, and microsurgery. Whether you are considering facial rejuvenation, breast surgery and reconstruction, hand and wrist surgery, or complex reconstructive microsurgery, our comprehensive range of surgical and non-surgical options caters to a wide spectrum of aesthetic and reconstructive needs.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Plastic Surgery Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/plastic-surgery/dept-1.avif"
+          alt="Plastic Surgery Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

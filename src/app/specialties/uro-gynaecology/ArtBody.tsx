@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Uro-Gynaecology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/uro-gynaecology/hero-3.avif"
+          alt="uro-gynaecology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -152,7 +160,14 @@ export default function ArtBody() {
       <p>The Uro-Gynaecology Department at SRM Global Hospitals is dedicated to the specialized care of women experiencing pelvic floor and urinary disorders. We combine the expertise of gynecologists, urologists, and pelvic floor specialists to diagnose, treat, and manage conditions that affect the urinary and reproductive systems. Our holistic, compassionate approach ensures that every woman receives comprehensive care, restoring comfort, confidence, and quality of life.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Uro-Gynaecology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/uro-gynaecology/dept-1.avif"
+          alt="Uro-Gynaecology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

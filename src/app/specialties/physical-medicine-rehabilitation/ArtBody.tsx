@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Physical Medicine and Rehabilitation Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/physical-medicine-rehabilitation/hero-1.avif"
+          alt="physical-medicine-rehabilitation Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our team of rehabilitation medicine specialists, occupational therapists, physical therapists, and speech-language pathologists work collaboratively to develop individualized treatment plans that address a wide range of conditions, including musculoskeletal injuries, neurological disorders, and chronic pain management, helping patients recovering from injury, illness, or surgery achieve optimal functional independence.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Physical Medicine and Rehabilitation Clinic</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/physical-medicine-rehabilitation/dept-1.avif"
+          alt="Physical Medicine and Rehabilitation Clinic - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>
