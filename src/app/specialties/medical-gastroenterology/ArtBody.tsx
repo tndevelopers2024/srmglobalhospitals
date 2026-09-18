@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Medical Gastroenterology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/medical-gastroenterology/hero-2.avif"
+          alt="medical-gastroenterology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>As the best gastroenterology hospital in Chengalpattu, we offer diagnostic endoscopy, colonoscopy, capsule endoscopy, and advanced imaging techniques to accurately diagnose and assess GI disorders, employing the latest advancements in medical therapies, endoscopic procedures, and minimally invasive techniques to improve patient outcomes and quality of life.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Medical Gastroenterology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/medical-gastroenterology/dept-1.avif"
+          alt="Medical Gastroenterology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

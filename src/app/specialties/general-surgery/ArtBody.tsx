@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - General Surgery Department</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/general-surgery/hero-1.avif"
+          alt="general-surgery Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>As the best general surgery hospital in Chengalpattu, we are dedicated to adopting the most advanced surgical technology complying with the highest international standards, at an affordable patient cost. We focus on providing the best results for each and every patient using cutting-edge, minimally invasive treatments and day care surgery options, with a philosophy centered around dignified, patient-centered care.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - General Surgery Operating Theatre</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/general-surgery/dept.avif"
+                alt="General Surgery Operating Theatre - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

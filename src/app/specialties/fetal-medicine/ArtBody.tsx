@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Fetal Medicine Department</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/fetal-medicine/hero-1.avif"
+                alt="Fetal Medicine Department - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>Our highly skilled fetal medicine specialists work closely with obstetricians, neonatologists, and genetic counsellors to provide comprehensive care for high-risk pregnancies and fetal abnormalities. We are committed to delivering the highest standards of prenatal diagnosis, fetal growth monitoring, and genetic counselling pregnancy support for both low-risk and high-risk pregnancies.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Fetal Medicine Clinic / Ultrasound Suite</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/fetal-medicine/dept-2.avif"
+                alt="Fetal Medicine Clinic / Ultrasound Suite - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

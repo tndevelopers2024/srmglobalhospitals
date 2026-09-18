@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Diabetology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/diabetology/hero-1.avif"
+          alt="diabetology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>With a multidisciplinary approach that brings together diabetologists, endocrinologists, and diabetes care specialists, our team focuses on blood sugar management through insulin therapy, HbA1c testing, diabetes screening, nutrition counseling, and diabetic foot care. We combine this with a strong focus on research and innovation to empower patients with the knowledge, skills, and resources they need to manage their condition and improve their quality of life.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Diabetology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/diabetology/dept-1.avif"
+          alt="Diabetology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

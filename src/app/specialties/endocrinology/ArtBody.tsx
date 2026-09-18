@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ArtBody() {
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -97,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Endocrinology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/endocrinology/hero-1.avif"
+          alt="endocrinology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -152,7 +161,14 @@ export default function ArtBody() {
       <p>Our multidisciplinary approach ensures integrated care, collaborating closely with other medical specialties to address complex cases, including PCOS treatment, adrenal disorder treatment, osteoporosis treatment, and metabolic disorder management. Patient-centered care is at the heart of everything we do, with a focus on education, empowerment, and support to help every patient achieve optimal hormonal and metabolic health.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Endocrinology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/endocrinology/dept-1.avif"
+          alt="Endocrinology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

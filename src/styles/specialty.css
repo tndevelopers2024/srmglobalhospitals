@@ -266,6 +266,7 @@
   min-height: 340px;
   border-radius: var(--radius);
   position: relative;
+  overflow: hidden;
   z-index: 2;
 }
 
@@ -282,6 +283,7 @@
   }
   .specialty-page .hero-img .img-placeholder {
     min-height: 220px;
+    overflow: hidden;
   }
 }
 
@@ -379,6 +381,8 @@
   background: #fff;
   border: 1px solid var(--rule);
   box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
@@ -388,6 +392,7 @@
   }
   .specialty-page .about-img .img-placeholder {
     min-height: 220px;
+    overflow: hidden;
   }
 }
 
@@ -852,17 +857,21 @@
   border-radius: var(--radius);
   margin-bottom: 12px;
   overflow: hidden;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: box-shadow 0.3s;
 }
 
 .specialty-page .faq-item:hover {
+  box-shadow: var(--shadow);
+}
+
+.specialty-page .faq-item.open {
   border-color: var(--brand);
 }
 
 .specialty-page .faq-question {
   padding: 18px 24px;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.95rem;
   color: var(--ink-deep);
   cursor: pointer;
   display: flex;
@@ -870,24 +879,29 @@
   justify-content: space-between;
   gap: 16px;
   user-select: none;
-  transition: color 0.2s;
+  font-family: var(--font-display);
+  transition: background 0.2s;
 }
 
 .specialty-page .faq-question:hover {
-  color: var(--brand);
+  background: var(--mist);
+}
+
+.specialty-page .faq-item.open .faq-question {
+  color: var(--ink-deep);
 }
 
 .specialty-page .faq-question svg {
-  width: 18px;
-  height: 18px;
-  min-width: 18px;
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
   transition: transform 0.3s ease;
-  color: var(--ink-soft);
+  color: var(--brand);
 }
 
 .specialty-page .faq-item.open .faq-question svg {
   transform: rotate(180deg);
-  color: var(--brand);
 }
 
 .specialty-page .faq-answer {

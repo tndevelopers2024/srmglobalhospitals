@@ -127,7 +127,7 @@ export default function ArtBody() {
           <div className="hero-image">
             <div className="hero-image-wrapper">
               <Image
-                src="/images/coe/gastro-and-liver-sciences/hero.avif"
+                src="/images/coe/gastro-and-liver-sciences/hero-1.avif"
                 alt="Gastro and Liver Sciences Centre"
                 width={640}
                 height={480}
@@ -198,9 +198,13 @@ export default function ArtBody() {
             </a>
           </div>
           <div className="about-image">
-            <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-              Gastroenterology Team
-            </div>
+            <Image
+              src="/images/coe/gastro-and-liver-sciences/team.avif"
+              alt="Institute of Gastro and Liver Sciences Team"
+              width={600}
+              height={450}
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+            />
           </div>
         </div>
       </section>
@@ -425,9 +429,13 @@ export default function ArtBody() {
           {activeTab === "upper-gi" && (
             <div className="tab-panel active" id="tab-upper-gi">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Endoscopy Suite
-                </div>
+                <Image
+                  src="/images/coe/gastro-and-liver-sciences/upper-gi-endoscopy.avif"
+                  alt="Upper GI Endoscopy"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Upper GI Endoscopy</h3>
@@ -446,9 +454,13 @@ export default function ArtBody() {
           {activeTab === "colonoscopy" && (
             <div className="tab-panel active" id="tab-colonoscopy">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Colonoscopy
-                </div>
+                <Image
+                  src="/images/coe/gastro-and-liver-sciences/colonoscopy.avif"
+                  alt="Colonoscopy"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Colonoscopy</h3>
@@ -467,9 +479,13 @@ export default function ArtBody() {
           {activeTab === "ercp" && (
             <div className="tab-panel active" id="tab-ercp">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: ERCP
-                </div>
+                <Image
+                  src="/images/coe/gastro-and-liver-sciences/ercp.avif"
+                  alt="ERCP Procedure"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>ERCP (Endoscopic Retrograde Cholangiopancreatography)</h3>
@@ -488,9 +504,13 @@ export default function ArtBody() {
           {activeTab === "lap-surgery" && (
             <div className="tab-panel active" id="tab-lap-surgery">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Laparoscopic Surgery
-                </div>
+                <Image
+                  src="/images/coe/gastro-and-liver-sciences/laparoscopic-gi-surgery.avif"
+                  alt="Laparoscopic GI Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Laparoscopic GI Surgery</h3>
@@ -509,9 +529,13 @@ export default function ArtBody() {
           {activeTab === "liver-mgmt" && (
             <div className="tab-panel active" id="tab-liver-mgmt">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Liver Care
-                </div>
+                <Image
+                  src="/images/coe/gastro-and-liver-sciences/liver-disease-management.avif"
+                  alt="Liver Disease Management"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Liver Disease Management</h3>
@@ -541,21 +565,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Endoscopy Suite</div>
+              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/endoscopy-suite.avif" alt="Dedicated Endoscopy Suite" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Dedicated Endoscopy Suite</h3>
                 <p>High-definition endoscopy system for upper GI endoscopy, colonoscopy, endoscopic ultrasound, and ERCP. Separate procedure and recovery areas with full sedation support and monitoring.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: OT</div>
+              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/ot.avif" alt="Advanced Surgical OT" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Surgical OT</h3>
                 <p>Fully equipped operating theatre with laparoscopic instruments, energy devices, and intraoperative imaging for minimally invasive and open GI surgeries. Infection control protocols matching international standards.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Lab</div>
+              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/lab.avif" alt="On-Site Laboratory and Imaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>On-Site Laboratory &amp; Imaging</h3>
                 <p>24/7 laboratory for liver function tests, tumour markers, and histopathology. Ultrasound, CT, and MRI available for comprehensive GI and liver imaging without external referrals.</p>
@@ -774,7 +798,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-1.avif" alt="Fatty Liver Disease Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Liver Health</span>
                 <h3>Fatty Liver Disease: What You Need to Know Before It Progresses</h3>
@@ -785,7 +809,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-2.avif" alt="IBS vs IBD Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Digestive Health</span>
                 <h3>IBS vs IBD: How to Tell the Difference</h3>
@@ -796,7 +820,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-3.avif" alt="Colonoscopy Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Screening</span>
                 <h3>When Should You Get a Colonoscopy?</h3>

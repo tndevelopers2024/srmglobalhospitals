@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Nephrology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/nephrology/hero-1.avif"
+          alt="nephrology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>As the best nephrology hospital in Chengalpattu, we utilize cutting-edge technology and state-of-the-art infrastructure to deliver unparalleled kidney care and treatment, from routine renal care to haemodialysis, peritoneal dialysis, and kidney transplant evaluation.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Nephrology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/nephrology/dept-1.avif"
+          alt="Nephrology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

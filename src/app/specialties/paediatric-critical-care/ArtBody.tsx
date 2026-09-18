@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Paediatric Critical Care Unit</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/paediatric-critical-care/hero.avif"
+          alt="paediatric-critical-care Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Led by experienced paediatric intensivists, supported by skilled nurses, and backed by advanced technology, we ensure that every child receives the highest standard of care in a safe, child-friendly environment, from paediatric ventilator support to comprehensive paediatric emergency care and neonatal ICU management.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Paediatric Critical Care Unit / PICU</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/paediatric-critical-care/dept-1.avif"
+          alt="Paediatric Critical Care Unit / PICU - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

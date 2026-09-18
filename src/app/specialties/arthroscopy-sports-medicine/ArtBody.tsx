@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Arthroscopy &amp; Sports Medicine Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/arthroscopy-sports-medicine/hero-1.avif"
+          alt="arthroscopy-sports-medicine Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our multidisciplinary team uses cutting-edge arthroscopic technology and evidence-based protocols to deliver personalized sports injury treatment for athletes, active individuals, and those with chronic joint issues, including ACL reconstruction, knee arthroscopy, shoulder arthroscopy, and meniscus repair. From injury prevention to complete post-operative sports rehabilitation, we work closely with our physiotherapy and rehabilitation teams to restore movement and enhance performance at every level.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Arthroscopy Suite / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/arthroscopy-sports-medicine/dept-1.avif"
+          alt="Arthroscopy Suite / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

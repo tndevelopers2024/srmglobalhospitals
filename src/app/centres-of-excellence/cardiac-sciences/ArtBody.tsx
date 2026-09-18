@@ -112,7 +112,7 @@ export default function ArtBody() {
     <div className="hero-image">
       <div className="hero-image-wrapper">
         <Image
-          src="/images/coe/cardiac-sciences/hero-1.avif"
+          src="/images/coe/cardiac-sciences/hero-2.avif"
           alt="Institute of Cardiac Sciences"
           width={640}
           height={480}
@@ -160,7 +160,13 @@ export default function ArtBody() {
       <a className="btn btn-gradient btn-sm" style={{ marginTop: '24px' }} href="#cta-banner">Learn More</a>
     </div>
     <div className="about-image">
-      <div>Cardiology Team</div>
+      <Image
+        src="/images/coe/cardiac-sciences/team.avif"
+        alt="Institute of Cardiac Sciences Team"
+        width={600}
+        height={450}
+        style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+      />
     </div>
   </div>
 </section>
@@ -248,7 +254,17 @@ export default function ArtBody() {
     </div>
     <div className="doctors-grid">
       <div className="doctor-card">
-        <div className="doctor-photo"><div className="doctor-photo-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg></div></div>
+        <div className="doctor-photo">
+          <div className="doctor-photo-circle">
+            <Image
+              src="/images/coe/cardiac-sciences/dr-c-s-aravind.png"
+              alt="Dr. C.S. Aravind"
+              width={122}
+              height={122}
+              style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            />
+          </div>
+        </div>
         <div className="doctor-info">
           <div className="doctor-name">Dr. C.S. Aravind</div>
           <div className="doctor-designation">SENIOR CONSULTANT, CARDIOLOGY</div>
@@ -257,7 +273,17 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="doctor-card">
-        <div className="doctor-photo"><div className="doctor-photo-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg></div></div>
+        <div className="doctor-photo">
+          <div className="doctor-photo-circle">
+            <Image
+              src="/images/coe/cardiac-sciences/dr-tamilmani-v.png"
+              alt="Dr. Tamilmani V"
+              width={122}
+              height={122}
+              style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            />
+          </div>
+        </div>
         <div className="doctor-info">
           <div className="doctor-name">Dr. Tamilmani V</div>
           <div className="doctor-designation">SENIOR CONSULTANT, CARDIOLOGY</div>
@@ -266,7 +292,17 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="doctor-card">
-        <div className="doctor-photo"><div className="doctor-photo-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" /><circle cx="12" cy="7" r="4" /></svg></div></div>
+        <div className="doctor-photo">
+          <div className="doctor-photo-circle">
+            <Image
+              src="/images/coe/cardiac-sciences/dr-surya-prakash-s.png"
+              alt="Dr. Surya Prakash S"
+              width={122}
+              height={122}
+              style={{ width: "100%", height: "100%", objectFit: "contain" }}
+            />
+          </div>
+        </div>
         <div className="doctor-info">
           <div className="doctor-name">Dr. Surya Prakash S</div>
           <div className="doctor-designation">SENIOR CONSULTANT, CARDIOLOGY</div>
@@ -305,7 +341,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'diagnostics' ? 'active' : ''}`} id="tab-diagnostics">
-      <div className="tab-image"><div>Image Placeholder: Cardiac Diagnostics</div></div>
+      <div className="tab-image"><Image src="/images/coe/cardiac-sciences/non-invasive-diagnostics.avif" alt="Non-Invasive Cardiac Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Non-Invasive Diagnostics</h3>
         <ul>
@@ -317,7 +353,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'interventional' ? 'active' : ''}`} id="tab-interventional">
-      <div className="tab-image"><div>Image Placeholder: Cath Lab</div></div>
+      <div className="tab-image"><Image src="/images/coe/cardiac-sciences/interventional-procedures.avif" alt="Interventional Cardiac Procedures" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Interventional Procedures</h3>
         <ul>
@@ -339,7 +375,7 @@ export default function ArtBody() {
     </div>
     <div className="tech-grid">
       <div className="tech-card">
-        <div className="tech-card-img">Image Placeholder: Cath Lab</div>
+        <div className="tech-card-img"><Image src="/images/coe/cardiac-sciences/cath-lab.avif" alt="Cardiac Emergency and Cath Lab" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Cardiac Emergency &amp; Cath Lab</h3>
           <p>A dedicated cardiac emergency unit and catheterisation lab for rapid angioplasty.</p>
@@ -456,7 +492,7 @@ export default function ArtBody() {
     </div>
     <div className="articles-grid">
       <div className="article-card">
-        <div className="article-img">Image Placeholder</div>
+        <div className="article-img"><Image src="/images/coe/cardiac-sciences/article.avif" alt="Heart Attack Warning Signs Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Heart Health</span>
           <h3>Warning Signs of a Heart Attack You Shouldn't Ignore</h3>

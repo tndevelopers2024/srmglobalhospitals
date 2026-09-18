@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Medical Oncology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/medical-oncology/hero-1.avif"
+          alt="medical-oncology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>The department offers a wide range of treatment modalities, including chemotherapy, radiation therapy, immunotherapy, targeted therapy, and minimally invasive surgical procedures, aimed at maximizing therapeutic efficacy while minimizing side effects and preserving quality of life. As the best oncology hospital in Chengalpattu, we also provide comprehensive supportive services such as pain management, nutritional counseling, psychosocial support, and survivorship care to address the physical, emotional, and social needs of patients and their families throughout their cancer journey.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Medical Oncology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/medical-oncology/dept-1.avif"
+          alt="Medical Oncology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

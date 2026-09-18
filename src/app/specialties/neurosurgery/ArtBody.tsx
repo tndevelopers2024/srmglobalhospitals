@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Neurosurgery Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/neurosurgery/hero-2.avif"
+          alt="neurosurgery Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>This interdisciplinary approach enables us to comprehend the complexities of the brain and its functions comprehensively, from brain tumour surgery and craniotomy to minimally invasive neurosurgery and deep brain stimulation.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Neurosurgery Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/neurosurgery/dept-1.avif"
+          alt="Neurosurgery Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

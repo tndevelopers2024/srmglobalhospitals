@@ -198,9 +198,13 @@ export default function ArtBody() {
             </a>
           </div>
           <div className="about-image">
-            <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-              Neurosciences Team
-            </div>
+            <Image
+              src="/images/coe/neuro-sciences/team.avif"
+              alt="Institute of Neuro Sciences Team"
+              width={600}
+              height={450}
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+            />
           </div>
         </div>
       </section>
@@ -326,10 +330,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/neuro-sciences/dr-ilankumaran.png"
+                    alt="Dr. Ilankumaran"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -343,10 +350,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/neuro-sciences/dr-elanthiraiyan-g-c.png"
+                    alt="Dr. Elanthiraiyan G.C"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -360,10 +370,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/neuro-sciences/dr-t-p-jeya-selva-senthilkumar.png"
+                    alt="Dr. T.P. Jeya Selva Senthilkumar"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -377,10 +390,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/neuro-sciences/dr-r-kalpana.png"
+                    alt="Dr. R. Kalpana"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -446,9 +462,13 @@ export default function ArtBody() {
           {activeTab === "brain-surgery" && (
             <div className="tab-panel active" id="tab-brain-surgery">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Brain Surgery
-                </div>
+                <Image
+                  src="/images/coe/neuro-sciences/brain-tumour-surgery.avif"
+                  alt="Brain Tumour Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Brain Tumour Surgery</h3>
@@ -467,9 +487,13 @@ export default function ArtBody() {
           {activeTab === "spine-surgery" && (
             <div className="tab-panel active" id="tab-spine-surgery">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Spine Surgery
-                </div>
+                <Image
+                  src="/images/coe/neuro-sciences/spine-surgery.avif"
+                  alt="Spine Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Spine Surgery</h3>
@@ -488,9 +512,13 @@ export default function ArtBody() {
           {activeTab === "stroke-intervention" && (
             <div className="tab-panel active" id="tab-stroke-intervention">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Stroke Intervention
-                </div>
+                <Image
+                  src="/images/coe/neuro-sciences/stroke- intervention.avif"
+                  alt="Stroke Intervention"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Stroke Intervention</h3>
@@ -509,9 +537,13 @@ export default function ArtBody() {
           {activeTab === "epilepsy-mgmt" && (
             <div className="tab-panel active" id="tab-epilepsy-mgmt">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Epilepsy Management
-                </div>
+                <Image
+                  src="/images/coe/neuro-sciences/epilepsy-management.avif"
+                  alt="Epilepsy Management"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Epilepsy Management</h3>
@@ -530,9 +562,13 @@ export default function ArtBody() {
           {activeTab === "neuro-diagnostics" && (
             <div className="tab-panel active" id="tab-neuro-diagnostics">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Neuro-Diagnostics
-                </div>
+                <Image
+                  src="/images/coe/neuro-sciences/neuro-diagnostics.avif"
+                  alt="Neuro-Diagnostics"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Neuro-Diagnostics</h3>
@@ -562,21 +598,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Neuroimaging</div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-imaging.avif" alt="Advanced Neuroimaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Neuroimaging</h3>
                 <p>High-resolution CT scanner and MRI capabilities for detailed brain and spinal cord imaging. CT angiography for emergency stroke assessment and MRI protocols for tumour evaluation, epilepsy workup, and demyelinating diseases.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Neuro ICU</div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-icu.avif" alt="Neuro Intensive Care Unit" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Neuro Intensive Care Unit</h3>
                 <p>Dedicated neuro ICU with continuous EEG monitoring, invasive intracranial pressure monitoring, ventilator support, and round-the-clock intensivist and neurology coverage for post-operative and critically ill neurological patients.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Neuro OT</div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-ot.avif" alt="Neurosurgical Operating Theatre" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Neurosurgical Operating Theatre</h3>
                 <p>Fully equipped neurosurgery OT with operating microscope, neuronavigation system, and intraoperative monitoring. Designed for both cranial and spinal procedures with infection control standards matching international protocols.</p>
@@ -795,7 +831,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/neuro-sciences/article-1.avif" alt="Stroke Warning Signs Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Stroke</span>
                 <h3>Understanding Stroke: Warning Signs and Why Every Minute Matters</h3>
@@ -806,7 +842,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/neuro-sciences/article-2.avif" alt="Epilepsy Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Epilepsy</span>
                 <h3>Living with Epilepsy: What Patients and Families Should Know</h3>
@@ -817,7 +853,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/neuro-sciences/article-3.avif" alt="When to See a Neurologist Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Neurology</span>
                 <h3>When Should You See a Neurologist?</h3>

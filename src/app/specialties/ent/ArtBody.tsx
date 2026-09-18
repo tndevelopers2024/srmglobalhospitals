@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - ENT Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/ent/hero-2.avif"
+          alt="ent Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>SRM Global Hospitals is equipped with state-of-the-art facilities and advanced diagnostic technologies, enabling precise evaluation and treatment planning for complex ENT disorders. From advanced imaging modalities to specialized surgical suites, the hospital provides a conducive environment for both routine procedures, such as tonsillectomy and septoplasty, and intricate interventions, ensuring the highest standards of safety, efficacy, and patient satisfaction.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - ENT Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/ent/dept-1.avif"
+          alt="ENT Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

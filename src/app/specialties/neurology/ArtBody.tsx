@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Neurology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/neurology/hero-2.avif"
+          alt="neurology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>As the best neurology hospital in Chengalpattu, our approach blends clinical excellence with cutting-edge diagnostics, ensuring timely intervention and long-term care for every patient, from emergency stroke management to chronic neurodegenerative disorders.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Neurology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/neurology/dept-1.avif"
+          alt="Neurology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Ophthalmology Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/ophthalmology/hero-1.avif"
+          alt="ophthalmology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our focus spans the entire spectrum of ophthalmology, covering diseases and surgeries related to the visual pathways, including the eyes, brain, lacrimal system, and eyelids. As the best ophthalmology hospital in Chengalpattu, we combine advanced diagnostics with personalized eye surgery and treatment plans.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Ophthalmology Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/ophthalmology/dept.avif"
+          alt="Ophthalmology Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

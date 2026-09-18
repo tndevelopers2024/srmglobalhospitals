@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ArtBody() {
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -97,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Psychiatry Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/psychiatry/hero-1.avif"
+          alt="Psychiatry Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -152,7 +161,14 @@ export default function ArtBody() {
       <p>With a focus on cutting-edge research and innovative treatments, SRM Global Hospitals integrates the latest advancements in psychiatry into its practice, ensuring patients receive the highest standard of care. The department is equipped with state-of-the-art facilities, including therapy rooms, consultation suites, and inpatient units, providing a supportive and therapeutic environment for individuals seeking help. Through a combination of medication management, psychotherapy, and lifestyle interventions, our psychiatry department empowers patients to achieve mental wellness and lead fulfilling lives.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Psychiatry Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/psychiatry/dept-1.avif"
+          alt="Psychiatry Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

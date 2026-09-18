@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Orthopedics Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/orthopedics/hero-1.avif"
+          alt="Orthopedics Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>Our distinguished medical professionals collaboratively employ cutting-edge techniques, ensuring both surgical and nonsurgical solutions for a range of conditions. As the best orthopedic hospital in Chengalpattu, our orthopedic surgeons and bone and joint specialists combine advanced diagnostics with personalized fracture treatment and surgical care.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Orthopedics Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/orthopedics/dept.avif"
+          alt="Orthopedics Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

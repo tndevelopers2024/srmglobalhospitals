@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Interventional Radiology Department</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/interventional-radiology/hero.avif"
+          alt="interventional-radiology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>From treating blocked blood vessels to targeting tumors without open surgery, our team plays a critical role across specialties including oncology, neurology, vascular care, and urology. As the best interventional radiology hospital in Chengalpattu, we combine advanced IR procedures with a multi-specialty, patient-centered approach to every case.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Interventional Radiology Suite</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/interventional-radiology/dept.avif"
+                alt="Interventional Radiology Suite - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

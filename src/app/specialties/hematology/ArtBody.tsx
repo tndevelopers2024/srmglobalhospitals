@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -116,7 +116,15 @@ export default function ArtBody() {
             </div>
           </div>
           <div className="hero-img reveal">
-            <div className="img-placeholder">Hero Image - Hematology Department</div>
+            <div className="img-placeholder">
+        <Image
+          src="/images/specialties/hematology/hero.avif"
+          alt="hematology Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
           </div>
         </div>
       </section>
@@ -167,7 +175,14 @@ export default function ArtBody() {
             <p>As the best hematology hospital in Chengalpattu, our department takes a patient-first approach, offering accurate diagnostics, advanced treatment protocols, and long-term monitoring tailored to each individual&amp;apos;s needs. Whether it is a benign hematological issue or a malignant blood cancer, our team ensures compassionate and evidence-based care.</p>
           </div>
           <div className="about-img reveal">
-            <div className="img-placeholder">Department Image - Hematology Clinic / Consultation</div>
+            <div className="img-placeholder">
+              <Image
+                src="/images/specialties/hematology/dept-1.avif"
+                alt="Hematology Clinic / Consultation - SRM Global Hospitals"
+                fill
+                style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+              />
+            </div>
           </div>
         </div>
       </section>

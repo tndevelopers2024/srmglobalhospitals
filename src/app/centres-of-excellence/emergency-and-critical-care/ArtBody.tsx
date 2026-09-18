@@ -199,9 +199,13 @@ export default function ArtBody() {
             </a>
           </div>
           <div className="about-image">
-            <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-              Emergency &amp; Critical Care Team
-            </div>
+            <Image
+              src="/images/coe/emergency-and-critical-care/team-1.avif"
+              alt="Emergency and Critical Care Team"
+              width={600}
+              height={450}
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+            />
           </div>
         </div>
       </section>
@@ -473,9 +477,13 @@ export default function ArtBody() {
           {activeTab === "trauma-resuscitation" && (
             <div className="tab-panel active" id="tab-trauma-resuscitation">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Trauma Resuscitation
-                </div>
+                <Image
+                  src="/images/coe/emergency-and-critical-care/trauma-resuscitation.avif"
+                  alt="Trauma Resuscitation"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Trauma Resuscitation &amp; Stabilisation</h3>
@@ -494,9 +502,13 @@ export default function ArtBody() {
           {activeTab === "cardiac-care" && (
             <div className="tab-panel active" id="tab-cardiac-care">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Emergency Cardiac Care
-                </div>
+                <Image
+                  src="/images/coe/emergency-and-critical-care/emergency-cardiac-intervention.avif"
+                  alt="Emergency Cardiac Intervention"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Emergency Cardiac Intervention</h3>
@@ -515,9 +527,13 @@ export default function ArtBody() {
           {activeTab === "stroke-management" && (
             <div className="tab-panel active" id="tab-stroke-management">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Stroke Management
-                </div>
+                <Image
+                  src="/images/coe/emergency-and-critical-care/stroke-management.avif"
+                  alt="Stroke Management"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Acute Stroke Management</h3>
@@ -536,9 +552,13 @@ export default function ArtBody() {
           {activeTab === "critical-care" && (
             <div className="tab-panel active" id="tab-critical-care">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Critical Care ICU
-                </div>
+                <Image
+                  src="/images/coe/emergency-and-critical-care/critical-care-1.avif"
+                  alt="Intensive Care ICU"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Intensive Care &amp; Organ Support</h3>
@@ -557,9 +577,13 @@ export default function ArtBody() {
           {activeTab === "paediatric-emergency" && (
             <div className="tab-panel active" id="tab-paediatric-emergency">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Pediatric Emergency
-                </div>
+                <Image
+                  src="/images/coe/emergency-and-critical-care/pediatric-emergency.avif"
+                  alt="Paediatric Emergency"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Pediatric Emergency Medicine</h3>
@@ -589,21 +613,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Trauma Bay</div>
+              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/trauma-bay.avif" alt="Trauma Bay and Resuscitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Trauma Bay &amp; Resuscitation</h3>
                 <p>Fully equipped resuscitation area with advanced monitoring, defibrillators, emergency airway equipment, and point-of-care ultrasound. Designed for simultaneous multi-team response to critical patients.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Diagnostics</div>
+              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/diagnostics.avif" alt="In-House Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>In-House Diagnostics</h3>
                 <p>24/7 radiology facilities including digital X-ray, CT scanner, and ultrasound. On-site laboratory services for blood work, cardiac markers, and toxicology, delivering results within minutes.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: ICU</div>
+              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/icu.avif" alt="Critical Care ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Critical Care ICU</h3>
                 <p>Multi-bed intensive care unit with individual isolation capability, invasive and non-invasive ventilators, continuous haemodynamic monitoring, bedside echocardiography, and ECMO readiness for the most critical conditions.</p>
@@ -807,7 +831,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-1.avif" alt="Heart Attack First Response Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Emergency Care</span>
                 <h3>What to Do in the First 10 Minutes of a Heart Attack</h3>
@@ -818,7 +842,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-2.avif" alt="Road Accident First Aid Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Trauma</span>
                 <h3>Road Accident First Aid: What Bystanders Should Know</h3>
@@ -829,7 +853,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-3.avif" alt="Paediatric Emergency Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Child Health</span>
                 <h3>When to Rush Your Child to the Emergency Room</h3>

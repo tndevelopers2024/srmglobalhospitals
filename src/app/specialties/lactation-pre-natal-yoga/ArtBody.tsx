@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ArtBody() {
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -97,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Lactation and Pre-Natal Yoga Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/lactation-pre-natal-yoga/hero-1.avif"
+          alt="lactation-pre-natal-yoga Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -152,7 +161,14 @@ export default function ArtBody() {
       <p>As the best prenatal care hospital in Chengalpattu, our lactation consultant and prenatal yoga specialists offer personalized breastfeeding support, pregnancy yoga, and antenatal and postnatal care so every mother feels informed, comfortable, and supported at every stage.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Lactation and Prenatal Yoga Session</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/lactation-pre-natal-yoga/dept-1.avif"
+          alt="Lactation and Prenatal Yoga Session - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

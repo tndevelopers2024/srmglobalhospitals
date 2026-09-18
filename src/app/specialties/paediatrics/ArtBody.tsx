@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -98,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Paediatrics Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/paediatrics/hero.avif"
+          alt="paediatrics Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -153,7 +161,14 @@ export default function ArtBody() {
       <p>With state-of-the-art facilities, including advanced imaging and diagnostic tools, and a child-friendly environment, we ensure the highest quality of care and support that pediatric patients need throughout their journey to health and wellbeing. As the best paediatric hospital in Chengalpattu, our child specialists combine clinical expertise with a gentle, family-centered approach.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Paediatrics Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/paediatrics/dept.avif"
+          alt="Paediatrics Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>

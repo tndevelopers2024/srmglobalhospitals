@@ -198,9 +198,13 @@ export default function ArtBody() {
             </a>
           </div>
           <div className="about-image">
-            <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-              Women&apos;s Health Team
-            </div>
+            <Image
+              src="/images/coe/womens-health/team.avif"
+              alt="Institute of Women's Health Team"
+              width={600}
+              height={450}
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+            />
           </div>
         </div>
       </section>
@@ -305,10 +309,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/womens-health/dr-r-k-vidhyalakshmi.png"
+                    alt="Dr. R.K. Vidhyalakshmi"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -322,10 +329,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/womens-health/dr-harini-sivamani.png"
+                    alt="Dr. Harini Sivamani"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -339,10 +349,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/womens-health/dr-p-mathumathi.png"
+                    alt="Dr. P. Mathumathi"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -356,10 +369,13 @@ export default function ArtBody() {
             <div className="doctor-card">
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                  </svg>
+                  <Image
+                    src="/images/coe/womens-health/dr-karthiga-prabhu-j.png"
+                    alt="Dr. Karthiga Prabhu J"
+                    width={122}
+                    height={122}
+                    style={{ width: "100%", height: "100%", objectFit: "contain" }}
+                  />
                 </div>
               </div>
               <div className="doctor-info">
@@ -425,9 +441,13 @@ export default function ArtBody() {
           {activeTab === "normal-delivery" && (
             <div className="tab-panel active" id="tab-normal-delivery">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Normal Delivery Suite
-                </div>
+                <Image
+                  src="/images/coe/womens-health/normaldelivery.avif"
+                  alt="Normal and Assisted Delivery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Normal &amp; Assisted Delivery</h3>
@@ -446,9 +466,13 @@ export default function ArtBody() {
           {activeTab === "csection" && (
             <div className="tab-panel active" id="tab-csection">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: C-Section OT
-                </div>
+                <Image
+                  src="/images/coe/womens-health/caesarean-section.avif"
+                  alt="Caesarean Section"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Caesarean Section</h3>
@@ -467,9 +491,13 @@ export default function ArtBody() {
           {activeTab === "lap-gynae" && (
             <div className="tab-panel active" id="tab-lap-gynae">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Laparoscopic Surgery
-                </div>
+                <Image
+                  src="/images/coe/womens-health/laparoscopic-surgery.avif"
+                  alt="Laparoscopic Gynaecological Surgery"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Laparoscopic Gynaecological Surgery</h3>
@@ -488,9 +516,13 @@ export default function ArtBody() {
           {activeTab === "fertility" && (
             <div className="tab-panel active" id="tab-fertility">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Fertility Consultation
-                </div>
+                <Image
+                  src="/images/coe/womens-health/fertility-treatment.avif"
+                  alt="Fertility Evaluation and Treatment"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Fertility Evaluation &amp; Treatment</h3>
@@ -509,9 +541,13 @@ export default function ArtBody() {
           {activeTab === "cervical" && (
             <div className="tab-panel active" id="tab-cervical">
               <div className="tab-image">
-                <div style={{ textAlign: "center", padding: "20px", color: "var(--ink-faint)" }}>
-                  Image Placeholder: Cervical Screening
-                </div>
+                <Image
+                  src="/images/coe/womens-health/cervical-screening.avif"
+                  alt="Cervical Screening and Colposcopy"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+                />
               </div>
               <div className="tab-content">
                 <h3>Cervical Screening &amp; Colposcopy</h3>
@@ -541,21 +577,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Labour Ward</div>
+              <div className="tech-card-img"><Image src="/images/coe/womens-health/labour-ward.avif" alt="Labour Ward and Delivery Suites" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Labour Ward &amp; Delivery Suites</h3>
                 <p>Dedicated labour rooms with continuous foetal monitoring, epidural capability, and immediate access to the operating theatre for emergency caesarean section. Designed for privacy, comfort, and safe childbirth.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: NICU</div>
+              <div className="tech-card-img"><Image src="/images/coe/womens-health/nicu.avif" alt="Neonatal ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Neonatal ICU (NICU)</h3>
                 <p>Level II NICU with incubators, phototherapy, CPAP, and monitoring for premature and high-risk newborns. Neonatal team available round the clock for immediate resuscitation and stabilisation.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder: Gynae OT</div>
+              <div className="tech-card-img"><Image src="/images/coe/womens-health/gynae-ot.avif" alt="Gynaecological OT and Endoscopy" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Gynaecological OT &amp; Endoscopy</h3>
                 <p>Fully equipped operating theatre for open and laparoscopic gynaecological surgeries. Hysteroscopy suite for diagnostic and operative procedures including polypectomy, fibroid resection, and septal correction.</p>
@@ -774,7 +810,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-1.avif" alt="Pregnancy Trimesters Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Pregnancy</span>
                 <h3>What to Expect During Each Trimester of Pregnancy</h3>
@@ -785,7 +821,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-2.avif" alt="PCOS and Fertility Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Fertility</span>
                 <h3>PCOS and Fertility: What Every Woman Should Know</h3>
@@ -796,7 +832,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-3.avif" alt="Cervical Cancer Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Screening</span>
                 <h3>Cervical Cancer Screening: When to Start and How Often</h3>

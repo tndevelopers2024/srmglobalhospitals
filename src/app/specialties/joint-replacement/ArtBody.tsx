@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ArtBody() {
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -97,7 +98,15 @@ export default function ArtBody() {
       </div>
     </div>
     <div className="hero-img reveal">
-      <div className="img-placeholder">Hero Image - Joint Replacement Department</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/joint-replacement/hero-2.avif"
+          alt="joint-replacement Department - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+          priority
+        />
+      </div>
     </div>
   </div>
 </section>
@@ -152,7 +161,14 @@ export default function ArtBody() {
       <p>As the best joint replacement hospital in Chengalpattu, our goal is to help every patient regain pain-free movement and return to their active lifestyle with confidence, whether through total knee replacement, hip replacement surgery, or a more complex revision joint replacement procedure.</p>
     </div>
     <div className="about-img reveal">
-      <div className="img-placeholder">Department Image - Joint Replacement Clinic / Consultation</div>
+      <div className="img-placeholder">
+        <Image
+          src="/images/specialties/joint-replacement/dept-1.avif"
+          alt="Joint Replacement Clinic / Consultation - SRM Global Hospitals"
+          fill
+          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
+        />
+      </div>
     </div>
   </div>
 </section>
