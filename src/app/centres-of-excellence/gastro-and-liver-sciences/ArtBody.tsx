@@ -127,7 +127,7 @@ export default function ArtBody() {
           <div className="hero-image">
             <div className="hero-image-wrapper">
               <Image
-                src="/images/coe/gastro-and-liver-sciences/hero-1.avif"
+                src="/images/coe/gastro-and-liver-sciences/hero-2.avif"
                 alt="Gastro and Liver Sciences Centre"
                 width={640}
                 height={480}
@@ -199,7 +199,7 @@ export default function ArtBody() {
           </div>
           <div className="about-image">
             <Image
-              src="/images/coe/gastro-and-liver-sciences/team.avif"
+              src="/images/coe/gastro-and-liver-sciences/team-1.avif"
               alt="Institute of Gastro and Liver Sciences Team"
               width={600}
               height={450}
@@ -455,7 +455,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-colonoscopy">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/gastro-and-liver-sciences/colonoscopy.avif"
+                  src="/images/coe/gastro-and-liver-sciences/colonoscopy-1.avif"
                   alt="Colonoscopy"
                   width={600}
                   height={400}
@@ -530,7 +530,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-liver-mgmt">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/gastro-and-liver-sciences/liver-disease-management.avif"
+                  src="/images/coe/gastro-and-liver-sciences/liver-disease-management-1.avif"
                   alt="Liver Disease Management"
                   width={600}
                   height={400}
@@ -798,7 +798,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-1.avif" alt="Fatty Liver Disease Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-1-new.avif" alt="Fatty Liver Disease Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Liver Health</span>
                 <h3>Fatty Liver Disease: What You Need to Know Before It Progresses</h3>
@@ -809,7 +809,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-2.avif" alt="IBS vs IBD Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-2-new.avif" alt="IBS vs IBD Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Digestive Health</span>
                 <h3>IBS vs IBD: How to Tell the Difference</h3>
@@ -820,7 +820,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-3.avif" alt="Colonoscopy Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-3-new.avif" alt="Colonoscopy Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Screening</span>
                 <h3>When Should You Get a Colonoscopy?</h3>

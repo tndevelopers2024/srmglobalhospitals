@@ -162,7 +162,7 @@ export default function ArtBody() {
     </div>
     <div className="about-image">
       <Image
-        src="/images/coe/solid-organ-transplants/team.avif"
+        src="/images/coe/solid-organ-transplants/team-1.avif"
         alt="Institute of Solid Organ Transplants Team"
         width={600}
         height={450}
@@ -392,7 +392,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'liver' ? 'active' : ''}`} id="tab-liver">
-      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/liiver-transplant.avif" alt="Liver Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/liver-transplant.avif" alt="Liver Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Liver Transplant</h3>
         <p>A liver transplant replaces a diseased liver with a healthy donor organ, used to treat liver cirrhosis, end-stage liver disease, and acute liver failure. Living donor liver transplants use a portion of a healthy donor's liver, which regenerates in both donor and recipient over the following months.</p>
@@ -447,21 +447,21 @@ export default function ArtBody() {
     </div>
     <div className="tech-grid">
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-icu.avif" alt="Transplant Surgery Suite and ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-icu-1.avif" alt="Transplant Surgery Suite and ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>24/7 Transplant Surgery Suite &amp; ICU</h3>
           <p>A dedicated transplant surgery suite and intensive care unit, staffed round the clock for close monitoring in the days immediately following transplant surgery.</p>
         </div>
       </div>
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/tissue-typing-lab.avif" alt="Advanced Imaging and Laboratory Services" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/tissue-typing-lab-1.avif" alt="Advanced Imaging and Laboratory Services" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Advanced Imaging &amp; Laboratory Services</h3>
           <p>On-site imaging, blood tests, and tissue-typing to confirm donor compatibility and monitor organ function before and after every transplant.</p>
         </div>
       </div>
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-ot1.avif" alt="Post-Transplant and Telemedicine Support" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-ot.avif" alt="Post-Transplant and Telemedicine Support" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Post-Transplant &amp; Telemedicine Support</h3>
           <p>Medication management, counselling, and rehabilitation after surgery, plus telemedicine consultations for patients following up from outside Chengalpattu.</p>
@@ -624,7 +624,7 @@ export default function ArtBody() {
     </div>
     <div className="articles-grid">
       <div className="article-card">
-        <div className="article-img"><Image src="/images/coe/solid-organ-transplants/article-1.avif" alt="Living vs Deceased Donor Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="article-img"><Image src="/images/coe/solid-organ-transplants/article-1-new.avif" alt="Living vs Deceased Donor Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Organ Donation</span>
           <h3>Living Donor vs Deceased Donor Transplant: What's the Difference?</h3>
@@ -633,7 +633,7 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="article-card">
-        <div className="article-img"><Image src="/images/coe/solid-organ-transplants/article-2.avif" alt="Life After Kidney Transplant Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="article-img"><Image src="/images/coe/solid-organ-transplants/article-2-new.avif" alt="Life After Kidney Transplant Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Kidney Transplant</span>
           <h3>Life After a Kidney Transplant: What to Expect in the First Year</h3>
@@ -642,7 +642,7 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="article-card">
-        <div className="article-img"><Image src="/images/coe/solid-organ-transplants/article-3.avif" alt="Organ Rejection Signs Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="article-img"><Image src="/images/coe/solid-organ-transplants/article-3-new.avif" alt="Organ Rejection Signs Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Post-Transplant Care</span>
           <h3>Signs of Organ Rejection Every Transplant Patient Should Know</h3>

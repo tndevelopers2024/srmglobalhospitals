@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/neurology/hero-1.avif"
+            src="/images/departments/neurology/hero.avif"
             alt="Neurology Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}

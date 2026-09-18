@@ -100,7 +100,7 @@ export default function ArtBody() {
     <div className="hero-img reveal">
       <div className="img-placeholder">
         <Image
-          src="/images/specialties/dental-omfs/hero.avif"
+          src="/images/specialties/dental-omfs/hero-1.avif"
           alt="dental-omfs Department - SRM Global Hospitals"
           fill
           style={{ objectFit: "cover", borderRadius: "var(--radius)" }}

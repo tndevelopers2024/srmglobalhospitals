@@ -127,7 +127,7 @@ export default function ArtBody() {
           <div className="hero-image">
             <div className="hero-image-wrapper">
               <Image
-                src="/images/coe/neuro-sciences/hero.avif"
+                src="/images/coe/neuro-sciences/hero-1.avif"
                 alt="Institute of Neuro Sciences"
                 width={640}
                 height={480}
@@ -199,7 +199,7 @@ export default function ArtBody() {
           </div>
           <div className="about-image">
             <Image
-              src="/images/coe/neuro-sciences/team.avif"
+              src="/images/coe/neuro-sciences/team-1.avif"
               alt="Institute of Neuro Sciences Team"
               width={600}
               height={450}
@@ -563,7 +563,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-neuro-diagnostics">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/neuro-sciences/neuro-diagnostics.avif"
+                  src="/images/coe/neuro-sciences/neuro-diagnostics-1.avif"
                   alt="Neuro-Diagnostics"
                   width={600}
                   height={400}
@@ -598,7 +598,7 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-imaging.avif" alt="Advanced Neuroimaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-imaging-1.avif" alt="Advanced Neuroimaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Neuroimaging</h3>
                 <p>High-resolution CT scanner and MRI capabilities for detailed brain and spinal cord imaging. CT angiography for emergency stroke assessment and MRI protocols for tumour evaluation, epilepsy workup, and demyelinating diseases.</p>
@@ -853,7 +853,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/neuro-sciences/article-3.avif" alt="When to See a Neurologist Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/neuro-sciences/article-3-new.avif" alt="When to See a Neurologist Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Neurology</span>
                 <h3>When Should You See a Neurologist?</h3>
