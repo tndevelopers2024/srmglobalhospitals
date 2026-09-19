@@ -112,7 +112,7 @@ export default function ArtBody() {
     <div className="hero-image">
       <div className="hero-image-wrapper">
         <Image
-          src="/images/coe/renal-sciences/hero-2.avif"
+          src="/images/coe/renal-sciences/hero.avif"
           alt="Renal Sciences Centre"
           width={640}
           height={480}
@@ -161,7 +161,7 @@ export default function ArtBody() {
     </div>
     <div className="about-image">
       <Image
-        src="/images/coe/renal-sciences/team.avif"
+        src="/images/coe/renal-sciences/team-1.avif"
         alt="Institute of Renal Sciences Team"
         width={600}
         height={450}
@@ -349,7 +349,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'peritoneal' ? 'active' : ''}`} id="tab-peritoneal">
-      <div className="tab-image"><Image src="/images/coe/renal-sciences/peritoneal-dialysis.avif" alt="Peritoneal Dialysis" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/renal-sciences/peritoneal-dialysis-1.avif" alt="Peritoneal Dialysis" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Peritoneal Dialysis</h3>
         <p>Peritoneal dialysis uses the lining of the abdomen as a natural filter to remove waste and excess fluid, letting many patients dialyse at home rather than at a dialysis unit.</p>
@@ -375,21 +375,21 @@ export default function ArtBody() {
     </div>
     <div className="tech-grid">
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/renal-sciences/dialysis-unit.avif" alt="Dedicated Dialysis Unit" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/renal-sciences/dialysis-unit-1.avif" alt="Dedicated Dialysis Unit" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Dedicated Dialysis Unit</h3>
           <p>A dedicated hemodialysis and peritoneal dialysis unit with continuous monitoring, supporting patients with both chronic kidney disease and acute kidney injury.</p>
         </div>
       </div>
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/renal-sciences/nephrology-lab.avif" alt="Nephrology Lab and Imaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/renal-sciences/nephrology-lab-1.avif" alt="Nephrology Lab and Imaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Nephrology Lab &amp; Imaging</h3>
           <p>On-site urinalysis, blood tests, and ultrasound imaging to detect kidney disorders early and monitor kidney function over time.</p>
         </div>
       </div>
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/renal-sciences/critical-care.avif" alt="Critical Care Support for AKI" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/renal-sciences/critical-care-1.avif" alt="Critical Care Support for AKI" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Critical Care Support for AKI</h3>
           <p>Close coordination with intensive care for patients with acute kidney injury who need urgent dialysis or combined organ support.</p>
@@ -553,7 +553,7 @@ export default function ArtBody() {
     </div>
     <div className="articles-grid">
       <div className="article-card">
-        <div className="article-img"><Image src="/images/coe/renal-sciences/article-1.avif" alt="Kidney Signs Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="article-img"><Image src="/images/coe/renal-sciences/article-1-new.avif" alt="Kidney Signs Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Kidney Health</span>
           <h3>5 Signs Your Kidneys May Not Be Working Properly</h3>
@@ -562,7 +562,7 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="article-card">
-        <div className="article-img"><Image src="/images/coe/renal-sciences/article-2.avif" alt="Dialysis Comparison Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="article-img"><Image src="/images/coe/renal-sciences/article-2-new.avif" alt="Dialysis Comparison Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Dialysis</span>
           <h3>Hemodialysis vs Peritoneal Dialysis: Which Is Right for You?</h3>
@@ -571,7 +571,7 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="article-card">
-        <div className="article-img"><Image src="/images/coe/renal-sciences/article-3.avif" alt="CKD vs AKI Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="article-img"><Image src="/images/coe/renal-sciences/article-3-new.avif" alt="CKD vs AKI Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="article-body">
           <span className="article-tag">Prevention</span>
           <h3>Chronic Kidney Disease vs Acute Kidney Injury: What's the Difference?</h3>

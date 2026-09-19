@@ -112,7 +112,7 @@ export default function ArtBody() {
     <div className="hero-image">
       <div className="hero-image-wrapper">
         <Image
-          src="/images/coe/cardiac-sciences/hero-2.avif"
+          src="/images/coe/cardiac-sciences/hero-3.avif"
           alt="Institute of Cardiac Sciences"
           width={640}
           height={480}
@@ -341,7 +341,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'diagnostics' ? 'active' : ''}`} id="tab-diagnostics">
-      <div className="tab-image"><Image src="/images/coe/cardiac-sciences/non-invasive-diagnostics.avif" alt="Non-Invasive Cardiac Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/cardiac-sciences/non-invasive-diagnostics-1.avif" alt="Non-Invasive Cardiac Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Non-Invasive Diagnostics</h3>
         <ul>

@@ -128,7 +128,7 @@ export default function ArtBody() {
           <div className="hero-image">
             <div className="hero-image-wrapper">
               <Image
-                src="/images/coe/emergency-and-critical-care/hero.avif"
+                src="/images/coe/emergency-and-critical-care/hero-1.avif"
                 alt="Emergency and Critical Care Centre"
                 width={640}
                 height={480}
@@ -346,7 +346,7 @@ export default function ArtBody() {
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
                   <Image
-                    src="/images/coe/247-emergency-hospital-in-kattankulathur/image-1.png"
+                    src="/images/coe/emergency-and-critical-care/dr-v-p-chandrasekaran.png"
                     alt="Dr. V.P. Chandrasekaran"
                     width={122}
                     height={122}
@@ -366,7 +366,7 @@ export default function ArtBody() {
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
                   <Image
-                    src="/images/coe/247-emergency-hospital-in-kattankulathur/image-2.png"
+                    src="/images/coe/emergency-and-critical-care/dr-arthi-rajendran.png"
                     alt="Dr. Arthi Rajendran"
                     width={122}
                     height={122}
@@ -386,7 +386,7 @@ export default function ArtBody() {
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
                   <Image
-                    src="/images/coe/247-emergency-hospital-in-kattankulathur/image-3.png"
+                    src="/images/coe/emergency-and-critical-care/dr-raja-rajeshwaran.png"
                     alt="Dr. Raja Rajeshwaran"
                     width={122}
                     height={122}
@@ -406,7 +406,7 @@ export default function ArtBody() {
               <div className="doctor-photo">
                 <div className="doctor-photo-circle">
                   <Image
-                    src="/images/coe/247-emergency-hospital-in-kattankulathur/image-4.png"
+                    src="/images/coe/emergency-and-critical-care/dr-hari-prasad-s.png"
                     alt="Dr. Hari Prasad S"
                     width={122}
                     height={122}
@@ -553,7 +553,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-critical-care">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/critical-care-1.avif"
+                  src="/images/coe/emergency-and-critical-care/critical-care.avif"
                   alt="Intensive Care ICU"
                   width={600}
                   height={400}
@@ -831,7 +831,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-1.avif" alt="Heart Attack First Response Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-1-new.avif" alt="Heart Attack First Response Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Emergency Care</span>
                 <h3>What to Do in the First 10 Minutes of a Heart Attack</h3>
@@ -853,7 +853,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-3.avif" alt="Paediatric Emergency Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-3-new.avif" alt="Paediatric Emergency Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Child Health</span>
                 <h3>When to Rush Your Child to the Emergency Room</h3>

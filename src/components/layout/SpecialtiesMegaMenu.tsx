@@ -14,6 +14,7 @@ const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
   [
     { label: "Anaesthesiology", href: "/specialties/anaesthesiology" },
     { label: "Arthroscopy & Sports Medicine", href: "/specialties/arthroscopy-sports-medicine" },
+    { label: "Cardiology", href: "/specialties/cardiology" },
     { label: "Dental/OMFS", href: "/specialties/dental-omfs" },
     { label: "Dermatology", href: "/specialties/dermatology" },
     { label: "Diabetology", href: "/specialties/diabetology" },
@@ -22,15 +23,14 @@ const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
     { label: "ENT", href: "/specialties/ent" },
     { label: "Fetal Medicine", href: "/specialties/fetal-medicine" },
     { label: "General Medicine", href: "/specialties/general-medicine" },
-    { label: "General Surgery", href: "/specialties/general-surgery" },
   ],
   // Column 2
   [
+    { label: "General Surgery", href: "/specialties/general-surgery" },
     { label: "Geriatrics", href: "/specialties/geriatrics" },
     { label: "Hematology", href: "/specialties/hematology" },
     { label: "Hepatology", href: "/specialties/hepatology" },
     { label: "Infectious Disease", href: "/specialties/infectious-disease" },
-    { label: "Institute of Cardiac Sciences", href: "/specialties/institute-of-cardiac-sciences" },
     { label: "Interventional Radiology", href: "/specialties/interventional-radiology" },
     { label: "Joint Replacement", href: "/specialties/joint-replacement" },
     { label: "Lactation & Pre-Natal Yoga", href: "/specialties/lactation-pre-natal-yoga" },

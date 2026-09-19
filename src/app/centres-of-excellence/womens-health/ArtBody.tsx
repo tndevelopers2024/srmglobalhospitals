@@ -127,7 +127,7 @@ export default function ArtBody() {
           <div className="hero-image">
             <div className="hero-image-wrapper">
               <Image
-                src="/images/coe/womens-health/hero.avif"
+                src="/images/coe/womens-health/hero-1.avif"
                 alt="Women's Health & Wellness Centre"
                 width={640}
                 height={480}
@@ -442,7 +442,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-normal-delivery">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/womens-health/normaldelivery.avif"
+                  src="/images/coe/womens-health/normal-delivery.avif"
                   alt="Normal and Assisted Delivery"
                   width={600}
                   height={400}
@@ -492,7 +492,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-lap-gynae">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/womens-health/laparoscopic-surgery.avif"
+                  src="/images/coe/womens-health/laparoscopic-surgery-1.avif"
                   alt="Laparoscopic Gynaecological Surgery"
                   width={600}
                   height={400}
@@ -517,7 +517,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-fertility">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/womens-health/fertility-treatment.avif"
+                  src="/images/coe/womens-health/fertility-treatment-1.avif"
                   alt="Fertility Evaluation and Treatment"
                   width={600}
                   height={400}
@@ -542,7 +542,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-cervical">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/womens-health/cervical-screening.avif"
+                  src="/images/coe/womens-health/cervical-screening-1.avif"
                   alt="Cervical Screening and Colposcopy"
                   width={600}
                   height={400}
@@ -810,7 +810,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/womens-health/article-1.avif" alt="Pregnancy Trimesters Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-1-new.avif" alt="Pregnancy Trimesters Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Pregnancy</span>
                 <h3>What to Expect During Each Trimester of Pregnancy</h3>
@@ -821,7 +821,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/womens-health/article-2.avif" alt="PCOS and Fertility Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-2-new.avif" alt="PCOS and Fertility Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Fertility</span>
                 <h3>PCOS and Fertility: What Every Woman Should Know</h3>
@@ -832,7 +832,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/womens-health/article-3.avif" alt="Cervical Cancer Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-3-new.avif" alt="Cervical Cancer Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Screening</span>
                 <h3>Cervical Cancer Screening: When to Start and How Often</h3>

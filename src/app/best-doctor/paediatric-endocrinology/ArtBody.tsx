@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/paediatric-endocrinology/hero-2.avif"
+            src="/images/departments/paediatric-endocrinology/hero.avif"
             alt="Paediatric Endocrinology Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}

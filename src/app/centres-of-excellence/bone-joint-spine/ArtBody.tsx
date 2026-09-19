@@ -199,7 +199,7 @@ export default function ArtBody() {
           </div>
           <div className="about-image">
             <Image
-              src="/images/coe/bone-joint-spine/team.avif"
+              src="/images/coe/bone-joint-spine/team-1.avif"
               alt="Centre for Bone Joint Spine Care Team"
               width={600}
               height={450}
@@ -442,7 +442,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-knee-replace">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/bone-joint-spine/knee-replacement.avif"
+                  src="/images/coe/bone-joint-spine/knee-replacement-1.avif"
                   alt="Total Knee Replacement"
                   width={600}
                   height={400}
@@ -467,7 +467,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-hip-replace">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/bone-joint-spine/hip-replacement.avif"
+                  src="/images/coe/bone-joint-spine/hip-replacement-1.avif"
                   alt="Total Hip Replacement"
                   width={600}
                   height={400}
@@ -542,7 +542,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-fracture-fix">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/bone-joint-spine/fracture-fixation.avif"
+                  src="/images/coe/bone-joint-spine/fracture-fixation-1.avif"
                   alt="Fracture Fixation Surgery"
                   width={600}
                   height={400}
@@ -584,7 +584,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/rehab.avif" alt="Physiotherapy and Rehabilitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/rehab-1.avif" alt="Physiotherapy and Rehabilitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Physiotherapy &amp; Rehabilitation</h3>
                 <p>Dedicated rehabilitation unit with trained physiotherapists for post-operative recovery, sports injury rehabilitation, and chronic pain management. Early mobilisation protocols for joint replacement and fracture patients.</p>
@@ -821,7 +821,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-3.avif" alt="ACL Injury Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-3-new.avif" alt="ACL Injury Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Sports Medicine</span>
                 <h3>ACL Injury: When Surgery is Needed and When It Isn&apos;t</h3>
@@ -832,7 +832,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-2.avif" alt="Back Pain Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-2-new.avif" alt="Back Pain Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Spine</span>
                 <h3>Back Pain That Won&apos;t Go Away: When to See a Spine Specialist</h3>
