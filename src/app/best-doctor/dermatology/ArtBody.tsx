@@ -433,6 +433,120 @@ export default function ArtBody() {
               </div>
             </div>
 
+        {/* Dr. Prashanthi R */}
+            <div
+              className="doctor-card"
+              style={{
+                background: "#faf8ff",
+                borderRadius: "16px",
+                overflow: "hidden",
+                border: "1px solid rgba(0,0,0,0.05)",
+                transition: "all 0.3s",
+                padding: 0,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div
+                style={{
+                  height: "280px",
+                  background: "linear-gradient(135deg, rgb(243, 235, 255), rgb(228, 207, 254))",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  overflow: "hidden",
+                  width: "100%",
+                  position: "relative",
+                }}
+              >
+                <Image
+                  src="/images/departments/dermatology/dr-prashanthi-rajendran.png"
+                  alt="Dr. Prashanthi R"
+                  width={280}
+                  height={280}
+                  style={{
+                    width: "70%",
+                    height: "97%",
+                    objectFit: "fill",
+                    objectPosition: "top center",
+                  }}
+                />
+              </div>
+              <div style={{ padding: "24px", display: "flex", flexDirection: "column", flex: 1 }}>
+                <div
+                  style={{
+                    fontFamily: "Poppins, sans-serif",
+                    fontSize: "10px",
+                    fontWeight: 600,
+                    color: "#8b3dff",
+                    textTransform: "uppercase",
+                    letterSpacing: "1.5px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  Dermatology, Venereology & Leprosy
+                </div>
+                <h3
+                  style={{
+                    fontFamily: "'Source Serif 4', serif",
+                    fontSize: "20px",
+                    color: "#14092b",
+                    margin: "0 0 6px",
+                    fontWeight: 700,
+                  }}
+                >
+                  Dr. Prashanthi R
+                </h3>
+                <div
+                  style={{
+                    fontFamily: "Inter, sans-serif",
+                    fontSize: "13px",
+                    color: "#888",
+                    marginBottom: "16px",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  MBBS, MD(Dermatology, Venereology & Leprosy)
+                </div>
+                <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
+                  <a
+                    href="tel:+919644496444"
+                    style={{
+                      flex: 1,
+                      background: "#8b3dff",
+                      color: "#fff",
+                      padding: "10px",
+                      borderRadius: "8px",
+                      fontFamily: "Poppins, sans-serif",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      textAlign: "center",
+                      cursor: "pointer",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                  >
+                    Book Appointment
+                  </a>
+                  <div
+                    style={{
+                      background: "#f3ebff",
+                      color: "#8b3dff",
+                      padding: "10px 16px",
+                      borderRadius: "8px",
+                      fontFamily: "Poppins, sans-serif",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      textAlign: "center",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Profile
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Dr. Priya Cinna T Durai */}
             <div
               className="doctor-card"

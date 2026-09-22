@@ -353,6 +353,15 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
+
+      <div className="doctor-card reveal">
+        <div className="doctor-photo"><Image src="/images/specialties/dermatology/dr-prashanthi-rajendran.png" alt="Dr. Prashanthi R" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
+        <div className="doctor-info">
+          <h4>Dr. Prashanthi R</h4>
+          <p>Dermatology, Venereology & Leprosy</p>
+          <a href="#appointment" className="btn-primary">Book Appointment</a>
+        </div>
+      </div>
       
       <div className="doctor-card reveal">
         <div className="doctor-photo"><Image src="/images/specialties/dermatology/dr-priya.png" alt="Dr. Priya Cinna T Durai" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
