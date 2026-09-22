@@ -4,7 +4,7 @@ export default function InternationalPatients() {
       <div className="container">
         <div className="intl-grid">
           <div className="intl-image">
-            <img src="/images/international-coordinator.jpg" alt="International patient services coordinator at SRM Global Hospitals" />{" "}
+            <img src="/images/home/international-patient-services.jpeg" alt="International patient services coordinator at SRM Global Hospitals" />{" "}
             <div className="intl-image-overlay">
               <strong>Care without borders.</strong>{" "}
               <span>Patients from 18+ countries, every year.</span>{" "}

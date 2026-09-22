@@ -186,51 +186,100 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/General-anesthesia.png" alt="General Anaesthesia" width={32} height={32} />
         </div>
         <h4>General Anaesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Regional-anesthesia.png" alt="Regional Anaesthesia" width={32} height={32} />
         </div>
         <h4>Regional Anaesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="2" x2="12" y2="22"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Sedation.png" alt="Sedation" width={32} height={32} />
         </div>
-        <h4>Spinal Anaesthesia</h4>
+        <h4>Sedation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Pain-management.png" alt="Pain management" width={32} height={32} />
         </div>
-        <h4>Epidural Anaesthesia</h4>
+        <h4>Pain management</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Epidural-anesthesia.png" alt="Epidural anesthesia" width={32} height={32} />
         </div>
-        <h4>Sedation Services</h4>
+        <h4>Epidural anesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Spinal-anesthesia.png" alt="Spinal anesthesia" width={32} height={32} />
         </div>
-        <h4>Pain Management</h4>
+        <h4>Spinal anesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Local-anesthesia.png" alt="Local anesthesia" width={32} height={32} />
         </div>
-        <h4>Anaesthesia for Critical Care</h4>
+        <h4>Local anesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-different-surgeries.png" alt="Anesthesia for different surgeries" width={32} height={32} />
         </div>
-        <h4>Anaesthesia for Paediatric Patients</h4>
+        <h4>Anesthesia for different surgeries</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-labor-and-delivery.png" alt="Anesthesia for labor and delivery" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for labor and delivery</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-critical-care.png" alt="Anesthesia for critical care" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for critical care</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-Pediatric-Patients.png" alt="Anesthesia for pediatric patients" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for pediatric patients</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-outpatient-procedures.png" alt="Anesthesia for outpatient procedures" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for outpatient procedures</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-trauma-patients.png" alt="Anesthesia for trauma patients" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for trauma patients</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-cardiac-surgeries.png" alt="Anesthesia for cardiac surgeries" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for cardiac surgeries</h4>
+      </div>
+
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-neurosurgeries.png" alt="Anesthesia for neurosurgeries" width={32} height={32} />
+        </div>
+        <h4>Anesthesia for neurosurgeries</h4>
       </div>
     </div>
   </div>

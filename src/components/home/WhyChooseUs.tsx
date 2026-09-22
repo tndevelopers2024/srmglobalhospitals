@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
             <span className="eyebrow">Why SRM Global</span>{" "}
             <h2 className="display-2" style={{ color: 'var(--paper)' }}>The reasons our patients choose us, twice.</h2>{" "}
             <div style={{ marginTop: '32px', aspectRatio: '16/10', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.08)' }}>
-              <img src="/images/hospital-interior.jpg" alt="Modern hospital interior at SRM Global Hospitals" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.75) contrast(1.1)' }} />{" "}
+              <img src="/images/home/why-srm-gloabal.png" alt="Modern hospital interior at SRM Global Hospitals" style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'brightness(0.75) contrast(1.1)' }} />{" "}
             </div>{" "}
           </div>{" "}
           <div className="why-right">

@@ -10,12 +10,12 @@ export default function CallToAction() {
           For interview requests, expert commentary, or press information, contact our communications team.
         </p>
         <div style={{ display: "inline-flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
-          <div style={{ background: "#fff", color: "#6B4A98", padding: "16px 40px", borderRadius: "100px", fontFamily: "Poppins, sans-serif", fontSize: "16px", fontWeight: 600, cursor: "pointer", boxShadow: "0 4px 20px rgba(0,0,0,0.15)" }}>
+          <a href="mailto:info@srmglobalhospitals.com" style={{ background: "#fff", color: "#6B4A98", padding: "16px 40px", borderRadius: "100px", fontFamily: "Poppins, sans-serif", fontSize: "16px", fontWeight: 600, textDecoration: "none", boxShadow: "0 4px 20px rgba(0,0,0,0.15)" }}>
             Contact Press Team →
-          </div>
-          <div style={{ border: "2px solid rgba(255,255,255,0.6)", color: "#fff", padding: "14px 36px", borderRadius: "100px", fontFamily: "Poppins, sans-serif", fontSize: "15px", fontWeight: 600, cursor: "pointer" }}>
+          </a>
+          <a href="tel:+919644496444" style={{ border: "2px solid rgba(255,255,255,0.6)", color: "#fff", padding: "14px 36px", borderRadius: "100px", fontFamily: "Poppins, sans-serif", fontSize: "15px", fontWeight: 600, textDecoration: "none" }}>
             Call: +91 96444 96444
-          </div>
+          </a>
         </div>
       </div>
     </div>

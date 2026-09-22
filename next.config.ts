@@ -127,6 +127,21 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  async redirects() {
+    return [
+      {
+        source: "/centres-of-excellence",
+        destination: "/clinical-excellence",
+        permanent: true,
+      },
+      {
+        source: "/centres-of-excellence/:slug*",
+        destination: "/clinical-excellence/:slug*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

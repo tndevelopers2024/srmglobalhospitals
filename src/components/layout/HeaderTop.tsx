@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteConfig } from "@/lib/site";
 
 export default function HeaderTop() {
   return (
@@ -6,7 +7,7 @@ export default function HeaderTop() {
       <div className="container">
         <div className="header-top-inner">
           <Link href="/" className="brand" aria-label="SRM Global Hospitals">
-            <img src="https://srmglobalhospitals.com/wp-content/uploads/2023/01/srm-logo-final.png" alt="SRM Global Hospitals" className="brand-logo" />{" "}
+            <img src="/images/srm-logo-final.png" alt="SRM Global Hospitals" className="brand-logo" />{" "}
           </Link>{" "}
           <div className="header-quick-actions">
             <a href="tel:+919644496444" className="header-pill emergency-pill"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -49,7 +50,7 @@ export default function HeaderTop() {
                   <Link href="/blog">Press Releases</Link> */}
                 </div>
               </div>{" "}
-              <Link href="/#contact">Contact Us</Link>{" "}
+              <a href={`mailto:${siteConfig.contact.email}`}>Contact Us</a>{" "}
             </nav>{" "}
             <a href="tel:+919644496444" className="btn btn-primary header-cta"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <rect x="3" y="4" width="18" height="18" rx="2" />

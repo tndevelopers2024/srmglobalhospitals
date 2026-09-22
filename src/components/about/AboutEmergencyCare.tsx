@@ -92,7 +92,7 @@ export default function AboutEmergencyCare() {
           </div>
           <div className="about-emergency-image-wrap">
             <img
-              src="/images/about-us/emergency-care/image-1.avif"
+              src="/images/about-us/about-us-always-ready.png"
               alt="24x7 Emergency Care at SRM Global Hospitals"
               className="about-emergency-img"
             />

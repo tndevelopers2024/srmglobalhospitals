@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 export default function ServicesCTA() {
   return (
@@ -42,8 +41,8 @@ export default function ServicesCTA() {
           </p>
         </div>
         <div style={{ display: "flex", flexDirection: "column", gap: "12px", alignItems: "center" }}>
-          <Link
-            href="/#contact"
+          <a
+            href="tel:+919644496444"
             style={{
               background: "#6B4A98",
               color: "#ffffff",
@@ -59,7 +58,7 @@ export default function ServicesCTA() {
             }}
           >
             Book Appointment →
-          </Link>
+          </a>
           <div style={{ fontFamily: "Inter, sans-serif", fontSize: "14px", color: "rgba(255,255,255,0.6)" }}>
             or call{" "}
             <a href="tel:+919644496444" style={{ color: "#ffffff", fontWeight: 600, textDecoration: "none" }}>

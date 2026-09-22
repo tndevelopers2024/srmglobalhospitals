@@ -11,7 +11,6 @@ import SpecialtyDirectory from "@/components/home/SpecialtyDirectory";
 import PatientStory from "@/components/home/PatientStory";
 import NumbersBand from "@/components/home/NumbersBand";
 import TechSection from "@/components/home/TechSection";
-import SurgicalPhotoBand from "@/components/home/SurgicalPhotoBand";
 import Doctors from "@/components/home/Doctors";
 import InternationalPatients from "@/components/home/InternationalPatients";
 import HealthInsights from "@/components/home/HealthInsights";
@@ -43,7 +42,6 @@ export default function Home() {
       <PatientStory />
       <NumbersBand />
       <TechSection />
-      <SurgicalPhotoBand />
       <Doctors />
       <InternationalPatients />
       <HealthInsights />

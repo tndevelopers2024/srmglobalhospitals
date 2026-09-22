@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { siteConfig } from "@/lib/site";
 
 export default function SiteFooter() {
   const pathname = usePathname();
@@ -105,28 +106,53 @@ export default function SiteFooter() {
       <div className="container">
         <div className="footer-top">
           <div className="footer-brand-block">
-            <div className="brand footer-brand">
-              <img src="https://srmglobalhospitals.com/wp-content/uploads/2023/01/srm-logo-final.png" alt="SRM Global Hospitals" className="brand-logo" />{" "}
-            </div>{" "}
+            <Link href="/" className="brand footer-brand" aria-label="SRM Global Hospitals">
+              <img src="/images/srm-logo-final.png" alt="SRM Global Hospitals" className="brand-logo" />{" "}
+            </Link>{" "}
             <p>A 200-bed super speciality hospital in Chengalpattu, Chennai. Seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services.</p>{" "}
+            <div style={{ margin: "14px 0 16px" }}>
+              <a
+                href={`mailto:${siteConfig.contact.email}`}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "8px",
+                  fontSize: "13.5px",
+                  color: "var(--ink-soft)",
+                  textDecoration: "none",
+                  fontWeight: 500,
+                }}
+              >
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                </svg>
+                {siteConfig.contact.email}
+              </a>
+            </div>{" "}
             <div className="footer-social">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
               </a>{" "}
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <rect x="2" y="2" width="20" height="20" rx="5" />
                   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37zM17.5 6.5h.01" />
                 </svg>
               </a>{" "}
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <a href={siteConfig.social.x} target="_blank" rel="noopener noreferrer" aria-label="X">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
+              </a>{" "}
+              <a href={siteConfig.social.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2zM4 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z" />
                 </svg>
               </a>{" "}
-              <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+              <a href={siteConfig.social.youtube} target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33zM9.75 15.02V8.48L15.5 11.75z" />
                 </svg>
@@ -137,7 +163,7 @@ export default function SiteFooter() {
             <h4>Care</h4>{" "}
             <ul>
               <li>
-                <Link href="/#coe">Centres of Excellence</Link>
+                <Link href="/clinical-excellence">Clinical Excellence</Link>
               </li>{" "}
               <li>
                 <Link href="/#specialties">Specialties</Link>
@@ -204,7 +230,7 @@ export default function SiteFooter() {
                 <Link href="/blog">Insights Blog</Link>
               </li>{" "}
               <li>
-                <Link href="/#contact">Contact</Link>
+                <a href={`mailto:${siteConfig.contact.email}`}>Contact Us</a>
               </li>{" "}
             </ul>{" "}
           </div>{" "}

@@ -51,6 +51,7 @@ export function organizationSchema(): JsonLd {
     logo: siteConfig.logoUrl,
     image: siteConfig.logoUrl,
     telephone: siteConfig.contact.emergencyPhone,
+    email: siteConfig.contact.email,
     address: postalAddress(),
     sameAs: socialProfileUrls(),
     availableService: {

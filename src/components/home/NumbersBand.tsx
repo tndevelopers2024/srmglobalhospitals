@@ -1,6 +1,6 @@
 export default function NumbersBand() {
   return (
-    <section className="numbers reveal" style={{ padding: '64px 0', background: 'linear-gradient(rgba(247,247,252,0.92), rgba(247,247,252,0.92)), url("/images/numbers-bg.jpg") center/cover no-repeat' }}>
+    <section className="numbers reveal" style={{ padding: '64px 0', background: 'linear-gradient(rgba(247,247,252,0.80), rgba(247,247,252,0.80)), url("/images/home/stats-bg.jpeg") center/cover no-repeat' }}>
       <div className="container">
         <div className="numbers-grid">
           <div className="number-item">

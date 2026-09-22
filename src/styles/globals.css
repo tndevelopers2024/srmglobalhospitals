@@ -2176,18 +2176,22 @@ section {
 }
 
 .number-item {
-  text-align: left;
-  padding: 0 32px;
+  text-align: center;
+  padding: 0 24px;
   border-right: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .number-item:first-child {
-  padding-left: 0;
+  padding-left: 24px;
 }
 
 .number-item:last-child {
   border-right: none;
-  padding-right: 0;
+  padding-right: 24px;
 }
 
 .number-value {
@@ -3077,11 +3081,13 @@ footer {
   }
 
   .number-item:nth-child(odd) {
-    padding-left: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .number-item:nth-child(even) {
-    padding-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
 
@@ -3189,10 +3195,27 @@ footer {
   display: block;
 }
 
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  margin-bottom: 24px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.footer-brand:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22);
+}
+
 .footer-brand .brand-logo {
-  height: 48px;
-  filter: brightness(0) invert(1);
-  opacity: 0.9;
+  height: 38px;
+  width: auto;
+  display: block;
 }
 
 /* ============================================================

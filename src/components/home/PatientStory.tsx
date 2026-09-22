@@ -4,7 +4,7 @@ export default function PatientStory() {
       <div className="container">
         <div className="story-grid">
           <div className="story-image">
-            <img src="/images/patient-recovery.jpg" alt="Patient and clinician during recovery consultation" />{" "}
+            <img src="/images/home/a-patient-story.png" alt="Patient and clinician during recovery consultation" />{" "}
           </div>{" "}
           <div className="story-content">
             <span className="eyebrow">A patient story</span>{" "}

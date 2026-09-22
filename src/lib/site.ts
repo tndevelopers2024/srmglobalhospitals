@@ -38,11 +38,11 @@ function withProtocol(host: string | undefined): string | undefined {
 type SocialNetwork = "facebook" | "instagram" | "x" | "linkedin" | "youtube";
 
 const socialProfiles: Record<SocialNetwork, string> = {
-  facebook: "",
-  instagram: "",
-  x: "",
-  linkedin: "",
-  youtube: "",
+  facebook: "https://www.facebook.com/SRMGLOBALHOSPITALS",
+  instagram: "https://www.instagram.com/srm_global_hospitals/",
+  x: "https://x.com/HospitalSrm",
+  linkedin: "https://www.linkedin.com/company/srm-global-hospital/",
+  youtube: "https://www.youtube.com/@srmglobalhospitals",
 };
 
 export const siteConfig = {
@@ -70,6 +70,8 @@ export const siteConfig = {
     emergencyPhone: "+919644496444",
     /** Human-readable form used in visible copy. */
     emergencyPhoneDisplay: "+91 96444 96444",
+    /** Primary general enquiries email address. */
+    email: "info@srmglobalhospitals.com",
   },
 
   /**

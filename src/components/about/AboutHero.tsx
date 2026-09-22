@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteConfig } from "@/lib/site";
 
 export default function AboutHero() {
   return (
@@ -18,14 +19,14 @@ export default function AboutHero() {
             <Link href="/services" className="about-hero-btn-primary">
               Our Services
             </Link>
-            <Link href="/#contact" className="about-hero-btn-secondary">
+            <a href={`mailto:${siteConfig.contact.email}`} className="about-hero-btn-secondary">
               Contact Us
-            </Link>
+            </a>
           </div>
         </div>
         <div className="about-hero-image-wrap">
           <img
-            src="/images/about-us/hero/hero.avif"
+            src="/images/about-us/hero/about-hero.jpeg"
             alt="Doctor consulting with patient at SRM Global Hospitals"
             className="about-hero-img"
           />

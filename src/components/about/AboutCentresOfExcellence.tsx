@@ -13,7 +13,7 @@ export default function AboutCentresOfExcellence() {
         <div className="about-coe-grid">
           <Link href="/#specialties" className="about-coe-card">
             <img
-              src="/images/about-us/centres-of-excellence/image-1.avif"
+              src="/images/about-us/centres-of-excellence/institute-of-renal-sciences.jpeg"
               alt="Institute of Renal Sciences"
               className="about-coe-card-img"
             />
@@ -24,7 +24,7 @@ export default function AboutCentresOfExcellence() {
 
           <Link href="/#specialties" className="about-coe-card">
             <img
-              src="/images/about-us/centres-of-excellence/image-2.avif"
+              src="/images/about-us/centres-of-excellence/institute-of-neuro-sciences.avif"
               alt="Institute of Neuro Sciences"
               className="about-coe-card-img"
             />
@@ -35,7 +35,7 @@ export default function AboutCentresOfExcellence() {
 
           <Link href="/#specialties" className="about-coe-card">
             <img
-              src="/images/about-us/centres-of-excellence/image-3.avif"
+              src="/images/about-us/centres-of-excellence/institute-of-solid-organ-transplant.jpeg"
               alt="Institute of Solid Organ Transplant"
               className="about-coe-card-img"
             />
@@ -46,7 +46,7 @@ export default function AboutCentresOfExcellence() {
 
           <Link href="/#specialties" className="about-coe-card">
             <img
-              src="/images/about-us/centres-of-excellence/image-4.avif"
+              src="/images/about-us/centres-of-excellence/institute-of-cardiac-sciences.jpeg"
               alt="Institute of Cardiac Sciences"
               className="about-coe-card-img"
             />
