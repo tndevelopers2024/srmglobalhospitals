@@ -292,7 +292,7 @@ export default function ArtBody() {
               Our Uro-Gynaecology Team
             </h2>
             <p style={{ fontFamily: "Inter, sans-serif", fontSize: "15px", color: "#888", margin: 0 }}>
-              1 specialist in pelvic floor disorders and urogynaecologic care.
+              2 specialists in pelvic floor disorders and urogynaecologic care.
             </p>
           </div>
 
@@ -300,9 +300,9 @@ export default function ArtBody() {
             className="doctors-grid"
             style={{
               display: "grid",
-              gridTemplateColumns: "1fr",
+              gridTemplateColumns: "repeat(2, 1fr)",
               gap: "24px",
-              maxWidth: "380px",
+              maxWidth: "780px",
               margin: "0 auto",
             }}
           >
@@ -380,6 +380,120 @@ export default function ArtBody() {
                   }}
                 >
                   MBBS, DNB, MRCOG, FACOG, FMAS.,
+                </div>
+                <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
+                  <a
+                    href="tel:+919644496444"
+                    style={{
+                      flex: 1,
+                      background: "#8b3dff",
+                      color: "#fff",
+                      padding: "10px",
+                      borderRadius: "8px",
+                      fontFamily: "Poppins, sans-serif",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      textAlign: "center",
+                      cursor: "pointer",
+                      textDecoration: "none",
+                      display: "block",
+                    }}
+                  >
+                    Book Appointment
+                  </a>
+                  <div
+                    style={{
+                      background: "#f3ebff",
+                      color: "#8b3dff",
+                      padding: "10px 16px",
+                      borderRadius: "8px",
+                      fontFamily: "Poppins, sans-serif",
+                      fontSize: "12px",
+                      fontWeight: 600,
+                      textAlign: "center",
+                      cursor: "pointer",
+                    }}
+                  >
+                    Profile
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Dr. Udhaya Parivallal */}
+            <div
+              className="doctor-card"
+              style={{
+                background: "#faf8ff",
+                borderRadius: "16px",
+                overflow: "hidden",
+                border: "1px solid rgba(0,0,0,0.05)",
+                transition: "all 0.3s",
+                padding: 0,
+                display: "flex",
+                flexDirection: "column",
+              }}
+            >
+              <div
+                style={{
+                  height: "280px",
+                  background: "linear-gradient(135deg, rgb(243, 235, 255), rgb(228, 207, 254))",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  overflow: "hidden",
+                  width: "100%",
+                  position: "relative",
+                }}
+              >
+                <Image
+                  src="/images/departments/uro-gynaecology/dr-udhaya-parivallal.png"
+                  alt="Dr. Udhaya Parivallal"
+                  width={280}
+                  height={280}
+                  style={{
+                    width: "75%",
+                    height: "100%",
+                    objectFit: "fill",
+                    objectPosition: "top center",
+                  }}
+                />
+              </div>
+              <div style={{ padding: "24px", display: "flex", flexDirection: "column", flex: 1 }}>
+                <div
+                  style={{
+                    fontFamily: "Poppins, sans-serif",
+                    fontSize: "10px",
+                    fontWeight: 600,
+                    color: "#8b3dff",
+                    textTransform: "uppercase",
+                    letterSpacing: "1.5px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  Consultant – Obstetrics, Gynecology & Urogynaecology
+                </div>
+                <h3
+                  style={{
+                    fontFamily: "'Source Serif 4', serif",
+                    fontSize: "20px",
+                    color: "#14092b",
+                    margin: "0 0 6px",
+                    fontWeight: 700,
+                  }}
+                >
+                  Dr. Udhaya Parivallal
+                </h3>
+                <div
+                  style={{
+                    fontFamily: "Inter, sans-serif",
+                    fontSize: "13px",
+                    color: "#888",
+                    marginBottom: "16px",
+                    lineHeight: 1.5,
+                  }}
+                >
+                  MBBS, MD (OBG), Post Doctoral Fellowship in Urogynaecology
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
                   <a

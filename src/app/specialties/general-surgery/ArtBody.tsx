@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -383,6 +383,17 @@ export default function ArtBody() {
                 <h4>Dr. G. Karthik</h4>
                 <p className="doctor-qualification">MBBS, MS, FIAGES, FALS</p>
                 <p>Visiting Consultant, General Surgery</p>
+                <a href="#appointment" className="btn-primary">Book Appointment</a>
+              </div>
+            </div>
+            <div className="doctor-card reveal">
+              <div className="doctor-photo">
+                <Image src="/images/specialties/general-surgery/dr-ashwin-ranga.png" alt="Dr. Ashwin Ranga" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} />
+              </div>
+              <div className="doctor-info">
+                <h4>Dr. Ashwin Ranga</h4>
+                <p className="doctor-qualification">MBBS, MS (General Surgery)</p>
+                <p>Consultant, General Surgery</p>
                 <a href="#appointment" className="btn-primary">Book Appointment</a>
               </div>
             </div>

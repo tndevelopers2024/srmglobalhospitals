@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -298,8 +298,8 @@ export default function ArtBody() {
 <section className="doctors" id="doctors">
   <div className="wrap">
     <div className="doctors-header reveal">
-      <div className="section-label">Meet Our Expert</div>
-      <h2 className="section-title">Our Uro-Gynaecology Specialist</h2>
+      <div className="section-label">Meet Our Experts</div>
+      <h2 className="section-title">Our Uro-Gynaecology Specialists</h2>
     </div>
     <div className="doctors-grid">
       <div className="doctor-card reveal">
@@ -307,6 +307,15 @@ export default function ArtBody() {
         <div className="doctor-info">
           <h4>Dr. Harini Sivamani</h4>
           <p className="doctor-qualification">MBBS, DNB, MRCOG, FACOG, FMAS</p>
+          <p>Consultant, Obstetrics, Gynecology &amp; Urogynaecology</p>
+          <a href="#appointment" className="btn-primary">Book Appointment</a>
+        </div>
+      </div>
+      <div className="doctor-card reveal">
+        <div className="doctor-photo"><Image src="/images/specialties/uro-gynaecology/dr-udhaya-parivallal-1.png" alt="Dr. Udhaya Parivallal" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
+        <div className="doctor-info">
+          <h4>Dr. Udhaya Parivallal</h4>
+          <p className="doctor-qualification">MBBS, MD (OBG), Post Doctoral Fellowship in Urogynaecology</p>
           <p>Consultant, Obstetrics, Gynecology &amp; Urogynaecology</p>
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
