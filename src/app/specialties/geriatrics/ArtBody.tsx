@@ -81,54 +81,43 @@ export default function ArtBody() {
     <>
       {/* 1. HERO */}
       <section className="hero" id="hero" ref={heroRef}>
-        <div className="wrap">
-          <div className="hero-breadcrumb">
-            <Link href="/">Home</Link>
-            <span>/</span>
-            <Link href="/#specialties">Our Specialties</Link>
-            <span>/</span>
-            <span>Geriatrics</span>
-          </div>
-          <div className="hero-text reveal">
-            <div className="hero-label">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" />
-                <path d="M12 8v4l3 3" />
-              </svg>
-              Specialty Department
-            </div>
-            <h1>Department of Geriatrics</h1>
-            <p className="hero-subtitle">Compassionate, Specialized Care for Healthy Aging.</p>
-            <p className="hero-desc">Recognized as the best geriatrics hospital in Chengalpattu, our geriatricians and elderly care specialists provide dedicated geriatric care for senior citizen health, from fall prevention and dementia care to geriatric rehabilitation and age-related disease management, so every older adult ages with dignity and support.</p>
-            <div className="hero-ctas">
-              <a href="#appointment" className="btn-primary">
-                Book an Appointment
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                  <polyline points="12 5 19 12 12 19" />
-                </svg>
-              </a>
-              <a href="tel:+919644496444" className="btn-outline">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
-                </svg>
-                Call Now
-              </a>
-            </div>
-          </div>
-          <div className="hero-img reveal">
-            <div className="img-placeholder">
-        <Image
-          src="/images/specialties/geriatrics/hero-1.avif"
-          alt="geriatrics Department - SRM Global Hospitals"
-          fill
-          style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
-          priority
-        />
-      </div>
-          </div>
+  <div className="wrap">
+    <div className="hero-inner">
+      <div className="hero-content reveal">
+        <div className="hero-breadcrumb">
+          <Link href="/">HOME</Link> <span className="sep">/</span> <Link href="/#specialties">OUR SPECIALTIES</Link> <span className="sep">/</span> <span>GERIATRICS</span>
         </div>
-      </section>
+
+        <h1 className="hero-title">Department of Geriatrics</h1>
+
+        <p className="hero-desc">
+          Recognized as the best geriatrics hospital in Chengalpattu, our geriatricians and elderly care specialists provide dedicated geriatric care for senior citizen health, from fall prevention and dementia care to geriatric rehabilitation and age-related disease management, so every older adult ages with dignity and support.
+        </p>
+
+        <div className="hero-ctas">
+          <a href="#appointment" className="btn-primary">
+            Book an Appointment
+          </a>
+          <a href="tel:+919644496444" className="btn-secondary">
+            Call Now
+          </a>
+        </div>
+      </div>
+
+      <div className="hero-image-layer reveal">
+        <div className="image-wrapper">
+          <Image
+            src="/images/specialties/geriatrics/hero-new.avif"
+            alt="geriatrics Department - SRM Global Hospitals"
+            fill
+            style={{ objectFit: "cover", objectPosition: "top center" }}
+            priority
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* 2. STATS BAR */}
       <section className="stats-bar reveal">
