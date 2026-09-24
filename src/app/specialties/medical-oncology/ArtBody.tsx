@@ -100,7 +100,7 @@ export default function ArtBody() {
       <div className="hero-image-layer reveal">
         <div className="image-wrapper">
           <Image
-            src="/images/specialties/medical-oncology/hero-new.avif"
+            src="/images/specialties/medical-oncology/hero-sp.avif"
             alt="medical-oncology Department - SRM Global Hospitals"
             fill
             style={{ objectFit: "cover", objectPosition: "top center" }}

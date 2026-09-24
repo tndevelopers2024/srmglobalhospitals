@@ -199,7 +199,7 @@ export default function ArtBody() {
           </div>
           <div className="about-image">
             <Image
-              src="/images/coe/gastro-and-liver-sciences/team-1.avif"
+              src="/images/coe/gastro-and-liver-sciences/team-new.avif"
               alt="Institute of Gastro and Liver Sciences Team"
               width={600}
               height={450}
@@ -530,7 +530,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-liver-mgmt">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/gastro-and-liver-sciences/liver-disease-management-1.avif"
+                  src="/images/coe/gastro-and-liver-sciences/liver-disease-management-new.avif"
                   alt="Liver Disease Management"
                   width={600}
                   height={400}
@@ -565,21 +565,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/endoscopy-suite.avif" alt="Dedicated Endoscopy Suite" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/endoscopy-suite-new.avif" alt="Dedicated Endoscopy Suite" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Dedicated Endoscopy Suite</h3>
                 <p>High-definition endoscopy system for upper GI endoscopy, colonoscopy, endoscopic ultrasound, and ERCP. Separate procedure and recovery areas with full sedation support and monitoring.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/ot.avif" alt="Advanced Surgical OT" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/ot-s.avif" alt="Advanced Surgical OT" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Surgical OT</h3>
                 <p>Fully equipped operating theatre with laparoscopic instruments, energy devices, and intraoperative imaging for minimally invasive and open GI surgeries. Infection control protocols matching international standards.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/lab.avif" alt="On-Site Laboratory and Imaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/gastro-and-liver-sciences/lab-s.avif" alt="On-Site Laboratory and Imaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>On-Site Laboratory &amp; Imaging</h3>
                 <p>24/7 laboratory for liver function tests, tumour markers, and histopathology. Ultrasound, CT, and MRI available for comprehensive GI and liver imaging without external referrals.</p>
@@ -798,7 +798,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-1-new.avif" alt="Fatty Liver Disease Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article1-s.avif" alt="Fatty Liver Disease Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Liver Health</span>
                 <h3>Fatty Liver Disease: What You Need to Know Before It Progresses</h3>
@@ -809,7 +809,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-2-new.avif" alt="IBS vs IBD Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-2-s.avif" alt="IBS vs IBD Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Digestive Health</span>
                 <h3>IBS vs IBD: How to Tell the Difference</h3>

@@ -377,7 +377,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'kidney' ? 'active' : ''}`} id="tab-kidney">
-      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/kidney-transplant.avif" alt="Kidney Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/kidney-transplant-s.avif" alt="Kidney Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Kidney Transplant</h3>
         <p>Renal transplantation replaces a failed kidney with a healthy kidney from a living donor or a deceased donor, the preferred long-term treatment for end-stage renal failure over continued dialysis for most eligible patients, offering better survival and quality of life.</p>
@@ -392,7 +392,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'liver' ? 'active' : ''}`} id="tab-liver">
-      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/liver-transplant.avif" alt="Liver Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/liver-transplant-s.avif" alt="Liver Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Liver Transplant</h3>
         <p>A liver transplant replaces a diseased liver with a healthy donor organ, used to treat liver cirrhosis, end-stage liver disease, and acute liver failure. Living donor liver transplants use a portion of a healthy donor's liver, which regenerates in both donor and recipient over the following months.</p>
@@ -407,7 +407,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'heartlung' ? 'active' : ''}`} id="tab-heartlung">
-      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/heart-and-lung-transplant.avif" alt="Heart and Lung Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/heart-and-lung-transplant-s.avif" alt="Heart and Lung Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Heart &amp; Lung Transplant</h3>
         <p>Heart transplant and lung transplant programmes are reserved for patients whose heart or lung disease has progressed beyond what medication, devices, or less invasive procedures can manage. Combined heart-lung transplants are performed in the rare cases where both organs have failed together.</p>
@@ -422,7 +422,7 @@ export default function ArtBody() {
     </div>
 
     <div className={`tab-panel ${activeTab === 'bmt' ? 'active' : ''}`} id="tab-bmt">
-      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/bone-marrow-transplant.avif" alt="Bone Marrow Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
+      <div className="tab-image"><Image src="/images/coe/solid-organ-transplants/bone-marrow-transplant-s.avif" alt="Bone Marrow Transplant" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }} /></div>
       <div className="tab-content">
         <h3>Bone Marrow Transplant</h3>
         <p>A bone marrow transplant, also called a stem cell transplant, replaces damaged or diseased bone marrow with healthy blood-forming stem cells, using either the patient's own stem cells or those of a matched donor. Patients receiving donor stem cells are monitored closely for graft versus host disease.</p>
@@ -447,21 +447,21 @@ export default function ArtBody() {
     </div>
     <div className="tech-grid">
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-icu-1.avif" alt="Transplant Surgery Suite and ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-icu-s.avif" alt="Transplant Surgery Suite and ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>24/7 Transplant Surgery Suite &amp; ICU</h3>
           <p>A dedicated transplant surgery suite and intensive care unit, staffed round the clock for close monitoring in the days immediately following transplant surgery.</p>
         </div>
       </div>
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/tissue-typing-lab-1.avif" alt="Advanced Imaging and Laboratory Services" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/tissue-typing-lab-s.avif" alt="Advanced Imaging and Laboratory Services" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Advanced Imaging &amp; Laboratory Services</h3>
           <p>On-site imaging, blood tests, and tissue-typing to confirm donor compatibility and monitor organ function before and after every transplant.</p>
         </div>
       </div>
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-ot.avif" alt="Post-Transplant and Telemedicine Support" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/solid-organ-transplants/transplant-ot-s.avif" alt="Post-Transplant and Telemedicine Support" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Post-Transplant &amp; Telemedicine Support</h3>
           <p>Medication management, counselling, and rehabilitation after surgery, plus telemedicine consultations for patients following up from outside Chengalpattu.</p>

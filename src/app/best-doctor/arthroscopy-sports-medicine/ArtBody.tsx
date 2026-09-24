@@ -18,7 +18,7 @@ export default function ArtBody() {
           }}
         >
           <Image
-            src="/images/departments/arthroscopy-and-sports-medicine/hero.avif"
+            src="/images/departments/arthroscopy-and-sports-medicine/hero-1.avif"
             alt="Arthroscopy & Sports Medicine Department"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}

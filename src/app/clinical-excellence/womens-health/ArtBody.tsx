@@ -584,14 +584,14 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/womens-health/nicu.avif" alt="Neonatal ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/womens-health/nicu-s.avif" alt="Neonatal ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Neonatal ICU (NICU)</h3>
                 <p>Level II NICU with incubators, phototherapy, CPAP, and monitoring for premature and high-risk newborns. Neonatal team available round the clock for immediate resuscitation and stabilisation.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/womens-health/gynae-ot.avif" alt="Gynaecological OT and Endoscopy" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/womens-health/gynae-ot-s.avif" alt="Gynaecological OT and Endoscopy" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Gynaecological OT &amp; Endoscopy</h3>
                 <p>Fully equipped operating theatre for open and laparoscopic gynaecological surgeries. Hysteroscopy suite for diagnostic and operative procedures including polypectomy, fibroid resection, and septal correction.</p>
@@ -821,7 +821,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/womens-health/article-2-new.avif" alt="PCOS and Fertility Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/womens-health/article-2-s.avif" alt="PCOS and Fertility Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Fertility</span>
                 <h3>PCOS and Fertility: What Every Woman Should Know</h3>

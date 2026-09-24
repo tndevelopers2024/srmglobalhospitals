@@ -478,7 +478,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-trauma-resuscitation">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/trauma-resuscitation.avif"
+                  src="/images/coe/emergency-and-critical-care/trauma-resuscitation-s.avif"
                   alt="Trauma Resuscitation"
                   width={600}
                   height={400}
@@ -503,7 +503,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-cardiac-care">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/emergency-cardiac-intervention.avif"
+                  src="/images/coe/emergency-and-critical-care/emergency-cardiac-intervention-s.avif"
                   alt="Emergency Cardiac Intervention"
                   width={600}
                   height={400}
@@ -528,7 +528,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-stroke-management">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/stroke-management.avif"
+                  src="/images/coe/emergency-and-critical-care/stroke-management-s.avif"
                   alt="Stroke Management"
                   width={600}
                   height={400}
@@ -553,7 +553,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-critical-care">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/critical-care.avif"
+                  src="/images/coe/emergency-and-critical-care/critical-care-s.avif"
                   alt="Intensive Care ICU"
                   width={600}
                   height={400}
@@ -578,7 +578,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-paediatric-emergency">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/emergency-and-critical-care/pediatric-emergency.avif"
+                  src="/images/coe/emergency-and-critical-care/pediatric-emergency-s.avif"
                   alt="Paediatric Emergency"
                   width={600}
                   height={400}
@@ -613,21 +613,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/trauma-bay.avif" alt="Trauma Bay and Resuscitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/trauma-bay-s.avif" alt="Trauma Bay and Resuscitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Trauma Bay &amp; Resuscitation</h3>
                 <p>Fully equipped resuscitation area with advanced monitoring, defibrillators, emergency airway equipment, and point-of-care ultrasound. Designed for simultaneous multi-team response to critical patients.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/diagnostics.avif" alt="In-House Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/diagnostics-s.avif" alt="In-House Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>In-House Diagnostics</h3>
                 <p>24/7 radiology facilities including digital X-ray, CT scanner, and ultrasound. On-site laboratory services for blood work, cardiac markers, and toxicology, delivering results within minutes.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/icu.avif" alt="Critical Care ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/emergency-and-critical-care/icu-s.avif" alt="Critical Care ICU" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Critical Care ICU</h3>
                 <p>Multi-bed intensive care unit with individual isolation capability, invasive and non-invasive ventilators, continuous haemodynamic monitoring, bedside echocardiography, and ECMO readiness for the most critical conditions.</p>
@@ -853,7 +853,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-3-new.avif" alt="Paediatric Emergency Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/emergency-and-critical-care/article-3-s.avif" alt="Paediatric Emergency Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Child Health</span>
                 <h3>When to Rush Your Child to the Emergency Room</h3>
