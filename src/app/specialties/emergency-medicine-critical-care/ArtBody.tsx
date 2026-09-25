@@ -164,7 +164,7 @@ export default function ArtBody() {
     <div className="about-img reveal">
       <div className="img-placeholder">
         <Image
-          src="/images/specialties/emergency-medicine-and-critical-care/dept.avif"
+          src="/images/specialties/emergency-medicine-and-critical-care/dept-spec.avif"
           alt="Emergency Care Centre / ICU - SRM Global Hospitals"
           fill
           style={{ objectFit: "cover", borderRadius: "var(--radius)" }}

@@ -166,7 +166,7 @@ export default function ArtBody() {
           <div className="about-img reveal">
             <div className="img-placeholder">
               <Image
-                src="/images/specialties/fetal-medicine/dept-2.avif"
+                src="/images/specialties/fetal-medicine/dept-spec.avif"
                 alt="Fetal Medicine Clinic / Ultrasound Suite - SRM Global Hospitals"
                 fill
                 style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
