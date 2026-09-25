@@ -164,7 +164,7 @@ export default function ArtBody() {
     <div className="about-img reveal">
       <div className="img-placeholder">
         <Image
-          src="/images/specialties/diabetology/dept-1.avif"
+          src="/images/specialties/diabetology/dept-spec.avif"
           alt="Diabetology Clinic / Consultation - SRM Global Hospitals"
           fill
           style={{ objectFit: "cover", borderRadius: "var(--radius)" }}
