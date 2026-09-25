@@ -513,7 +513,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-stroke-intervention">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/neuro-sciences/stroke- intervention.avif"
+                  src="/images/coe/neuro-sciences/stroke-intervention.avif"
                   alt="Stroke Intervention"
                   width={600}
                   height={400}
@@ -563,7 +563,7 @@ export default function ArtBody() {
             <div className="tab-panel active" id="tab-neuro-diagnostics">
               <div className="tab-image">
                 <Image
-                  src="/images/coe/neuro-sciences/neuro-diagnostics-1.avif"
+                  src="/images/coe/neuro-sciences/neuro-diagnostics-s.avif"
                   alt="Neuro-Diagnostics"
                   width={600}
                   height={400}
@@ -598,21 +598,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-imaging-1.avif" alt="Advanced Neuroimaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-imaging-s.avif" alt="Advanced Neuroimaging" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Neuroimaging</h3>
                 <p>High-resolution CT scanner and MRI capabilities for detailed brain and spinal cord imaging. CT angiography for emergency stroke assessment and MRI protocols for tumour evaluation, epilepsy workup, and demyelinating diseases.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-icu.avif" alt="Neuro Intensive Care Unit" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-icu-s.avif" alt="Neuro Intensive Care Unit" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Neuro Intensive Care Unit</h3>
                 <p>Dedicated neuro ICU with continuous EEG monitoring, invasive intracranial pressure monitoring, ventilator support, and round-the-clock intensivist and neurology coverage for post-operative and critically ill neurological patients.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-ot.avif" alt="Neurosurgical Operating Theatre" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/neuro-sciences/neuro-ot-s.avif" alt="Neurosurgical Operating Theatre" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Neurosurgical Operating Theatre</h3>
                 <p>Fully equipped neurosurgery OT with operating microscope, neuronavigation system, and intraoperative monitoring. Designed for both cranial and spinal procedures with infection control standards matching international protocols.</p>

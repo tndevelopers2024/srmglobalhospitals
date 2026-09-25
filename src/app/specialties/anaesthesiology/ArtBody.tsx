@@ -104,7 +104,7 @@ export default function ArtBody() {
       <div className="hero-image-layer reveal">
         <div className="image-wrapper">
           <Image
-            src="/images/specialties/anaesthesiology/hero-new.avif"
+            src="/images/specialties/anaesthesiology/hero-sp1.avif"
             alt="Anaesthesiology Department - SRM Global Hospitals"
             fill
             style={{ objectFit: "cover", objectPosition: "80% center" }}
@@ -113,7 +113,7 @@ export default function ArtBody() {
         </div>
       </div>
     </div>
-  </div>
+  </div>n
 </section>
 
 {/*  ════════════════════════════════════════════════

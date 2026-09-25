@@ -577,21 +577,21 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/ot.avif" alt="Advanced Operating Theatres" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/ot-s.avif" alt="Advanced Operating Theatres" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Advanced Operating Theatres</h3>
                 <p>Laminar airflow OTs with arthroscopy towers, image intensifiers (C-arm), and navigation systems for joint replacement and spine surgery. Strict infection control protocols for implant-based procedures.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/rehab-1.avif" alt="Physiotherapy and Rehabilitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/rehab-s1.avif" alt="Physiotherapy and Rehabilitation" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Physiotherapy &amp; Rehabilitation</h3>
                 <p>Dedicated rehabilitation unit with trained physiotherapists for post-operative recovery, sports injury rehabilitation, and chronic pain management. Early mobilisation protocols for joint replacement and fracture patients.</p>
               </div>
             </div>
             <div className="tech-card">
-              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/imaging.avif" alt="Imaging and Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="tech-card-img"><Image src="/images/coe/bone-joint-spine/imaging-new.avif" alt="Imaging and Diagnostics" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="tech-card-body">
                 <h3>Imaging &amp; Diagnostics</h3>
                 <p>On-site digital X-ray, CT, and MRI for immediate fracture assessment, pre-surgical planning, and spinal imaging. Weight-bearing X-rays and full-limb alignment scans available for joint replacement planning.</p>
@@ -810,7 +810,7 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-1.avif" alt="Knee Replacement Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/bone-joint-spine/article-1-s.avif" alt="Knee Replacement Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Joint Replacement</span>
                 <h3>Knee Replacement: What to Expect Before, During, and After</h3>

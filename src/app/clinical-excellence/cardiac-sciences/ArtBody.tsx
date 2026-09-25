@@ -375,7 +375,7 @@ export default function ArtBody() {
     </div>
     <div className="tech-grid">
       <div className="tech-card">
-        <div className="tech-card-img"><Image src="/images/coe/cardiac-sciences/cath-lab.avif" alt="Cardiac Emergency and Cath Lab" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+        <div className="tech-card-img"><Image src="/images/coe/cardiac-sciences/cath-lab-s.avif" alt="Cardiac Emergency and Cath Lab" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
         <div className="tech-card-body">
           <h3>Cardiac Emergency &amp; Cath Lab</h3>
           <p>A dedicated cardiac emergency unit and catheterisation lab for rapid angioplasty.</p>

@@ -100,7 +100,7 @@ export default function ArtBody() {
       <div className="hero-image-layer reveal">
         <div className="image-wrapper">
           <Image
-            src="/images/specialties/neurology/hero-new.avif"
+            src="/images/specialties/neurology/hero-sp.avif"
             alt="neurology Department - SRM Global Hospitals"
             fill
             style={{ objectFit: "cover", objectPosition: "top center" }}
@@ -122,7 +122,7 @@ export default function ArtBody() {
         <div className="stat-icon">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
-        <div className="stat-value">3</div>
+        <div className="stat-value">4</div>
         <div className="stat-label">Neurology Specialists</div>
       </div>
       <div className="stat-item">
@@ -343,6 +343,7 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
+      
     </div>
   </div>
 </section>
