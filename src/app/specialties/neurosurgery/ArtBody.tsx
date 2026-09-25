@@ -100,7 +100,7 @@ export default function ArtBody() {
       <div className="hero-image-layer reveal">
         <div className="image-wrapper">
           <Image
-            src="/images/specialties/neurosurgery/hero-sp.avif"
+            src="/images/specialties/neurosurgery/hero-spec.avif"
             alt="neurosurgery Department - SRM Global Hospitals"
             fill
             style={{ objectFit: "cover", objectPosition: "top center" }}
@@ -378,7 +378,7 @@ export default function ArtBody() {
         <div className="doctor-info">
           <h4>Dr. Sai Sivram Varaprasad</h4>
           <p className="doctor-qualification">MBBS, MS, DrNB</p>
-          <p>Consultant, Neurosurgery</p>
+          <p>Associate Consultant</p>
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
