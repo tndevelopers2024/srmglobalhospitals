@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/fractures.png" alt="Fractures" width={32} height={32} />
         </div>
         <h4>Fractures</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/osteoarthritis.png" alt="Osteoarthritis" width={32} height={32} />
         </div>
         <h4>Osteoarthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/rheumatoid-arthritis.png" alt="Rheumatoid Arthritis" width={32} height={32} />
         </div>
         <h4>Rheumatoid Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/tendonitis.png" alt="Tendinitis" width={32} height={32} />
         </div>
         <h4>Tendinitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/ligament-injuries-acl-mcl-tears.png" alt="Ligament Injuries (ACL, MCL Tears)" width={32} height={32} />
         </div>
         <h4>Ligament Injuries (ACL, MCL Tears)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/carpal-tunnel-syndrome.png" alt="Carpal Tunnel Syndrome" width={32} height={32} />
         </div>
         <h4>Carpal Tunnel Syndrome</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M8 6l4-4 4 4M8 18l4 4 4-4"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/herniated-disc-slipped-disc.png" alt="Herniated Disc (Slipped Disc)" width={32} height={32} />
         </div>
         <h4>Herniated Disc (Slipped Disc)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/scoliosis.png" alt="Scoliosis" width={32} height={32} />
         </div>
         <h4>Scoliosis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/bone-spurs.png" alt="Bone Spurs" width={32} height={32} />
         </div>
         <h4>Bone Spurs</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/bursitis.png" alt="Bursitis" width={32} height={32} />
         </div>
         <h4>Bursitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/rotator-cuff-tear.png" alt="Rotator Cuff Tear" width={32} height={32} />
         </div>
         <h4>Rotator Cuff Tear</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/plantar-fasciitis.png" alt="Plantar Fasciitis" width={32} height={32} />
         </div>
         <h4>Plantar Fasciitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/tennis-elbow.png" alt="Tennis Elbow" width={32} height={32} />
         </div>
         <h4>Tennis Elbow</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/hip-dysplasia.png" alt="Hip Dysplasia" width={32} height={32} />
         </div>
         <h4>Hip Dysplasia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/orthopedics/orthopedics-icons/dupuytrens-contracture.png" alt="Dupuytren's Contracture" width={32} height={32} />
         </div>
         <h4>Dupuytren's Contracture</h4>
       </div>

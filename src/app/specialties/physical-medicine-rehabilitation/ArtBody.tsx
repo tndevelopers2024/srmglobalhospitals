@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 8a6 6 0 0 0-12 0c0 4-1.5 6-3 7h18c-1.5-1-3-3-3-7"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/stroke-rehabilitation.png" alt="Stroke Rehabilitation" width={32} height={32} />
         </div>
         <h4>Stroke Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v6"/><path d="M12 16v6"/><path d="M5 9l7-2 7 2"/><path d="M5 15l7 2 7-2"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/spinal-cord-injury-rehabilitation.png" alt="Spinal Cord Injury Rehabilitation" width={32} height={32} />
         </div>
         <h4>Spinal Cord Injury Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-3 9"/><path d="M12 13l3 9"/><path d="M9 10l-3 2"/><path d="M15 10l3 2"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/traumatic-brain-injury-rehabilitation.png" alt="Traumatic Brain Injury Rehabilitation" width={32} height={32} />
         </div>
         <h4>Traumatic Brain Injury Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 3H5a2 2 0 0 0-2 2v4"/><path d="M9 21H5a2 2 0 0 1-2-2v-4"/><path d="M15 3h4a2 2 0 0 1 2 2v4"/><path d="M15 21h4a2 2 0 0 0 2-2v-4"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/amputation-rehabilitation.png" alt="Amputation Rehabilitation" width={32} height={32} />
         </div>
-        <h4>Amputee Rehabilitation</h4>
+        <h4>Amputation Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/orthopedic-rehabilitation.png" alt="Orthopedic Rehabilitation" width={32} height={32} />
         </div>
         <h4>Orthopedic Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"/></svg>
-        </div>
-        <h4>Diabetic Foot Care</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="5" r="2"/><path d="M6 21l3-9 3 3 3-3 3 9"/><path d="M12 8v4"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/sports-injury-rehabilitation.png" alt="Sports Injury Rehabilitation" width={32} height={32} />
         </div>
         <h4>Sports Injury Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/chronic-pain-management.png" alt="Chronic Pain Management" width={32} height={32} />
         </div>
         <h4>Chronic Pain Management</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/neurological-rehabilitation.png" alt="Neurological Rehabilitation" width={32} height={32} />
         </div>
         <h4>Neurological Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/cardiac-rehabilitation.png" alt="Cardiac Rehabilitation" width={32} height={32} />
         </div>
-        <h4>Cardiopulmonary Rehabilitation</h4>
+        <h4>Cardiac Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/pulmonary-rehabilitation.png" alt="Pulmonary Rehabilitation" width={32} height={32} />
         </div>
-        <h4>Vestibular Rehabilitation</h4>
+        <h4>Pulmonary Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/geriatric-rehabilitation.png" alt="Geriatric Rehabilitation" width={32} height={32} />
+        </div>
+        <h4>Geriatric Rehabilitation</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/pediatric-rehabilitation.png" alt="Pediatric Rehabilitation" width={32} height={32} />
         </div>
         <h4>Pediatric Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/vocational-rehabilitation.png" alt="Vocational Rehabilitation" width={32} height={32} />
         </div>
         <h4>Vocational Rehabilitation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/assistive-device-training.png" alt="Assistive Device Training" width={32} height={32} />
         </div>
         <h4>Assistive Device Training</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/physical-medicine-rehabilitation/physical-medicine-rehabilitation-icons/gait-and-balance-training.png" alt="Gait and Balance Training" width={32} height={32} />
         </div>
         <h4>Gait and Balance Training</h4>
       </div>

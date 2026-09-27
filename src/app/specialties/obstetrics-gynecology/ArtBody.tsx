@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,79 +187,79 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/pregnancy-care.png" alt="Normal Pregnancy Care" width={32} height={32} />
         </div>
         <h4>Normal Pregnancy Care</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/highRisk-pregnancy.png" alt="High-Risk Pregnancy" width={32} height={32} />
         </div>
         <h4>High-Risk Pregnancy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/gestational-diabetes.png" alt="Gestational Diabetes Mellitus (GDM)" width={32} height={32} />
         </div>
         <h4>Gestational Diabetes Mellitus (GDM)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/preeclampsia.png" alt="Pregnancy-Induced Hypertension (PIH) & Pre-eclampsia" width={32} height={32} />
         </div>
         <h4>Pregnancy-Induced Hypertension (PIH) &amp; Pre-eclampsia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="12" r="5"/><circle cx="16" cy="12" r="5"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/multiple-pregnancy.png" alt="Multiple Pregnancies (Twins or Higher)" width={32} height={32} />
         </div>
         <h4>Multiple Pregnancies (Twins or Higher)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a9 9 0 0 0-9 9c0 3.5 2 6 4 7.5V21h10v-2.5c2-1.5 4-4 4-7.5a9 9 0 0 0-9-9z"/><path d="M9 18h6"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/pregnancy-loss.png" alt="Recurrent Pregnancy Loss" width={32} height={32} />
         </div>
         <h4>Recurrent Pregnancy Loss</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/ectopic-pregnancy.png" alt="Ectopic Pregnancy" width={32} height={32} />
         </div>
         <h4>Ectopic Pregnancy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/menstrual_disorder.png" alt="Menstrual Disorders" width={32} height={32} />
         </div>
         <h4>Menstrual Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/polycystic-ovary-syndrome-pcos.png" alt="Polycystic Ovary Syndrome (PCOS)" width={32} height={32} />
         </div>
         <h4>Polycystic Ovary Syndrome (PCOS)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/endometriosis.png" alt="Endometriosis" width={32} height={32} />
         </div>
         <h4>Endometriosis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/fibroids.png" alt="Uterine Fibroids" width={32} height={32} />
         </div>
         <h4>Uterine Fibroids</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/ovarian-cysts.png" alt="Ovarian Cysts" width={32} height={32} />
         </div>
         <h4>Ovarian Cysts</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/obstetrics-gynecology/obstetrics-gynecology-icons/menopause-management.png" alt="Menopause and Hormonal Changes" width={32} height={32} />
         </div>
         <h4>Menopause and Hormonal Changes</h4>
       </div>

@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,61 +187,61 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 12h4l2-6 4 12 2-6h4"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/respiratory-distress-failure-asthma-pneumonia-bronchiolitis.png" alt="Respiratory Distress & Failure (Asthma, Pneumonia, Bronchiolitis)" width={32} height={32} />
         </div>
         <h4>Respiratory Distress &amp; Failure (Asthma, Pneumonia, Bronchiolitis)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/severe-infections-sepsis.png" alt="Severe Infections & Sepsis" width={32} height={32} />
         </div>
         <h4>Severe Infections &amp; Sepsis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/neurological-emergencies-seizures-encephalitis-meningitis.png" alt="Acute Neurological Emergencies (Seizures, Encephalitis, Meningitis)" width={32} height={32} />
         </div>
         <h4>Acute Neurological Emergencies (Seizures, Encephalitis, Meningitis)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/trauma-accidental-injuries.png" alt="Trauma & Accidental Injuries" width={32} height={32} />
         </div>
         <h4>Trauma &amp; Accidental Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/congenital-heart-disease-crises.png" alt="Congenital Heart Disease Crises" width={32} height={32} />
         </div>
         <h4>Congenital Heart Disease Crises</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/poisoning-drug-overdose.png" alt="Poisoning & Drug Overdose" width={32} height={32} />
         </div>
         <h4>Poisoning &amp; Drug Overdose</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/post-surgical-critical-care.png" alt="Post-Surgical Critical Care" width={32} height={32} />
         </div>
         <h4>Post-Surgical Critical Care</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.07 0l1.71-1.71a5 5 0 0 0-7.07-7.07L10 5.93"/><path d="M14 11a5 5 0 0 0-7.07 0l-1.71 1.71a5 5 0 0 0 7.07 7.07L14 18.07"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/metabolic-genetic-crises.png" alt="Metabolic & Genetic Crises" width={32} height={32} />
         </div>
         <h4>Metabolic &amp; Genetic Crises</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/multi-organ-dysfunction-syndrome-mods.png" alt="Multi-Organ Dysfunction Syndrome (MODS)" width={32} height={32} />
         </div>
         <h4>Multi-Organ Dysfunction Syndrome (MODS)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/paediatric-critical-care/paediatric-critical-care-icons/shock-hypovolemic-septic-cardiogenic.png" alt="Shock (Hypovolemic, Septic, Cardiogenic)" width={32} height={32} />
         </div>
         <h4>Shock (Hypovolemic, Septic, Cardiogenic)</h4>
       </div>
