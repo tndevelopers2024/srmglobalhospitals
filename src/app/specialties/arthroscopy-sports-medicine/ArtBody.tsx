@@ -187,159 +187,159 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/ACL-injuries.webp" alt="ACL Injuries" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/acl-injuries.png" alt="ACL Injuries" width={32} height={32} />
         </div>
         <h4>ACL Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/PCL-injuries.webp" alt="PCL Injuries" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/pcl-injuries.png" alt="PCL Injuries" width={32} height={32} />
         </div>
         <h4>PCL Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/MCL-and-LCL-injuries.webp" alt="MCL & LCL Injuries" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/mcl-and-lcl-injuries.png" alt="MCL &amp; LCL Injuries" width={32} height={32} />
         </div>
         <h4>MCL &amp; LCL Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Multi-ligament-knee-injuries.webp" alt="Multi-Ligament Knee Injuries" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/multi-ligament-knee-injuries.png" alt="Multi-Ligament Knee Injuries" width={32} height={32} />
         </div>
         <h4>Multi-Ligament Knee Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Meniscal-tears.webp" alt="Meniscal Tears" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/meniscal-tears.png" alt="Meniscal Tears" width={32} height={32} />
         </div>
         <h4>Meniscal Tears</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Meniscus-transplantation.webp" alt="Meniscus Transplantation" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/meniscus-transplantation.png" alt="Meniscus Transplantation" width={32} height={32} />
         </div>
         <h4>Meniscus Transplantation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Cartilage-defects.webp" alt="Cartilage Defects" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/cartilage-defects.png" alt="Cartilage Defects" width={32} height={32} />
         </div>
         <h4>Cartilage Defects</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Osteochondral-injuries.webp" alt="Osteochondral Injuries" width={32} height={32} />
-        </div>
-        <h4>Osteochondral Injuries</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Patellar-dislocations.webp" alt="Patellar Dislocations" width={32} height={32} />
-        </div>
-        <h4>Patellar Dislocations</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Patellar-malalignment.webp" alt="Patellar Malalignment" width={32} height={32} />
-        </div>
-        <h4>Patellar Malalignment</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/High-tibial-osteotomy-HTO.webp" alt="High Tibial Osteotomy (HTO)" width={32} height={32} />
-        </div>
-        <h4>High Tibial Osteotomy (HTO)</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Distal-femoral-osteotomy-DFO.webp" alt="Distal Femoral Osteotomy (DFO)" width={32} height={32} />
-        </div>
-        <h4>Distal Femoral Osteotomy (DFO)</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Rotator-cuff-tears.webp" alt="Rotator Cuff Tears" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/rotator-cuff-tears.png" alt="Rotator Cuff Tears" width={32} height={32} />
         </div>
         <h4>Rotator Cuff Tears</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Shoulder-instability.webp" alt="Shoulder Instability" width={32} height={32} />
-        </div>
-        <h4>Shoulder Instability</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Shoulder-dislocations.webp" alt="Shoulder Dislocations" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/shoulder-dislocations.png" alt="Shoulder Dislocations" width={32} height={32} />
         </div>
         <h4>Shoulder Dislocations</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Labral-tears.webp" alt="Labral Tears" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/shoulder-instability.png" alt="Shoulder Instability" width={32} height={32} />
         </div>
-        <h4>Labral Tears</h4>
+        <h4>Shoulder Instability</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/SLAP-lesions.webp" alt="SLAP Lesions" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/slap-lesions.png" alt="SLAP Lesions" width={32} height={32} />
         </div>
         <h4>SLAP Lesions</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Shoulder-impingement.webp" alt="Shoulder Impingement" width={32} height={32} />
-        </div>
-        <h4>Shoulder Impingement</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Frozen-shoulder.webp" alt="Frozen Shoulder" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/frozen-shoulder.png" alt="Frozen Shoulder" width={32} height={32} />
         </div>
         <h4>Frozen Shoulder</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Biceps-tendon-injuries.webp" alt="Biceps Tendon Injuries" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/shoulder-impingement.png" alt="Shoulder Impingement" width={32} height={32} />
+        </div>
+        <h4>Shoulder Impingement</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/labral-tears.png" alt="Labral Tears" width={32} height={32} />
+        </div>
+        <h4>Labral Tears</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/biceps-tendon-injuries.png" alt="Biceps Tendon Injuries" width={32} height={32} />
         </div>
         <h4>Biceps Tendon Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Shoulder-arthritis-requiring-arthroplasty.webp" alt="Shoulder Arthritis Requiring Arthroplasty" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/osteochondral-injuries.png" alt="Osteochondral Injuries" width={32} height={32} />
         </div>
-        <h4>Shoulder Arthritis &amp; Arthroplasty</h4>
+        <h4>Osteochondral Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Early-stage-arthritis.webp" alt="Early-Stage Arthritis" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/early-stage-arthritis.png" alt="Early-Stage Arthritis" width={32} height={32} />
         </div>
         <h4>Early-Stage Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Tendon-ruptures.webp" alt="Tendon Ruptures" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/high-tibial-osteotomy-hto.png" alt="High Tibial Osteotomy (HTO)" width={32} height={32} />
+        </div>
+        <h4>High Tibial Osteotomy (HTO)</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/distal-femoral-osteotomy-dfo.png" alt="Distal Femoral Osteotomy (DFO)" width={32} height={32} />
+        </div>
+        <h4>Distal Femoral Osteotomy (DFO)</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/patellar-dislocations.png" alt="Patellar Dislocations" width={32} height={32} />
+        </div>
+        <h4>Patellar Dislocations</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/patellar-malalignment.png" alt="Patellar Malalignment" width={32} height={32} />
+        </div>
+        <h4>Patellar Malalignment</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/tendon-ruptures.png" alt="Tendon Ruptures" width={32} height={32} />
         </div>
         <h4>Tendon Ruptures</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Overuse-injuries-tendinitis-bursitis.webp" alt="Overuse Injuries (Tendinitis & Bursitis)" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/overuse-injuries-tendinitis-bursitis.png" alt="Overuse Injuries (Tendinitis &amp; Bursitis)" width={32} height={32} />
         </div>
         <h4>Overuse Injuries (Tendinitis &amp; Bursitis)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Sports-related-fractures.webp" alt="Sports-Related Fractures" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/sports-related-fractures.png" alt="Sports-Related Fractures" width={32} height={32} />
         </div>
         <h4>Sports-Related Fractures</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology-cardiac anaesthesia/arthroscopy-sports-medicine/Arthroscopic-assisted-fracture-fixation.webp" alt="Arthroscopic-Assisted Fracture Fixation" width={32} height={32} />
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/arthroscopic-assisted-fracture-fixation.png" alt="Arthroscopic-Assisted Fracture Fixation" width={32} height={32} />
         </div>
         <h4>Arthroscopic-Assisted Fracture Fixation</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/arthroscopy-sports-medicine/arthroscopy-sports-medicine-icons/shoulder-arthritis-requiring-arthroplasty.png" alt="Shoulder Arthritis Requiring Arthroplasty" width={32} height={32} />
+        </div>
+        <h4>Shoulder Arthritis Requiring Arthroplasty</h4>
       </div>
     </div>
   </div>

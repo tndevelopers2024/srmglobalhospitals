@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,85 +187,85 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/type-1-diabetes-mellitus.png" alt="Type 1 Diabetes Mellitus" width={32} height={32} />
         </div>
         <h4>Type 1 Diabetes Mellitus</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/type-2-diabetes-mellitus.png" alt="Type 2 Diabetes Mellitus" width={32} height={32} />
         </div>
         <h4>Type 2 Diabetes Mellitus</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-ketoacidosis-dka.png" alt="Diabetic Ketoacidosis (DKA)" width={32} height={32} />
         </div>
         <h4>Diabetic Ketoacidosis (DKA)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/type-2-diabetes-mellitus.png" alt="Hyperglycemia" width={32} height={32} />
         </div>
         <h4>Hyperglycemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/hypoglycemia.png" alt="Hypoglycemia" width={32} height={32} />
         </div>
         <h4>Hypoglycemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-neuropathy.png" alt="Diabetic Neuropathy" width={32} height={32} />
         </div>
         <h4>Diabetic Neuropathy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-retinopathy.png" alt="Diabetic Retinopathy" width={32} height={32} />
         </div>
         <h4>Diabetic Retinopathy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2C8 2 5 6 5 11c0 5 3 9 7 11 4-2 7-6 7-11 0-5-3-9-7-9z"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-nephropathy.png" alt="Diabetic Nephropathy" width={32} height={32} />
         </div>
         <h4>Diabetic Nephropathy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><ellipse cx="9" cy="8" rx="3" ry="4"/><ellipse cx="15" cy="16" rx="3" ry="4"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-foot-ulcers.png" alt="Diabetic Foot Ulcers" width={32} height={32} />
         </div>
         <h4>Diabetic Foot Ulcers</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/hypertension.png" alt="Peripheral Vascular Disease (PVD)" width={32} height={32} />
         </div>
         <h4>Peripheral Vascular Disease (PVD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 3c-2 0-3 2-3 4 0 3 2 4 2 7 0 3-2 4-2 6 0 1 1 2 3 2h5c3 0 5-2 5-5 0-2-1-3-1-5 0-3 2-4 2-7 0-2-1-4-3-4"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-gastroparesis.png" alt="Diabetic Gastroparesis" width={32} height={32} />
         </div>
         <h4>Diabetic Gastroparesis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/hypertension.png" alt="Hypertension" width={32} height={32} />
         </div>
         <h4>Hypertension</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/dyslipidemia.png" alt="Dyslipidemia" width={32} height={32} />
         </div>
         <h4>Dyslipidemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="9" cy="9" r="1.5"/><circle cx="15" cy="13" r="1.5"/></svg>
+          <Image src="/images/specialties/diabetology/diabetology-icons/diabetic-dermopathy.png" alt="Diabetic Dermopathy" width={32} height={32} />
         </div>
         <h4>Diabetic Dermopathy</h4>
       </div>

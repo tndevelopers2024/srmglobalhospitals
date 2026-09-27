@@ -191,98 +191,98 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/General-anesthesia.png" alt="General Anaesthesia" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/General-anesthesia.png" alt="General Anaesthesia" width={32} height={32} />
         </div>
         <h4>General Anaesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Regional-anesthesia.png" alt="Regional Anaesthesia" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Regional-anesthesia.png" alt="Regional Anaesthesia" width={32} height={32} />
         </div>
         <h4>Regional Anaesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Sedation.png" alt="Sedation" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Sedation.png" alt="Sedation" width={32} height={32} />
         </div>
         <h4>Sedation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Pain-management.png" alt="Pain management" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Pain-management.png" alt="Pain management" width={32} height={32} />
         </div>
         <h4>Pain management</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Epidural-anesthesia.png" alt="Epidural anesthesia" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Epidural-anesthesia.png" alt="Epidural anesthesia" width={32} height={32} />
         </div>
         <h4>Epidural anesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Spinal-anesthesia.png" alt="Spinal anesthesia" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Spinal-anesthesia.png" alt="Spinal anesthesia" width={32} height={32} />
         </div>
         <h4>Spinal anesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Local-anesthesia.png" alt="Local anesthesia" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Local-anesthesia.png" alt="Local anesthesia" width={32} height={32} />
         </div>
         <h4>Local anesthesia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-different-surgeries.png" alt="Anesthesia for different surgeries" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-different-surgeries.png" alt="Anesthesia for different surgeries" width={32} height={32} />
         </div>
         <h4>Anesthesia for different surgeries</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-labor-and-delivery.png" alt="Anesthesia for labor and delivery" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-labor-and-delivery.png" alt="Anesthesia for labor and delivery" width={32} height={32} />
         </div>
         <h4>Anesthesia for labor and delivery</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-critical-care.png" alt="Anesthesia for critical care" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-critical-care.png" alt="Anesthesia for critical care" width={32} height={32} />
         </div>
         <h4>Anesthesia for critical care</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-Pediatric-Patients.png" alt="Anesthesia for pediatric patients" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-Pediatric-Patients.png" alt="Anesthesia for pediatric patients" width={32} height={32} />
         </div>
         <h4>Anesthesia for pediatric patients</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-outpatient-procedures.png" alt="Anesthesia for outpatient procedures" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-outpatient-procedures.png" alt="Anesthesia for outpatient procedures" width={32} height={32} />
         </div>
         <h4>Anesthesia for outpatient procedures</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-trauma-patients.png" alt="Anesthesia for trauma patients" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-trauma-patients.png" alt="Anesthesia for trauma patients" width={32} height={32} />
         </div>
         <h4>Anesthesia for trauma patients</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-cardiac-surgeries.png" alt="Anesthesia for cardiac surgeries" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-cardiac-surgeries.png" alt="Anesthesia for cardiac surgeries" width={32} height={32} />
         </div>
         <h4>Anesthesia for cardiac surgeries</h4>
       </div>
 
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <Image src="/images/departments/anaesthesiology/anaesthesiology-icons/Anesthesia-for-neurosurgeries.png" alt="Anesthesia for neurosurgeries" width={32} height={32} />
+          <Image src="/images/specialties/anaesthesiology/anaesthesiology-icons/Anesthesia-for-neurosurgeries.png" alt="Anesthesia for neurosurgeries" width={32} height={32} />
         </div>
         <h4>Anesthesia for neurosurgeries</h4>
       </div>

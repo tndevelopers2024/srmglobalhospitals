@@ -187,43 +187,43 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/osteoarthritis-and-rheumatoid-arthritis.png" alt="Osteoarthritis and Rheumatoid Arthritis" width={32} height={32} />
         </div>
         <h4>Osteoarthritis and Rheumatoid Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/avascular-necrosis-avn.png" alt="Avascular Necrosis (AVN)" width={32} height={32} />
         </div>
         <h4>Avascular Necrosis (AVN)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/post-traumatic-joint-damage.png" alt="Post-traumatic Joint Damage" width={32} height={32} />
         </div>
         <h4>Post-traumatic Joint Damage</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/congenital-or-developmental-joint-disorders.png" alt="Congenital or Developmental Joint Disorders" width={32} height={32} />
         </div>
         <h4>Congenital or Developmental Joint Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/failed-or-infected-joint-replacements-revision-surgeries.png" alt="Failed or Infected Joint Replacements (Revision Surgeries)" width={32} height={32} />
         </div>
         <h4>Failed or Infected Joint Replacements (Revision Surgeries)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/sports-and-overuse-injuries.png" alt="Sports and Overuse Injuries" width={32} height={32} />
         </div>
         <h4>Sports and Overuse Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/joint-replacement/joint-replacement-icons/joint-deformities-and-chronic-pain-conditions.png" alt="Joint Deformities and Chronic Pain Conditions" width={32} height={32} />
         </div>
         <h4>Joint Deformities and Chronic Pain Conditions</h4>
       </div>

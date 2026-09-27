@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/acne.png" alt="Acne" width={32} height={32} />
         </div>
         <h4>Acne</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/eczema.png" alt="Eczema" width={32} height={32} />
         </div>
         <h4>Eczema</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/psoriasis.png" alt="Psoriasis" width={32} height={32} />
         </div>
         <h4>Psoriasis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/skin-cancer.png" alt="Skin Cancer" width={32} height={32} />
         </div>
         <h4>Skin Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/dermatitis.png" alt="Dermatitis" width={32} height={32} />
         </div>
         <h4>Dermatitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/rosacea.png" alt="Rosacea" width={32} height={32} />
         </div>
         <h4>Rosacea</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/melanoma.png" alt="Melanoma" width={32} height={32} />
         </div>
         <h4>Melanoma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="2"/><circle cx="12" cy="16" r="2.5"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/warts.png" alt="Warts" width={32} height={32} />
         </div>
         <h4>Warts</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/hair-loss.png" alt="Hair Loss" width={32} height={32} />
         </div>
         <h4>Hair Loss</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/vitiligo.png" alt="Vitiligo" width={32} height={32} />
         </div>
         <h4>Vitiligo</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/hives-urticaria.png" alt="Hives (Urticaria)" width={32} height={32} />
         </div>
         <h4>Hives (Urticaria)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/fungal-infections.png" alt="Fungal Infections" width={32} height={32} />
         </div>
         <h4>Fungal Infections</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/moles-and-birthmarks.png" alt="Moles and Birthmarks" width={32} height={32} />
         </div>
         <h4>Moles and Birthmarks</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/skin-allergies.png" alt="Skin Allergies" width={32} height={32} />
         </div>
         <h4>Skin Allergies</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          <Image src="/images/specialties/dermatology/dermatology-icons/keloids.png" alt="Keloids" width={32} height={32} />
         </div>
         <h4>Keloids</h4>
       </div>

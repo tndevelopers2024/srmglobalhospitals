@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,51 +187,93 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/tooth-extraction.png" alt="Tooth Extraction" width={32} height={32} />
+        </div>
+        <h4>Tooth Extraction</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/dental-implants.png" alt="Dental Implants" width={32} height={32} />
         </div>
         <h4>Dental Implants</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/orthognathic-surgery.png" alt="Orthognathic Surgery" width={32} height={32} />
         </div>
-        <h4>Wisdom Teeth Removal</h4>
+        <h4>Orthognathic Surgery</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/jw-fractures.png" alt="Jaw Fractures" width={32} height={32} />
         </div>
         <h4>Jaw Fractures</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/wisdom-teeth-removal.png" alt="Wisdom Teeth Removal" width={32} height={32} />
         </div>
-        <h4>TMJ Disorders</h4>
+        <h4>Wisdom Teeth Removal</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/temporomandibular-joint-disorders.png" alt="Temporomandibular Joint Disorders" width={32} height={32} />
+        </div>
+        <h4>Temporomandibular Joint Disorders</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/fcial-trauma.png" alt="Facial Trauma" width={32} height={32} />
         </div>
         <h4>Facial Trauma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/cleft-lip-and-palate-repair.png" alt="Cleft Lip and Palate Repair" width={32} height={32} />
         </div>
-        <h4>Cleft Lip and Palate</h4>
+        <h4>Cleft Lip and Palate Repair</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/oral-cancer-surgery.png" alt="Oral Cancer Surgery" width={32} height={32} />
         </div>
-        <h4>Oral Cancer</h4>
+        <h4>Oral Cancer Surgery</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="22" y1="12" x2="18" y2="12"/><line x1="6" y1="12" x2="2" y2="12"/><line x1="12" y1="6" x2="12" y2="2"/><line x1="12" y1="22" x2="12" y2="18"/></svg>
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/bone-grafting.png" alt="Bone Grafting" width={32} height={32} />
         </div>
-        <h4>Impacted Tooth Extraction</h4>
+        <h4>Bone Grafting</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/facial-reconstruction.png" alt="Facial Reconstruction" width={32} height={32} />
+        </div>
+        <h4>Facial Reconstruction</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/salivary-gland-disorders.png" alt="Salivary Gland Disorders" width={32} height={32} />
+        </div>
+        <h4>Salivary Gland Disorders</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/dental-infections.png" alt="Dental Infections" width={32} height={32} />
+        </div>
+        <h4>Dental Infections</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/oral-pathology.png" alt="Oral Pathology" width={32} height={32} />
+        </div>
+        <h4>Oral Pathology</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/dental-omfs/dental-omfs-icons/sleep-apnea-surgery.png" alt="Sleep Apnea Surgery" width={32} height={32} />
+        </div>
+        <h4>Sleep Apnea Surgery</h4>
       </div>
     </div>
   </div>

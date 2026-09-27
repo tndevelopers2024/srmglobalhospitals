@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/diabetes-mellitus-type-1-type-2.png" alt="Diabetes Mellitus (Type 1 &amp; Type 2)" width={32} height={32} />
         </div>
         <h4>Diabetes Mellitus (Type 1 &amp; Type 2)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 8c-2-3-6-3-7 0-1 3 1 6 4 6h3M12 8c2-3 6-3 7 0 1 3-1 6-4 6h-3"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/thyroid-disorders-hypothyroidism-hyperthyroidism.png" alt="Thyroid Disorders" width={32} height={32} />
         </div>
         <h4>Thyroid Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 3l9 15H3z"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/adrenal-gland-disorders.png" alt="Adrenal Disorders" width={32} height={32} />
         </div>
         <h4>Adrenal Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/pituitary-disorders.png" alt="Pituitary Disorders" width={32} height={32} />
         </div>
         <h4>Pituitary Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="4" cy="13" r="2"/><circle cx="20" cy="13" r="2"/><line x1="6" y1="13" x2="18" y2="13"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/osteoporosis.png" alt="Osteoporosis and Other Metabolic Bone Diseases" width={32} height={32} />
         </div>
         <h4>Osteoporosis and Other Metabolic Bone Diseases</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="8"/><circle cx="9" cy="10" r="1.5"/><circle cx="15" cy="10" r="1.5"/><circle cx="12" cy="15" r="1.5"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/polycystic-ovary-syndrome-pcos.png" alt="Polycystic Ovary Syndrome (PCOS)" width={32} height={32} />
         </div>
         <h4>Polycystic Ovary Syndrome (PCOS)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/hypogonadism.png" alt="Hypogonadism (Low Testosterone Levels)" width={32} height={32} />
         </div>
         <h4>Hypogonadism (Low Testosterone Levels)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="8" r="2"/><circle cx="16" cy="8" r="2"/><circle cx="8" cy="16" r="2"/><circle cx="16" cy="16" r="2"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/hyperparathyroidism.png" alt="Hyperparathyroidism and Hypoparathyroidism" width={32} height={32} />
         </div>
         <h4>Hyperparathyroidism and Hypoparathyroidism</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/growth-hormone-deficiency.png" alt="Growth Disorders" width={32} height={32} />
         </div>
         <h4>Growth Disorders (Such as Gigantism and Dwarfism)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/menopause-and-hormone-replacement-therapy.png" alt="Menopause and Hormone Replacement Therapy" width={32} height={32} />
         </div>
         <h4>Menopause and Hormone Replacement Therapy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/Hyperaldosteronism.png" alt="Hyperaldosteronism" width={32} height={32} />
         </div>
         <h4>Hyperaldosteronism</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/hypercalcemia.png" alt="Hypercalcemia and Hypocalcemia" width={32} height={32} />
         </div>
         <h4>Hypercalcemia and Hypocalcemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/dyslipidemia.png" alt="Hyperlipidemia and Dyslipidemia" width={32} height={32} />
         </div>
         <h4>Hyperlipidemia and Dyslipidemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/metabolic-syndrome.png" alt="Metabolic Syndrome" width={32} height={32} />
         </div>
         <h4>Metabolic Syndrome</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/endocrinology/endocrinology-icons/reproductive endocrinology disorders.png" alt="Reproductive Endocrinology Disorders" width={32} height={32} />
         </div>
         <h4>Reproductive Endocrinology Disorders</h4>
       </div>

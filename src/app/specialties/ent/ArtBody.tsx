@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/sinusitis.png" alt="Sinusitis" width={32} height={32} />
         </div>
         <h4>Sinusitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/tonsillitis.png" alt="Tonsillitis" width={32} height={32} />
         </div>
         <h4>Tonsillitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 8a6 6 0 0 1 12 0c0 4-3 5-3 8a3 3 0 0 1-6 0"/><circle cx="15" cy="10" r="1"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/otitis-media-middle-ear-infection.png" alt="Otitis Media (Middle Ear Infection)" width={32} height={32} />
         </div>
         <h4>Otitis Media (Middle Ear Infection)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/hearing-loss.png" alt="Hearing Loss" width={32} height={32} />
         </div>
         <h4>Hearing Loss</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/deviated-septum.png" alt="Deviated Septum" width={32} height={32} />
         </div>
         <h4>Deviated Septum</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/nasal-polyps.png" alt="Nasal Polyps" width={32} height={32} />
         </div>
         <h4>Nasal Polyps</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 10c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/><path d="M4 16c2-3 4-3 6 0s4 3 6 0 4-3 6 0"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/vocal-cord-disorders.png" alt="Vocal Cord Disorders" width={32} height={32} />
         </div>
         <h4>Vocal Cord Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/hoarseness.png" alt="Hoarseness" width={32} height={32} />
         </div>
         <h4>Hoarseness</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/vertigo.png" alt="Vertigo" width={32} height={32} />
         </div>
         <h4>Vertigo</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/sleep-apnea.png" alt="Sleep Apnea" width={32} height={32} />
         </div>
         <h4>Sleep Apnea</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/swallowing-disorders.png" alt="Swallowing Disorders" width={32} height={32} />
         </div>
         <h4>Swallowing Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 8c-2-3-6-3-7 0-1 3 1 6 4 6h3M12 8c2-3 6-3 7 0 1 3-1 6-4 6h-3"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/thyroid-nodules.png" alt="Thyroid Nodules" width={32} height={32} />
         </div>
         <h4>Thyroid Nodules</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/head-and-neck-cancer.png" alt="Head and Neck Cancer" width={32} height={32} />
         </div>
         <h4>Head and Neck Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/chronic-cough.png" alt="Chronic Cough" width={32} height={32} />
         </div>
         <h4>Chronic Cough</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/ent/ent-icons/laryngitis.png" alt="Laryngitis" width={32} height={32} />
         </div>
         <h4>Laryngitis</h4>
       </div>

@@ -187,61 +187,61 @@ export default function ArtBody() {
           <div className="conditions-grid">
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/fetal-growth-restriction.png" alt="Fetal Growth Restriction (IUGR)" width={32} height={32} />
               </div>
               <h4>Fetal Growth Restriction (IUGR)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/congenital-anomalies.png" alt="Congenital Anomalies" width={32} height={32} />
               </div>
               <h4>Congenital Anomalies</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/abnormal-screening.png" alt="Abnormal First/Second Trimester Screening" width={32} height={32} />
               </div>
               <h4>Abnormal First/Second Trimester Screening</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/amniotic-fluid-disorders.png" alt="Amniotic Fluid Disorders" width={32} height={32} />
               </div>
               <h4>Amniotic Fluid Disorders (Polyhydramnios, Oligohydramnios)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/rh-isoimmunization.png" alt="Rh Incompatibility and Isoimmunization" width={32} height={32} />
               </div>
               <h4>Rh Incompatibility and Isoimmunization</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/fetal-infections.png" alt="Fetal Infections" width={32} height={32} />
               </div>
               <h4>Fetal Infections (TORCH, CMV, Parvovirus)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/fetal-cardiac.png" alt="Fetal Cardiac Abnormalities" width={32} height={32} />
               </div>
               <h4>Fetal Cardiac Abnormalities</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.07 0l1.71-1.71a5 5 0 0 0-7.07-7.07L10 5.93"/><path d="M14 11a5 5 0 0 0-7.07 0l-1.71 1.71a5 5 0 0 0 7.07 7.07L14 18.07"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/ttts.png" alt="Twin-to-Twin Transfusion Syndrome (TTTS)" width={32} height={32} />
               </div>
               <h4>Twin-to-Twin Transfusion Syndrome (TTTS)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/non-Immune-hydrops-fetalis.png" alt="Non-Immune Hydrops Fetalis" width={32} height={32} />
               </div>
               <h4>Non-Immune Hydrops Fetalis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                <Image src="/images/specialties/fetal-medicine/fetal-medicine-icons/fetal-anemia.png" alt="Fetal Anemia" width={32} height={32} />
               </div>
               <h4>Fetal Anemia</h4>
             </div>

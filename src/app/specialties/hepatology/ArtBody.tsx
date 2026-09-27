@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
           <div className="conditions-grid">
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/liver-cirrhosis.png" alt="Liver Cirrhosis" width={32} height={32} />
               </div>
               <h4>Liver Cirrhosis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/coe-hepatitis.png" alt="Hepatitis" width={32} height={32} />
               </div>
               <h4>Hepatitis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/liver-cancer.png" alt="Liver Cancer" width={32} height={32} />
               </div>
               <h4>Liver Cancer</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/liver-failure.png" alt="Liver Failure" width={32} height={32} />
               </div>
               <h4>Liver Failure</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/alcoholic-liver-disease.png" alt="Alcoholic Liver Disease" width={32} height={32} />
               </div>
               <h4>Alcoholic Liver Disease</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/non-alcoholic-fatty-liver-disease-nafld.png" alt="Non-alcoholic Fatty Liver Disease (NAFLD)" width={32} height={32} />
               </div>
               <h4>Non-alcoholic Fatty Liver Disease (NAFLD)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/hepatic-encephalopathy.png" alt="Hepatic Encephalopathy" width={32} height={32} />
               </div>
               <h4>Hepatic Encephalopathy</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/portal-hypertension.png" alt="Portal Hypertension" width={32} height={32} />
               </div>
               <h4>Portal Hypertension</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/liiver-transplantation.png" alt="Liver Transplantation" width={32} height={32} />
               </div>
               <h4>Liver Transplantation</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/liver-biopsy.png" alt="Liver Biopsy" width={32} height={32} />
               </div>
               <h4>Liver Biopsy</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/hepatic-steatosis.png" alt="Hepatic Steatosis" width={32} height={32} />
               </div>
               <h4>Hepatic Steatosis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/primary-biliary-cholangitis-pbc.png" alt="Primary Biliary Cholangitis (PBC)" width={32} height={32} />
               </div>
               <h4>Primary Biliary Cholangitis (PBC)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/autoimmune-hepatitis.png" alt="Autoimmune Hepatitis" width={32} height={32} />
               </div>
               <h4>Autoimmune Hepatitis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/wilsons-disease.png" alt="Wilson's Disease" width={32} height={32} />
               </div>
-              <h4>Wilson&amp;apos;s Disease</h4>
+              <h4>Wilson&apos;s Disease</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
+                <Image src="/images/specialties/hepatology/hepatology-icons/hemochromatosis.png" alt="Hemochromatosis" width={32} height={32} />
               </div>
               <h4>Hemochromatosis</h4>
             </div>

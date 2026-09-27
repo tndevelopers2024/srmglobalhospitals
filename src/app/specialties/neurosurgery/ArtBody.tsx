@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l1.45-1.45"/><polyline points="3.5 12.5 7 12.5 8.5 9 10.5 15 12 11 13 13 15.5 13"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-stroke.png" alt="Stroke" width={32} height={32} />
         </div>
         <h4>Stroke</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-epilepsy.png" alt="Epilepsy" width={32} height={32} />
         </div>
         <h4>Epilepsy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a9 9 0 0 0-9 9c0 3.5 2 6 4 7.5V21h10v-2.5c2-1.5 4-4 4-7.5a9 9 0 0 0-9-9z"/><path d="M9 18h6"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/alzheimers-disease.png" alt="Alzheimer's Disease" width={32} height={32} />
         </div>
         <h4>Alzheimer's Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-parkinsons-disease.png" alt="Parkinson's Disease" width={32} height={32} />
         </div>
         <h4>Parkinson's Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-multiple-sclerosis-ms.png" alt="Multiple Sclerosis (MS)" width={32} height={32} />
         </div>
         <h4>Multiple Sclerosis (MS)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/migraine-headaches.png" alt="Migraine Headaches" width={32} height={32} />
         </div>
         <h4>Migraine Headaches</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/traumatic-brain-injury-rehabilitation.png" alt="Traumatic Brain Injury (TBI)" width={32} height={32} />
         </div>
         <h4>Traumatic Brain Injury (TBI)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M8 6l4-4 4 4M8 18l4 4 4-4"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-spinal-cord-injury.png" alt="Spinal Cord Injury" width={32} height={32} />
         </div>
         <h4>Spinal Cord Injury</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-brain-tumors.png" alt="Brain Tumors" width={32} height={32} />
         </div>
         <h4>Brain Tumors</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/peripheral-neuropathy.png" alt="Peripheral Neuropathy" width={32} height={32} />
         </div>
         <h4>Peripheral Neuropathy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-amyotrophic-lateral-sclerosis-als.png" alt="Amyotrophic Lateral Sclerosis (ALS)" width={32} height={32} />
         </div>
         <h4>Amyotrophic Lateral Sclerosis (ALS)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-huntingtons-disease.png" alt="Huntington's Disease" width={32} height={32} />
         </div>
         <h4>Huntington's Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="9" cy="7" r="4"/><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><path d="M17 8a3 3 0 1 1 0 5.9"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/neurodevelopmental-disorders-e.g.-autism-adhd.png" alt="Neurodevelopmental Disorders (e.g., Autism, ADHD)" width={32} height={32} />
         </div>
         <h4>Neurodevelopmental Disorders (e.g., Autism, ADHD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/cerebral-palsy.png" alt="Cerebral Palsy" width={32} height={32} />
         </div>
         <h4>Cerebral Palsy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 12h4l2-6 4 12 2-6h4"/></svg>
+          <Image src="/images/specialties/neurosurgery/neurosurgery-icons/coe-myasthenia-gravis.png" alt="Myasthenia Gravis" width={32} height={32} />
         </div>
         <h4>Myasthenia Gravis</h4>
       </div>

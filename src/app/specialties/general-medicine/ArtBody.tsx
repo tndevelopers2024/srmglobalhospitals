@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
           <div className="conditions-grid">
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/hypertension.png" alt="Hypertension" width={32} height={32} />
               </div>
               <h4>Hypertension</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/diabetes-mellitus.png" alt="Diabetes Mellitus" width={32} height={32} />
               </div>
               <h4>Diabetes Mellitus</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/asthma.png" alt="Asthma" width={32} height={32} />
               </div>
               <h4>Asthma</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/Ahchronic-obstructive-pulmonary-disease-copd.png" alt="Chronic Obstructive Pulmonary Disease (COPD)" width={32} height={32} />
               </div>
               <h4>Chronic Obstructive Pulmonary Disease (COPD)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/hyperlipidemia.png" alt="Hyperlipidemia" width={32} height={32} />
               </div>
               <h4>Hyperlipidemia</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/coe-gastroesophageal-reflux-disease.png" alt="Gastroesophageal Reflux Disease (GERD)" width={32} height={32} />
               </div>
               <h4>Gastroesophageal Reflux Disease (GERD)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/chronic-kidney-disease-ckd.png" alt="Chronic Kidney Disease (CKD)" width={32} height={32} />
               </div>
               <h4>Chronic Kidney Disease (CKD)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/osteoarthritis.png" alt="Osteoarthritis" width={32} height={32} />
               </div>
               <h4>Osteoarthritis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/rheumatoid-arthritis.png" alt="Rheumatoid Arthritis" width={32} height={32} />
               </div>
               <h4>Rheumatoid Arthritis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/coe-irritable-bowel-syndrome-ibs.png" alt="Irritable Bowel Syndrome (IBS)" width={32} height={32} />
               </div>
               <h4>Irritable Bowel Syndrome (IBS)</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/fever-cold-and-cough.png" alt="Fever, Cold and Cough" width={32} height={32} />
               </div>
               <h4>Fever, Cold and Cough</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/anxiety-disorders.png" alt="Anxiety Disorders" width={32} height={32} />
               </div>
               <h4>Anxiety Disorders</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 8c-2-3-6-3-7 0-1 3 1 6 4 6h3M12 8c2-3 6-3 7 0 1 3-1 6-4 6h-3"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/thyroid-disorders.png" alt="Thyroid Disorders" width={32} height={32} />
               </div>
               <h4>Thyroid Disorders</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"/><line x1="23" y1="13" x2="23" y2="11"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/chronic-fatigue-syndrome.png" alt="Chronic Fatigue Syndrome" width={32} height={32} />
               </div>
               <h4>Chronic Fatigue Syndrome</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
+                <Image src="/images/specialties/general-medicine/general-medicine-icons/fibromyalgia.png" alt="Fibromyalgia" width={32} height={32} />
               </div>
               <h4>Fibromyalgia</h4>
             </div>

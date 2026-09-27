@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/breast-cancer.png" alt="Breast Cancer" width={32} height={32} />
         </div>
         <h4>Breast Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 18L18 6M8 6h8a2 2 0 0 1 2 2v8"/><path d="M6 12a6 6 0 0 0 6 6"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/lung-cancer.png" alt="Lung Cancer" width={32} height={32} />
         </div>
         <h4>Lung Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/colorectal-cancer.png" alt="Colorectal Cancer" width={32} height={32} />
         </div>
         <h4>Colorectal Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/prostate-cancer.png" alt="Prostate Cancer" width={32} height={32} />
         </div>
         <h4>Prostate Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/leukemia.png" alt="Leukemia" width={32} height={32} />
         </div>
         <h4>Leukemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M9 6h6M9 18h6M6 9v6M18 9v6"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/lymphoma.png" alt="Lymphoma" width={32} height={32} />
         </div>
         <h4>Lymphoma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/pancreatic-cncer.png" alt="Pancreatic Cancer" width={32} height={32} />
         </div>
         <h4>Pancreatic Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/ovarian-cancer.png" alt="Ovarian Cancer" width={32} height={32} />
         </div>
         <h4>Ovarian Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/bladder-cancer.png" alt="Bladder Cancer" width={32} height={32} />
         </div>
         <h4>Bladder Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/liver-cancer.png" alt="Liver Cancer" width={32} height={32} />
         </div>
         <h4>Liver Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/melanoma.png" alt="Melanoma" width={32} height={32} />
         </div>
         <h4>Melanoma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/sarcoma.png" alt="Sarcoma" width={32} height={32} />
         </div>
         <h4>Sarcoma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a9 9 0 0 0-9 9c0 3.5 2 6 4 7.5V21h10v-2.5c2-1.5 4-4 4-7.5a9 9 0 0 0-9-9z"/><path d="M9 18h6"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/coe-brain-tumors.png" alt="Brain Tumors" width={32} height={32} />
         </div>
         <h4>Brain Tumors</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/thyroid-cancer.png" alt="Thyroid Cancer" width={32} height={32} />
         </div>
         <h4>Thyroid Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/medical-oncology/medical-oncology-icons/stomach-gastric-cancer.png" alt="Stomach (Gastric) Cancer" width={32} height={32} />
         </div>
         <h4>Stomach (Gastric) Cancer</h4>
       </div>
