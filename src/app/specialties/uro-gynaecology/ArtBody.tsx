@@ -186,49 +186,49 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/stress-urinary-incontinence.png" alt="Urinary Incontinence (Stress, Urge, and Mixed)" width={32} height={32} />
         </div>
         <h4>Urinary Incontinence (Stress, Urge, and Mixed)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="17 13 12 18 7 13"/><polyline points="17 6 12 11 7 6"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/pelvic-organ-prolapse.png" alt="Pelvic Organ Prolapse" width={32} height={32} />
         </div>
         <h4>Pelvic Organ Prolapse</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/chronic-pelvic-pain.png" alt="Overactive Bladder Syndrome" width={32} height={32} />
         </div>
         <h4>Overactive Bladder Syndrome</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/recurrent-urinary-tract-infection.png" alt="Recurrent Urinary Tract Infections (UTIs)" width={32} height={32} />
         </div>
         <h4>Recurrent Urinary Tract Infections (UTIs)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/fistula-repair.png" alt="Fistula Repair (Vesico-Vaginal, Recto-Vaginal)" width={32} height={32} />
         </div>
         <h4>Fistula Repair (Vesico-Vaginal, Recto-Vaginal)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/post-childbirth-pelvic-foor-dysfunction.png" alt="Post-Childbirth Pelvic Floor Dysfunction" width={32} height={32} />
         </div>
         <h4>Post-Childbirth Pelvic Floor Dysfunction</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/painful-bladder-syndrome.png" alt="Painful Bladder and Pelvic Pain Syndromes" width={32} height={32} />
         </div>
         <h4>Painful Bladder and Pelvic Pain Syndromes</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/uro-gynaecology/uro-gynaecology-icons/urethral-diverticulum-and-structural-anomalies.png" alt="Urethral Diverticulum and Structural Anomalies" width={32} height={32} />
         </div>
         <h4>Urethral Diverticulum and Structural Anomalies</h4>
       </div>

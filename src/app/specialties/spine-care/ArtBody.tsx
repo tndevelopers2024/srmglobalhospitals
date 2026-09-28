@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,79 +187,79 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v6"/><path d="M12 16v6"/><path d="M5 9l7-2 7 2"/><path d="M5 15l7 2 7-2"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/scoliosis-and-spinal-deformities.png" alt="Scoliosis and Spinal Deformities" width={32} height={32} />
         </div>
         <h4>Scoliosis and Spinal Deformities</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l2.5 2.5"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/osteoporotic-spine-issues.png" alt="Herniated / Slipped Discs" width={32} height={32} />
         </div>
         <h4>Herniated / Slipped Discs</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/ankylosing-spondylitis.png" alt="Degenerative Disc Disease" width={32} height={32} />
         </div>
         <h4>Degenerative Disc Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4v16M20 4v16M4 8h4M4 12h4M4 16h4M16 8h4M16 12h4M16 16h4"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/failed-back-surgery-syndrome.png" alt="Spinal Stenosis" width={32} height={32} />
         </div>
         <h4>Spinal Stenosis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="5" r="2"/><path d="M12 7v6l-3 9"/><path d="M12 13l3 9"/><path d="M9 10l-3 2"/><path d="M15 10l3 2"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/spinal-tumor.png" alt="Sciatica and Nerve Compression" width={32} height={32} />
         </div>
         <h4>Sciatica and Nerve Compression</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/spinal-infections-and-tuberculosis-spine.png" alt="Cervical and Lumbar Radiculopathy" width={32} height={32} />
         </div>
         <h4>Cervical and Lumbar Radiculopathy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 20l7-14 3 6 3-4 3 12"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/spinal-fractures-trauma-related.png" alt="Spondylolisthesis" width={32} height={32} />
         </div>
         <h4>Spondylolisthesis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/spondylolisthesis.png" alt="Spinal Fractures (Trauma-related)" width={32} height={32} />
         </div>
         <h4>Spinal Fractures (Trauma-related)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/cervical-and-lumbar-radiculopathy.png" alt="Spinal Infections and Tuberculosis Spine" width={32} height={32} />
         </div>
         <h4>Spinal Infections and Tuberculosis Spine</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/sciatica-and-nerve-compression.png" alt="Spinal Tumor" width={32} height={32} />
         </div>
         <h4>Spinal Tumor</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 3H5a2 2 0 0 0-2 2v4"/><path d="M9 21H5a2 2 0 0 1-2-2v-4"/><path d="M15 3h4a2 2 0 0 1 2 2v4"/><path d="M15 21h4a2 2 0 0 0 2-2v-4"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/spinal-stenosis.png" alt="Failed Back Surgery Syndrome" width={32} height={32} />
         </div>
         <h4>Failed Back Surgery Syndrome</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/degenerative-disc-disease.png" alt="Ankylosing Spondylitis" width={32} height={32} />
         </div>
         <h4>Ankylosing Spondylitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"/></svg>
+          <Image src="/images/specialties/spine-care/spine-care-icons/herniated-slipped-discs.png" alt="Osteoporotic Spine Issues" width={32} height={32} />
         </div>
         <h4>Osteoporotic Spine Issues</h4>
       </div>
