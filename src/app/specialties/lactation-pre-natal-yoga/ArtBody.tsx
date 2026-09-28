@@ -187,61 +187,61 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/breastfeeding-difficulties.png" alt="Poor Latch or Breastfeeding Difficulties" width={32} height={32} />
         </div>
         <h4>Poor Latch or Breastfeeding Difficulties</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/low-milk-supply.png" alt="Low Milk Supply" width={32} height={32} />
         </div>
         <h4>Low Milk Supply</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/nipple-pain-cracks.png" alt="Nipple Pain and Cracks" width={32} height={32} />
         </div>
         <h4>Nipple Pain and Cracks</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/blocked-milk-ducts.png" alt="Blocked Milk Ducts" width={32} height={32} />
         </div>
         <h4>Blocked Milk Ducts</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/mastitis.png" alt="Mastitis" width={32} height={32} />
         </div>
         <h4>Mastitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/overproduction-milk.png" alt="Overproduction of Milk (Hyperlactation)" width={32} height={32} />
         </div>
         <h4>Overproduction of Milk (Hyperlactation)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/breast-engorgement.png" alt="Breast Engorgement" width={32} height={32} />
         </div>
         <h4>Breast Engorgement</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/pregnancy-back-pain.png" alt="Pregnancy-Related Back Pain" width={32} height={32} />
         </div>
         <h4>Pregnancy-Related Back Pain</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/stress-prenatal-mental-health.png" alt="Stress, Anxiety, and Prenatal Mental Health" width={32} height={32} />
         </div>
         <h4>Stress, Anxiety, and Prenatal Mental Health</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/lactation-pre-natal-yoga/lactation-pre-natal-yoga-icons/postpartum-breastfeeding.png" alt="Postpartum Breastfeeding Counselling" width={32} height={32} />
         </div>
         <h4>Postpartum Breastfeeding Counselling</h4>
       </div>

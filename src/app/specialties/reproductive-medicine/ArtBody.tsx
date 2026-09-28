@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,61 +187,61 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/unexplained-infertility.png" alt="Unexplained Infertility" width={32} height={32} />
         </div>
         <h4>Unexplained Infertility</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/fetal-growth-restriction.png" alt="Ovulation Disorders (PCOS, Hypothalamic Amenorrhea)" width={32} height={32} />
         </div>
         <h4>Ovulation Disorders (PCOS, Hypothalamic Amenorrhea)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/low-ovarian-reserve.png" alt="Low Ovarian Reserve" width={32} height={32} />
         </div>
         <h4>Low Ovarian Reserve</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/blocked-fallopian.png" alt="Blocked Fallopian Tubes" width={32} height={32} />
         </div>
         <h4>Blocked Fallopian Tubes</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/endometriosis-infertility.png" alt="Endometriosis-Related Infertility" width={32} height={32} />
         </div>
         <h4>Endometriosis-Related Infertility</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/male-infertility.png" alt="Male Factor Infertility" width={32} height={32} />
         </div>
         <h4>Male Factor Infertility</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9c1.5 0 2.91.37 4.15 1.02"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/pregnancy-loss.png" alt="Recurrent Pregnancy Loss" width={32} height={32} />
         </div>
         <h4>Recurrent Pregnancy Loss</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21c-4.4-2.6-8-6.4-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4.6-3.6 8.4-8 11l-1 .6z"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/uterine-abnormalities.png" alt="Uterine Abnormalities (Septum, Fibroids, Polyps)" width={32} height={32} />
         </div>
         <h4>Uterine Abnormalities (Septum, Fibroids, Polyps)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 8c-2-3-6-3-7 0-1 3 1 6 4 6h3M12 8c2-3 6-3 7 0 1 3-1 6-4 6h-3"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/hormonal-imbalances.png" alt="Hormonal Imbalances (Thyroid, Prolactin, Androgens)" width={32} height={32} />
         </div>
         <h4>Hormonal Imbalances (Thyroid, Prolactin, Androgens)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/reproductive-medicine/reproductive-medicine-icons/assisted-reproductive-technologies.png" alt="Assisted Reproductive Technologies (IUI, IVF, ICSI)" width={32} height={32} />
         </div>
         <h4>Assisted Reproductive Technologies (IUI, IVF, ICSI)</h4>
       </div>

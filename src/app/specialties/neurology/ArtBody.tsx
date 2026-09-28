@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,61 +187,61 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l1.45-1.45"/><polyline points="3.5 12.5 7 12.5 8.5 9 10.5 15 12 11 13 13 15.5 13"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/tia.png" alt="Stroke &amp; Transient Ischemic Attacks (TIA)" width={32} height={32} />
         </div>
         <h4>Stroke &amp; Transient Ischemic Attacks (TIA)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/epilepsy.png" alt="Epilepsy &amp; Seizure Disorders" width={32} height={32} />
         </div>
         <h4>Epilepsy &amp; Seizure Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/coe-parkinsons-disease.png" alt="Parkinson's Disease &amp; Movement Disorders" width={32} height={32} />
         </div>
         <h4>Parkinson's Disease &amp; Movement Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a9 9 0 0 0-9 9c0 3.5 2 6 4 7.5V21h10v-2.5c2-1.5 4-4 4-7.5a9 9 0 0 0-9-9z"/><path d="M9 18h6"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/dementia.png" alt="Dementia, Alzheimer's &amp; Other Cognitive Impairments" width={32} height={32} />
         </div>
         <h4>Dementia, Alzheimer's &amp; Other Cognitive Impairments</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/coe-headaches-and-migraines.png" alt="Chronic Headaches &amp; Migraines" width={32} height={32} />
         </div>
         <h4>Chronic Headaches &amp; Migraines</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/coe-multiple-sclerosis-ms.png" alt="Multiple Sclerosis &amp; Autoimmune Neurological Disorders" width={32} height={32} />
         </div>
         <h4>Multiple Sclerosis &amp; Autoimmune Neurological Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/peripheral-neuropathy.png" alt="Peripheral Neuropathy &amp; Neuromuscular Disorders" width={32} height={32} />
         </div>
         <h4>Peripheral Neuropathy &amp; Neuromuscular Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M8 12a4 4 0 0 1 8 0"/><line x1="12" y1="16" x2="12" y2="16.01"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/vertigo.png" alt="Vertigo &amp; Balance Disorders" width={32} height={32} />
         </div>
         <h4>Vertigo &amp; Balance Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/meningitis.png" alt="Neuroinfections (Meningitis, Encephalitis)" width={32} height={32} />
         </div>
         <h4>Neuroinfections (Meningitis, Encephalitis)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M9 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/><path d="M15 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/><path d="M8 15c1-1 2.5-1 4-1s3 0 4 1"/></svg>
+          <Image src="/images/specialties/neurology/neurology-icons/palsy.png" alt="Facial Palsy, Bell's Palsy &amp; Trigeminal Neuralgia" width={32} height={32} />
         </div>
         <h4>Facial Palsy, Bell's Palsy &amp; Trigeminal Neuralgia</h4>
       </div>

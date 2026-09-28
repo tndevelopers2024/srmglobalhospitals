@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l1.45-1.45"/><polyline points="3.5 12.5 7 12.5 8.5 9 10.5 15 12 11 13 13 15.5 13"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/congenital-anomalies-e.g.-cleft-lip-palate-congenital-heart-defects.png" alt="Congenital Anomalies (e.g., Cleft Lip/Palate, Congenital Heart Defects)" width={32} height={32} />
         </div>
         <h4>Congenital Anomalies (e.g., Cleft Lip/Palate, Congenital Heart Defects)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/pediatric-trauma-fractures-head-injuries.png" alt="Pediatric Trauma (Fractures, Head Injuries)" width={32} height={32} />
         </div>
         <h4>Pediatric Trauma (Fractures, Head Injuries)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/inguinal-hernias.png" alt="Inguinal Hernias" width={32} height={32} />
         </div>
         <h4>Inguinal Hernias</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/undescended-testicles-cryptorchidism.png" alt="Undescended Testicles (Cryptorchidism)" width={32} height={32} />
         </div>
         <h4>Undescended Testicles (Cryptorchidism)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/appendicitis.png" alt="Appendicitis" width={32} height={32} />
         </div>
         <h4>Appendicitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5z"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/intussusception.png" alt="Intussusception" width={32} height={32} />
         </div>
         <h4>Intussusception</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/hirschsprungs-disease.png" alt="Hirschsprung's Disease" width={32} height={32} />
         </div>
         <h4>Hirschsprung's Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M8 6l4-4 4 4M8 18l4 4 4-4"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/imperforate-anus.png" alt="Imperforate Anus" width={32} height={32} />
         </div>
         <h4>Imperforate Anus</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/pyloric-stenosis.png" alt="Pyloric Stenosis" width={32} height={32} />
         </div>
         <h4>Pyloric Stenosis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/wilms-tumor.png" alt="Wilms Tumor" width={32} height={32} />
         </div>
         <h4>Wilms Tumor</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/neuroblastoma.png" alt="Neuroblastoma" width={32} height={32} />
         </div>
         <h4>Neuroblastoma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/esophageal-atresia.png" alt="Esophageal Atresia" width={32} height={32} />
         </div>
         <h4>Esophageal Atresia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/choledochal-cysts.png" alt="Choledochal Cysts" width={32} height={32} />
         </div>
         <h4>Choledochal Cysts</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="9" cy="7" r="4"/><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><path d="M17 8a3 3 0 1 1 0 5.9"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/hypospadias.png" alt="Hypospadias" width={32} height={32} />
         </div>
         <h4>Hypospadias</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 12h4l2-6 4 12 2-6h4"/></svg>
+          <Image src="/images/specialties/paediatric-surgery/paediatric-surgery-icons/pediatric-tumors.png" alt="Pediatric Tumors" width={32} height={32} />
         </div>
         <h4>Pediatric Tumors</h4>
       </div>

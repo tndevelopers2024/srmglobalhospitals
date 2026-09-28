@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/cosmetic_surgery.png" alt="Cosmetic Surgery" width={32} height={32} />
         </div>
         <h4>Cosmetic Surgery</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13a6 6 0 0 1-6 6 6 6 0 0 1-6-6c0-4 3-6 3-10"/><path d="M15 3c0 4 3 6 3 10"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/brachial_plexus.png" alt="Brachial Plexus" width={32} height={32} />
         </div>
         <h4>Brachial Plexus</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="9" cy="9" r="5"/><circle cx="17" cy="10" r="4"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/breast_surgery.png" alt="Breast Surgery & Reconstruction" width={32} height={32} />
         </div>
         <h4>Breast Surgery &amp; Reconstruction</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/burns.png" alt="Burns" width={32} height={32} />
         </div>
         <h4>Burns</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/cancer.png" alt="Cancer Reconstruction" width={32} height={32} />
         </div>
         <h4>Cancer Reconstruction</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21c-4.4-2.6-8-6.4-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4.6-3.6 8.4-8 11l-1 .6z"/><path d="M8 12h8"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/cleftLip.png" alt="Cleft Lip and Palate" width={32} height={32} />
         </div>
         <h4>Cleft Lip and Palate</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v0"/><path d="M14 10V4a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v2"/><path d="M10 10.5V6a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-1-6-3l-3.3-4.3a1.94 1.94 0 0 1 2.75-2.75L8 13"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/hand_difference.png" alt="Congenital Hand Differences" width={32} height={32} />
         </div>
         <h4>Congenital Hand Differences</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/diabetic_foot.png" alt="Diabetic Foot & Chronic Wounds" width={32} height={32} />
         </div>
         <h4>Diabetic Foot &amp; Chronic Wounds</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/hand_surgery.png" alt="Hand and Wrist Surgery" width={32} height={32} />
         </div>
         <h4>Hand and Wrist Surgery</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 3.34a10 10 0 1 1-14.995 8.984"/><circle cx="12" cy="12" r="3"/><path d="M12 3v6"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/lower_lip.png" alt="Lower Limb Reconstruction" width={32} height={32} />
         </div>
         <h4>Lower Limb Reconstruction</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a5 5 0 0 0-5 5c0 3 2 5 5 9 3-4 5-6 5-9a5 5 0 0 0-5-5z"/><path d="M9 15l-3 6"/><path d="M15 15l3 6"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/lymphedema.png" alt="Lymphedema" width={32} height={32} />
         </div>
         <h4>Lymphedema</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/maxillofaical.png" alt="Maxillofacial Surgery" width={32} height={32} />
         </div>
         <h4>Maxillofacial Surgery</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.12 15.88"/><path d="M14.47 14.48L20 20"/><path d="M8.12 8.12L12 12"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/microsurgery.png" alt="Microsurgery & Replantation" width={32} height={32} />
         </div>
         <h4>Microsurgery &amp; Replantation</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 3H5a2 2 0 0 0-2 2v4"/><path d="M9 21H5a2 2 0 0 1-2-2v-4"/><path d="M15 3h4a2 2 0 0 1 2 2v4"/><path d="M15 21h4a2 2 0 0 0 2-2v-4"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/microsurgerylab.png" alt="Microsurgery Lab" width={32} height={32} />
         </div>
         <h4>Microsurgery Lab</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 8a6 6 0 0 0-12 0c0 4-1.5 6-3 7h18c-1.5-1-3-3-3-7"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          <Image src="/images/specialties/plastic-surgery/plastic-surgery-icons/spasticHank.png" alt="Spastic Hand" width={32} height={32} />
         </div>
         <h4>Spastic Hand</h4>
       </div>

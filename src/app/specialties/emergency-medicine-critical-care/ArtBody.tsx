@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/facial-trauma.png" alt="Trauma" width={32} height={32} />
         </div>
         <h4>Trauma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21s-8-4.5-8-11a5 5 0 0 1 8-4 5 5 0 0 1 8 4c0 6.5-8 11-8 11z"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/heart-attack-myocardial-infarction.png" alt="Heart Attack (Myocardial Infarction)" width={32} height={32} />
         </div>
         <h4>Heart Attack (Myocardial Infarction)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/coe-stroke-cerebrovascular-accident.png" alt="Stroke" width={32} height={32} />
         </div>
         <h4>Stroke</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/sepsis.png" alt="Sepsis" width={32} height={32} />
         </div>
         <h4>Sepsis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/respiratory-failure.png" alt="Respiratory Failure" width={32} height={32} />
         </div>
         <h4>Respiratory Failure</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/severe-bleeding-hemorrhage.png" alt="Severe Bleeding (Hemorrhage)" width={32} height={32} />
         </div>
         <h4>Severe Bleeding (Hemorrhage)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 3h6v4l4 9a2 2 0 0 1-2 3H7a2 2 0 0 1-2-3l4-9V3z"/><line x1="9" y1="3" x2="15" y2="3"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/coe-poisoning.png" alt="Poisoning" width={32} height={32} />
         </div>
         <h4>Poisoning</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/burns.png" alt="Burns" width={32} height={32} />
         </div>
         <h4>Burns</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/allergic-reactions-anaphylaxis.png" alt="Allergic Reactions (Anaphylaxis)" width={32} height={32} />
         </div>
         <h4>Allergic Reactions (Anaphylaxis)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="4" cy="13" r="2"/><circle cx="20" cy="13" r="2"/><line x1="6" y1="13" x2="18" y2="13"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/fractures-and-dislocations.png" alt="Fractures and Dislocations" width={32} height={32} />
         </div>
         <h4>Fractures and Dislocations</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/head-injuries.png" alt="Head Injuries" width={32} height={32} />
         </div>
         <h4>Head Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8 3c-2 0-3 2-3 4 0 3 2 4 2 7 0 3-2 4-2 6 0 1 1 2 3 2h5c3 0 5-2 5-5 0-2-1-3-1-5 0-3 2-4 2-7 0-2-1-4-3-4"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/abdominal-pain.png" alt="Abdominal Pain" width={32} height={32} />
         </div>
         <h4>Abdominal Pain</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="9" width="20" height="6" rx="3"/><line x1="12" y1="9" x2="12" y2="15"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/drug-overdose.png" alt="Drug Overdose" width={32} height={32} />
         </div>
         <h4>Drug Overdose</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/coe-cardiac-arrest.png" alt="Cardiac Arrest" width={32} height={32} />
         </div>
         <h4>Cardiac Arrest</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/emergency-medicine-and-critical-care/emergency-medicine-and-critical-care-icons/near-drowning.png" alt="Near Drowning" width={32} height={32} />
         </div>
         <h4>Near Drowning</h4>
       </div>

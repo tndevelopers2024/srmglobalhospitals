@@ -187,93 +187,93 @@ export default function ArtBody() {
           <div className="conditions-grid">
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/coronary-artery-disease.png" alt="Coronary Artery Disease" width={32} height={32} />
               </div>
               <h4>Coronary Artery Disease</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/hypertension.png" alt="Hypertension" width={32} height={32} />
               </div>
               <h4>Hypertension</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/heart-failure.png" alt="Heart Failure" width={32} height={32} />
               </div>
               <h4>Heart Failure</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/coe-arrhythmias.png" alt="Arrhythmias" width={32} height={32} />
               </div>
               <h4>Arrhythmias</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/valvular-heart-disease.png" alt="Valvular Heart Disease" width={32} height={32} />
               </div>
               <h4>Valvular Heart Disease</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/congenital-heart-disease.png" alt="Congenital Heart Disease" width={32} height={32} />
               </div>
               <h4>Congenital Heart Disease</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/peripheral-artery-disease.png" alt="Peripheral Artery Disease" width={32} height={32} />
               </div>
               <h4>Peripheral Artery Disease</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/cardiomyopathy.png" alt="Cardiomyopathy" width={32} height={32} />
               </div>
               <h4>Cardiomyopathy</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/atrial-fibrillation.png" alt="Atrial Fibrillation" width={32} height={32} />
               </div>
-              <h4>Endocarditis</h4>
+              <h4>Atrial Fibrillation</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/myocardial-infarction.png" alt="Myocardial Infarction" width={32} height={32} />
               </div>
               <h4>Myocardial Infarction</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/heart-murmurs.png" alt="Heart Murmurs" width={32} height={32} />
               </div>
               <h4>Heart Murmurs</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/angina.png" alt="Angina" width={32} height={32} />
               </div>
               <h4>Angina</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/endocarditis.png" alt="Endocarditis" width={32} height={32} />
+              </div>
+              <h4>Endocarditis</h4>
+            </div>
+            <div className="condition-card reveal">
+              <div className="condition-icon">
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/pericarditis.png" alt="Pericarditis" width={32} height={32} />
               </div>
               <h4>Pericarditis</h4>
             </div>
             <div className="condition-card reveal">
               <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <Image src="/images/specialties/institute-of-cardiac-sciences/institute-of-cardiac-sciences-icons/coe-cardiac-arrest.png" alt="Cardiac Arrest" width={32} height={32} />
               </div>
               <h4>Cardiac Arrest</h4>
-            </div>
-            <div className="condition-card reveal">
-              <div className="condition-icon">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l1.45-1.45"/><polyline points="3.5 12.5 7 12.5 8.5 9 10.5 15 12 11 13 13 15.5 13"/></svg>
-              </div>
-              <h4>Atrial Fibrillation</h4>
             </div>
           </div>
         </div>

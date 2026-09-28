@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/respiratory-infections-e.g.-bronchiolitis-pneumonia.png" alt="Respiratory Infections (e.g., Bronchiolitis, Pneumonia)" width={32} height={32} />
         </div>
-        <h4>Developmental Delays</h4>
+        <h4>Respiratory Infections (e.g., Bronchiolitis, Pneumonia)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 12h4l2-6 4 12 2-6h4"/></svg>
-        </div>
-        <h4>Bronchiolitis</h4>
-      </div>
-      <div className="condition-card reveal">
-        <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/gastroenteritis.png" alt="Gastroenteritis" width={32} height={32} />
         </div>
         <h4>Gastroenteritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/asthma.png" alt="Asthma" width={32} height={32} />
         </div>
         <h4>Asthma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/allergies.png" alt="Allergies" width={32} height={32} />
         </div>
         <h4>Allergies</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="12" r="5"/><circle cx="16" cy="12" r="5"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/developmental-delays.png" alt="Developmental Delays" width={32} height={32} />
+        </div>
+        <h4>Developmental Delays</h4>
+      </div>
+      <div className="condition-card reveal">
+        <div className="condition-icon">
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/attention-deficit-hyperactivity-disorder-adhd.png" alt="Attention Deficit Hyperactivity Disorder (ADHD)" width={32} height={32} />
         </div>
         <h4>Attention Deficit Hyperactivity Disorder (ADHD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a9 9 0 0 0-9 9c0 3.5 2 6 4 7.5V21h10v-2.5c2-1.5 4-4 4-7.5a9 9 0 0 0-9-9z"/><path d="M9 18h6"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/autism-spectrum-disorder-asd.png" alt="Autism Spectrum Disorder (ASD)" width={32} height={32} />
         </div>
         <h4>Autism Spectrum Disorder (ASD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/childhood-obesity.png" alt="Childhood Obesity" width={32} height={32} />
         </div>
         <h4>Childhood Obesity</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/pediatric-diabetes.png" alt="Pediatric Diabetes" width={32} height={32} />
         </div>
         <h4>Pediatric Diabetes</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/immunizations-and-preventive-care.png" alt="Immunizations and Preventive Care" width={32} height={32} />
         </div>
         <h4>Immunizations and Preventive Care</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/pediatric-hypertension.png" alt="Pediatric Hypertension" width={32} height={32} />
         </div>
         <h4>Pediatric Hypertension</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/ear-infections.png" alt="Ear Infections" width={32} height={32} />
         </div>
         <h4>Ear Infections</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/urinary-tract-infections-utis.png" alt="Urinary Tract Infections (UTIs)" width={32} height={32} />
         </div>
         <h4>Urinary Tract Infections (UTIs)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/dermatological-conditions-e.g.-eczema-diaper-rash.png" alt="Dermatological Conditions (e.g., Eczema, Diaper Rash)" width={32} height={32} />
         </div>
         <h4>Dermatological Conditions (e.g., Eczema, Diaper Rash)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/paediatrics/paediatrics-icons/growth-and-development-monitoring.png" alt="Growth and Development Monitoring" width={32} height={32} />
         </div>
         <h4>Growth and Development Monitoring</h4>
       </div>

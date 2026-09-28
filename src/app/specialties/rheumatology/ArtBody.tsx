@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/rheumatoid-arthritis.png" alt="Rheumatoid Arthritis" width={32} height={32} />
         </div>
         <h4>Rheumatoid Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/osteoarthritis.png" alt="Osteoarthritis" width={32} height={32} />
         </div>
         <h4>Osteoarthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/systemic-lupus-erythematosus-sle.png" alt="Systemic Lupus Erythematosus (SLE)" width={32} height={32} />
         </div>
         <h4>Systemic Lupus Erythematosus (SLE)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/sjogrens-syndrome.png" alt="Sjögren's Syndrome" width={32} height={32} />
         </div>
         <h4>Sjögren's Syndrome</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v6"/><path d="M12 16v6"/><path d="M5 9l7-2 7 2"/><path d="M5 15l7 2 7-2"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/ankylosing-spondylitis.png" alt="Ankylosing Spondylitis" width={32} height={32} />
         </div>
         <h4>Ankylosing Spondylitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="2"/><circle cx="12" cy="16" r="2.5"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/psoriatic-arthritis.png" alt="Psoriatic Arthritis" width={32} height={32} />
         </div>
         <h4>Psoriatic Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/gout.png" alt="Gout" width={32} height={32} />
         </div>
         <h4>Gout</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/fibromyalgia.png" alt="Fibromyalgia" width={32} height={32} />
         </div>
         <h4>Fibromyalgia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="5" r="2"/><path d="M6 21l3-9 3 3 3-3 3 9"/><path d="M12 8v4"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/polymyalgia-rheumatica.png" alt="Polymyalgia Rheumatica" width={32} height={32} />
         </div>
         <h4>Polymyalgia Rheumatica</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/giant-cell-arteritis.png" alt="Giant Cell Arteritis" width={32} height={32} />
         </div>
         <h4>Giant Cell Arteritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/reactive-arthritis.png" alt="Reactive Arthritis" width={32} height={32} />
         </div>
         <h4>Reactive Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/juvenile-idiopathic-arthritis.png" alt="Juvenile Idiopathic Arthritis" width={32} height={32} />
         </div>
         <h4>Juvenile Idiopathic Arthritis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/systemic-sclerosis-scleroderma.png" alt="Systemic Sclerosis (Scleroderma)" width={32} height={32} />
         </div>
         <h4>Systemic Sclerosis (Scleroderma)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 8a6 6 0 0 0-12 0c0 4-1.5 6-3 7h18c-1.5-1-3-3-3-7"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/vasculitis.png" alt="Vasculitis" width={32} height={32} />
         </div>
         <h4>Vasculitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.12 15.88"/><path d="M14.47 14.48L20 20"/><path d="M8.12 8.12L12 12"/></svg>
+          <Image src="/images/specialties/rheumatology/rheumatology-icons/myositis.png" alt="Myositis" width={32} height={32} />
         </div>
         <h4>Myositis</h4>
       </div>

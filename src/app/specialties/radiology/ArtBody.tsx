@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,85 +187,85 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/x-ray-diagnostics.png" alt="X-ray Diagnostics" width={32} height={32} />
         </div>
         <h4>X-ray Diagnostics</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/computed-tomography-ct-scans.png" alt="Computed Tomography (CT) Scans" width={32} height={32} />
         </div>
         <h4>Computed Tomography (CT) Scans</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="2" width="16" height="20" rx="2"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="6" x2="12" y2="6.01"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/magnetic-resonance-imaging-mri.png" alt="Magnetic Resonance Imaging (MRI)" width={32} height={32} />
         </div>
         <h4>Magnetic Resonance Imaging (MRI)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12c1.5-4 3.5-4 5 0s3.5 4 5 0 3.5-4 5 0 3.5 4 5 0"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/ultrasound-imaging.png" alt="Ultrasound Imaging" width={32} height={32} />
         </div>
         <h4>Ultrasound Imaging</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/positron-emission-tomography-pet-scans.png" alt="Positron Emission Tomography (PET) Scans" width={32} height={32} />
         </div>
         <h4>Positron Emission Tomography (PET) Scans</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="9" cy="9" r="5"/><circle cx="17" cy="10" r="4"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/mammography.png" alt="Mammography" width={32} height={32} />
         </div>
         <h4>Mammography</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/fluoroscopy.png" alt="Fluoroscopy" width={32} height={32} />
         </div>
         <h4>Fluoroscopy</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/interventional-radiology-procedures.png" alt="Interventional Radiology Procedures" width={32} height={32} />
         </div>
         <h4>Interventional Radiology Procedures</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2a10 10 0 1 0 10 10" /><path d="M12 2v10l7 7"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/nuclear-medicine-imaging.png" alt="Nuclear Medicine Imaging" width={32} height={32} />
         </div>
         <h4>Nuclear Medicine Imaging</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/angiography.png" alt="Angiography" width={32} height={32} />
         </div>
         <h4>Angiography</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/bone-densitometry-dexa-scan.png" alt="Bone Densitometry (DEXA Scan)" width={32} height={32} />
         </div>
         <h4>Bone Densitometry (DEXA Scan)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/arthrography.png" alt="Arthrography" width={32} height={32} />
         </div>
         <h4>Arthrography</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v6"/><path d="M12 16v6"/><path d="M5 9l7-2 7 2"/><path d="M5 15l7 2 7-2"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/myelography.png" alt="Myelography" width={32} height={32} />
         </div>
         <h4>Myelography</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 21c-4.4-2.6-8-6.4-8-11a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 4.6-3.6 8.4-8 11l-1 .6z"/></svg>
+          <Image src="/images/specialties/radiology/radiology-icons/hysterosalpingography.png" alt="Hysterosalpingography" width={32} height={32} />
         </div>
         <h4>Hysterosalpingography</h4>
       </div>

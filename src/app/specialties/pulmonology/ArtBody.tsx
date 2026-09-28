@@ -187,51 +187,93 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z" ></path><path d="M8 12h8" ></path><path d="M12 8v8" ></path></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/asthma.png" alt="Asthma" width={32} height={32} />
         </div>
         <h4>Asthma</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" ></path><polyline points="15 3 21 3 21 9" ></polyline><line x1="10" y1="14" x2="21" y2="3" ></line></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/chronic-obstructive-pulmonary-disease-copd.png" alt="Chronic Obstructive Pulmonary Disease (COPD)" width={32} height={32} />
         </div>
-        <h4>COPD</h4>
+        <h4>Chronic Obstructive Pulmonary Disease (COPD)</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2" ></path></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/pneumonia.png" alt="Pneumonia" width={32} height={32} />
         </div>
         <h4>Pneumonia</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" ></path></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/bronchitis.png" alt="Bronchitis" width={32} height={32} />
         </div>
-        <h4>Tuberculosis (TB)</h4>
+        <h4>Bronchitis</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2" ></rect><line x1="3" y1="9" x2="21" y2="9" ></line><line x1="9" y1="21" x2="9" y2="9" ></line></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/emphysema.png" alt="Emphysema" width={32} height={32} />
+        </div>
+        <h4>Emphysema</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/pulmonary-embolism.png" alt="Pulmonary Embolism" width={32} height={32} />
+        </div>
+        <h4>Pulmonary Embolism</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/lung-cancer.png" alt="Lung Cancer" width={32} height={32} />
+        </div>
+        <h4>Lung Cancer</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/pulmonary-fibrosis.png" alt="Pulmonary Fibrosis" width={32} height={32} />
+        </div>
+        <h4>Pulmonary Fibrosis</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/cystic-fibrosis.png" alt="Cystic Fibrosis" width={32} height={32} />
+        </div>
+        <h4>Cystic Fibrosis</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/interstitial-lung-disease.png" alt="Interstitial Lung Disease" width={32} height={32} />
         </div>
         <h4>Interstitial Lung Disease</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 18a5 5 0 0 0-10 0" ></path><line x1="12" y1="9" x2="12" y2="2" ></line><line x1="4.22" y1="10.22" x2="5.64" y2="11.64" ></line><line x1="1" y1="18" x2="3" y2="18" ></line><line x1="21" y1="18" x2="23" y2="18" ></line><line x1="18.36" y1="11.64" x2="19.78" y2="10.22" ></line><line x1="23" y1="22" x2="1" y2="22" ></line><polyline points="8 6 12 2 16 6" ></polyline></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/bronchiectasis.png" alt="Bronchiectasis" width={32} height={32} />
+        </div>
+        <h4>Bronchiectasis</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/sleep-apnea.png" alt="Sleep Apnea" width={32} height={32} />
         </div>
         <h4>Sleep Apnea</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" ></circle><line x1="21" y1="21" x2="16.65" y2="16.65" ></line><line x1="8" y1="11" x2="14" y2="11" ></line><line x1="11" y1="8" x2="11" y2="14" ></line></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/tuberculosis-tb.png" alt="Tuberculosis (TB)" width={32} height={32} />
         </div>
-        <h4>Lung Cancer Screening</h4>
+        <h4>Tuberculosis (TB)</h4>
       </div>
       <div className="condition-card reveal visible">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" ></path><polyline points="14 2 14 8 20 8" ></polyline><line x1="16" y1="13" x2="8" y2="13" ></line><line x1="16" y1="17" x2="8" y2="17" ></line></svg>
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/sarcoidosis.png" alt="Sarcoidosis" width={32} height={32} />
         </div>
-        <h4>Pleural Diseases</h4>
+        <h4>Sarcoidosis</h4>
+      </div>
+      <div className="condition-card reveal visible">
+        <div className="condition-icon">
+          <Image src="/images/specialties/pulmonology/pulmonology-icons/pulmonary-hypertension-clinic.png" alt="Pulmonary Hypertension" width={32} height={32} />
+        </div>
+        <h4>Pulmonary Hypertension</h4>
       </div>
     </div>
   </div>

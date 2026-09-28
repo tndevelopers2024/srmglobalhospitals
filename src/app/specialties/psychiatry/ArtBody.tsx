@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/depression.png" alt="Depression" width={32} height={32} />
         </div>
         <h4>Depression</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/anxiety-disorders-e.g.-generalized-anxiety-disorder-panic-disorder.png" alt="Anxiety Disorders (e.g., Generalized Anxiety Disorder, Panic Disorder)" width={32} height={32} />
         </div>
         <h4>Anxiety Disorders (e.g., Generalized Anxiety Disorder, Panic Disorder)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/bipolar-disorder.png" alt="Bipolar Disorder" width={32} height={32} />
         </div>
         <h4>Bipolar Disorder</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/schizophrenia.png" alt="Schizophrenia" width={32} height={32} />
         </div>
         <h4>Schizophrenia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/obsessive-compulsive-disorder-ocd.png" alt="Obsessive-Compulsive Disorder (OCD)" width={32} height={32} />
         </div>
         <h4>Obsessive-Compulsive Disorder (OCD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/traumatic-stress-disorder-ptsd.png" alt="Post-Traumatic Stress Disorder (PTSD)" width={32} height={32} />
         </div>
         <h4>Post-Traumatic Stress Disorder (PTSD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/eating-disorders-e.g.-anorexia-nervosa-bulimia-nervosa.png" alt="Eating Disorders (e.g., Anorexia Nervosa, Bulimia Nervosa)" width={32} height={32} />
         </div>
         <h4>Eating Disorders (e.g., Anorexia Nervosa, Bulimia Nervosa)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="8" cy="12" r="5"/><circle cx="16" cy="12" r="5"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/attention-deficit-hyperactivity-disorder-adhd.png" alt="Attention Deficit Hyperactivity Disorder (ADHD)" width={32} height={32} />
         </div>
         <h4>Attention Deficit Hyperactivity Disorder (ADHD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/substance-use-disorders-e.g.-alcohol-use-disorder-substance-abuse.png" alt="Substance Use Disorders (e.g., Alcohol Use Disorder, Substance Abuse)" width={32} height={32} />
         </div>
         <h4>Substance Use Disorders (e.g., Alcohol Use Disorder, Substance Abuse)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/personality-disorders-e.g.-borderline-personality-disorder-antisocial-personality-disorder.png" alt="Personality Disorders (e.g., Borderline Personality Disorder, Antisocial Personality Disorder)" width={32} height={32} />
         </div>
         <h4>Personality Disorders (e.g., Borderline Personality Disorder, Antisocial Personality Disorder)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"/><line x1="23" y1="13" x2="23" y2="11"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/sleep-disorders-e.g.-insomnia-narcolepsy.png" alt="Sleep Disorders (e.g., Insomnia, Narcolepsy)" width={32} height={32} />
         </div>
         <h4>Sleep Disorders (e.g., Insomnia, Narcolepsy)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/psychotic-disorders.png" alt="Psychotic Disorders" width={32} height={32} />
         </div>
         <h4>Psychotic Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/adjustment-disorders.png" alt="Adjustment Disorders" width={32} height={32} />
         </div>
         <h4>Adjustment Disorders</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/phobias.png" alt="Phobias" width={32} height={32} />
         </div>
         <h4>Phobias</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/psychiatry/psychiatry-icons/self-Harm-and-suicidal-behavior.png" alt="Self-Harm and Suicidal Behavior" width={32} height={32} />
         </div>
         <h4>Self-Harm and Suicidal Behavior</h4>
       </div>
