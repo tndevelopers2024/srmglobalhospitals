@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 20l3-10h10l3 10M9 10V6a3 3 0 0 1 6 0v4"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/peripheral-arterial-disease-pad.png" alt="Peripheral Arterial Disease (PAD)" width={32} height={32} />
         </div>
         <h4>Peripheral Arterial Disease (PAD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/><circle cx="12" cy="11" r="2"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/aneurysms-aortic-peripheral.png" alt="Aneurysms (Aortic, Peripheral)" width={32} height={32} />
         </div>
         <h4>Aneurysms (Aortic, Peripheral)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/deep-vein-thrombosis-dvt.png" alt="Deep Vein Thrombosis (DVT)" width={32} height={32} />
         </div>
         <h4>Deep Vein Thrombosis (DVT)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v6"/><path d="M12 16v6"/><path d="M5 9l7-2 7 2"/><path d="M5 15l7 2 7-2"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/varicose-veins.png" alt="Varicose Veins" width={32} height={32} />
         </div>
         <h4>Varicose Veins</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4l2.5 2.5"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/carotid-artery-disease.png" alt="Carotid Artery Disease" width={32} height={32} />
         </div>
         <h4>Carotid Artery Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/thoracic-outlet-syndrome.png" alt="Thoracic Outlet Syndrome" width={32} height={32} />
         </div>
         <h4>Thoracic Outlet Syndrome</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/renal-artery-stenosis.png" alt="Renal Artery Stenosis" width={32} height={32} />
         </div>
         <h4>Renal Artery Stenosis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/raynauds-disease.png" alt="Raynaud's Disease" width={32} height={32} />
         </div>
         <h4>Raynaud's Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/chronic-venous-insufficiency.png" alt="Chronic Venous Insufficiency" width={32} height={32} />
         </div>
         <h4>Chronic Venous Insufficiency</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 11V6a2 2 0 0 0-4 0v5"/><path d="M14 10V4a2 2 0 0 0-4 0v6"/><path d="M10 10.5V6a2 2 0 0 0-4 0v9"/><path d="M6 15l-1.5-1.5a2 2 0 0 0-3 2.6l4.4 5.5c1 1.2 2.4 2.4 4.6 2.4h4a5 5 0 0 0 5-5v-6a2 2 0 1 0-4 0"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/lymphedema.png" alt="Lymphedema" width={32} height={32} />
         </div>
         <h4>Lymphedema</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/vascular-trauma.png" alt="Vascular Trauma" width={32} height={32} />
         </div>
         <h4>Vascular Trauma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/aortoiliac-occlusive-disease.png" alt="Aortoiliac Occlusive Disease" width={32} height={32} />
         </div>
         <h4>Aortoiliac Occlusive Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/mesenteric-ischemia.png" alt="Mesenteric Ischemia" width={32} height={32} />
         </div>
         <h4>Mesenteric Ischemia</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="5 9 2 12 5 15"/><polyline points="9 5 12 2 15 5"/><polyline points="15 19 12 22 9 19"/><polyline points="19 9 22 12 19 15"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="12" y1="2" x2="12" y2="22"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/thromboangiitis-obliterans-buergers-disease.png" alt="Thromboangiitis Obliterans (Buerger's Disease)" width={32} height={32} />
         </div>
         <h4>Thromboangiitis Obliterans (Buerger's Disease)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          <Image src="/images/specialties/vascular-surgery/vascular-surgery-icons/venous-ulcers.png" alt="Venous Ulcers" width={32} height={32} />
         </div>
         <h4>Venous Ulcers</h4>
       </div>

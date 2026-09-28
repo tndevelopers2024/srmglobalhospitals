@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
@@ -187,91 +187,91 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/coe-gastroesophageal-reflux-disease.png" alt="Gastroesophageal Reflux Disease (GERD)" width={32} height={32} />
         </div>
         <h4>Gastroesophageal Reflux Disease (GERD)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="9"/><path d="M9 10c.5-1 1.5-1 2 0s1.5 1 2 0"/><path d="M9 14c.5 1 1.5 1 2 0s1.5-1 2 0"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/peptic-ulcer-disease.png" alt="Peptic Ulcer Disease" width={32} height={32} />
         </div>
         <h4>Peptic Ulcer Disease</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/inflammatory-bowel-disease-crohns-cisease-ulcerative-colitis.png" alt="Inflammatory Bowel Disease (Crohn's Disease, Ulcerative Colitis)" width={32} height={32} />
         </div>
         <h4>Inflammatory Bowel Disease (Crohn's Disease, Ulcerative Colitis)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/gallstones.png" alt="Gallstones" width={32} height={32} />
         </div>
         <h4>Gallstones</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v6"/><path d="M12 16v6"/><path d="M5 9l7-2 7 2"/><path d="M5 15l7 2 7-2"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/pancreatitis.png" alt="Pancreatitis" width={32} height={32} />
         </div>
         <h4>Pancreatitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/coe-hepatitis.png" alt="Hepatitis" width={32} height={32} />
         </div>
         <h4>Hepatitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="1" y="6" width="18" height="12" rx="2" ry="2"/><line x1="23" y1="13" x2="23" y2="11"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/liver-cirrhosis.png" alt="Liver Cirrhosis" width={32} height={32} />
         </div>
         <h4>Liver Cirrhosis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/gastrointestinal-bleeding.png" alt="Gastrointestinal Bleeding" width={32} height={32} />
         </div>
         <h4>Gastrointestinal Bleeding</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 3H5a2 2 0 0 0-2 2v4"/><path d="M9 21H5a2 2 0 0 1-2-2v-4"/><path d="M15 3h4a2 2 0 0 1 2 2v4"/><path d="M15 21h4a2 2 0 0 0 2-2v-4"/><circle cx="12" cy="12" r="3"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/hernias-inguinal-hiatal.png" alt="Hernias (Inguinal, Hiatal)" width={32} height={32} />
         </div>
         <h4>Hernias (Inguinal, Hiatal)</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/colorectal-cancer.png" alt="Colorectal Cancer" width={32} height={32} />
         </div>
         <h4>Colorectal Cancer</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/diverticulitis.png" alt="Diverticulitis" width={32} height={32} />
         </div>
         <h4>Diverticulitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/anal-fissures-and-fistulas.png" alt="Anal Fissures and Fistulas" width={32} height={32} />
         </div>
         <h4>Anal Fissures and Fistulas</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/bowel-obstruction.png" alt="Bowel Obstruction" width={32} height={32} />
         </div>
         <h4>Bowel Obstruction</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/coe-hemorrhoids.png" alt="Hemorrhoids" width={32} height={32} />
         </div>
         <h4>Hemorrhoids</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
+          <Image src="/images/specialties/surgical-gastroenterology/surgical-gastroenterology-icons/gastric-cancer.png" alt="Gastric Cancer" width={32} height={32} />
         </div>
         <h4>Gastric Cancer</h4>
       </div>

@@ -187,117 +187,117 @@ export default function ArtBody() {
     <div className="conditions-grid">
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/road-traffic-accident-injuries.png" alt="Road Traffic Accident Injuries" width={32} height={32} />
         </div>
         <h4>Road Traffic Accident Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/falls-from-height-and-industrial-injuries.png" alt="Falls from Height and Industrial Injuries" width={32} height={32} />
         </div>
         <h4>Falls from Height and Industrial Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/polytrauma-and-multiple-injuries.png" alt="Polytrauma and Multiple Injuries" width={32} height={32} />
         </div>
         <h4>Polytrauma and Multiple Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="8" r="5"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/head-injuries-and-facial-trauma.png" alt="Head Injuries and Facial Trauma" width={32} height={32} />
         </div>
         <h4>Head Injuries and Facial Trauma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/blunt-and-penetrating-chest-trauma.png" alt="Blunt and Penetrating Chest Trauma" width={32} height={32} />
         </div>
         <h4>Blunt and Penetrating Chest Trauma</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9.59 4.59A2 2 0 1 1 11 8H2"/><path d="M12.59 19.41A2 2 0 1 0 14 16H2"/><path d="M17.73 7.73A2.5 2.5 0 1 1 19.5 12H2"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/rib-fractures-flail-chest-and-hemothorax.png" alt="Rib Fractures, Flail Chest, and Hemothorax" width={32} height={32} />
         </div>
         <h4>Rib Fractures, Flail Chest, and Hemothorax</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/abdominal-trauma-and-solid-organ-injuries.png" alt="Abdominal Trauma and Solid Organ Injuries" width={32} height={32} />
         </div>
         <h4>Abdominal Trauma and Solid Organ Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/liver-spleen-bowel-and-mesenteric-injuries.png" alt="Liver, Spleen, Bowel, and Mesenteric Injuries" width={32} height={32} />
         </div>
         <h4>Liver, Spleen, Bowel, and Mesenteric Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/pelvic-trauma-and-associated-hemorrhage.png" alt="Pelvic Trauma and Associated Hemorrhage" width={32} height={32} />
         </div>
         <h4>Pelvic Trauma and Associated Hemorrhage</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/musculoskeletal-and-soft-tissue-injuries.png" alt="Musculoskeletal and Soft Tissue Injuries" width={32} height={32} />
         </div>
         <h4>Musculoskeletal and Soft Tissue Injuries</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/degloving-injuries-and-complex-wounds.png" alt="Degloving Injuries and Complex Wounds" width={32} height={32} />
         </div>
         <h4>Degloving Injuries and Complex Wounds</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/emergency-abdominal-conditions-requiring-surgery.png" alt="Emergency Abdominal Conditions Requiring Surgery" width={32} height={32} />
         </div>
         <h4>Emergency Abdominal Conditions Requiring Surgery</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/perforation-peritonitis.png" alt="Perforation Peritonitis" width={32} height={32} />
         </div>
         <h4>Perforation Peritonitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/intestinal-obstruction.png" alt="Intestinal Obstruction" width={32} height={32} />
         </div>
         <h4>Intestinal Obstruction</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/acute-appendicitis-and-acute-cholecystitis.png" alt="Acute Appendicitis and Acute Cholecystitis" width={32} height={32} />
         </div>
         <h4>Acute Appendicitis and Acute Cholecystitis</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/necrotizing-soft-tissue-infections.png" alt="Necrotizing Soft Tissue Infections" width={32} height={32} />
         </div>
         <h4>Necrotizing Soft Tissue Infections</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/sepsis-requiring-emergency-source-control.png" alt="Sepsis Requiring Emergency Source Control" width={32} height={32} />
         </div>
         <h4>Sepsis Requiring Emergency Source Control</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="2" ry="2"/><path d="M9 14l2 2 4-4"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/postoperative-surgical-critical-care-needs.png" alt="Postoperative Surgical Critical Care Needs" width={32} height={32} />
         </div>
         <h4>Postoperative Surgical Critical Care Needs</h4>
       </div>
       <div className="condition-card reveal">
         <div className="condition-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          <Image src="/images/specialties/trauma-acute-care-surgery/trauma-acute-care-surgery-icons/trauma-icu-and-ventilator-support.png" alt="Trauma ICU and Ventilator Support" width={32} height={32} />
         </div>
-        <h4>Trauma ICU and Ventilator Support</h4>
+        <h4>Trauma ICU and Ventilator Support cases intervention, critical care support, and rehabilitation planning for optimal patient outcomes</h4>
       </div>
     </div>
   </div>
