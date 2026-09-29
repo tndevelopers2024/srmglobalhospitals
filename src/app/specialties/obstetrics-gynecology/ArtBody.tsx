@@ -366,7 +366,7 @@ export default function ArtBody() {
         <div className="doctor-info">
           <h4>Dr. Prithiv Raj. O G</h4>
           <p className="doctor-qualification">MBBS, MS</p>
-          <p>Visiting Consultant, Obstetrics &amp; Gynecology</p>
+          <p>Consultant, Obstetrics &amp; Gynecology</p>
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
@@ -474,7 +474,7 @@ export default function ArtBody() {
         <div className="doctor-info">
           <h4>Dr. Susmitha Shree. P</h4>
           <p className="doctor-qualification">MBBS, MS</p>
-          <p>Junior Consultant</p>
+          <p>Junior Consultant, Obstetrics &amp; Gynecology</p>
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
