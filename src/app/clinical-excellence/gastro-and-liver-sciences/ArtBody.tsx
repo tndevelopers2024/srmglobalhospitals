@@ -88,56 +88,58 @@ export default function ArtBody() {
            ══════════════════════════════════════════════════════ */}
       <section className="hero" id="hero" ref={heroRef}>
         <div className="container">
-          <div className="hero-content">
-            <div className="hero-breadcrumb">
-              <Link href="/">Home</Link>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
-              <Link href="/#coe">Our Specialties</Link>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
-              <span>Institute of Gastro and Liver Sciences</span>
-            </div>
-            <div className="hero-badge">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
-              </svg>
-              <span>Center of Excellence</span>
-            </div>
-            <h1>Gastroenterology Hospital in Kattankulathur</h1>
-            <p className="hero-tagline">Comprehensive digestive and liver care with medical gastroenterology, surgical gastroenterology, and advanced endoscopy under one roof.</p>
-            <div className="hero-ctas">
-              <a href="#cta-banner" className="btn btn-gradient">
-                Book a Consultation{" "}
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <line x1="5" y1="12" x2="19" y2="12" />
-                  <polyline points="12 5 19 12 12 19" />
+          <div className="hero-inner-card">
+            <div className="hero-content">
+              <div className="hero-breadcrumb">
+                <Link href="/">Home</Link>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <polyline points="9 18 15 12 9 6" />
                 </svg>
-              </a>
-              <a href="tel:+919644496444" className="btn btn-outline">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
-                </svg>{" "}
-                Call Now
-              </a>
+                <Link href="/#coe">Our Specialties</Link>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <polyline points="9 18 15 12 9 6" />
+                </svg>
+                <span>Institute of Gastro and Liver Sciences</span>
+              </div>
+              <div className="hero-badge">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                </svg>
+                <span>Center of Excellence</span>
+              </div>
+              <h1>Gastroenterology Hospital in Kattankulathur</h1>
+              <p className="hero-tagline">Comprehensive digestive and liver care with medical gastroenterology, surgical gastroenterology, and advanced endoscopy under one roof.</p>
+              <div className="hero-ctas">
+                <a href="#cta-banner" className="btn btn-gradient">
+                  Book a Consultation{" "}
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12" />
+                    <polyline points="12 5 19 12 12 19" />
+                  </svg>
+                </a>
+                <a href="tel:+919644496444" className="btn btn-outline">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>{" "}
+                  Call Now
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="hero-image">
-            <div className="hero-image-wrapper">
-              <Image
-                src="/images/coe/gastro-and-liver-sciences/hero-2.avif"
-                alt="Gastro and Liver Sciences Centre"
-                width={640}
-                height={480}
-                priority
-                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
-              />
+            <div className="hero-image">
+              <div className="hero-image-wrapper">
+                <Image
+                  src="/images/coe/gastro-and-liver-sciences/hero-coe-2.avif"
+                  alt="Gastro and Liver Sciences Centre"
+                  fill
+                  priority
+                  style={{ objectFit: "cover", objectPosition: "center center" }}
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
+
 
       {/* ══════════════════════════════════════════════════════
            SECTION 2: TRUST BAR

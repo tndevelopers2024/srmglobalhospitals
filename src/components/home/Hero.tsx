@@ -1,6 +1,14 @@
 export default function Hero() {
   return (
-    <section className="hero relative overflow-hidden" style={{ background: "linear-gradient(150deg, #f0f7fdf0 0%, #e3f2fcf0 40%, #c9e5f5f0 100%)" }}>
+    <section
+      className="hero relative overflow-hidden"
+      style={{
+        backgroundImage: "linear-gradient(150deg, rgba(240, 247, 253, 0.55) 0%, rgba(227, 242, 252, 0.55) 40%, rgba(201, 229, 245, 0.55) 100%), url('/images/home/hero-building.jpg')",
+        backgroundSize: "auto, cover",
+        backgroundPosition: "center, center center",
+        backgroundRepeat: "no-repeat, no-repeat",
+      }}
+    >
       <div className="container relative z-10">
         <div className="hero-grid">
           <div className="hero-content">
@@ -220,6 +228,25 @@ export default function Hero() {
           </div>{" "}
         </div>{" "}
       </div>{" "}
+      {/* Campus location caption */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "14px",
+          left: "20px",
+          fontSize: "11px",
+          fontWeight: 600,
+          letterSpacing: "1.8px",
+          textTransform: "uppercase",
+          color: "rgba(255,255,255,0.82)",
+          textShadow: "0 1px 4px rgba(0,0,0,0.55)",
+          zIndex: 20,
+          pointerEvents: "none",
+          userSelect: "none",
+        }}
+      >
+        Our Campus · Chengalpattu, Chennai
+      </div>
     </section>
   );
 }
