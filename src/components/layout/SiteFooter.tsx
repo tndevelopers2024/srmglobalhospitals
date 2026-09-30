@@ -215,7 +215,7 @@ export default function SiteFooter() {
                 <Link href="/about">About Us</Link>
               </li>{" "}
               <li>
-                <Link href="/about#leader">Leadership</Link>
+                <Link href="/leadership-team">Leadership Team</Link>
               </li>{" "}
               <li>
                 <Link href="/#quality">Quality &amp; Accreditation</Link>

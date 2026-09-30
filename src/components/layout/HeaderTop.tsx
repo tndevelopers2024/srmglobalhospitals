@@ -34,7 +34,7 @@ export default function HeaderTop() {
                 </Link>
                 <div className="nav-dropdown-menu">
                   <Link href="/about">About Us</Link>
-                  <Link href="/about#leader">Leadership Team</Link>
+                  <Link href="/leadership-team">Leadership Team</Link>
                 </div>
               </div>{" "}
               <div className="nav-dropdown">
