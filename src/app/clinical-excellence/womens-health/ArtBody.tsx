@@ -88,7 +88,8 @@ export default function ArtBody() {
            ══════════════════════════════════════════════════════ */}
       <section className="hero" id="hero" ref={heroRef}>
         <div className="container">
-          <div className="hero-content">
+          <div className="hero-inner-card">
+            <div className="hero-content">
             <div className="hero-breadcrumb">
               <Link href="/">Home</Link>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -124,16 +125,16 @@ export default function ArtBody() {
               </a>
             </div>
           </div>
-          <div className="hero-image">
-            <div className="hero-image-wrapper">
-              <Image
-                src="/images/coe/womens-health/hero-1.avif"
-                alt="Women's Health & Wellness Centre"
-                width={640}
-                height={480}
-                priority
-                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
-              />
+            <div className="hero-image">
+              <div className="hero-image-wrapper">
+                <Image
+                  src="/images/coe/womens-health/hero-coe2.avif"
+                  alt="Women's Health & Wellness Centre"
+                  fill
+                  priority
+                  style={{ objectFit: "cover", objectPosition: "center center" }}
+                />
+              </div>
             </div>
           </div>
         </div>

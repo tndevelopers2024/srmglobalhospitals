@@ -85,6 +85,7 @@ export default function ArtBody() {
     <div className="coe-page">
       <section className="hero" id="hero" ref={heroRef}>
   <div className="container">
+    <div className="hero-inner-card">
     <div className="hero-content">
       <div className="hero-breadcrumb">
         <Link href="/">Home</Link>
@@ -112,14 +113,14 @@ export default function ArtBody() {
     <div className="hero-image">
       <div className="hero-image-wrapper">
         <Image
-          src="/images/coe/renal-sciences/hero.avif"
+          src="/images/coe/renal-sciences/hero-coe.avif"
           alt="Renal Sciences Centre"
-          width={640}
-          height={480}
+          fill
           priority
-          style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+          style={{ objectFit: "cover", objectPosition: "center center" }}
         />
       </div>
+    </div>
     </div>
   </div>
 </section>

@@ -128,54 +128,68 @@
 /* ── HERO ── */
 .coe-page .hero {
   position: relative;
-  background: linear-gradient(135deg, #0a0e30 0%, #13184b 35%, #2a1b5c 75%, #3d1b6e 100%);
-  padding: 110px 0 90px;
-  overflow: hidden;
-  min-height: 560px;
-  display: flex;
-  align-items: center;
+  background: transparent;
+  padding: 40px 0 48px;
+  overflow: visible;
 }
 
-.coe-page .hero::before {
+
+.coe-page .hero .container {
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* Rounded card — the only structural addition */
+.coe-page .hero-inner-card {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  background: linear-gradient(135deg, #0a0e30 0%, #13184b 35%, #2a1b5c 75%, #3d1b6e 100%);
+  border-radius: 32px;
+  overflow: hidden;
+  min-height: 480px;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.35);
+}
+
+/* Glow blobs preserved inside the card */
+.coe-page .hero-inner-card::before {
   content: '';
   position: absolute;
   top: -40%;
-  right: -15%;
-  width: 650px;
-  height: 650px;
+  right: -10%;
+  width: 600px;
+  height: 600px;
   background: radial-gradient(circle, rgba(31, 182, 224, 0.12) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
+  z-index: 0;
 }
 
-.coe-page .hero::after {
+.coe-page .hero-inner-card::after {
   content: '';
   position: absolute;
   bottom: -30%;
   left: -10%;
-  width: 550px;
-  height: 550px;
+  width: 500px;
+  height: 500px;
   background: radial-gradient(circle, rgba(111, 61, 247, 0.12) 0%, transparent 70%);
   border-radius: 50%;
   pointer-events: none;
-}
-
-.coe-page .hero .container {
-  position: relative;
-  z-index: 2;
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 48px;
-  align-items: center;
-  max-width: 1240px;
-  margin: 0 auto;
-  padding: 0 24px;
+  z-index: 0;
 }
 
 .coe-page .hero-content {
+  position: relative;
+  z-index: 2;
+  width: 55%;
+  padding: 60px 72px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
+  flex-shrink: 0;
 }
 
 .coe-page .hero-breadcrumb {
@@ -300,41 +314,42 @@
   transform: translateY(-2px);
 }
 
-/* Reset any global .hero-image styles */
+/* Hero image — full-height absolute layer with left-fade mask */
 .coe-page .hero-image {
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
   width: 100% !important;
+  height: 100% !important;
   aspect-ratio: auto !important;
   background: transparent !important;
   box-shadow: none !important;
-  overflow: visible !important;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin: 0;
-  padding: 0;
+  overflow: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 1;
 }
 
 .coe-page .hero-image-wrapper {
-  width: 100%;
-  max-width: 520px;
-  aspect-ratio: 4 / 3;
-  border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.04);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  display: block;
+  /* Fade in from left so text stays readable */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, transparent 45%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,1) 78%);
+  mask-image: linear-gradient(to right, transparent 0%, transparent 45%, rgba(0,0,0,0.6) 60%, rgba(0,0,0,1) 78%);
 }
 
 .coe-page .hero-image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center center;
+  border-radius: 0;
 }
 
 .coe-page .hero-image-placeholder {
@@ -357,6 +372,47 @@
   height: 48px;
   color: rgba(255, 255, 255, 0.35);
   stroke-width: 1.5;
+}
+
+/* ── HERO RESPONSIVE ── */
+@media (max-width: 1100px) {
+  .coe-page .hero .container {
+    padding: 0 20px;
+  }
+  .coe-page .hero-content {
+    width: 60%;
+    padding: 48px 48px;
+  }
+  .coe-page .hero h1 {
+    font-size: clamp(28px, 4vw, 42px);
+  }
+}
+
+@media (max-width: 768px) {
+  .coe-page .hero-inner-card {
+    flex-direction: column;
+    min-height: auto;
+    border-radius: 20px;
+  }
+  .coe-page .hero-content {
+    width: 100%;
+    padding: 40px 28px 32px;
+  }
+  .coe-page .hero h1 {
+    font-size: 1.9rem;
+  }
+  .coe-page .hero-image {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    width: 100% !important;
+    height: 260px !important;
+    order: -1;
+  }
+  .coe-page .hero-image-wrapper {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+  }
 }
 
 /* ── TRUST BAR ── */
