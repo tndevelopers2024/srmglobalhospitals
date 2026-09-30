@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       className="hero relative overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(150deg, rgba(240, 247, 253, 0.55) 0%, rgba(227, 242, 252, 0.55) 40%, rgba(201, 229, 245, 0.55) 100%), url('/images/home/hero-building.jpg')",
+        backgroundImage: "linear-gradient(150deg, rgba(240, 247, 253, 0.42) 0%, rgba(227, 242, 252, 0.42) 40%, rgba(201, 229, 245, 0.42) 100%), url('/images/home/hero-building.jpg')",
         backgroundSize: "auto, cover",
         backgroundPosition: "center, center center",
         backgroundRepeat: "no-repeat, no-repeat",
@@ -23,23 +23,21 @@ export default function Hero() {
               Super speciality care,<br /> held to a <em className="not-italic text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">higher</em> standard.
             </h1>
             
-            <p className="hero-subline text-lg text-slate-600 mb-8 max-w-xl">
+            <p className="hero-subline text-lg font-bold mb-8 max-w-xl" style={{ fontWeight: 700, color: 'var(--ink)' }}>
               A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.
             </p>
             
-            {/* Glassmorphic Floating Action Bar */}
-            <div className="hero-actions bg-white/70 backdrop-blur-xl rounded-3xl md:rounded-full p-2 md:p-2.5 shadow-xl border border-white flex flex-col md:flex-row items-center gap-2 mb-10 w-fit">
-              <a href="#" className="w-full md:w-auto flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full font-bold transition-colors">
+            {/* Action Bar */}
+            <div className="hero-actions mb-10" style={{ display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
+              <a href="#" style={{ fontWeight: 700, color: 'var(--ink)', display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '15px' }}>
                 Book an appointment 
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
               </a>
-              <div className="hidden md:block w-px h-8 bg-slate-200 mx-2" />
-              <a href="/best-doctor" className="w-full md:w-auto flex items-center justify-center px-6 py-3 rounded-full font-semibold text-slate-700 hover:bg-slate-100 transition-colors">
+              <a href="/best-doctor" style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '15px' }}>
                 Find a doctor
               </a>
-              <div className="hidden md:block w-px h-8 bg-slate-200 mx-2" />
-              <a href="tel:+919644496444" className="w-full md:w-auto flex items-center justify-center gap-2 px-6 py-3 rounded-full font-bold text-red-600 hover:bg-red-50 transition-colors">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+              <a href="tel:+919644496444" style={{ fontWeight: 700, color: 'var(--ink)', display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '15px' }}>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
                 Emergency
               </a>
             </div>
