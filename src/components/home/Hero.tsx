@@ -4,7 +4,7 @@ export default function Hero() {
       className="hero relative overflow-hidden"
       style={{
         backgroundImage:
-          "linear-gradient(to right, rgba(255, 255, 255, 0.66) 0%, rgba(255, 255, 255, 0.60) 28%, rgba(255, 255, 255, 0.42) 44%, rgba(255, 255, 255, 0.15) 52%, rgba(255, 255, 255, 0) 58%), url('/images/home/hero-building.jpg')",
+          "linear-gradient(to right, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.72) 28%, rgba(255, 255, 255, 0.52) 44%, rgba(255, 255, 255, 0.20) 52%, rgba(255, 255, 255, 0) 60%), url('/images/home/hero-building.jpg')",
         backgroundSize: "auto, cover",
         backgroundPosition: "center, center center",
         backgroundRepeat: "no-repeat, no-repeat",
