@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       className="hero relative overflow-hidden"
       style={{
-        backgroundImage: "linear-gradient(150deg, rgba(240, 247, 253, 0.42) 0%, rgba(227, 242, 252, 0.42) 40%, rgba(201, 229, 245, 0.42) 100%), url('/images/home/hero-building.jpg')",
+        backgroundImage: "linear-gradient(150deg, rgba(240, 247, 253, 0.42) 0%, rgba(227, 242, 252, 0.35) 45%, rgba(201, 229, 245, 0.28) 100%), url('/images/home/hero-building.jpg')",
         backgroundSize: "auto, cover",
         backgroundPosition: "center, center center",
         backgroundRepeat: "no-repeat, no-repeat",
