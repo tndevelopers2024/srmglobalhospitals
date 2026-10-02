@@ -822,7 +822,7 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="article-card">
-              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-3-new.avif" alt="Colonoscopy Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
+              <div className="article-img"><Image src="/images/coe/gastro-and-liver-sciences/article-3-s.avif" alt="Colonoscopy Screening Article" width={600} height={400} style={{ width: "100%", height: "100%", objectFit: "cover" }} /></div>
               <div className="article-body">
                 <span className="article-tag">Screening</span>
                 <h3>When Should You Get a Colonoscopy?</h3>
