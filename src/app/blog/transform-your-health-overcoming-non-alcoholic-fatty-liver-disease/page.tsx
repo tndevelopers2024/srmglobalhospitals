@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "PRP Injection Knee Therapy: An Effective Non-surgical Way to Manage Knee Pain",
+  title: "Transform Your Health: Overcoming Non-Alcoholic Fatty Liver Disease",
   description:
-    "PRP injection knee therapy at SRM Global Hospitals: how the procedure works, which knee conditions respond best, what recovery looks like, and how many sessions most patients need.",
-  path: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-  image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
-  author: "Orthopaedic Specialist",
-  section: "Orthopaedics",
-  publishedTime: "2026-05-27",
+    "Non-alcoholic fatty liver disease (NAFLD/MASLD) affects millions and is often silent. Gastroenterologists at SRM Global Hospitals explain causes, diagnosis, lifestyle management, and clinical treatment options.",
+  path: "/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease",
+  image: "/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/hero.jpeg",
+  author: "Gastro Specialist",
+  section: "Gastro",
+  publishedTime: "2026-12-02",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function PrpInjectionKneeTherapyArticle() {
+export default function FattyLiverArticle() {
   return (
     <>
       <script
@@ -66,48 +66,50 @@ export default function PrpInjectionKneeTherapyArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-orthopaedics"
-        category="Orthopaedics"
+        dotClass="dot-gastro"
+        category="Gastro"
         title={article.title}
-        specialistTitle="Orthopaedic Specialist"
-        department="Centre for Bone, Joint & Spine Care"
-        date="May 27, 2026"
-        readMinutes={9}
-        reads="3,720"
+        specialistTitle="Gastro Specialist"
+        department="Institute of Gastro and Liver Sciences"
+        date="December 2, 2026"
+        readMinutes={12}
+        reads="4,250"
       />
       <div className="art-wrap">
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Orthopaedic Specialist"
-          department="Centre for Bone, Joint & Spine Care"
-          blurb="Our orthopaedic specialists are available across the week, in-person and via tele-consult."
+          specialistTitle="Gastro Specialist"
+          department="Institute of Gastro and Liver Sciences"
+          blurb="Our gastroenterology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "prp-what-is", title: "What is PRP knee treatment" },
-            { id: "prp-how-works", title: "How PRP works" },
-            { id: "prp-conditions", title: "Conditions treated" },
-            { id: "prp-recovery", title: "Recovery and sessions needed" },
-            { id: "prp-faqs", title: "FAQs" },
+            { id: "what-is-fatty-liver", title: "What is fatty liver" },
+            { id: "types-of-fatty-liver", title: "Types of fatty liver" },
+            { id: "causes-nafld", title: "Causes of NAFLD/MASLD" },
+            { id: "diagnosis", title: "Diagnosis" },
+            { id: "lifestyle-management", title: "Lifestyle management" },
+            { id: "clinical-management", title: "Clinical management" },
+            { id: "faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
-              href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
-              title: "Sciatica pain treatment: understand the cause and find the right relief",
-              meta: "11 min · Orthopaedics",
+              href: "/blog/gallstone-pancreatitis-what-to-do-now-how-to-heal-faster-and-how-to-prevent-future-attacks",
+              image: "/images/blog/gallstone-pancreatitis-what-to-do-now-how-to-heal-faster-and-how-to-prevent-future-attacks/hero.jpeg",
+              title: "Gallstone pancreatitis: what to do now, how to heal faster",
+              meta: "13 min · Gastro",
             },
             {
-              href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-              title: "Multiple sclerosis: what expert care at the right time can actually do",
-              meta: "12 min · Neurology",
+              href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
+              image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
+              title: "Chest pain due to gas: when is it harmless, when you should worry",
+              meta: "10 min · Cardiology",
             },
             {
-              href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=120&q=85",
-              title: "Chest pain at 40: when is it your heart, and when is it not?",
-              meta: "9 min · Cardiology",
+              href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
+              image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
+              title: "Expert diabetic foot care to keep you moving",
+              meta: "11 min · Diabetes",
             },
           ]}
         />
@@ -122,13 +124,13 @@ export default function PrpInjectionKneeTherapyArticle() {
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-            image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
+            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
+            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
             image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",

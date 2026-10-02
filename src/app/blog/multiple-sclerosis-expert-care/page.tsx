@@ -126,14 +126,14 @@ export default function MultipleSclerosisArticle() {
             title: "Types of cerebral palsy: what it means for your child",
           },
           {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
+            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "https://images.unsplash.com/photo-1616093875092-19208e6c4d35?w=600&q=85",
+            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
+            image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
           },
