@@ -469,16 +469,16 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster",
     image: "/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 4,
+    readMinutes: 13,
     date: "2025-12-03",
   },
   {
     slug: "what-is-hip-impingement-signs-diagnosis-recovery-tips",
     title: "What Is Hip Impingement? Signs, Diagnosis & Recovery Tips",
     href: "/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips",
-    image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.jpeg",
+    image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.webp",
     specialty: "Orthopaedics",
-    readMinutes: 7,
+    readMinutes: 11,
     date: "2025-12-03",
   },
   {
@@ -487,7 +487,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options",
     image: "/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 4,
+    readMinutes: 12,
     date: "2025-12-03",
   },
   {
@@ -505,7 +505,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide",
     image: "/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 6,
+    readMinutes: 13,
     date: "2025-12-03",
   },
   {
