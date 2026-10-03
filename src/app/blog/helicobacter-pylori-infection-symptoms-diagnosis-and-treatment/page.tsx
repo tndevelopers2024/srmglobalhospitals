@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "PRP Injection Knee Therapy: An Effective Non-surgical Way to Manage Knee Pain",
+  title: "Helicobacter pylori Infection: Symptoms, Diagnosis, and Treatment",
   description:
-    "PRP injection knee therapy at SRM Global Hospitals: how the procedure works, which knee conditions respond best, what recovery looks like, and how many sessions most patients need.",
-  path: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-  image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
-  author: "Orthopaedic Specialist",
-  section: "Orthopaedics",
-  publishedTime: "2026-05-27",
+    "Helicobacter pylori affects nearly half the world's population. Gastroenterology specialists at SRM Global Hospitals explain how H. pylori damages the stomach, symptoms, diagnosis, and triple therapy treatment.",
+  path: "/blog/helicobacter-pylori-infection-symptoms-diagnosis-and-treatment",
+  image: "/images/blog/helicobacter-pylori-infection-symptoms-diagnosis-and-treatment/hero.jpeg",
+  author: "Gastro Specialist",
+  section: "Gastro",
+  publishedTime: "2025-12-04",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function PrpInjectionKneeTherapyArticle() {
+export default function HelicobacterPyloriArticle() {
   return (
     <>
       <script
@@ -66,48 +66,49 @@ export default function PrpInjectionKneeTherapyArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-orthopaedics"
-        category="Orthopaedics"
+        dotClass="dot-gastro"
+        category="Gastro"
         title={article.title}
-        specialistTitle="Orthopaedic Specialist"
-        department="Centre for Bone, Joint & Spine Care"
-        date="May 27, 2026"
-        readMinutes={9}
-        reads="3,720"
+        specialistTitle="Gastro Specialist"
+        department="Institute of Gastro and Liver Sciences"
+        date="December 4, 2025"
+        readMinutes={10}
+        reads="4,780"
       />
       <div className="art-wrap">
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Orthopaedic Specialist"
-          department="Centre for Bone, Joint & Spine Care"
-          blurb="Our orthopaedic specialists are available across the week, in-person and via tele-consult."
+          specialistTitle="Gastro Specialist"
+          department="Institute of Gastro and Liver Sciences"
+          blurb="Our gastroenterology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "prp-what-is", title: "What is PRP knee treatment" },
-            { id: "prp-how-works", title: "How PRP works" },
-            { id: "prp-conditions", title: "Conditions treated" },
-            { id: "prp-recovery", title: "Recovery and sessions needed" },
-            { id: "prp-faqs", title: "FAQs" },
+            { id: "what-is-h-pylori", title: "What is H. pylori" },
+            { id: "symptoms", title: "Symptoms" },
+            { id: "how-it-spreads", title: "How it spreads" },
+            { id: "diagnosis", title: "Diagnosis" },
+            { id: "treatment", title: "Treatment" },
+            { id: "faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
-              href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
-              title: "Sciatica pain treatment: understand the cause and find the right relief",
-              meta: "11 min · Orthopaedics",
+              href: "/blog/what-you-must-know-about-gastritis-causes-symptoms-complications-treatment-and-management",
+              image: "/images/blog/what-you-must-know-about-gastritis-causes-symptoms-complications-treatment-and-management/hero.jpeg",
+              title: "What you must know about gastritis",
+              meta: "14 min · Gastro",
             },
             {
-              href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-              title: "Multiple sclerosis: what expert care at the right time can actually do",
-              meta: "12 min · Neurology",
+              href: "/blog/what-is-antral-gastritis-and-why-gut-experts-treat-it-differently",
+              image: "/images/blog/what-is-antral-gastritis-and-why-gut-experts-treat-it-differently/hero.jpeg",
+              title: "What is antral gastritis and why gut experts treat it differently",
+              meta: "13 min · Gastro",
             },
             {
-              href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=120&q=85",
-              title: "Chest pain at 40: when is it your heart, and when is it not?",
-              meta: "9 min · Cardiology",
+              href: "/blog/what-happens-in-barretts-esophagus-understanding-the-health-changes",
+              image: "/images/blog/what-happens-in-barretts-esophagus-understanding-the-health-changes/hero.jpeg",
+              title: "What happens in Barrett's esophagus? Understanding the health changes",
+              meta: "11 min · Gastro",
             },
           ]}
         />
@@ -122,13 +123,13 @@ export default function PrpInjectionKneeTherapyArticle() {
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-            image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
+            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
+            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
             image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",

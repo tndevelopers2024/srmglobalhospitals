@@ -130,7 +130,7 @@ export default function SciaticaArticle() {
           },
           {
             href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-            image: "https://images.unsplash.com/photo-1616093875092-19208e6c4d35?w=600&q=85",
+            image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
           },

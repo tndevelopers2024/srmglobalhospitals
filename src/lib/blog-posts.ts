@@ -424,7 +424,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease",
     image: "/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/hero.jpeg",
     specialty: "Gastro",
-    readMinutes: 6,
+    readMinutes: 12,
     date: "2025-12-04",
   },
   {

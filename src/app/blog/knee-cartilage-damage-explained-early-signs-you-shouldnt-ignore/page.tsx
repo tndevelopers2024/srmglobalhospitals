@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "PRP Injection Knee Therapy: An Effective Non-surgical Way to Manage Knee Pain",
+  title: "Knee Cartilage Damage Explained: Early Signs You Shouldn't Ignore",
   description:
-    "PRP injection knee therapy at SRM Global Hospitals: how the procedure works, which knee conditions respond best, what recovery looks like, and how many sessions most patients need.",
-  path: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-  image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
+    "Knee cartilage damage affects mobility and causes long-term pain if ignored. Orthopaedic specialists at SRM Global Hospitals explain causes, symptoms, diagnosis, non-surgical and surgical treatments.",
+  path: "/blog/knee-cartilage-damage-explained-early-signs-you-shouldnt-ignore",
+  image: "/images/blog/knee-cartilage-damage-explained-early-signs-you-shouldnt-ignore/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
-  publishedTime: "2026-05-27",
+  publishedTime: "2025-12-03",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function PrpInjectionKneeTherapyArticle() {
+export default function KneeCartilageArticle() {
   return (
     <>
       <script
@@ -71,9 +71,9 @@ export default function PrpInjectionKneeTherapyArticle() {
         title={article.title}
         specialistTitle="Orthopaedic Specialist"
         department="Centre for Bone, Joint & Spine Care"
-        date="May 27, 2026"
-        readMinutes={9}
-        reads="3,720"
+        date="December 3, 2025"
+        readMinutes={11}
+        reads="4,180"
       />
       <div className="art-wrap">
         <ShareRail />
@@ -84,30 +84,35 @@ export default function PrpInjectionKneeTherapyArticle() {
           blurb="Our orthopaedic specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "prp-what-is", title: "What is PRP knee treatment" },
-            { id: "prp-how-works", title: "How PRP works" },
-            { id: "prp-conditions", title: "Conditions treated" },
-            { id: "prp-recovery", title: "Recovery and sessions needed" },
-            { id: "prp-faqs", title: "FAQs" },
+            { id: "what-is-cartilage", title: "What is knee cartilage" },
+            { id: "causes", title: "Causes of damage" },
+            { id: "symptoms", title: "Common symptoms" },
+            { id: "types-of-injuries", title: "Types of injuries" },
+            { id: "diagnosis", title: "Diagnosis" },
+            { id: "treatment-options", title: "Treatment options" },
+            { id: "cartilage-replacement", title: "Cartilage replacement" },
+            { id: "recovery-rehabilitation", title: "Recovery & rehabilitation" },
+            { id: "when-to-visit", title: "When to visit" },
+            { id: "faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
-              href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
-              title: "Sciatica pain treatment: understand the cause and find the right relief",
-              meta: "11 min · Orthopaedics",
+              href: "/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain",
+              image: "/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain/hero.jpeg",
+              title: "Lateral meniscus tear: symptoms, causes, and best treatment options",
+              meta: "12 min · Orthopaedics",
             },
             {
-              href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-              title: "Multiple sclerosis: what expert care at the right time can actually do",
-              meta: "12 min · Neurology",
+              href: "/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis",
+              image: "/images/blog/why-do-my-knees-hurt-everything-you-need-to-know-about-knee-osteoarthritis/hero.jpeg",
+              title: "Why do my knees hurt? Everything about knee osteoarthritis",
+              meta: "12 min · Orthopaedics",
             },
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=120&q=85",
-              title: "Chest pain at 40: when is it your heart, and when is it not?",
-              meta: "9 min · Cardiology",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
+              title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
+              meta: "9 min · Orthopaedics",
             },
           ]}
         />
@@ -122,13 +127,13 @@ export default function PrpInjectionKneeTherapyArticle() {
             title: "Multiple sclerosis: what expert care at the right time can actually do",
           },
           {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-            image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
+            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
+            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
             category: "Cardiology",
             title: "Chest pain at 40: When is it your heart, and when is it not?",
           },
           {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
+            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
             image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
             category: "Diabetes",
             title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
