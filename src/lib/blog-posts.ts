@@ -514,7 +514,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/microvascular-disease-guide-symptoms-care-long-term-risks",
     image: "/images/blog/microvascular-disease-guide-symptoms-care-long-term-risks/hero.jpeg",
     specialty: "Cardiology",
-    readMinutes: 8,
+    readMinutes: 14,
     date: "2025-12-03",
   },
   {
@@ -532,7 +532,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment",
     image: "/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/hero.png",
     specialty: "Cardiology",
-    readMinutes: 4,
+    readMinutes: 11,
     date: "2025-12-02",
   },
   {
@@ -541,7 +541,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/atrial-fibrillation-symptoms-causes-risks-and-treatment",
     image: "/images/blog/atrial-fibrillation-symptoms-causes-risks-and-treatment/hero.jpeg",
     specialty: "Cardiology",
-    readMinutes: 9,
+    readMinutes: 13,
     date: "2025-12-02",
   },
   {
