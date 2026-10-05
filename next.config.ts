@@ -140,6 +140,16 @@ const nextConfig: NextConfig = {
         destination: "/clinical-excellence/:slug*",
         permanent: true,
       },
+      {
+        source: "/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments",
+        destination: "/blog/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments",
+        permanent: true,
+      },
+      {
+        source: "/effective-meniscus-tear-treatment-options-for-relief-and-recovery",
+        destination: "/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery",
+        permanent: true,
+      },
     ];
   },
 };

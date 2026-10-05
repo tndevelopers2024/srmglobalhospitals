@@ -23,7 +23,7 @@ const article = {
   description:
     "Hip impingement (femoroacetabular impingement) causes friction between the bones of the hip joint. Orthopaedic specialists at SRM Global Hospitals explain cam vs pincer types, diagnosis, and treatment.",
   path: "/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips",
-  image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.webp",
+  image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2026-04-01",
