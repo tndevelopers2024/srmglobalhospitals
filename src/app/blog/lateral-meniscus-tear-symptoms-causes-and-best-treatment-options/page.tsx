@@ -98,7 +98,7 @@ export default function LateralMeniscusTearArticle() {
           relatedReading={[
             {
               href: "/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips",
-              image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.webp",
+              image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.jpeg",
               title: "What Is Hip Impingement? Signs, Diagnosis & Recovery Tips",
               meta: "11 min · Orthopaedics",
             },

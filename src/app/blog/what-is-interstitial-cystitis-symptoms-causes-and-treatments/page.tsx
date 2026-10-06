@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "What Is a Meniscus Tear? Signs, Treatment & Recovery Guide",
+  title: "What is Interstitial Cystitis: Symptoms, Causes, and Treatments",
   description:
-    "A meniscus tear causes pain, locking, and swelling in the knee joint. Orthopaedic specialists at SRM Global Hospitals explain tear types, diagnosis, and recovery options.",
-  path: "/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide",
-  image: "/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/hero.jpeg",
-  author: "Orthopaedic Specialist",
-  section: "Orthopaedics",
-  publishedTime: "2026-04-01",
+    "Interstitial cystitis causes chronic bladder pain that isn't caused by infection, so antibiotics don't help. Specialists at SRM Global Hospitals explain causes, diagnosis, and the full range of treatment options.",
+  path: "/blog/what-is-interstitial-cystitis-symptoms-causes-and-treatments",
+  image: "/images/blog/what-is-interstitial-cystitis-symptoms-causes-and-treatments/hero.jpeg",
+  author: "Women's Health Specialist",
+  section: "Women's Health",
+  publishedTime: "2027-07-14",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function WhatIsAMeniscusTearArticle() {
+export default function InterstitialCystitisArticle() {
   return (
     <>
       <script
@@ -66,54 +66,57 @@ export default function WhatIsAMeniscusTearArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-orthopaedics"
-        category="Orthopaedics"
+        dotClass="dot-womens-health"
+        category="Women's Health"
         title={article.title}
-        specialistTitle="Orthopaedic Specialist"
-        department="Centre for Bone, Joint & Spine Care"
-        date="April 1, 2026"
-        readMinutes={13}
-        reads="5,610"
+        specialistTitle="Women's Health Specialist"
+        department="Centre for Women's Health & Wellness"
+        readMinutes={17}
+        reads="3,590"
       />
       <div className="art-wrap">
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Orthopaedic Specialist"
-          department="Centre for Bone, Joint & Spine Care"
-          blurb="Our orthopaedic specialists are available across the week, in-person and via tele-consult."
+          specialistTitle="Women's Health Specialist"
+          department="Centre for Women's Health & Wellness"
+          blurb="Our women's health specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "shock-absorber", title: "Meniscus shock absorber" },
-            { id: "what-is-meniscus-tear", title: "What is a meniscus tear" },
-            { id: "signs-symptoms", title: "Signs & symptoms" },
-            { id: "tear-types", title: "Types of tears" },
-            { id: "diagnosis", title: "Diagnosis & tests" },
-            { id: "when-surgery-needed", title: "Surgical options" },
-            { id: "conservative-treatments", title: "Non-surgical treatment" },
-            { id: "recovery", title: "Recovery timeline" },
-            { id: "risks-untreated", title: "Risks of delay" },
-            { id: "prevention", title: "Prevention tips" },
+            { id: "what-is-ic", title: "What is interstitial cystitis" },
+            { id: "anatomy-function", title: "Anatomy of the bladder" },
+            { id: "symptoms", title: "Symptoms" },
+            { id: "diagnosis", title: "Diagnosis" },
+            { id: "causes", title: "Causes of IC" },
+            { id: "lifestyle-habits", title: "Lifestyle & daily habits" },
+            { id: "non-pharmacological", title: "Non-drug treatments" },
+            { id: "pharmacological", title: "Medications" },
+            { id: "other-treatments", title: "Other treatments" },
+            { id: "surgical-options", title: "Surgical options" },
+            { id: "risks-considerations", title: "Risks & considerations" },
+            { id: "long-term-management", title: "Long-term management" },
+            { id: "prevention-flare-ups", title: "Preventing flare-ups" },
+            { id: "connect-with-srm", title: "SRM Global Hospitals" },
             { id: "faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
-              href: "/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options",
-              image: "/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/hero.jpeg",
-              title: "Lateral meniscus tear: symptoms, causes, and best treatment options",
-              meta: "12 min · Orthopaedics",
+              href: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
+              image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
+              title: "Cervical stitch pregnancy: strengthening mothers for a safer delivery",
+              meta: "11 min · Women's Health",
             },
             {
-              href: "/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips",
-              image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.jpeg",
-              title: "What Is Hip Impingement? Signs, Diagnosis & Recovery Tips",
-              meta: "11 min · Orthopaedics",
+              href: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
+              image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/hero.jpeg",
+              title: "White discharge during pregnancy: what's normal and what's not",
+              meta: "13 min · Women's Health",
             },
             {
-              href: "/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster",
-              image: "/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/hero.jpeg",
-              title: "Labral tear shoulder explained: early signs and how to heal faster",
-              meta: "13 min · Orthopaedics",
+              href: "/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know",
+              image: "/images/blog/cervical-length-at-20-weeks-what-every-mom-to-be-should-know/hero.jpeg",
+              title: "Cervical length at 20 weeks: what every mom-to-be should know",
+              meta: "16 min · Women's Health",
             },
           ]}
         />

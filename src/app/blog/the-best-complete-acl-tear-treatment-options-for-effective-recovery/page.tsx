@@ -19,14 +19,14 @@ import MobileActionBar from "@/components/blog/article/MobileActionBar";
 import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 
 const article = {
-  title: "What Is a Meniscus Tear? Signs, Treatment & Recovery Guide",
+  title: "The Best Complete ACL Tear Treatment Options for Effective Recovery",
   description:
-    "A meniscus tear causes pain, locking, and swelling in the knee joint. Orthopaedic specialists at SRM Global Hospitals explain tear types, diagnosis, and recovery options.",
-  path: "/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide",
-  image: "/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/hero.jpeg",
+    "A complete ACL tear can be treated surgically or non-surgically depending on age, activity level, and injury severity. Orthopaedic specialists at SRM Global Hospitals compare both treatment paths and recovery phases.",
+  path: "/blog/the-best-complete-acl-tear-treatment-options-for-effective-recovery",
+  image: "/images/blog/the-best-complete-acl-tear-treatment-options-for-effective-recovery/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
-  publishedTime: "2026-04-01",
+  publishedTime: "2027-05-12",
 };
 
 export const metadata = createMetadata({
@@ -40,7 +40,7 @@ export const metadata = createMetadata({
   publishedTime: article.publishedTime,
 });
 
-export default function WhatIsAMeniscusTearArticle() {
+export default function CompleteAclTearTreatmentArticle() {
   return (
     <>
       <script
@@ -71,9 +71,8 @@ export default function WhatIsAMeniscusTearArticle() {
         title={article.title}
         specialistTitle="Orthopaedic Specialist"
         department="Centre for Bone, Joint & Spine Care"
-        date="April 1, 2026"
-        readMinutes={13}
-        reads="5,610"
+        readMinutes={12}
+        reads="4,320"
       />
       <div className="art-wrap">
         <ShareRail />
@@ -84,19 +83,22 @@ export default function WhatIsAMeniscusTearArticle() {
           blurb="Our orthopaedic specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "shock-absorber", title: "Meniscus shock absorber" },
-            { id: "what-is-meniscus-tear", title: "What is a meniscus tear" },
-            { id: "signs-symptoms", title: "Signs & symptoms" },
-            { id: "tear-types", title: "Types of tears" },
-            { id: "diagnosis", title: "Diagnosis & tests" },
-            { id: "when-surgery-needed", title: "Surgical options" },
-            { id: "conservative-treatments", title: "Non-surgical treatment" },
-            { id: "recovery", title: "Recovery timeline" },
-            { id: "risks-untreated", title: "Risks of delay" },
-            { id: "prevention", title: "Prevention tips" },
+            { id: "what-are-acl-tears", title: "What are ACL tears" },
+            { id: "non-surgical-options", title: "Non-surgical treatment" },
+            { id: "surgical-options", title: "Surgical treatment options" },
+            { id: "recovery-rehabilitation", title: "Recovery & rehabilitation" },
+            { id: "comparing-treatment-paths", title: "Comparing treatment paths" },
+            { id: "preventing-re-injury", title: "Preventing re-injury" },
+            { id: "connect-with-srm", title: "SRM Global Hospitals" },
             { id: "faqs", title: "FAQs" },
           ]}
           relatedReading={[
+            {
+              href: "/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide",
+              image: "/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/hero.jpeg",
+              title: "What is a meniscus tear? Signs, treatment & recovery guide",
+              meta: "13 min · Orthopaedics",
+            },
             {
               href: "/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options",
               image: "/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/hero.jpeg",
@@ -104,16 +106,10 @@ export default function WhatIsAMeniscusTearArticle() {
               meta: "12 min · Orthopaedics",
             },
             {
-              href: "/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips",
-              image: "/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/hero.jpeg",
-              title: "What Is Hip Impingement? Signs, Diagnosis & Recovery Tips",
-              meta: "11 min · Orthopaedics",
-            },
-            {
-              href: "/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster",
-              image: "/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/hero.jpeg",
-              title: "Labral tear shoulder explained: early signs and how to heal faster",
-              meta: "13 min · Orthopaedics",
+              href: "/blog/what-is-partial-acl-tear-recovery-time-without-surgery",
+              image: "/images/blog/what-is-partial-acl-tear-recovery-time-without-surgery/hero.jpeg",
+              title: "What is partial ACL tear recovery time without surgery",
+              meta: "10 min · Orthopaedics",
             },
           ]}
         />
