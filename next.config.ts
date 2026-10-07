@@ -150,6 +150,36 @@ const nextConfig: NextConfig = {
         destination: "/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery",
         permanent: true,
       },
+      {
+        source: "/understanding-acl-tear-symptoms-treatment-and-recovery-options",
+        destination: "/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options",
+        permanent: true,
+      },
+      {
+        source: "/understanding-feeding-on-demand-a-guide-to-your-babys-needs",
+        destination: "/blog/understanding-feeding-on-demand-a-guide-to-your-babys-needs",
+        permanent: true,
+      },
+      {
+        source: "/the-best-baby-feeding-position-comfort-for-you-and-your-little-one",
+        destination: "/blog/the-best-baby-feeding-position-comfort-for-you-and-your-little-one",
+        permanent: true,
+      },
+      {
+        source: "/effective-arrhythmia-treatment-options-benefits-and-what-to-expect",
+        destination: "/blog/effective-arrhythmia-treatment-options-benefits-and-what-to-expect",
+        permanent: true,
+      },
+      {
+        source: "/essential-guide-to-heart-failure-treatment-options-and-considerations",
+        destination: "/blog/essential-guide-to-heart-failure-treatment-options-and-considerations",
+        permanent: true,
+      },
+      {
+        source: "/heart-stent-operation-a-comprehensive-overview-of-the-procedure",
+        destination: "/blog/heart-stent-operation-a-comprehensive-overview-of-the-procedure",
+        permanent: true,
+      },
     ];
   },
 };
