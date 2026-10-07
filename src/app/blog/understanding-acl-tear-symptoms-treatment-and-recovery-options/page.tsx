@@ -23,7 +23,7 @@ const article = {
   description:
     "ACL injuries are graded 1 to 3 by severity, from mild sprain to complete rupture. Orthopaedic specialists at SRM Global Hospitals explain each grade, diagnosis, surgical and non-surgical treatment, and recovery timelines.",
   path: "/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options",
-  image: "/images/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options/hero.jpeg",
+  image: "/images/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options/hero.png",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2027-08-11",
@@ -125,28 +125,7 @@ export default function UnderstandingAclTearArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
-            image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

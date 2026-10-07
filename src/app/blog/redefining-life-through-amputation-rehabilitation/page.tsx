@@ -114,28 +114,7 @@ export default function AmputationRehabilitationArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
-            category: "Neurology",
-            title: "Types of Cerebral Palsy: What It Means for Your Child?",
-          },
-          {
-            href: "/blog/chest-pain-at-40-when-is-it-your-heart-and-when-is-it-not",
-            image: "/images/blog/chest-pain-at-40-when-is-it-your-heart-and-when-is-it-not.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/your-hba1c-stopped-falling-here-is-what-your-doctor-checks-next",
-            image: "/images/blog/your-hba1c-stopped-falling-here-is-what-your-doctor-checks-next.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

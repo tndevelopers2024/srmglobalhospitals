@@ -108,22 +108,7 @@ export default function OrthopedicRehabArticle() {
                 />
             </div>
             <EndCta />
-            <MoreArticles
-                items={[
-                    {
-                        href: "/blog/empower-your-neurological-rehabilitation-journey",
-                        image: "/images/blog/empower-your-neurological-rehabilitation-journey/hero.webp",
-                        category: "Neurology",
-                        title: "Empower Your Neurological Rehabilitation Journey",
-                    },
-                    {
-                        href: "/blog/empowering-independence-advanced-assistive-device-technology",
-                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
-                        category: "Orthopaedics",
-                        title: "Empowering Independence: Advanced Assistive Device Technology",
-                    },
-                ]}
-            />
+            <MoreArticles currentSlug={article.path} category={article.section} />
             <MobileActionBar />
             <SiteFooter />
             <BlogInteractions />

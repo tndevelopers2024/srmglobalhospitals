@@ -112,28 +112,7 @@ export default function PediatricRehabilitationArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
-            category: "Cardiology",
-            title: "Right side chest pain: what your symptoms could be telling you",
-          },
-          {
-            href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
-            category: "Orthopaedics",
-            title: "Sciatica pain treatment: understand the cause and find the right relief",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

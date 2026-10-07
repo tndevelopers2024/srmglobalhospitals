@@ -116,28 +116,7 @@ export default function RightSideChestPainArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=600&q=85",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/expert-diabetic-foot-care-to-keep-you-moving/hero.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

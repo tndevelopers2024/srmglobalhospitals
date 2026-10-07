@@ -113,28 +113,7 @@ export default function SarcoidosisTreatmentArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
-            category: "Neurology",
-            title: "Types of cerebral palsy: what it means for your child",
-          },
-          {
-            href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-            image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
-            category: "Orthopaedics",
-            title: "Sciatica pain treatment: understand the cause and find the right relief",
-          },
-          {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
-            category: "Orthopaedics",
-            title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

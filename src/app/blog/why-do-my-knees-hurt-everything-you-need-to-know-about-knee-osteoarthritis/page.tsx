@@ -96,19 +96,19 @@ export default function KneeOsteoarthritisArticle() {
           relatedReading={[
             {
               href: "/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain",
-              image: "/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain.jpeg",
+              image: "/images/blog/the-silent-shock-absorber-why-a-meniscus-tear-is-more-than-just-knee-pain/hero.jpeg",
               title: "The silent shock absorber: why a meniscus tear is more than just knee pain",
               meta: "10 min · Orthopaedics",
             },
             {
               href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain.jpeg",
+              image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
               title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
               meta: "9 min · Orthopaedics",
             },
             {
               href: "/blog/power-your-comeback-through-sports-rehabilitation",
-              image: "/images/blog/power-your-comeback-through-sports-rehabilitation.jpeg",
+              image: "/images/blog/power-your-comeback-through-sports-rehabilitation/hero.jpeg",
               title: "Power your comeback through sports rehabilitation",
               meta: "11 min · Orthopaedics",
             },
@@ -116,28 +116,7 @@ export default function KneeOsteoarthritisArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/articles/chest-pain-hero.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
-            image: "/images/blog/articles/diabetic-foot-hero.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

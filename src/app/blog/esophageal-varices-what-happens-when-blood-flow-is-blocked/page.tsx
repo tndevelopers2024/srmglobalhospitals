@@ -94,19 +94,19 @@ export default function EsophagealVaricesArticle() {
           relatedReading={[
             {
               href: "/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates",
-              image: "/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates.jpeg",
+              image: "/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates/hero.jpeg",
               title: "Hiatal Hernia: A Threat to the Muscle That Separates",
               meta: "10 min · Gastro",
             },
             {
-              href: "/blog/understanding-esophageal-ulcer-symptoms-causes-diagnosis-and-treatment",
-              image: "/images/blog/understanding-esophageal-ulcer-symptoms-causes-diagnosis-and-treatment.jpeg",
+              href: "/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments",
+              image: "/images/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments/hero.png",
               title: "Understanding Esophageal Ulcer: Symptoms, Causes & Treatment",
               meta: "8 min · Gastro",
             },
             {
               href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-              image: "/images/blog/articles/chest-pain-hero.jpeg",
+              image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
               title: "Chest pain at 40: When is it your heart, and when is it not?",
               meta: "7 min · Gastro",
             },
@@ -114,28 +114,7 @@ export default function EsophagealVaricesArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/articles/chest-pain-hero.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
-            image: "/images/blog/articles/diabetic-foot-hero.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />
