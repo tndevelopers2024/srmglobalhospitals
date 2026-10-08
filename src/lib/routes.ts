@@ -46,6 +46,7 @@ const routeSettings: Record<string, RouteSetting> = {
   "/about": { priority: 0.9, changeFrequency: "monthly" },
   "/services": { priority: 0.9, changeFrequency: "monthly" },
   "/clinical-excellence": { priority: 0.9, changeFrequency: "weekly" },
+  "/book-an-appointment": { priority: 0.95, changeFrequency: "weekly" },
   "/blog": { priority: 0.8, changeFrequency: "weekly" },
 };
 

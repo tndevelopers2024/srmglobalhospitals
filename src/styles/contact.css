@@ -1,0 +1,981 @@
+/* ============================================================
+   SRM GLOBAL HOSPITALS - CONTACT US PAGE STYLES
+   Visual Language Reference: SRM Global Hospitals Brand System
+   Palette: Clean White (#ffffff), Deep Navy (#1a1f5c / #0e1240),
+            Healthcare Blue (#137CEF / #2294D3), Royal Purple (#6B4A98),
+            Emergency Red (#d93535), Subtle Light Blue (#f4f8fc / #f8fafd),
+            Refined Borders (#e2e8f0 / #edf2f7)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+.contact-page {
+  background: #ffffff;
+  color: #1a1f5c;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: clip;
+  width: 100%;
+}
+
+.contact-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ------------------------------------------------------------
+   TYPOGRAPHY & UTILITIES
+   ------------------------------------------------------------ */
+.contact-title-serif {
+  font-family: 'DM Serif Display', Georgia, serif;
+}
+
+.contact-font-heading {
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-accent-blue {
+  color: #137CEF;
+}
+
+.contact-accent-purple {
+  color: #6B4A98;
+}
+
+.contact-accent-emergency {
+  color: #d93535;
+}
+
+/* ------------------------------------------------------------
+   HERO / INTRO SECTION
+   ------------------------------------------------------------ */
+.contact-hero-section {
+  position: relative;
+  padding: 32px 0 48px;
+  background: #ffffff;
+}
+
+.contact-hero-wrap {
+  display: block;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.contact-hero-card {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  background: linear-gradient(135deg, #f0eaf7 0%, #e8f4fc 50%, #f8f9fb 100%);
+  border-radius: 32px;
+  overflow: hidden;
+  min-height: 520px;
+  box-shadow: 0 10px 40px rgba(26, 31, 92, 0.06);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.contact-hero-content {
+  position: relative;
+  z-index: 2;
+  width: 58%;
+  padding: 56px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Breadcrumb */
+.contact-breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.contact-breadcrumb a {
+  color: #137CEF;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-breadcrumb a:hover {
+  color: #0d5bb5;
+  text-decoration: underline;
+}
+
+.contact-breadcrumb-sep {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.contact-breadcrumb-current {
+  color: #1a1f5c;
+  font-weight: 600;
+}
+
+/* Eyebrow badge */
+.contact-hero-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  padding: 6px 14px;
+  background: rgba(107, 74, 152, 0.1);
+  border: 1px solid rgba(107, 74, 152, 0.2);
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #6B4A98;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.contact-hero-eyebrow-dot {
+  width: 7px;
+  height: 7px;
+  background: #6B4A98;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(107, 74, 152, 0.2);
+}
+
+.contact-hero-title {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 46px;
+  line-height: 1.15;
+  color: #1a1f5c;
+  margin: 0 0 18px;
+  letter-spacing: -0.5px;
+}
+
+.contact-hero-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #475569;
+  margin: 0 0 28px;
+  max-width: 620px;
+}
+
+/* Hero Quick Badges */
+.contact-hero-quick-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.contact-hero-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 50px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1a1f5c;
+  box-shadow: 0 2px 8px rgba(26, 31, 92, 0.04);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.contact-hero-badge-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(26, 31, 92, 0.08);
+  border-color: #cbd5e1;
+}
+
+.contact-hero-badge-pill.emergency {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  color: #000000;
+}
+
+.contact-hero-badge-pill.emergency:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+  color: #000000;
+}
+
+.emergency-pulse-dot {
+  width: 9px;
+  height: 9px;
+  background: #000000;
+  border-radius: 50%;
+  animation: contactPulse 1.8s infinite;
+}
+
+@keyframes contactPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.35);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+/* Hero Image Column with gradient mask matching Careers Hero */
+.contact-hero-image-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 58%;
+  height: 100%;
+  z-index: 1;
+}
+
+.contact-hero-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.15) 12%, rgba(0, 0, 0, 0.8) 32%, black 50%);
+  mask-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.15) 12%, rgba(0, 0, 0, 0.8) 32%, black 50%);
+}
+
+.contact-hero-image-wrapper .contact-hero-img,
+.contact-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* ------------------------------------------------------------
+   INFO CARDS SECTION
+   ------------------------------------------------------------ */
+.contact-info-section {
+  padding: 48px 0 64px;
+  background: #ffffff;
+}
+
+.contact-section-header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 44px;
+}
+
+.contact-section-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #137CEF;
+  margin-bottom: 8px;
+}
+
+.contact-section-title {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 34px;
+  color: #1a1f5c;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.contact-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.contact-info-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+  box-shadow: 0 4px 18px rgba(26, 31, 92, 0.03);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-info-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #137CEF;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 36px rgba(26, 31, 92, 0.08);
+  border-color: #cbd5e1;
+}
+
+.contact-info-card:hover::before {
+  opacity: 1;
+}
+
+/* Card Accent variations */
+.contact-info-card.card-emergency::before {
+  background: #137CEF;
+}
+
+.contact-info-card.card-schedule::before {
+  background: #6B4A98;
+}
+
+.contact-info-card.card-hours::before {
+  background: #6B4A98;
+}
+
+.contact-card-icon-wrap {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: #f0f7fd;
+  color: #137CEF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  transition: transform 0.3s ease;
+}
+
+.contact-info-card:hover .contact-card-icon-wrap {
+  transform: scale(1.08);
+}
+
+.contact-card-icon-wrap.emergency-icon {
+  background: #f0f7fd;
+  color: #137CEF;
+}
+
+.contact-card-icon-wrap.schedule-icon {
+  background: #f5f0fb;
+  color: #6B4A98;
+}
+
+.contact-card-icon-wrap.hours-icon {
+  background: #f5f0fb;
+  color: #6B4A98;
+}
+
+.contact-card-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1f5c;
+  margin: 0 0 12px;
+  letter-spacing: -0.2px;
+}
+
+.contact-card-content {
+  flex-grow: 1;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+.contact-card-phone-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-card-phone-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-card-phone-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15.5px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  padding: 8px 12px;
+  margin-left: -8px;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.contact-card-phone-link:hover {
+  background: #f0f7fd;
+  color: #137CEF;
+}
+
+.contact-card-phone-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.contact-card-btn-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 12px 22px;
+  background: #137CEF;
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 14px rgba(19, 124, 239, 0.25);
+  cursor: pointer;
+  border: none;
+}
+
+.contact-card-btn-link:hover {
+  background: #0d69d5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(19, 124, 239, 0.35);
+}
+
+.contact-card-btn-link.purple-btn {
+  background: #6B4A98;
+  box-shadow: 0 4px 14px rgba(107, 74, 152, 0.25);
+}
+
+.contact-card-btn-link.purple-btn:hover {
+  background: #55377d;
+  box-shadow: 0 6px 18px rgba(107, 74, 152, 0.35);
+}
+
+/* ------------------------------------------------------------
+   SPLIT SECTION: APPOINTMENT FORM & LOCATION MAP
+   ------------------------------------------------------------ */
+.contact-main-grid-section {
+  padding: 32px 0 80px;
+  background: #f8fafc;
+  border-top: 1px solid #eef2f6;
+  border-bottom: 1px solid #eef2f6;
+}
+
+.contact-split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: stretch;
+}
+
+/* ------------------------------------------------------------
+   BOOK AN APPOINTMENT FORM CARD
+   ------------------------------------------------------------ */
+.contact-appointment-card {
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 44px 40px;
+  box-shadow: 0 10px 36px rgba(26, 31, 92, 0.05);
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form-header {
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.contact-form-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: rgba(19, 124, 239, 0.1);
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #137CEF;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+
+.contact-form-title {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 32px;
+  color: #1a1f5c;
+  margin: 0 0 6px;
+  letter-spacing: -0.3px;
+}
+
+.contact-form-subtitle {
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.contact-field-group {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.contact-field-label {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-field-label-req {
+  color: #d93535;
+  font-size: 14px;
+}
+
+.contact-input,
+.contact-select {
+  width: 100%;
+  padding: 13px 18px;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 50px;
+  font-size: 14.5px;
+  font-family: inherit;
+  color: #1e293b;
+  transition: all 0.25s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.contact-input::placeholder {
+  color: #94a3b8;
+  font-size: 14.5px;
+}
+
+.contact-input:focus,
+.contact-select:focus {
+  background: #ffffff;
+  border-color: #137CEF;
+  box-shadow: 0 0 0 4px rgba(19, 124, 239, 0.12);
+}
+
+.contact-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23475569' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+  padding-right: 42px;
+  cursor: pointer;
+}
+
+.contact-input[type="date"] {
+  cursor: pointer;
+}
+
+.contact-input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: opacity(0.6);
+}
+
+.contact-form-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-submit-btn {
+  width: 100%;
+  max-width: 260px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #137CEF 0%, #2294D3 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(19, 124, 239, 0.28);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.contact-submit-btn:hover {
+  background: linear-gradient(135deg, #0d69d5 0%, #1a7fc0 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 26px rgba(19, 124, 239, 0.38);
+}
+
+.contact-submit-btn:active {
+  transform: translateY(0);
+}
+
+.contact-form-secure-note {
+  font-size: 12.5px;
+  color: #64748b;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-form-success {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.contact-form-success-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #22c55e;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact-form-success-text strong {
+  display: block;
+  font-size: 15px;
+  color: #166534;
+  margin-bottom: 4px;
+}
+
+.contact-form-success-text p {
+  margin: 0;
+  font-size: 13.5px;
+  color: #15803d;
+  line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ------------------------------------------------------------
+   MAP & LOCATION INTEGRATION SECTION
+   ------------------------------------------------------------ */
+.contact-map-card {
+  background: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #e2e8f0;
+  overflow: hidden;
+  box-shadow: 0 10px 36px rgba(26, 31, 92, 0.05);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contact-map-frame-wrapper {
+  position: relative;
+  flex: 1 1 0%;
+  width: 100%;
+  height: 100%;
+  min-height: 480px;
+  background: #f1f5f9;
+}
+
+.contact-map-frame-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* ------------------------------------------------------------
+   EMERGENCY HIGHLIGHT STRIP
+   ------------------------------------------------------------ */
+.contact-emergency-strip {
+  margin: 48px 0 0;
+  background: linear-gradient(135deg, #1a1f5c 0%, #0e1240 100%);
+  border-radius: 24px;
+  padding: 36px 44px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  box-shadow: 0 12px 36px rgba(26, 31, 92, 0.15);
+}
+
+.contact-emergency-strip-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-emergency-strip-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.contact-emergency-strip-text h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: #ffffff;
+}
+
+.contact-emergency-strip-text p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.contact-emergency-strip-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.contact-emergency-strip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.contact-emergency-strip-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.contact-emergency-strip-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 24px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.contact-emergency-strip-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ------------------------------------------------------------
+   RESPONSIVE DESIGN BREAKPOINTS
+   ------------------------------------------------------------ */
+@media (max-width: 1200px) {
+  .contact-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .contact-hero-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contact-hero-card {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .contact-hero-image-layer {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    order: -1;
+  }
+
+  .contact-hero-image-wrapper {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 35%);
+    mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 35%);
+  }
+
+  .contact-hero-content {
+    width: 100%;
+    padding: 40px 32px 32px;
+  }
+
+  .contact-split-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .contact-map-frame-wrapper {
+    min-height: 420px;
+    height: 420px;
+  }
+
+  .contact-emergency-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+  }
+
+  .contact-emergency-strip-right {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 0 20px;
+  }
+
+  .contact-hero-wrap {
+    padding: 0 16px;
+  }
+
+  .contact-hero-card {
+    border-radius: 24px;
+  }
+
+  .contact-hero-content {
+    padding: 32px 24px 28px;
+  }
+
+  .contact-hero-title {
+    font-size: 30px;
+  }
+
+  .contact-hero-desc {
+    font-size: 15px;
+    margin-bottom: 22px;
+  }
+
+  .contact-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .contact-appointment-card {
+    padding: 32px 24px;
+    border-radius: 22px;
+  }
+
+  .contact-map-card {
+    border-radius: 22px;
+  }
+
+  .contact-form-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .contact-submit-btn {
+    max-width: 100%;
+  }
+
+  .contact-map-header {
+    padding: 24px;
+  }
+
+  .contact-map-header-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .contact-emergency-strip {
+    padding: 28px 22px;
+    border-radius: 20px;
+  }
+
+  .contact-emergency-strip-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .contact-emergency-strip-right {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-emergency-strip-btn,
+  .contact-emergency-strip-btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-hero-title {
+    font-size: 26px;
+  }
+
+  .contact-section-title {
+    font-size: 26px;
+  }
+
+  .contact-hero-image-layer {
+    height: 240px;
+  }
+
+  .contact-info-card {
+    padding: 24px 20px;
+  }
+}

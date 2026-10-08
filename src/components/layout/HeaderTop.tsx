@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { siteConfig } from "@/lib/site";
+import type { Route } from "next";
 
 export default function HeaderTop() {
   return (
@@ -35,6 +35,7 @@ export default function HeaderTop() {
                 <div className="nav-dropdown-menu">
                   <Link href="/about">About Us</Link>
                   <Link href="/leadership-team">Leadership Team</Link>
+                  <Link href="/careers">Careers</Link>
                 </div>
               </div>{" "}
               <div className="nav-dropdown">
@@ -50,12 +51,12 @@ export default function HeaderTop() {
                   <Link href="/blog">Press Releases</Link> */}
                 </div>
               </div>{" "}
-              <a href={`mailto:${siteConfig.contact.email}`}>Contact Us</a>{" "}
+              <Link href={"/contact-us" as Route}>Contact Us</Link>{" "}
             </nav>{" "}
-            <a href="tel:+919644496444" className="btn btn-primary header-cta"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <Link href={"/book-an-appointment" as Route} className="btn btn-primary header-cta"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <rect x="3" y="4" width="18" height="18" rx="2" />
   <path d="M16 2v4M8 2v4M3 10h18" />
-</svg> Book An Appointment </a>{" "}
+</svg> Book An Appointment </Link>{" "}
           </div>{" "}
         </div>{" "}
       </div>{" "}
