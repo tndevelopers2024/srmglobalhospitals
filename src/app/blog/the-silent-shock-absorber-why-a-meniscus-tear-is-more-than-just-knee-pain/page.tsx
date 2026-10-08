@@ -113,28 +113,7 @@ export default function MeniscusTearArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you",
-            image: "/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/hero.jpeg",
-            category: "Cardiology",
-            title: "Right side chest pain: what your symptoms could be telling you",
-          },
-          {
-            href: "/blog/power-your-comeback-through-sports-rehabilitation",
-            image: "/images/blog/power-your-comeback-through-sports-rehabilitation/hero.jpeg",
-            category: "Orthopaedics",
-            title: "Power your comeback through sports rehabilitation",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

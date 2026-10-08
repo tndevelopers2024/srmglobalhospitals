@@ -95,19 +95,19 @@ export default function HistoplasmosisArticle() {
           relatedReading={[
             {
               href: "/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality",
-              image: "/images/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality.jpeg",
+              image: "/images/blog/tuberculosis-treatment-how-it-turns-out-to-be-life-saving-reality/hero.jpeg",
               title: "Tuberculosis treatment: how it turns out to be life-saving reality",
               meta: "14 min · Pulmonology",
             },
             {
               href: "/blog/pulmonary-rehabilitation-for-effective-respiratory-health",
-              image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health.jpeg",
+              image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/hero.webp",
               title: "Pulmonary Rehabilitation for Effective Respiratory Health",
               meta: "6 min · Pulmonology",
             },
             {
               href: "/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game",
-              image: "/images/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game.png",
+              image: "/images/blog/why-sarcoidosis-treatment-is-no-longer-a-guessing-game/hero.jpeg",
               title: "Why sarcoidosis treatment is no longer a guessing game",
               meta: "9 min · Pulmonology",
             },
@@ -115,28 +115,7 @@ export default function HistoplasmosisArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/articles/ms-hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/articles/chest-pain-hero.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/expert-diabetic-foot-care-to-keep-you-moving",
-            image: "/images/blog/articles/diabetic-foot-hero.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

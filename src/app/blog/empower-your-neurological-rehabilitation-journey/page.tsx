@@ -107,22 +107,7 @@ export default function NeuroRehabArticle() {
                 />
             </div>
             <EndCta />
-            <MoreArticles
-                items={[
-                    {
-                        href: "/blog/expert-physiotherapy-for-geriatric-rehabilitation",
-                        image: "/images/blog/expert-physiotherapy-for-geriatric-rehabilitation/hero.webp",
-                        category: "Orthopaedics",
-                        title: "Expert Physiotherapy for Geriatric Rehabilitation",
-                    },
-                    {
-                        href: "/blog/pulmonary-rehabilitation-for-effective-respiratory-health",
-                        image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/hero.webp",
-                        category: "Pulmonology",
-                        title: "Pulmonary Rehabilitation for Effective Respiratory Health",
-                    },
-                ]}
-            />
+            <MoreArticles currentSlug={article.path} category={article.section} />
             <MobileActionBar />
             <SiteFooter />
             <BlogInteractions />

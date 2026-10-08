@@ -114,28 +114,7 @@ export default function WomensHealthWhiteDischargeDirectArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
-            image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
-            category: "Neurology",
-            title: "Recovery after stroke: the steps forward for functional independence",
-          },
-          {
-            href: "/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery",
-            image: "/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/hero.jpeg",
-            category: "Women's Health",
-            title: "Cervical stitch pregnancy: strengthening the mothers for a safer delivery",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

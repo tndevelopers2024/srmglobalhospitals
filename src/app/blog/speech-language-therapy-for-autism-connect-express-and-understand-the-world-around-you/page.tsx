@@ -114,28 +114,7 @@ export default function SpeechLanguageTherapyAutismArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-            image: "/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/hero.jpeg",
-            category: "Neurology",
-            title: "Types of Cerebral Palsy: What It Means for Your Child?",
-          },
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
-          },
-          {
-            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
-            category: "Cardiology",
-            title: "Chest Pain Due to Gas: When is It Harmless? When You Should Worry?",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

@@ -110,16 +110,7 @@ export default function PulmonaryRehabArticle() {
                 />
             </div>
             <EndCta />
-            <MoreArticles
-                items={[
-                    {
-                        href: "/blog/empowering-independence-advanced-assistive-device-technology",
-                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
-                        category: "Orthopaedics",
-                        title: "Empowering Independence: Advanced Assistive Device Technology",
-                    },
-                ]}
-            />
+            <MoreArticles currentSlug={article.path} category={article.section} />
             <MobileActionBar />
             <SiteFooter />
             <BlogInteractions />

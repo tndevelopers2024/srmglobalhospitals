@@ -701,7 +701,7 @@ export const blogPosts: BlogPost[] = [
     slug: "understanding-acl-tear-symptoms-treatment-and-recovery-options",
     title: "Understanding ACL Tear: Symptoms, Treatment, and Recovery Options",
     href: "/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options",
-    image: "/images/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options/hero.jpeg",
+    image: "/images/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options/hero.png",
     specialty: "Orthopaedics",
     readMinutes: 15,
     date: "2027-08-11",
@@ -793,8 +793,8 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights",
     image: "/images/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights/hero.png",
     specialty: "Cardiology",
-    readMinutes: 6,
-    date: "2025-07-30",
+    readMinutes: 13,
+    date: "2027-11-10",
   },
   {
     slug: "essential-guide-to-the-anomaly-scan-what-to-expect-and-understand",
@@ -802,8 +802,8 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand",
     image: "/images/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand/hero.png",
     specialty: "Women's Health",
-    readMinutes: 6,
-    date: "2025-07-25",
+    readMinutes: 11,
+    date: "2027-11-03",
   },
   {
     slug: "intermittent-fasting-and-heart-disease-risks-and-considerations-explained",
@@ -811,26 +811,26 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/intermittent-fasting-and-heart-disease-risks-and-considerations-explained",
     image: "/images/blog/intermittent-fasting-and-heart-disease-risks-and-considerations-explained/hero.png",
     specialty: "Cardiology",
-    readMinutes: 5,
-    date: "2025-07-24",
+    readMinutes: 15,
+    date: "2027-10-27",
   },
   {
     slug: "effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions",
-    title: "Effective L5 S1 Disc Bulge Treatment: Symptoms, Causes, and Solutions",
+    title: "Effective L5-S1 Disc Bulge Treatment: Symptoms, Causes, and Solutions",
     href: "/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions",
     image: "/images/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 9,
-    date: "2025-07-24",
+    readMinutes: 15,
+    date: "2028-01-12",
   },
   {
     slug: "relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
-    title: "Relief Strategies for L4 L5 Disc Bulge: Effective Care Options",
+    title: "Relief Strategies for L4-L5 Disc Bulge: Effective Care Options",
     href: "/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
     image: "/images/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 6,
-    date: "2025-07-23",
+    readMinutes: 17,
+    date: "2028-01-05",
   },
   {
     slug: "effective-tail-bone-pain-treatment-options-for-relief-and-recovery",
@@ -989,3 +989,132 @@ export const specialtyCounts: Record<string, number> = blogPosts.reduce<Record<s
   },
   {},
 );
+
+export type MoreArticleItem = {
+  href: string;
+  image: string;
+  category: string;
+  title: string;
+};
+
+/**
+ * Returns 3 distinct related articles for the "You might also like" section,
+ * avoiding the current post and picking relevant, non-duplicate articles
+ * with verified images.
+ */
+export function getRelatedArticles(
+  currentSlugOrPath: string,
+  specialty?: string,
+  count = 3,
+): MoreArticleItem[] {
+  const normalizedCurrent = currentSlugOrPath
+    .replace(/^\/blog\//, "")
+    .replace(/^\//, "")
+    .replace(/\/$/, "")
+    .toLowerCase();
+
+  const valid = blogPosts.filter(
+    (p): p is BlogPost & { image: string } => {
+      if (typeof p.image !== "string" || !p.image) return false;
+      const s = p.slug.toLowerCase();
+      const h = p.href.replace(/^\/blog\//, "").replace(/^\//, "").replace(/\/$/, "").toLowerCase();
+      return s !== normalizedCurrent && h !== normalizedCurrent;
+    },
+  );
+
+  if (valid.length === 0) return [];
+
+  const sameSpecialty = specialty
+    ? valid.filter((p) => p.specialty.toLowerCase() === specialty.toLowerCase())
+    : [];
+  const otherSpecialty = specialty
+    ? valid.filter((p) => p.specialty.toLowerCase() !== specialty.toLowerCase())
+    : valid;
+
+  let hash = 0;
+  for (let i = 0; i < normalizedCurrent.length; i++) {
+    hash = (hash * 31 + normalizedCurrent.charCodeAt(i)) >>> 0;
+  }
+
+  const selected: MoreArticleItem[] = [];
+  const pickedHrefs = new Set<string>();
+  const pickedSpecialties = new Set<string>();
+  if (specialty) {
+    pickedSpecialties.add(specialty.toLowerCase());
+  }
+
+  // 1 card from the current department / specialty (if available)
+  if (sameSpecialty.length > 0) {
+    const startIdx = Math.abs(hash) % sameSpecialty.length;
+    for (let i = 0; i < sameSpecialty.length; i++) {
+      const post = sameSpecialty[(startIdx + i) % sameSpecialty.length];
+      if (post && !pickedHrefs.has(post.href)) {
+        pickedHrefs.add(post.href);
+        selected.push({
+          href: post.href,
+          image: post.image,
+          category: post.specialty,
+          title: post.title,
+        });
+        break;
+      }
+    }
+  }
+
+  // Remaining cards (up to count) from other departments
+  // Pass 1: Prioritize distinct other departments
+  if (otherSpecialty.length > 0 && selected.length < count) {
+    const startIdx = Math.abs(hash >>> 3) % otherSpecialty.length;
+    for (let i = 0; i < otherSpecialty.length && selected.length < count; i++) {
+      const post = otherSpecialty[(startIdx + i) % otherSpecialty.length];
+      if (post) {
+        const pSpec = post.specialty.toLowerCase();
+        if (!pickedHrefs.has(post.href) && !pickedSpecialties.has(pSpec)) {
+          pickedHrefs.add(post.href);
+          pickedSpecialties.add(pSpec);
+          selected.push({
+            href: post.href,
+            image: post.image,
+            category: post.specialty,
+            title: post.title,
+          });
+        }
+      }
+    }
+  }
+
+  // Pass 2: If still need cards, pick any from other departments
+  if (otherSpecialty.length > 0 && selected.length < count) {
+    const startIdx = Math.abs(hash >>> 5) % otherSpecialty.length;
+    for (let i = 0; i < otherSpecialty.length && selected.length < count; i++) {
+      const post = otherSpecialty[(startIdx + i) % otherSpecialty.length];
+      if (post && !pickedHrefs.has(post.href)) {
+        pickedHrefs.add(post.href);
+        selected.push({
+          href: post.href,
+          image: post.image,
+          category: post.specialty,
+          title: post.title,
+        });
+      }
+    }
+  }
+
+  // Pass 3: Fallback to same specialty if other departments exhausted (edge case)
+  if (selected.length < count && sameSpecialty.length > 0) {
+    for (const post of sameSpecialty) {
+      if (post && !pickedHrefs.has(post.href)) {
+        pickedHrefs.add(post.href);
+        selected.push({
+          href: post.href,
+          image: post.image,
+          category: post.specialty,
+          title: post.title,
+        });
+      }
+      if (selected.length >= count) break;
+    }
+  }
+
+  return selected;
+}

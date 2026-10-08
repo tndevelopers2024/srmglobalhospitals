@@ -108,22 +108,7 @@ export default function GeriatricPhysiotherapyArticle() {
                 />
             </div>
             <EndCta />
-            <MoreArticles
-                items={[
-                    {
-                        href: "/blog/empowering-independence-advanced-assistive-device-technology",
-                        image: "/images/blog/empowering-independence-advanced-assistive-device-technology/hero.jpeg",
-                        category: "Orthopaedics",
-                        title: "Empowering Independence: Advanced Assistive Device Technology",
-                    },
-                    {
-                        href: "/blog/pulmonary-rehabilitation-for-effective-respiratory-health",
-                        image: "/images/blog/pulmonary-rehabilitation-for-effective-respiratory-health/hero.webp",
-                        category: "Pulmonology",
-                        title: "Pulmonary Rehabilitation for Effective Respiratory Health",
-                    },
-                ]}
-            />
+            <MoreArticles currentSlug={article.path} category={article.section} />
             <MobileActionBar />
             <SiteFooter />
             <BlogInteractions />

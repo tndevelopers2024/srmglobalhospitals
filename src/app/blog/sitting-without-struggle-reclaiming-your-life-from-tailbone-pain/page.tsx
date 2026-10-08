@@ -113,28 +113,7 @@ export default function TailbonePainArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain",
-            image: "/images/blog/prp-injection-knee-therapy-an-effective-non-surgical-way-to-manage-knee-pain/hero.jpeg",
-            category: "Orthopaedics",
-            title: "PRP injection knee therapy: an effective non-surgical way to manage knee pain",
-          },
-          {
-            href: "/blog/power-your-comeback-through-sports-rehabilitation",
-            image: "/images/blog/power-your-comeback-through-sports-rehabilitation/hero.jpeg",
-            category: "Orthopaedics",
-            title: "Power your comeback through sports rehabilitation",
-          },
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

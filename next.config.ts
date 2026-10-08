@@ -180,6 +180,31 @@ const nextConfig: NextConfig = {
         destination: "/blog/heart-stent-operation-a-comprehensive-overview-of-the-procedure",
         permanent: true,
       },
+      {
+        source: "/understanding-carotid-endarterectomy-benefits-and-recovery-insights",
+        destination: "/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights",
+        permanent: true,
+      },
+      {
+        source: "/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand",
+        destination: "/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand",
+        permanent: true,
+      },
+      {
+        source: "/intermittent-fasting-and-heart-disease-risks-and-considerations-explained",
+        destination: "/blog/intermittent-fasting-and-heart-disease-risks-and-considerations-explained",
+        permanent: true,
+      },
+      {
+        source: "/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions",
+        destination: "/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions",
+        permanent: true,
+      },
+      {
+        source: "/relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
+        destination: "/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
+        permanent: true,
+      },
     ];
   },
 };

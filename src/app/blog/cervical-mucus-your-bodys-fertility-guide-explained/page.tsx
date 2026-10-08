@@ -116,28 +116,7 @@ export default function CervicalMucusArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/chest-pain-at-40-when-is-it-your-heart-and-when-is-it-not",
-            image: "/images/blog/chest-pain-at-40-when-is-it-your-heart-and-when-is-it-not.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/your-hba1c-stopped-falling-here-is-what-your-doctor-checks-next",
-            image: "/images/blog/your-hba1c-stopped-falling-here-is-what-your-doctor-checks-next.jpeg",
-            category: "Diabetes",
-            title: "Your HbA1c stopped falling. Here is what your doctor checks next.",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

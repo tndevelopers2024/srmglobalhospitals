@@ -116,28 +116,7 @@ export default function CervicalStitchPregnancyArticle() {
         />
       </div>
       <EndCta />
-      <MoreArticles
-        items={[
-          {
-            href: "/blog/multiple-sclerosis-expert-care",
-            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
-            category: "Neurology",
-            title: "Multiple sclerosis: what expert care at the right time can actually do",
-          },
-          {
-            href: "/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry",
-            image: "/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/hero.jpeg",
-            category: "Cardiology",
-            title: "Chest pain at 40: When is it your heart, and when is it not?",
-          },
-          {
-            href: "/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not",
-            image: "/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/hero.jpeg",
-            category: "Women's Health",
-            title: "White discharge during pregnancy: what's normal and what's not",
-          },
-        ]}
-      />
+      <MoreArticles currentSlug={article.path} category={article.section} />
       <MobileActionBar />
       <SiteFooter />
       <BlogInteractions />

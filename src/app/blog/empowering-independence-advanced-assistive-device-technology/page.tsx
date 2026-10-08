@@ -116,28 +116,7 @@ export default function AssistiveTechnologyArticle() {
                 />
             </div>
             <EndCta />
-            <MoreArticles
-                items={[
-                    {
-                        href: "/blog/personalised-orthopedic-rehabilitation-for-faster-recovery",
-                        image: "/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/hero.webp",
-                        category: "Orthopaedics",
-                        title: "Personalised Orthopedic Rehabilitation for Faster Recovery",
-                    },
-                    {
-                        href: "/blog/pediatric-rehabilitation-focused-on-your-children",
-                        image: "/images/blog/pediatric-rehabilitation-focused-on-your-children/hero.jpeg",
-                        category: "Paediatrics",
-                        title: "Pediatric Rehabilitation Focused on Your Children",
-                    },
-                    {
-                        href: "/blog/restoring-hope-through-professional-gait-training",
-                        image: "/images/blog/restoring-hope-through-professional-gait-training/hero.jpeg",
-                        category: "Neurology",
-                        title: "Restoring Hope Through Professional Gait Training",
-                    },
-                ]}
-            />
+            <MoreArticles currentSlug={article.path} category={article.section} />
             <MobileActionBar />
             <SiteFooter />
             <BlogInteractions />
