@@ -1,6 +1,6 @@
 export default function PatientStory() {
   return (
-    <section className="section-mist reveal">
+    <section id="stories" className="section-mist reveal">
       <div className="container">
         <div className="story-grid">
           <div className="story-image">

@@ -13,7 +13,7 @@ export default function MediaGrid2024() {
         <div style={{ display: "inline-block", background: "#f3eff8", borderRadius: "8px", padding: "6px 16px", fontFamily: "Poppins, sans-serif", fontSize: "13px", fontWeight: 600, color: "#6B4A98", marginBottom: "20px" }}>November</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "20px" }}>
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2022/12/cropped-srm-logo-e1671606576886-300x300.png"
+            imageSrc="/images/in-the-media/cropped-srm-logo.jpg"
             imageAlt="Dr UP Srinivasan"
             source="ETV Bharat"
             sourceColor="blue"
@@ -22,7 +22,7 @@ export default function MediaGrid2024() {
             linkText="Watch on YouTube →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/11/Segment-on-causes-of-body-shivering.jpeg"
+            imageSrc="/images/in-the-media/Segment-on-causes-of-body-shivering.jpg"
             imageAlt="Body shivering segment"
             source="Thanthi TV"
             sourceColor="blue"
@@ -31,7 +31,7 @@ export default function MediaGrid2024() {
             linkText="Watch on YouTube →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/11/Report-on-gym-owners-death-investigation-with-medical-opinion-300x169.jpg"
+            imageSrc="/images/in-the-media/report-on-gym-owners-death-investigation-with-medical-opinion.jpg"
             imageAlt="Gym owner investigation"
             source="ETV Bharat"
             sourceColor="blue"
@@ -40,7 +40,7 @@ export default function MediaGrid2024() {
             linkText="Read on ETV Bharat →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/11/Expert-tips-on-managing-depression-naturally-300x168.jpg"
+            imageSrc="/images/in-the-media/expert-tips-on-managing-depression-naturally.jpg"
             imageAlt="Depression tips"
             source="Money Control"
             sourceColor="purple"
@@ -49,7 +49,7 @@ export default function MediaGrid2024() {
             linkText="Read on MoneyControl →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/11/Dr.-Muralidharan-on-pacemaker-awareness-300x160.png"
+            imageSrc="/images/in-the-media/dr.-muralidharan-on-pacemaker-awareness.jpg"
             imageAlt="Pacemaker awareness"
             source="Multiple"
             sourceColor="blue"
@@ -58,7 +58,7 @@ export default function MediaGrid2024() {
             linkText="Watch coverage →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/11/Expert-comments-on-rat-poison-inhalation-deaths-300x169.jpg"
+            imageSrc="/images/in-the-media/expert-comments-on-rat-poison-inhalation-deaths.jpg"
             imageAlt="Rat poison inhalation"
             source="ETV Bharat"
             sourceColor="blue"
@@ -74,7 +74,7 @@ export default function MediaGrid2024() {
         <div style={{ display: "inline-block", background: "#e8f4fc", borderRadius: "8px", padding: "6px 16px", fontFamily: "Poppins, sans-serif", fontSize: "13px", fontWeight: 600, color: "#2294D3", marginBottom: "20px" }}>October</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "20px" }}>
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/10/Interview-on-childrens-health-in-monsoon.jpeg"
+            imageSrc="/images/in-the-media/monsoon-health-precautions.jpg"
             imageAlt="Monsoon health"
             source="Multiple"
             sourceColor="purple"
@@ -83,7 +83,7 @@ export default function MediaGrid2024() {
             linkText="Watch coverage →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2024/10/Heart-health-awareness-for-youth-300x169.webp"
+            imageSrc="/images/in-the-media/heart-health-awareness-for-youth.jpg"
             imageAlt="Heart health youth"
             source="Happiest Health"
             sourceColor="purple"
