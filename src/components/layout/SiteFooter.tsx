@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import type { Route } from "next";
 import { siteConfig } from "@/lib/site";
 
 export default function SiteFooter() {
@@ -189,7 +190,7 @@ export default function SiteFooter() {
             <h4>Patients &amp; Visitors</h4>{" "}
             <ul>
               <li>
-                <a href="tel:+919644496444">Book an Appointment</a>
+                <Link href={"/book-an-appointment" as Route}>Book an Appointment</Link>
               </li>{" "}
               <li>
                 <Link href="/#insurance">Insurance &amp; Cashless</Link>
@@ -221,7 +222,7 @@ export default function SiteFooter() {
                 <Link href="/#quality">Quality &amp; Accreditation</Link>
               </li>{" "}
               <li>
-                <Link href="/#careers">Careers</Link>
+                <Link href="/careers">Careers</Link>
               </li>{" "}
               <li>
                 <Link href="/blog">Newsroom</Link>
@@ -230,7 +231,7 @@ export default function SiteFooter() {
                 <Link href="/blog">Insights Blog</Link>
               </li>{" "}
               <li>
-                <a href={`mailto:${siteConfig.contact.email}`}>Contact Us</a>
+                <Link href={"/contact-us" as Route}>Contact Us</Link>
               </li>{" "}
             </ul>{" "}
           </div>{" "}
