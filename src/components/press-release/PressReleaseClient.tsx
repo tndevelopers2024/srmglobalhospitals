@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { PRESS_RELEASES, type PressReleaseItem } from "@/lib/press-releases-data";
 
 export default function PressReleaseClient() {
@@ -16,44 +17,79 @@ export default function PressReleaseClient() {
   return (
     <div>
       {/* Hero */}
-      <section style={{ background: "linear-gradient(135deg, #1a1a2e 0%, #2a2048 60%, #1a3050 100%)" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "80px 24px 60px", textAlign: "center" }}>
+      <section style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
+        <img
+          src="/images/press-releases/press-release-hero.jpg"
+          alt="SRM Global Hospitals Press Releases"
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            objectPosition: "center 30%",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            background:
+              "linear-gradient(135deg, rgba(20, 9, 43, 0.84) 0%, rgba(35, 19, 74, 0.78) 55%, rgba(13, 27, 58, 0.84) 100%)",
+          }}
+        />
+        <div
+          style={{
+            position: "relative",
+            zIndex: 1,
+            maxWidth: "1200px",
+            margin: "0 auto",
+            padding: "80px 40px 60px",
+            textAlign: "center",
+          }}
+        >
           <div
             style={{
-              display: "inline-block",
-              background: "rgba(107, 74, 152, 0.25)",
-              border: "1px solid rgba(196, 168, 232, 0.35)",
-              borderRadius: "100px",
-              padding: "6px 20px",
-              fontSize: "12px",
-              fontWeight: 600,
-              color: "#c4a8e8",
-              letterSpacing: "1.5px",
-              textTransform: "uppercase",
-              marginBottom: "20px",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "8px",
+              fontFamily: "Inter, sans-serif",
+              fontSize: "13px",
+              color: "rgba(255, 255, 255, 0.7)",
+              marginBottom: "24px",
+              flexWrap: "wrap",
             }}
           >
-            Official Announcements
+            <Link href="/" style={{ color: "rgba(255, 255, 255, 0.7)", textDecoration: "none" }}>
+              Home
+            </Link>
+            <span style={{ opacity: 0.5 }}>&rsaquo;</span>
+            <span style={{ color: "rgba(255, 255, 255, 0.95)" }}>Press Releases</span>
           </div>
           <h1
             style={{
-              fontFamily: "'Source Serif 4', Georgia, serif",
-              fontSize: "clamp(32px, 5vw, 48px)",
+              fontFamily: "'Source Serif 4', serif",
+              fontSize: "48px",
               lineHeight: 1.15,
-              color: "#ffffff",
+              color: "#fff",
               margin: "0 0 16px",
               fontWeight: 700,
+              textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
             }}
           >
             Press Releases
           </h1>
           <p
             style={{
+              fontFamily: "Inter, sans-serif",
               fontSize: "16px",
               lineHeight: 1.7,
-              color: "rgba(255, 255, 255, 0.7)",
+              color: "rgba(255, 255, 255, 0.85)",
               margin: "0 auto",
-              maxWidth: "580px",
+              maxWidth: "600px",
+              textShadow: "0 1px 4px rgba(0, 0, 0, 0.3)",
             }}
           >
             Official statements, medical breakthroughs, clinical milestones, and healthcare announcements from SRM Global Hospitals.

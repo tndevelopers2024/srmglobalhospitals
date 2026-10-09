@@ -31,7 +31,7 @@ export default function CareersHero({ onExploreClick }: CareersHeroProps) {
 
             <div className="careers-hero-actions">
               <a
-                href="#openings"
+                href="#career-pathways"
                 onClick={(e) => {
                   if (onExploreClick) {
                     e.preventDefault();

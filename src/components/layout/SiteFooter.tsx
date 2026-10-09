@@ -225,6 +225,12 @@ export default function SiteFooter() {
                 <Link href="/careers">Careers</Link>
               </li>{" "}
               <li>
+                <Link href={"/careers/doctors" as Route}>Doctor Careers</Link>
+              </li>{" "}
+              <li>
+                <Link href={"/careers/hospital-staff" as Route}>Staff Careers</Link>
+              </li>{" "}
+              <li>
                 <Link href="/blog">Newsroom</Link>
               </li>{" "}
               <li>

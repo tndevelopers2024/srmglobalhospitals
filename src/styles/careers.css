@@ -960,3 +960,18 @@
 .careers-modal-col-3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+/* ------------------------------------------------------------
+   CAREER PATHWAYS SECTION
+   ------------------------------------------------------------ */
+.careers-pathways-section {
+  padding: 10px 0 60px;
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .careers-pathways-section {
+    padding: 0 0 40px;
+  }
+}
+
