@@ -770,21 +770,43 @@ export const ALL_JOBS: JobItem[] = [
 ];
 
 interface CareersFilterAndJobsProps {
+  initialDept?: string;
   onApplyForJob: (job: JobItem) => void;
   onViewJobDetails?: (job: JobItem) => void;
   onGeneralApply: () => void;
 }
 
 export default function CareersFilterAndJobs({
+  initialDept,
   onApplyForJob,
   onViewJobDetails,
   onGeneralApply,
 }: CareersFilterAndJobsProps) {
   const [searchQuery, setSearchQuery] = useState("");
-  const [selectedDept, setSelectedDept] = useState("all");
+  const [selectedDept, setSelectedDept] = useState(initialDept || "all");
   const [selectedLocation, setSelectedLocation] = useState("all");
   const [selectedExp, setSelectedExp] = useState("all");
   const [visibleCount, setVisibleCount] = useState(5);
+
+  useEffect(() => {
+    if (initialDept) {
+      setSelectedDept(initialDept);
+      return;
+    }
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const dept = params.get("dept");
+      if (dept) {
+        if (dept === "doctor" || dept === "medical") {
+          setSelectedDept("medical");
+        } else if (dept === "staff") {
+          setSelectedDept("staff");
+        } else {
+          setSelectedDept(dept);
+        }
+      }
+    }
+  }, [initialDept]);
 
   // Cards display in compact header mode initially; details show only when clicked
   const [expandedJobIds, setExpandedJobIds] = useState<Set<string>>(new Set());
@@ -809,7 +831,9 @@ export default function CareersFilterAndJobs({
   const filteredJobs = useMemo(() => {
     return ALL_JOBS.filter((job) => {
       // Department filter
-      if (selectedDept !== "all" && job.category !== selectedDept) {
+      if (selectedDept === "staff") {
+        if (job.category === "medical") return false;
+      } else if (selectedDept !== "all" && job.category !== selectedDept) {
         return false;
       }
       // Location filter
@@ -915,6 +939,7 @@ export default function CareersFilterAndJobs({
               >
                 <option value="all">All Departments (14)</option>
                 <option value="medical">Doctors &amp; Clinical</option>
+                <option value="staff">Hospital &amp; Clinical Staff</option>
                 <option value="diagnostics">Diagnostics &amp; Imaging</option>
                 <option value="nursing">Nursing &amp; Critical Care</option>
                 <option value="operations">Hospital Operations &amp; Marketing</option>

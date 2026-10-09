@@ -741,6 +741,7 @@ section {
   text-decoration: none;
   transition: background 150ms var(--ease), color 150ms var(--ease);
   text-align: left;
+  white-space: nowrap;
 }
 
 .secondary-nav .nav-dropdown-menu a:hover {

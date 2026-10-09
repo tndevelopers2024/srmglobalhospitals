@@ -1,6 +1,6 @@
 export default function Insurance() {
   return (
-    <section className="insurance-section">
+    <section id="insurance" className="insurance-section">
       <div className="container">
         <div className="insurance-header">
           <span className="eyebrow">Insurance &amp; Corporate Services</span>{" "}

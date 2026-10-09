@@ -205,6 +205,11 @@ const nextConfig: NextConfig = {
         destination: "/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
         permanent: true,
       },
+      {
+        source: "/press-releases",
+        destination: "/press-release",
+        permanent: true,
+      },
     ];
   },
 };

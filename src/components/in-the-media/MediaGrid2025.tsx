@@ -13,7 +13,7 @@ export default function MediaGrid2025() {
         <div style={{ display: "inline-block", background: "#f3eff8", borderRadius: "8px", padding: "6px 16px", fontFamily: "Poppins, sans-serif", fontSize: "13px", fontWeight: 600, color: "#6B4A98", marginBottom: "20px" }}>May</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "20px" }}>
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/05/RJ-Munna-talks-with-Dr.-T.R.-Muralidharan.jpeg"
+            imageSrc="/images/in-the-media/rjJ-munna-talks-with-dr-muralidharan.jpg"
             imageAlt="RJ Munna with Dr Muralidharan"
             source="Radio City"
             sourceColor="blue"
@@ -22,7 +22,7 @@ export default function MediaGrid2025() {
             linkText="Watch on Facebook →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/05/Radio-City-RJ-Bharath-in-conversation-with-Dr.-V.-Sindhu.jpeg"
+            imageSrc="/images/in-the-media/radio-city-rj-bharath-in-conversation-with-dr-sindhu.jpg"
             imageAlt="RJ Bharath with Dr Sindhu"
             source="Radio City"
             sourceColor="blue"
@@ -31,7 +31,7 @@ export default function MediaGrid2025() {
             linkText="Watch on Facebook →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/05/Radio-City-RJ-Bharath-in-conversation-with-Dr.-P.-Priyatharshini.jpeg"
+            imageSrc="/images/in-the-media/radio-city-rj-bharath-in-conversation-with-dr-priyadharshini.jpg"
             imageAlt="RJ Bharath with Dr Priyatharshini"
             source="Radio City"
             sourceColor="blue"
@@ -40,7 +40,7 @@ export default function MediaGrid2025() {
             linkText="Watch on Facebook →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/05/RJ-Bharath-in-conversation-with-Dr.-Surya-Prakash-S-MBBS.-M.D.-General-Medicine-DNB-Consultant-–-Cardiology-from-SRM-Global-Hospitals.jpeg"
+            imageSrc="/images/in-the-media/rj-bharath-in-conversation-with-dr-surya-prakash.jpg"
             imageAlt="Dr Surya Prakash on Cardiology"
             source="Radio City"
             sourceColor="blue"
@@ -49,7 +49,7 @@ export default function MediaGrid2025() {
             linkText="Watch on Facebook →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/05/RJ-Bharath-in-conversation-with-Dr.-Hariprasad-S.jpeg"
+            imageSrc="/images/in-the-media/rj-bharath-in-conversation-with-dr-hariprasad.jpg"
             imageAlt="Dr Hariprasad on ENT"
             source="Radio City"
             sourceColor="blue"
@@ -65,7 +65,7 @@ export default function MediaGrid2025() {
         <div style={{ display: "inline-block", background: "#e8f4fc", borderRadius: "8px", padding: "6px 16px", fontFamily: "Poppins, sans-serif", fontSize: "13px", fontWeight: 600, color: "#2294D3", marginBottom: "20px" }}>March</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "20px" }}>
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/03/Celebrating-Womens-Health-with-Dr.-Subhashree-T-300x169.jpg"
+            imageSrc="/images/in-the-media/celebrating-womens-health-with-dr-subhashree.jpg"
             imageAlt="Dr Subhashree Womens Health"
             source="Radio City"
             sourceColor="purple"
@@ -74,7 +74,7 @@ export default function MediaGrid2025() {
             linkText="Watch on Facebook →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2025/03/Celebrating-Womens-Health-with-Dr.-Saswati-Tripathy.jpeg"
+            imageSrc="/images/in-the-media/celebrating-womens-health-with-dr-saswati-tripati.jpg"
             imageAlt="Dr Saswati Tripathy Womens Health"
             source="Radio City"
             sourceColor="purple"
@@ -83,7 +83,7 @@ export default function MediaGrid2025() {
             linkText="Watch on Instagram →"
           />
           <MediaCard 
-            imageSrc="https://srmglobalhospitals.com/wp-content/uploads/2026/07/Screenshot-2026-07-02-at-10.18.41 AM-295x300.png"
+            imageSrc="/images/in-the-media/coe.jpg"
             imageAlt="COE Article"
             source="Outlook"
             sourceColor="purple"

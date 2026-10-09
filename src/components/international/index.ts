@@ -1,0 +1,12 @@
+export { default as InternationalHero } from "./InternationalHero";
+export { default as WhyChooseUsSection } from "./WhyChooseUsSection";
+export { default as OurRoleSection } from "./OurRoleSection";
+export { default as ServicesSection } from "./ServicesSection";
+export { default as FacilitiesTechSection } from "./FacilitiesTechSection";
+export { default as SpecialtiesSection } from "./SpecialtiesSection";
+export { default as FinancialGuidanceSection } from "./FinancialGuidanceSection";
+export { default as PatientCareBeyondSection } from "./PatientCareBeyondSection";
+export { default as RecognitionExcellenceSection } from "./RecognitionExcellenceSection";
+export { default as WhyBestHospitalSection } from "./WhyBestHospitalSection";
+export { default as FaqSection } from "./FaqSection";
+export { default as InternationalDeskInquiry } from "./InternationalDeskInquiry";

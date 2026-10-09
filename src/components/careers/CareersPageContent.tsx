@@ -8,7 +8,11 @@ import CareersCultureTeam from "./CareersCultureTeam";
 import CareersRecruitmentCTA from "./CareersRecruitmentCTA";
 import CareersApplicationModal from "./CareersApplicationModal";
 
-export default function CareersPageContent() {
+export interface CareersPageContentProps {
+  initialDept?: string;
+}
+
+export default function CareersPageContent({ initialDept }: CareersPageContentProps = {}) {
   const [selectedJob, setSelectedJob] = useState<JobItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"apply" | "details">("apply");
@@ -48,6 +52,7 @@ export default function CareersPageContent() {
 
       {/* 2. Search, Filter, and Job Listings (All 10 Real Roles) */}
       <CareersFilterAndJobs
+        initialDept={initialDept}
         onApplyForJob={handleApplyForJob}
         onViewJobDetails={handleViewJobDetails}
         onGeneralApply={handleGeneralApply}

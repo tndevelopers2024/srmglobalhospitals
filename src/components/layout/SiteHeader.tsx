@@ -2,9 +2,9 @@
 
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import type { Route } from "next";
 import SpecialtiesMegaMenu from "./SpecialtiesMegaMenu";
 import ClinicalExcellenceDropdown from "./ClinicalExcellenceDropdown";
-import DoctorsDropdown from "./DoctorsDropdown";
 import { siteConfig } from "@/lib/site";
 
 interface SiteHeaderProps {
@@ -135,12 +135,13 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
               onMouseLeave={handleCoeMouseLeave}
             >
               <Link
-                href="/clinical-excellence"
+                href="#clinical-excellence"
                 className={`${activeNav === "coe" ? "active" : ""} ${isCoeOpen ? "dropdown-open" : ""}`}
                 aria-haspopup="true"
                 aria-expanded={isCoeOpen}
-                onClick={() => {
-                  setIsCoeOpen(false);
+                onClick={(e) => {
+                  e.preventDefault();
+                  setIsCoeOpen((prev) => !prev);
                 }}
               >
                 Clinical Excellence
@@ -169,7 +170,7 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
                 onClose={() => setIsDoctorsOpen(false)}
               /> */}
             </div>{" "}
-            <Link href="/#intl" className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
+            <Link href={"/international-patients" as Route} className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
             <Link href="/services" className={activeNav === "services" ? "active" : undefined}>Services</Link>{" "}
             <Link href="/blog" className={activeNav === "insights" ? "active" : undefined}>Health Information</Link>{" "}
           </nav>{" "}

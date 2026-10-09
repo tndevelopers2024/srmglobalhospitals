@@ -70,23 +70,21 @@ export const siteConfig = {
     emergencyPhone: "+919644496444",
     /** Human-readable form used in visible copy. */
     emergencyPhoneDisplay: "+91 96444 96444",
+    phone: "+918925856353",
+    phoneDisplay: "+91 8925856353",
     /** Primary general enquiries email address. */
     email: "info@srmglobalhospitals.com",
+    internationalEmail: "international@srmglobalhospitals.com",
   },
 
   /**
    * Postal address for structured data (schema.org PostalAddress).
-   *
-   * `streetAddress` and `postalCode` are intentionally blank — publishing a
-   * guessed address would put wrong information in Google's knowledge panel.
-   * Fill them in with the registered address and they flow into the JSON-LD
-   * automatically; empty fields are omitted rather than emitted as "".
    */
   address: {
-    streetAddress: "",
-    addressLocality: "Chengalpattu",
+    streetAddress: "Mahatma Gandhi Rd, Potheri, SRM Nagar",
+    addressLocality: "Kattankulathur, Chengalpattu",
     addressRegion: "Tamil Nadu",
-    postalCode: "",
+    postalCode: "603 203",
     addressCountry: "IN",
   },
 

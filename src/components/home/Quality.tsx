@@ -1,6 +1,6 @@
 export default function Quality() {
   return (
-    <section className="quality">
+    <section id="quality" className="quality">
       <div className="container">
         <div className="quality-inner">
           <div className="quality-head">
