@@ -82,7 +82,7 @@ export default function CareersCultureTeam() {
           {/* Left Column: Image of Indian Doctors, Nurses, and Therapists */}
           <div className="careers-culture-img-wrap">
             <Image
-              src="/images/careers/careers-collaboration.jpg"
+              src="/images/careers/careers-collaboration.avif"
               alt="Indian doctors, nurses and therapists collaborating in modern consultation workstation at SRM Global Hospitals"
               fill
               sizes="(max-width: 1100px) 100vw, 50vw"
