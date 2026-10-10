@@ -107,6 +107,9 @@
 .dot-paediatrics { background: #3b82f6 !important; }
 .dot-mental-health { background: #6366f1 !important; }
 .dot-pulmonology { background: #06b6d4 !important; }
+.dot-urology, .dot-Urology { background: #0ea5e9 !important; }
+.dot-dermatology, .dot-Dermatology { background: #d946ef !important; }
+.dot-emergency-medicine, .dot-Emergency-Medicine, .dot-emergency, .dot-Emergency { background: #dc2626 !important; }
 .cover-title { font-family: var(--font-display); font-size: clamp(30px, 4.5vw, 52px); font-weight: 700; line-height: 1.06; letter-spacing: -0.022em; color: var(--paper); }
 .cover-meta { display: flex; align-items: center; gap: 16px; margin-top: 24px; font-size: 13px; color: rgba(255,255,255,0.85); flex-wrap: wrap; }
 .cover-author { display: flex; align-items: center; gap: 10px; }

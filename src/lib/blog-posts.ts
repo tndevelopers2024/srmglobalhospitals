@@ -25,7 +25,10 @@ export type Specialty =
   | "Gastro"
   | "Women's Health"
   | "Paediatrics"
-  | "Pulmonology";
+  | "Pulmonology"
+  | "Urology"
+  | "Dermatology"
+  | "Emergency Medicine";
 
 /** Filter pill order and dot colours, both from the design reference. */
 export const SPECIALTIES: { name: Specialty; color: string }[] = [
@@ -37,6 +40,9 @@ export const SPECIALTIES: { name: Specialty; color: string }[] = [
   { name: "Women's Health", color: "#f43f5e" },
   { name: "Paediatrics", color: "#3b82f6" },
   { name: "Pulmonology", color: "#06b6d4" },
+  { name: "Urology", color: "#0ea5e9" },
+  { name: "Dermatology", color: "#d946ef" },
+  { name: "Emergency Medicine", color: "#dc2626" },
 ];
 
 const SPECIALTY_COLORS = new Map(SPECIALTIES.map((s) => [s.name, s.color]));
@@ -243,7 +249,7 @@ export const blogPosts: BlogPost[] = [
     title: "Restoring Hope Through Professional Gait Training",
     href: "/blog/restoring-hope-through-professional-gait-training",
     image: "/images/blog/restoring-hope-through-professional-gait-training/hero.jpeg",
-    specialty: "Neurology",
+    specialty: "Orthopaedics",
     readMinutes: 7,
     date: "2026-03-31",
   },
@@ -612,7 +618,7 @@ export const blogPosts: BlogPost[] = [
     title: "What is Interstitial Cystitis: Symptoms, Causes, and Treatments",
     href: "/blog/what-is-interstitial-cystitis-symptoms-causes-and-treatments",
     image: "/images/blog/what-is-interstitial-cystitis-symptoms-causes-and-treatments/hero.jpeg",
-    specialty: "Women's Health",
+    specialty: "Urology",
     readMinutes: 17,
     date: "2027-07-14",
   },
@@ -784,7 +790,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair",
     image: "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.png",
     specialty: "Cardiology",
-    readMinutes: 5,
+    readMinutes: 17,
     date: "2025-07-30",
   },
   {
@@ -838,7 +844,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery",
     image: "/images/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 9,
+    readMinutes: 11,
     date: "2025-07-23",
   },
   {
@@ -847,7 +853,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments",
     image: "/images/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments/hero.png",
     specialty: "Gastro",
-    readMinutes: 9,
+    readMinutes: 15,
     date: "2025-07-22",
   },
   {
@@ -856,7 +862,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained",
     image: "/images/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained/hero.png",
     specialty: "Gastro",
-    readMinutes: 9,
+    readMinutes: 10,
     date: "2025-07-22",
   },
   {
@@ -865,7 +871,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore",
     image: "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.png",
     specialty: "Cardiology",
-    readMinutes: 4,
+    readMinutes: 12,
     date: "2025-07-22",
   },
   {
@@ -874,7 +880,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management",
     image: "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.png",
     specialty: "Cardiology",
-    readMinutes: 8,
+    readMinutes: 15,
     date: "2025-07-22",
   },
   {
@@ -883,7 +889,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know",
     image: "/images/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know/hero.png",
     specialty: "Women's Health",
-    readMinutes: 9,
+    readMinutes: 10,
     date: "2025-07-21",
   },
   {
@@ -891,8 +897,8 @@ export const blogPosts: BlogPost[] = [
     title: "Effective Solutions for Pimples from the Heat: Causes and Prevention",
     href: "/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention",
     image: "/images/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention/hero.png",
-    specialty: "Women's Health",
-    readMinutes: 5,
+    specialty: "Dermatology",
+    readMinutes: 9,
     date: "2025-07-18",
   },
   {
@@ -901,7 +907,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect",
     image: "/images/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 8,
+    readMinutes: 16,
     date: "2025-07-18",
   },
   {
@@ -910,16 +916,16 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-left-arm-pain-from-shoulder-to-hand-causes-and-relief",
     image: "/images/blog/understanding-left-arm-pain-from-shoulder-to-hand-causes-and-relief/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 9,
+    readMinutes: 14,
     date: "2025-07-18",
   },
   {
     slug: "understanding-mics-surgery-benefits-and-considerations-for-patients",
     title: "Understanding MICS Surgery: Benefits and Considerations for Patients",
     href: "/blog/understanding-mics-surgery-benefits-and-considerations-for-patients",
-    image: null,
+    image: "/images/blog/understanding-mics-surgery-benefits-and-considerations-for-patients/hero.png",
     specialty: "Cardiology",
-    readMinutes: 10,
+    readMinutes: 13,
     date: "2025-06-13",
   },
   {
@@ -927,8 +933,8 @@ export const blogPosts: BlogPost[] = [
     title: "Essential Seizure First Aid: What You Need to Know for Emergencies",
     href: "/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies",
     image: "/images/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies/hero.png",
-    specialty: "Neurology",
-    readMinutes: 5,
+    specialty: "Emergency Medicine",
+    readMinutes: 12,
     date: "2025-06-13",
   },
   {
@@ -936,8 +942,8 @@ export const blogPosts: BlogPost[] = [
     title: "Essential Heat Stroke First Aid: Signs, Treatment, and Prevention Tips",
     href: "/blog/essential-heat-stroke-first-aid-signs-treatment-and-prevention-tips",
     image: "/images/blog/essential-heat-stroke-first-aid-signs-treatment-and-prevention-tips/hero.png",
-    specialty: "Neurology",
-    readMinutes: 5,
+    specialty: "Emergency Medicine",
+    readMinutes: 13,
     date: "2025-06-13",
   },
   {
@@ -946,7 +952,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/pimples-during-pregnancy-causes-solutions-and-effective-treatments",
     image: "/images/blog/pimples-during-pregnancy-causes-solutions-and-effective-treatments/hero.png",
     specialty: "Women's Health",
-    readMinutes: 7,
+    readMinutes: 16,
     date: "2025-06-12",
   },
   {
@@ -955,7 +961,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/why-is-my-pregnant-belly-sometimes-hard-and-sometimes-soft",
     image: "/images/blog/why-is-my-pregnant-belly-sometimes-hard-and-sometimes-soft/hero.png",
     specialty: "Women's Health",
-    readMinutes: 7,
+    readMinutes: 8,
     date: "2025-05-24",
   },
 ];
