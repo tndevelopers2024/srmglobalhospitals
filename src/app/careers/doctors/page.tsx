@@ -3,16 +3,16 @@ import "@/styles/careers.css";
 import { createMetadata } from "@/lib/seo";
 import { breadcrumbSchema, jsonLdScriptProps } from "@/lib/structured-data";
 import { HeaderTop, SiteHeader, SiteFooter } from "@/components/layout";
-import { CareersPageContent } from "@/components/careers";
+import { DoctorCareersContent } from "@/components/careers";
 
 export const metadata = createMetadata({
-  title: "Staff Careers & Hospital Opportunities",
+  title: "Doctor Careers & Medical Specialties",
   description:
-    "Explore nursing, administrative, technical, and operational staff vacancies at SRM Global Hospitals. Join our dedicated healthcare support teams in Chennai.",
-  path: "/career-staff",
+    "Explore medical career opportunities, consultant positions, duty medical officer roles, and super-specialty clinical departments at SRM Global Hospitals in Chennai.",
+  path: "/careers/doctors",
 });
 
-export default function CareerStaffPage() {
+export default function DoctorsCareerPage() {
   return (
     <>
       <script
@@ -21,14 +21,14 @@ export default function CareerStaffPage() {
           breadcrumbSchema([
             { name: "Home", path: "/" },
             { name: "Careers", path: "/careers" },
-            { name: "Career-Staff", path: "/career-staff" },
+            { name: "Doctors", path: "/careers/doctors" },
           ]),
         )}
       />
       <HeaderTop />
       <SiteHeader activeNav="careers" />
       <main className="careers-page" id="main-content">
-        <CareersPageContent initialDept="staff" />
+        <DoctorCareersContent />
       </main>
       <SiteFooter />
     </>

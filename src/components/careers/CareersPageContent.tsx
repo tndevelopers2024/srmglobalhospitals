@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import CareersHero from "./CareersHero";
-import CareersFilterAndJobs, { JobItem } from "./CareersFilterAndJobs";
+import CareersPathwayCards from "./CareersPathwayCards";
+import { JobItem } from "./CareersFilterAndJobs";
 import CareersWhyJoinUs from "./CareersWhyJoinUs";
 import CareersCultureTeam from "./CareersCultureTeam";
 import CareersRecruitmentCTA from "./CareersRecruitmentCTA";
@@ -12,22 +13,10 @@ export interface CareersPageContentProps {
   initialDept?: string;
 }
 
-export default function CareersPageContent({ initialDept }: CareersPageContentProps = {}) {
+export default function CareersPageContent({ initialDept: _initialDept }: CareersPageContentProps = {}) {
   const [selectedJob, setSelectedJob] = useState<JobItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"apply" | "details">("apply");
-
-  const handleApplyForJob = (job: JobItem) => {
-    setSelectedJob(job);
-    setModalMode("apply");
-    setIsModalOpen(true);
-  };
-
-  const handleViewJobDetails = (job: JobItem) => {
-    setSelectedJob(job);
-    setModalMode("details");
-    setIsModalOpen(true);
-  };
 
   const handleGeneralApply = () => {
     setSelectedJob(null);
@@ -36,7 +25,7 @@ export default function CareersPageContent({ initialDept }: CareersPageContentPr
   };
 
   const handleScrollToOpenings = () => {
-    const el = document.getElementById("openings");
+    const el = document.getElementById("career-pathways");
     if (el) {
       el.scrollIntoView({ behavior: "smooth" });
     }
@@ -50,13 +39,8 @@ export default function CareersPageContent({ initialDept }: CareersPageContentPr
         onApplyModalClick={handleGeneralApply}
       />
 
-      {/* 2. Search, Filter, and Job Listings (All 10 Real Roles) */}
-      <CareersFilterAndJobs
-        initialDept={initialDept}
-        onApplyForJob={handleApplyForJob}
-        onViewJobDetails={handleViewJobDetails}
-        onGeneralApply={handleGeneralApply}
-      />
+      {/* 2. Distinct Career Pathway Cards for Doctors & Hospital Staff */}
+      <CareersPathwayCards />
 
       {/* 3. Why Join Us (5 Core Themes Transformed into Visual Cards) */}
       <CareersWhyJoinUs />

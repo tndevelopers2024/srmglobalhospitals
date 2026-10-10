@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
+import CareerJobCard from "./CareerJobCard";
 
 export interface JobItem {
   id: string;
@@ -134,6 +135,155 @@ export const ALL_JOBS: JobItem[] = [
       "Clinical Decision Making",
       "Communication & Teamwork",
       "Accurate Clinical Documentation",
+    ],
+  },
+
+  // 2b. Consultant / Intensivist (Critical Care & ICU)
+  {
+    id: "intensivist-critical-care",
+    title: "Consultant / Intensivist (Critical Care & ICU)",
+    department: "Critical Care Medicine & Intensive Care",
+    category: "medical",
+    jobType: "Full Time • Rotational ICU Shifts",
+    type: "Full Time • Rotational Shifts",
+    jobLocation: "Kattankulathur, Chennai",
+    location: "Kattankulathur, Chennai",
+    locationFilter: "kattankulathur",
+    experience: "3 – 7 Years post-MD/DNB",
+    experienceLevel: "mid",
+    qualification: "MD (Anaesthesia / General Medicine / Pulmonology) / DNB / IDCCM with Valid TNMC Registration",
+    contactNumber: "+91 9994255121 / 8754010369",
+    jobSummary:
+      "Provide specialized tertiary and quaternary intensive care management for critically ill patients across Medical ICU, Surgical ICU, and Neuro ICU. Lead multidisciplinary resuscitation, advanced hemodynamic monitoring, invasive mechanical ventilation, and continuous renal replacement therapy.",
+    overview:
+      "Provide specialized tertiary and quaternary intensive care management for critically ill patients across Medical ICU, Surgical ICU, and Neuro ICU. Lead multidisciplinary resuscitation, advanced hemodynamic monitoring, invasive mechanical ventilation, and continuous renal replacement therapy.",
+    responsibilities: [
+      "Lead daily ICU rounds, clinical assessments, and treatment plans for multi-organ failure patients",
+      "Perform invasive critical care procedures including central line insertion, arterial cannulation, and percutaneous tracheostomy",
+      "Manage advanced mechanical ventilation protocols, ARDS lung-protective strategies, and prone positioning",
+      "Coordinate clinical handovers with primary admitting consultants and surgical specialists",
+      "Oversee hospital code blue and rapid response team activations across inpatient wards",
+      "Uphold strict antimicrobial stewardship, infection control bundles, and clinical quality metrics",
+    ],
+    eligibilityCriteria: [
+      "MD (Anaesthesia, General Medicine, Pulmonology) / DNB / DM Critical Care with valid TNMC Registration",
+      "Fellowship in Critical Care (IDCCM, IFCCM, EDIC) or 3+ years experience in a high-volume tertiary ICU",
+      "Proficiency in bedside echocardiography, lung ultrasound, and fiberoptic bronchoscopy",
+    ],
+    qualificationsList: [
+      "MD (Anaesthesia, General Medicine, Pulmonology) / DNB / DM Critical Care with valid TNMC Registration",
+      "Fellowship in Critical Care (IDCCM, IFCCM, EDIC) or 3+ years experience in a high-volume tertiary ICU",
+      "Proficiency in bedside echocardiography, lung ultrasound, and fiberoptic bronchoscopy",
+    ],
+    preferredCandidate: [
+      "Prior experience in ECMO management and CRRT in quaternary healthcare centers",
+      "Strong interpersonal skills for sensitive family counselling and empathetic patient communication",
+    ],
+    keySkills: [
+      "Advanced Hemodynamic Monitoring & Resuscitation",
+      "Invasive Mechanical Ventilation & ARDS Management",
+      "Percutaneous Tracheostomy & Vascular Access",
+      "Bedside Critical Care Ultrasound & Echocardiography",
+      "Code Blue & Emergency Rapid Response Leadership",
+    ],
+  },
+
+  // 2c. Emergency Medicine Physician / Consultant
+  {
+    id: "emergency-medicine-physician",
+    title: "Emergency Medicine Physician / Consultant",
+    department: "Emergency & Trauma Care",
+    category: "medical",
+    jobType: "Full Time • Rotational Shifts",
+    type: "Full Time • Rotational Shifts",
+    jobLocation: "Kattankulathur, Chennai",
+    location: "Kattankulathur, Chennai",
+    locationFilter: "kattankulathur",
+    experience: "2 – 6 Years post-MEM/MD",
+    experienceLevel: "mid",
+    qualification: "MD (Emergency Medicine) / DNB / MEM / MRCEM with Valid TNMC Registration",
+    contactNumber: "+91 9994255121 / 8754010369",
+    jobSummary:
+      "Lead 24/7 emergency resuscitation, trauma triage, and acute clinical stabilization at SRM Global Hospitals Level 1 Emergency Department. Direct rapid intervention pathways for acute stroke (thrombolysis), STEMI (primary PCI), severe sepsis, and polytrauma.",
+    overview:
+      "Lead 24/7 emergency resuscitation, trauma triage, and acute clinical stabilization at SRM Global Hospitals Level 1 Emergency Department. Direct rapid intervention pathways for acute stroke (thrombolysis), STEMI (primary PCI), severe sepsis, and polytrauma.",
+    responsibilities: [
+      "Conduct rapid triage, evaluation, and resuscitation for adult and pediatric emergency cases",
+      "Perform emergency life-saving procedures including rapid sequence intubation, chest tube thoracostomy, and joint reductions",
+      "Direct STEMI code, acute ischemic stroke code, and polytrauma activation pathways",
+      "Supervise and mentor Duty Medical Officers, emergency nursing staff, and EMT teams",
+      "Ensure swift emergency diagnostic workup (FAST ultrasound, CT scans) and consultant referrals",
+      "Ensure meticulous documentation of medico-legal cases (MLC) and emergency case sheets",
+    ],
+    eligibilityCriteria: [
+      "MD Emergency Medicine / DNB / MEM / MRCEM with valid TNMC registration",
+      "2 to 6 years of experience in an accredited emergency medicine department",
+      "ACLS, ATLS, and PALS certified clinician",
+    ],
+    qualificationsList: [
+      "MD Emergency Medicine / DNB / MEM / MRCEM with valid TNMC registration",
+      "2 to 6 years of experience in an accredited emergency medicine department",
+      "ACLS, ATLS, and PALS certified clinician",
+    ],
+    preferredCandidate: [
+      "Experience in disaster management, mass casualty triage, and stroke pathway execution",
+      "Residents of Chengalpattu, Tambaram, or nearby Chennai suburbs preferred",
+    ],
+    keySkills: [
+      "Polytrauma Resuscitation & Damage Control",
+      "Rapid Sequence Intubation & Airway Management",
+      "Emergency Bedside Ultrasound (eFAST & Cardiac)",
+      "Stroke Thrombolysis & STEMI Rapid Pathways",
+      "Medico-Legal Documentation & Triage Leadership",
+    ],
+  },
+
+  // 2d. Junior Consultant / Senior Resident - General & Laparoscopic Surgery
+  {
+    id: "consultant-general-surgery",
+    title: "Junior Consultant / Senior Resident - General & Laparoscopic Surgery",
+    department: "General & Minimally Invasive Surgery",
+    category: "medical",
+    jobType: "Full Time • In Person",
+    type: "Full Time • In Person",
+    jobLocation: "Kattankulathur, Chennai",
+    location: "Kattankulathur, Chennai",
+    locationFilter: "kattankulathur",
+    experience: "1 – 4 Years post-MS/DNB",
+    experienceLevel: "fresher",
+    qualification: "MS (General Surgery) / DNB (General Surgery) with Valid TNMC Registration",
+    contactNumber: "+91 9994255121 / 8754010369",
+    jobSummary:
+      "Perform elective and emergency general surgical procedures, laparoscopic surgeries, and comprehensive pre/post-operative surgical care. Support chief surgical consultants in complex abdominal, colorectal, endocrine, and trauma surgical interventions.",
+    overview:
+      "Perform elective and emergency general surgical procedures, laparoscopic surgeries, and comprehensive pre/post-operative surgical care. Support chief surgical consultants in complex abdominal, colorectal, endocrine, and trauma surgical interventions.",
+    responsibilities: [
+      "Perform routine elective surgeries: laparoscopic cholecystectomy, appendectomy, and hernia repairs",
+      "Attend to surgical emergencies including acute abdomen, peritonitis, bowel obstruction, and trauma laparotomies",
+      "Conduct daily surgical ward rounds, post-operative monitoring, and wound care management",
+      "Conduct surgical outpatient clinics (OPD) and evaluate patients for surgical indications",
+      "Ensure strict surgical safety checklist adherence, surgical site infection (SSI) surveillance, and documentation",
+    ],
+    eligibilityCriteria: [
+      "MS or DNB in General Surgery from a recognized institution with active TNMC registration",
+      "1 to 4 years post-qualification surgical experience",
+      "Sound competency in basic and advanced laparoscopic techniques",
+    ],
+    qualificationsList: [
+      "MS or DNB in General Surgery from a recognized institution with active TNMC registration",
+      "1 to 4 years post-qualification surgical experience",
+      "Sound competency in basic and advanced laparoscopic techniques",
+    ],
+    preferredCandidate: [
+      "Fellowship in Minimal Access Surgery (FMAS / FIAGES) is an added advantage",
+      "Immediate joiners or candidates on short notice period preferred",
+    ],
+    keySkills: [
+      "Minimally Invasive & Laparoscopic Surgery",
+      "Emergency Laparotomy & Abdominal Trauma Care",
+      "Surgical Safety Checklist & Infection Control",
+      "Pre & Post-Operative Critical Surgical Care",
+      "Endocrine & Colorectal Surgical Procedures",
     ],
   },
 
@@ -937,7 +1087,7 @@ export default function CareersFilterAndJobs({
                 onChange={(e) => setSelectedDept(e.target.value)}
                 className="careers-select"
               >
-                <option value="all">All Departments (14)</option>
+                <option value="all">All Departments ({ALL_JOBS.length})</option>
                 <option value="medical">Doctors &amp; Clinical</option>
                 <option value="staff">Hospital &amp; Clinical Staff</option>
                 <option value="diagnostics">Diagnostics &amp; Imaging</option>
@@ -1032,451 +1182,17 @@ export default function CareersFilterAndJobs({
         ) : (
           <>
             <div className="careers-jobs-grid">
-              {displayedJobs.map((job) => {
-              const isOpen = expandedJobIds.has(job.id);
-              return (
-                <div key={job.id} className="careers-featured-card">
-                  {/* Featured Header */}
-                  <div
-                    className="careers-featured-header"
-                    onClick={() => toggleJob(job.id)}
-                    role="button"
-                    tabIndex={0}
-                    aria-expanded={isOpen}
-                    onKeyDown={(e) => {
-                      if (e.key === "Enter" || e.key === " ") {
-                        e.preventDefault();
-                        toggleJob(job.id);
-                      }
-                    }}
-                  >
-                    <div style={{ flex: 1, minWidth: 0 }}>
-                      <div
-                        style={{
-                          display: "flex",
-                          gap: "8px",
-                          alignItems: "center",
-                          marginBottom: "10px",
-                          flexWrap: "wrap",
-                        }}
-                      >
-                        <span className="careers-badge-dept">{job.department}</span>
-                        <span className="careers-badge-type">{job.jobType}</span>
-                        <span
-                          style={{
-                            fontFamily: "Inter, sans-serif",
-                            fontSize: "12px",
-                            color: "#0369a1",
-                            background: "#f0f9ff",
-                            padding: "3px 10px",
-                            borderRadius: "6px",
-                            border: "1px solid #bae6fd",
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "5px",
-                          }}
-                        >
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
-                            <circle cx="12" cy="10" r="3" />
-                          </svg>
-                          <span>{job.jobLocation.length > 45 ? `${job.jobLocation.substring(0, 42)}...` : job.jobLocation}</span>
-                        </span>
-                        <span
-                          style={{
-                            fontFamily: "Inter, sans-serif",
-                            fontSize: "12px",
-                            color: "#475569",
-                            background: "#f1f5f9",
-                            padding: "3px 10px",
-                            borderRadius: "6px",
-                          }}
-                        >
-                          Exp: {job.experience}
-                        </span>
-                      </div>
-
-                      <h3
-                        style={{
-                          fontFamily: "Poppins, sans-serif",
-                          fontSize: "22px",
-                          fontWeight: 600,
-                          color: "#1a1f5c",
-                          margin: 0,
-                          lineHeight: 1.3,
-                        }}
-                      >
-                        {job.title}
-                      </h3>
-                    </div>
-
-                    <div style={{ display: "flex", alignItems: "center", gap: "12px", flexShrink: 0 }}>
-                      <button
-                        type="button"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          onApplyForJob(job);
-                        }}
-                        className="careers-btn-apply-sm"
-                        style={{ padding: "8px 22px" }}
-                      >
-                        <span>Apply Now</span>
-                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                          <polyline points="9 18 15 12 9 6" />
-                        </svg>
-                      </button>
-
-                      <div
-                        style={{
-                          width: "36px",
-                          height: "36px",
-                          borderRadius: "50%",
-                          background: isOpen ? "#f3edf9" : "#f1f5f9",
-                          color: isOpen ? "#6B4A98" : "#475569",
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
-                          transition: "transform 0.25s ease",
-                        }}
-                        title={isOpen ? "Collapse details" : "Expand details"}
-                      >
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                          <polyline points="6 9 12 15 18 9" />
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Featured Body: Job Details */}
-                  {isOpen && (
-                    <div className="careers-featured-body" style={{ paddingTop: "24px" }}>
-                      {/* 1. Job Summary */}
-                      <div style={{ marginBottom: "22px" }}>
-                        <h4
-                          style={{
-                            fontFamily: "Poppins, sans-serif",
-                            fontSize: "14.5px",
-                            fontWeight: 600,
-                            color: "#1a1f5c",
-                            marginBottom: "8px",
-                            display: "flex",
-                            alignItems: "center",
-                            gap: "8px",
-                          }}
-                        >
-                          <span style={{ width: "4px", height: "16px", background: "#6B4A98", borderRadius: "2px" }} />
-                          Job Summary
-                        </h4>
-                        <p
-                          style={{
-                            fontFamily: "Inter, sans-serif",
-                            fontSize: "14.5px",
-                            lineHeight: 1.7,
-                            color: "#475569",
-                            margin: 0,
-                          }}
-                        >
-                          {job.jobSummary}
-                        </p>
-                      </div>
-
-                      {/* Job Metadata Bar: Job Type & Location */}
-                      <div
-                        style={{
-                          display: "grid",
-                          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-                          gap: "14px",
-                          background: "#f8fafc",
-                          padding: "16px 20px",
-                          borderRadius: "14px",
-                          border: "1px solid #e2e8f0",
-                          marginBottom: "24px",
-                        }}
-                      >
-                        <div>
-                          <span
-                            style={{
-                              display: "block",
-                              fontFamily: "Inter, sans-serif",
-                              fontSize: "11.5px",
-                              color: "#64748b",
-                              fontWeight: 600,
-                              textTransform: "uppercase",
-                              letterSpacing: "0.5px",
-                              marginBottom: "3px",
-                            }}
-                          >
-                            Job Type
-                          </span>
-                          <span style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px", color: "#1a1f5c", fontWeight: 600 }}>
-                            {job.jobType}
-                          </span>
-                        </div>
-
-                        <div>
-                          <span
-                            style={{
-                              display: "block",
-                              fontFamily: "Inter, sans-serif",
-                              fontSize: "11.5px",
-                              color: "#64748b",
-                              fontWeight: 600,
-                              textTransform: "uppercase",
-                              letterSpacing: "0.5px",
-                              marginBottom: "3px",
-                            }}
-                          >
-                            Job Location
-                          </span>
-                          <span style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px", color: "#1a1f5c", fontWeight: 600 }}>
-                            {job.jobLocation}
-                          </span>
-                        </div>
-
-                        {job.contactNumber && (
-                          <div>
-                            <span
-                              style={{
-                                display: "block",
-                                fontFamily: "Inter, sans-serif",
-                                fontSize: "11.5px",
-                                color: "#64748b",
-                                fontWeight: 600,
-                                textTransform: "uppercase",
-                                letterSpacing: "0.5px",
-                                marginBottom: "3px",
-                              }}
-                            >
-                              Contact HR Cell
-                            </span>
-                            <span style={{ fontFamily: "Poppins, sans-serif", fontSize: "14px", color: "#6B4A98", fontWeight: 600 }}>
-                              {job.contactNumber}
-                            </span>
-                          </div>
-                        )}
-                      </div>
-
-                      {/* 2 & 3: Key Responsibilities & Eligibility / Preferred Candidate side by side */}
-                      <div
-                        style={{
-                          display: "grid",
-                          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-                          gap: "24px",
-                          marginBottom: "24px",
-                        }}
-                      >
-                        {/* Key Responsibilities */}
-                        <div
-                          style={{
-                            background: "#ffffff",
-                            borderRadius: "16px",
-                            padding: "22px 24px",
-                            border: "1px solid #e2e8f0",
-                            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.02)",
-                          }}
-                        >
-                          <h4
-                            style={{
-                              fontFamily: "Poppins, sans-serif",
-                              fontSize: "14.5px",
-                              fontWeight: 600,
-                              color: "#1a1f5c",
-                              marginBottom: "14px",
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "8px",
-                            }}
-                          >
-                            <span style={{ width: "4px", height: "16px", background: "#2294D3", borderRadius: "2px" }} />
-                            Key Responsibilities
-                          </h4>
-                          <ul style={{ margin: 0, paddingLeft: "18px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                            {job.responsibilities.map((r, rIdx) => (
-                              <li key={rIdx} style={{ fontFamily: "Inter, sans-serif", fontSize: "13.5px", lineHeight: 1.6, color: "#475569" }}>
-                                {r}
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-
-                        {/* Eligibility Criteria & Preferred Candidate */}
-                        <div
-                          style={{
-                            background: "#ffffff",
-                            borderRadius: "16px",
-                            padding: "22px 24px",
-                            border: "1px solid #e2e8f0",
-                            boxShadow: "0 2px 8px rgba(0, 0, 0, 0.02)",
-                          }}
-                        >
-                          <h4
-                            style={{
-                              fontFamily: "Poppins, sans-serif",
-                              fontSize: "14.5px",
-                              fontWeight: 600,
-                              color: "#1a1f5c",
-                              marginBottom: "14px",
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "8px",
-                            }}
-                          >
-                            <span style={{ width: "4px", height: "16px", background: "#6B4A98", borderRadius: "2px" }} />
-                            Eligibility Criteria
-                          </h4>
-                          <ul style={{ margin: "0 0 16px", paddingLeft: "18px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                            {job.eligibilityCriteria.map((c, cIdx) => (
-                              <li key={cIdx} style={{ fontFamily: "Inter, sans-serif", fontSize: "13.5px", lineHeight: 1.6, color: "#475569" }}>
-                                {c}
-                              </li>
-                            ))}
-                          </ul>
-
-                          {job.preferredCandidate && job.preferredCandidate.length > 0 && (
-                            <>
-                              <h5
-                                style={{
-                                  fontFamily: "Poppins, sans-serif",
-                                  fontSize: "13.5px",
-                                  fontWeight: 600,
-                                  color: "#1a1f5c",
-                                  margin: "14px 0 10px",
-                                  display: "flex",
-                                  alignItems: "center",
-                                  gap: "8px",
-                                }}
-                              >
-                                <span style={{ width: "4px", height: "14px", background: "#0284c7", borderRadius: "2px" }} />
-                                Preferred Candidate
-                              </h5>
-                              <ul style={{ margin: 0, paddingLeft: "18px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                                {job.preferredCandidate.map((p, pIdx) => (
-                                  <li key={pIdx} style={{ fontFamily: "Inter, sans-serif", fontSize: "13.5px", lineHeight: 1.6, color: "#475569" }}>
-                                    {p}
-                                  </li>
-                                ))}
-                              </ul>
-                            </>
-                          )}
-                        </div>
-                      </div>
-
-                      {/* 4. Key Skills */}
-                      {job.keySkills && job.keySkills.length > 0 && (
-                        <div style={{ marginBottom: "22px" }}>
-                          <h4
-                            style={{
-                              fontFamily: "Poppins, sans-serif",
-                              fontSize: "14.5px",
-                              fontWeight: 600,
-                              color: "#1a1f5c",
-                              marginBottom: "10px",
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "8px",
-                            }}
-                          >
-                            <span style={{ width: "4px", height: "16px", background: "#6B4A98", borderRadius: "2px" }} />
-                            Key Skills
-                          </h4>
-                          <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                            {job.keySkills.map((skill, sIdx) => (
-                              <span
-                                key={sIdx}
-                                style={{
-                                  fontFamily: "Inter, sans-serif",
-                                  fontSize: "12.5px",
-                                  fontWeight: 500,
-                                  color: "#1a1f5c",
-                                  background: "#f1f5f9",
-                                  padding: "6px 14px",
-                                  borderRadius: "100px",
-                                  border: "1px solid #e2e8f0",
-                                }}
-                              >
-                                {skill}
-                              </span>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Benefits (if applicable) */}
-                      {job.benefits && job.benefits.length > 0 && (
-                        <div style={{ marginBottom: "22px" }}>
-                          <h4
-                            style={{
-                              fontFamily: "Poppins, sans-serif",
-                              fontSize: "14px",
-                              fontWeight: 600,
-                              color: "#1a1f5c",
-                              marginBottom: "8px",
-                              display: "flex",
-                              alignItems: "center",
-                              gap: "8px",
-                            }}
-                          >
-                            <span style={{ width: "4px", height: "14px", background: "#16a34a", borderRadius: "2px" }} />
-                            Role Benefits
-                          </h4>
-                          <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
-                            {job.benefits.map((b, bIdx) => (
-                              <span
-                                key={bIdx}
-                                style={{
-                                  fontFamily: "Inter, sans-serif",
-                                  fontSize: "12.5px",
-                                  fontWeight: 500,
-                                  color: "#15803d",
-                                  background: "#f0fdf4",
-                                  padding: "5px 12px",
-                                  borderRadius: "100px",
-                                  border: "1px solid #bbf7d0",
-                                }}
-                              >
-                                ✓ {b}
-                              </span>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Card Footer Action */}
-                      <div
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "space-between",
-                          paddingTop: "20px",
-                          borderTop: "1px solid #f1f5f9",
-                          flexWrap: "wrap",
-                          gap: "14px",
-                        }}
-                      >
-                        <div style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "#64748b" }}>
-                          SRM Global Hospitals • Kattankulathur, Chennai
-                          {job.contactNumber ? ` • Inquiry: ${job.contactNumber}` : ""}
-                        </div>
-                        <div>
-                          <button
-                            type="button"
-                            onClick={() => onApplyForJob(job)}
-                            className="careers-btn-apply-sm"
-                          >
-                            <span>Apply for this Position</span>
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                              <polyline points="9 18 15 12 9 6" />
-                            </svg>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
+              {displayedJobs.map((job) => (
+                <CareerJobCard
+                  key={job.id}
+                  job={job}
+                  isOpen={expandedJobIds.has(job.id)}
+                  onToggle={() => toggleJob(job.id)}
+                  onApply={onApplyForJob}
+                  accentColor="#6B4A98"
+                />
+              ))}
+            </div>
 
           {/* Load More Button matching reference screenshot */}
           {hasMore && (
