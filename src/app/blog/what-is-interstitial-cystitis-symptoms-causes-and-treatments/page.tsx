@@ -24,8 +24,8 @@ const article = {
     "Interstitial cystitis causes chronic bladder pain that isn't caused by infection, so antibiotics don't help. Specialists at SRM Global Hospitals explain causes, diagnosis, and the full range of treatment options.",
   path: "/blog/what-is-interstitial-cystitis-symptoms-causes-and-treatments",
   image: "/images/blog/what-is-interstitial-cystitis-symptoms-causes-and-treatments/hero.jpeg",
-  author: "Women's Health Specialist",
-  section: "Women's Health",
+  author: "Urology Specialist",
+  section: "Urology",
   publishedTime: "2027-07-14",
 };
 
@@ -66,11 +66,11 @@ export default function InterstitialCystitisArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-womens-health"
-        category="Women's Health"
+        dotClass="dot-urology"
+        category="Urology"
         title={article.title}
-        specialistTitle="Women's Health Specialist"
-        department="Centre for Women's Health & Wellness"
+        specialistTitle="Urology Specialist"
+        department="Institute of Urology and Renal Sciences"
         readMinutes={17}
         reads="3,590"
       />
@@ -78,9 +78,9 @@ export default function InterstitialCystitisArticle() {
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Women's Health Specialist"
-          department="Centre for Women's Health & Wellness"
-          blurb="Our women's health specialists are available across the week, in-person and via tele-consult."
+          specialistTitle="Urology Specialist"
+          department="Institute of Urology and Renal Sciences"
+          blurb="Our urology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
             { id: "what-is-ic", title: "What is interstitial cystitis" },

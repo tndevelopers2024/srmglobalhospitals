@@ -348,7 +348,7 @@ export default function ArtBody() {
 
       <blockquote className="pull-quote">
         <q>Interstitial cystitis is one of the most misunderstood conditions we see, because it looks so much like a urinary infection but never shows bacteria on a test. That gap in understanding is exactly why so many patients go years without an accurate diagnosis.</q>{" "}
-        <span className="pull-quote-cite">Women&apos;s Health Specialist, Centre for Women&apos;s Health &amp; Wellness</span>{" "}
+        <span className="pull-quote-cite">Urology Specialist, Institute of Urology and Renal Sciences</span>{" "}
       </blockquote>{" "}
 
       <h2 id="prevention-flare-ups" data-toc-title="Preventing flare-ups">Prevention of Flare-Ups &amp; Relapse</h2>{" "}

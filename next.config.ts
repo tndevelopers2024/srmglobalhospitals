@@ -206,6 +206,36 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/understanding-esophageal-ulcer-symptoms-causes-and-treatments",
+        destination: "/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments",
+        permanent: true,
+      },
+      {
+        source: "/antral-gastritis-causes-best-treatments-and-symptoms-explained",
+        destination: "/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained",
+        permanent: true,
+      },
+      {
+        source: "/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore",
+        destination: "/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore",
+        permanent: true,
+      },
+      {
+        source: "/understanding-mitral-valve-prolapse-symptoms-risks-and-management",
+        destination: "/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management",
+        permanent: true,
+      },
+      {
+        source: "/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know",
+        destination: "/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know",
+        permanent: true,
+      },
+      {
+        source: "/effective-solutions-for-pimples-from-the-heat-causes-and-prevention",
+        destination: "/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention",
+        permanent: true,
+      },
+      {
         source: "/press-releases",
         destination: "/press-release",
         permanent: true,

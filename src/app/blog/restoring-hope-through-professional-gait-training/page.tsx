@@ -95,7 +95,7 @@ export default function GaitTrainingArticle() {
               href: "/blog/recovery-after-stroke-the-steps-forward-for-functional-independence",
               image: "/images/blog/recovery-after-stroke-the-steps-forward-for-functional-independence/hero.jpeg",
               title: "Recovery after stroke: the steps forward for functional independence",
-              meta: "14 min · Neurology",
+              meta: "14 min · Orthopaedics",
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
