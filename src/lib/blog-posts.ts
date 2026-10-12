@@ -502,7 +502,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain",
     image: "/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 6,
+    readMinutes: 12,
     date: "2025-12-03",
   },
   {
@@ -529,7 +529,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart",
     image: "/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/hero.jpeg",
     specialty: "Cardiology",
-    readMinutes: 6,
+    readMinutes: 15,
     date: "2025-12-02",
   },
   {
@@ -556,7 +556,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/what-are-rheumatoid-arthritis-deformities-causes-and-solutions",
     image: "/images/blog/what-are-rheumatoid-arthritis-deformities-causes-and-solutions/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 7,
+    readMinutes: 14,
     date: "2025-11-04",
   },
   {
@@ -565,7 +565,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/find-the-best-doctor-for-rheumatoid-arthritis-in-chennai-today",
     image: "/images/blog/find-the-best-doctor-for-rheumatoid-arthritis-in-chennai-today/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 8,
+    readMinutes: 11,
     date: "2025-11-04",
   },
   {
@@ -592,7 +592,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/what-is-partial-acl-tear-recovery-time-without-surgery",
     image: "/images/blog/what-is-partial-acl-tear-recovery-time-without-surgery/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 4,
+    readMinutes: 10,
     date: "2025-11-04",
   },
   {
@@ -636,8 +636,8 @@ export const blogPosts: BlogPost[] = [
     title: "Managing Overactive Bladder: Effective Solutions and Relief Options",
     href: "/blog/managing-overactive-bladder-effective-solutions-and-relief-options",
     image: "/images/blog/managing-overactive-bladder-effective-solutions-and-relief-options/hero.jpeg",
-    specialty: "Women's Health",
-    readMinutes: 6,
+    specialty: "Urology",
+    readMinutes: 12,
     date: "2025-11-04",
   },
   {
@@ -655,7 +655,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment",
     image: "/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 5,
+    readMinutes: 13,
     date: "2025-11-04",
   },
   {
@@ -672,8 +672,8 @@ export const blogPosts: BlogPost[] = [
     title: "What is a Urinary Tract Infection? Causes, Symptoms, and Treatment",
     href: "/blog/what-is-a-urinary-tract-infection-causes-symptoms-and-treatment",
     image: "/images/blog/what-is-a-urinary-tract-infection-causes-symptoms-and-treatment/hero.jpeg",
-    specialty: "Women's Health",
-    readMinutes: 4,
+    specialty: "Urology",
+    readMinutes: 14,
     date: "2025-11-04",
   },
   {
@@ -682,7 +682,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/urinary-incontinence-after-childbirth-causes-and-remedies",
     image: "/images/blog/urinary-incontinence-after-childbirth-causes-and-remedies/hero.jpeg",
     specialty: "Women's Health",
-    readMinutes: 4,
+    readMinutes: 12,
     date: "2025-11-04",
   },
   {
@@ -691,7 +691,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/what-is-vaginal-vault-prolapse-symptoms-causes-and-solutions",
     image: "/images/blog/what-is-vaginal-vault-prolapse-symptoms-causes-and-solutions/hero.jpeg",
     specialty: "Women's Health",
-    readMinutes: 9,
+    readMinutes: 10,
     date: "2025-11-04",
   },
   {
@@ -700,7 +700,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-seronegative-arthritis-symptoms-causes-and-treatments",
     image: "/images/blog/understanding-seronegative-arthritis-symptoms-causes-and-treatments/hero.jpeg",
     specialty: "Orthopaedics",
-    readMinutes: 5,
+    readMinutes: 11,
     date: "2025-11-04",
   },
   {
@@ -718,7 +718,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/effective-tennis-elbow-treatment-relieve-pain-and-restore-mobility",
     image: "/images/blog/effective-tennis-elbow-treatment-relieve-pain-and-restore-mobility/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 4,
+    readMinutes: 12,
     date: "2025-08-13",
   },
   {
@@ -745,7 +745,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/mastering-the-rotablator-essential-insights-for-effective-atherectomy",
     image: "/images/blog/mastering-the-rotablator-essential-insights-for-effective-atherectomy/hero.png",
     specialty: "Cardiology",
-    readMinutes: 7,
+    readMinutes: 16,
     date: "2025-08-13",
   },
   {
@@ -754,7 +754,7 @@ export const blogPosts: BlogPost[] = [
     href: "/blog/understanding-total-knee-replacement-what-to-expect-and-recovery-tips",
     image: "/images/blog/understanding-total-knee-replacement-what-to-expect-and-recovery-tips/hero.png",
     specialty: "Orthopaedics",
-    readMinutes: 6,
+    readMinutes: 18,
     date: "2025-08-13",
   },
   {
