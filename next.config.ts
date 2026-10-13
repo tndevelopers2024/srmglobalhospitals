@@ -236,6 +236,76 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/what-is-a-urinary-tract-infection-causes-symptoms-and-treatment",
+        destination: "/blog/what-is-a-urinary-tract-infection-causes-symptoms-and-treatment",
+        permanent: true,
+      },
+      {
+        source: "/urinary-incontinence-after-childbirth-causes-and-remedies",
+        destination: "/blog/urinary-incontinence-after-childbirth-causes-and-remedies",
+        permanent: true,
+      },
+      {
+        source: "/what-is-vaginal-vault-prolapse-symptoms-causes-and-solutions",
+        destination: "/blog/what-is-vaginal-vault-prolapse-symptoms-causes-and-solutions",
+        permanent: true,
+      },
+      {
+        source: "/understanding-seronegative-arthritis-symptoms-causes-and-treatments",
+        destination: "/blog/understanding-seronegative-arthritis-symptoms-causes-and-treatments",
+        permanent: true,
+      },
+      {
+        source: "/effective-tennis-elbow-treatment-relieve-pain-and-restore-mobility",
+        destination: "/blog/effective-tennis-elbow-treatment-relieve-pain-and-restore-mobility",
+        permanent: true,
+      },
+      {
+        source: "/mastering-the-rotablator-essential-insights-for-effective-atherectomy",
+        destination: "/blog/mastering-the-rotablator-essential-insights-for-effective-atherectomy",
+        permanent: true,
+      },
+      {
+        source: "/understanding-total-knee-replacement-what-to-expect-and-recovery-tips",
+        destination: "/blog/understanding-total-knee-replacement-what-to-expect-and-recovery-tips",
+        permanent: true,
+      },
+      {
+        source: "/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain",
+        destination: "/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain",
+        permanent: true,
+      },
+      {
+        source: "/takotsubo-cardiomyopathy-how-stress-affects-the-heart",
+        destination: "/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart",
+        permanent: true,
+      },
+      {
+        source: "/what-are-rheumatoid-arthritis-deformities-causes-and-solutions",
+        destination: "/blog/what-are-rheumatoid-arthritis-deformities-causes-and-solutions",
+        permanent: true,
+      },
+      {
+        source: "/find-the-best-doctor-for-rheumatoid-arthritis-in-chennai-today",
+        destination: "/blog/find-the-best-doctor-for-rheumatoid-arthritis-in-chennai-today",
+        permanent: true,
+      },
+      {
+        source: "/what-is-partial-acl-tear-recovery-time-without-surgery",
+        destination: "/blog/what-is-partial-acl-tear-recovery-time-without-surgery",
+        permanent: true,
+      },
+      {
+        source: "/managing-overactive-bladder-effective-solutions-and-relief-options",
+        destination: "/blog/managing-overactive-bladder-effective-solutions-and-relief-options",
+        permanent: true,
+      },
+      {
+        source: "/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment",
+        destination: "/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment",
+        permanent: true,
+      },
+      {
         source: "/press-releases",
         destination: "/press-release",
         permanent: true,
