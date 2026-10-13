@@ -668,6 +668,11 @@
   margin: 0 auto;
 }
 
+.specialty-page .doctors-grid-three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 1200px;
+}
+
 .specialty-page .doctor-card {
   padding: 0;
   background: var(--paper);

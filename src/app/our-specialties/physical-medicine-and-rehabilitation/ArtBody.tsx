@@ -343,9 +343,9 @@ export default function ArtBody() {
   <div className="wrap">
     <div className="doctors-header reveal">
       <div className="section-label">Meet Our Expert</div>
-      <h2 className="section-title">Our Physical Medicine and Rehabilitation Specialist</h2>
+      <h2 className="section-title">Our Physical Medicine and Rehabilitation Team</h2>
     </div>
-    <div className="doctors-grid">
+    <div className="doctors-grid doctors-grid-three">
       <div className="doctor-card reveal">
         <div className="doctor-photo"><Image src="/images/specialties/physical-medicine-rehabilitation/dr-karthikeyan-r.png" alt="Dr. Karthikeyan. P" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
         <div className="doctor-info">
@@ -362,6 +362,15 @@ export default function ArtBody() {
           <h4>Dr. Jishnu P</h4>
           <p className="doctor-qualification">MBBS, MD(Physical Medical and Rehabilitation), DNB</p>
           <p>Specialist in Physical Medicine &amp; Rehabilitation</p>
+          <a href="#appointment" className="btn-primary">Book Appointment</a>
+        </div>
+      </div>
+      <div className="doctor-card reveal">
+        <div className="doctor-photo"><Image src="/images/departments/orthopaedics/dr-gowtham-gandhi.png" alt="Dr. Gowtham Gandhi" width={824} height={925} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
+        <div className="doctor-info">
+          <h4>Dr. Gowtham Gandhi</h4>
+          <p className="doctor-qualification">MBBS, MS (Orthopaedics), DNB, FIRJR, MNAMS</p>
+          <p>Orthopaedic Surgeon</p>
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
