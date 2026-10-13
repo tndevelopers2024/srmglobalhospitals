@@ -131,6 +131,11 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/specialties/physical-medicine-rehabilitation",
+        destination: "/our-specialties/physical-medicine-and-rehabilitation",
+        permanent: true,
+      },
+      {
         source: "/centres-of-excellence",
         destination: "/clinical-excellence",
         permanent: true,

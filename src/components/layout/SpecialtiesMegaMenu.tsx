@@ -48,7 +48,7 @@ const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
     { label: "Paediatrics", href: "/specialties/paediatrics" },
     { label: "Paediatric Critical Care", href: "/specialties/paediatric-critical-care" },
     { label: "Paediatric Surgery", href: "/specialties/paediatric-surgery" },
-    { label: "Physical Medicine Rehabilitation", href: "/specialties/physical-medicine-rehabilitation" },
+    { label: "Physical Medicine Rehabilitation", href: "/our-specialties/physical-medicine-and-rehabilitation" },
     { label: "Plastic Surgery", href: "/specialties/plastic-surgery" },
     { label: "Psychiatry", href: "/specialties/psychiatry" },
   ],

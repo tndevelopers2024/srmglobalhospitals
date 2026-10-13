@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import GowthamDoctorCard from "@/components/doctors/GowthamDoctorCard";
 
 export default function ArtBody() {
   const [isStickyVisible, setIsStickyVisible] = useState(false);
@@ -400,6 +401,7 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
+      <GowthamDoctorCard />
       <div className="doctor-card reveal">
         <div className="doctor-photo"><Image src="/images/specialties/orthopedics/dr-n-gowthaman.png" alt="Dr. N. Gowthaman" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
         <div className="doctor-info">

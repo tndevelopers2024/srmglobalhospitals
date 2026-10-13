@@ -1,4 +1,5 @@
 import React from "react";
+import GowthamDoctorCard from "@/components/doctors/GowthamDoctorCard";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -160,7 +161,7 @@ export default function ArtBody() {
                   color: "#8b3dff",
                 }}
               >
-                7
+                8
               </div>
               <div
                 style={{
@@ -292,7 +293,7 @@ export default function ArtBody() {
               Our Orthopaedics Team
             </h2>
             <p style={{ fontFamily: "Inter, sans-serif", fontSize: "15px", color: "#888", margin: 0 }}>
-              7 specialists in fracture, joint, and musculoskeletal care.
+              8 specialists in fracture, joint, and musculoskeletal care.
             </p>
           </div>
 
@@ -987,6 +988,8 @@ export default function ArtBody() {
                 </div>
               </div>
             </div>
+
+            <GowthamDoctorCard />
 
             {/* Dr. N. Gowthaman (Male) */}
             <div
