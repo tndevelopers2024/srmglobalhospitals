@@ -366,7 +366,7 @@ export default function ArtBody() {
         </div>
       </div>
       <div className="doctor-card reveal">
-        <div className="doctor-photo"><Image src="/images/departments/orthopaedics/dr-gowtham-gandhi.png" alt="Dr. Gowtham Gandhi" width={824} height={925} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
+        <div className="doctor-photo"><Image src="/images/departments/Orthopaedics/dr-gowtham-gandhi.png" alt="Dr. Gowtham Gandhi" width={824} height={925} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
         <div className="doctor-info">
           <h4>Dr. Gowtham Gandhi</h4>
           <p className="doctor-qualification">MBBS, MS (Orthopaedics), DNB, FIRJR, MNAMS</p>

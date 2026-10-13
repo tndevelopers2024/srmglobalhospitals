@@ -33,7 +33,7 @@ export default function GowthamGandhiPage() {
             <p>Robotic joint replacement · Complex trauma · Arthroscopy &amp; sports injuries</p>
             <Link className={styles.primary} href="/book-an-appointment">Book Appointment</Link>
             </div>
-            <Image className={styles.heroPhoto} src="/images/departments/orthopaedics/dr-gowtham-gandhi.png" alt="Dr. Gowtham Gandhi" width={824} height={925} sizes="(max-width: 600px) 80vw, 340px" preload />
+            <Image className={styles.heroPhoto} src="/images/departments/Orthopaedics/dr-gowtham-gandhi.png" alt="Dr. Gowtham Gandhi" width={824} height={925} sizes="(max-width: 600px) 80vw, 340px" preload />
           </div>
         </header>
         <div className={`${styles.wrap} ${styles.content}`}>
