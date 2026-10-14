@@ -5,6 +5,15 @@ import { ArrowLeft, ArrowRight, Pause, Play } from "lucide-react";
 
 const slides = [
   {
+    label: "Super speciality care",
+    title: <>Super speciality care,<br /> held to a <em>higher</em> standard.</>,
+    description: <>A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.</>,
+    image: "/images/family-hero-banner.avif",
+    mobileImage: "/images/family-hero-banner-mobile-view-v2.avif",
+    href: "/book-an-appointment",
+    action: "Book an appointment",
+  },
+  {
     label: "Cardiac sciences",
     title: <>Every heartbeat,<br /> <em>cared for.</em></>,
     description: <>Comprehensive cardiac care built<br />around every beat of life.</>,
@@ -52,7 +61,7 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
     if (!rotating) return;
     const timer = window.setInterval(() => {
       if (!document.hidden) setActive((current) => (current + 1) % slides.length);
-    }, 7000);
+    }, 5000);
     return () => window.clearInterval(timer);
   }, [rotating, active]);
 
@@ -106,7 +115,7 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
               </div>
               <button type="button" className="hero-carousel-arrow" aria-label="Next banner slide" onClick={() => select(active + 1)}><ArrowRight size={18} aria-hidden="true" /></button>
               <button type="button" className="hero-carousel-arrow" aria-label={rotating ? "Pause banner slideshow" : "Play banner slideshow"} onClick={() => setPlayback(rotating ? "paused" : "playing")}>{rotating ? <Pause size={16} aria-hidden="true" /> : <Play size={16} aria-hidden="true" />}</button>
-              <span className="hero-carousel-count" aria-hidden="true">0{active + 1} / 03</span>
+              <span className="hero-carousel-count" aria-hidden="true">{String(active + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}</span>
             </div>
             <div className="hero-meta">
               <div className="hero-meta-item"><span className="num">7</span><span className="lbl">Centres of Excellence</span></div>
