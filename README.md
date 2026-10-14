@@ -26,7 +26,7 @@ This project is built using Next.js 16 (App Router) and Tailwind CSS, featuring 
 
 ## Getting Started
 
-Use Node.js 22 or newer and pnpm 12.11.2 (pinned in `package.json`).
+Use Node.js 24.x and pnpm 12.11.2 (pinned in `package.json`).
 
 First, install the dependencies:
 
