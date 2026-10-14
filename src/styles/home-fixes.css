@@ -279,5 +279,5 @@ body:has(.sticky-bar.visible) .floating-cta {
 }
 
 .home-page .hero {
-  min-height: 80vh;
+  min-height: 75vh;
 }

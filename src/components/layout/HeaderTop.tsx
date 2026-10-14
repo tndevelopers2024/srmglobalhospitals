@@ -1,10 +1,54 @@
+"use client";
+
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import MobileNavigation from "./MobileNavigation";
 import type { Route } from "next";
 
 export default function HeaderTop() {
+  const headerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+    const mobile = window.matchMedia("(max-width: 880px)");
+    let previousY = Math.max(0, window.scrollY);
+    let directionStartY = previousY;
+    let direction = 0;
+    let frame = 0;
+
+    const update = () => {
+      frame = 0;
+      const y = Math.max(0, window.scrollY);
+      if (!mobile.matches || y <= 10) {
+        header.classList.remove("mobile-header-hidden");
+        direction = 0;
+        directionStartY = y;
+      } else {
+        const nextDirection = Math.sign(y - previousY);
+        if (nextDirection && nextDirection !== direction) {
+          directionStartY = previousY;
+          direction = nextDirection;
+        }
+        if (Math.abs(y - directionStartY) >= 8) {
+          header.classList.toggle("mobile-header-hidden", direction > 0 && y > header.offsetHeight);
+        }
+      }
+      previousY = y;
+    };
+    const onScroll = () => { if (!frame) frame = requestAnimationFrame(update); };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    mobile.addEventListener("change", update);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      mobile.removeEventListener("change", update);
+      cancelAnimationFrame(frame);
+      header.classList.remove("mobile-header-hidden");
+    };
+  }, []);
+
   return (
-    <div className="header-top" id="nav-wrap">
+    <div className="header-top" id="nav-wrap" ref={headerRef}>
       <div className="container">
         <div className="header-top-inner">
           <Link href="/" className="brand" aria-label="SRM Global Hospitals">

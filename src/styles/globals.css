@@ -4436,3 +4436,20 @@ main.dept-page > div:has(> .hero-inner) {
   .mobile-find-doctor { padding-inline: 8px; font-size: 11px; }
   .header-top-inner { gap: 8px; }
 }
+
+@media (max-width: 880px) {
+  .header-top {
+    position: sticky !important;
+    top: 0 !important;
+    transform: translateY(0);
+    transition: transform 200ms ease, box-shadow 200ms ease;
+  }
+  .header-top.mobile-header-hidden:not(:has(.mobile-menu-toggle[aria-expanded="true"])) {
+    transform: translateY(-100%);
+    pointer-events: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-top { transition: none; }
+}

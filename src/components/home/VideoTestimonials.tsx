@@ -37,7 +37,7 @@ export default function VideoTestimonials() {
               <div className={styles.media}>
                   <button type="button" className={styles.preview} onClick={() => setActiveVideo(videoId)} aria-label={`Play patient testimonial video ${index + 1}`}>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`} alt="" loading="lazy" width="480" height="360" />
+                    <img src={`https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`} alt="" loading="lazy" width="320" height="180" />
                     <span className={styles.play} aria-hidden="true">
                       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 5v14l11-7z" /></svg>
                     </span>

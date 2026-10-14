@@ -172,7 +172,7 @@ export default function ArtBody() {
         <div className="container">
           <div className="about-text">
             <div className="eyebrow">About the Institute</div>
-            <h2 className="section-heading">Emergency Hospital in Chengalpattu for Critical and Trauma Care</h2>
+            <h2 className="section-heading">Leading Emergency Hospital in Chengalpattu for Critical and Trauma Care</h2>
             <p>We are leaders in emergency and trauma care, with SRM Global Hospitals operating a full-scale emergency department built for speed and precision. A team of emergency physicians and critical care specialists works round the clock, supported by dedicated resuscitation areas, trauma bays, and an in-house ambulance team covering Chengalpattu, and surrounding areas.</p>
             <p>The department is equipped with advanced diagnostic facilities, including CT, X-ray, ultrasound, point-of-care testing, and a fully staffed laboratory. From the moment a patient arrives, the focus is on timely assessment and definitive treatment within the golden hour.</p>
             <div className="about-features">
