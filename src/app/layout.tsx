@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "@/styles/globals.css";
 
 import { siteConfig } from "@/lib/site";
+import { WhatsAppFloatingButton } from "@/components/layout";
 import {
   jsonLdScriptProps,
   organizationSchema,
@@ -81,6 +82,7 @@ export default function RootLayout({
     <html lang={siteConfig.lang} suppressHydrationWarning>
       <body suppressHydrationWarning>
         {children}
+        <WhatsAppFloatingButton />
         <script
           type="application/ld+json"
           {...jsonLdScriptProps([organizationSchema(), webSiteSchema()])}

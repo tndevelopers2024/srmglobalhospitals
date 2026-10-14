@@ -75,6 +75,11 @@ export const siteConfig = {
     /** Primary general enquiries email address. */
     email: "info@srmglobalhospitals.com",
     internationalEmail: "international@srmglobalhospitals.com",
+    /** Official WhatsApp number formatted internationally without + or special characters. */
+    whatsappPhone: "919644496444",
+    whatsappPhoneDisplay: "+91 96444 96444",
+    whatsappPrefillMessage:
+      "Hello SRM Global Hospitals, I would like to know more about your services.",
   },
 
   /**

@@ -14,3 +14,4 @@ export { default as SiteFooter } from "./SiteFooter";
 export { default as SpecialtiesMegaMenu } from "./SpecialtiesMegaMenu";
 export { default as ClinicalExcellenceDropdown } from "./ClinicalExcellenceDropdown";
 export { default as DoctorsDropdown } from "./DoctorsDropdown";
+export { default as WhatsAppFloatingButton } from "./WhatsAppFloatingButton";
