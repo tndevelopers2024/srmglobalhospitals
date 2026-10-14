@@ -3,165 +3,425 @@ import HeroCarousel from "./HeroCarousel";
 export default function Hero() {
   return (
     <HeroCarousel>
-          <div className="hero-image-wrap">
-            <div className="hero-panel" id="hero-panel">
-              <svg width="0" height="0" style={{ position: 'absolute' }}>
-                <defs>
-                  <linearGradient id="ecgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#1fb6e0" />{" "}
-                    <stop offset="100%" stopColor="#8b3dff" />{" "}
-                  </linearGradient>{" "}
-                  <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#1fb6e0" />{" "}
-                    <stop offset="100%" stopColor="#8b3dff" />{" "}
-                  </linearGradient>{" "}
-                  <linearGradient id="glucoseGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-                    <stop offset="0%" stopColor="#1fb6e0" />{" "}
-                    <stop offset="100%" stopColor="#8b3dff" />{" "}
-                  </linearGradient>{" "}
-                  <linearGradient id="breathGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stopColor="#1fb6e0" />{" "}
-                    <stop offset="100%" stopColor="#8b3dff" />{" "}
-                  </linearGradient>{" "}
-                </defs>{" "}
-              </svg>{" "}
-              <div className="hero-panel-header">
-                <span className="eyebrow">Explore our specialties</span>{" "}
+      <div className="hero-image-wrap">
+        <div className="hero-panel" id="hero-panel">
+          <svg width="0" height="0" style={{ position: "absolute" }}>
+            <defs>
+              <linearGradient id="ecgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#1fb6e0" />{" "}
+                <stop offset="100%" stopColor="#8b3dff" />{" "}
+              </linearGradient>{" "}
+              <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#1fb6e0" />{" "}
+                <stop offset="100%" stopColor="#8b3dff" />{" "}
+              </linearGradient>{" "}
+              <linearGradient
+                id="glucoseGrad"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="0%"
+              >
+                <stop offset="0%" stopColor="#1fb6e0" />{" "}
+                <stop offset="100%" stopColor="#8b3dff" />{" "}
+              </linearGradient>{" "}
+              <linearGradient id="breathGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stopColor="#1fb6e0" />{" "}
+                <stop offset="100%" stopColor="#8b3dff" />{" "}
+              </linearGradient>{" "}
+            </defs>{" "}
+          </svg>{" "}
+          <div className="hero-panel-header">
+            <span className="eyebrow">Explore our specialties</span>{" "}
+          </div>{" "}
+          <div
+            className="hero-panel-tabs"
+            role="tablist"
+            aria-label="Explore our specialties"
+          >
+            <button
+              className="hero-tab active"
+              data-spec="cardio"
+              role="tab"
+              id="tab-cardio"
+              aria-controls="panel-cardio"
+              aria-selected={true}
+              tabIndex={0}
+            >
+              Cardiology
+            </button>{" "}
+            <button
+              className="hero-tab"
+              data-spec="neuro"
+              role="tab"
+              id="tab-neuro"
+              aria-controls="panel-neuro"
+              aria-selected={false}
+              tabIndex={-1}
+            >
+              Neurology
+            </button>{" "}
+            <button
+              className="hero-tab"
+              data-spec="diabet"
+              role="tab"
+              id="tab-diabet"
+              aria-controls="panel-diabet"
+              aria-selected={false}
+              tabIndex={-1}
+            >
+              Diabetes
+            </button>{" "}
+            <button
+              className="hero-tab"
+              data-spec="pulmo"
+              role="tab"
+              id="tab-pulmo"
+              aria-controls="panel-pulmo"
+              aria-selected={false}
+              tabIndex={-1}
+            >
+              Pulmonology
+            </button>{" "}
+            <button
+              className="hero-tab"
+              data-spec="emerg"
+              role="tab"
+              id="tab-emerg"
+              aria-controls="panel-emerg"
+              aria-selected={false}
+              tabIndex={-1}
+            >
+              Emergency
+            </button>{" "}
+          </div>{" "}
+          <div className="hero-panel-stage">
+            <div
+              className="panel-content active"
+              data-spec="cardio"
+              role="tabpanel"
+              id="panel-cardio"
+              aria-labelledby="tab-cardio"
+            >
+              <span className="panel-institute">
+                Centre of Excellence in Cardiac Sciences
+              </span>{" "}
+              <h3 className="panel-headline">
+                72 bpm and holding. Your heart team is already watching.
+              </h3>{" "}
+              <div className="panel-visual">
+                <svg
+                  className="ecg-svg"
+                  viewBox="0 0 320 80"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    className="ecg-static"
+                    d="M0,40 L60,40 L72,40 L80,20 L88,60 L96,10 L104,55 L112,40 L160,40 L170,40 L178,30 L186,50 L194,20 L202,55 L210,40 L260,40 L268,38 L276,42 L284,40 L320,40"
+                  />{" "}
+                  <path
+                    className="ecg-pulse"
+                    d="M0,40 L60,40 L72,40 L80,20 L88,60 L96,10 L104,55 L112,40 L160,40 L170,40 L178,30 L186,50 L194,20 L202,55 L210,40 L260,40 L268,38 L276,42 L284,40 L320,40"
+                  />{" "}
+                </svg>{" "}
               </div>{" "}
-              <div className="hero-panel-tabs" role="tablist" aria-label="Explore our specialties">
-                <button className="hero-tab active" data-spec="cardio" role="tab" id="tab-cardio" aria-controls="panel-cardio" aria-selected={true} tabIndex={0}>Cardiology</button>{" "}
-                <button className="hero-tab" data-spec="neuro" role="tab" id="tab-neuro" aria-controls="panel-neuro" aria-selected={false} tabIndex={-1}>Neurology</button>{" "}
-                <button className="hero-tab" data-spec="diabet" role="tab" id="tab-diabet" aria-controls="panel-diabet" aria-selected={false} tabIndex={-1}>Diabetes</button>{" "}
-                <button className="hero-tab" data-spec="pulmo" role="tab" id="tab-pulmo" aria-controls="panel-pulmo" aria-selected={false} tabIndex={-1}>Pulmonology</button>{" "}
-                <button className="hero-tab" data-spec="emerg" role="tab" id="tab-emerg" aria-controls="panel-emerg" aria-selected={false} tabIndex={-1}>Emergency</button>{" "}
-              </div>{" "}
-              <div className="hero-panel-stage">
-                <div className="panel-content active" data-spec="cardio" role="tabpanel" id="panel-cardio" aria-labelledby="tab-cardio">
-                  <span className="panel-institute">Centre of Excellence in Cardiac Sciences</span>{" "}
-                  <h3 className="panel-headline">72 bpm and holding. Your heart team is already watching.</h3>{" "}
-                  <div className="panel-visual">
-                    <svg className="ecg-svg" viewBox="0 0 320 80" preserveAspectRatio="xMidYMid meet">
-                      <path className="ecg-static" d="M0,40 L60,40 L72,40 L80,20 L88,60 L96,10 L104,55 L112,40 L160,40 L170,40 L178,30 L186,50 L194,20 L202,55 L210,40 L260,40 L268,38 L276,42 L284,40 L320,40" />{" "}
-                      <path className="ecg-pulse" d="M0,40 L60,40 L72,40 L80,20 L88,60 L96,10 L104,55 L112,40 L160,40 L170,40 L178,30 L186,50 L194,20 L202,55 L210,40 L260,40 L268,38 L276,42 L284,40 L320,40" />{" "}
-                    </svg>{" "}
+              <div className="panel-meta">
+                <div>
+                  <div className="panel-meta-num">
+                    <span data-counter="72">72</span>
+                    <span className="unit">bpm</span>
                   </div>{" "}
-                  <div className="panel-meta">
-                    <div>
-                      <div className="panel-meta-num">
-                        <span data-counter="72">72</span>
-                        <span className="unit">bpm</span>
-                      </div>{" "}
-                      <div className="caption" style={{ marginTop: '6px' }}>Average patient heart rate, ICU floor</div>{" "}
-                    </div>{" "}
-                    <div className="panel-meta-lbl">24x7 hybrid cath lab. Door-to-balloon under 60 min.</div>{" "}
+                  <div className="caption" style={{ marginTop: "6px" }}>
+                    Average patient heart rate, ICU floor
                   </div>{" "}
-                  <a href="/clinical-excellence/cardiac-sciences" className="panel-cta">Visit Centre of Excellence in Cardiac Sciences <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-  <path d="M5 12h14M13 5l7 7-7 7" />
-</svg></a>{" "}
-                </div>{" "}{" "}
-                <div className="panel-content" data-spec="neuro" role="tabpanel" id="panel-neuro" aria-labelledby="tab-neuro">
-                  <span className="panel-institute">Centre of Excellence in Neuro Sciences</span>{" "}
-                  <h3 className="panel-headline">38 minutes from door to needle. Every second was planned.</h3>{" "}
-                  <div className="panel-visual">
-                    <svg className="brain-svg" viewBox="0 0 320 90" preserveAspectRatio="xMidYMid meet">
-                      <path className="brain-wave brain-wave-3" d="M0,45 Q40,15 80,45 T160,45 T240,45 T320,45" />{" "}
-                      <path className="brain-wave brain-wave-2" d="M0,45 Q40,25 80,45 T160,45 T240,45 T320,45" />{" "}
-                      <path className="brain-wave brain-wave-1" d="M0,45 Q40,30 80,45 T160,45 T240,45 T320,45" />{" "}
-                    </svg>{" "}
-                  </div>{" "}
-                  <div className="panel-meta">
-                    <div>
-                      <div className="panel-meta-num">
-                        <span data-counter="38">38</span>
-                        <span className="unit">min</span>
-                      </div>{" "}
-                      <div className="caption" style={{ marginTop: '6px' }}>Door-to-needle time, average stroke case</div>{" "}
-                    </div>{" "}
-                    <div className="panel-meta-lbl">24x7 stroke code. Interventional neuroradiology on site.</div>{" "}
-                  </div>{" "}
-                  <a href="/clinical-excellence/neuro-sciences" className="panel-cta">Visit Centre of Excellence in Neuro Sciences <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-  <path d="M5 12h14M13 5l7 7-7 7" />
-</svg></a>{" "}
-                </div>{" "}{" "}
-                <div className="panel-content" data-spec="diabet" role="tabpanel" id="panel-diabet" aria-labelledby="tab-diabet">
-                  <span className="panel-institute">Diabetology &amp; Endocrinology</span>{" "}
-                  <h3 className="panel-headline">Your HbA1c dropped 1.4 points in 90 days. Here is how.</h3>{" "}
-                  <div className="panel-visual">
-                    <svg className="glucose-svg" viewBox="0 0 200 130">
-                      <path className="glucose-track" d="M30,110 A70,70 0 0,1 170,110" />{" "}
-                      <path className="glucose-arc-cyan" d="M30,110 A70,70 0 0,1 170,110" />{" "}
-                      <path className="glucose-arc" d="M30,110 A70,70 0 0,1 170,110" />{" "}
-                      <text className="glucose-number" x="100" y="88">
-                        <tspan data-counter="98">98</tspan>
-                      </text>{" "}
-                      <text x="100" y="108" fontFamily="DM Sans" fontSize="10" fill="rgba(26,31,92,0.55)" textAnchor="middle" letterSpacing="1.5">MG/DL · IDEAL ZONE</text>{" "}
-                    </svg>{" "}
-                  </div>{" "}
-                  <div className="panel-meta">
-                    <div>
-                      <div className="panel-meta-num">
-                        <span data-counter="6">6</span>
-                        <span className="unit">.4 %</span>
-                      </div>{" "}
-                      <div className="caption" style={{ marginTop: '6px' }}>Avg HbA1c reduction across our long-term cohort</div>{" "}
-                    </div>{" "}
-                    <div className="panel-meta-lbl">Personalised insulin titration. Nutrition built in.</div>{" "}
-                  </div>{" "}
-                  <a href="/specialties/diabetology" className="panel-cta">Visit Diabetes &amp; Endocrinology <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-  <path d="M5 12h14M13 5l7 7-7 7" />
-</svg></a>{" "}
-                </div>{" "}{" "}
-                <div className="panel-content" data-spec="pulmo" role="tabpanel" id="panel-pulmo" aria-labelledby="tab-pulmo">
-                  <span className="panel-institute">Department of Pulmonology</span>{" "}
-                  <h3 className="panel-headline">Your lungs checked, your sleep tracked, your breathing restored.</h3>{" "}
-                  <div className="panel-visual">
-                    <svg className="breath-svg" viewBox="0 0 220 130">
-                      <circle className="breath-ring" cx="110" cy="65" r="36" />{" "}
-                      <circle className="breath-ring-2" cx="110" cy="65" r="36" />{" "}
-                      <circle className="breath-circle" cx="110" cy="65" r="32" />{" "}
-                      <text x="110" y="70" fontFamily="DM Sans" fontSize="14" fontWeight="600" fill="white" textAnchor="middle">SpO₂</text>{" "}
-                    </svg>{" "}
-                  </div>{" "}
-                  <div className="panel-meta">
-                    <div>
-                      <div className="panel-meta-num">
-                        <span data-counter="98">98</span>
-                        <span className="unit">%</span>
-                      </div>{" "}
-                      <div className="caption" style={{ marginTop: '6px' }}>SpO₂ target maintained across pulmonary care unit</div>{" "}
-                    </div>{" "}
-                    <div className="panel-meta-lbl">Bronchoscopy suite. PFT lab. Sleep medicine clinic.</div>{" "}
-                  </div>{" "}
-                  <a href="/specialties/pulmonology" className="panel-cta">Visit Pulmonology <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-  <path d="M5 12h14M13 5l7 7-7 7" />
-</svg></a>{" "}
-                </div>{" "}{" "}
-                <div className="panel-content" data-spec="emerg" role="tabpanel" id="panel-emerg" aria-labelledby="tab-emerg">
-                  <span className="panel-institute">Centre of Excellence in Emergency &amp; Critical Care</span>{" "}
-                  <h3 className="panel-headline">Ambulance dispatched. Trauma bay prepped. You are 8 minutes out.</h3>{" "}
-                  <div className="panel-visual">
-                    <svg className="ecg-svg" viewBox="0 0 320 80" preserveAspectRatio="xMidYMid meet">
-                      <path className="ecg-static" d="M0,40 L40,40 L48,20 L56,60 L64,15 L72,55 L80,40 L120,40 L128,25 L136,55 L144,20 L152,60 L160,40 L200,40 L208,30 L216,50 L224,40 L320,40" style={{ stroke: 'rgba(217, 53, 53, 0.18)' }} />{" "}
-                      <path className="ecg-pulse" d="M0,40 L40,40 L48,20 L56,60 L64,15 L72,55 L80,40 L120,40 L128,25 L136,55 L144,20 L152,60 L160,40 L200,40 L208,30 L216,50 L224,40 L320,40" style={{ stroke: 'var(--emergency)', filter: 'drop-shadow(0 0 6px rgba(217, 53, 53, 0.5))' }} />{" "}
-                    </svg>{" "}
-                  </div>{" "}
-                  <div className="panel-meta">
-                    <div>
-                      <div className="panel-meta-num">
-                        <span data-counter="8">8</span>
-                        <span className="unit">min</span>
-                      </div>{" "}
-                      <div className="caption" style={{ marginTop: '6px' }}>Average ambulance dispatch time within 10 km</div>{" "}
-                    </div>{" "}
-                    <div className="panel-meta-lbl">Trauma bays, dedicated ICUs, 24x7 polytrauma response.</div>{" "}
-                  </div>{" "}
-                  <a href="tel:+919644496444" className="panel-cta" style={{ color: 'var(--emergency)' }}>Emergency: +91 96444 96444 <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-  <path d="M5 12h14M13 5l7 7-7 7" />
-</svg></a>{" "}
+                </div>{" "}
+                <div className="panel-meta-lbl">
+                  24x7 hybrid cath lab. Door-to-balloon under 60 min.
                 </div>{" "}
               </div>{" "}
+              <a
+                href="/clinical-excellence/cardiac-sciences"
+                className="panel-cta"
+              >
+                Visit Centre of Excellence in Cardiac Sciences{" "}
+                <svg
+                  className="arrow"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>{" "}
+            </div>{" "}
+            <div
+              className="panel-content"
+              data-spec="neuro"
+              role="tabpanel"
+              id="panel-neuro"
+              aria-labelledby="tab-neuro"
+            >
+              <span className="panel-institute">
+                Centre of Excellence in Neuro Sciences
+              </span>{" "}
+              <h3 className="panel-headline">
+                38 minutes from door to needle. Every second was planned.
+              </h3>{" "}
+              <div className="panel-visual">
+                <svg
+                  className="brain-svg"
+                  viewBox="0 0 320 90"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    className="brain-wave brain-wave-3"
+                    d="M0,45 Q40,15 80,45 T160,45 T240,45 T320,45"
+                  />{" "}
+                  <path
+                    className="brain-wave brain-wave-2"
+                    d="M0,45 Q40,25 80,45 T160,45 T240,45 T320,45"
+                  />{" "}
+                  <path
+                    className="brain-wave brain-wave-1"
+                    d="M0,45 Q40,30 80,45 T160,45 T240,45 T320,45"
+                  />{" "}
+                </svg>{" "}
+              </div>{" "}
+              <div className="panel-meta">
+                <div>
+                  <div className="panel-meta-num">
+                    <span data-counter="38">38</span>
+                    <span className="unit">min</span>
+                  </div>{" "}
+                  <div className="caption" style={{ marginTop: "6px" }}>
+                    Door-to-needle time, average stroke case
+                  </div>{" "}
+                </div>{" "}
+                <div className="panel-meta-lbl">
+                  24x7 stroke code. Interventional neuroradiology on site.
+                </div>{" "}
+              </div>{" "}
+              <a
+                href="/clinical-excellence/neuro-sciences"
+                className="panel-cta"
+              >
+                Visit Centre of Excellence in Neuro Sciences{" "}
+                <svg
+                  className="arrow"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>{" "}
+            </div>{" "}
+            <div
+              className="panel-content"
+              data-spec="diabet"
+              role="tabpanel"
+              id="panel-diabet"
+              aria-labelledby="tab-diabet"
+            >
+              <span className="panel-institute">
+                Diabetology &amp; Endocrinology
+              </span>{" "}
+              <h3 className="panel-headline">
+                Your HbA1c dropped 1.4 points in 90 days. Here is how.
+              </h3>{" "}
+              <div className="panel-visual">
+                <svg className="glucose-svg" viewBox="0 0 200 130">
+                  <path
+                    className="glucose-track"
+                    d="M30,110 A70,70 0 0,1 170,110"
+                  />{" "}
+                  <path
+                    className="glucose-arc-cyan"
+                    d="M30,110 A70,70 0 0,1 170,110"
+                  />{" "}
+                  <path
+                    className="glucose-arc"
+                    d="M30,110 A70,70 0 0,1 170,110"
+                  />{" "}
+                  <text className="glucose-number" x="100" y="88">
+                    <tspan data-counter="98">98</tspan>
+                  </text>{" "}
+                  <text
+                    x="100"
+                    y="108"
+                    fontFamily="DM Sans"
+                    fontSize="10"
+                    fill="rgba(26,31,92,0.55)"
+                    textAnchor="middle"
+                    letterSpacing="1.5"
+                  >
+                    MG/DL · IDEAL ZONE
+                  </text>{" "}
+                </svg>{" "}
+              </div>{" "}
+              <div className="panel-meta">
+                <div>
+                  <div className="panel-meta-num">
+                    <span data-counter="6">6</span>
+                    <span className="unit">.4 %</span>
+                  </div>{" "}
+                  <div className="caption" style={{ marginTop: "6px" }}>
+                    Avg HbA1c reduction across our long-term cohort
+                  </div>{" "}
+                </div>{" "}
+                <div className="panel-meta-lbl">
+                  Personalised insulin titration. Nutrition built in.
+                </div>{" "}
+              </div>{" "}
+              <a href="/specialties/diabetology" className="panel-cta">
+                Visit Diabetes &amp; Endocrinology{" "}
+                <svg
+                  className="arrow"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>{" "}
+            </div>{" "}
+            <div
+              className="panel-content"
+              data-spec="pulmo"
+              role="tabpanel"
+              id="panel-pulmo"
+              aria-labelledby="tab-pulmo"
+            >
+              <span className="panel-institute">Department of Pulmonology</span>{" "}
+              <h3 className="panel-headline">
+                Your lungs checked, your sleep tracked, your breathing restored.
+              </h3>{" "}
+              <div className="panel-visual">
+                <svg className="breath-svg" viewBox="0 0 220 130">
+                  <circle className="breath-ring" cx="110" cy="65" r="36" />{" "}
+                  <circle className="breath-ring-2" cx="110" cy="65" r="36" />{" "}
+                  <circle className="breath-circle" cx="110" cy="65" r="32" />{" "}
+                  <text
+                    x="110"
+                    y="70"
+                    fontFamily="DM Sans"
+                    fontSize="14"
+                    fontWeight="600"
+                    fill="white"
+                    textAnchor="middle"
+                  >
+                    SpO₂
+                  </text>{" "}
+                </svg>{" "}
+              </div>{" "}
+              <div className="panel-meta">
+                <div>
+                  <div className="panel-meta-num">
+                    <span data-counter="98">98</span>
+                    <span className="unit">%</span>
+                  </div>{" "}
+                  <div className="caption" style={{ marginTop: "6px" }}>
+                    SpO₂ target maintained across pulmonary care unit
+                  </div>{" "}
+                </div>{" "}
+                <div className="panel-meta-lbl">
+                  Bronchoscopy suite. PFT lab. Sleep medicine clinic.
+                </div>{" "}
+              </div>{" "}
+              <a href="/specialties/pulmonology" className="panel-cta">
+                Visit Pulmonology{" "}
+                <svg
+                  className="arrow"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>{" "}
+            </div>{" "}
+            <div
+              className="panel-content"
+              data-spec="emerg"
+              role="tabpanel"
+              id="panel-emerg"
+              aria-labelledby="tab-emerg"
+            >
+              <span className="panel-institute">
+                Centre of Excellence in Emergency &amp; Critical Care
+              </span>{" "}
+              <h3 className="panel-headline">
+                Ambulance dispatched. Trauma bay prepped. You are 8 minutes out.
+              </h3>{" "}
+              <div className="panel-visual">
+                <svg
+                  className="ecg-svg"
+                  viewBox="0 0 320 80"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    className="ecg-static"
+                    d="M0,40 L40,40 L48,20 L56,60 L64,15 L72,55 L80,40 L120,40 L128,25 L136,55 L144,20 L152,60 L160,40 L200,40 L208,30 L216,50 L224,40 L320,40"
+                    style={{ stroke: "rgba(217, 53, 53, 0.18)" }}
+                  />{" "}
+                  <path
+                    className="ecg-pulse"
+                    d="M0,40 L40,40 L48,20 L56,60 L64,15 L72,55 L80,40 L120,40 L128,25 L136,55 L144,20 L152,60 L160,40 L200,40 L208,30 L216,50 L224,40 L320,40"
+                    style={{
+                      stroke: "var(--emergency)",
+                      filter: "drop-shadow(0 0 6px rgba(217, 53, 53, 0.5))",
+                    }}
+                  />{" "}
+                </svg>{" "}
+              </div>{" "}
+              <div className="panel-meta">
+                <div>
+                  <div className="panel-meta-num">
+                    <span data-counter="8">8</span>
+                    <span className="unit">min</span>
+                  </div>{" "}
+                  <div className="caption" style={{ marginTop: "6px" }}>
+                    Average ambulance dispatch time within 10 km
+                  </div>{" "}
+                </div>{" "}
+                <div className="panel-meta-lbl">
+                  Trauma bays, dedicated ICUs, 24x7 polytrauma response.
+                </div>{" "}
+              </div>{" "}
+              <a
+                href="tel:+919644496444"
+                className="panel-cta"
+                style={{ color: "var(--emergency)" }}
+              >
+                Emergency: +91 96444 96444{" "}
+                <svg
+                  className="arrow"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <path d="M5 12h14M13 5l7 7-7 7" />
+                </svg>
+              </a>{" "}
             </div>{" "}
           </div>{" "}
+        </div>{" "}
+      </div>{" "}
     </HeroCarousel>
   );
 }

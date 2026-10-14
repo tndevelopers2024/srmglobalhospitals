@@ -5,34 +5,31 @@ import { ArrowLeft, ArrowRight, Pause, Play } from "lucide-react";
 
 const slides = [
   {
-    label: "Family care",
-    eyebrow: "SRM Global Hospitals · Chengalpattu",
-    title: <>Super speciality care,<br /> held to a <em>higher</em> standard.</>,
-    description: "A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.",
+    label: "Cardiac sciences",
+    title: <>Every heartbeat,<br /> <em>cared for.</em></>,
+    description: <>Comprehensive cardiac care built<br />around every beat of life.</>,
     image: "/images/home/banner/desktop-banner-1.jpeg",
     mobileImage: "/images/home/banner/mobile-banner-1.jpeg",
-    href: "/book-an-appointment",
-    action: "Book an appointment",
+    href: "/clinical-excellence/cardiac-sciences",
+    action: "Explore cardiac care",
   },
   {
-    label: "Centres of excellence",
-    eyebrow: "Expert teams · Connected care",
-    title: <>Specialist expertise.<br /> <em>One</em> connected campus.</>,
-    description: "Explore our centres of excellence, where specialist teams work together across cardiac, neuro, renal, and other advanced medical services.",
+    label: "Digestive care",
+    title: <>Your Gut <em>TALKS.</em><br /> We <em>LISTEN.</em></>,
+    description: <>Every Digestive Concern<br />Deserves Expert Attention.</>,
     image: "/images/home/banner/desktop-banner-2.jpeg",
     mobileImage: "/images/home/banner/mobile-banner-2.jpeg",
-    href: "/clinical-excellence",
-    action: "Explore our centres",
+    href: "/clinical-excellence/gastro-and-liver-sciences",
+    action: "Explore digestive care",
   },
   {
-    label: "International patients",
-    eyebrow: "International patient services",
-    title: <>Care without borders.<br /> Support at <em>every</em> step.</>,
-    description: "Plan your care with a dedicated international patient team, from consultation and treatment estimates to travel guidance and follow-up support.",
+    label: "Bone, joint and spine care",
+    title: <>Move <em>without limits.</em></>,
+    description: <>Advanced orthopaedic and spine care<br />that gets you moving again.</>,
     image: "/images/home/banner/desktop-banner-3.jpeg",
     mobileImage: "/images/home/banner/mobile-banner-3.jpeg",
-    href: "/international-patients",
-    action: "Plan your visit",
+    href: "/clinical-excellence/bone-joint-spine",
+    action: "Explore bone, joint & spine care",
   },
 ];
 
@@ -90,7 +87,6 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
             <div aria-live={rotating ? "off" : "polite"} aria-atomic="true">
               {slides.map((slide, index) => (
                 <div key={slide.label} hidden={active !== index} role="group" aria-roledescription="slide" aria-label={`${index + 1} of ${slides.length}: ${slide.label}`} id={`home-slide-${index}`}>
-                  <div className="hero-slide-eyebrow">{slide.eyebrow}</div>
                   {index === 0 ? (
                     <h1 className="hero-headline">{slide.title}</h1>
                   ) : (
