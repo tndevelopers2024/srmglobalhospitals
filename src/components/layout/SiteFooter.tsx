@@ -126,7 +126,7 @@ export default function SiteFooter() {
               >
                 <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" style={{ flexShrink: 0 }}>
                   <rect x="2" y="4" width="20" height="16" rx="2" />
-                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                 </svg>
                 {siteConfig.contact.email}
               </a>
@@ -173,7 +173,7 @@ export default function SiteFooter() {
                 <Link href="/best-doctor">Doctors</Link>
               </li>{" "}
               <li>
-                <Link href="/#packages">Health Packages</Link>
+                <Link href="/contact-us#book-appointment">Health Packages</Link>
               </li>{" "}
               <li>
                 <Link href={"/international-patients" as Route}>International Patients</Link>
@@ -182,7 +182,7 @@ export default function SiteFooter() {
                 <Link href="/services">Hospital Services</Link>
               </li>{" "}
               <li>
-                <Link href="/#emergency">Emergency</Link>
+                <Link href="/clinical-excellence/emergency-and-critical-care">Emergency</Link>
               </li>{" "}
             </ul>{" "}
           </div>{" "}
@@ -196,13 +196,13 @@ export default function SiteFooter() {
                 <Link href="/#insurance">Insurance &amp; Cashless</Link>
               </li>{" "}
               <li>
-                <Link href="/#admissions">Admissions</Link>
+                <Link href="/contact-us#contact-details">Admissions</Link>
               </li>{" "}
               <li>
-                <Link href="/#visitors">Visitor Information</Link>
+                <Link href="/contact-us#hospital-location">Visitor Information</Link>
               </li>{" "}
               <li>
-                <Link href="/#records">Medical Records</Link>
+                <Link href="/contact-us#contact-details">Medical Records</Link>
               </li>{" "}
               <li>
                 <Link href="/#stories">Patient Stories</Link>
@@ -231,7 +231,7 @@ export default function SiteFooter() {
                 <Link href={"/careers/hospital-staff" as Route}>Staff Careers</Link>
               </li>{" "}
               <li>
-                <Link href="/blog">Newsroom</Link>
+                <Link href="/in-the-media">Newsroom</Link>
               </li>{" "}
               <li>
                 <Link href="/blog">Insights Blog</Link>
@@ -249,9 +249,7 @@ export default function SiteFooter() {
         <div className="footer-bottom" ref={footerBottomRef}>
           <div>©️ 2026 SRM Global Hospitals (A part of SRM Group). All Rights Reserved.</div>{" "}
           <div className="footer-bottom-links">
-            <Link href="/#privacy">Privacy Policy</Link>{" "}
-            <Link href="/#terms">Terms &amp; Conditions</Link>{" "}
-            <Link href="/#disclaimer">Disclaimer</Link>{" "}
+            <Link href="/contact-us">Policies &amp; Patient Information</Link>{" "}
             <a href="/sitemap.xml">Sitemap</a>{" "}
           </div>{" "}
         </div>{" "}

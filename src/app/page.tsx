@@ -20,6 +20,9 @@ import Insurance from "@/components/home/Insurance";
 import StickyBar from "@/components/home/StickyBar";
 import FloatingCta from "@/components/home/FloatingCta";
 import HomeInteractions from "@/components/home/HomeInteractions";
+import { AboutCoreValues } from "@/components/about";
+import "@/styles/home-fixes.css";
+import "@/styles/about.css";
 
 export const metadata = createMetadata({
   title: `${siteConfig.name} | ${siteConfig.tagline}`,
@@ -32,7 +35,8 @@ export default function Home() {
   return (
     <>
       <HeaderTop />
-      <SiteHeader />
+      <SiteHeader activeNav="home" />
+      <main id="main-content" className="home-page">
       <Hero />
       <Triage />
       <CentresOfExcellence />
@@ -41,13 +45,16 @@ export default function Home() {
       <SpecialtyDirectory />
       <PatientStory />
       <NumbersBand />
-      <TechSection />
+        <TechSection />
+        {/*section from about us page*/}
+      <AboutCoreValues />
       <Doctors />
       <InternationalPatients />
       <HealthInsights />
       <Quality />
       <CtaTiles />
       <Insurance />
+      </main>
       <SiteFooter />
       <StickyBar />
       <FloatingCta />

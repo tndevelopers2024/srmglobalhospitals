@@ -16,12 +16,12 @@ export default function SpecialtyDirectory() {
                 <circle cx="11" cy="11" r="7" />
                 <path d="m21 21-4.35-4.35" />
               </svg>{" "}
-              <input type="search" placeholder="Search 40+ specialties, doctors, conditions" />{" "}
+              <input type="search" placeholder="Search specialties" aria-label="Search specialties" aria-controls="specialty-list" />{" "}
             </div>{" "}
-            <p className="caption" style={{ marginTop: '16px' }}>Looking for something specific? <a href="#" style={{ color: 'var(--ink)', borderBottom: '1px solid var(--ink)' }}>Browse by condition</a></p>{" "}
+            <p className="caption" style={{ marginTop: '16px' }}>Looking for something specific? <a href="/specialties" style={{ color: 'var(--ink)', borderBottom: '1px solid var(--ink)' }}>Browse all specialties</a></p>{" "}
           </div>{" "}
         </div>{" "}
-        <ul className="specialties-index">
+        <ul className="specialties-index" id="specialty-list">
           <li className="specialty-item">
             <Link href="/specialties/anaesthesiology" style={{ display: "flex", width: "100%", justifyContent: "space-between", alignItems: "center", color: "inherit", textDecoration: "none" }}>
               Anaesthesiology <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -323,7 +323,8 @@ export default function SpecialtyDirectory() {
               </svg>
             </Link>
           </li>{" "}
-        </ul>{" "}
+        </ul>
+        <p id="specialty-search-status" role="status" hidden>No specialties found. Try another search.</p>{" "}
       </div>{" "}
     </section>
   );

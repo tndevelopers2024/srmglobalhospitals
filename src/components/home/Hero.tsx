@@ -4,15 +4,16 @@ export default function Hero() {
       className="hero relative overflow-hidden"
     >
       <div
+        className="hero-background"
         aria-hidden="true"
         style={{
           position: "absolute",
           inset: 0,
-          backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('/images/family-hero-banner.png')",
+          backgroundImage: "linear-gradient(to right, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.72) 28%, rgba(255, 255, 255, 0.52) 44%, rgba(255, 255, 255, 0.20) 52%, rgba(255, 255, 255, 0) 60%), url('/images/family-hero-banner.avif')",
           backgroundSize: "cover",
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
-          transform: "scaleX(-1)",
+          transform: "scaleX(1)",
           pointerEvents: "none",
         }}
       />
@@ -24,20 +25,20 @@ export default function Hero() {
               <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
               SRM Global Hospitals · Chengalpattu
             </div>
-            
+
             {/* Gradient Headline */}
             <h1 className="hero-headline text-5xl md:text-6xl font-bold leading-tight mb-5 text-slate-900">
               Super speciality care,<br /> held to a <em className="not-italic text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">higher</em> standard.
             </h1>
-            
+
             <p className="hero-subline text-lg font-bold mb-8 max-w-xl" style={{ fontWeight: 700, color: 'var(--ink)' }}>
               A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.
             </p>
-            
+
             {/* Action Bar */}
             <div className="hero-actions mb-10" style={{ display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
-              <a href="#" style={{ fontWeight: 700, color: 'var(--ink)', display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '15px' }}>
-                Book an appointment 
+              <a href="/book-an-appointment" style={{ fontWeight: 700, color: 'var(--ink)', display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '15px' }}>
+                Book an appointment
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
               </a>
               <a href="/best-doctor" style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '15px' }}>
@@ -50,15 +51,15 @@ export default function Hero() {
             </div>
             <div className="hero-meta">
               <div className="hero-meta-item">
-                <span className="num" data-counter="7">0</span>{" "}
+                <span className="num" data-counter="7">7</span>{" "}
                 <span className="lbl">Centres of Excellence</span>{" "}
               </div>{" "}
               <div className="hero-meta-item">
-                <span className="num"><span data-counter="40">0</span>+</span>{" "}
+                <span className="num"><span data-counter="40">40</span>+</span>{" "}
                 <span className="lbl">Specialties</span>{" "}
               </div>{" "}
               <div className="hero-meta-item">
-                <span className="num"><span data-counter="100">0</span>+</span>{" "}
+                <span className="num"><span data-counter="100">100</span>+</span>{" "}
                 <span className="lbl">Senior Specialists</span>{" "}
               </div>{" "}
             </div>{" "}
@@ -97,15 +98,15 @@ export default function Hero() {
               <div className="hero-panel-header">
                 <span className="eyebrow">Explore our specialties</span>{" "}
               </div>{" "}
-              <div className="hero-panel-tabs" role="tablist">
-                <button className="hero-tab active" data-spec="cardio" role="tab">Cardiology</button>{" "}
-                <button className="hero-tab" data-spec="neuro" role="tab">Neurology</button>{" "}
-                <button className="hero-tab" data-spec="diabet" role="tab">Diabetes</button>{" "}
-                <button className="hero-tab" data-spec="pulmo" role="tab">Pulmonology</button>{" "}
-                <button className="hero-tab" data-spec="emerg" role="tab">Emergency</button>{" "}
+              <div className="hero-panel-tabs" role="tablist" aria-label="Explore our specialties">
+                <button className="hero-tab active" data-spec="cardio" role="tab" id="tab-cardio" aria-controls="panel-cardio" aria-selected={true} tabIndex={0}>Cardiology</button>{" "}
+                <button className="hero-tab" data-spec="neuro" role="tab" id="tab-neuro" aria-controls="panel-neuro" aria-selected={false} tabIndex={-1}>Neurology</button>{" "}
+                <button className="hero-tab" data-spec="diabet" role="tab" id="tab-diabet" aria-controls="panel-diabet" aria-selected={false} tabIndex={-1}>Diabetes</button>{" "}
+                <button className="hero-tab" data-spec="pulmo" role="tab" id="tab-pulmo" aria-controls="panel-pulmo" aria-selected={false} tabIndex={-1}>Pulmonology</button>{" "}
+                <button className="hero-tab" data-spec="emerg" role="tab" id="tab-emerg" aria-controls="panel-emerg" aria-selected={false} tabIndex={-1}>Emergency</button>{" "}
               </div>{" "}
               <div className="hero-panel-stage">
-                <div className="panel-content active" data-spec="cardio">
+                <div className="panel-content active" data-spec="cardio" role="tabpanel" id="panel-cardio" aria-labelledby="tab-cardio">
                   <span className="panel-institute">Centre of Excellence in Cardiac Sciences</span>{" "}
                   <h3 className="panel-headline">72 bpm and holding. Your heart team is already watching.</h3>{" "}
                   <div className="panel-visual">
@@ -117,18 +118,18 @@ export default function Hero() {
                   <div className="panel-meta">
                     <div>
                       <div className="panel-meta-num">
-                        <span data-counter="72">0</span>
+                        <span data-counter="72">72</span>
                         <span className="unit">bpm</span>
                       </div>{" "}
                       <div className="caption" style={{ marginTop: '6px' }}>Average patient heart rate, ICU floor</div>{" "}
                     </div>{" "}
                     <div className="panel-meta-lbl">24x7 hybrid cath lab. Door-to-balloon under 60 min.</div>{" "}
                   </div>{" "}
-                  <a href="#" className="panel-cta">Visit Centre of Excellence in Cardiac Sciences <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <a href="/clinical-excellence/cardiac-sciences" className="panel-cta">Visit Centre of Excellence in Cardiac Sciences <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
                 </div>{" "}{" "}
-                <div className="panel-content" data-spec="neuro">
+                <div className="panel-content" data-spec="neuro" role="tabpanel" id="panel-neuro" aria-labelledby="tab-neuro">
                   <span className="panel-institute">Centre of Excellence in Neuro Sciences</span>{" "}
                   <h3 className="panel-headline">38 minutes from door to needle. Every second was planned.</h3>{" "}
                   <div className="panel-visual">
@@ -141,18 +142,18 @@ export default function Hero() {
                   <div className="panel-meta">
                     <div>
                       <div className="panel-meta-num">
-                        <span data-counter="38">0</span>
+                        <span data-counter="38">38</span>
                         <span className="unit">min</span>
                       </div>{" "}
                       <div className="caption" style={{ marginTop: '6px' }}>Door-to-needle time, average stroke case</div>{" "}
                     </div>{" "}
                     <div className="panel-meta-lbl">24x7 stroke code. Interventional neuroradiology on site.</div>{" "}
                   </div>{" "}
-                  <a href="#" className="panel-cta">Visit Centre of Excellence in Neuro Sciences <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <a href="/clinical-excellence/neuro-sciences" className="panel-cta">Visit Centre of Excellence in Neuro Sciences <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
                 </div>{" "}{" "}
-                <div className="panel-content" data-spec="diabet">
+                <div className="panel-content" data-spec="diabet" role="tabpanel" id="panel-diabet" aria-labelledby="tab-diabet">
                   <span className="panel-institute">Diabetology &amp; Endocrinology</span>{" "}
                   <h3 className="panel-headline">Your HbA1c dropped 1.4 points in 90 days. Here is how.</h3>{" "}
                   <div className="panel-visual">
@@ -161,7 +162,7 @@ export default function Hero() {
                       <path className="glucose-arc-cyan" d="M30,110 A70,70 0 0,1 170,110" />{" "}
                       <path className="glucose-arc" d="M30,110 A70,70 0 0,1 170,110" />{" "}
                       <text className="glucose-number" x="100" y="88">
-                        <tspan data-counter="98">0</tspan>
+                        <tspan data-counter="98">98</tspan>
                       </text>{" "}
                       <text x="100" y="108" fontFamily="DM Sans" fontSize="10" fill="rgba(26,31,92,0.55)" textAnchor="middle" letterSpacing="1.5">MG/DL · IDEAL ZONE</text>{" "}
                     </svg>{" "}
@@ -169,18 +170,18 @@ export default function Hero() {
                   <div className="panel-meta">
                     <div>
                       <div className="panel-meta-num">
-                        <span data-counter="6">0</span>
+                        <span data-counter="6">6</span>
                         <span className="unit">.4 %</span>
                       </div>{" "}
                       <div className="caption" style={{ marginTop: '6px' }}>Avg HbA1c reduction across our long-term cohort</div>{" "}
                     </div>{" "}
                     <div className="panel-meta-lbl">Personalised insulin titration. Nutrition built in.</div>{" "}
                   </div>{" "}
-                  <a href="#" className="panel-cta">Visit Diabetes &amp; Endocrinology <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <a href="/specialties/diabetology" className="panel-cta">Visit Diabetes &amp; Endocrinology <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
                 </div>{" "}{" "}
-                <div className="panel-content" data-spec="pulmo">
+                <div className="panel-content" data-spec="pulmo" role="tabpanel" id="panel-pulmo" aria-labelledby="tab-pulmo">
                   <span className="panel-institute">Department of Pulmonology</span>{" "}
                   <h3 className="panel-headline">Your lungs checked, your sleep tracked, your breathing restored.</h3>{" "}
                   <div className="panel-visual">
@@ -194,18 +195,18 @@ export default function Hero() {
                   <div className="panel-meta">
                     <div>
                       <div className="panel-meta-num">
-                        <span data-counter="98">0</span>
+                        <span data-counter="98">98</span>
                         <span className="unit">%</span>
                       </div>{" "}
                       <div className="caption" style={{ marginTop: '6px' }}>SpO₂ target maintained across pulmonary care unit</div>{" "}
                     </div>{" "}
                     <div className="panel-meta-lbl">Bronchoscopy suite. PFT lab. Sleep medicine clinic.</div>{" "}
                   </div>{" "}
-                  <a href="#" className="panel-cta">Visit Pulmonology <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <a href="/specialties/pulmonology" className="panel-cta">Visit Pulmonology <svg className="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
                 </div>{" "}{" "}
-                <div className="panel-content" data-spec="emerg">
+                <div className="panel-content" data-spec="emerg" role="tabpanel" id="panel-emerg" aria-labelledby="tab-emerg">
                   <span className="panel-institute">Centre of Excellence in Emergency &amp; Critical Care</span>{" "}
                   <h3 className="panel-headline">Ambulance dispatched. Trauma bay prepped. You are 8 minutes out.</h3>{" "}
                   <div className="panel-visual">
@@ -217,7 +218,7 @@ export default function Hero() {
                   <div className="panel-meta">
                     <div>
                       <div className="panel-meta-num">
-                        <span data-counter="8">0</span>
+                        <span data-counter="8">8</span>
                         <span className="unit">min</span>
                       </div>{" "}
                       <div className="caption" style={{ marginTop: '6px' }}>Average ambulance dispatch time within 10 km</div>{" "}
@@ -233,25 +234,6 @@ export default function Hero() {
           </div>{" "}
         </div>{" "}
       </div>{" "}
-      {/* Campus location caption */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: "14px",
-          left: "20px",
-          fontSize: "11px",
-          fontWeight: 600,
-          letterSpacing: "1.8px",
-          textTransform: "uppercase",
-          color: "rgba(255,255,255,0.82)",
-          textShadow: "0 1px 4px rgba(0,0,0,0.55)",
-          zIndex: 20,
-          pointerEvents: "none",
-          userSelect: "none",
-        }}
-      >
-        Our Campus · Chengalpattu, Chennai
-      </div>
     </section>
   );
 }
