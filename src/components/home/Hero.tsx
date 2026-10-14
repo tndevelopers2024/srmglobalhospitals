@@ -2,14 +2,20 @@ export default function Hero() {
   return (
     <section
       className="hero relative overflow-hidden"
-      style={{
-        backgroundImage:
-          "linear-gradient(to right, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.72) 28%, rgba(255, 255, 255, 0.52) 44%, rgba(255, 255, 255, 0.20) 52%, rgba(255, 255, 255, 0) 60%), url('/images/home/hero-building.jpg')",
-        backgroundSize: "auto, cover",
-        backgroundPosition: "center, center center",
-        backgroundRepeat: "no-repeat, no-repeat",
-      }}
     >
+      <div
+        aria-hidden="true"
+        style={{
+          position: "absolute",
+          inset: 0,
+          backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('/images/family-hero-banner.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+          backgroundRepeat: "no-repeat",
+          transform: "scaleX(-1)",
+          pointerEvents: "none",
+        }}
+      />
       <div className="container relative z-10">
         <div className="hero-grid">
           <div className="hero-content">

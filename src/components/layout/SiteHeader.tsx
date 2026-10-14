@@ -173,6 +173,21 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
             <Link href={"/international-patients" as Route} className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
             <Link href="/services" className={activeNav === "services" ? "active" : undefined}>Services</Link>{" "}
             <Link href="/blog" className={activeNav === "insights" ? "active" : undefined}>Health Information</Link>{" "}
+            <div className="nav-dropdown-wrapper">
+              <Link href="/careers" className={activeNav === "careers" ? "active" : undefined} aria-haspopup="true">
+                Careers
+              </Link>
+              <div className="doctors-dropdown-menu">
+                <ul className="doctors-dropdown-list">
+                  <li className="doctors-dropdown-item">
+                    <Link href={"/careers/doctors" as Route} className="doctors-dropdown-link">Doctors</Link>
+                  </li>
+                  <li className="doctors-dropdown-item">
+                    <Link href={"/careers/hospital-staff" as Route} className="doctors-dropdown-link">Staff-Members</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>{" "}
           </nav>{" "}
           <div className="header-social">
             <a href={siteConfig.social.facebook} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
