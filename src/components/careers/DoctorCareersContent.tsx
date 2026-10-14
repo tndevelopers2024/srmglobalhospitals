@@ -2,29 +2,16 @@
 
 import React, { useState } from "react";
 import CareersApplicationModal from "./CareersApplicationModal";
-import CareerJobCard from "./CareerJobCard";
+import CareerJobFilters from "./CareerJobFilters";
 import { ALL_JOBS, JobItem } from "./CareersFilterAndJobs";
 
 export default function DoctorCareersContent() {
   const [selectedJob, setSelectedJob] = useState<JobItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"apply" | "details">("apply");
-  const [expandedJobIds, setExpandedJobIds] = useState<Set<string>>(new Set());
 
   // Filter medical / doctor roles from ALL_JOBS
   const doctorJobs = ALL_JOBS.filter((job) => job.category === "medical");
-
-  const toggleJob = (id: string) => {
-    setExpandedJobIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) {
-        next.delete(id);
-      } else {
-        next.add(id);
-      }
-      return next;
-    });
-  };
 
   const handleApplyDoctor = (job?: JobItem) => {
     if (job) {
@@ -37,9 +24,9 @@ export default function DoctorCareersContent() {
         category: "medical",
         jobType: "Full Time / Visiting Consultant",
         type: "Full Time / Visiting Consultant",
-        jobLocation: "Kattankulathur, Chennai",
-        location: "Kattankulathur, Chennai",
-        locationFilter: "kattankulathur",
+        jobLocation: "Chengalpattu, Chennai",
+        location: "Chengalpattu, Chennai",
+        locationFilter: "Chengalpattu",
         experience: "Freshers to Senior Consultants",
         experienceLevel: "all",
         qualification: "MBBS / MD / MS / DNB / DM / M.Ch with Valid TNMC Registration",
@@ -272,6 +259,21 @@ export default function DoctorCareersContent() {
         </div>
       </section>
 
+      <section
+        id="doctor-application"
+        className="careers-application-section"
+        aria-label="Doctor career application form"
+      >
+        <div className="careers-container">
+          <CareersApplicationModal
+            inline
+            isOpen
+            onClose={() => {}}
+            selectedJob={null}
+          />
+        </div>
+      </section>
+
       {/* 4. Opportunities for Consultants & Specialist Doctors */}
       <section id="doctor-opportunities" style={{ padding: "80px 24px", background: "#f8fafd" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
@@ -301,23 +303,12 @@ export default function DoctorCareersContent() {
               Physician & Clinical Specialist Opportunities
             </h2>
             <p style={{ fontFamily: "Inter, sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#4a5568", margin: 0 }}>
-              Review verified openings currently hiring at our Kattankulathur facility, or express interest for senior consultant appointments.
+              Review verified openings currently hiring at our Chengalpattu facility, or express interest for senior consultant appointments.
             </p>
           </div>
 
           {/* Active Job Cards */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "40px" }}>
-            {doctorJobs.map((job) => (
-              <CareerJobCard
-                key={job.id}
-                job={job}
-                isOpen={expandedJobIds.has(job.id)}
-                onToggle={() => toggleJob(job.id)}
-                onApply={handleApplyDoctor}
-                accentColor="#6B4A98"
-              />
-            ))}
-          </div>
+          <CareerJobFilters jobs={doctorJobs} onApply={handleApplyDoctor} accentColor="#6B4A98" />
 
           {/* Consultant Expression of Interest Box */}
           <div
@@ -598,7 +589,7 @@ export default function DoctorCareersContent() {
                   margin: "4px 0 0",
                 }}
               >
-                SRM Nagar, Potheri, Kattankulathur, Chennai, Tamil Nadu 603 203
+                SRM Nagar, Potheri, Chengalpattu, Chennai, Tamil Nadu 603 203
               </p>
             </div>
           </div>

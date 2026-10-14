@@ -151,8 +151,7 @@ export default function ArtBody() {
     <div className="about-text">
       <div className="eyebrow">About Us</div>
       <h2 className="section-heading">Cardiology Hospital in Chengalpattu for Heart Care</h2>
-      <p>The Institute of Cardiac Sciences at SRM Global Hospitals is a tertiary care hospital in Kattankulathur, Chengalpattu, India.</p>
-      <p>Diabetes, cholesterol, and hypertension are major risk factors for coronary artery disease.</p>
+      Chengalpattu      <p>Diabetes, cholesterol, and hypertension are major risk factors for coronary artery disease.</p>
       <div className="about-features">
         <div className="about-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>NABH Accredited</div>
         <div className="about-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>Preventive &amp; Interventional Cardiology</div>
@@ -323,17 +322,17 @@ export default function ArtBody() {
       <p className="section-sub">Diagnostics and invasive cardiac procedures.</p>
     </div>
     <div className="tabs-nav">
-      <button 
-        className={`tab-btn ${activeTab === 'diagnostics' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'diagnostics' ? 'active' : ''}`}
+        type="button"
         data-tab="diagnostics"
         onClick={() => setActiveTab('diagnostics')}
       >
         Non-Invasive Diagnostics
       </button>
-      <button 
-        className={`tab-btn ${activeTab === 'interventional' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'interventional' ? 'active' : ''}`}
+        type="button"
         data-tab="interventional"
         onClick={() => setActiveTab('interventional')}
       >

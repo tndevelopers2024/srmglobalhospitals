@@ -2,29 +2,16 @@
 
 import React, { useState } from "react";
 import CareersApplicationModal from "./CareersApplicationModal";
-import CareerJobCard from "./CareerJobCard";
+import CareerJobFilters from "./CareerJobFilters";
 import { ALL_JOBS, JobItem } from "./CareersFilterAndJobs";
 
 export default function StaffCareersContent() {
   const [selectedJob, setSelectedJob] = useState<JobItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"apply" | "details">("apply");
-  const [expandedJobIds, setExpandedJobIds] = useState<Set<string>>(new Set());
 
   // Non-physician / hospital staff jobs from ALL_JOBS
   const staffJobs = ALL_JOBS.filter((job) => job.category !== "medical");
-
-  const toggleJob = (id: string) => {
-    setExpandedJobIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) {
-        next.delete(id);
-      } else {
-        next.add(id);
-      }
-      return next;
-    });
-  };
 
   const handleApplyStaff = (job?: JobItem) => {
     if (job) {
@@ -37,9 +24,9 @@ export default function StaffCareersContent() {
         category: "nursing",
         jobType: "Full Time • In Person / Rotational Shifts",
         type: "Full Time • In Person",
-        jobLocation: "Kattankulathur, Chennai",
-        location: "Kattankulathur, Chennai",
-        locationFilter: "kattankulathur",
+        jobLocation: "Chengalpattu, Chennai",
+        location: "Chengalpattu, Chennai",
+        locationFilter: "Chengalpattu",
         experience: "Freshers to Experienced Professionals",
         experienceLevel: "all",
         qualification: "GNM / B.Sc Nursing / Diploma / B.Sc Allied Health / Graduate",
@@ -271,6 +258,22 @@ export default function StaffCareersContent() {
         </div>
       </section>
 
+      <section
+        id="staff-application"
+        className="careers-application-section"
+        aria-label="Hospital staff application form"
+      >
+        <div className="careers-container">
+          <CareersApplicationModal
+            inline
+            isOpen
+            onClose={() => {}}
+            selectedJob={null}
+            mode="apply"
+          />
+        </div>
+      </section>
+
       {/* 4. Active Hospital Staff Openings */}
       <section id="staff-opportunities" style={{ padding: "80px 24px", background: "#f8fafd" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
@@ -304,18 +307,7 @@ export default function StaffCareersContent() {
             </p>
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "40px" }}>
-            {staffJobs.map((job) => (
-              <CareerJobCard
-                key={job.id}
-                job={job}
-                isOpen={expandedJobIds.has(job.id)}
-                onToggle={() => toggleJob(job.id)}
-                onApply={handleApplyStaff}
-                accentColor="#2294D3"
-              />
-            ))}
-          </div>
+          <CareerJobFilters jobs={staffJobs} onApply={handleApplyStaff} accentColor="#2294D3" />
 
           {/* General Nursing & Allied Health Application Box */}
           <div
@@ -479,7 +471,7 @@ export default function StaffCareersContent() {
               <div style={{ fontSize: "28px", marginBottom: "12px" }}>🚆</div>
               <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 8px" }}>Prime Transit Access</h3>
               <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>
-                Located directly off the GST Road highway, right adjacent to the Kattankulathur suburban railway station with frequent local train and bus connections.
+                Located directly off the GST Road highway, right adjacent to the Chengalpattu suburban railway station with frequent local train and bus connections.
               </p>
             </div>
 

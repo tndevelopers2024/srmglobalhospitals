@@ -172,3 +172,66 @@ body:has(.sticky-bar.visible) .floating-cta {
     transform: none;
   }
 }
+
+@media (max-width: 640px) {
+  .home-page .intl-contact {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 24px 20px;
+    gap: 20px;
+  }
+
+  .home-page .intl-contact-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .home-page .intl-contact .btn {
+    justify-content: center;
+    white-space: normal;
+  }
+
+  .home-page .specialty-item a {
+    gap: 8px;
+    overflow-wrap: anywhere;
+  }
+
+  .home-page .specialty-item svg {
+    flex-shrink: 0;
+  }
+
+  .home-page .story-grid,
+  .home-page .tech-grid,
+  .home-page .intl-grid {
+    gap: 32px;
+  }
+
+  body:has(.home-page) .sticky-bar-actions {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  body:has(.home-page) footer {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 380px) {
+  .home-page .specialties-index {
+    columns: 1;
+  }
+
+  .home-page .hero-trust-badges {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-page .hero-trust-badge {
+    white-space: normal;
+  }
+
+  .home-page .insurance-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

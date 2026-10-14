@@ -160,7 +160,7 @@ export default function ArtBody() {
           <div className="about-text reveal">
             <div className="section-label">About the Department</div>
             <h2 className="section-title">Minimally Invasive, Image-Guided Care in Chengalpattu</h2>
-            <p>The Department of Interventional Radiology at SRM Global Hospital, Kattankulathur offers minimally invasive, image-guided procedures that serve as highly effective alternatives to traditional surgery. Using real-time imaging such as ultrasound, CT scan, and fluoroscopy, our interventional radiologists diagnose and treat a variety of conditions through tiny incisions, ensuring faster recovery, minimal pain, and reduced hospital stays.</p>
+            <p>The Department of Interventional Radiology at SRM Global Hospital, Chengalpattu offers minimally invasive, image-guided procedures that serve as highly effective alternatives to traditional surgery. Using real-time imaging such as ultrasound, CT scan, and fluoroscopy, our interventional radiologists diagnose and treat a variety of conditions through tiny incisions, ensuring faster recovery, minimal pain, and reduced hospital stays.</p>
             <p>From treating blocked blood vessels to targeting tumors without open surgery, our team plays a critical role across specialties including oncology, neurology, vascular care, and urology. As the best interventional radiology hospital in Chengalpattu, we combine advanced IR procedures with a multi-specialty, patient-centered approach to every case.</p>
           </div>
           <div className="about-img reveal">

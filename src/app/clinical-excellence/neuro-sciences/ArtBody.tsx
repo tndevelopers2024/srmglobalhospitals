@@ -107,7 +107,7 @@ export default function ArtBody() {
               </svg>
               <span>Center of Excellence</span>
             </div>
-            <h1>Neurology Hospital in Kattankulathur</h1>
+            <h1>Neurology Hospital in Chengalpattu</h1>
             <p className="hero-tagline">Advanced brain, spine, and nerve care with 24/7 neurology and neurosurgery services for Chengalpattu and surrounding areas.</p>
             <div className="hero-ctas">
               <a href="#cta-banner" className="btn btn-gradient">
@@ -172,7 +172,7 @@ export default function ArtBody() {
           <div className="about-text">
             <div className="eyebrow">About the Institute</div>
             <h2 className="section-heading">Neurology Hospital in Chengalpattu for Brain, Spine, and Nerve Care</h2>
-            <p>The Institute of Neuro Sciences at SRM Global Hospitals brings together neurologists and neurosurgeons under one roof to diagnose and treat the full range of neurological conditions. Located in Kattankulathur on GST Road, the department serves patients across Chengalpattu, Guduvancheri, Tambaram, and the broader southern Chennai corridor.</p>
+            <p>The Institute of Neuro Sciences at SRM Global Hospitals brings together neurologists and neurosurgeons under one roof to diagnose and treat the full range of neurological conditions. Located in Chengalpattu on GST Road, the department serves patients across Chengalpattu, Guduvancheri, Tambaram, and the broader southern Chennai corridor.</p>
             <p>From acute stroke intervention and complex brain surgery to long-term management of epilepsy and Parkinson&apos;s disease, the department is equipped with advanced CT and MRI imaging, a dedicated neuro ICU, and round-the-clock emergency neurology coverage. Every case is evaluated by a multidisciplinary team to determine the most effective treatment path.</p>
             <div className="about-features">
               <div className="about-feat">
@@ -882,7 +882,7 @@ export default function ArtBody() {
             {[
               {
                 q: "1. Is there a neurology hospital in Chengalpattu?",
-                a: "Yes. SRM Global Hospitals in Kattankulathur operates a full Department of Neuro Sciences with both neurology and neurosurgery services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Neurologists and neurosurgeons are available for outpatient consultations and emergency care.",
+                a: "Yes. SRM Global Hospitals in Chengalpattu operates a full Department of Neuro Sciences with both neurology and neurosurgery services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Neurologists and neurosurgeons are available for outpatient consultations and emergency care.",
               },
               {
                 q: "2. What neurological conditions are treated at SRM Global?",
@@ -914,7 +914,7 @@ export default function ArtBody() {
               },
               {
                 q: "9. How do I reach SRM Global Hospitals for a neurology consultation?",
-                a: "SRM Global Hospitals is located on GST Road in Kattankulathur, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for emergency neurology assistance.",
+                a: "SRM Global Hospitals is located on GST Road in Chengalpattu, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for emergency neurology assistance.",
               },
               {
                 q: "10. Does SRM Global accept insurance for neurology treatment?",

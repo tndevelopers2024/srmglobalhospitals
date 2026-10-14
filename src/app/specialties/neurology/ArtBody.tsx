@@ -158,7 +158,7 @@ export default function ArtBody() {
     <div className="about-text reveal">
       <div className="section-label">About the Department</div>
       <h2 className="section-title">Comprehensive Neurology Care in Chengalpattu</h2>
-      <p>The Department of Neurology at SRM Global Hospital, Kattankulathur offers comprehensive care for disorders related to the brain, spine, and nervous system. With a multidisciplinary team of neurologists, neurophysicians, critical care experts, and rehabilitation therapists, we are equipped to handle both common and complex neurological conditions.</p>
+      <p>The Department of Neurology at SRM Global Hospital, Chengalpattu offers comprehensive care for disorders related to the brain, spine, and nervous system. With a multidisciplinary team of neurologists, neurophysicians, critical care experts, and rehabilitation therapists, we are equipped to handle both common and complex neurological conditions.</p>
       <p>As the best neurology hospital in Chengalpattu, our approach blends clinical excellence with cutting-edge diagnostics, ensuring timely intervention and long-term care for every patient, from emergency stroke management to chronic neurodegenerative disorders.</p>
     </div>
     <div className="about-img reveal">
@@ -343,7 +343,7 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>

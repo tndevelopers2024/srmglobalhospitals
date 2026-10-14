@@ -108,8 +108,8 @@ export default function ArtBody() {
               </svg>
               <span>Center of Excellence</span>
             </div>
-            <h1>24/7 Emergency Hospital in Kattankulathur</h1>
-            <p className="hero-tagline">Trauma care, cardiac emergencies, and critical care for Chengalpattu and surrounding areas.</p>
+            <h1>24/7 Emergency Hospital in Chengalpattu</h1>
+            <p className="hero-tagline" style={{ fontStyle: "normal" }}>We are leaders in delivering trauma care, cardiac emergency services, and critical care across Chengalpattu and surrounding areas.</p>
             <div className="hero-ctas">
               <a href="#cta-banner" className="btn btn-gradient">
                 Get Emergency Help{" "}
@@ -173,8 +173,8 @@ export default function ArtBody() {
           <div className="about-text">
             <div className="eyebrow">About the Institute</div>
             <h2 className="section-heading">Emergency Hospital in Chengalpattu for Critical and Trauma Care</h2>
-            <p>SRM Global Hospitals operates a full-scale emergency department built for speed and precision. A team of emergency physicians and critical care specialists works round the clock, supported by dedicated resuscitation areas, trauma bays, and an in-house ambulance team that covers Kattankulathur, Chengalpattu, and surrounding areas.</p>
-            <p>The department is equipped with advanced diagnostic equipment including CT, X-ray, ultrasound, point-of-care testing, and a fully staffed laboratory. From the moment a patient arrives, the goal is definitive treatment within the golden hour.</p>
+            <p>We are leaders in emergency and trauma care, with SRM Global Hospitals operating a full-scale emergency department built for speed and precision. A team of emergency physicians and critical care specialists works round the clock, supported by dedicated resuscitation areas, trauma bays, and an in-house ambulance team covering Chengalpattu, and surrounding areas.</p>
+            <p>The department is equipped with advanced diagnostic facilities, including CT, X-ray, ultrasound, point-of-care testing, and a fully staffed laboratory. From the moment a patient arrives, the focus is on timely assessment and definitive treatment within the golden hour.</p>
             <div className="about-features">
               <div className="about-feat">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -722,7 +722,7 @@ export default function ArtBody() {
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="10" /><line x1="2" y1="12" x2="22" y2="12" /><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" /></svg>
               </div>
               <h3>Ambulance Services</h3>
-              <p>SRM's ambulance team operates across Kattankulathur, Guduvancheri, Chengalpattu, and surrounding areas with advanced life support equipment on board.</p>
+              <p>SRM's ambulance team operates across Chengalpattu, Guduvancheri, Chengalpattu, and surrounding areas with advanced life support equipment on board.</p>
             </div>
             <div className="why-card">
               <div className="why-card-icon">
@@ -882,7 +882,7 @@ export default function ArtBody() {
             {[
               {
                 q: "Is there a 24-hour emergency hospital in Chengalpattu?",
-                a: "Yes. SRM Global Hospitals in Kattankulathur operates a 24/7 emergency department, 365 days a year. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Senior emergency physicians and critical care specialists are on-site at all times, not just on call. Walk-ins and ambulance arrivals are accepted round the clock.",
+                a: "Yes. SRM Global Hospitals in Chengalpattu operates a 24/7 emergency department, 365 days a year. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Senior emergency physicians and critical care specialists are on-site at all times, not just on call. Walk-ins and ambulance arrivals are accepted round the clock.",
               },
               {
                 q: "What are the main medical emergencies handled here?",
@@ -906,7 +906,7 @@ export default function ArtBody() {
               },
               {
                 q: "How do I reach SRM Global Hospitals for an emergency?",
-                a: "SRM Global Hospitals is located on GST Road in Kattankulathur, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. The hospital's ambulance team can be dispatched by calling +91 96444 96444. If driving, the hospital is directly on the GST Road with a clearly marked emergency entrance.",
+                a: "SRM Global Hospitals is located on GST Road in Chengalpattu, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. The hospital's ambulance team can be dispatched by calling +91 96444 96444. If driving, the hospital is directly on the GST Road with a clearly marked emergency entrance.",
               },
               {
                 q: "What should I do if someone has a heart attack before reaching the hospital?",

@@ -320,7 +320,8 @@
   font-size: 16px;
   line-height: 1.7;
   color: #555555;
-  max-width: 680px;
+  max-width: 560px;
+  padding: 36px 30px;
   margin: 0 auto;
 }
 
@@ -972,6 +973,43 @@
 @media (max-width: 768px) {
   .careers-pathways-section {
     padding: 0 0 40px;
+  }
+}
+
+
+/* Application form displayed directly on the careers page. */
+.careers-application-section {
+  padding: 60px 24px;
+  background: #f8fafd;
+  scroll-margin-top: 100px;
+}
+
+.careers-inline-application .careers-inline-application-card {
+  max-width: 560px;
+  padding: 36px 30px;
+  max-height: none;
+  overflow: visible;
+  margin: 0 auto;
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+}
+
+.careers-inline-application .careers-modal-row {
+  margin-bottom: 20px;
+  gap: 16px;
+}
+
+.careers-inline-application .careers-modal-col-pos-exp,
+.careers-inline-application .careers-modal-col-2 {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 640px) {
+  .careers-inline-application .careers-inline-application-card {
+    padding: 28px 20px;
+  }
+
+  .careers-application-section {
+    padding: 40px 16px;
   }
 }
 

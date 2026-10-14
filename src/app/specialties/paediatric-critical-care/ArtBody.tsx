@@ -158,7 +158,7 @@ export default function ArtBody() {
     <div className="about-text reveal">
       <div className="section-label">About the Department</div>
       <h2 className="section-title">Advanced Paediatric Intensive Care in Chengalpattu</h2>
-      <p>The Paediatric Critical Care Unit at SRM Global Hospital, Kattankulathur, provides round-the-clock, life-saving care for critically ill infants, children, and adolescents. Our state-of-the-art Paediatric Intensive Care Unit (PICU) is equipped to handle complex medical emergencies, post-surgical care, and life-threatening conditions with precision, speed, and compassion.</p>
+      <p>The Paediatric Critical Care Unit at SRM Global Hospital, Chengalpattu, provides round-the-clock, life-saving care for critically ill infants, children, and adolescents. Our state-of-the-art Paediatric Intensive Care Unit (PICU) is equipped to handle complex medical emergencies, post-surgical care, and life-threatening conditions with precision, speed, and compassion.</p>
       <p>Led by experienced paediatric intensivists, supported by skilled nurses, and backed by advanced technology, we ensure that every child receives the highest standard of care in a safe, child-friendly environment, from paediatric ventilator support to comprehensive paediatric emergency care and neonatal ICU management.</p>
     </div>
     <div className="about-img reveal">

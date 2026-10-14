@@ -86,7 +86,7 @@ export default function ManagingDirector() {
                     >
                         Plays a key role in the hospital&apos;s quality
                         assurance systems and community health initiatives
-                        across the Kattankulathur region.
+                        across the Chengalpattu region.
                     </p>
                     <div
                         style={{

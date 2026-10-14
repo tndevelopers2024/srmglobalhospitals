@@ -172,7 +172,7 @@ export default function ArtBody() {
           <div className="about-text">
             <div className="eyebrow">About the Institute</div>
             <h2 className="section-heading">Orthopaedic Hospital in Chengalpattu for Bone, Joint, and Spine Care</h2>
-            <p>The Centre for Bone Joint Spine Care at SRM Global Hospitals covers the full range of orthopaedic conditions, from emergency fracture management and complex joint replacements to arthroscopic sports injury repair and paediatric orthopaedic care. Located in Kattankulathur on GST Road, the department serves patients across Chengalpattu, Guduvancheri, Tambaram, and the broader southern corridor.</p>
+            <p>The Centre for Bone Joint Spine Care at SRM Global Hospitals covers the full range of orthopaedic conditions, from emergency fracture management and complex joint replacements to arthroscopic sports injury repair and paediatric orthopaedic care. Located in Chengalpattu on GST Road, the department serves patients across Chengalpattu, Guduvancheri, Tambaram, and the broader southern corridor.</p>
             <p>The department combines experienced orthopaedic surgeons, a dedicated physiotherapy and rehabilitation unit, and round-the-clock trauma coverage under one roof. Whether the case requires a total knee replacement, spinal fusion, or non-surgical management with bracing and therapy, every treatment plan begins with an accurate diagnosis and a clear discussion with the patient.</p>
             <div className="about-features">
               <div className="about-feat">
@@ -861,7 +861,7 @@ export default function ArtBody() {
             {[
               {
                 q: "1. Is there an orthopaedic hospital in Chengalpattu?",
-                a: "Yes. SRM Global Hospitals in Kattankulathur operates a full Centre for Bone Joint Spine Care with joint replacement, arthroscopy, spine surgery, and trauma services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Orthopaedic surgeons are available for outpatient consultations and 24/7 emergency fracture care.",
+                a: "Yes. SRM Global Hospitals in Chengalpattu operates a full Centre for Bone Joint Spine Care with joint replacement, arthroscopy, spine surgery, and trauma services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Orthopaedic surgeons are available for outpatient consultations and 24/7 emergency fracture care.",
               },
               {
                 q: "2. What orthopaedic conditions are treated at SRM Global?",
@@ -893,7 +893,7 @@ export default function ArtBody() {
               },
               {
                 q: "9. How do I reach SRM Global Hospitals for an orthopaedic consultation?",
-                a: "SRM Global Hospitals is located on GST Road in Kattankulathur, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for emergency orthopaedic assistance.",
+                a: "SRM Global Hospitals is located on GST Road in Chengalpattu, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for emergency orthopaedic assistance.",
               },
               {
                 q: "10. When should I see an orthopaedic surgeon?",

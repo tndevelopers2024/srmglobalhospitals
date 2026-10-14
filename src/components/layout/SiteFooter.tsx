@@ -184,6 +184,9 @@ export default function SiteFooter() {
               <li>
                 <Link href="/clinical-excellence/emergency-and-critical-care">Emergency</Link>
               </li>{" "}
+              <li>
+                <Link href="https://srmrehab.com/" target="empty">SRM Rehab</Link>
+              </li>{" "}
             </ul>{" "}
           </div>{" "}
           <div className="footer-col">

@@ -8,12 +8,14 @@ interface CareersApplicationModalProps {
   onClose: () => void;
   selectedJob: JobItem | null;
   mode?: "apply" | "details";
+  inline?: boolean;
 }
 
 export default function CareersApplicationModal({
   isOpen,
   onClose,
   selectedJob,
+  inline = false,
 }: CareersApplicationModalProps) {
   const [position, setPosition] = useState<string>("General Application");
   const [fullName, setFullName] = useState("");
@@ -39,6 +41,8 @@ export default function CareersApplicationModal({
   }, [selectedJob]);
 
   useEffect(() => {
+    if (inline) return;
+
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         onClose();
@@ -57,7 +61,7 @@ export default function CareersApplicationModal({
       document.body.style.overflow = "unset";
       window.removeEventListener("keydown", handleKeyDown);
     };
-  }, [isOpen, onClose]);
+  }, [isOpen, onClose, inline]);
 
   if (!isOpen) return null;
 
@@ -87,15 +91,15 @@ export default function CareersApplicationModal({
 
   return (
     <div
-      className="careers-modal-overlay"
-      onClick={onClose}
+      className={inline ? "careers-inline-application" : "careers-modal-overlay"}
+      onClick={inline ? undefined : onClose}
     >
       <div
-        className="careers-modal-dialog"
+        className={inline ? "careers-modal-dialog careers-inline-application-card" : "careers-modal-dialog"}
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
-        <button
+        {!inline && <button
           type="button"
           onClick={onClose}
           aria-label="Close dialog"
@@ -121,7 +125,7 @@ export default function CareersApplicationModal({
             <line x1="18" y1="6" x2="6" y2="18" />
             <line x1="6" y1="6" x2="18" y2="18" />
           </svg>
-        </button>
+        </button>}
 
         {isSubmitted ? (
           /* Submission Confirmation */
@@ -208,11 +212,11 @@ export default function CareersApplicationModal({
 
             <button
               type="button"
-              onClick={onClose}
+              onClick={inline ? () => setIsSubmitted(false) : onClose}
               className="careers-btn-primary"
               style={{ padding: "9px 28px", fontSize: "13px" }}
             >
-              Close
+              {inline ? "Start Another Application" : "Close"}
             </button>
           </div>
         ) : (
@@ -575,14 +579,14 @@ export default function CareersApplicationModal({
 
               {/* Actions */}
               <div style={{ display: "flex", justifyContent: "flex-end", gap: "12px", paddingTop: "6px" }}>
-                <button
+                {!inline && <button
                   type="button"
                   onClick={onClose}
                   className="careers-btn-secondary"
                   style={{ padding: "8px 22px", fontSize: "13.5px" }}
                 >
                   Cancel
-                </button>
+                </button>}
 
                 <button
                   type="submit"

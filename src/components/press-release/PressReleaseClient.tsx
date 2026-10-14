@@ -525,7 +525,7 @@ export default function PressReleaseClient() {
                     <strong>Issued by:</strong> Corporate Communications &amp; Media Relations, SRM Global Hospitals
                   </div>
                   <div>
-                    Kattankulathur, Chennai ·{" "}
+                    Chengalpattu, Chennai ·{" "}
                     <a
                       href="mailto:info@srmglobalhospitals.com"
                       style={{ color: "#6B4A98", fontWeight: 600, textDecoration: "none" }}

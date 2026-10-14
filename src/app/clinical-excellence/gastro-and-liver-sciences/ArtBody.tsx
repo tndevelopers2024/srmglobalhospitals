@@ -107,7 +107,7 @@ export default function ArtBody() {
                 </svg>
                 <span>Center of Excellence</span>
               </div>
-              <h1>Gastroenterology Hospital in Kattankulathur</h1>
+              <h1>Gastroenterology Hospital in Chengalpattu</h1>
               <p className="hero-tagline">Comprehensive digestive and liver care with medical gastroenterology, surgical gastroenterology, and advanced endoscopy under one roof.</p>
               <div className="hero-ctas">
                 <a href="#cta-banner" className="btn btn-gradient">
@@ -173,7 +173,7 @@ export default function ArtBody() {
           <div className="about-text">
             <div className="eyebrow">About the Institute</div>
             <h2 className="section-heading">Best Gastroenterology Hospital in Chengalpattu for Digestive and Liver Care</h2>
-            <p>The Institute of Gastro and Liver Sciences at SRM Global Hospitals covers the full spectrum of digestive disorders, from common conditions like acid reflux and irritable bowel syndrome to complex gastrointestinal conditions involving the liver, pancreas, and biliary system. Located in Kattankulathur on GST Road, the department serves patients across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
+            <p>The Institute of Gastro and Liver Sciences at SRM Global Hospitals covers the full spectrum of digestive disorders, from common conditions like acid reflux and irritable bowel syndrome to complex gastrointestinal conditions involving the liver, pancreas, and biliary system. Located in Chengalpattu on GST Road, the department serves patients across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
             <p>The department brings medical gastroenterology and surgical gastroenterology together under one roof, supported by a dedicated endoscopy suite, on-site laboratory, and round-the-clock GI bleed emergency coverage. Every patient receives a clear diagnosis before any treatment plan begins.</p>
             <div className="about-features">
               <div className="about-feat">
@@ -850,7 +850,7 @@ export default function ArtBody() {
             {[
               {
                 q: "1. Is there a gastroenterology hospital in Chengalpattu?",
-                a: "Yes. SRM Global Hospitals in Kattankulathur operates a full Department of Gastro and Liver Sciences with both medical gastroenterology and surgical gastroenterology services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Gastroenterologists are available for outpatient consultations, endoscopy procedures, and emergency GI care.",
+                a: "Yes. SRM Global Hospitals in Chengalpattu operates a full Department of Gastro and Liver Sciences with both medical gastroenterology and surgical gastroenterology services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Gastroenterologists are available for outpatient consultations, endoscopy procedures, and emergency GI care.",
               },
               {
                 q: "2. What digestive conditions are treated at SRM Global?",
@@ -882,7 +882,7 @@ export default function ArtBody() {
               },
               {
                 q: "9. How do I reach SRM Global Hospitals for a gastroenterology consultation?",
-                a: "SRM Global Hospitals is located on GST Road in Kattankulathur, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for emergency GI assistance.",
+                a: "SRM Global Hospitals is located on GST Road in Chengalpattu, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for emergency GI assistance.",
               },
               {
                 q: "10. Does SRM Global accept insurance for gastroenterology treatment?",

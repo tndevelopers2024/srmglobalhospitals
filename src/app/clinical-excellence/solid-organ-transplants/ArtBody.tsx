@@ -98,7 +98,7 @@ export default function ArtBody() {
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2" /></svg>
         <span>Center of Excellence</span>
       </div>
-      <h1>Organ Transplant Hospital in Kattankulathur</h1>
+      <h1>Organ Transplant Hospital in Chengalpattu</h1>
       <p className="hero-tagline">Comprehensive kidney, liver, heart, lung, and bone marrow transplant care, backed by a dedicated transplant ICU and round-the-clock transplant support for Chengalpattu, Guduvancheri, Tambaram, and the wider southern Chennai corridor.</p>
       <div className="hero-ctas">
         <a className="btn btn-gradient" href="#cta-banner">Book a Consultation
@@ -151,7 +151,7 @@ export default function ArtBody() {
     <div className="about-text">
       <div className="eyebrow">About the Institute</div>
       <h2 className="section-heading">Organ Transplant Hospital in Chengalpattu for Kidney, Liver, and Multi-Organ Care</h2>
-      <p>The Institute of Organ Transplant at SRM Global Hospitals brings transplant surgeons, nephrologists, hepatologists, and cardiothoracic surgeons together under one roof to manage every stage of organ transplantation, from first evaluation to lifelong follow-up. Located in Kattankulathur on GST Road, it serves patients across Chengalpattu, Guduvancheri, Tambaram, and the broader southern Chennai corridor, as part of the hospital's wider Multi-Organ Transplant Centre.</p>
+      <p>The Institute of Organ Transplant at SRM Global Hospitals brings transplant surgeons, nephrologists, hepatologists, and cardiothoracic surgeons together under one roof to manage every stage of organ transplantation, from first evaluation to lifelong follow-up. Located in Chengalpattu on GST Road, it serves patients across Chengalpattu, Guduvancheri, Tambaram, and the broader southern Chennai corridor, as part of the hospital's wider Multi-Organ Transplant Centre.</p>
       <p>A transplant is recommended when a vital organ, such as the kidney, liver, heart, or lung, has reached end-stage failure and can no longer sustain the body. Every case is reviewed by a multidisciplinary transplant board before listing, using either a living donor or a deceased donor organ, matched by blood group and tissue typing to reduce the risk of organ rejection.</p>
       <p>In selected paediatric patients, ABO-incompatible transplants are also possible in children under two years of age, since a young child's immune system has not yet developed the antibody response that would otherwise cause rejection across blood groups.</p>
       <div className="about-features">
@@ -343,33 +343,33 @@ export default function ArtBody() {
       <p className="section-sub">Diagnostic evaluation and transplant surgery performed by our transplant surgeons, physicians, and coordination team.</p>
     </div>
     <div className="tabs-nav">
-      <button 
-        className={`tab-btn ${activeTab === 'kidney' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'kidney' ? 'active' : ''}`}
+        type="button"
         data-tab="kidney"
         onClick={() => setActiveTab('kidney')}
       >
         Kidney Transplant
       </button>
-      <button 
-        className={`tab-btn ${activeTab === 'liver' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'liver' ? 'active' : ''}`}
+        type="button"
         data-tab="liver"
         onClick={() => setActiveTab('liver')}
       >
         Liver Transplant
       </button>
-      <button 
-        className={`tab-btn ${activeTab === 'heartlung' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'heartlung' ? 'active' : ''}`}
+        type="button"
         data-tab="heartlung"
         onClick={() => setActiveTab('heartlung')}
       >
         Heart &amp; Lung Transplant
       </button>
-      <button 
-        className={`tab-btn ${activeTab === 'bmt' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'bmt' ? 'active' : ''}`}
+        type="button"
         data-tab="bmt"
         onClick={() => setActiveTab('bmt')}
       >
@@ -669,7 +669,7 @@ export default function ArtBody() {
           <h3>1. Is there an organ transplant hospital in Chengalpattu?</h3>
           <div className="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9" /></svg></div>
         </div>
-        <div className="faq-answer"><div className="faq-answer-inner">Yes. SRM Global Hospitals in Kattankulathur operates an Institute of Organ Transplant as part of its wider Multi-Organ Transplant Centre, accessible from Chengalpattu, Guduvancheri, and surrounding areas.</div></div>
+        <div className="faq-answer"><div className="faq-answer-inner">Yes. SRM Global Hospitals in Chengalpattu operates an Institute of Organ Transplant as part of its wider Multi-Organ Transplant Centre, accessible from Chengalpattu, Guduvancheri, and surrounding areas.</div></div>
       </div>
 
       <div className={`faq-item ${openFaqIndex === 1 ? 'open' : ''}`}>

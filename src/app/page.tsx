@@ -8,6 +8,7 @@ import CentresOfExcellence from "@/components/home/CentresOfExcellence";
 import CampusPhotoBand from "@/components/home/CampusPhotoBand";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import SpecialtyDirectory from "@/components/home/SpecialtyDirectory";
+import VideoTestimonials from "@/components/home/VideoTestimonials";
 import PatientStory from "@/components/home/PatientStory";
 import NumbersBand from "@/components/home/NumbersBand";
 import TechSection from "@/components/home/TechSection";
@@ -44,6 +45,7 @@ export default function Home() {
       <WhyChooseUs />
       <SpecialtyDirectory />
       <PatientStory />
+      <VideoTestimonials />
       <NumbersBand />
         <TechSection />
         {/*section from about us page*/}

@@ -172,7 +172,7 @@ export default function ArtBody() {
           <div className="about-text">
             <div className="eyebrow">About the Institute</div>
             <h2 className="section-heading">Gynaecology Hospital in Chengalpattu for Women&apos;s Health and Maternity Care</h2>
-            <p>The Centre for Women&apos;s Health and Wellness at SRM Global Hospitals provides the full spectrum of obstetrics and gynaecology services, from routine antenatal care and safe deliveries to complex gynaecological surgeries and fertility treatments. Located in Kattankulathur on GST Road, the department serves pregnant women and families across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
+            <p>The Centre for Women&apos;s Health and Wellness at SRM Global Hospitals provides the full spectrum of obstetrics and gynaecology services, from routine antenatal care and safe deliveries to complex gynaecological surgeries and fertility treatments. Located in Chengalpattu on GST Road, the department serves pregnant women and families across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
             <p>The department is staffed by obstetricians and gynaecologists with qualifications including DNB, MRCOG, FACOG, and FMAS, ensuring that both routine and high-risk cases are managed by specialists with the right training. A dedicated labour ward, neonatal ICU, and round-the-clock obstetric emergency coverage support safe outcomes for mothers and babies.</p>
             <div className="about-features">
               <div className="about-feat">
@@ -861,7 +861,7 @@ export default function ArtBody() {
             {[
               {
                 q: "1. Is there a gynaecology hospital in Chengalpattu?",
-                a: "Yes. SRM Global Hospitals in Kattankulathur operates a full Centre for Women's Health and Wellness with obstetrics, gynaecology, fertility, and urogynaecology services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Obstetricians and gynaecologists are available for consultations, deliveries, and emergency obstetric care.",
+                a: "Yes. SRM Global Hospitals in Chengalpattu operates a full Centre for Women's Health and Wellness with obstetrics, gynaecology, fertility, and urogynaecology services. Located on GST Road, the hospital is accessible from Chengalpattu, Guduvancheri, Maraimalai Nagar, and surrounding areas. Obstetricians and gynaecologists are available for consultations, deliveries, and emergency obstetric care.",
               },
               {
                 q: "2. What gynaecological conditions are treated at SRM Global?",
@@ -893,7 +893,7 @@ export default function ArtBody() {
               },
               {
                 q: "9. How do I reach SRM Global Hospitals for a gynaecology consultation?",
-                a: "SRM Global Hospitals is located on GST Road in Kattankulathur, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for obstetric emergencies.",
+                a: "SRM Global Hospitals is located on GST Road in Chengalpattu, near SRM University. By road, it is approximately 10 km from Chengalpattu, 5 km from Guduvancheri, and 18 km from Tambaram. Call +91 96444 96444 to book an appointment or for obstetric emergencies.",
               },
               {
                 q: "10. Does SRM Global accept insurance for maternity and gynaecology treatment?",

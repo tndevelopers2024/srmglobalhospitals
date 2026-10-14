@@ -20,7 +20,7 @@ import {
 export const metadata = createMetadata({
   title: "About Us",
   description:
-    "For over three decades, SRM Global Hospitals has been a beacon of world-class medical care in Kattankulathur, Chennai with 200+ beds, 30+ specialities, and dedicated centres of excellence.",
+    "For over three decades, SRM Global Hospitals has been a beacon of world-class medical care in Chengalpattu, Chennai with 200+ beds, 30+ specialities, and dedicated centres of excellence.",
   path: "/about",
 });
 

@@ -151,7 +151,7 @@ export default function ArtBody() {
     <div className="about-text">
       <div className="eyebrow">About the Institute</div>
       <h2 className="section-heading">Nephrology Hospital in Chengalpattu for Kidney Care and Dialysis</h2>
-      <p>The Department of Nephrology at SRM Global Hospitals provides comprehensive care for kidney disorders in adults and children, including chronic kidney disease, acute kidney injury, kidney stones, and glomerular diseases. Located in Kattankulathur on GST Road, it is staffed by consultant nephrologists supporting patients across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
+      <p>The Department of Nephrology at SRM Global Hospitals provides comprehensive care for kidney disorders in adults and children, including chronic kidney disease, acute kidney injury, kidney stones, and glomerular diseases. Located in Chengalpattu on GST Road, it is staffed by consultant nephrologists supporting patients across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
       <p>Because hypertension and diabetes are leading causes of kidney disease, the team works closely with cardiology and diabetology on blood pressure and blood sugar control. Patients are typically referred to nephrology for changes in urine output, unexplained fatigue, swelling, or abnormal blood and urine test results.</p>
       <div className="about-features">
         <div className="about-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>NABH Accredited</div>
@@ -316,17 +316,17 @@ export default function ArtBody() {
       <p className="section-sub">Diagnostic and therapeutic procedures performed by our nephrology team.</p>
     </div>
     <div className="tabs-nav">
-      <button 
-        className={`tab-btn ${activeTab === 'hemo' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'hemo' ? 'active' : ''}`}
+        type="button"
         data-tab="hemo"
         onClick={() => setActiveTab('hemo')}
       >
         Hemodialysis
       </button>
-      <button 
-        className={`tab-btn ${activeTab === 'peritoneal' ? 'active' : ''}`} 
-        type="button" 
+      <button
+        className={`tab-btn ${activeTab === 'peritoneal' ? 'active' : ''}`}
+        type="button"
         data-tab="peritoneal"
         onClick={() => setActiveTab('peritoneal')}
       >

@@ -160,7 +160,7 @@ export default function ArtBody() {
           <div className="about-text reveal">
             <div className="section-label">About the Department</div>
             <h2 className="section-title">Comprehensive Blood Disorder Care in Chengalpattu</h2>
-            <p>The Hematology Department at SRM Global Hospital, Kattankulathur provides expert care for patients with blood-related disorders, ranging from common conditions like anemia to complex diseases such as leukemia and lymphoma.</p>
+            <p>The Hematology Department at SRM Global Hospital, Chengalpattu provides expert care for patients with blood-related disorders, ranging from common conditions like anemia to complex diseases such as leukemia and lymphoma.</p>
             <p>As the best hematology hospital in Chengalpattu, our department takes a patient-first approach, offering accurate diagnostics, advanced treatment protocols, and long-term monitoring tailored to each individual&amp;apos;s needs. Whether it is a benign hematological issue or a malignant blood cancer, our team ensures compassionate and evidence-based care.</p>
           </div>
           <div className="about-img reveal">
