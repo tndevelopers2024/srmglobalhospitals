@@ -14,7 +14,9 @@
 
 @media (max-width: 768px) {
   .home-page .hero {
-    padding: 32px 0 40px;
+    min-height: clamp(520px, 75vh, 680px);
+    display: block;
+    padding: 36px 0 44px;
   }
 
   .home-page .hero-grid {
@@ -265,11 +267,16 @@ body:has(.sticky-bar.visible) .floating-cta {
 }
 
 .home-page .hero {
+  min-height: clamp(660px, 86vh, 900px);
   height: auto;
-  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 0;
 }
 
 .home-page .hero > .container {
+  width: 100%;
   max-height: none;
   overflow: visible;
 }

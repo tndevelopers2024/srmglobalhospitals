@@ -208,9 +208,13 @@ export default function DoctorCareersContent() {
       </section>
 
       {/* 2. Introduction to Medical Career Opportunities */}
-      <section style={{ padding: "70px 24px", background: "#fcfbff" }}>
-        <div style={{ maxWidth: "1140px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto" }}>
+      <section
+        id="doctor-application"
+        className="careers-application-section"
+        aria-label="Doctor career opportunities and application form"
+      >
+        <div className="careers-container careers-application-layout">
+          <div className="careers-application-intro">
             <span
               style={{
                 color: "#6B4A98",
@@ -249,22 +253,14 @@ export default function DoctorCareersContent() {
               access to state-of-the-art diagnostic and surgical equipment, our clinicians lead treatment paradigms across tertiary and quaternary healthcare.
             </p>
           </div>
-
-        </div>
-      </section>
-
-      <section
-        id="doctor-application"
-        className="careers-application-section"
-        aria-label="Doctor career application form"
-      >
-        <div className="careers-container">
+          <div className="careers-application-form">
           <CareersApplicationModal
             inline
             isOpen
             onClose={() => {}}
             selectedJob={null}
           />
+          </div>
         </div>
       </section>
 

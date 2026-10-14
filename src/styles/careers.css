@@ -1040,3 +1040,37 @@
     border-radius: 24px;
   }
 }
+
+/* Career introduction and application share a desktop row. */
+.careers-application-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  align-items: start;
+  gap: 48px;
+}
+
+.careers-application-intro {
+  padding-top: 36px;
+  text-align: left;
+}
+
+.careers-application-form {
+  min-width: 0;
+}
+
+.careers-application-form .careers-inline-application-card {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .careers-application-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .careers-application-intro {
+    padding-top: 0;
+  }
+}

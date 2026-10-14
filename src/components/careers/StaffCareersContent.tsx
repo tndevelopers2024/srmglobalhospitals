@@ -207,9 +207,13 @@ export default function StaffCareersContent() {
       </section>
 
       {/* 2. Introduction to Hospital Staff Opportunities */}
-      <section style={{ padding: "70px 24px", background: "#f8fafd" }}>
-        <div style={{ maxWidth: "1140px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto" }}>
+      <section
+        id="staff-application"
+        className="careers-application-section"
+        aria-label="Hospital staff opportunities and application form"
+      >
+        <div className="careers-container careers-application-layout">
+          <div className="careers-application-intro">
             <span
               style={{
                 color: "#2294D3",
@@ -248,16 +252,7 @@ export default function StaffCareersContent() {
               multidisciplinary hospital staff uphold clinical safety, dignity, and compassionate care every hour of every day.
             </p>
           </div>
-
-        </div>
-      </section>
-
-      <section
-        id="staff-application"
-        className="careers-application-section"
-        aria-label="Hospital staff application form"
-      >
-        <div className="careers-container">
+          <div className="careers-application-form">
           <CareersApplicationModal
             inline
             isOpen
@@ -265,6 +260,7 @@ export default function StaffCareersContent() {
             selectedJob={null}
             mode="apply"
           />
+          </div>
         </div>
       </section>
 
