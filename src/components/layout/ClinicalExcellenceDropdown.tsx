@@ -9,7 +9,7 @@ interface CoeItem {
   href: Route;
 }
 
-const COE_ITEMS: CoeItem[] = [
+export const COE_ITEMS: CoeItem[] = [
   {
     label: "Institute of Gastro and Liver Sciences",
     href: "/clinical-excellence/gastro-and-liver-sciences",

@@ -4270,4 +4270,169 @@ body:has(.floating-cta) .whatsapp-float-container {
   .whatsapp-float-tooltip {
     display: none !important;
   }
-}
+}
+
+/* Shared page hero width, matching the Anaesthesiology hero. */
+:root {
+  --page-hero-max-width: 1500px;
+  --page-hero-gutter: 40px;
+}
+
+main :is(.about-hero-wrap, .contact-hero-wrap, .careers-hero-wrap,
+  .intl-hero-wrap, .appointment-hero-wrap),
+main.specialty-page .hero > .wrap,
+main .specialty-page .hero > .wrap,
+main.coe-page .hero > .container,
+main .coe-page .hero > .container {
+  width: 100%;
+  max-width: var(--page-hero-max-width) !important;
+  margin-inline: auto;
+  padding-inline: var(--page-hero-gutter) !important;
+}
+
+main .page-hero-frame,
+main .discovery-hero,
+main.best-doctor-page > div:has(> .hero-inner),
+main.dept-page > div:has(> .hero-inner) {
+  width: calc(100% - var(--page-hero-gutter) * 2);
+  max-width: calc(var(--page-hero-max-width) - 80px);
+  margin-inline: auto;
+}
+
+@media (max-width: 1024px) {
+  :root { --page-hero-gutter: 24px; }
+}
+
+@media (max-width: 768px) {
+  :root { --page-hero-gutter: 16px; }
+}
+
+
+.mobile-navigation { display: none; }
+
+@media (max-width: 880px) {
+  .header-top { position: relative; z-index: 110; }
+  .header-top .header-top-inner { position: relative; justify-content: space-between; }
+  .header-top .header-secondary,
+  .header-top .header-quick-actions,
+  .header-nav-bar { display: none; }
+  .mobile-navigation { display: block; margin-left: auto; }
+  .mobile-menu-toggle {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    color: var(--ink);
+    background: white;
+    cursor: pointer;
+  }
+  .mobile-menu-toggle:focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
+  .mobile-menu-panel {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: min(75vh, 640px);
+    max-height: min(75dvh, 640px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 12px;
+    background: white;
+    border: 1px solid var(--rule);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 12px 30px rgba(14, 18, 64, 0.15);
+  }
+  .mobile-menu-panel[hidden] { display: none; }
+  .mobile-menu-panel > a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 12px;
+    color: var(--ink);
+    font-size: 14px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .mobile-menu-panel a:hover,
+  .mobile-menu-panel a:focus-visible { background: var(--mist); }
+  .mobile-menu-actions { display: grid; gap: 10px; margin-top: 14px; }
+  .mobile-menu-actions a {
+    min-height: 44px;
+    display: grid;
+    place-items: center;
+    padding: 12px;
+    color: white;
+    background: var(--gradient-flat);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .mobile-menu-actions a:hover,
+  .mobile-menu-actions a:focus-visible { background: var(--ink); }
+}
+
+
+@media (max-width: 880px) {
+  .mobile-submenu-toggle {
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    background: white;
+    color: var(--ink);
+    font: inherit;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .mobile-submenu-toggle[aria-expanded="true"] { color: var(--purple); background: var(--mist); }
+  .mobile-submenu-toggle:focus-visible { outline: 2px solid var(--purple); outline-offset: -2px; }
+  .mobile-submenu { background: var(--mist); padding: 4px 8px 8px 16px; }
+  .mobile-submenu[hidden] { display: none; }
+  .mobile-submenu a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 10px 12px;
+    border-left: 2px solid var(--rule);
+    color: var(--ink);
+    font-size: 13px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+  .mobile-submenu a:hover,
+  .mobile-submenu a:focus-visible { color: var(--purple); border-left-color: var(--purple); }
+}
+
+
+@media (max-width: 880px) {
+  .mobile-navigation { display: flex; align-items: center; gap: 8px; }
+  .mobile-find-doctor {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 44px;
+    padding: 8px 10px;
+    border: 1px solid var(--rule);
+    border-radius: 24px;
+    color: var(--ink);
+    background: white;
+    font-size: 12px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .mobile-find-doctor:focus-visible { outline: 2px solid var(--purple); outline-offset: 2px; }
+}
+
+@media (max-width: 380px) {
+  .header-top .brand-logo { max-width: 115px; height: auto; }
+  .mobile-find-doctor { padding-inline: 8px; font-size: 11px; }
+  .header-top-inner { gap: 8px; }
+}

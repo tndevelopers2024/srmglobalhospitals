@@ -9,7 +9,7 @@ export interface DeptCardHeroProps {
 
 export default function DeptCardHero({ title, description, breadcrumb }: DeptCardHeroProps) {
   return (
-    <div style={{ background: "linear-gradient(135deg, #14092b 0%, #23134a 55%, #0d1b3a 100%)" }}>
+    <div className="page-hero-frame" style={{ background: "linear-gradient(135deg, #14092b 0%, #23134a 55%, #0d1b3a 100%)" }}>
       <div className="hero-inner" style={{ maxWidth: "1200px", margin: "0 auto", padding: "80px 40px 60px" }}>
         <div
           style={{

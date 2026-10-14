@@ -74,7 +74,7 @@ export default function DoctorCareersContent() {
   return (
     <div className="doctors-careers-content">
       {/* 1. Hero Section matching Departments & Reference Style */}
-      <section style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
+      <section className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
         <img
           src="/images/careers/doctors-career-hero.jpg"
           alt="Doctors and surgeons at SRM Global Hospitals"

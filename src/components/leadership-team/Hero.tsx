@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <div style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
+        <div className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
             <img
                 src="/images/leadership-team/leadership-team-hero.jpg"
                 alt="SRM Global Hospitals Leadership Team"

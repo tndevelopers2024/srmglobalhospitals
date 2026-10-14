@@ -119,7 +119,7 @@ export default function SiteFooter() {
                   alignItems: "center",
                   gap: "8px",
                   fontSize: "13.5px",
-                  color: "var(--ink-soft)",
+                  color: "#e2e8f0",
                   textDecoration: "none",
                   fontWeight: 500,
                 }}

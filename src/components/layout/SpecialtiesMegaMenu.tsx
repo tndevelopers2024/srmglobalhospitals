@@ -9,7 +9,7 @@ interface SpecialtyItem {
   href: string;
 }
 
-const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
+export const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
   // Column 1
   [
     { label: "Anaesthesiology", href: "/specialties/anaesthesiology" },

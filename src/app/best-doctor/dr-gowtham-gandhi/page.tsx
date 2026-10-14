@@ -23,7 +23,7 @@ export default function GowthamGandhiPage() {
       <HeaderTop />
       <SiteHeader activeNav="doctors" />
       <main id="main-content" className={styles.page}>
-        <header className={styles.hero}>
+        <header className={`${styles.hero} page-hero-frame`}>
           <div className={`${styles.wrap} ${styles.heroLayout}`}>
             <div>
             <nav aria-label="Breadcrumb"><Link href="/best-doctor/orthopaedics">Orthopaedics</Link><span> / Dr. Gowtham Gandhi</span></nav>
