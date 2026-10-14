@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect } from "react";
 import CareerJobCard from "./CareerJobCard";
 
 export interface JobItem {
@@ -929,7 +929,6 @@ interface CareersFilterAndJobsProps {
 export default function CareersFilterAndJobs({
   initialDept,
   onApplyForJob,
-  onViewJobDetails,
   onGeneralApply,
 }: CareersFilterAndJobsProps) {
   const [searchQuery, setSearchQuery] = useState("");

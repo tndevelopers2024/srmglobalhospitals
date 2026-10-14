@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { JobItem } from "./CareersFilterAndJobs";
 
 export interface CareerJobCardProps {

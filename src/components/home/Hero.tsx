@@ -1,78 +1,8 @@
+import HeroCarousel from "./HeroCarousel";
+
 export default function Hero() {
   return (
-    <section
-      className="hero relative overflow-hidden"
-    >
-      <div
-        className="hero-background"
-        aria-hidden="true"
-        style={{
-          position: "absolute",
-          inset: 0,
-          backgroundImage: "linear-gradient(to right, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.72) 28%, rgba(255, 255, 255, 0.52) 44%, rgba(255, 255, 255, 0.20) 52%, rgba(255, 255, 255, 0) 60%), url('/images/family-hero-banner.avif')",
-          backgroundSize: "cover",
-          backgroundPosition: "center center",
-          backgroundRepeat: "no-repeat",
-          transform: "scaleX(1)",
-          pointerEvents: "none",
-        }}
-      />
-      <div className="container relative z-10">
-        <div className="hero-grid">
-          <div className="hero-content">
-            {/* Glowing Pill Eyebrow */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-5 text-xs font-bold uppercase tracking-widest bg-blue-600/10 text-blue-700 border border-blue-600/20">
-              <span className="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse" />
-              SRM Global Hospitals · Chengalpattu
-            </div>
-
-            {/* Gradient Headline */}
-            <h1 className="hero-headline text-5xl md:text-6xl font-bold leading-tight mb-5 text-slate-900">
-              Super speciality care,<br /> held to a <em className="not-italic text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500">higher</em> standard.
-            </h1>
-
-            <p className="hero-subline text-lg font-bold mb-8 max-w-xl" style={{ fontWeight: 700, color: 'var(--ink)' }}>
-              A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.
-            </p>
-
-            {/* Action Bar */}
-            {/*<div className="hero-actions mb-10" style={{ display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' }}>
-              <a href="/book-an-appointment" style={{ fontWeight: 700, color: 'var(--ink)', display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '15px' }}>
-                Book an appointment
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M5 12h14M13 5l7 7-7 7" /></svg>
-              </a>
-              <a href="/best-doctor" style={{ fontWeight: 700, color: 'var(--ink)', fontSize: '15px' }}>
-                Find a doctor
-              </a>
-              <a href="tel:+919644496444" style={{ fontWeight: 700, color: 'var(--ink)', display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '15px' }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-                Emergency
-              </a>
-            </div>*/}
-            <div className="hero-meta">
-              <div className="hero-meta-item">
-                <span className="num" data-counter="7">7</span>{" "}
-                <span className="lbl">Centres of Excellence</span>{" "}
-              </div>{" "}
-              <div className="hero-meta-item">
-                <span className="num"><span data-counter="40">40</span>+</span>{" "}
-                <span className="lbl">Specialties</span>{" "}
-              </div>{" "}
-              <div className="hero-meta-item">
-                <span className="num"><span data-counter="100">100</span>+</span>{" "}
-                <span className="lbl">Senior Specialists</span>{" "}
-              </div>{" "}
-            </div>{" "}
-            <div className="hero-trust">
-              <span className="hero-trust-label">Accredited</span>{" "}
-              <div className="hero-trust-badges">
-                <span className="hero-trust-badge">NABH</span>{" "}
-                <span className="hero-trust-badge">NABL</span>{" "}
-                <span className="hero-trust-badge">ISO 9001</span>{" "}
-                <span className="hero-trust-badge">Cashless · 100+ Insurers</span>{" "}
-              </div>{" "}
-            </div>{" "}
-          </div>{" "}
+    <HeroCarousel>
           <div className="hero-image-wrap">
             <div className="hero-panel" id="hero-panel">
               <svg width="0" height="0" style={{ position: 'absolute' }}>
@@ -232,8 +162,6 @@ export default function Hero() {
               </div>{" "}
             </div>{" "}
           </div>{" "}
-        </div>{" "}
-      </div>{" "}
-    </section>
+    </HeroCarousel>
   );
 }

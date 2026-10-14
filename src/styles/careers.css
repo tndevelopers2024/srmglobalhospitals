@@ -320,8 +320,8 @@
   font-size: 16px;
   line-height: 1.7;
   color: #555555;
-  max-width: 560px;
-  padding: 36px 30px;
+  max-width: 680px;
+  padding: 28px 26px;
   margin: 0 auto;
 }
 
@@ -994,16 +994,28 @@
 }
 
 .careers-inline-application .careers-modal-row {
-  margin-bottom: 20px;
-  gap: 16px;
+  margin-bottom: 16px;
+  gap: 14px;
 }
 
-.careers-inline-application .careers-modal-col-pos-exp,
+.careers-inline-application .careers-modal-col-pos-exp {
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+}
+
 .careers-inline-application .careers-modal-col-2 {
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.careers-inline-application .careers-modal-row > div {
+  min-width: 0;
 }
 
 @media (max-width: 640px) {
+  .careers-inline-application .careers-modal-col-pos-exp,
+  .careers-inline-application .careers-modal-col-2 {
+    grid-template-columns: 1fr;
+  }
+
   .careers-inline-application .careers-inline-application-card {
     padding: 28px 20px;
   }
@@ -1013,3 +1025,18 @@
   }
 }
 
+
+/* Career detail banners use the same card framing as other page heroes. */
+:is(.staff-careers-content, .doctors-careers-content) > .page-hero-frame {
+  padding: 0;
+  margin-block: 40px 56px;
+  border-radius: 32px;
+  box-shadow: 0 8px 32px rgba(26, 31, 92, 0.06);
+}
+
+@media (max-width: 768px) {
+  :is(.staff-careers-content, .doctors-careers-content) > .page-hero-frame {
+    margin-block: 24px 40px;
+    border-radius: 24px;
+  }
+}

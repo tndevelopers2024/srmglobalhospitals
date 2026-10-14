@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import "@/styles/shadcn.css";
 import "@/styles/globals.css";
 
 import { siteConfig } from "@/lib/site";

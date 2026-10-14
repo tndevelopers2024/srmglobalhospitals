@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import CareersApplicationModal from "./CareersApplicationModal";
 import CareerJobFilters from "./CareerJobFilters";
 import { ALL_JOBS, JobItem } from "./CareersFilterAndJobs";
@@ -62,12 +62,6 @@ export default function DoctorCareersContent() {
       });
     }
     setModalMode("apply");
-    setIsModalOpen(true);
-  };
-
-  const handleViewDetails = (job: JobItem) => {
-    setSelectedJob(job);
-    setModalMode("details");
     setIsModalOpen(true);
   };
 

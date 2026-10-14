@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { PRESS_RELEASES, type PressReleaseItem } from "@/lib/press-releases-data";
 

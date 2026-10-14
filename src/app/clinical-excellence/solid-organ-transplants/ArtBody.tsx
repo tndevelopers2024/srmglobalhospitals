@@ -9,12 +9,6 @@ export default function ArtBody() {
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [isStickyVisible, setIsStickyVisible] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false);
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    department: "Centre for Solid Organ Transplants",
-    date: "",
-  });
 
   const heroRef = useRef<HTMLElement>(null);
   const trustRef = useRef<HTMLElement>(null);
@@ -76,9 +70,6 @@ export default function ArtBody() {
   const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setFormSubmitted(true);
-    setTimeout(() => {
-      setFormData({ name: "", phone: "", department: "Centre for Solid Organ Transplants", date: "" });
-    }, 3000);
   };
 
   return (

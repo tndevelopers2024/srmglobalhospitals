@@ -1,4 +1,3 @@
-import React from "react";
 import GowthamDoctorCard from "@/components/doctors/GowthamDoctorCard";
 import Link from "next/link";
 import Image from "next/image";

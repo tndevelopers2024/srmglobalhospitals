@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import CareersHero from "./CareersHero";
 import CareersPathwayCards from "./CareersPathwayCards";
 import CareersWhyJoinUs from "./CareersWhyJoinUs";
