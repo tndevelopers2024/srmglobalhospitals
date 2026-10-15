@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useSyncExternalStore, type CSSProperties, type ReactNode } from "react";
-import { ArrowLeft, ArrowRight, Pause, Play } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const slides = [
   {
@@ -9,7 +9,7 @@ const slides = [
     title: <>Super speciality care,<br /> held to a <em>higher</em> standard.</>,
     description: <>A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.</>,
     image: "/images/family-hero-banner.avif",
-    mobileImage: "/images/family-hero-banner-mobile-view-v2.avif",
+    mobileImage: "/images/family-hero-banner-mobile-view.avif",
     href: "/book-an-appointment",
     action: "Book an appointment",
   },
@@ -17,8 +17,8 @@ const slides = [
     label: "Cardiac sciences",
     title: <>Every heartbeat,<br /> <em>cared for.</em></>,
     description: <>Comprehensive cardiac care built<br />around every beat of life.</>,
-    image: "/images/home/banner/desktop-banner-1.jpeg",
-    mobileImage: "/images/home/banner/mobile-banner-1.jpeg",
+    image: "/images/home/banner/desktop-banner-1-new1.jpeg",
+    mobileImage: "/images/home/banner/mobile-banner-1-new.jpeg",
     href: "/clinical-excellence/cardiac-sciences",
     action: "Explore cardiac care",
   },
@@ -93,28 +93,44 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
       <div className="container relative z-10">
         <div className="hero-grid">
           <div className="hero-content">
-            <div aria-live={rotating ? "off" : "polite"} aria-atomic="true">
+            <div className="hero-slides-track" aria-live={rotating ? "off" : "polite"} aria-atomic="true">
               {slides.map((slide, index) => (
-                <div key={slide.label} hidden={active !== index} role="group" aria-roledescription="slide" aria-label={`${index + 1} of ${slides.length}: ${slide.label}`} id={`home-slide-${index}`}>
-                  {index === 0 ? (
-                    <h1 className="hero-headline">{slide.title}</h1>
-                  ) : (
-                    <h2 className="hero-headline">{slide.title}</h2>
-                  )}
-                  <p className="hero-subline">{slide.description}</p>
-                  <a className="hero-slide-action" href={slide.href}>{slide.action}<ArrowRight size={17} aria-hidden="true" /></a>
+                <div
+                  key={slide.label}
+                  className={`hero-slide-panel${active === index ? " is-active" : ""}`}
+                  role="group"
+                  aria-roledescription="slide"
+                  aria-label={`${index + 1} of ${slides.length}: ${slide.label}`}
+                  aria-hidden={active !== index}
+                  id={`home-slide-${index}`}
+                >
+                  <div className="hero-slide-text">
+                    {index === 0 ? (
+                      <h1 className="hero-headline">{slide.title}</h1>
+                    ) : (
+                      <h2 className="hero-headline">{slide.title}</h2>
+                    )}
+                    <p className="hero-subline">{slide.description}</p>
+                  </div>
+                  <div className="hero-slide-action-wrap">
+                    <a
+                      className="hero-slide-action"
+                      href={slide.href}
+                      tabIndex={active === index ? 0 : -1}
+                    >
+                      {slide.action}
+                      <ArrowRight size={17} aria-hidden="true" />
+                    </a>
+                  </div>
                 </div>
               ))}
             </div>
             <div className="hero-carousel-controls" aria-label="Banner controls">
-              <button type="button" className="hero-carousel-arrow" aria-label="Previous banner slide" onClick={() => select(active - 1)}><ArrowLeft size={18} aria-hidden="true" /></button>
               <div className="hero-carousel-dots">
                 {slides.map((slide, index) => (
                   <button key={slide.label} type="button" className="hero-carousel-dot" aria-label={`Show slide ${index + 1}: ${slide.label}`} aria-current={active === index ? "true" : undefined} aria-controls={`home-slide-${index}`} onClick={() => select(index)}><span /></button>
                 ))}
               </div>
-              <button type="button" className="hero-carousel-arrow" aria-label="Next banner slide" onClick={() => select(active + 1)}><ArrowRight size={18} aria-hidden="true" /></button>
-              <button type="button" className="hero-carousel-arrow" aria-label={rotating ? "Pause banner slideshow" : "Play banner slideshow"} onClick={() => setPlayback(rotating ? "paused" : "playing")}>{rotating ? <Pause size={16} aria-hidden="true" /> : <Play size={16} aria-hidden="true" />}</button>
               <span className="hero-carousel-count" aria-hidden="true">{String(active + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}</span>
             </div>
             <div className="hero-meta">

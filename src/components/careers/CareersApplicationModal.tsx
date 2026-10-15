@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { JobItem, ALL_JOBS } from "./CareersFilterAndJobs";
+import { JobItem } from "./CareersFilterAndJobs";
 
 interface CareersApplicationModalProps {
   isOpen: boolean;
@@ -17,7 +17,7 @@ export default function CareersApplicationModal({
   selectedJob,
   inline = false,
 }: CareersApplicationModalProps) {
-  const [position, setPosition] = useState<string>("General Application");
+  const [position, setPosition] = useState<string>(selectedJob?.title || "");
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -35,8 +35,6 @@ export default function CareersApplicationModal({
   useEffect(() => {
     if (selectedJob) {
       setPosition(selectedJob.title);
-    } else {
-      setPosition("General Application / Specialty Not Listed");
     }
   }, [selectedJob]);
 
@@ -73,8 +71,8 @@ export default function CareersApplicationModal({
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!fullName.trim() || !email.trim() || !phone.trim()) {
-      setErrorMsg("Please fill in your name, email address, and mobile number.");
+    if (!position.trim() || !fullName.trim() || !email.trim() || !phone.trim()) {
+      setErrorMsg("Please fill in the selected position, your name, email address, and mobile number.");
       return;
     }
 
@@ -313,26 +311,15 @@ export default function CareersApplicationModal({
                   >
                     Selected Position <span style={{ color: "#ef4444" }}>*</span>
                   </label>
-                  <select
+                  <input
+                    type="text"
+                    required
+                    placeholder="e.g. Marketing Executive / Duty Medical Officer"
                     value={position}
                     onChange={(e) => setPosition(e.target.value)}
-                    className="careers-select"
+                    className="careers-search-input"
                     style={{ height: "38px", padding: "6px 12px", fontSize: "13px", background: "#ffffff" }}
-                  >
-                    {selectedJob && (
-                      <option value={selectedJob.title}>
-                        {selectedJob.title} ({selectedJob.department})
-                      </option>
-                    )}
-                    {ALL_JOBS.filter((j) => !selectedJob || j.id !== selectedJob.id).map((job) => (
-                      <option key={job.id} value={job.title}>
-                        {job.title} ({job.department})
-                      </option>
-                    ))}
-                    <option value="General Application / Specialty Not Listed">
-                      General Application / Other Specialty
-                    </option>
-                  </select>
+                  />
                 </div>
 
                 <div>
