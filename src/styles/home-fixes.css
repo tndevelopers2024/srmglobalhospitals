@@ -266,50 +266,54 @@ body:has(.sticky-bar.visible) .floating-cta {
   width: 100%;
   max-width: 1920px;
   margin-inline: auto;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 7.2;
+  min-height: clamp(520px, 68vh, 840px);
   height: auto;
-  min-height: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: clamp(20px, 3.2vw, 56px) 0;
+  justify-content: flex-start;
+  padding: clamp(24px, 2.4vw, 42px) 0 clamp(16px, 1.8vw, 28px);
   overflow: hidden;
   box-sizing: border-box;
 }
 
 .home-page .hero > .container {
   width: 100%;
-  max-height: 100%;
+  max-height: none;
   overflow: visible;
+  position: relative;
+  z-index: 2;
 }
 
-/* Homepage slider background image - fitted to exact aspect ratio with zero cropping */
+/* Homepage slider background image - full-bleed cover matching reference */
 .home-page .hero-slide-background {
   position: absolute;
   inset: 0;
   background-image: linear-gradient(to right, rgba(255,255,255,.84) 0%, rgba(255,255,255,.70) 30%, rgba(255,255,255,.32) 55%, rgba(255,255,255,0) 80%), var(--slide-image);
-  background-size: 100% 100%;
-  background-position: center;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   opacity: 0;
   transition: opacity .6s ease;
   pointer-events: none;
 }
 .home-page .hero-slide-background.is-active { opacity: 1; }
+
 .home-page .hero-carousel .hero-headline {
   height: auto;
   min-height: 0;
-  margin: 0 0 14px;
-  font-size: clamp(24px, 2.7vw, 40px);
+  margin: 0 0 12px;
+  font-size: clamp(24px, 2.5vw, 38px);
   line-height: 1.18;
 }
+
 .home-page .hero-carousel .hero-subline {
   height: auto;
   min-height: 0;
-  margin: 0 0 18px;
+  margin: 0 0 16px;
   color: var(--ink);
-  font-size: clamp(14px, 1.15vw, 16px);
-  line-height: 1.55;
+  font-size: clamp(14px, 1.1vw, 15.5px);
+  line-height: 1.5;
   font-weight: 500;
   max-width: 520px;
 }
@@ -351,17 +355,54 @@ body:has(.sticky-bar.visible) .floating-cta {
   flex: 0 0 auto;
 }
 
-.hero-slide-action { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 10px 20px; border-radius: 8px; background: #1a1f5c; color: white; font-size: 14px; font-weight: 700; text-decoration: none; }
+.hero-slide-action { display: inline-flex; align-items: center; gap: 10px; min-height: 42px; padding: 10px 20px; border-radius: 8px; background: #1a1f5c; color: white; font-size: 14px; font-weight: 700; text-decoration: none; }
 .hero-slide-action:hover { background: #363b78; }
-.hero-carousel-controls { display: flex; align-items: center; gap: 8px; margin: 16px 0; }
+
+.home-page .hero-carousel-controls,
+.hero-carousel-controls { display: flex; align-items: center; gap: 8px; margin: 12px 0 14px; }
 .hero-carousel-arrow { display: inline-flex; align-items: center; justify-content: center; width: 42px; height: 42px; border: 1px solid #ccd5df; border-radius: 50%; background: #ffffffdc; color: #1a1f5c; cursor: pointer; }
 .hero-carousel-arrow:hover { background: #eef1f8; }
 .hero-carousel-dots { display: flex; align-items: center; }
-.hero-carousel-dot { display: grid; place-items: center; width: 32px; height: 42px; border: 0; background: transparent; cursor: pointer; }
+.hero-carousel-dot { display: grid; place-items: center; width: 32px; height: 38px; border: 0; background: transparent; cursor: pointer; }
 .hero-carousel-dot span { width: 8px; height: 8px; border-radius: 50%; background: #9099ac; }
 .hero-carousel-dot[aria-current="true"] span { width: 22px; border-radius: 8px; background: #1a1f5c; }
 .hero-carousel-count { color: #475569; font-size: 12px; font-weight: 700; margin-left: 6px; }
 .hero-carousel button:focus-visible, .hero-slide-action:focus-visible { outline: 3px solid #7c6af7; outline-offset: 3px; }
+
+.home-page .hero-meta {
+  margin-top: 14px;
+  padding-top: 12px;
+  gap: clamp(24px, 3.2vw, 44px);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.9);
+}
+
+.home-page .hero-meta-item .num {
+  font-size: clamp(24px, 2.2vw, 30px);
+  margin-bottom: 2px;
+}
+
+.home-page .hero-meta-item .lbl {
+  font-size: 11px;
+}
+
+.home-page .hero-trust {
+  margin-top: 12px;
+  padding: 10px 0 0;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.9);
+  gap: 18px;
+}
+
+.home-page .hero-trust-label {
+  font-size: 10.5px;
+}
+
+.home-page .hero-trust-badges {
+  gap: 16px;
+}
+
+.home-page .hero-trust-badge {
+  font-size: 11.5px;
+}
 
 @media (min-width: 769px) and (max-width: 1024px) {
   .home-page .hero-grid {
@@ -402,40 +443,42 @@ body:has(.sticky-bar.visible) .floating-cta {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: clamp(8px, 1.2vw, 20px);
   }
 
   .home-page .hero-carousel .hero-grid {
     height: auto;
-    align-items: center;
+    align-items: start;
+    gap: clamp(32px, 3.8vw, 56px);
   }
 
   .home-page .hero-carousel .hero-image-wrap {
-    align-self: center;
+    align-self: start;
   }
 }
 
 @media (max-width: 768px) {
   .home-page .hero {
     width: 100%;
-    max-width: 480px;
+    max-width: 100%;
     margin-inline: auto;
-    aspect-ratio: 738 / 1600;
+    aspect-ratio: auto;
     height: auto;
     min-height: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: clamp(10px, 3vw, 18px) 0;
+    justify-content: flex-start;
+    padding: 16px 0 20px;
     overflow: hidden;
   }
 
   .home-page .hero-slide-background {
     background-image: var(--slide-mobile-image) !important;
-    background-size: 100% 100% !important;
-    background-position: center !important;
+    background-size: cover !important;
+    background-position: center top !important;
     background-repeat: no-repeat !important;
-    background-color: #faf8f4;
+    background-color: #faf8f4 !important;
   }
 
   .home-page .hero-slide-background::after {
