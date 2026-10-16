@@ -52,6 +52,7 @@ const routeSettings: Record<string, RouteSetting> = {
   "/international-patient": { priority: 0.95, changeFrequency: "weekly" },
   "/blog": { priority: 0.8, changeFrequency: "weekly" },
   "/our-specialties": { priority: 0.9, changeFrequency: "weekly" },
+  "/best-doctors": { priority: 0.9, changeFrequency: "weekly" },
 };
 
 /** Paths that exist but should never be indexed (thank-you pages, previews…). */

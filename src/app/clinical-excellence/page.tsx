@@ -28,7 +28,7 @@ const coeCentres: Array<{
     description:
       "Full-scale round-the-clock emergency care, trauma bays, STEMI rapid response, acute stroke management, and advanced intensive care ICU.",
     stats: "15,000+ Emergencies | 10 Min Response Time",
-    href: "/clinical-excellence/emergency-and-critical-care",
+    href: "/institute-of-emergency-and-critical-care-unit",
   },
   {
     slug: "gastro-and-liver-sciences",
@@ -37,7 +37,7 @@ const coeCentres: Array<{
     description:
       "Comprehensive digestive and liver care covering advanced endoscopy, ERCP, hepatology, laparoscopic GI surgery, and 24/7 GI bleed management.",
     stats: "5,000+ GI Procedures | 96% Success Rate",
-    href: "/clinical-excellence/gastro-and-liver-sciences",
+    href: "/institute-of-gastro-and-liver-sciences",
   },
   {
     slug: "neuro-sciences",
@@ -46,7 +46,7 @@ const coeCentres: Array<{
     description:
       "Integrated neurological and neurosurgical care for stroke, brain tumours, epilepsy, Parkinson's disease, complex spine surgery, and neuro-rehabilitation.",
     stats: "3,000+ Neuro Surgeries | 24/7 Stroke Ready",
-    href: "/clinical-excellence/neuro-sciences",
+    href: "/institute-of-neuro-sciences",
   },
   {
     slug: "bone-joint-spine",
@@ -55,7 +55,7 @@ const coeCentres: Array<{
     description:
       "Specialist orthopaedic care featuring computer-navigated joint replacement, keyhole sports arthroscopy, spine surgery, and 24/7 trauma fixation.",
     stats: "4,000+ Surgeries | 98% Replacement Success",
-    href: "/clinical-excellence/bone-joint-spine",
+    href: "/centre-for-bone-joint-spine-care",
   },
   {
     slug: "womens-health",
@@ -64,7 +64,7 @@ const coeCentres: Array<{
     description:
       "Comprehensive care across all life stages: safe normal delivery, high-risk pregnancy, laparoscopic gynaecological surgery, Level II NICU, and fertility support.",
     stats: "6,000+ Deliveries | 24/7 Labour Ward & NICU",
-    href: "/clinical-excellence/womens-health",
+    href: "/centre-for-womens-health-and-wellness",
   },
   {
     slug: "cardiac-sciences",
@@ -73,7 +73,7 @@ const coeCentres: Array<{
     description:
       "State-of-the-art interventional cardiology, electrophysiology, coronary artery bypass grafting (CABG), valve replacements, and 24/7 primary angioplasty.",
     stats: "24/7 Cath Lab | Advanced Coronary Care",
-    href: "/clinical-excellence/cardiac-sciences",
+    href: "/institute-of-cardiac-sciences",
   },
   {
     slug: "renal-sciences",
@@ -82,7 +82,7 @@ const coeCentres: Array<{
     description:
       "Dialysis care, kidney disease management, laser stone surgery, prostate treatments, and comprehensive urological interventions.",
     stats: "Advanced Dialysis | Laser Lithotripsy",
-    href: "/clinical-excellence/renal-sciences",
+    href: "/institute-of-renal-sciences",
   },
   {
     slug: "solid-organ-transplants",
@@ -91,7 +91,7 @@ const coeCentres: Array<{
     description:
       "Multi-organ transplant infrastructure with dedicated pre-transplant workup, laminar OT suites, and lifelong post-transplant immunosuppression management.",
     stats: "Multidisciplinary Transplant Team",
-    href: "/clinical-excellence/solid-organ-transplants",
+    href: "/institute-of-solid-organ-transplants",
   },
 ];
 

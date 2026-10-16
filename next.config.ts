@@ -132,6 +132,66 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
+        source: "/clinical-excellence/gastro-and-liver-sciences",
+        destination: "/institute-of-gastro-and-liver-sciences",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/cardiac-sciences",
+        destination: "/institute-of-cardiac-sciences",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/womens-health",
+        destination: "/centre-for-womens-health-and-wellness",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/bone-joint-spine",
+        destination: "/centre-for-bone-joint-spine-care",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/emergency-and-critical-care",
+        destination: "/institute-of-emergency-and-critical-care-unit",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/neuro-sciences",
+        destination: "/institute-of-neuro-sciences",
+        permanent: true,
+      },
+      {
+        source: "/insitute-of-neuro-sciences",
+        destination: "/institute-of-neuro-sciences",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/renal-sciences",
+        destination: "/institute-of-renal-sciences",
+        permanent: true,
+      },
+      {
+        source: "/clinical-excellence/solid-organ-transplants",
+        destination: "/institute-of-solid-organ-transplants",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/anaesthesiology",
+        destination: "/department/anaesthesiology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor",
+        destination: "/best-doctors",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/:slug*",
+        destination: "/best-doctors/:slug*",
+        permanent: true,
+      },
+      {
         source: "/specialties/physical-medicine-rehabilitation",
         destination: "/our-specialties/physical-medicine-and-rehabilitation",
         permanent: true,

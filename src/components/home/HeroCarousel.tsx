@@ -19,7 +19,7 @@ const slides = [
     description: <>Comprehensive cardiac care built<br />around every beat of life.</>,
     image: "/images/home/banner/desktop-banner-1-new2.jpeg",
     mobileImage: "/images/home/banner/mobile-banner-1-new.jpeg",
-    href: "/clinical-excellence/cardiac-sciences",
+    href: "/institute-of-cardiac-sciences",
     action: "Explore cardiac care",
   },
   {
@@ -28,7 +28,7 @@ const slides = [
     description: <>Every Digestive Concern<br />Deserves Expert Attention.</>,
     image: "/images/home/banner/desktop-banner-2-new.jpeg",
     mobileImage: "/images/home/banner/mobile-banner-2.jpeg",
-    href: "/clinical-excellence/gastro-and-liver-sciences",
+    href: "/institute-of-gastro-and-liver-sciences",
     action: "Explore digestive care",
   },
   {
@@ -37,7 +37,7 @@ const slides = [
     description: <>Advanced orthopaedic and spine care<br />that gets you moving again.</>,
     image: "/images/home/banner/desktop-banner-3-new.jpeg",
     mobileImage: "/images/home/banner/mobile-banner-3.jpeg",
-    href: "/clinical-excellence/bone-joint-spine",
+    href: "/centre-for-bone-joint-spine-care",
     action: "Explore bone, joint & spine care",
   },
 ];

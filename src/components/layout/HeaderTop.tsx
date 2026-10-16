@@ -81,7 +81,7 @@ export default function HeaderTop() {
 
           </div>{" "}
           <div className="header-secondary">
-            <Link href="/best-doctor" className="header-pill">
+            <Link href="/best-doctors" className="header-pill">
               <svg
                 width="14"
                 height="14"

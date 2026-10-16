@@ -16,7 +16,7 @@ const links: NavigationItem[] = [
   { label: "Home", href: "/" },
   { label: "Our Specialties", href: "/our-specialties", children: SPECIALTIES_COLUMNS.flat() },
   { label: "Clinical Excellence", href: "/clinical-excellence", children: COE_ITEMS },
-  { label: "Doctors", href: "/best-doctor" },
+  { label: "Doctors", href: "/best-doctors" },
   { label: "International Patients", href: "/international-patients" },
   { label: "Services", href: "/services" },
   { label: "Health Information", href: "/blog" },
@@ -67,7 +67,7 @@ export default function MobileNavigation() {
 
   return (
     <div className="mobile-navigation" ref={wrapper}>
-      <Link href="/best-doctor" className="mobile-find-doctor" onClick={() => setOpen(false)}>
+      <Link href="/best-doctors" className="mobile-find-doctor" onClick={() => setOpen(false)}>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m21 21-4.35-4.35" /></svg>
         Find A Doctor
       </Link>

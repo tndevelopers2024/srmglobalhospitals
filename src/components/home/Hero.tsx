@@ -140,7 +140,7 @@ export default function Hero() {
                 </div>{" "}
               </div>{" "}
               <a
-                href="/clinical-excellence/cardiac-sciences"
+                href="/institute-of-cardiac-sciences"
                 className="panel-cta"
               >
                 Visit Centre of Excellence in Cardiac Sciences{" "}

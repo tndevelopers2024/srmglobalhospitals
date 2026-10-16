@@ -11,35 +11,35 @@ interface CoeItem {
 export const COE_ITEMS: CoeItem[] = [
   {
     label: "Institute of Gastro and Liver Sciences",
-    href: "/clinical-excellence/gastro-and-liver-sciences",
+    href: "/institute-of-gastro-and-liver-sciences",
   },
   {
     label: "Institute of Cardiac Sciences",
-    href: "/clinical-excellence/cardiac-sciences",
+    href: "/institute-of-cardiac-sciences",
   },
   {
     label: "Centre for Women’s Health & Wellness",
-    href: "/clinical-excellence/womens-health",
+    href: "/centre-for-womens-health-and-wellness",
   },
   {
     label: "Centre for Bone Joint Spine Care",
-    href: "/clinical-excellence/bone-joint-spine",
+    href: "/centre-for-bone-joint-spine-care",
   },
   {
     label: "Institute of Emergency & Critical Care Unit",
-    href: "/clinical-excellence/emergency-and-critical-care",
+    href: "/institute-of-emergency-and-critical-care-unit",
   },
   {
     label: "Institute of Neuro Sciences",
-    href: "/clinical-excellence/neuro-sciences",
+    href: "/institute-of-neuro-sciences",
   },
   {
     label: "Institute of Renal Sciences",
-    href: "/clinical-excellence/renal-sciences",
+    href: "/institute-of-renal-sciences",
   },
   {
     label: "Institute of Solid Organ Transplants",
-    href: "/clinical-excellence/solid-organ-transplants",
+    href: "/institute-of-solid-organ-transplants",
   },
 ];
 

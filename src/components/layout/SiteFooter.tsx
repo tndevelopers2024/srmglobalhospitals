@@ -170,7 +170,7 @@ export default function SiteFooter() {
                 <Link href="/#specialties">Specialties</Link>
               </li>{" "}
               <li>
-                <Link href="/best-doctor">Doctors</Link>
+                <Link href="/best-doctors">Doctors</Link>
               </li>{" "}
               <li>
                 <Link href="/contact-us#book-appointment">Health Packages</Link>

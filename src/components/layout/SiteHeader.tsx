@@ -158,7 +158,7 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
               onMouseLeave={handleDoctorsMouseLeave}
             >
               <Link
-                href="/best-doctor"
+                href="/best-doctors"
                 className={`${activeNav === "doctors" ? "active" : ""} ${isDoctorsOpen ? "dropdown-open" : ""}`}
                 aria-haspopup="true"
                 aria-expanded={isDoctorsOpen}

@@ -12,7 +12,7 @@ export default function GowthamDoctorCard() {
         <p>MBBS, MS (Orthopaedics), DNB, FIRJR, MNAMS</p>
         <div className={styles.actions}>
           <Link className={styles.primary} href="/book-an-appointment">Book Appointment</Link>
-          <Link className={styles.secondary} href="/best-doctor/dr-gowtham-gandhi">View Profile</Link>
+          <Link className={styles.secondary} href="/best-doctors/dr-gowtham-gandhi">View Profile</Link>
         </div>
       </div>
     </div>
