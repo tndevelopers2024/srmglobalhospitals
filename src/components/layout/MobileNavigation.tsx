@@ -14,7 +14,7 @@ interface NavigationItem {
 
 const links: NavigationItem[] = [
   { label: "Home", href: "/" },
-  { label: "Our Specialties", href: "/specialties", children: SPECIALTIES_COLUMNS.flat() },
+  { label: "Our Specialties", href: "/our-specialties", children: SPECIALTIES_COLUMNS.flat() },
   { label: "Clinical Excellence", href: "/clinical-excellence", children: COE_ITEMS },
   { label: "Doctors", href: "/best-doctor" },
   { label: "International Patients", href: "/international-patients" },

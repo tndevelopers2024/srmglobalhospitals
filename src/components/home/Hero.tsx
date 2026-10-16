@@ -279,7 +279,7 @@ export default function Hero() {
                   Personalised insulin titration. Nutrition built in.
                 </div>{" "}
               </div>{" "}
-              <a href="/specialties/diabetology" className="panel-cta">
+              <a href="/our-specialties/leading-diabetic-hospital" className="panel-cta">
                 Visit Diabetes &amp; Endocrinology{" "}
                 <svg
                   className="arrow"
@@ -337,7 +337,7 @@ export default function Hero() {
                   Bronchoscopy suite. PFT lab. Sleep medicine clinic.
                 </div>{" "}
               </div>{" "}
-              <a href="/specialties/pulmonology" className="panel-cta">
+              <a href="/our-specialties/pulmonology" className="panel-cta">
                 Visit Pulmonology{" "}
                 <svg
                   className="arrow"

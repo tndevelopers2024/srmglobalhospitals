@@ -61,6 +61,7 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  trailingSlash: true,
   reactStrictMode: true,
   compress: true,
   // Don't advertise the framework and version to attackers.
@@ -133,6 +134,301 @@ const nextConfig: NextConfig = {
       {
         source: "/specialties/physical-medicine-rehabilitation",
         destination: "/our-specialties/physical-medicine-and-rehabilitation",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/physical-medicine-rehabilitation",
+        destination: "/our-specialties/physical-medicine-and-rehabilitation",
+        permanent: true,
+      },
+      {
+        source: "/specialties/anaesthesiology",
+        destination: "/our-specialties/leading-anaesthesiology-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/anaesthesiology",
+        destination: "/our-specialties/leading-anaesthesiology-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/cardiology",
+        destination: "/our-specialties/leading-cardiology-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/cardiology",
+        destination: "/our-specialties/leading-cardiology-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/dental-omfs",
+        destination: "/our-specialties/best-dental-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/dental-omfs",
+        destination: "/our-specialties/best-dental-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/dermatology",
+        destination: "/our-specialties/best-skin-care-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/dermatology",
+        destination: "/our-specialties/best-skin-care-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/diabetology",
+        destination: "/our-specialties/leading-diabetic-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/diabetology",
+        destination: "/our-specialties/leading-diabetic-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/emergency-medicine-critical-care",
+        destination: "/our-specialties/leading-emergency-care-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/emergency-medicine-critical-care",
+        destination: "/our-specialties/leading-emergency-care-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/endocrinology",
+        destination: "/our-specialties/leading-endocrinology-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/endocrinology",
+        destination: "/our-specialties/leading-endocrinology-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/ent",
+        destination: "/our-specialties/best-ent-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/ent",
+        destination: "/our-specialties/best-ent-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/general-medicine",
+        destination: "/our-specialties/leading-general-medicine-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/general-medicine",
+        destination: "/our-specialties/leading-general-medicine-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/general-surgery",
+        destination: "/our-specialties/leading-general-surgery-hospital",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/general-surgery",
+        destination: "/our-specialties/leading-general-surgery-hospital",
+        permanent: true,
+      },
+      {
+        source: "/specialties/geriatrics",
+        destination: "/our-specialties/best-geriatric-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/geriatrics",
+        destination: "/our-specialties/best-geriatric-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/hepatology",
+        destination: "/our-specialties/leading-hepatology-regenerative-medicine-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/hepatology",
+        destination: "/our-specialties/leading-hepatology-regenerative-medicine-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/lactation-pre-natal-yoga",
+        destination: "/our-specialties/lactation-and-pre-natal-yoga/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/lactation-pre-natal-yoga",
+        destination: "/our-specialties/lactation-and-pre-natal-yoga/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/medical-gastroenterology",
+        destination: "/our-specialties/best-medical-gastroenterology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/medical-gastroenterology",
+        destination: "/our-specialties/best-medical-gastroenterology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/medical-oncology",
+        destination: "/our-specialties/best-medical-surgical-oncology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/medical-oncology",
+        destination: "/our-specialties/best-medical-surgical-oncology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/nephrology",
+        destination: "/our-specialties/leading-nephrology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/nephrology",
+        destination: "/our-specialties/leading-nephrology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/neurosurgery",
+        destination: "/our-specialties/best-neurosurgery-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/neurosurgery",
+        destination: "/our-specialties/best-neurosurgery-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/obstetrics-gynecology",
+        destination: "/our-specialties/best-gynecology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/obstetrics-gynecology",
+        destination: "/our-specialties/best-gynecology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/ophthalmology",
+        destination: "/our-specialties/best-eye-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/ophthalmology",
+        destination: "/our-specialties/best-eye-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/orthopedics",
+        destination: "/our-specialties/leading-orthopedic-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/orthopedics",
+        destination: "/our-specialties/leading-orthopedic-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/paediatrics",
+        destination: "/our-specialties/best-paediatrics-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/paediatrics",
+        destination: "/our-specialties/best-paediatrics-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/plastic-surgery",
+        destination: "/our-specialties/best-plastic-surgery-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/plastic-surgery",
+        destination: "/our-specialties/best-plastic-surgery-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/psychiatry",
+        destination: "/our-specialties/best-psychiatry-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/psychiatry",
+        destination: "/our-specialties/best-psychiatry-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/pulmonology",
+        destination: "/our-specialties/leading-pulmonology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/pulmonology",
+        destination: "/our-specialties/leading-pulmonology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/radiology",
+        destination: "/our-specialties/best-radiology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/radiology",
+        destination: "/our-specialties/best-radiology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/rheumatology",
+        destination: "/our-specialties/best-rheumatology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/rheumatology",
+        destination: "/our-specialties/best-rheumatology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/surgical-gastroenterology",
+        destination: "/our-specialties/leading-surgical-gastroenterology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/surgical-gastroenterology",
+        destination: "/our-specialties/leading-surgical-gastroenterology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties/urology",
+        destination: "/our-specialties/best-urology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/our-specialties/urology",
+        destination: "/our-specialties/best-urology-hospital/",
+        permanent: true,
+      },
+      {
+        source: "/specialties",
+        destination: "/our-specialties",
+        permanent: true,
+      },
+      {
+        source: "/specialties/:slug*",
+        destination: "/our-specialties/:slug*",
         permanent: true,
       },
       {
