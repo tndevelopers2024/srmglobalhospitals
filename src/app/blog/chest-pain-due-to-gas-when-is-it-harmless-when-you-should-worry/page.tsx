@@ -56,7 +56,7 @@ export default function ChestPainDueToGasArticle() {
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Health Insights", path: "/blog" },
+            { name: "Health Insights", path: "/blogs" },
             { name: article.title, path: article.path },
           ]),
         ])}
@@ -94,7 +94,7 @@ export default function ChestPainDueToGasArticle() {
           ]}
           relatedReading={[
             {
-              href: "/blog/multiple-sclerosis-expert-care",
+              href: "/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
               image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=120&q=85",
               title: "Chest pain at 40: when is it your heart, and when is it not?",
               meta: "9 min · Cardiology",

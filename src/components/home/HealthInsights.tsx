@@ -8,7 +8,7 @@ export default function HealthInsights() {
             <h2 className="display-2">Written by our doctors. Read by you.</h2>{" "}
             <p className="body-lg lead">Conditions explained without jargon. Treatments compared without bias. All from the specialists who actually do them.</p>{" "}
           </div>{" "}
-          <a href="/blog" className="link-arrow">All articles<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <a href="/blogs" className="link-arrow">All articles<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
         </div>{" "}
@@ -37,7 +37,7 @@ export default function HealthInsights() {
             <h3>Types of cerebral palsy: What it means for your child</h3>{" "}
             <p>The four major types, how they affect movement, and the long-term care pathways that change quality of life.</p>{" "}
           </a>{" "}
-          <a href="/blog/multiple-sclerosis-expert-care" className="insight-card">
+          <a href="/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do" className="insight-card">
             <div className="insight-image">
               <img src="/images/blog-multiple-sclerosis.jpg" alt="Multiple sclerosis treatment" />{" "}
             </div>{" "}

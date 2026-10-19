@@ -50,7 +50,7 @@ export default function InternationalPatients() {
                 <strong>+91 96444 96444</strong>{" "}
                 <span>international@srmglobalhospitals.com</span>{" "}
               </div>{" "}
-              <a href="/international-patients" className="btn btn-primary">Talk to a coordinator</a>{" "}
+              <a href="/international-hospital" className="btn btn-primary">Talk to a coordinator</a>{" "}
             </div>{" "}
           </div>{" "}
         </div>{" "}

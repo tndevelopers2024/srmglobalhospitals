@@ -176,7 +176,7 @@ export default function SiteFooter() {
                 <Link href="/contact-us#book-appointment">Health Packages</Link>
               </li>{" "}
               <li>
-                <Link href={"/international-patients" as Route}>International Patients</Link>
+                <Link href={"/international-hospital" as Route}>International Patients</Link>
               </li>{" "}
               <li>
                 <Link href="/services">Hospital Services</Link>
@@ -216,7 +216,7 @@ export default function SiteFooter() {
             <h4>About SRM</h4>{" "}
             <ul>
               <li>
-                <Link href="/about">About Us</Link>
+                <Link href="/about-us">About Us</Link>
               </li>{" "}
               <li>
                 <Link href="/leadership-team">Leadership Team</Link>
@@ -237,7 +237,7 @@ export default function SiteFooter() {
                 <Link href="/in-the-media">Newsroom</Link>
               </li>{" "}
               <li>
-                <Link href="/blog">Insights Blog</Link>
+                <Link href="/blogs">Insights Blog</Link>
               </li>{" "}
               <li>
                 <Link href={"/contact-us" as Route}>Contact Us</Link>

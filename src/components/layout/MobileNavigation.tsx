@@ -17,21 +17,21 @@ const links: NavigationItem[] = [
   { label: "Our Specialties", href: "/our-specialties", children: SPECIALTIES_COLUMNS.flat() },
   { label: "Clinical Excellence", href: "/clinical-excellence", children: COE_ITEMS },
   { label: "Doctors", href: "/best-doctors" },
-  { label: "International Patients", href: "/international-patients" },
+  { label: "International Patients", href: "/international-hospital" },
   { label: "Services", href: "/services" },
-  { label: "Health Information", href: "/blog" },
+  { label: "Health Information", href: "/blogs" },
   { label: "Careers", href: "/careers", children: [
     { label: "Doctors", href: "/careers/doctors" },
     { label: "Staff Members", href: "/careers/hospital-staff" },
   ] },
-  { label: "About Us", href: "/about", children: [
-    { label: "About Us", href: "/about" },
+  { label: "About Us", href: "/about-us", children: [
+    { label: "About Us", href: "/about-us" },
     { label: "Leadership Team", href: "/leadership-team" },
   ] },
   { label: "Media", href: "/in-the-media", children: [
     { label: "Media", href: "/in-the-media" },
     { label: "Press Release", href: "/press-release" },
-    { label: "Blogs", href: "/blog" },
+    { label: "Blogs", href: "/blogs" },
   ] },
   { label: "Contact Us", href: "/contact-us" },
 ];

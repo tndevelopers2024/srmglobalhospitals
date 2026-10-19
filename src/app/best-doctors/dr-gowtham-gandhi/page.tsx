@@ -17,7 +17,7 @@ export default function GowthamGandhiPage() {
     <>
       <script type="application/ld+json" {...jsonLdScriptProps(breadcrumbSchema([
         { name: "Home", path: "/" },
-        { name: "Orthopaedics", path: "/best-doctors/orthopaedics" },
+        { name: "Orthopaedics", path: "/department/orthopaedics" },
         { name: "Dr. Gowtham Gandhi", path: "/best-doctors/dr-gowtham-gandhi" },
       ]))} />
       <HeaderTop />
@@ -26,7 +26,7 @@ export default function GowthamGandhiPage() {
         <header className={`${styles.hero} page-hero-frame`}>
           <div className={`${styles.wrap} ${styles.heroLayout}`}>
             <div>
-            <nav aria-label="Breadcrumb"><Link href="/best-doctors/orthopaedics">Orthopaedics</Link><span> / Dr. Gowtham Gandhi</span></nav>
+            <nav aria-label="Breadcrumb"><Link href="/department/orthopaedics">Orthopaedics</Link><span> / Dr. Gowtham Gandhi</span></nav>
             <p className={styles.eyebrow}>Orthopaedic Surgeon</p>
             <h1>Dr. Gowtham Gandhi</h1>
             <p>MBBS, MS (Orthopaedics), DNB, FIRJR, MNAMS</p>

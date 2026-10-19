@@ -177,8 +177,458 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: "/best-doctors/emergency-medicine-critical-care",
+        destination: "/department/emergency-medicine-critical-care-unit",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/emergency-medicine-critical-care",
+        destination: "/department/emergency-medicine-critical-care-unit",
+        permanent: true,
+      },
+      {
+        source: "/department/emergency-medicine-critical-care",
+        destination: "/department/emergency-medicine-critical-care-unit",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/emergency-medicine-critical-care-unit",
+        destination: "/department/emergency-medicine-critical-care-unit",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/emergency-medicine-critical-care-unit",
+        destination: "/department/emergency-medicine-critical-care-unit",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/anaesthesiology",
+        destination: "/department/anaesthesiology",
+        permanent: true,
+      },
+      {
         source: "/best-doctor/anaesthesiology",
         destination: "/department/anaesthesiology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/anaesthesiology-cardiac-anaesthesia",
+        destination: "/department/anaesthesiology-cardiac-anaesthesia",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/anaesthesiology-cardiac-anaesthesia",
+        destination: "/department/anaesthesiology-cardiac-anaesthesia",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/arthroscopy-sports-medicine",
+        destination: "/department/arthroscopy-sports-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/arthroscopy-sports-medicine",
+        destination: "/department/arthroscopy-sports-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/dental",
+        destination: "/department/dental",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/dental",
+        destination: "/department/dental",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/dermatology",
+        destination: "/department/dermatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/dermatology",
+        destination: "/department/dermatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/diabetology",
+        destination: "/department/diabetology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/diabetology",
+        destination: "/department/diabetology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/ent",
+        destination: "/department/ent",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/ent",
+        destination: "/department/ent",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/fetal-medicine",
+        destination: "/department/fetal-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/fetal-medicine",
+        destination: "/department/fetal-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/general-medicine",
+        destination: "/department/general-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/general-medicine",
+        destination: "/department/general-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/general-surgery",
+        destination: "/department/general-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/general-surgery",
+        destination: "/department/general-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/hematology",
+        destination: "/department/hematology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/hematology",
+        destination: "/department/hematology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/hepatology",
+        destination: "/department/hepatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/hepatology",
+        destination: "/department/hepatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/infectious-disease",
+        destination: "/department/infectious-disease",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/infectious-disease",
+        destination: "/department/infectious-disease",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/institute-of-cardiac-sciences",
+        destination: "/department/institute-of-cardiac-sciences",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/institute-of-cardiac-sciences",
+        destination: "/department/institute-of-cardiac-sciences",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/interventional-radiology",
+        destination: "/department/interventional-radiology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/interventional-radiology",
+        destination: "/department/interventional-radiology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/medical-oncology",
+        destination: "/department/medical-oncology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/medical-oncology",
+        destination: "/department/medical-oncology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/neonatology",
+        destination: "/department/neonatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/neonatology",
+        destination: "/department/neonatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/nephrology",
+        destination: "/department/nephrology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/nephrology",
+        destination: "/department/nephrology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/neurology",
+        destination: "/department/neurology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/neurology",
+        destination: "/department/neurology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/neurosurgery",
+        destination: "/department/neurosurgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/neurosurgery",
+        destination: "/department/neurosurgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/obstetrics-gynecology",
+        destination: "/department/obstetrics-gynecology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/obstetrics-gynecology",
+        destination: "/department/obstetrics-gynecology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/ophthalmology",
+        destination: "/department/ophthalmology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/ophthalmology",
+        destination: "/department/ophthalmology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/orthopaedics",
+        destination: "/department/orthopaedics",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/orthopaedics",
+        destination: "/department/orthopaedics",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/paediatric-critical-care",
+        destination: "/department/paediatric-critical-care",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/paediatric-critical-care",
+        destination: "/department/paediatric-critical-care",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/paediatric-endocrinology",
+        destination: "/department/paediatric-endocrinology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/paediatric-endocrinology",
+        destination: "/department/paediatric-endocrinology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/paediatric-surgery",
+        destination: "/department/paediatric-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/paediatric-surgery",
+        destination: "/department/paediatric-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/paediatrics",
+        destination: "/department/paediatrics",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/paediatrics",
+        destination: "/department/paediatrics",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/physical-medicine-and-rehabilitation",
+        destination: "/department/physical-medicine-and-rehabilitation",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/physical-medicine-and-rehabilitation",
+        destination: "/department/physical-medicine-and-rehabilitation",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/physiotherapy",
+        destination: "/department/physiotherapy",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/physiotherapy",
+        destination: "/department/physiotherapy",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/plastic-surgery",
+        destination: "/department/plastic-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/plastic-surgery",
+        destination: "/department/plastic-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/pulmonology",
+        destination: "/department/pulmonology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/pulmonology",
+        destination: "/department/pulmonology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/radiology",
+        destination: "/department/radiology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/radiology",
+        destination: "/department/radiology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/reproductive-medicine",
+        destination: "/department/reproductive-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/reproductive-medicine",
+        destination: "/department/reproductive-medicine",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/rheumatology",
+        destination: "/department/rheumatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/rheumatology",
+        destination: "/department/rheumatology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/spine-care",
+        destination: "/department/spine-care",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/spine-care",
+        destination: "/department/spine-care",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/surgical-gastroenterology",
+        destination: "/department/surgical-gastroenterology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/surgical-gastroenterology",
+        destination: "/department/surgical-gastroenterology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/surgical-oncology",
+        destination: "/department/surgical-oncology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/surgical-oncology",
+        destination: "/department/surgical-oncology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/trauma-and-acute-care-surgery",
+        destination: "/department/trauma-acute-care-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/trauma-and-acute-care-surgery",
+        destination: "/department/trauma-acute-care-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/trauma-acute-care-surgery",
+        destination: "/department/trauma-acute-care-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/trauma-acute-care-surgery",
+        destination: "/department/trauma-acute-care-surgery",
+        permanent: true,
+      },
+      {
+        source: "/department/trauma-and-acute-care-surgery",
+        destination: "/department/trauma-acute-care-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/uro-gynaecology",
+        destination: "/department/uro-gynaecology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/uro-gynaecology",
+        destination: "/department/uro-gynaecology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/urology",
+        destination: "/department/urology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/urology",
+        destination: "/department/urology",
+        permanent: true,
+      },
+      {
+        source: "/best-doctors/vascular-surgery",
+        destination: "/department/vascular-surgery",
+        permanent: true,
+      },
+      {
+        source: "/best-doctor/vascular-surgery",
+        destination: "/department/vascular-surgery",
+        permanent: true,
+      },
+      {
+        source: "/department",
+        destination: "/best-doctors",
         permanent: true,
       },
       {
@@ -189,6 +639,47 @@ const nextConfig: NextConfig = {
       {
         source: "/best-doctor/:slug*",
         destination: "/best-doctors/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/international-patients",
+        destination: "/international-hospital",
+        permanent: true,
+      },
+      {
+        source: "/international-patients/:slug*",
+        destination: "/international-hospital/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/international-patient",
+        destination: "/international-hospital",
+        permanent: true,
+      },
+      {
+        source: "/international-patient/:slug*",
+        destination: "/international-hospital/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/about",
+        destination: "/about-us",
+        permanent: true,
+      },
+      {
+        source: "/about/:slug*",
+        destination: "/about-us/:slug*",
+        permanent: true,
+      },
+      {
+        source: "/blog",
+        destination: "/blogs",
+        permanent: true,
+      },
+      {
+        source: "/blog/multiple-sclerosis-expert-care",
+        destination:
+          "/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
         permanent: true,
       },
       {

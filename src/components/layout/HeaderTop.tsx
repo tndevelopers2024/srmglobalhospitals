@@ -111,7 +111,7 @@ export default function HeaderTop() {
                   </svg>
                 </Link>
                 <div className="nav-dropdown-menu">
-                  <Link href="/about">About Us</Link>
+                  <Link href="/about-us">About Us</Link>
                   <Link href="/leadership-team">Leadership Team</Link>
                 </div>
               </div>{" "}
@@ -132,7 +132,7 @@ export default function HeaderTop() {
                 <div className="nav-dropdown-menu">
                   <Link href={"/in-the-media" as Route}>Media</Link>
                   <Link href={"/press-release" as Route}>Press Release</Link>
-                  <Link href="/blog">Blogs</Link>
+                  <Link href="/blogs">Blogs</Link>
                 </div>
               </div>{" "}
               <Link href={"/contact-us" as Route}>Contact Us</Link>{" "}

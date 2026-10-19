@@ -43,7 +43,7 @@ const DEFAULT_SETTING: RouteSetting = {
  */
 const routeSettings: Record<string, RouteSetting> = {
   "/": { priority: 1, changeFrequency: "weekly" },
-  "/about": { priority: 0.9, changeFrequency: "monthly" },
+  "/about-us": { priority: 0.9, changeFrequency: "monthly" },
   "/services": { priority: 0.9, changeFrequency: "monthly" },
   "/clinical-excellence": { priority: 0.9, changeFrequency: "weekly" },
   "/book-an-appointment": { priority: 0.95, changeFrequency: "weekly" },
@@ -51,8 +51,10 @@ const routeSettings: Record<string, RouteSetting> = {
   "/international-patients": { priority: 0.95, changeFrequency: "weekly" },
   "/international-patient": { priority: 0.95, changeFrequency: "weekly" },
   "/blog": { priority: 0.8, changeFrequency: "weekly" },
+  "/blogs": { priority: 0.8, changeFrequency: "weekly" },
   "/our-specialties": { priority: 0.9, changeFrequency: "weekly" },
   "/best-doctors": { priority: 0.9, changeFrequency: "weekly" },
+  "/department": { priority: 0.9, changeFrequency: "weekly" },
 };
 
 /** Paths that exist but should never be indexed (thank-you pages, previews…). */

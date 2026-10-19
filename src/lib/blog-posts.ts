@@ -11,7 +11,7 @@
  * article's word count at 200 wpm.
  *
  * `href` points at the in-app article route. Only
- * `/blog/multiple-sclerosis-expert-care` exists so far — it is mapped by hand
+ * `/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do` exists so far — it is mapped by hand
  * below because the live slug differs. The rest resolve once their article
  * pages are built, which is why the cards render as plain `<a>`: `typedRoutes`
  * rejects a `next/link` href that has no matching route yet.
@@ -130,8 +130,8 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
     title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
-    href: "/blog/multiple-sclerosis-expert-care",
-    image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
+    href: "/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
+    image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do/hero.jpeg",
     specialty: "Neurology",
     readMinutes: 15,
     date: "2026-05-14",

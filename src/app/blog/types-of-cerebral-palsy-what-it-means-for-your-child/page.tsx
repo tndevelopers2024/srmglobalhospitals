@@ -56,7 +56,7 @@ export default function CerebralPalsyArticle() {
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Health Insights", path: "/blog" },
+            { name: "Health Insights", path: "/blogs" },
             { name: article.title, path: article.path },
           ]),
         ])}
@@ -95,8 +95,8 @@ export default function CerebralPalsyArticle() {
           ]}
           relatedReading={[
             {
-              href: "/blog/multiple-sclerosis-expert-care",
-              image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
+              href: "/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
+              image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do/hero.jpeg",
               title: "Multiple sclerosis: what expert care at the right time can actually do",
               meta: "12 min · Neurology",
             },

@@ -55,7 +55,7 @@ export default function SeizureFirstAidGuidePage() {
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Health Insights", path: "/blog" },
+            { name: "Health Insights", path: "/blogs" },
             { name: article.title, path: article.path },
           ]),
         ])}
@@ -120,8 +120,8 @@ export default function SeizureFirstAidGuidePage() {
 ]}
           relatedReading={[
           {
-                  "href": "/blog/multiple-sclerosis-expert-care",
-                  "image": "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
+                  "href": "/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
+                  "image": "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do/hero.jpeg",
                   "title": "Multiple sclerosis treatment: what expert care at the right time can do",
                   "meta": "15 min · Neurology"
           },

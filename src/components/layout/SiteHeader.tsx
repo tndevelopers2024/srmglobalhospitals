@@ -170,9 +170,9 @@ export default function SiteHeader({ activeNav }: SiteHeaderProps = {}) {
                 onClose={() => setIsDoctorsOpen(false)}
               /> */}
             </div>{" "}
-            <Link href={"/international-patients" as Route} className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
+            <Link href={"/international-hospital" as Route} className={activeNav === "intl" ? "active" : undefined}>International Patients</Link>{" "}
             <Link href="/services" className={activeNav === "services" ? "active" : undefined}>Services</Link>{" "}
-            <Link href="/blog" className={activeNav === "insights" ? "active" : undefined}>Health Information</Link>{" "}
+            <Link href="/blogs" className={activeNav === "insights" ? "active" : undefined}>Health Information</Link>{" "}
             <div className="nav-dropdown-wrapper">
               <Link href="/careers" className={activeNav === "careers" ? "active" : undefined} aria-haspopup="true">
                 Careers
