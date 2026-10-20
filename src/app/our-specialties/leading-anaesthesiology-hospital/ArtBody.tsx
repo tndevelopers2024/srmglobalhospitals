@@ -113,7 +113,7 @@ export default function ArtBody() {
         </div>
       </div>
     </div>
-  </div>n
+  </div>
 </section>
 
 {/*  ════════════════════════════════════════════════
