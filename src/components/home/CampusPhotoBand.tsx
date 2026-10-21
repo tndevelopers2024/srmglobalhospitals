@@ -1,6 +1,6 @@
 export default function CampusPhotoBand() {
   return (
-    <div style={{ height: '420px', position: 'relative', overflow: 'hidden' }}>
+    <div className="campus-photo-band" style={{ height: '420px', position: 'relative', overflow: 'hidden' }}>
       <img src="/images/home/banner-image-two.avif" alt="SRM Global Hospitals entrance and emergency department" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />{" "}
       <div style={{ position: 'absolute', inset: '0', background: 'linear-gradient(180deg, transparent 40%, rgba(14,18,64,0.5) 100%)' }} />{" "}
       <div className="container" style={{ position: 'absolute', bottom: '36px', left: '0', right: '0', zIndex: '1' }}>

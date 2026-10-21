@@ -28,7 +28,9 @@ export type Specialty =
   | "Pulmonology"
   | "Urology"
   | "Dermatology"
-  | "Emergency Medicine";
+  | "Emergency Medicine"
+  | "Gastroenterology"
+  | "Dental";
 
 /** Filter pill order and dot colours, both from the design reference. */
 export const SPECIALTIES: { name: Specialty; color: string }[] = [
@@ -43,6 +45,8 @@ export const SPECIALTIES: { name: Specialty; color: string }[] = [
   { name: "Urology", color: "#0ea5e9" },
   { name: "Dermatology", color: "#d946ef" },
   { name: "Emergency Medicine", color: "#dc2626" },
+  { name: "Gastroenterology", color: "#cadc26" },
+  { name: "Dental", color: "#4c0d57"},
 ];
 
 const SPECIALTY_COLORS = new Map(SPECIALTIES.map((s) => [s.name, s.color]));
@@ -64,6 +68,69 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+    {
+    slug: "heart-palpitations-causes-when-to-worry-and-treatment",
+    title: "Heart Palpitations: Causes, When to Worry & Treatment",
+    href: "/blog/heart-palpitations-causes-when-to-worry-and-treatment",
+    image: "/images/blog/heart-palpitations-causes-when-to-worry-and-treatment/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 10,
+    date: "2026-10-21",
+  },
+  {
+    slug: "lipid-profile-test-what-it-measures-and-how-to-interpret",
+    title: "Lipid Profile Test: What It Measures & How to Interpret Results",
+    href: "/blog/lipid-profile-test-what-it-measures-and-how-to-interpret",
+    image: "/images/blog/lipid-profile-test-what-it-measures-and-how-to-interpret/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 12,
+    date: "2026-10-21",
+  },
+  {
+    slug: "troponin-test-what-it-is-normal-range-and-what-results-mean",
+    title: "Troponin Test: What It Is, Normal Range & What Results Mean",
+    href: "/blog/troponin-test-what-it-is-normal-range-and-what-results-mean",
+    image: "/images/blog/troponin-test-what-it-Is-normal-range-and-what-results-mean/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 14,
+    date: "2026-10-21",
+  },
+  {
+    slug: "tmt-test-what-it-detects-how-to-prepare-and-results",
+    title: "TMT Test: What It Detects, How to Prepare & Results",
+    href: "/blog/tmt-test-what-it-detects-how-to-prepare-and-results",
+    image: "/images/blog/tmt-test-what-it-detects-how-to-prepare-and-results/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 12,
+    date: "2026-10-21",
+  },
+  {
+    slug: "echo-test-(echocardiogram)-purpose-procedure-and-cost",
+    title: "Echo Test (Echocardiogram): Purpose, Procedure & Cost",
+    href: "/blog/echo-test-(echocardiogram)-purpose-procedure-and-cost",
+    image: "/images/blog/echo-test-(echocardiogram)-purpose-procedure-and-cost/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 14,
+    date: "2026-10-21",
+  },
+  {
+    slug: "ecg-test-what-it-is-how-it-works-and-what-results-mean",
+    title: "ECG Test: What It Is, How It Works, Cost & What Results Mean",
+    href: "/blog/ecg-test-what-it-is-how-it-works-and-what-results-mean",
+    image: "/images/blog/ecg-test-what-it-is-how-it-works-and-what-results-mean/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 12,
+    date: "2026-10-21",
+  },
+  {
+    slug: "what-Is-an-angiogram-procedure-risks-and-recovery",
+    title: "What Is an Angiogram? Procedure, Risks & Recovery",
+    href: "/blog/what-is-an-angiogram-procedure-risks-and-recovery",
+    image: "/images/blog/what-is-an-angiogram-procedure-risks-and-recovery/hero.jpeg",
+    specialty: "Cardiology",
+    readMinutes: 14,
+    date: "2026-10-21",
+  },
   {
     slug: "personalised-orthopedic-rehabilitation-for-faster-recovery",
     title: "Personalised Orthopedic Rehabilitation for Faster Recovery",
