@@ -8,7 +8,7 @@ export default function Doctors() {
             <h2 className="display-2">Care, led by experience.</h2>{" "}
             <p className="body-lg lead">A small selection from a panel of 100+ senior specialists across our seven centres of excellence.</p>{" "}
           </div>{" "}
-          <a href="/best-doctor" className="link-arrow">Find a doctor<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <a href="/best-doctors" className="link-arrow">Find a doctor<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
         </div>{" "}
@@ -19,7 +19,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. T.R. Muralidharan</h3>{" "}
             <p className="doctor-quals">MBBS, MD, DM</p>{" "}
             <p className="doctor-role">Director, Centre of Excellence in Cardiac Sciences</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -29,7 +29,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. C.N. Raja Chidambaram</h3>{" "}
             <p className="doctor-quals">MBBS, MS</p>{" "}
             <p className="doctor-role">Senior Consultant, General Surgery</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -39,7 +39,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. N.A. Rajesh</h3>{" "}
             <p className="doctor-quals">MBBS, MD, DM</p>{" "}
             <p className="doctor-role">Lead Consultant, Gastroenterology</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -49,7 +49,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. Ilankumaran</h3>{" "}
             <p className="doctor-quals">MBBS, MS, MCh</p>{" "}
             <p className="doctor-role">Senior Consultant, Surgical Oncology</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -59,7 +59,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. Vijaya Shankari</h3>{" "}
             <p className="doctor-quals">MBBS, DNB</p>{" "}
             <p className="doctor-role">Senior Consultant, Glaucoma</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -69,7 +69,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. Nanda Kumar R</h3>{" "}
             <p className="doctor-quals">MBBS, MD</p>{" "}
             <p className="doctor-role">Senior Consultant, General Medicine</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -79,7 +79,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. Sindhu V.</h3>{" "}
             <p className="doctor-quals">MBBS, DTCD, DNB</p>{" "}
             <p className="doctor-role">Consultant, Pulmonology</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}
@@ -89,7 +89,7 @@ export default function Doctors() {
             <h3 className="doctor-name">Dr. Sithara S.</h3>{" "}
             <p className="doctor-quals">MBBS, MD, Fellow ID</p>{" "}
             <p className="doctor-role">Associate Consultant, Infectious Diseases</p>{" "}
-            <a href="#" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <a href="/book-an-appointment" className="doctor-action">Request appointment<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
   <path d="M5 12h14M13 5l7 7-7 7" />
 </svg></a>{" "}
           </article>{" "}

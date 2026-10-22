@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 
 interface CareersHeroProps {
   onExploreClick?: () => void;

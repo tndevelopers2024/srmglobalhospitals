@@ -26,16 +26,18 @@ This project is built using Next.js 16 (App Router) and Tailwind CSS, featuring 
 
 ## Getting Started
 
+Use Node.js 24.x and pnpm 12.11.2 (pinned in `package.json`).
+
 First, install the dependencies:
 
 ```bash
-npm i
+pnpm install
 ```
 
 Then, run the development server:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -44,12 +46,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 | Command             | What it does                                              |
 | ------------------- | --------------------------------------------------------- |
-| `npm run dev`       | Development server                                         |
-| `npm run build`     | Production build                                           |
-| `npm run start`     | Serve the production build                                 |
-| `npm run typecheck` | `tsc --noEmit`                                             |
-| `npm run lint`      | ESLint (Next 16 no longer lints during `build`)            |
-| `npm run verify`    | typecheck → lint → build; run this before pushing          |
+| `pnpm run dev`       | Development server                                         |
+| `pnpm run build`     | Production build                                           |
+| `pnpm run start`     | Serve the production build                                 |
+| `pnpm run typecheck` | `tsc --noEmit`                                             |
+| `pnpm run lint`      | ESLint (Next 16 no longer lints during `build`)            |
+| `pnpm run verify`    | typecheck → lint → build; run this before pushing          |
 
 ## Project structure
 

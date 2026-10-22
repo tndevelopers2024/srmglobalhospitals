@@ -56,7 +56,7 @@ export default function EffectiveL5S1DiscBulgeTreatmentArticle() {
           }),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Health Insights", path: "/blog" },
+            { name: "Health Insights", path: "/blogs" },
             { name: article.title, path: article.path },
           ]),
         ])}

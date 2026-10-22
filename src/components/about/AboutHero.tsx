@@ -14,7 +14,7 @@ export default function AboutHero() {
             </h1>
             <p className="about-hero-desc">
               For over three decades, SRM Global Hospitals has been a beacon of world-class medical
-              care in the heart of Kattankulathur, Chennai.
+              care in the heart of Chengalpattu, Chennai.
             </p>
             <div className="about-hero-actions">
               <Link href="/services" className="about-hero-btn-primary">

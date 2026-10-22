@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 
 interface CareersRecruitmentCTAProps {
   onExploreClick: () => void;
@@ -181,7 +180,7 @@ export default function CareersRecruitmentCTA({
                 margin: "4px 0 0",
               }}
             >
-              SRM Nagar, Potheri, Kattankulathur, Chennai, Tamil Nadu 603 203
+              SRM Nagar, Potheri, Chengalpattu, Chennai, Tamil Nadu 603 203
             </p>
           </div>
         </div>

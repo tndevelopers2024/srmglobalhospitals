@@ -657,6 +657,40 @@
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .about-values-section {
+    padding: 56px 20px;
+  }
+
+  .about-values-title {
+    font-size: 34px;
+  }
+
+  .about-values-section .about-values-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 86%;
+    gap: 16px;
+    margin-top: 32px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    padding: 4px 0 16px;
+    scrollbar-width: thin;
+    scrollbar-color: #6b4a98 #f0eaf7;
+  }
+
+  .about-values-grid .about-value-card {
+    min-width: 0;
+    padding: 28px 24px;
+    scroll-snap-align: start;
+  }
+
+  .about-values-grid .about-value-card:hover {
+    transform: none;
+  }
+}
+
 /* ------------------------------------------------------------
    EXCELLENCE STATS SECTION
    ------------------------------------------------------------ */

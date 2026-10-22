@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { JobItem } from "./CareersFilterAndJobs";
 
 export interface CareerJobCardProps {
@@ -9,6 +8,7 @@ export interface CareerJobCardProps {
   onToggle: () => void;
   onApply: (job: JobItem) => void;
   accentColor?: string;
+  staticDetails?: boolean;
 }
 
 export default function CareerJobCard({
@@ -17,6 +17,7 @@ export default function CareerJobCard({
   onToggle,
   onApply,
   accentColor = "#6B4A98",
+  staticDetails = false,
 }: CareerJobCardProps) {
   const contactHR = job.contactNumber || "+91 9994255121 / 8754010369";
 
@@ -25,18 +26,18 @@ export default function CareerJobCard({
       {/* Featured Header */}
       <div
         className="careers-featured-header"
-        onClick={onToggle}
-        role="button"
-        tabIndex={0}
-        aria-expanded={isOpen}
+        onClick={staticDetails ? undefined : onToggle}
+        role={staticDetails ? undefined : "button"}
+        tabIndex={staticDetails ? undefined : 0}
+        aria-expanded={staticDetails ? undefined : isOpen}
         onKeyDown={(e) => {
-          if (e.key === "Enter" || e.key === " ") {
+          if (!staticDetails && (e.key === "Enter" || e.key === " ")) {
             e.preventDefault();
             onToggle();
           }
         }}
         style={{
-          cursor: "pointer",
+          cursor: staticDetails ? "default" : "pointer",
           userSelect: "none",
           padding: "24px 30px",
           display: "flex",
@@ -108,7 +109,7 @@ export default function CareerJobCard({
           </h3>
 
           {/* Collapsed Snippet */}
-          {!isOpen && (
+          {!staticDetails && !isOpen && (
             <p
               style={{
                 fontFamily: "Inter, sans-serif",
@@ -145,7 +146,7 @@ export default function CareerJobCard({
             </svg>
           </button>
 
-          <button
+          {!staticDetails && <button
             type="button"
             onClick={(e) => {
               e.stopPropagation();
@@ -181,12 +182,12 @@ export default function CareerJobCard({
             >
               <polyline points="6 9 12 15 18 9" />
             </svg>
-          </button>
+          </button>}
         </div>
       </div>
 
       {/* Featured Body: Job Details Matching Image 1 Reference Exactly */}
-      {isOpen && (
+      {(staticDetails || isOpen) && (
         <div className="careers-featured-body" style={{ paddingTop: "24px" }}>
           {/* 1. Job Summary */}
           <div style={{ marginBottom: "22px" }}>
@@ -296,7 +297,7 @@ export default function CareerJobCard({
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(320px, 100%), 1fr))",
               gap: "24px",
               marginBottom: "24px",
             }}
@@ -490,7 +491,7 @@ export default function CareerJobCard({
             }}
           >
             <div style={{ fontFamily: "Inter, sans-serif", fontSize: "13px", color: "#64748b" }}>
-              SRM Global Hospitals • Kattankulathur, Chennai
+              SRM Global Hospitals • Chengalpattu, Chennai
               {contactHR ? ` • Inquiry: ${contactHR}` : ""}
             </div>
             <div>

@@ -12,7 +12,7 @@ import { absoluteUrl, siteConfig } from "@/lib/site";
  * export const metadata = createMetadata({
  *   title: "International Patients",
  *   description: "…",
- *   path: "/international-patients",
+ *   path: "/international-hospital",
  * });
  * ```
  *

@@ -847,7 +847,7 @@
   box-shadow: 0 4px 16px rgba(14, 18, 64, 0.07);
 }
 
-.intl-faq-item.active {
+.intl-faq-item[data-state="open"] {
   border-color: #7c6af7;
   border-left: 3px solid #7c6af7;
   box-shadow: 0 4px 16px rgba(124, 106, 247, 0.10);
@@ -875,7 +875,7 @@
   margin: 0;
 }
 
-.intl-faq-item.active .intl-faq-q-text {
+.intl-faq-item[data-state="open"] .intl-faq-q-text {
   color: #0e1240;
 }
 
@@ -890,7 +890,7 @@
   transition: transform 0.25s ease;
 }
 
-.intl-faq-item.active .intl-faq-toggle-icon {
+.intl-faq-item[data-state="open"] .intl-faq-toggle-icon {
   transform: rotate(180deg);
   color: #7c6af7;
 }
@@ -989,4 +989,14 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+}
+
+/* Preserve the international FAQ design on the shadcn accordion. */
+.intl-faq-item:last-child { border-bottom: 1px solid #e2e8f0; }
+.intl-faq-item > h3 { margin: 0; }
+.intl-faq-button:hover { text-decoration: none; }
+.intl-faq-button:focus-visible { outline: 3px solid #7c6af7; outline-offset: -3px; }
+.intl-faq-button > svg { width: 22px; height: 22px; color: #7c6af7; }
+@media (prefers-reduced-motion: reduce) {
+  .intl-faq-answer, [data-slot="accordion-content"] { animation: none; }
 }
