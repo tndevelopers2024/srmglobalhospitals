@@ -1,0 +1,1379 @@
+/* ============================================================
+   SRM GLOBAL HOSPITALS - HOME PAGE DEDICATED STYLES & FIXES
+   Strictly scoped to .home-page and body:has(.home-page)
+   Zero impact on shared components or other pages
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1. BASE HOMEPAGE WRAPPER & OVERFLOW PREVENTION
+   ------------------------------------------------------------ */
+.home-page {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.home-page * {
+  box-sizing: border-box;
+}
+
+.home-page img,
+.home-page svg,
+.home-page video {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-page .hero-grid > * {
+  min-width: 0;
+}
+
+/* ------------------------------------------------------------
+   2. DESKTOP HERO & CAROUSEL (Preserved Exactly)
+   ------------------------------------------------------------ */
+.home-page .hero {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin-inline: auto;
+  aspect-ratio: 16 / 7.2;
+  min-height: clamp(520px, 68vh, 840px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: clamp(24px, 2.4vw, 42px) 0 clamp(16px, 1.8vw, 28px);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.home-page .hero > .container {
+  width: 100%;
+  max-height: none;
+  overflow: visible;
+  position: relative;
+  z-index: 2;
+}
+
+.home-page .hero-slide-background {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to right, rgba(255,255,255,.84) 0%, rgba(255,255,255,.70) 30%, rgba(255,255,255,.32) 55%, rgba(255,255,255,0) 80%), var(--slide-image);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .6s ease;
+  pointer-events: none;
+}
+
+.home-page .hero-slide-background.is-active {
+  opacity: 1;
+}
+
+.home-page .hero-carousel .hero-content {
+  padding-top: clamp(64px, 1.8vw, 24px);
+}
+
+.home-page .hero-carousel .hero-headline {
+  height: auto;
+  min-height: 0;
+  margin: 0 0 12px;
+  font-size: clamp(24px, 2.5vw, 38px);
+  line-height: 1.18;
+}
+
+.home-page .hero-carousel .hero-subline {
+  height: auto;
+  min-height: 0;
+  margin: 0 0 16px;
+  color: var(--ink);
+  font-size: clamp(14px, 1.1vw, 15.5px);
+  line-height: 1.5;
+  font-weight: 500;
+  max-width: 520px;
+}
+
+.home-page .hero-slides-track {
+  display: grid;
+  grid-template-columns: 100%;
+  width: 100%;
+}
+
+.home-page .hero-slide-panel {
+  grid-area: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.home-page .hero-slide-panel.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  z-index: 2;
+}
+
+.home-page .hero-slide-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.home-page .hero-slide-action-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 0 0 auto;
+}
+
+.hero-slide-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #1a1f5c;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-slide-action:hover {
+  background: #363b78;
+}
+
+.home-page .hero-carousel-controls,
+.hero-carousel-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 14px;
+}
+
+.hero-carousel-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid #ccd5df;
+  border-radius: 50%;
+  background: #ffffffdc;
+  color: #1a1f5c;
+  cursor: pointer;
+}
+
+.hero-carousel-arrow:hover {
+  background: #eef1f8;
+}
+
+.hero-carousel-dots {
+  display: flex;
+  align-items: center;
+}
+
+.hero-carousel-dot {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 38px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-carousel-dot span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #9099ac;
+}
+
+.hero-carousel-dot[aria-current="true"] span {
+  width: 22px;
+  border-radius: 8px;
+  background: #1a1f5c;
+}
+
+.hero-carousel-count {
+  color: #475569;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.hero-carousel button:focus-visible,
+.hero-slide-action:focus-visible {
+  outline: 3px solid #7c6af7;
+  outline-offset: 3px;
+}
+
+.home-page .hero-meta {
+  margin-top: 14px;
+  padding-top: 12px;
+  gap: clamp(24px, 3.2vw, 44px);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.9);
+}
+
+.home-page .hero-meta-item .num {
+  font-size: clamp(24px, 2.2vw, 30px);
+  margin-bottom: 2px;
+}
+
+.home-page .hero-meta-item .lbl {
+  font-size: 11px;
+}
+
+.home-page .hero-trust {
+  margin-top: 12px;
+  padding: 10px 0 0;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.9);
+  gap: 18px;
+}
+
+.home-page .hero-trust-label {
+  font-size: 10.5px;
+}
+
+.home-page .hero-trust-badges {
+  gap: 16px;
+}
+
+.home-page .hero-trust-badge {
+  font-size: 11.5px;
+}
+
+/* ------------------------------------------------------------
+   3. TABLET & DESKTOP MEDIA QUERIES (Preserved)
+   ------------------------------------------------------------ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-page .hero-grid {
+    grid-template-columns: 1.15fr 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  .home-page .hero-carousel .hero-content {
+    padding-top: 14px;
+  }
+  .home-page .hero-carousel .hero-headline {
+    font-size: clamp(22px, 2.5vw, 28px);
+    margin-bottom: 8px;
+  }
+  .home-page .hero-carousel .hero-subline {
+    font-size: 13px;
+    margin-bottom: 12px;
+  }
+  .home-page .hero-carousel-controls {
+    margin: 10px 0;
+  }
+  .home-page .hero-meta {
+    margin-top: 12px;
+    padding-top: 12px;
+    gap: 10px;
+  }
+  .home-page .hero-meta-item .num {
+    font-size: 22px;
+  }
+  .home-page .hero-panel-stage {
+    min-height: 220px;
+    padding: 14px 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .home-page .hero-carousel > .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: clamp(8px, 1.2vw, 20px);
+  }
+
+  .home-page .hero-carousel .hero-grid {
+    height: auto;
+    align-items: start;
+    gap: clamp(32px, 3.8vw, 56px);
+  }
+
+  .home-page .hero-carousel .hero-image-wrap {
+    align-self: start;
+  }
+}
+
+/* ------------------------------------------------------------
+   4. DESKTOP SCROLL REVEAL (Subtle on large screens)
+   ------------------------------------------------------------ */
+.home-page .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.home-page.home-animations-ready .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-page.home-animations-ready .reveal,
+  .home-page .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .home-page .hero-slide-background {
+    transition: none !important;
+  }
+}
+
+/* ------------------------------------------------------------
+   5. MOBILE RESPONSIVENESS FIXES (<= 768px)
+   ------------------------------------------------------------ */
+@media (max-width: 768px) {
+  /* Prevent scroll-reveal from hiding sections on mobile */
+  .home-page .reveal,
+  .home-page.home-animations-ready .reveal,
+  .home-page.home-animations-ready .reveal:not(.in) {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+    transition: none !important;
+  }
+
+  /* Compact section padding & typography scale */
+  .home-page section {
+    padding: 44px 0 !important;
+  }
+
+  .home-page .display-2 {
+    font-size: clamp(22px, 6.2vw, 30px) !important;
+    line-height: 1.22 !important;
+    letter-spacing: -0.01em !important;
+  }
+
+  .home-page .section-head {
+    margin-bottom: 24px !important;
+    gap: 12px !important;
+  }
+
+  .home-page .eyebrow {
+    font-size: 10.5px !important;
+    letter-spacing: 0.12em !important;
+    margin-bottom: 6px !important;
+  }
+
+  .home-page .lead,
+  .home-page .body-lg {
+    font-size: 14px !important;
+    line-height: 1.55 !important;
+  }
+
+  /* --- HERO SECTION --- */
+  .home-page .hero {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: auto;
+    height: auto;
+    min-height: 0;
+    padding: 18px 0 24px;
+    overflow: hidden;
+  }
+
+  .home-page .hero-slide-background {
+    background-image: var(--slide-mobile-image) !important;
+    background-size: cover !important;
+    background-position: center top !important;
+    background-repeat: no-repeat !important;
+    background-color: #faf8f4 !important;
+  }
+
+  .home-page .hero-slide-background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.88) 0%,
+      rgba(255, 255, 255, 0.72) 32%,
+      rgba(255, 255, 255, 0.35) 65%,
+      rgba(255, 255, 255, 0.85) 100%
+    );
+  }
+
+  .home-page .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-page .hero-carousel .hero-content {
+    padding-top: 8px;
+  }
+
+  .home-page .hero-carousel .hero-headline {
+    margin-bottom: 8px;
+    font-size: clamp(22px, 6.5vw, 29px);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .home-page .hero-carousel .hero-subline {
+    margin-bottom: 14px;
+    font-size: clamp(13px, 3.8vw, 14.5px);
+    line-height: 1.5;
+    color: var(--ink-soft);
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    overflow: visible !important;
+    max-width: 100%;
+  }
+
+  .home-page .hero-slide-action-wrap {
+    margin-bottom: 4px;
+  }
+
+  .home-page .hero-slide-action {
+    min-height: 42px;
+    padding: 10px 18px;
+    font-size: 13.5px;
+    font-weight: 700;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(26, 31, 92, 0.18);
+  }
+
+  .home-page .hero-carousel-controls {
+    margin: 10px 0 12px;
+    gap: 8px;
+  }
+
+  .home-page .hero-carousel-arrow {
+    width: 34px;
+    height: 34px;
+  }
+
+  .home-page .hero-carousel-dot {
+    width: 24px;
+    height: 34px;
+  }
+
+  .home-page .hero-carousel-dot span {
+    width: 7px;
+    height: 7px;
+  }
+
+  .home-page .hero-carousel-dot[aria-current="true"] span {
+    width: 18px;
+  }
+
+  .home-page .hero-carousel-count {
+    font-size: 11.5px;
+  }
+
+  /* Hero meta 3 stats: neat 3-column row */
+  .home-page .hero-meta {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    flex-direction: row !important;
+    gap: 8px !important;
+    margin-top: 10px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(26, 31, 92, 0.12);
+  }
+
+  .home-page .hero-meta-item {
+    text-align: center;
+    min-width: 0;
+  }
+
+  .home-page .hero-meta-item .num {
+    font-size: clamp(18px, 5.2vw, 24px);
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 2px;
+    display: block;
+    line-height: 1.15;
+  }
+
+  .home-page .hero-meta-item .lbl {
+    font-size: clamp(9px, 2.5vw, 10.5px);
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--ink-soft);
+    display: block;
+  }
+
+  /* Hero trust badges: fluid flex wrap pill badges */
+  .home-page .hero-trust {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(26, 31, 92, 0.08);
+  }
+
+  .home-page .hero-trust-label {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ink-soft);
+  }
+
+  .home-page .hero-trust-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 100%;
+  }
+
+  .home-page .hero-trust-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(26, 31, 92, 0.12);
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+    backdrop-filter: blur(4px);
+  }
+
+  /* Hero live specialty panel */
+  .home-page .hero-image-wrap {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 6px;
+  }
+
+  .home-page .hero-panel {
+    border-radius: 12px;
+    border: 1px solid rgba(26, 31, 92, 0.1);
+    box-shadow: 0 10px 30px -10px rgba(26, 31, 92, 0.12);
+    background: #ffffff;
+  }
+
+  .home-page .hero-panel-header {
+    padding: 8px 14px 6px;
+  }
+
+  .home-page .hero-panel-header .eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+  }
+
+  .home-page .hero-panel-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 6px 10px;
+    gap: 6px;
+  }
+
+  .home-page .hero-panel-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home-page .hero-tab {
+    flex-shrink: 0;
+    min-height: 32px;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 6px;
+  }
+
+  .home-page .hero-panel-stage {
+    padding: 12px 14px 14px;
+    min-height: 0;
+  }
+
+  .home-page .panel-content {
+    gap: 8px;
+  }
+
+  .home-page .panel-institute {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .home-page .panel-headline {
+    font-size: clamp(14px, 4vw, 16px);
+    line-height: 1.3;
+    margin-bottom: 4px;
+    color: var(--ink);
+  }
+
+  .home-page .panel-visual {
+    min-height: 0;
+    max-height: 54px;
+    padding: 4px 6px;
+  }
+
+  .home-page .panel-visual svg {
+    max-height: 48px;
+    width: 100%;
+  }
+
+  .home-page .panel-meta {
+    padding-top: 8px;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .home-page .panel-meta > * {
+    min-width: 0;
+  }
+
+  .home-page .panel-meta-num {
+    font-size: 20px;
+  }
+
+  .home-page .panel-meta-num .unit {
+    font-size: 12px;
+  }
+
+  .home-page .panel-meta .caption {
+    font-size: 10.5px;
+    margin-top: 2px !important;
+  }
+
+  .home-page .panel-meta-lbl {
+    font-size: 10.5px;
+    line-height: 1.3;
+    max-width: 100%;
+  }
+
+  .home-page .panel-cta {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 6px 0 2px;
+    min-height: 36px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* --- TRIAGE SECTION --- */
+  .home-page .triage {
+    padding: 12px 0 24px !important;
+  }
+
+  .home-page .triage-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0;
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  .home-page .triage-card {
+    padding: 16px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-right: none;
+    border-bottom: 1px solid var(--rule);
+    min-width: 0;
+  }
+
+  .home-page .triage-card:last-child {
+    border-bottom: none;
+  }
+
+  .home-page .triage-card-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+  }
+
+  .home-page .triage-card-content {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  .home-page .triage-card-content .lbl {
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 2px;
+  }
+
+  .home-page .triage-card-content .val {
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.3;
+  }
+
+  .home-page .triage-card-content .val.phone {
+    font-size: clamp(14px, 4.2vw, 16px);
+    font-weight: 700;
+  }
+
+  .home-page .triage-card-arrow {
+    flex-shrink: 0;
+    color: var(--ink-faint);
+  }
+
+  /* --- CENTRES OF EXCELLENCE --- */
+  .home-page .coe-grid-compact {
+    grid-template-columns: 1fr !important;
+    gap: 1px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .home-page .coe-compact {
+    padding: 20px 16px;
+    min-height: 0;
+    gap: 6px;
+  }
+
+  .home-page .coe-compact-arrow {
+    opacity: 0.7 !important;
+    top: 18px;
+    right: 16px;
+  }
+
+  .home-page .coe-compact-name {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .home-page .coe-compact-tags {
+    font-size: 11.5px;
+    line-height: 1.35;
+    margin-top: 2px;
+  }
+
+  /* --- CAMPUS PHOTO BAND --- */
+  .home-page .campus-photo-band {
+    height: clamp(200px, 46vw, 320px) !important;
+  }
+
+  .home-page .campus-photo-band img {
+    object-position: center 30% !important;
+  }
+
+  .home-page .campus-photo-band .container {
+    bottom: 16px !important;
+  }
+
+  .home-page .campus-photo-band span {
+    font-size: 10px !important;
+    letter-spacing: 0.1em !important;
+  }
+
+  /* --- WHY CHOOSE US --- */
+  .home-page .why {
+    padding: 44px 0 !important;
+  }
+
+  .home-page .why-inner {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  .home-page .why-left > div {
+    margin-top: 18px !important;
+    border-radius: 10px;
+  }
+
+  .home-page .why-right {
+    grid-template-columns: 1fr !important;
+    gap: 1px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .home-page .why-card {
+    padding: 20px 16px !important;
+  }
+
+  .home-page .why-card h3 {
+    font-size: 17px !important;
+    margin-bottom: 6px !important;
+  }
+
+  .home-page .why-card p {
+    font-size: 13.5px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* --- SPECIALTY DIRECTORY --- */
+  .home-page .specialties-head {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+    margin-bottom: 28px !important;
+  }
+
+  .home-page .specialties-search {
+    padding: 12px 14px;
+    border-radius: 8px;
+  }
+
+  .home-page .specialties-search input {
+    font-size: 16px !important; /* Prevents auto-zoom on iOS */
+  }
+
+  .home-page .specialties-index {
+    columns: 1 !important;
+    column-gap: 0 !important;
+  }
+
+  .home-page .specialty-item {
+    break-inside: avoid;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .home-page .specialty-item a {
+    min-height: 44px;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 8px;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home-page .specialty-item svg {
+    flex-shrink: 0;
+    color: var(--ink-faint);
+  }
+
+  /* --- PATIENT STORY --- */
+  .home-page .story-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  .home-page .story-image img {
+    border-radius: 12px;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
+  .home-page .story-quote {
+    font-size: clamp(16px, 4.4vw, 20px) !important;
+    line-height: 1.45 !important;
+  }
+
+  /* --- NUMBERS BAND --- */
+  .home-page .numbers {
+    padding: 36px 0 !important;
+  }
+
+  .home-page .numbers-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 24px 0 !important;
+  }
+
+  .home-page .number-item {
+    padding: 0 12px !important;
+    border-right: 1px solid var(--rule);
+  }
+
+  .home-page .number-item:nth-child(2n) {
+    border-right: none;
+  }
+
+  .home-page .number-item:last-child {
+    grid-column: 1 / -1 !important;
+    border-right: none !important;
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .home-page .number-value {
+    font-size: clamp(26px, 7.5vw, 34px) !important;
+  }
+
+  .home-page .number-label {
+    font-size: 11.5px !important;
+    margin-top: 2px;
+  }
+
+  /* --- TECHNOLOGY IN PRACTICE --- */
+  .home-page .tech-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  .home-page .tech-visual {
+    position: relative !important;
+    top: auto !important;
+    padding: 22px 18px !important;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .home-page .tech-visual-stats {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px 12px !important;
+    margin-top: 20px !important;
+    padding-top: 20px !important;
+  }
+
+  .home-page .tech-stat-val {
+    font-size: 24px !important;
+    margin-bottom: 2px;
+  }
+
+  .home-page .tech-stat-lbl {
+    font-size: 10.5px !important;
+    letter-spacing: 0.04em !important;
+    line-height: 1.3;
+  }
+
+  /* --- CORE VALUES (AboutCoreValues on Homepage) --- */
+  .home-page .about-values-section {
+    padding: 44px 0 !important;
+  }
+
+  .home-page .about-values-title {
+    font-size: clamp(24px, 6.5vw, 32px) !important;
+    line-height: 1.2 !important;
+  }
+
+  .home-page .about-values-grid {
+    grid-template-columns: none !important;
+    grid-auto-flow: column !important;
+    grid-auto-columns: 85% !important;
+    gap: 14px !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: 4px 0 16px !important;
+  }
+
+  .home-page .about-value-card {
+    padding: 22px 18px !important;
+    scroll-snap-align: start;
+    border-radius: 12px;
+  }
+
+  /* --- DOCTORS SECTION --- */
+  .home-page .doctors-grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  .home-page .doctor-card {
+    padding: 22px 18px !important;
+    border-radius: 12px;
+  }
+
+  .home-page .doctor-avatar {
+    width: 64px !important;
+    height: 64px !important;
+    font-size: 22px !important;
+    margin-bottom: 16px !important;
+  }
+
+  .home-page .doctor-name {
+    font-size: 18px !important;
+    line-height: 1.3 !important;
+  }
+
+  .home-page .doctor-role {
+    margin-bottom: 16px !important;
+    font-size: 12.5px !important;
+  }
+
+  .home-page .doctor-action {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* --- INTERNATIONAL PATIENTS --- */
+  .home-page .intl-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  .home-page .intl-image {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .home-page .intl-pillars {
+    grid-template-columns: 1fr !important;
+    gap: 18px !important;
+    margin-top: 22px !important;
+  }
+
+  .home-page .intl-contact {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    padding: 20px 16px !important;
+    gap: 16px !important;
+    border-radius: 12px;
+  }
+
+  .home-page .intl-contact-text {
+    min-width: 0;
+    overflow-wrap: break-word;
+  }
+
+  .home-page .intl-contact-text strong {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .home-page .intl-contact-text span {
+    font-size: 12.5px;
+    word-break: break-all;
+  }
+
+  .home-page .intl-contact .btn {
+    min-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+    text-align: center;
+  }
+
+  /* --- HEALTH INSIGHTS --- */
+  .home-page .insights-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  .home-page .insight-image {
+    aspect-ratio: 16 / 10 !important;
+    border-radius: 12px;
+    margin-bottom: 14px !important;
+  }
+
+  .home-page .insight-card h3 {
+    font-size: 17px !important;
+    line-height: 1.35 !important;
+    margin-bottom: 8px !important;
+  }
+
+  .home-page .insight-card p {
+    font-size: 13.5px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 12px !important;
+  }
+
+  /* --- QUALITY & ACCREDITATION --- */
+  .home-page .quality {
+    padding: 44px 0 !important;
+  }
+
+  .home-page .quality-inner {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 24px !important;
+  }
+
+  .home-page .quality-head .h2 {
+    font-size: clamp(20px, 5.5vw, 26px) !important;
+    line-height: 1.25 !important;
+  }
+
+  .home-page .quality-badges {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 16px 12px !important;
+    width: 100% !important;
+  }
+
+  .home-page .quality-badge {
+    gap: 4px;
+  }
+
+  .home-page .quality-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 2px;
+  }
+
+  /* --- CTA TILES --- */
+  .home-page .cta-tiles-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .home-page .cta-tile {
+    padding: 18px 16px !important;
+    min-height: 0 !important;
+    border-right: none !important;
+    border-bottom: 1px solid var(--rule);
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 14px !important;
+  }
+
+  .home-page .cta-tile:last-child {
+    border-bottom: none;
+  }
+
+  .home-page .cta-tile > div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .home-page .cta-tile-icon {
+    flex-shrink: 0;
+  }
+
+  .home-page .cta-tile-icon svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .home-page .cta-tile h3 {
+    font-size: 15px !important;
+    line-height: 1.25 !important;
+    margin-bottom: 2px !important;
+  }
+
+  .home-page .cta-tile p {
+    font-size: 12px !important;
+    line-height: 1.35 !important;
+    margin: 0 !important;
+  }
+
+  .home-page .cta-tile-arrow {
+    flex-shrink: 0;
+  }
+
+  /* --- INSURANCE & CORPORATE --- */
+  .home-page .insurance-section {
+    padding: 44px 0 !important;
+  }
+
+  .home-page .insurance-header {
+    margin-bottom: 28px !important;
+  }
+
+  .home-page .insurance-header h2 {
+    font-size: clamp(22px, 6vw, 28px) !important;
+    line-height: 1.25 !important;
+  }
+
+  .home-page .insurance-header p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  .home-page .insurance-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 8px !important;
+    margin-bottom: 32px !important;
+  }
+
+  .home-page .insurance-card {
+    padding: 14px 8px !important;
+    gap: 6px !important;
+  }
+
+  .home-page .insurance-card-icon {
+    width: 38px !important;
+    height: 38px !important;
+    font-size: 12px !important;
+  }
+
+  .home-page .insurance-card-name {
+    font-size: 10.5px !important;
+    line-height: 1.25 !important;
+    overflow-wrap: break-word;
+  }
+
+  .home-page .corporate-strip {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+    margin-top: 32px !important;
+    padding-top: 32px !important;
+  }
+
+  .home-page .corporate-card {
+    padding: 18px 16px !important;
+    gap: 14px !important;
+    border-radius: 10px;
+  }
+
+  .home-page .corporate-card-icon {
+    width: 42px !important;
+    height: 42px !important;
+  }
+
+  .home-page .corporate-card-text h3 {
+    font-size: 15px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .home-page .corporate-card-text p {
+    font-size: 12.5px !important;
+    line-height: 1.45 !important;
+  }
+
+  /* --- BOTTOM BARS & WHATSAPP COORDINATION --- */
+  body:has(.home-page) .sticky-bar {
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0px));
+    z-index: 99;
+  }
+
+  body:has(.home-page) .sticky-bar-text {
+    display: none;
+  }
+
+  body:has(.home-page) .sticky-bar .container {
+    gap: 0;
+    padding: 0;
+  }
+
+  body:has(.home-page) .sticky-bar-actions {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  body:has(.home-page) .sticky-bar-actions a {
+    min-height: 44px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    padding: 8px 6px;
+    border-radius: 8px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  /* When sticky bar is visible, hide floating CTA completely */
+  body:has(.home-page):has(.sticky-bar.visible) .floating-cta,
+  body:has(.sticky-bar.visible) .floating-cta {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  /* Align floating CTA neatly when visible */
+  body:has(.home-page) .floating-cta {
+    bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+    left: 14px;
+    right: 14px;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 13.5px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(139, 61, 255, 0.4);
+    z-index: 85;
+  }
+
+  /* Float WhatsApp button safely above active bottom bars */
+  body:has(.home-page):has(.sticky-bar.visible) .whatsapp-float-container,
+  body:has(.home-page) .sticky-bar.visible ~ .whatsapp-float-container {
+    bottom: calc(76px + env(safe-area-inset-bottom, 0px)) !important;
+    right: 14px !important;
+  }
+
+  body:has(.home-page):not(:has(.sticky-bar.visible)) .whatsapp-float-container {
+    bottom: calc(78px + env(safe-area-inset-bottom, 0px)) !important;
+    right: 14px !important;
+  }
+
+  /* Safe bottom padding for footer on homepage */
+  body:has(.home-page) footer {
+    padding-bottom: 90px !important;
+  }
+}
+
+/* ------------------------------------------------------------
+   6. EXTRA SMALL VIEWPORT REFINEMENTS (<= 380px)
+   ------------------------------------------------------------ */
+@media (max-width: 380px) {
+  .home-page .container {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  .home-page .hero-headline {
+    font-size: clamp(20px, 6.2vw, 24px) !important;
+  }
+
+  .home-page .hero-meta-item .num {
+    font-size: 18px !important;
+  }
+
+  .home-page .hero-meta-item .lbl {
+    font-size: 9px !important;
+  }
+
+  .home-page .hero-trust-badges {
+    gap: 4px !important;
+  }
+
+  .home-page .hero-trust-badge {
+    font-size: 9px !important;
+    padding: 2px 6px !important;
+  }
+
+  .home-page .insurance-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .home-page .quality-badges {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px 8px !important;
+  }
+
+  .home-page .triage-card {
+    padding: 14px 10px !important;
+    gap: 8px !important;
+  }
+
+  .home-page .triage-card-content .val.phone {
+    font-size: 13.5px !important;
+  }
+
+  .home-page .display-2 {
+    font-size: 21px !important;
+  }
+
+  .home-page .number-value {
+    font-size: 26px !important;
+  }
+
+  .home-page .about-values-grid {
+    grid-auto-columns: 90% !important;
+  }
+}

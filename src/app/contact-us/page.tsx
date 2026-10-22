@@ -14,7 +14,7 @@ import {
 export const metadata = createMetadata({
   title: "Contact Us - SRM Global Hospitals",
   description:
-    "Contact SRM Global Hospitals in Kattankulathur, Chennai. 24x7 emergency helpline +91 96444 96444, appointment booking, specialist doctors consultation, and location details.",
+    "Contact SRM Global Hospitals in Chengalpattu, Chennai. 24x7 emergency helpline +91 96444 96444, appointment booking, specialist doctors consultation, and location details.",
   path: "/contact-us",
 });
 

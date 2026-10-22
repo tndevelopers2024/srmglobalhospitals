@@ -8,6 +8,9 @@ import { useEffect } from "react";
 export default function HomeInteractions() {
   useEffect(() => {
     const cleanups: (() => void)[] = [];
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const animationFrames = new Map<HTMLElement, number>();
+    cleanups.push(() => animationFrames.forEach((id) => cancelAnimationFrame(id)));
 
     // Sticky nav + sticky bar
     const navWrap = document.querySelector(".header-nav-bar");
@@ -26,8 +29,17 @@ export default function HomeInteractions() {
           stickyBar.classList.remove("visible");
         }
       }
+      if (stickyBar) stickyBar.inert = !stickyBar.classList.contains("visible");
       lastScroll = y;
     };
+    onScroll();
+    if (stickyBar) {
+      const stickyObserver = new MutationObserver(() => {
+        stickyBar.inert = !stickyBar.classList.contains("visible");
+      });
+      stickyObserver.observe(stickyBar, { attributes: true, attributeFilter: ["class"] });
+      cleanups.push(() => stickyObserver.disconnect());
+    }
     window.addEventListener("scroll", onScroll, { passive: true });
     cleanups.push(() => window.removeEventListener("scroll", onScroll));
 
@@ -44,11 +56,20 @@ export default function HomeInteractions() {
       { threshold: 0.12, rootMargin: "0px 0px -60px 0px" }
     );
     document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
+    const main = document.getElementById("main-content");
+    if (!reducedMotion) main?.classList.add("home-animations-ready");
+    cleanups.push(() => main?.classList.remove("home-animations-ready"));
     cleanups.push(() => revealObserver.disconnect());
 
     // Count-up animation
     function animateCount(el: HTMLElement) {
       const target = parseInt(el.dataset.counter || "0", 10);
+      const previousFrame = animationFrames.get(el);
+      if (previousFrame !== undefined) cancelAnimationFrame(previousFrame);
+      if (reducedMotion) {
+        el.textContent = String(target);
+        return;
+      }
       const duration = 1400;
       const start = performance.now();
       const initial = 0;
@@ -56,10 +77,13 @@ export default function HomeInteractions() {
         const t = Math.min((now - start) / duration, 1);
         const eased = 1 - Math.pow(1 - t, 3);
         el.textContent = String(Math.round(initial + (target - initial) * eased));
-        if (t < 1) requestAnimationFrame(tick);
-        else el.textContent = String(target);
+        if (t < 1) animationFrames.set(el, requestAnimationFrame(tick));
+        else {
+          el.textContent = String(target);
+          animationFrames.delete(el);
+        }
       }
-      requestAnimationFrame(tick);
+      animationFrames.set(el, requestAnimationFrame(tick));
     }
 
     const counterObserver = new IntersectionObserver(
@@ -84,15 +108,19 @@ export default function HomeInteractions() {
     heroTabs.forEach((tab) => {
       const onClick = () => {
         const spec = tab.dataset.spec;
-        heroTabs.forEach((t) => t.classList.remove("active"));
-        tab.classList.add("active");
+        heroTabs.forEach((t) => {
+          const selected = t === tab;
+          t.classList.toggle("active", selected);
+          t.setAttribute("aria-selected", String(selected));
+          t.tabIndex = selected ? 0 : -1;
+        });
         panelContents.forEach((p) => {
           const isActive = p.dataset.spec === spec;
           p.classList.toggle("active", isActive);
           // Reset and restart count-up on the newly active panel
           if (isActive) {
             p.querySelectorAll<HTMLElement>("[data-counter]").forEach((el) => {
-              el.dataset.counted = "";
+              el.dataset.counted = "1";
               animateCount(el);
             });
           }
@@ -101,26 +129,46 @@ export default function HomeInteractions() {
       const onEnter = () => {
         if (!tab.classList.contains("active")) tab.click();
       };
+      const onKeyDown = (event: KeyboardEvent) => {
+        const index = Array.from(heroTabs).indexOf(tab);
+        let next = index;
+        if (event.key === "ArrowRight") next = (index + 1) % heroTabs.length;
+        else if (event.key === "ArrowLeft") next = (index - 1 + heroTabs.length) % heroTabs.length;
+        else if (event.key === "Home") next = 0;
+        else if (event.key === "End") next = heroTabs.length - 1;
+        else return;
+        event.preventDefault();
+        heroTabs[next].focus();
+        heroTabs[next].click();
+      };
       tab.addEventListener("click", onClick);
       tab.addEventListener("mouseenter", onEnter);
+      tab.addEventListener("keydown", onKeyDown);
       cleanups.push(() => {
         tab.removeEventListener("click", onClick);
         tab.removeEventListener("mouseenter", onEnter);
+        tab.removeEventListener("keydown", onKeyDown);
       });
     });
 
     // Auto-rotate panels every 6 seconds when user hasn't interacted
-    let autoRotate = true;
+    let autoRotate = !reducedMotion;
     let rotateIndex = 0;
     const heroPanel = document.querySelector(".hero-panel");
     const stopRotate = () => {
       autoRotate = false;
     };
     heroPanel?.addEventListener("mouseenter", stopRotate, { once: true });
-    cleanups.push(() => heroPanel?.removeEventListener("mouseenter", stopRotate));
+    heroPanel?.addEventListener("focusin", stopRotate);
+    heroPanel?.addEventListener("pointerdown", stopRotate);
+    cleanups.push(() => {
+      heroPanel?.removeEventListener("mouseenter", stopRotate);
+      heroPanel?.removeEventListener("focusin", stopRotate);
+      heroPanel?.removeEventListener("pointerdown", stopRotate);
+    });
 
     const rotateTimer = setInterval(() => {
-      if (!autoRotate || heroTabs.length === 0) return;
+      if (!autoRotate || document.hidden || heroTabs.length === 0) return;
       rotateIndex = (rotateIndex + 1) % heroTabs.length;
       heroTabs[rotateIndex].click();
     }, 6000);
@@ -152,11 +200,16 @@ export default function HomeInteractions() {
     const items = document.querySelectorAll<HTMLElement>(".specialty-item");
     if (search) {
       const onInput = (e: Event) => {
-        const q = (e.target as HTMLInputElement).value.toLowerCase();
+        const q = (e.target as HTMLInputElement).value.trim().toLowerCase();
+        let matches = 0;
         items.forEach((item) => {
           const txt = (item.textContent || "").toLowerCase();
-          item.style.display = txt.includes(q) ? "" : "none";
+          const visible = txt.includes(q);
+          item.style.display = visible ? "" : "none";
+          if (visible) matches++;
         });
+        const status = document.getElementById("specialty-search-status");
+        if (status) status.hidden = matches > 0;
       };
       search.addEventListener("input", onInput);
       cleanups.push(() => search.removeEventListener("input", onInput));

@@ -71,7 +71,7 @@ export default function President() {
                         }}
                     >
                         Pro-Chancellor of SRM Institute of Science and
-                        Technology (SRMIST), Kattankulathur and SRM
+                        Technology (SRMIST), Chengalpattu and SRM
                         University-AP. Served as Vice-Chancellor of SRM
                         University from 2003 to 2010, during which the
                         institution grew significantly in research output and

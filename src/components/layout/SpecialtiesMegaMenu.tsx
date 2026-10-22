@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 import type { Route } from "next";
 
@@ -9,62 +8,62 @@ interface SpecialtyItem {
   href: string;
 }
 
-const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
+export const SPECIALTIES_COLUMNS: SpecialtyItem[][] = [
   // Column 1
   [
-    { label: "Anaesthesiology", href: "/specialties/anaesthesiology" },
-    { label: "Arthroscopy & Sports Medicine", href: "/specialties/arthroscopy-sports-medicine" },
-    { label: "Cardiology", href: "/specialties/cardiology" },
-    { label: "Dental/OMFS", href: "/specialties/dental-omfs" },
-    { label: "Dermatology", href: "/specialties/dermatology" },
-    { label: "Diabetology", href: "/specialties/diabetology" },
-    { label: "Emergency Medicine & Critical Care Unit", href: "/specialties/emergency-medicine-critical-care" },
-    { label: "Endocrinology", href: "/specialties/endocrinology" },
-    { label: "ENT", href: "/specialties/ent" },
-    { label: "Fetal Medicine", href: "/specialties/fetal-medicine" },
-    { label: "General Medicine", href: "/specialties/general-medicine" },
+    { label: "Anaesthesiology", href: "/our-specialties/leading-anaesthesiology-hospital" },
+    { label: "Arthroscopy & Sports Medicine", href: "/our-specialties/arthroscopy-sports-medicine" },
+    { label: "Cardiology", href: "/our-specialties/leading-cardiology-hospital" },
+    { label: "Dental/OMFS", href: "/our-specialties/best-dental-hospital" },
+    { label: "Dermatology", href: "/our-specialties/best-skin-care-hospital" },
+    { label: "Diabetology", href: "/our-specialties/leading-diabetic-hospital" },
+    { label: "Emergency Medicine & Critical Care Unit", href: "/our-specialties/leading-emergency-care-hospital" },
+    { label: "Endocrinology", href: "/our-specialties/leading-endocrinology-hospital" },
+    { label: "ENT", href: "/our-specialties/best-ent-hospital" },
+    { label: "Fetal Medicine", href: "/our-specialties/fetal-medicine" },
+    { label: "General Medicine", href: "/our-specialties/leading-general-medicine-hospital" },
   ],
   // Column 2
   [
-    { label: "General Surgery", href: "/specialties/general-surgery" },
-    { label: "Geriatrics", href: "/specialties/geriatrics" },
-    { label: "Hematology", href: "/specialties/hematology" },
-    { label: "Hepatology", href: "/specialties/hepatology" },
-    { label: "Infectious Disease", href: "/specialties/infectious-disease" },
-    { label: "Interventional Radiology", href: "/specialties/interventional-radiology" },
-    { label: "Joint Replacement", href: "/specialties/joint-replacement" },
-    { label: "Lactation & Pre-Natal Yoga", href: "/specialties/lactation-pre-natal-yoga" },
-    { label: "Medical Gastroenterology", href: "/specialties/medical-gastroenterology" },
-    { label: "Medical oncology", href: "/specialties/medical-oncology" },
-    { label: "Nephrology", href: "/specialties/nephrology" },
+    { label: "General Surgery", href: "/our-specialties/leading-general-surgery-hospital" },
+    { label: "Geriatrics", href: "/our-specialties/best-geriatric-hospital" },
+    { label: "Hematology", href: "/our-specialties/hematology" },
+    { label: "Hepatology", href: "/our-specialties/leading-hepatology-regenerative-medicine-hospital" },
+    { label: "Infectious Disease", href: "/our-specialties/infectious-disease" },
+    { label: "Interventional Radiology", href: "/our-specialties/interventional-radiology" },
+    { label: "Joint Replacement", href: "/our-specialties/joint-replacement" },
+    { label: "Lactation & Pre-Natal Yoga", href: "/our-specialties/lactation-and-pre-natal-yoga" },
+    { label: "Medical Gastroenterology", href: "/our-specialties/best-medical-gastroenterology-hospital" },
+    { label: "Medical oncology", href: "/our-specialties/best-medical-surgical-oncology-hospital" },
+    { label: "Nephrology", href: "/our-specialties/leading-nephrology-hospital" },
   ],
   // Column 3
   [
-    { label: "Neurology", href: "/specialties/neurology" },
-    { label: "NeuroSurgery", href: "/specialties/neurosurgery" },
-    { label: "Obstetrics & Gynecology", href: "/specialties/obstetrics-gynecology" },
-    { label: "Ophthalmology", href: "/specialties/ophthalmology" },
-    { label: "Orthopedics", href: "/specialties/orthopedics" },
-    { label: "Paediatrics", href: "/specialties/paediatrics" },
-    { label: "Paediatric Critical Care", href: "/specialties/paediatric-critical-care" },
-    { label: "Paediatric Surgery", href: "/specialties/paediatric-surgery" },
-    { label: "Physical Medicine Rehabilitation", href: "/specialties/physical-medicine-rehabilitation" },
-    { label: "Plastic Surgery", href: "/specialties/plastic-surgery" },
-    { label: "Psychiatry", href: "/specialties/psychiatry" },
+    { label: "Neurology", href: "/our-specialties/neurology" },
+    { label: "NeuroSurgery", href: "/our-specialties/best-neurosurgery-hospital" },
+    { label: "Obstetrics & Gynecology", href: "/our-specialties/best-gynecology-hospital" },
+    { label: "Ophthalmology", href: "/our-specialties/best-eye-hospital" },
+    { label: "Orthopedics", href: "/our-specialties/leading-orthopedic-hospital" },
+    { label: "Paediatrics", href: "/our-specialties/best-paediatrics-hospital" },
+    { label: "Paediatric Critical Care", href: "/our-specialties/paediatric-critical-care" },
+    { label: "Paediatric Surgery", href: "/our-specialties/paediatric-surgery" },
+    { label: "Physical Medicine Rehabilitation", href: "/our-specialties/physical-medicine-and-rehabilitation" },
+    { label: "Plastic Surgery", href: "/our-specialties/best-plastic-surgery-hospital" },
+    { label: "Psychiatry", href: "/our-specialties/best-psychiatry-hospital" },
   ],
   // Column 4
   [
-    { label: "Pulmonology", href: "/specialties/pulmonology" },
-    { label: "Radiology", href: "/specialties/radiology" },
-    { label: "Reproductive Medicine", href: "/specialties/reproductive-medicine" },
-    { label: "Rheumatology", href: "/specialties/rheumatology" },
-    { label: "Spine Care", href: "/specialties/spine-care" },
-    { label: "Surgical Gastroenterology", href: "/specialties/surgical-gastroenterology" },
-    { label: "Surgical Oncology", href: "/specialties/surgical-oncology" },
-    { label: "Trauma & Acute Care Surgery", href: "/specialties/trauma-acute-care-surgery" },
-    { label: "Urology", href: "/specialties/urology" },
-    { label: "Uro-Gynaecology", href: "/specialties/uro-gynaecology" },
-    { label: "Vascular Surgery", href: "/specialties/vascular-surgery" },
+    { label: "Pulmonology", href: "/our-specialties/leading-pulmonology-hospital" },
+    { label: "Radiology", href: "/our-specialties/best-radiology-hospital" },
+    { label: "Reproductive Medicine", href: "/our-specialties/reproductive-medicine" },
+    { label: "Rheumatology", href: "/our-specialties/best-rheumatology-hospital" },
+    { label: "Spine Care", href: "/our-specialties/spine-care" },
+    { label: "Surgical Gastroenterology", href: "/our-specialties/leading-surgical-gastroenterology-hospital" },
+    { label: "Surgical Oncology", href: "/our-specialties/surgical-oncology" },
+    { label: "Trauma & Acute Care Surgery", href: "/our-specialties/trauma-acute-care-surgery" },
+    { label: "Urology", href: "/our-specialties/best-urology-hospital" },
+    { label: "Uro-Gynaecology", href: "/our-specialties/uro-gynaecology" },
+    { label: "Vascular Surgery", href: "/our-specialties/vascular-surgery" },
   ],
 ];
 

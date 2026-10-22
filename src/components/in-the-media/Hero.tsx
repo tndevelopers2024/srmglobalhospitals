@@ -1,9 +1,8 @@
-import React from "react";
 import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div
+    <div className="page-hero-frame"
       style={{
         position: "relative",
         overflow: "hidden",

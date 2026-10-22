@@ -9,7 +9,7 @@ export default function AboutCoreValues() {
           existence, serving as unwavering guiding tenets.
         </p>
       </div>
-      <div className="about-values-grid">
+      <div className="about-values-grid" tabIndex={0} role="region" aria-label="Core values cards, scroll horizontally on mobile">
         <div className="about-value-card">
           <div className="about-value-icon-purple">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">

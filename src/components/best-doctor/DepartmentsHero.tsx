@@ -1,9 +1,8 @@
-import React from "react";
 import Link from "next/link";
 
 export default function DepartmentsHero() {
   return (
-    <div style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
+    <div className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
       <img
         src="/images/best-doctor/our-department-1.avif"
         alt="SRM Global Hospitals Departments"

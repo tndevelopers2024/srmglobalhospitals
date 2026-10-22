@@ -1,30 +1,17 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import CareersApplicationModal from "./CareersApplicationModal";
-import CareerJobCard from "./CareerJobCard";
+import CareerJobFilters from "./CareerJobFilters";
 import { ALL_JOBS, JobItem } from "./CareersFilterAndJobs";
 
 export default function StaffCareersContent() {
   const [selectedJob, setSelectedJob] = useState<JobItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"apply" | "details">("apply");
-  const [expandedJobIds, setExpandedJobIds] = useState<Set<string>>(new Set());
 
   // Non-physician / hospital staff jobs from ALL_JOBS
   const staffJobs = ALL_JOBS.filter((job) => job.category !== "medical");
-
-  const toggleJob = (id: string) => {
-    setExpandedJobIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) {
-        next.delete(id);
-      } else {
-        next.add(id);
-      }
-      return next;
-    });
-  };
 
   const handleApplyStaff = (job?: JobItem) => {
     if (job) {
@@ -37,9 +24,9 @@ export default function StaffCareersContent() {
         category: "nursing",
         jobType: "Full Time • In Person / Rotational Shifts",
         type: "Full Time • In Person",
-        jobLocation: "Kattankulathur, Chennai",
-        location: "Kattankulathur, Chennai",
-        locationFilter: "kattankulathur",
+        jobLocation: "Chengalpattu, Chennai",
+        location: "Chengalpattu, Chennai",
+        locationFilter: "Chengalpattu",
         experience: "Freshers to Experienced Professionals",
         experienceLevel: "all",
         qualification: "GNM / B.Sc Nursing / Diploma / B.Sc Allied Health / Graduate",
@@ -78,75 +65,10 @@ export default function StaffCareersContent() {
     setIsModalOpen(true);
   };
 
-  const handleViewDetails = (job: JobItem) => {
-    setSelectedJob(job);
-    setModalMode("details");
-    setIsModalOpen(true);
-  };
-
-  const staffCategories = [
-    {
-      title: "1. Nursing & Patient Care",
-      icon: "👩‍⚕️",
-      roles: "Staff Nurses (Ward, ICU, CCU, OT, Emergency), Nursing Supervisors, Nursing Assistants.",
-      desc: "Provide round-the-clock bedside nursing care, medication administration, surgical assisting, and empathetic patient monitoring.",
-      reqs: "GNM / B.Sc Nursing with valid Tamil Nadu Nurses & Midwives Council registration.",
-    },
-    {
-      title: "2. Diagnostic & Laboratory Sciences",
-      icon: "🔬",
-      roles: "Medical Lab Technologists (Biochemistry, Pathology, Microbiology), Blood Bank Technicians, Phlebotomists.",
-      desc: "Perform accurate clinical sample analysis, automated blood investigations, and diagnostic testing maintaining NABL standards.",
-      reqs: "Diploma or B.Sc in Medical Laboratory Technology (DMLT / BMLT).",
-    },
-    {
-      title: "3. Radiology & Cardiac Technology",
-      icon: "🩻",
-      roles: "Radiographers (X-Ray, CT, MRI), Echo Technicians, Cath Lab Technicians, Perfusionists.",
-      desc: "Operate advanced non-invasive and interventional imaging machinery, assist during cardiac catheterizations, and manage life support systems.",
-      reqs: "B.Sc in Medical Imaging / Cardiac Care / Perfusion Technology or relevant Diploma.",
-    },
-    {
-      title: "4. Pharmacy & Medication Management",
-      icon: "💊",
-      roles: "Hospital Pharmacists, Inpatient & Outpatient Dispensing Pharmacists, Pharmacy Assistants.",
-      desc: "Ensure accurate prescription dispensing, medication inventory control, cold-chain maintenance, and patient drug counseling.",
-      reqs: "D.Pharm / B.Pharm with State Pharmacy Council registration.",
-    },
-    {
-      title: "5. Rehabilitation & Physical Therapy",
-      icon: "🏃",
-      roles: "Physiotherapists, Occupational Therapists, Neuro & Ortho Rehabilitation Specialists.",
-      desc: "Design and implement post-surgical recovery, mobility restoration, and cardiopulmonary rehabilitation regimens.",
-      reqs: "Bachelor of Physiotherapy (BPT) from a recognized university.",
-    },
-    {
-      title: "6. Hospital Administration & Patient Services",
-      icon: "📋",
-      roles: "Patient Care Coordinators, Receptionists, Billing & Insurance Executives (TPA Desk), Operations Staff.",
-      desc: "Facilitate smooth patient admissions, cashless insurance approvals, empathetic front-desk assistance, and hospital administrative operations.",
-      reqs: "Any Degree / B.Com / MBA Healthcare / Hospital Administration or relevant qualification.",
-    },
-    {
-      title: "7. Environmental Hygiene & Facility Care",
-      icon: "✨",
-      roles: "Housekeeping Supervisors, Facility Attendants, Bio-Medical Waste Segregation Coordinators.",
-      desc: "Maintain highest NABH cleanliness standards, environmental sanitization, and sterile hygiene across clinical areas.",
-      reqs: "Diploma / Degree in Hotel/Facility Management or graduate with hospital housekeeping experience.",
-    },
-    {
-      title: "8. Corporate Governance, Audit & Outreach",
-      icon: "💼",
-      roles: "Internal Audit Executives, Field Marketing Executives, Branding & Public Relations Specialists.",
-      desc: "Uphold institutional compliance, financial audit integrity, healthcare branding, and doctor referral community outreach.",
-      reqs: "CA Inter / M.Com / MBA in Finance or Marketing / Mass Communications.",
-    },
-  ];
-
   return (
     <div className="staff-careers-content">
       {/* 1. Hero Section matching Departments & Reference Style */}
-      <section style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
+      <section className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
         <img
           src="/images/careers/staff-career-hero.jpg"
           alt="Hospital staff, nurses, and technicians at SRM Global Hospitals"
@@ -285,9 +207,13 @@ export default function StaffCareersContent() {
       </section>
 
       {/* 2. Introduction to Hospital Staff Opportunities */}
-      <section style={{ padding: "70px 24px", background: "#f8fafd" }}>
-        <div style={{ maxWidth: "1140px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 50px" }}>
+      <section
+        id="staff-application"
+        className="careers-application-section"
+        aria-label="Hospital staff opportunities and application form"
+      >
+        <div className="careers-container careers-application-layout">
+          <div className="careers-application-intro">
             <span
               style={{
                 color: "#2294D3",
@@ -326,150 +252,14 @@ export default function StaffCareersContent() {
               multidisciplinary hospital staff uphold clinical safety, dignity, and compassionate care every hour of every day.
             </p>
           </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-              gap: "24px",
-            }}
-          >
-            <div
-              style={{
-                background: "#ffffff",
-                padding: "32px",
-                borderRadius: "16px",
-                border: "1px solid #e2e8f0",
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.04)",
-              }}
-            >
-              <div style={{ fontSize: "32px", marginBottom: "16px" }}>🩺</div>
-              <h3 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                Patient-Centric Care Culture
-              </h3>
-              <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#4a5568", margin: 0 }}>
-                We foster a respectful, supportive clinical environment where patient empathy and mutual professional dignity guide every interaction across our hospital wards and outpatient centers.
-              </p>
-            </div>
-
-            <div
-              style={{
-                background: "#ffffff",
-                padding: "32px",
-                borderRadius: "16px",
-                border: "1px solid #e2e8f0",
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.04)",
-              }}
-            >
-              <div style={{ fontSize: "32px", marginBottom: "16px" }}>⚙️</div>
-              <h3 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                High-End Medical Technology Training
-              </h3>
-              <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#4a5568", margin: 0 }}>
-                Technicians and nurses gain hands-on training on world-class diagnostic modalities, including Siemens & GE echocardiography, multislice CT, advanced cath labs, and CPB life support systems.
-              </p>
-            </div>
-
-            <div
-              style={{
-                background: "#ffffff",
-                padding: "32px",
-                borderRadius: "16px",
-                border: "1px solid #e2e8f0",
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.04)",
-              }}
-            >
-              <div style={{ fontSize: "32px", marginBottom: "16px" }}>🛡️</div>
-              <h3 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                Structured Growth & Quality Compliance
-              </h3>
-              <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#4a5568", margin: 0 }}>
-                Continuous training in NABH quality standards, infection control, bio-medical waste segregation, patient safety protocols, and periodic performance-linked advancement.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 3. Job Categories and Role Descriptions */}
-      <section style={{ padding: "80px 24px", background: "#ffffff" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto 50px" }}>
-            <span
-              style={{
-                color: "#2294D3",
-                fontSize: "12px",
-                fontWeight: 700,
-                letterSpacing: "1.5px",
-                textTransform: "uppercase",
-                display: "inline-block",
-                marginBottom: "12px",
-              }}
-            >
-              Staff Departments
-            </span>
-            <h2
-              style={{
-                fontFamily: "'Source Serif 4', Georgia, serif",
-                fontSize: "clamp(26px, 3.5vw, 36px)",
-                color: "#1a1a2e",
-                fontWeight: 700,
-                margin: "0 0 16px",
-              }}
-            >
-              Job Categories & Role Profiles
-            </h2>
-            <p style={{ fontFamily: "Inter, sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#4a5568", margin: 0 }}>
-              SRM Global Hospitals employs across clinical nursing, diagnostic technologies, pharmacy, patient administration, and facility operations.
-            </p>
-          </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-              gap: "24px",
-            }}
-          >
-            {staffCategories.map((cat) => (
-              <div
-                key={cat.title}
-                style={{
-                  background: "#fcfbff",
-                  padding: "28px",
-                  borderRadius: "16px",
-                  border: "1px solid #e9ecef",
-                  display: "flex",
-                  flexDirection: "column",
-                }}
-              >
-                <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "14px" }}>
-                  <span style={{ fontSize: "28px" }}>{cat.icon}</span>
-                  <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: 0 }}>
-                    {cat.title}
-                  </h3>
-                </div>
-                <div style={{ fontSize: "13px", fontWeight: 600, color: "#6B4A98", marginBottom: "8px" }}>
-                  {cat.roles}
-                </div>
-                <p style={{ fontSize: "14px", lineHeight: 1.6, color: "#4a5568", margin: "0 0 14px", flexGrow: 1 }}>
-                  {cat.desc}
-                </p>
-                <div
-                  style={{
-                    background: "#ffffff",
-                    padding: "10px 14px",
-                    borderRadius: "8px",
-                    border: "1px solid #edf2f7",
-                    fontSize: "12px",
-                    color: "#64748b",
-                    lineHeight: 1.5,
-                  }}
-                >
-                  <strong>Qualification Requirement:</strong> {cat.reqs}
-                </div>
-              </div>
-            ))}
+          <div className="careers-application-form">
+          <CareersApplicationModal
+            inline
+            isOpen
+            onClose={() => {}}
+            selectedJob={null}
+            mode="apply"
+          />
           </div>
         </div>
       </section>
@@ -507,18 +297,7 @@ export default function StaffCareersContent() {
             </p>
           </div>
 
-          <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "40px" }}>
-            {staffJobs.map((job) => (
-              <CareerJobCard
-                key={job.id}
-                job={job}
-                isOpen={expandedJobIds.has(job.id)}
-                onToggle={() => toggleJob(job.id)}
-                onApply={handleApplyStaff}
-                accentColor="#2294D3"
-              />
-            ))}
-          </div>
+          <CareerJobFilters jobs={staffJobs} onApply={handleApplyStaff} accentColor="#2294D3" />
 
           {/* General Nursing & Allied Health Application Box */}
           <div
@@ -682,7 +461,7 @@ export default function StaffCareersContent() {
               <div style={{ fontSize: "28px", marginBottom: "12px" }}>🚆</div>
               <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 8px" }}>Prime Transit Access</h3>
               <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>
-                Located directly off the GST Road highway, right adjacent to the Kattankulathur suburban railway station with frequent local train and bus connections.
+                Located directly off the GST Road highway, right adjacent to the Chengalpattu suburban railway station with frequent local train and bus connections.
               </p>
             </div>
 

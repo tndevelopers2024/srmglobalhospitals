@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import Link from "next/link";
 import type { Route } from "next";
 
@@ -12,11 +11,11 @@ interface DoctorItem {
 const DOCTORS_ITEMS: DoctorItem[] = [
   {
     label: "Meet Our Doctors",
-    href: "/best-doctor",
+    href: "/best-doctors",
   },
   {
     label: "Book an Appointment",
-    href: "/best-doctor#appointment",
+    href: "/best-doctors#appointment",
   },
 ];
 

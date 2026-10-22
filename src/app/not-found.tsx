@@ -31,7 +31,7 @@ export default function NotFound() {
               Back to homepage
             </Link>
             <Link
-              href="/blog"
+              href="/blogs"
               className={`${styles.action} ${styles.actionSecondary}`}
             >
               Health insights

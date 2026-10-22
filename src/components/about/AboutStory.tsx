@@ -7,7 +7,7 @@ export default function AboutStory() {
           <h2 className="about-story-title">A Legacy of Healing &amp; Hope</h2>
           <p className="about-story-p">
             Welcome to the captivating journey of SRM Global Hospitals – a tale of excellence in
-            healthcare that unfolds in the heart of Kattankulathur, Chennai. Our unwavering
+            healthcare that unfolds in the heart of Chengalpattu, Chennai. Our unwavering
             commitment to delivering world-class medical services through state-of-the-art
             facilities that stand as a beacon of global standards.
           </p>
@@ -24,7 +24,7 @@ export default function AboutStory() {
         <div className="about-story-image-wrap">
           <img
             src="/images/about-us/story/image-1.avif"
-            alt="SRM Global Hospitals building campus in Kattankulathur Chennai"
+            alt="SRM Global Hospitals building campus in Chengalpattu Chennai"
             className="about-story-img"
           />
           <div className="about-story-accent-bar" aria-hidden="true" />

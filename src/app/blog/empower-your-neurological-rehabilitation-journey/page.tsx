@@ -56,7 +56,7 @@ export default function NeuroRehabArticle() {
                     }),
                     breadcrumbSchema([
                         { name: "Home", path: "/" },
-                        { name: "Health Insights", path: "/blog" },
+                        { name: "Health Insights", path: "/blogs" },
                         { name: article.title, path: article.path },
                     ]),
                 ])}
@@ -98,8 +98,8 @@ export default function NeuroRehabArticle() {
                             meta: "13 min · Neurology",
                         },
                         {
-                            href: "/blog/multiple-sclerosis-expert-care",
-                            image: "/images/blog/multiple-sclerosis-expert-care/hero.jpeg",
+                            href: "/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do",
+                            image: "/images/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do/hero.jpeg",
                             title: "Multiple Sclerosis Treatment: What Expert Care at the Right Time Can Do?",
                             meta: "15 min · Neurology",
                         },

@@ -1,30 +1,17 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState } from "react";
 import CareersApplicationModal from "./CareersApplicationModal";
-import CareerJobCard from "./CareerJobCard";
+import CareerJobFilters from "./CareerJobFilters";
 import { ALL_JOBS, JobItem } from "./CareersFilterAndJobs";
 
 export default function DoctorCareersContent() {
   const [selectedJob, setSelectedJob] = useState<JobItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"apply" | "details">("apply");
-  const [expandedJobIds, setExpandedJobIds] = useState<Set<string>>(new Set());
 
   // Filter medical / doctor roles from ALL_JOBS
   const doctorJobs = ALL_JOBS.filter((job) => job.category === "medical");
-
-  const toggleJob = (id: string) => {
-    setExpandedJobIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(id)) {
-        next.delete(id);
-      } else {
-        next.add(id);
-      }
-      return next;
-    });
-  };
 
   const handleApplyDoctor = (job?: JobItem) => {
     if (job) {
@@ -37,9 +24,9 @@ export default function DoctorCareersContent() {
         category: "medical",
         jobType: "Full Time / Visiting Consultant",
         type: "Full Time / Visiting Consultant",
-        jobLocation: "Kattankulathur, Chennai",
-        location: "Kattankulathur, Chennai",
-        locationFilter: "kattankulathur",
+        jobLocation: "Chengalpattu, Chennai",
+        location: "Chengalpattu, Chennai",
+        locationFilter: "Chengalpattu",
         experience: "Freshers to Senior Consultants",
         experienceLevel: "all",
         qualification: "MBBS / MD / MS / DNB / DM / M.Ch with Valid TNMC Registration",
@@ -78,79 +65,10 @@ export default function DoctorCareersContent() {
     setIsModalOpen(true);
   };
 
-  const handleViewDetails = (job: JobItem) => {
-    setSelectedJob(job);
-    setModalMode("details");
-    setIsModalOpen(true);
-  };
-
-  const clinicalSpecialties = [
-    {
-      title: "Institute of Cardiac Sciences",
-      desc: "Interventional Cardiology, Cardiothoracic & Vascular Surgery (CTVS), Electrophysiology (EP Lab), and Paediatric Cardiology.",
-      icon: "❤️",
-    },
-    {
-      title: "Institute of Gastro & Liver Sciences",
-      desc: "Medical Gastroenterology, Surgical Gastroenterology, Hepatobiliary (HPB) Surgery, and Advanced Therapeutic Endoscopy.",
-      icon: "🔬",
-    },
-    {
-      title: "Institute of Neurosciences",
-      desc: "Neurology, Neurosurgery, Neuro-critical care, stroke interventions, and minimally invasive spine surgeries.",
-      icon: "🧠",
-    },
-    {
-      title: "Orthopaedics & Joint Replacement",
-      desc: "Complex trauma reconstruction, robotic joint replacement, arthroscopy, sports medicine, and spine surgery.",
-      icon: "🦴",
-    },
-    {
-      title: "Nephrology & Urology",
-      desc: "Renal transplantation, 24/7 hemodialysis, laser endourology, uro-oncology, and reconstructive urology.",
-      icon: "🩺",
-    },
-    {
-      title: "Paediatrics & Neonatology",
-      desc: "Level III NICU, Paediatric Intensive Care Unit (PICU), paediatric surgery, and developmental paediatrics.",
-      icon: "👶",
-    },
-    {
-      title: "Obstetrics & Gynaecology",
-      desc: "High-risk pregnancy management, fetal medicine, laparoscopic gynaecological surgery, and reproductive health.",
-      icon: "🌸",
-    },
-    {
-      title: "Anaesthesiology & Critical Care",
-      desc: "Cardiac anaesthesia, neuro-anaesthesia, onco-anaesthesia, acute pain services, and tertiary intensive care.",
-      icon: "⚡",
-    },
-    {
-      title: "Pulmonology & Sleep Medicine",
-      desc: "Interventional pulmonology, advanced bronchoscopy, sleep apnea clinics, and critical respiratory care.",
-      icon: "🫁",
-    },
-    {
-      title: "Oncology & Surgical Oncology",
-      desc: "Multidisciplinary tumor boards, comprehensive surgical oncology, chemotherapy, and palliative care.",
-      icon: "🛡️",
-    },
-    {
-      title: "Emergency & Trauma Care",
-      desc: "24/7 Level 1 emergency medicine, polytrauma resuscitation, stroke & STEMI rapid response pathways.",
-      icon: "🚨",
-    },
-    {
-      title: "General & Laparoscopic Surgery",
-      desc: "Minimally invasive gastrointestinal surgeries, hernia repair, endocrine surgery, and daycare procedures.",
-      icon: "🏥",
-    },
-  ];
-
   return (
     <div className="doctors-careers-content">
       {/* 1. Hero Section matching Departments & Reference Style */}
-      <section style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
+      <section className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
         <img
           src="/images/careers/doctors-career-hero.jpg"
           alt="Doctors and surgeons at SRM Global Hospitals"
@@ -290,9 +208,13 @@ export default function DoctorCareersContent() {
       </section>
 
       {/* 2. Introduction to Medical Career Opportunities */}
-      <section style={{ padding: "70px 24px", background: "#fcfbff" }}>
-        <div style={{ maxWidth: "1140px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto 50px" }}>
+      <section
+        id="doctor-application"
+        className="careers-application-section"
+        aria-label="Doctor career opportunities and application form"
+      >
+        <div className="careers-container careers-application-layout">
+          <div className="careers-application-intro">
             <span
               style={{
                 color: "#6B4A98",
@@ -331,132 +253,13 @@ export default function DoctorCareersContent() {
               access to state-of-the-art diagnostic and surgical equipment, our clinicians lead treatment paradigms across tertiary and quaternary healthcare.
             </p>
           </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-              gap: "24px",
-            }}
-          >
-            <div
-              style={{
-                background: "#ffffff",
-                padding: "32px",
-                borderRadius: "16px",
-                border: "1px solid #e9ecef",
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.04)",
-              }}
-            >
-              <div style={{ fontSize: "32px", marginBottom: "16px" }}>🩺</div>
-              <h3 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                Multidisciplinary Tumour & Clinical Boards
-              </h3>
-              <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#4a5568", margin: 0 }}>
-                Collaborate with cross-specialty clinical panels, interventionalists, and diagnostic specialists to evaluate complex and high-risk case pathologies collectively.
-              </p>
-            </div>
-
-            <div
-              style={{
-                background: "#ffffff",
-                padding: "32px",
-                borderRadius: "16px",
-                border: "1px solid #e9ecef",
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.04)",
-              }}
-            >
-              <div style={{ fontSize: "32px", marginBottom: "16px" }}>🔬</div>
-              <h3 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                Cutting-Edge Diagnostic & Imaging Platforms
-              </h3>
-              <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#4a5568", margin: 0 }}>
-                Benefit from integrated 3T MRI, high-resolution multi-slice CT, flat-panel digital catheterization suites, and round-the-clock automated pathology testing.
-              </p>
-            </div>
-
-            <div
-              style={{
-                background: "#ffffff",
-                padding: "32px",
-                borderRadius: "16px",
-                border: "1px solid #e9ecef",
-                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.04)",
-              }}
-            >
-              <div style={{ fontSize: "32px", marginBottom: "16px" }}>📚</div>
-              <h3 style={{ fontSize: "20px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                Academic & Clinical Research Culture
-              </h3>
-              <p style={{ fontSize: "14px", lineHeight: 1.65, color: "#4a5568", margin: 0 }}>
-                Engage in clinical trials, scientific paper publications, CMEs, and academic mentoring in collaboration with the wider SRM educational and medical ecosystem.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 3. Medical Specialties and Departments */}
-      <section style={{ padding: "80px 24px", background: "#ffffff" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto 50px" }}>
-            <span
-              style={{
-                color: "#6B4A98",
-                fontSize: "12px",
-                fontWeight: 700,
-                letterSpacing: "1.5px",
-                textTransform: "uppercase",
-                display: "inline-block",
-                marginBottom: "12px",
-              }}
-            >
-              Clinical Disciplines
-            </span>
-            <h2
-              style={{
-                fontFamily: "'Source Serif 4', Georgia, serif",
-                fontSize: "clamp(26px, 3.5vw, 36px)",
-                color: "#1a1a2e",
-                fontWeight: 700,
-                margin: "0 0 16px",
-              }}
-            >
-              Specialties & Centers of Excellence
-            </h2>
-            <p style={{ fontFamily: "Inter, sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#4a5568", margin: 0 }}>
-              SRM Global Hospitals houses 40+ clinical specialties providing tertiary and quaternary interventions. Explore key medical departments welcoming consultant and physician talents.
-            </p>
-          </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-              gap: "24px",
-            }}
-          >
-            {clinicalSpecialties.map((dept) => (
-              <div
-                key={dept.title}
-                style={{
-                  background: "#ffffff",
-                  padding: "28px",
-                  borderRadius: "14px",
-                  border: "1px solid #edf2f7",
-                  boxShadow: "0 4px 16px rgba(0, 0, 0, 0.03)",
-                  transition: "all 0.2s ease",
-                }}
-              >
-                <div style={{ fontSize: "28px", marginBottom: "14px" }}>{dept.icon}</div>
-                <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 10px" }}>
-                  {dept.title}
-                </h3>
-                <p style={{ fontSize: "14px", lineHeight: 1.6, color: "#718096", margin: 0 }}>
-                  {dept.desc}
-                </p>
-              </div>
-            ))}
+          <div className="careers-application-form">
+          <CareersApplicationModal
+            inline
+            isOpen
+            onClose={() => {}}
+            selectedJob={null}
+          />
           </div>
         </div>
       </section>
@@ -490,23 +293,12 @@ export default function DoctorCareersContent() {
               Physician & Clinical Specialist Opportunities
             </h2>
             <p style={{ fontFamily: "Inter, sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#4a5568", margin: 0 }}>
-              Review verified openings currently hiring at our Kattankulathur facility, or express interest for senior consultant appointments.
+              Review verified openings currently hiring at our Chengalpattu facility, or express interest for senior consultant appointments.
             </p>
           </div>
 
           {/* Active Job Cards */}
-          <div style={{ display: "flex", flexDirection: "column", gap: "20px", marginBottom: "40px" }}>
-            {doctorJobs.map((job) => (
-              <CareerJobCard
-                key={job.id}
-                job={job}
-                isOpen={expandedJobIds.has(job.id)}
-                onToggle={() => toggleJob(job.id)}
-                onApply={handleApplyDoctor}
-                accentColor="#6B4A98"
-              />
-            ))}
-          </div>
+          <CareerJobFilters jobs={doctorJobs} onApply={handleApplyDoctor} accentColor="#6B4A98" />
 
           {/* Consultant Expression of Interest Box */}
           <div
@@ -643,81 +435,6 @@ export default function DoctorCareersContent() {
                 <li>Proficiency in electronic medical record (EMR/HIS) documentation and clinical audit compliance.</li>
                 <li>Willingness to participate in 24/7 code resuscitations and emergency on-call rotas when required.</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* 6. Professional Development & Facilities */}
-      <section style={{ padding: "80px 24px", background: "#f8fafd" }}>
-        <div style={{ maxWidth: "1140px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto 50px" }}>
-            <span
-              style={{
-                color: "#2294D3",
-                fontSize: "12px",
-                fontWeight: 700,
-                letterSpacing: "1.5px",
-                textTransform: "uppercase",
-                display: "inline-block",
-                marginBottom: "12px",
-              }}
-            >
-              World-Class Infrastructure
-            </span>
-            <h2
-              style={{
-                fontFamily: "'Source Serif 4', Georgia, serif",
-                fontSize: "clamp(26px, 3.5vw, 36px)",
-                color: "#1a1a2e",
-                fontWeight: 700,
-                margin: "0 0 16px",
-              }}
-            >
-              Clinical Facilities & Professional Development
-            </h2>
-            <p style={{ fontFamily: "Inter, sans-serif", fontSize: "16px", lineHeight: 1.7, color: "#4a5568", margin: 0 }}>
-              Equipped with world-class facilities and cutting-edge technologies, SRM Global Hospitals offers unmatched surgical and diagnostic infrastructure.
-            </p>
-          </div>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
-              gap: "24px",
-            }}
-          >
-            <div style={{ background: "#ffffff", padding: "28px", borderRadius: "14px", border: "1px solid #e2e8f0" }}>
-              <div style={{ fontSize: "28px", marginBottom: "12px" }}>🏥</div>
-              <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 8px" }}>Modular OTs</h3>
-              <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>
-                Ultra-clean laminar airflow surgical suites with HEPA filtration, surgical navigation, and laparoscopic towers.
-              </p>
-            </div>
-
-            <div style={{ background: "#ffffff", padding: "28px", borderRadius: "14px", border: "1px solid #e2e8f0" }}>
-              <div style={{ fontSize: "28px", marginBottom: "12px" }}>🫀</div>
-              <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 8px" }}>Biplane Cath Lab</h3>
-              <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>
-                High-resolution flat-panel catheterization lab for complex coronary, structural heart, and neuro-interventions.
-              </p>
-            </div>
-
-            <div style={{ background: "#ffffff", padding: "28px", borderRadius: "14px", border: "1px solid #e2e8f0" }}>
-              <div style={{ fontSize: "28px", marginBottom: "12px" }}>🛏️</div>
-              <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 8px" }}>Intensive Care Units</h3>
-              <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>
-                Specialized MICU, SICU, CCU, NICU (Level III), and PICU with invasive hemodynamic monitoring and ECMO support.
-              </p>
-            </div>
-
-            <div style={{ background: "#ffffff", padding: "28px", borderRadius: "14px", border: "1px solid #e2e8f0" }}>
-              <div style={{ fontSize: "28px", marginBottom: "12px" }}>🎓</div>
-              <h3 style={{ fontSize: "18px", fontWeight: 700, color: "#1a1a2e", margin: "0 0 8px" }}>Academic Growth</h3>
-              <p style={{ fontSize: "14px", color: "#64748b", lineHeight: 1.6, margin: 0 }}>
-                Regular accredited CMEs, clinical grand rounds, research publications, and academic linkages with SRMIST.
-              </p>
             </div>
           </div>
         </div>
@@ -862,7 +579,7 @@ export default function DoctorCareersContent() {
                   margin: "4px 0 0",
                 }}
               >
-                SRM Nagar, Potheri, Kattankulathur, Chennai, Tamil Nadu 603 203
+                SRM Nagar, Potheri, Chengalpattu, Chennai, Tamil Nadu 603 203
               </p>
             </div>
           </div>
