@@ -21,12 +21,12 @@ import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 const article = {
   title: "SGPT Test: Normal Range, What Elevated Levels Mean & Diet Tips",
   description:
-    "An SGPT (ALT) blood test measures alanine aminotransferase to assess liver health. Learn about the SGPT normal range, causes of elevated SGPT levels, procedure, test price, and diet tips at SRM Global Hospitals.",
+    "An SGPT blood test measures alanine aminotransferase to evaluate liver health. Learn normal ranges for men and women, causes of high SGPT, and practical diet tips to lower elevated levels.",
   path: "/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips",
   image:
     "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.webp",
-  author: "Gastroenterology Specialist",
-  section: "Gastroenterology",
+  author: "Gastro Specialist",
+  section: "Gastro",
   publishedTime: "2026-10-22",
 };
 
@@ -67,10 +67,10 @@ export default function SgptTestArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-gastroenterology"
-        category="Gastroenterology"
+        dotClass="dot-gastro"
+        category="Gastro"
         title={article.title}
-        specialistTitle="Gastroenterology Specialist"
+        specialistTitle="Gastro Specialist"
         department="Institute of Gastro and Liver Sciences"
         date="October 22, 2026"
         readMinutes={15}
@@ -80,40 +80,42 @@ export default function SgptTestArticle() {
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Gastroenterology Specialist"
+          specialistTitle="Gastro Specialist"
           department="Institute of Gastro and Liver Sciences"
-          blurb="Our hepatology, gastroenterology, and diagnostic laboratory specialists are available across the week, in-person and via tele-consult."
+          blurb="Our gastroenterology and hepatology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "what-is-sgpt", title: "What is SGPT (ALT)" },
-            { id: "what-does-the-sgpt-test-measure", title: "What the test measures" },
-            { id: "sgpt-normal-range", title: "SGPT normal range" },
-            { id: "what-causes-high-sgpt-levels", title: "Causes of high SGPT" },
-            { id: "sgpt-levels-what-different-values-mean", title: "What SGPT values mean" },
-            { id: "how-is-the-sgpt-test-performed", title: "Procedure & test price" },
-            { id: "diet-tips-to-reduce-elevated-sgpt-levels", title: "Diet tips to lower SGPT" },
-            { id: "when-to-see-a-doctor", title: "When to see a doctor" },
-            { id: "get-expert-liver-health-assessment", title: "Expert liver assessment" },
-            { id: "faqs", title: "FAQs" },
+            { id: "what-is-sgpt", title: "What Is SGPT?" },
+            { id: "what-sgpt-measures", title: "What It Measures" },
+            { id: "sgpt-normal-range", title: "Normal Range" },
+            { id: "causes-high-sgpt", title: "Causes of High SGPT" },
+            { id: "sgpt-levels-meaning", title: "Interpreting Values" },
+            { id: "how-test-performed", title: "How Test is Performed" },
+            { id: "diet-tips-reduce-sgpt", title: "Diet & Lifestyle Tips" },
+            { id: "when-to-see-doctor", title: "When to See a Doctor" },
+            { id: "sgpt-faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
               href: "/blog/bilirubin-test-normal-range-high-and-low-levels-explained",
-              image: "/images/blog/bilirubin-test-normal-range-high-and-low-levels-explained/hero.jpg",
+              image:
+                "/images/blog/bilirubin-test-normal-range-high-and-low-levels-explained/hero.jpg",
               title: "Bilirubin Test: Normal Range, High & Low Levels Explained",
-              meta: "14 min · Gastroenterology",
+              meta: "14 min · Gastro",
             },
             {
               href: "/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor",
-              image: "/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/hero.jpg",
+              image:
+                "/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/hero.jpg",
               title: "Jaundice: Causes, Symptoms & When to See a Doctor",
               meta: "24 min · Gastro",
             },
             {
-              href: "/blog/gastroenterologist-what-they-treat-and-when-you-need-one",
-              image: "/images/blog/gastroenterologist-what-they-treat-and-when-you-need-one/hero.jpg",
-              title: "Gastroenterologist: What They Treat & When You Need One",
-              meta: "18 min · Gastroenterology",
+              href: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
+              image:
+                "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpg",
+              title: "Ascites: What Causes Fluid in the Abdomen & Treatment Options",
+              meta: "18 min · Gastro",
             },
           ]}
         />

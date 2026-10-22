@@ -21,12 +21,12 @@ import BlogInteractions from "@/components/blog/shared/BlogInteractions";
 const article = {
   title: "Ascites: What Causes Fluid in the Abdomen & Treatment Options",
   description:
-    "Ascites is the pathological buildup of fluid in the peritoneal cavity, most commonly caused by liver cirrhosis and portal hypertension. Learn about symptoms, SAAG diagnosis, paracentesis, and treatment at SRM Global Hospitals.",
+    "Ascites is abnormal fluid buildup in the abdomen, predominantly caused by cirrhosis. Learn about SAAG diagnosis, paracentesis, diuretic therapy, and comprehensive treatment at SRM Global Hospitals.",
   path: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
   image:
     "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpg",
-  author: "Gastroenterology Specialist",
-  section: "Gastroenterology",
+  author: "Gastro Specialist",
+  section: "Gastro",
   publishedTime: "2026-10-22",
 };
 
@@ -67,50 +67,54 @@ export default function AscitesArticle() {
       <ReadProgress />
       <ArtCover
         image={article.image}
-        dotClass="dot-gastroenterology"
-        category="Gastroenterology"
+        dotClass="dot-gastro"
+        category="Gastro"
         title={article.title}
-        specialistTitle="Gastroenterology Specialist"
+        specialistTitle="Gastro Specialist"
         department="Institute of Gastro and Liver Sciences"
         date="October 22, 2026"
         readMinutes={18}
-        reads="3,980"
+        reads="4,850"
       />
       <div className="art-wrap">
         <ShareRail />
         <ArtBody />
         <ArtSide
-          specialistTitle="Gastroenterology Specialist"
+          specialistTitle="Gastro Specialist"
           department="Institute of Gastro and Liver Sciences"
-          blurb="Our hepatology, gastroenterology, and liver transplant specialists are available across the week, in-person and via tele-consult."
+          blurb="Our gastroenterology and hepatology specialists are available across the week, in-person and via tele-consult."
           initialToc={[
             { id: "what-you-will-learn", title: "What you will learn" },
-            { id: "what-is-ascites", title: "What is ascites" },
-            { id: "what-causes-ascites", title: "Causes of ascites" },
-            { id: "how-is-ascites-diagnosed", title: "Diagnosis & SAAG" },
-            { id: "ascites-treatment-options", title: "Treatment options" },
-            { id: "complications-of-ascites", title: "Complications" },
-            { id: "prognosis-of-ascites", title: "Prognosis" },
-            { id: "get-expert-ascites-evaluation", title: "Expert liver care" },
-            { id: "faqs", title: "FAQs" },
+            { id: "what-is-ascites", title: "What Is Ascites?" },
+            { id: "what-causes-ascites", title: "Causes of Ascites" },
+            { id: "how-diagnosed", title: "Diagnosis & SAAG" },
+            { id: "treatment-options", title: "Treatment Options" },
+            { id: "complications", title: "Complications" },
+            { id: "prognosis", title: "Prognosis" },
+            { id: "ascites-faqs", title: "FAQs" },
           ]}
           relatedReading={[
             {
               href: "/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips",
-              image: "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.webp",
-              title: "SGPT Test: Normal Range, What Elevated Levels Mean & Diet Tips",
-              meta: "15 min · Gastroenterology",
+              image:
+                "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.webp",
+              title:
+                "SGPT Test: Normal Range, What Elevated Levels Mean & Diet Tips",
+              meta: "15 min · Gastro",
             },
             {
               href: "/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor",
-              image: "/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/hero.jpg",
+              image:
+                "/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/hero.jpg",
               title: "Jaundice: Causes, Symptoms & When to See a Doctor",
               meta: "24 min · Gastro",
             },
             {
-              href: "/blog/esophageal-varices-what-happens-when-blood-flow-is-blocked",
-              image: "/images/blog/esophageal-varices-what-happens-when-blood-flow-is-blocked/hero.jpeg",
-              title: "Esophageal Varices: What Happens When Blood Flow Is Blocked",
+              href: "/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease",
+              image:
+                "/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/hero.jpeg",
+              title:
+                "Transform your health: overcoming non-alcoholic fatty liver disease",
               meta: "12 min · Gastro",
             },
           ]}
