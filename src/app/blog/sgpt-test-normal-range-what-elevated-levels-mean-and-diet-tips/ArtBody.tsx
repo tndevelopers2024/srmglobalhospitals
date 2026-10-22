@@ -40,9 +40,8 @@ export default function ArtBody() {
 
       <h2 id="sgpt-normal-range" data-toc-title="Normal Range">SGPT Normal Range</h2>
 
-      <p>The SGPT normal range is defined as the upper limit of alanine aminotransferase activity in the blood in healthy adults. Understanding the normal range of SGPT helps patients and healthcare providers accurately interpret SGPT test results.</p>
+      <p>The SGPT normal range varies slightly between laboratories, age groups, and sexes. Reference ranges typically used at SRM Global Hospitals:</p>
 
-      <h3>SGPT Normal Value in Adults</h3>
       <table>
         <thead>
           <tr>
@@ -131,7 +130,7 @@ export default function ArtBody() {
           <strong>Talk to the liver &amp; gastro team</strong>
           <h3>Concerned about abnormal liver enzyme levels?</h3>
           <p>Bring your liver function test reports and medication history for an in-depth evaluation with our senior gastroenterologists and hepatologists at SRM Global Hospitals.</p>
-          <a href="https://srmglobalhospitals.com/book-an-appointment/" className="btn btn-primary">Book Consultation</a>
+          <a href="/book-an-appointment" className="btn btn-primary">Book Consultation</a>
         </div>
         <div className="cta-card-visual">
           <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
@@ -141,91 +140,76 @@ export default function ArtBody() {
       </div>
 
       <h2 id="sgpt-levels-meaning" data-toc-title="Interpreting Values">SGPT Levels: What Different Values Mean</h2>
-      <p>Understanding what different SGPT levels indicate helps patients engage with their results more meaningfully. Elevated SGPT should always be interpreted by a healthcare provider alongside the full clinical picture.</p>
 
       <table>
         <thead>
           <tr>
-            <th>SGPT Level (U/L)</th>
-            <th>Interpretation</th>
+            <th>SGPT Level</th>
+            <th>Category</th>
+            <th>Clinical Significance</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Below 7</td>
-            <td>Low SGPT generally not significant; check for B6 deficiency if isolated</td>
+            <td>7 – 56 U/L</td>
+            <td>Normal Range</td>
+            <td>Healthy liver function</td>
           </tr>
           <tr>
-            <td>7 – 56 (males) / 7 – 45 (females)</td>
-            <td>Normal range healthy liver function assumed</td>
-          </tr>
-          <tr>
-            <td>56 – 100 U/L</td>
-            <td>Mildly elevated SGPT warrants repeat testing and lifestyle review</td>
+            <td>57 – 100 U/L</td>
+            <td>Mild Elevation</td>
+            <td>Fatty liver disease, early alcohol damage, mild medication effect</td>
           </tr>
           <tr>
             <td>100 – 300 U/L</td>
-            <td>Moderately elevated indicates significant liver stress; further tests required</td>
+            <td>Moderate Elevation</td>
+            <td>Chronic viral hepatitis, active alcohol abuse, moderate liver inflammation</td>
           </tr>
           <tr>
-            <td>Above 300 U/L</td>
-            <td>Significantly elevated SGPT suggests acute liver injury, viral hepatitis, or severe liver disease requiring urgent evaluation</td>
+            <td>&gt; 300 U/L</td>
+            <td>Significant Elevation</td>
+            <td>Acute hepatitis, severe drug toxicity, significant liver stress</td>
           </tr>
           <tr>
-            <td>Above 1,000 U/L</td>
-            <td>Very high SGPT acute hepatitis, drug-induced liver injury, or ischaemic hepatitis; emergency evaluation needed</td>
+            <td>&gt; 1,000 U/L</td>
+            <td>Marked / Severe Elevation</td>
+            <td>Acute liver failure, severe viral hepatitis (A or B), ischaemic liver injury, paracetamol overdose</td>
           </tr>
         </tbody>
       </table>
 
       <h2 id="how-test-performed" data-toc-title="How Test is Performed">How is the SGPT Test Performed?</h2>
-      <p>The SGPT test is a simple blood test a straightforward blood draw requiring minimal preparation.</p>
 
-      <h3>How to Prepare for an SGPT Test</h3>
-      <p>Preparing correctly for the SGPT blood test ensures the most accurate SGPT test results:</p>
-      <ul>
-        <li><p><strong>Fasting:</strong> Fast for 8 to 12 hours before the SGPT blood test for most accurate results water is allowed during the fasting period</p></li>
-        <li><p><strong>Avoid alcohol:</strong> Avoid alcohol consumption for at least 24 to 48 hours before the test excessive alcohol consumption artificially raises SGPT levels and affects liver function test interpretation</p></li>
-        <li><p><strong>Medication disclosure:</strong> Inform the healthcare provider about all medications, supplements, and herbal remedies as certain medications directly affect SGPT levels</p></li>
-        <li><p><strong>Avoid intense physical activity:</strong> Refrain from intense physical activity for 24 to 48 hours before the test as muscle injury from strenuous exercise can transiently elevate SGPT</p></li>
-        <li><p><strong>Medical history:</strong> Provide a complete medical history including any history of fatty liver disease, viral hepatitis, liver issues, or liver disease to assist accurate interpretation of SGPT test results</p></li>
-      </ul>
+      <p>The SGPT blood test is a standard venipuncture procedure that takes only a few minutes.</p>
 
-      <h3>The SGPT Blood Test Procedure</h3>
-      <p>The SGPT blood test procedure is identical to any routine blood draw:</p>
-      <p>A healthcare provider collects a small blood sample from a vein in the arm typically taking less than five minutes. The sample is sent to the laboratory for measurement of SGPT levels (alanine aminotransferase activity in U/L). SGPT test results are usually available within a few hours to one business day.</p>
+      <h3>Procedure</h3>
+      <p>A healthcare professional cleans the skin over a vein typically in the inner elbow applies an elastic band (tourniquet) to make veins more visible, inserts a small needle into the vein, and collects a small sample of blood into a vial. The sample is sent to the laboratory for analysis.</p>
 
-      <h3>SGPT Test Price</h3>
-      <p>The SGPT test price in India is generally affordable typically ranging from ₹150 to ₹500 depending on the facility and whether the SGPT blood test is ordered as part of a comprehensive liver function tests panel. Patients at SRM Global Hospitals are advised to contact the diagnostics team directly for current SGPT test price and health package options including full liver function tests.</p>
+      <h3>Preparation</h3>
+      <p>For an SGPT blood test ordered as part of a complete liver function tests or lipid panel, 8 to 12 hours of fasting may be required water is permitted. Avoid alcohol consumption for at least 24 to 48 hours before testing, as alcohol directly affects liver enzyme levels. Avoid intense physical activity on the day before the test. Inform the healthcare provider about all medications, vitamins, and herbal supplements you are taking.</p>
+
+      <h3>Affordable SGPT Test Price</h3>
+      <p>The SGPT test price is affordable, making it accessible as a routine health screen. At SRM Global Hospitals, the SGPT test is available as an individual test and as part of comprehensive liver function tests panels and executive health checkup packages with same-day results and expert hepatologist consultation.</p>
 
       <h2 id="diet-tips-reduce-sgpt" data-toc-title="Diet &amp; Lifestyle Tips">Diet Tips to Reduce Elevated SGPT Levels</h2>
       <img src="/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/image-3.jpeg" alt="Diet Tips to Reduce Elevated SGPT Levels" />
 
-      <p>Diet and lifestyle modifications are among the most effective strategies to reduce elevated SGPT levels particularly in patients with fatty liver disease NAFLD, alcoholic fatty liver disease, and lifestyle-related liver inflammation.</p>
+      <p>Dietary and lifestyle changes are the most effective strategy to reduce elevated SGPT levels particularly when caused by fatty liver disease, alcohol consumption, or metabolic factors.</p>
 
-      <h3>Avoid Alcohol</h3>
-      <p>Avoiding alcohol entirely is the single most impactful dietary and lifestyle change for reducing elevated SGPT in patients with alcohol-related liver issues.</p>
-      <p>Even moderate alcohol consumption regularly raises liver enzyme levels and prolongs liver inflammation. Patients with liver damage, liver cirrhosis, or viral hepatitis should maintain complete alcohol abstinence permanently.</p>
+      <h3>Avoid Alcohol Completely</h3>
+      <p>Avoiding alcohol completely is the single most important lifestyle change for reducing elevated SGPT levels. Alcohol directly damages liver cells and promotes liver inflammation. Even for individuals without diagnosed alcoholic liver disease, eliminating alcohol allows liver cells to repair, significantly lowering SGPT levels within weeks.</p>
 
-      <h3>Maintain a Healthy Weight</h3>
-      <p>Healthy weight is one of the strongest protectors of liver health and healthy liver function.</p>
-      <p>Excess body fat particularly abdominal fat drives fatty liver disease and non-alcoholic fatty liver, which is one of the most common causes of elevated SGPT worldwide.</p>
-      <p>Weight reduction of just five to ten percent of body weight in overweight patients with fatty liver disease NAFLD produces measurable reductions in SGPT levels and liver inflammation.</p>
+      <h3>Achieve and Maintain a Healthy Weight</h3>
+      <p>Gradual weight loss of 5% to 10% of body weight produces significant reductions in liver fat, liver inflammation, and elevated SGPT levels in patients with non-alcoholic fatty liver disease (NAFLD). Avoid crash dieting or rapid weight loss, as this can transiently worsen liver stress and elevate liver enzyme levels.</p>
 
-      <div className="stat-hl">
-        <div className="stat-hl-num">5–10%</div>
-        <div className="stat-hl-text"><strong>weight reduction in overweight individuals with fatty liver disease</strong> produces measurable, documented reductions in SGPT levels and reverses early hepatic inflammation.</div>
-      </div>
-
-      <h3>Follow a Balanced Diet</h3>
-      <p>A balanced diet low in saturated fats, refined sugars, and processed foods significantly reduces fatty liver disease and lowers elevated SGPT levels over time.</p>
-      <p>Key dietary principles for liver health include:</p>
+      <h3>Follow a Balanced Diet and Liver-Friendly Nutrition</h3>
+      <p>A healthy diet rich in nutrient-dense foods supports liver function and promotes liver cell repair:</p>
       <ul>
-        <li><p><strong>Reduce poor diet triggers:</strong> Limit fatty foods, fried foods, processed snacks, and high-sugar beverages all of which promote hepatitis fatty liver and liver inflammation</p></li>
-        <li><p><strong>Increase vegetables and fruits:</strong> Rich in antioxidants that reduce liver inflammation and support overall liver health</p></li>
-        <li><p><strong>Choose whole grains:</strong> Replace refined carbohydrates with whole grains to reduce insulin resistance a major driver of non-alcoholic fatty liver</p></li>
-        <li><p><strong>Include lean proteins:</strong> Fish, legumes, and poultry support amino acid metabolism without adding excess fat to liver cells</p></li>
-        <li><p><strong>Limit red and processed meat:</strong> Strongly associated with progressive fatty liver disease and liver injury</p></li>
+        <li><p><strong>Leafy greens and cruciferous vegetables:</strong> Spinach, broccoli, cabbage, and Brussels sprouts contain glutathione-boosting compounds that support the liver&apos;s natural detoxification pathways</p></li>
+        <li><p><strong>Omega-3 fatty acids:</strong> Fatty fish (salmon, mackerel, sardines), flaxseeds, and walnuts reduce liver inflammation and improve hepatic lipid profiles</p></li>
+        <li><p><strong>Antioxidant-rich foods:</strong> Berries, green tea, citrus fruits, and turmeric contain potent antioxidants that protect liver cells from oxidative stress</p></li>
+        <li><p><strong>Whole grains:</strong> Oats, brown rice, and whole wheat provide dietary fibre that helps regulate blood sugar and reduces liver fat accumulation</p></li>
+        <li><p><strong>Limit saturated fats, fried foods, and refined sugars:</strong> Reduce consumption of processed foods, sugary beverages, trans fats, and excess red meat, all of which contribute to fatty liver disease and liver stress</p></li>
         <li><p><strong>Coffee:</strong> Several studies show that regular coffee consumption is associated with lower liver enzyme levels and reduced risk of chronic liver disease</p></li>
       </ul>
 
@@ -263,7 +247,7 @@ export default function ArtBody() {
         <li><p><strong>Liver cancer screening</strong> — AFP, ultrasound, and CT imaging for patients with chronic liver disease and liver cirrhosis at risk of liver cancer</p></li>
         <li><p><strong>Affordable SGPT test price</strong> with transparent liver function tests panel pricing and health insurance support</p></li>
       </ul>
-      <p><a href="https://srmglobalhospitals.com/book-an-appointment/" className="btn btn-primary">Book an Appointment</a></p>
+      <p><a href="/book-an-appointment" className="btn btn-primary">Book an Appointment</a></p>
 
       <h2 id="sgpt-faqs" data-toc-title="FAQs">FAQs on SGPT Test</h2>
 

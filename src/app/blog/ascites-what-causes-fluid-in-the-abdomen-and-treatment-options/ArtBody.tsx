@@ -43,8 +43,7 @@ export default function ArtBody() {
 
       <h3>Liver Cirrhosis and Portal Hypertension</h3>
       <p>Liver cirrhosis is the most common cause of ascites worldwide. In cirrhosis, progressive scarring of liver tissue replaces healthy liver cells impairing the liver&apos;s ability to produce albumin, regulate blood flow, and maintain normal fluid balance.</p>
-      <p>Portal hypertension occurs when scar tissue in cirrhosis obstructs normal blood flow through the liver, resulting in high blood pressure in the portal vein. Elevated portal vein pressure forces fluid out of the blood vessels and into the peritoneal cavity a primary mechanism of ascites formation in cirrhotic patients.</p>
-      <p>Portal hypertension also triggers peripheral arterial vasodilation mediated through the sympathetic nervous system which reduces effective arterial blood volume. The kidneys respond by retaining sodium and water, further increasing fluid accumulation in the peritoneal cavity.</p>
+      <p>Cirrhosis causes portal hypertension elevated blood pressure in the portal venous system the primary blood vessel carrying blood from the digestive organs to the liver. Increased portal pressure forces fluid out of the blood vessels and into the abdominal cavity, initiating ascites.</p>
       <p>Low albumin levels in the blood due to liver damage reduce oncotic pressure the force that holds fluid within blood vessels causing fluid to leak out into surrounding tissues and the peritoneal space, contributing to ascites formation.</p>
       <p>Cirrhotic patients with ascites have a 1-year mortality rate of approximately 40%, increasing to 50% at 2 years underscoring the clinical severity of ascites development in chronic liver disease.</p>
 
@@ -86,7 +85,7 @@ export default function ArtBody() {
           <strong>Talk to the liver &amp; gastro team</strong>
           <h3>Experiencing unexplained abdominal swelling?</h3>
           <p>Prompt diagnostic fluid evaluation can pinpoint the exact cause of fluid accumulation and prevent severe complications like peritonitis or kidney strain.</p>
-          <a href="https://srmglobalhospitals.com/book-an-appointment/" className="btn btn-primary">Book Consultation</a>
+          <a href="/book-an-appointment" className="btn btn-primary">Book Consultation</a>
         </div>
         <div className="cta-card-visual">
           <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
@@ -118,7 +117,7 @@ export default function ArtBody() {
         <li><p><strong>Culture and sensitivity</strong> — to identify bacterial infections including spontaneous bacterial peritonitis</p></li>
         <li><p><strong>Cytology</strong> — for malignant ascites; identifies malignant cells from peritoneal carcinomatosis</p></li>
         <li><p><strong>Amylase</strong> — elevated in pancreatic ascites</p></li>
-        <li><p><strong>Triglycerides</strong> — elevated above 200 mg/dL in chylous ascites; above 110 mg/dL strongly suggests chylous aetiology</p></li>
+        <li><p><strong>Triglycerides</strong> — elevated above 200 mg/dL in chylous ascites</p></li>
         <li><p><strong>Glucose and LDH</strong> — help distinguish spontaneous bacterial peritonitis from secondary peritonitis</p></li>
       </ul>
 
@@ -136,23 +135,22 @@ export default function ArtBody() {
 
       <h3>Diuretic Therapy</h3>
       <p>Diuretic therapy is the primary pharmacological treatment for ascites in cirrhotic patients.</p>
-      <p>Spironolactone is the drug of choice for treating ascites associated with cirrhosis. Spironolactone blocks aldosterone a hormone that promotes sodium retention and is particularly effective in the setting of secondary hyperaldosteronism that drives ascites formation in cirrhotic patients.</p>
+      <p>Spironolactone an aldosterone antagonist is the drug of choice for cirrhotic ascites because hyperaldosteronism is a key driver of sodium retention in liver disease.</p>
       <p>Spironolactone is often used in combination with furosemide to enhance diuretic effect and minimise potassium imbalance. The standard starting doses are spironolactone 100 mg and furosemide 40 mg daily, adjusted based on the patient&apos;s response and renal function.</p>
       <p>Regular monitoring of renal function, serum electrolytes, and body weight guides diuretic dose adjustments. Hepatologists at SRM Global Hospitals titrate diuretic therapy carefully to achieve effective diuresis without causing renal dysfunction or electrolyte disturbances.</p>
 
       <h3>Therapeutic Paracentesis</h3>
       <p>Therapeutic paracentesis is a common procedure for symptomatic relief in patients with tense ascites or massive ascites allowing rapid removal of large volumes of intraperitoneal fluid.</p>
-      <p>Large-volume paracentesis removing more than 5 litres of ascitic fluid provides immediate relief from abdominal distension, abdominal discomfort, and shortness of breath in patients with massive ascites.</p>
+      <p>Paracentesis provides fast relief from abdominal distension, abdominal pain, and shortness of breath caused by increased intra-abdominal pressure.</p>
       <p>Albumin infusion is recommended after large-volume paracentesis to prevent post-paracentesis circulatory dysfunction a dangerous complication in which removal of large fluid volumes causes haemodynamic instability. The recommended dose is albumin infusion at 6 to 8 g per litre of ascitic fluid removed.</p>
       <p>Paracentesis carries risks including infection, bowel perforation, bleeding, and electrolyte imbalances which are minimised through ultrasound guidance and careful patient selection at SRM Global Hospitals.</p>
 
       <h3>Treatment of Refractory Ascites</h3>
       <p>Refractory ascites ascites that does not respond to maximum doses of diuretic therapy and sodium restriction requires more advanced interventions.</p>
-      <p>The development of refractory ascites is associated with a poor prognosis, with a 1-year survival rate of less than 50% in cirrhotic patients.</p>
-      <p>Treatment options for refractory ascites include:</p>
+      <p>Options for refractory ascites include:</p>
       <ul>
-        <li><p><strong>Serial large-volume paracentesis</strong> — repeated therapeutic paracentesis every two to four weeks for symptomatic management of recurrent ascites</p></li>
-        <li><p><strong>Transjugular intrahepatic portosystemic shunt (TIPS)</strong> — a radiological procedure that creates a channel between the portal vein and hepatic vein within the liver, decompressing portal hypertension and reducing ascites formation in selected cirrhotic patients</p></li>
+        <li><p><strong>Serial large-volume paracentesis</strong> with albumin infusion performed every few weeks for ongoing symptom control</p></li>
+        <li><p><strong>Transjugular intrahepatic portosystemic shunt (TIPS)</strong> — an interventional radiology procedure creating a low-resistance channel between the portal and hepatic veins, effectively decompressing portal hypertension and reducing ascites formation. TIPS is considered in patients with refractory ascites requiring frequent paracentesis who meet clinical eligibility criteria</p></li>
         <li><p><strong>Liver transplantation</strong> — the only definitive treatment for refractory ascites in patients with end-stage liver disease from cirrhosis. Liver transplantation corrects the underlying portal hypertension and restores normal liver function permanently resolving ascites</p></li>
       </ul>
 
@@ -163,10 +161,10 @@ export default function ArtBody() {
 
       <h3>Treatment of Non-Cirrhotic Ascites</h3>
       <ul>
-        <li><p><strong>Heart failure ascites:</strong> Optimisation of cardiac medications, diuretic therapy, and management of the underlying congestive heart failure</p></li>
-        <li><p><strong>Nephrotic syndrome:</strong> Immunosuppressive therapy for the underlying glomerular disease, albumin infusion, and sodium restriction</p></li>
-        <li><p><strong>Peritoneal tuberculosis:</strong> Standard antitubercular combination therapy ascites resolves progressively with effective treatment</p></li>
-        <li><p><strong>Pancreatic ascites:</strong> Endoscopic or surgical repair of the pancreatic duct leak; somatostatin analogues to reduce pancreatic secretions; nutritional support</p></li>
+        <li><p><strong>Heart failure</strong> — optimisation of cardiac medications, ACE inhibitors, beta-blockers, and loop diuretics targeting the underlying cardiac cause</p></li>
+        <li><p><strong>Nephrotic syndrome</strong> — corticosteroids, immunosuppressants, ACE inhibitors, and sodium restriction</p></li>
+        <li><p><strong>Peritoneal tuberculosis</strong> — standard 4-drug anti-tuberculosis therapy produces complete resolution in most cases</p></li>
+        <li><p><strong>Pancreatic ascites</strong> — somatostatin analogues, endoscopic stenting, or surgical repair of the pancreatic duct</p></li>
       </ul>
 
       <blockquote className="pull-quote">
@@ -179,7 +177,7 @@ export default function ArtBody() {
 
       <h3>Spontaneous Bacterial Peritonitis (SBP)</h3>
       <p>Spontaneous bacterial peritonitis is a life-threatening infection of ascitic fluid requiring immediate intravenous antibiotics.</p>
-      <p>SBP occurs when gut bacteria translocate across the intestinal wall into the peritoneal cavity infecting the intraperitoneal fluid in cirrhotic patients whose immune defences are compromised.</p>
+      <p>SBP occurs when bacteria from the intestinal tract translocate across the compromised gut wall into the ascitic fluid in cirrhotic patients whose immune defences are impaired.</p>
       <p>SBP is characterised by an ascitic fluid PMN count greater than 250 cells/mm³ on ascitic fluid analysis a diagnostic threshold that mandates immediate antibiotic treatment without waiting for culture results.</p>
       <p>SBP is a significant cause of morbidity and mortality in patients with ascites. Primary prophylaxis with antibiotics is recommended for cirrhotic patients with low-protein ascitic fluid (below 1.5 g/dL) to prevent the first episode of SBP.</p>
 
@@ -190,16 +188,31 @@ export default function ArtBody() {
 
       <h3>Hepatic Encephalopathy</h3>
       <p>Hepatic encephalopathy brain dysfunction caused by the accumulation of toxins that the failing liver cannot clear frequently accompanies severe ascites in decompensated cirrhosis.</p>
-      <p>Mortality rates are higher in patients with hepatic encephalopathy, renal dysfunction, and low urinary sodium levels indicating a worse prognosis for patients who develop these complications alongside ascites.</p>
+      <p>Hepatorenal syndrome, gastrointestinal bleeding, electrolyte disturbances from aggressive diuretic therapy, and SBP can all trigger or worsen hepatic encephalopathy in patients with ascites.</p>
 
-      <h3>Other Complications</h3>
-      <p>Other complications associated with ascites include:</p>
+      <h3>Abdominal Wall Hernias</h3>
+      <p>Umbilical and inguinal hernias are common in patients with tense ascites and massive ascites due to chronically increased intra-abdominal pressure weakening the abdominal wall.</p>
+      <p>Umbilical hernia in tense ascites carries risks of skin ulceration, incarceration, bowel strangulation, and spontaneous rupture with ascitic fluid leakage a life-threatening emergency.</p>
+
+      <h3>Hyponatraemia</h3>
+      <p>Hyponatraemia low sodium levels in the blood occurs frequently in cirrhotic patients with ascites due to impaired water excretion caused by non-osmotic hypersecretion of antidiuretic hormone.</p>
+      <p>Hyponatraemia reflects advanced haemodynamic impairment in cirrhosis and requires fluid restriction rather than sodium supplementation, which would worsen ascites.</p>
+
+      <h3>Sarcopenia and Malnutrition</h3>
+      <p>Sarcopenia muscle wasting is present in up to 70% of cirrhotic patients with ascites, contributing independently to worse prognosis, increased mortality, and reduced quality of life.</p>
+      <p>Early nutritional assessment and adequate protein intake are essential components of comprehensive ascites care.</p>
+
+      <h3>Hepatic Hydrothorax</h3>
+      <p>Hepatic hydrothorax occurs when ascitic fluid tracks from the peritoneal cavity through microscopic defects in the diaphragm into the pleural space typically on the right side causing pleural effusion without primary cardiac or pulmonary disease.</p>
+      <p>Hepatic hydrothorax causes shortness of breath out of proportion to the degree of visible abdominal distension and is managed similarly to refractory ascites.</p>
+
+      <h3>Paracentesis-Related Complications</h3>
+      <p>Paracentesis carries risks including infection, bowel perforation, bleeding, and electrolyte imbalances which are minimised through ultrasound guidance and careful technique.</p>
+      <p>Post-paracentesis circulatory dysfunction is prevented by routine albumin infusion when large volumes of fluid are removed.</p>
       <ul>
-        <li><p><strong>Abdominal wall hernias</strong> — increased intra-abdominal pressure from massive ascites or tense ascites causes umbilical and inguinal hernias to develop or worsen</p></li>
-        <li><p><strong>Hyponatraemia</strong> — dilutional low sodium levels from excess fluid retention, worsened by the sympathetic nervous system&apos;s activation causing continued water retention</p></li>
-        <li><p><strong>Sarcopenia</strong> — progressive muscle wasting from the catabolic state of advanced liver disease and severe malnutrition</p></li>
-        <li><p><strong>Pleural effusion (hepatic hydrothorax)</strong> — intraperitoneal fluid tracks through diaphragmatic defects into the pleural space, causing shortness of breath</p></li>
-        <li><p><strong>Bowel perforation risk</strong> — a rare but serious complication of repeated paracentesis procedures</p></li>
+        <li><p>Ascitic fluid leak from the puncture site managed with suture closure or compression</p></li>
+        <li><p>Intraperitoneal haemorrhage from puncture of abdominal wall vessels or mesenteric varices</p></li>
+        <li><p>Electrolyte imbalances from rapid fluid and electrolyte shifts</p></li>
       </ul>
 
       <h2 id="prognosis" data-toc-title="Prognosis">Prognosis of Ascites</h2>
@@ -221,7 +234,7 @@ export default function ArtBody() {
         <li><p><strong>Hepatorenal syndrome treatment</strong> — vasopressin analogues, albumin infusion, and renal support under specialist care</p></li>
         <li><p><strong>Comprehensive ascites workup</strong> — liver function tests, serum albumin, imaging, hepatitis B and hepatitis C serology, and portal hypertension assessment</p></li>
       </ul>
-      <p><a href="https://srmglobalhospitals.com/book-an-appointment/" className="btn btn-primary">Book an Appointment</a></p>
+      <p><a href="/book-an-appointment" className="btn btn-primary">Book an Appointment</a></p>
 
       <h2 id="ascites-faqs" data-toc-title="FAQs">FAQs on Ascites</h2>
 

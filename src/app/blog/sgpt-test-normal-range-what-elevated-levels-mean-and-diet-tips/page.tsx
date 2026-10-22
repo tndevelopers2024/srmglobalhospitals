@@ -24,7 +24,7 @@ const article = {
     "An SGPT blood test measures alanine aminotransferase to evaluate liver health. Learn normal ranges for men and women, causes of high SGPT, and practical diet tips to lower elevated levels.",
   path: "/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips",
   image:
-    "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.jpeg",
+    "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.webp",
   author: "Gastro Specialist",
   section: "Gastro",
   publishedTime: "2026-10-22",
@@ -73,8 +73,8 @@ export default function SgptTestArticle() {
         specialistTitle="Gastro Specialist"
         department="Institute of Gastro and Liver Sciences"
         date="October 22, 2026"
-        readMinutes={12}
-        reads="4,120"
+        readMinutes={15}
+        reads="4,260"
       />
       <div className="art-wrap">
         <ShareRail />
@@ -97,22 +97,25 @@ export default function SgptTestArticle() {
           ]}
           relatedReading={[
             {
-              href: "/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease",
-              image: "/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/hero.jpeg",
-              title: "Transform your health: overcoming non-alcoholic fatty liver disease",
-              meta: "12 min · Gastro",
-            },
-            {
-              href: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
-              image: "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpeg",
-              title: "Ascites: What Causes Fluid in the Abdomen & Treatment Options",
+              href: "/blog/bilirubin-test-normal-range-high-and-low-levels-explained",
+              image:
+                "/images/blog/bilirubin-test-normal-range-high-and-low-levels-explained/hero.jpg",
+              title: "Bilirubin Test: Normal Range, High & Low Levels Explained",
               meta: "14 min · Gastro",
             },
             {
-              href: "/blog/gallstone-pancreatitis-what-to-do-now-how-to-heal-faster-and-how-to-prevent-future-attacks",
-              image: "/images/blog/gallstone-pancreatitis-what-to-do-now-how-to-heal-faster-and-how-to-prevent-future-attacks/hero.jpeg",
-              title: "Gallstone pancreatitis: what to do now, how to heal faster",
-              meta: "13 min · Gastro",
+              href: "/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor",
+              image:
+                "/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/hero.jpg",
+              title: "Jaundice: Causes, Symptoms & When to See a Doctor",
+              meta: "24 min · Gastro",
+            },
+            {
+              href: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
+              image:
+                "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpg",
+              title: "Ascites: What Causes Fluid in the Abdomen & Treatment Options",
+              meta: "18 min · Gastro",
             },
           ]}
         />

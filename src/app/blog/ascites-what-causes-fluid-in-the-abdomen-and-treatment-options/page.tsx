@@ -24,7 +24,7 @@ const article = {
     "Ascites is abnormal fluid buildup in the abdomen, predominantly caused by cirrhosis. Learn about SAAG diagnosis, paracentesis, diuretic therapy, and comprehensive treatment at SRM Global Hospitals.",
   path: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
   image:
-    "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpeg",
+    "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpg",
   author: "Gastro Specialist",
   section: "Gastro",
   publishedTime: "2026-10-22",
@@ -73,7 +73,7 @@ export default function AscitesArticle() {
         specialistTitle="Gastro Specialist"
         department="Institute of Gastro and Liver Sciences"
         date="October 22, 2026"
-        readMinutes={14}
+        readMinutes={18}
         reads="4,850"
       />
       <div className="art-wrap">
@@ -96,21 +96,26 @@ export default function AscitesArticle() {
           relatedReading={[
             {
               href: "/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips",
-              image: "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.jpeg",
-              title: "SGPT Test: Normal Range, What Elevated Levels Mean & Diet Tips",
-              meta: "12 min · Gastro",
+              image:
+                "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.webp",
+              title:
+                "SGPT Test: Normal Range, What Elevated Levels Mean & Diet Tips",
+              meta: "15 min · Gastro",
+            },
+            {
+              href: "/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor",
+              image:
+                "/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/hero.jpg",
+              title: "Jaundice: Causes, Symptoms & When to See a Doctor",
+              meta: "24 min · Gastro",
             },
             {
               href: "/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease",
-              image: "/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/hero.jpeg",
-              title: "Transform your health: overcoming non-alcoholic fatty liver disease",
+              image:
+                "/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/hero.jpeg",
+              title:
+                "Transform your health: overcoming non-alcoholic fatty liver disease",
               meta: "12 min · Gastro",
-            },
-            {
-              href: "/blog/what-you-must-know-about-gastritis-causes-symptoms-complications-treatment-and-management",
-              image: "/images/blog/what-you-must-know-about-gastritis-causes-symptoms-complications-treatment-and-management/hero.jpeg",
-              title: "What you must know about gastritis",
-              meta: "14 min · Gastro",
             },
           ]}
         />
