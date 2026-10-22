@@ -1,11 +1,11 @@
 
 export default function ServiceGrid() {
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 40px 0" }}>
-      <div className="services-cards-grid" style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "20px" }}>
+    <div className="services-section-wrap">
+      <div className="services-cards-grid">
 
         {/* Pharmacy */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
@@ -22,7 +22,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Dialysis Centre */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
@@ -37,7 +37,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Nutrition & Dietetics */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
@@ -56,7 +56,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Occupational Therapy */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
@@ -74,7 +74,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Speech Therapy */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
@@ -89,7 +89,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Physiotherapy */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">
@@ -104,7 +104,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Laboratory */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#f3eff8", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#6B4A98" strokeWidth="2">
@@ -120,7 +120,7 @@ export default function ServiceGrid() {
         </div>
 
         {/* Radiology */}
-        <div style={{ background: "#ffffff", borderRadius: "20px", padding: "36px 32px", border: "1px solid rgba(0,0,0,0.05)" }}>
+        <div className="services-card-item">
           <div style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
             <div style={{ width: "48px", height: "48px", minWidth: "48px", background: "#e8f4fc", borderRadius: "12px", display: "flex", alignItems: "center", justifyContent: "center" }}>
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2294D3" strokeWidth="2">

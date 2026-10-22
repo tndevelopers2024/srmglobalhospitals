@@ -1188,7 +1188,8 @@
   .about-realm-grid,
   .about-leader-grid,
   .about-emergency-grid,
-  .about-icu-grid {
+  .about-icu-grid,
+  .about-vm-grid {
     grid-template-columns: 1fr;
     gap: 48px;
   }
@@ -1216,6 +1217,49 @@
 }
 
 @media (max-width: 768px) {
+  .about-container {
+    padding: 0 20px;
+  }
+
+  .about-story-section,
+  .about-realm-inner,
+  .about-leader-section,
+  .about-vm-container,
+  .about-stats-container,
+  .about-emergency-container,
+  .about-icu-container,
+  .about-coe-container,
+  .about-cta-section {
+    padding: 50px 20px;
+  }
+
+  .about-story-accent-bar {
+    display: none;
+  }
+
+  .about-story-title,
+  .about-realm-title,
+  .about-leader-title,
+  .about-vm-title,
+  .about-stats-title,
+  .about-emergency-title,
+  .about-emergency-title-blue,
+  .about-icu-title,
+  .about-coe-title,
+  .about-cta-title {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .about-vm-card {
+    padding: 32px 20px;
+  }
+
+  .about-icu-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
   .about-hero-section {
     padding: 24px 0 40px;
   }
@@ -1248,7 +1292,7 @@
   }
 
   .about-hero-title {
-    font-size: 32px;
+    font-size: clamp(26px, 5.5vw, 36px);
   }
 
   .about-hero-badge {
@@ -1259,13 +1303,47 @@
 }
 
 @media (max-width: 480px) {
+  .about-container {
+    padding: 0 16px;
+  }
+
+  .about-story-section,
+  .about-realm-inner,
+  .about-leader-section,
+  .about-vm-container,
+  .about-stats-container,
+  .about-emergency-container,
+  .about-icu-container,
+  .about-coe-container,
+  .about-cta-section {
+    padding: 40px 16px;
+  }
+
   .about-hero-title {
-    font-size: 30px;
+    font-size: clamp(24px, 6.5vw, 30px);
+  }
+
+  .about-story-grid,
+  .about-realm-grid,
+  .about-leader-grid,
+  .about-emergency-grid,
+  .about-icu-grid,
+  .about-vm-grid {
+    gap: 32px;
+  }
+
+  .about-stat-num {
+    font-size: 34px;
+  }
+
+  .about-stat-item {
+    padding: 24px 12px;
   }
 
   .about-stats-row-1,
   .about-stats-row-2 {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .about-coe-grid {

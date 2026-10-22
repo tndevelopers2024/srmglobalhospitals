@@ -1,30 +1,10 @@
 
 export default function AmbulanceBanner() {
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "40px 40px 0" }}>
-      <div
-        className="services-ambulance-grid"
-        style={{
-          background: "#ffffff",
-          borderRadius: "20px",
-          padding: "48px",
-          border: "1px solid rgba(0,0,0,0.05)",
-          display: "grid",
-          gridTemplateColumns: "1fr auto",
-          gap: "40px",
-          alignItems: "center",
-        }}
-      >
+    <div className="services-section-wrap">
+      <div className="services-ambulance-grid">
         <div>
-          <h2
-            style={{
-              fontFamily: "'Source Serif 4', serif",
-              fontSize: "28px",
-              color: "#1a1a2e",
-              margin: "0 0 12px",
-              fontWeight: 700,
-            }}
-          >
+          <h2 className="services-ambulance-title">
             Ambulance
           </h2>
           <p
@@ -42,19 +22,7 @@ export default function AmbulanceBanner() {
         <div style={{ display: "flex", flexDirection: "column", gap: "8px", alignItems: "center" }}>
           <a
             href="tel:+919644496444"
-            style={{
-              background: "#6B4A98",
-              color: "#ffffff",
-              padding: "14px 32px",
-              borderRadius: "100px",
-              fontFamily: "Poppins, sans-serif",
-              fontSize: "14px",
-              fontWeight: 600,
-              cursor: "pointer",
-              whiteSpace: "nowrap",
-              boxShadow: "0 4px 16px rgba(107,74,152,0.3)",
-              textDecoration: "none",
-            }}
+            className="services-ambulance-btn"
           >
             Call: +91 96444 96444
           </a>

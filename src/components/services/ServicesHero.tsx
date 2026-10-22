@@ -37,16 +37,7 @@ export default function ServicesHero() {
       />
 
       {/* Content Container */}
-      <div
-        style={{
-          position: "relative",
-          zIndex: 3,
-          maxWidth: "1200px",
-          margin: "0 auto",
-          padding: "80px 40px 60px",
-          textAlign: "center",
-        }}
-      >
+      <div className="services-hero-content">
         <div
           style={{
             display: "inline-block",
@@ -68,30 +59,10 @@ export default function ServicesHero() {
         >
           Hospital Services
         </div>
-        <h1
-          style={{
-            fontFamily: "'Source Serif 4', serif",
-            fontSize: "48px",
-            lineHeight: 1.15,
-            color: "#ffffff",
-            margin: "0 0 16px",
-            fontWeight: 700,
-            textShadow: "0 2px 16px rgba(0, 0, 0, 0.6)",
-          }}
-        >
+        <h1 className="services-hero-title">
           Services
         </h1>
-        <p
-          style={{
-            fontFamily: "Inter, sans-serif",
-            fontSize: "16px",
-            lineHeight: 1.7,
-            color: "rgba(255, 255, 255, 0.9)",
-            margin: "0 auto",
-            maxWidth: "520px",
-            textShadow: "0 1px 8px rgba(0, 0, 0, 0.5)",
-          }}
-        >
+        <p className="services-hero-desc">
           Everything that supports your care: from the ambulance that brings you in to the pharmacy that fills your prescription on the way out.
         </p>
       </div>

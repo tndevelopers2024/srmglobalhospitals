@@ -96,14 +96,14 @@ export default function StaffCareersContent() {
             zIndex: 1,
             maxWidth: "1200px",
             margin: "0 auto",
-            padding: "85px 32px 65px",
+            padding: "85px 20px 65px",
             textAlign: "center",
           }}
         >
           <h1
             style={{
               fontFamily: "'Source Serif 4', Georgia, serif",
-              fontSize: "clamp(32px, 5vw, 48px)",
+              fontSize: "clamp(24px, 5vw, 48px)",
               lineHeight: 1.15,
               color: "#fff",
               margin: "0 0 16px",
@@ -160,16 +160,7 @@ export default function StaffCareersContent() {
           </div>
 
           {/* Key Metrics Banner */}
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
-              gap: "20px",
-              marginTop: "44px",
-              paddingTop: "32px",
-              borderTop: "1px solid rgba(255, 255, 255, 0.15)",
-            }}
-          >
+          <div className="careers-metrics-grid">
             <div>
               <div style={{ color: "#ffffff", fontSize: "28px", fontWeight: 700, fontFamily: "Poppins, sans-serif" }}>
                 1,000+
@@ -301,15 +292,10 @@ export default function StaffCareersContent() {
 
           {/* General Nursing & Allied Health Application Box */}
           <div
+            className="careers-eoi-box"
             style={{
               background: "linear-gradient(135deg, #edf5fc 0%, #f4edf9 100%)",
-              borderRadius: "16px",
-              padding: "36px",
               border: "1px solid #cce4f7",
-              display: "grid",
-              gridTemplateColumns: "1fr auto",
-              gap: "24px",
-              alignItems: "center",
             }}
           >
             <div>
@@ -378,7 +364,7 @@ export default function StaffCareersContent() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
               gap: "24px",
             }}
           >
@@ -453,7 +439,7 @@ export default function StaffCareersContent() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(260px, 100%), 1fr))",
               gap: "24px",
             }}
           >
@@ -521,7 +507,7 @@ export default function StaffCareersContent() {
               <h2
                 style={{
                   fontFamily: "'DM Serif Display', Georgia, serif",
-                  fontSize: "38px",
+                  fontSize: "clamp(24px, 4.5vw, 38px)",
                   lineHeight: 1.2,
                   color: "#ffffff",
                   margin: "0 0 16px",

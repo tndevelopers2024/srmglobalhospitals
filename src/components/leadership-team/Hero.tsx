@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Hero() {
     return (
-        <div className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
+        <div className="page-hero-frame leadership-hero-frame">
             <img
                 src="/images/leadership-team/leadership-team-hero.jpg"
                 alt="SRM Global Hospitals Leadership Team"
@@ -24,59 +24,18 @@ export default function Hero() {
                         "linear-gradient(135deg, rgba(20, 9, 43, 0.84) 0%, rgba(35, 19, 74, 0.78) 55%, rgba(13, 27, 58, 0.84) 100%)",
                 }}
             />
-            <div
-                style={{
-                    position: "relative",
-                    zIndex: 1,
-                    maxWidth: "1200px",
-                    margin: "0 auto",
-                    padding: "80px 40px 60px",
-                    textAlign: "center",
-                }}
-            >
-                <div
-                    style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        gap: "8px",
-                        fontFamily: "Inter, sans-serif",
-                        fontSize: "13px",
-                        color: "rgba(255, 255, 255, 0.7)",
-                        marginBottom: "24px",
-                        flexWrap: "wrap",
-                    }}
-                >
+            <div className="leadership-hero-inner">
+                <div className="leadership-hero-breadcrumb">
                     <Link href="/" style={{ color: "rgba(255, 255, 255, 0.7)", textDecoration: "none" }}>
                         Home
                     </Link>
                     <span style={{ opacity: 0.5 }}>&rsaquo;</span>
                     <span style={{ color: "rgba(255, 255, 255, 0.95)" }}>Leadership Team</span>
                 </div>
-                <h1
-                    style={{
-                        fontFamily: "'Source Serif 4', serif",
-                        fontSize: "48px",
-                        lineHeight: 1.15,
-                        color: "#fff",
-                        margin: "0 0 16px",
-                        fontWeight: 700,
-                        textShadow: "0 2px 8px rgba(0, 0, 0, 0.3)",
-                    }}
-                >
+                <h1 className="leadership-hero-title">
                     Leadership Team
                 </h1>
-                <p
-                    style={{
-                        fontFamily: "Inter, sans-serif",
-                        fontSize: "16px",
-                        lineHeight: 1.7,
-                        color: "rgba(255, 255, 255, 0.85)",
-                        margin: "0 auto",
-                        maxWidth: "600px",
-                        textShadow: "0 1px 4px rgba(0, 0, 0, 0.3)",
-                    }}
-                >
+                <p className="leadership-hero-desc">
                     The people responsible for how this hospital runs, what it
                     prioritises, and where it&apos;s headed.
                 </p>

@@ -96,14 +96,14 @@ export default function DoctorCareersContent() {
             zIndex: 1,
             maxWidth: "1200px",
             margin: "0 auto",
-            padding: "85px 32px 65px",
+            padding: "85px 20px 65px",
             textAlign: "center",
           }}
         >
           <h1
             style={{
               fontFamily: "'Source Serif 4', Georgia, serif",
-              fontSize: "clamp(32px, 5vw, 48px)",
+              fontSize: "clamp(24px, 5vw, 48px)",
               lineHeight: 1.15,
               color: "#fff",
               margin: "0 0 16px",
@@ -161,16 +161,7 @@ export default function DoctorCareersContent() {
           </div>
 
           {/* Key Metrics Banner */}
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
-              gap: "20px",
-              marginTop: "44px",
-              paddingTop: "32px",
-              borderTop: "1px solid rgba(255, 255, 255, 0.15)",
-            }}
-          >
+          <div className="careers-metrics-grid">
             <div>
               <div style={{ color: "#ffffff", fontSize: "28px", fontWeight: 700, fontFamily: "Poppins, sans-serif" }}>
                 200+
@@ -302,15 +293,10 @@ export default function DoctorCareersContent() {
 
           {/* Consultant Expression of Interest Box */}
           <div
+            className="careers-eoi-box"
             style={{
               background: "linear-gradient(135deg, #f4edf9 0%, #edf5fc 100%)",
-              borderRadius: "16px",
-              padding: "36px",
               border: "1px solid #d8cde6",
-              display: "grid",
-              gridTemplateColumns: "1fr auto",
-              gap: "24px",
-              alignItems: "center",
             }}
           >
             <div>
@@ -376,13 +362,7 @@ export default function DoctorCareersContent() {
             </p>
           </div>
 
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-              gap: "28px",
-            }}
-          >
+          <div className="careers-standards-grid">
             <div
               style={{
                 background: "#fcfbff",
@@ -469,7 +449,7 @@ export default function DoctorCareersContent() {
               <h2
                 style={{
                   fontFamily: "'DM Serif Display', Georgia, serif",
-                  fontSize: "38px",
+                  fontSize: "clamp(24px, 4.5vw, 38px)",
                   lineHeight: 1.2,
                   color: "#ffffff",
                   margin: "0 0 16px",

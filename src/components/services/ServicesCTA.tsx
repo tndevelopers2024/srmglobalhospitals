@@ -1,29 +1,10 @@
 
 export default function ServicesCTA() {
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "60px 40px 100px" }}>
-      <div
-        className="services-cta-grid"
-        style={{
-          background: "linear-gradient(135deg, #1a1a2e, #2a2048)",
-          borderRadius: "24px",
-          padding: "60px",
-          display: "grid",
-          gridTemplateColumns: "1fr auto",
-          gap: "40px",
-          alignItems: "center",
-        }}
-      >
+    <div className="services-section-wrap cta-wrap">
+      <div className="services-cta-grid">
         <div>
-          <h2
-            style={{
-              fontFamily: "'Source Serif 4', serif",
-              fontSize: "32px",
-              color: "#ffffff",
-              margin: "0 0 12px",
-              fontWeight: 700,
-            }}
-          >
+          <h2 className="services-cta-title">
             Need a service or have a question?
           </h2>
           <p
@@ -42,19 +23,7 @@ export default function ServicesCTA() {
         <div style={{ display: "flex", flexDirection: "column", gap: "12px", alignItems: "center" }}>
           <a
             href="tel:+919644496444"
-            style={{
-              background: "#6B4A98",
-              color: "#ffffff",
-              padding: "16px 40px",
-              borderRadius: "100px",
-              fontFamily: "Poppins, sans-serif",
-              fontSize: "16px",
-              fontWeight: 600,
-              cursor: "pointer",
-              boxShadow: "0 4px 24px rgba(107,74,152,0.5)",
-              whiteSpace: "nowrap",
-              textDecoration: "none",
-            }}
+            className="services-cta-btn"
           >
             Book Appointment →
           </a>

@@ -114,7 +114,7 @@ export default function InternationalDeskInquiry() {
 
             {/* Quick Request Form */}
             <div>
-              <div style={{ background: "#ffffff", padding: "32px", borderRadius: "18px", border: "1px solid #e2e8f0" }}>
+              <div className="intl-inquiry-form-card">
                 <h4 style={{ fontFamily: "var(--font-display, 'Poppins')", fontSize: "18px", fontWeight: 600, color: "#0e1240", marginBottom: "8px" }}>
                   Book an Appointment with Our International Patient Desk
                 </h4>
@@ -157,7 +157,7 @@ export default function InternationalDeskInquiry() {
                       />
                     </div>
 
-                    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px" }}>
+                    <div className="intl-inquiry-row-2col">
                       <div>
                         <label style={{ display: "block", fontSize: "13px", fontWeight: 600, color: "#1e293b", marginBottom: "6px" }}>
                           Country of Origin *
