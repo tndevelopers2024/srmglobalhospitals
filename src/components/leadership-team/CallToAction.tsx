@@ -22,68 +22,24 @@ export default function CallToAction() {
                         "linear-gradient(135deg, rgba(107, 74, 152, 0.92), rgba(34, 148, 211, 0.88))",
                 }}
             ></div>
-            <div
-                style={{
-                    position: "relative",
-                    zIndex: "1",
-                    textAlign: "center",
-                    padding: "80px 40px",
-                }}
-            >
-                <h2
-                    style={{
-                        fontFamily: "'Source Serif 4', serif",
-                        fontSize: "38px",
-                        color: "#fff",
-                        margin: "0 0 16px",
-                        fontWeight: "700",
-                    }}
-                >
+            <div className="leadership-cta-wrap">
+                <h2 className="leadership-cta-title">
                     Talk to a Specialist
                 </h2>
-                <p
-                    style={{
-                        fontFamily: "Inter, sans-serif",
-                        fontSize: "17px",
-                        color: "rgba(255, 255, 255, 0.85)",
-                        margin: "0 auto 32px",
-                        maxWidth: "480px",
-                        lineHeight: "1.6",
-                    }}
-                >
+                <p className="leadership-cta-desc">
                     Book an appointment or call us directly. We&apos;ll connect
                     you with the right doctor for your concern.
                 </p>
-                <div style={{ display: "inline-flex", gap: "14px" }}>
+                <div className="leadership-cta-actions">
                     <a
-                        href="#"
-                        style={{
-                            background: "#fff",
-                            color: "#6b4a98",
-                            padding: "14px 36px",
-                            borderRadius: "100px",
-                            fontFamily: "Poppins, sans-serif",
-                            fontSize: "15px",
-                            fontWeight: "600",
-                            cursor: "pointer",
-                            textDecoration: "none",
-                        }}
+                        href="/contact-us"
+                        className="leadership-btn-white"
                     >
                         Book Appointment
                     </a>
                     <a
-                        href="#"
-                        style={{
-                            border: "2px solid rgba(255, 255, 255, 0.6)",
-                            color: "#fff",
-                            padding: "12px 36px",
-                            borderRadius: "100px",
-                            fontFamily: "Poppins, sans-serif",
-                            fontSize: "15px",
-                            fontWeight: "600",
-                            cursor: "pointer",
-                            textDecoration: "none",
-                        }}
+                        href="tel:+919644496444"
+                        className="leadership-btn-outline"
                     >
                         Call Us
                     </a>

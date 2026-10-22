@@ -6,6 +6,7 @@ import Hero from "@/components/leadership-team/Hero";
 import ManagingDirector from "@/components/leadership-team/ManagingDirector";
 import President from "@/components/leadership-team/President";
 import { createMetadata } from "@/lib/seo";
+import "@/styles/leadership.css";
 
 export const metadata = createMetadata({
     title: "Leadership Team",
@@ -19,7 +20,7 @@ export default function LeadershipTeamPage() {
         <>
             <HeaderTop />
             <SiteHeader />
-            <main>
+            <main className="leadership-page">
                 <Hero />
                 <President />
                 <ManagingDirector />

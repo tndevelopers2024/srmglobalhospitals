@@ -223,7 +223,7 @@ export default function CareerJobCard({
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fit, minmax(min(200px, 100%), 1fr))",
               gap: "14px",
               background: "#f8fafc",
               padding: "16px 20px",
