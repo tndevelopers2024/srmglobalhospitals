@@ -437,14 +437,29 @@
     background: #f3f5f9;
   }
   .specialty-page .hero-image-layer {
-    position: relative;
-    width: 100%;
-    height: 240px;
-    order: -1;
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+    order: -1 !important;
+    overflow: hidden !important;
+    border-radius: 20px 20px 0 0 !important;
   }
   .specialty-page .hero-image-layer .image-wrapper {
-    -webkit-mask-image: none;
-    mask-image: none;
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    aspect-ratio: 16 / 9 !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+    overflow: hidden !important;
+    border-radius: 20px 20px 0 0 !important;
+  }
+  .specialty-page .hero-image-layer .image-wrapper img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: 85% center !important;
   }
   .specialty-page .hero-content {
     width: 100%;
@@ -513,7 +528,12 @@
     border-radius: 16px;
   }
   .specialty-page .hero-image-layer {
-    height: 200px;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+    border-radius: 16px 16px 0 0 !important;
+  }
+  .specialty-page .hero-image-layer .image-wrapper {
+    border-radius: 16px 16px 0 0 !important;
   }
   .specialty-page .hero-content {
     padding: 20px 14px 24px;
@@ -535,7 +555,8 @@
 
 @media (max-width: 360px) {
   .specialty-page .hero-image-layer {
-    height: 180px;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
   }
   .specialty-page .hero-content {
     padding: 16px 12px 20px;

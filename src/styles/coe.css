@@ -406,12 +406,52 @@
     top: auto !important;
     right: auto !important;
     width: 100% !important;
-    height: 260px !important;
-    order: -1;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+    order: -1 !important;
+    overflow: hidden !important;
+    border-radius: 20px 20px 0 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
   .coe-page .hero-image-wrapper {
-    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
-    mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    aspect-ratio: 16 / 9 !important;
+    -webkit-mask-image: none !important;
+    mask-image: none !important;
+    overflow: hidden !important;
+    border-radius: 20px 20px 0 0 !important;
+  }
+  .coe-page .hero-image-wrapper img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
+
+  /* Specific focal point alignments per COE route to preserve all doctors, patients, and equipment */
+  .coe-page .hero-image-wrapper img[src*="gastro-and-liver-sciences"] {
+    object-position: 85% center !important;
+  }
+  .coe-page .hero-image-wrapper img[src*="womens-health"] {
+    object-position: 78% center !important;
+  }
+  .coe-page .hero-image-wrapper img[src*="bone-joint-spine"] {
+    object-position: 82% center !important;
+  }
+  .coe-page .hero-image-wrapper img[src*="emergency-and-critical-care"] {
+    object-position: 76% center !important;
+  }
+  .coe-page .hero-image-wrapper img[src*="neuro-sciences"] {
+    object-position: 82% center !important;
+  }
+  .coe-page .hero-image-wrapper img[src*="renal-sciences"] {
+    object-position: 82% center !important;
+  }
+  .coe-page .hero-image-wrapper img[src*="solid-organ-transplants"] {
+    object-position: 76% center !important;
   }
 }
 

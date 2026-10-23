@@ -210,3 +210,124 @@
     font-size: 28px !important;
   }
 }
+
+/* ============================================================
+   DEPARTMENT HERO MOBILE RESPONSIVE SIZING & ALIGNMENT
+   Applies exclusively to /department routes (@media max-width: 767px)
+   ============================================================ */
+@media (max-width: 767px) {
+  main.dept-page > div:has(> .hero-inner),
+  main.dept-page > div:first-of-type,
+  .dept-page .dept-hero-frame {
+    display: flex !important;
+    flex-direction: column !important;
+    background: #14092b !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    margin-top: 12px !important;
+    margin-bottom: 24px !important;
+  }
+
+  main.dept-page > div:has(> .hero-inner) > div:first-child,
+  main.dept-page > div:first-of-type > div:first-child,
+  .dept-page .dept-hero-image-wrap {
+    position: relative !important;
+    inset: auto !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+    order: -1 !important;
+    z-index: 0 !important;
+    overflow: hidden !important;
+    border-radius: 20px 20px 0 0 !important;
+    background: #14092b !important;
+  }
+
+  main.dept-page > div:has(> .hero-inner) > div:first-child img,
+  main.dept-page > div:first-of-type > div:first-child img,
+  .dept-page .dept-hero-image-wrap img {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: 80% center !important;
+  }
+
+  /* Specific focal point alignments for surgical, team, and multi-subject compositions */
+  main.dept-page img[src*="anaesthesiology-cardiac"],
+  main.dept-page img[alt*="Cardiac Anaesthesia"] {
+    object-position: 70% center !important;
+  }
+  main.dept-page img[src*="general-surgery"],
+  main.dept-page img[alt*="General Surgery"] {
+    object-position: 75% center !important;
+  }
+  main.dept-page img[src*="institute-of-cardiac-sciences"],
+  main.dept-page img[alt*="Cardiac Sciences"] {
+    object-position: 70% center !important;
+  }
+  main.dept-page img[src*="interventional-radiology"],
+  main.dept-page img[alt*="Interventional Radiology"] {
+    object-position: 70% center !important;
+  }
+  main.dept-page img[src*="surgical-gastroenterology"],
+  main.dept-page img[alt*="Surgical Gastroenterology"] {
+    object-position: 70% center !important;
+  }
+  main.dept-page img[src*="surgical-oncology"],
+  main.dept-page img[alt*="Surgical Oncology"] {
+    object-position: 70% center !important;
+  }
+  main.dept-page img[src*="trauma-and-acute-care-surgery"],
+  main.dept-page img[alt*="Trauma & Acute Care"] {
+    object-position: 75% center !important;
+  }
+  main.dept-page img[src*="radiology"],
+  main.dept-page img[alt*="Radiology Department"] {
+    object-position: 75% center !important;
+  }
+  main.dept-page img[src*="pulmonology"],
+  main.dept-page img[alt*="Pulmonology Department"] {
+    object-position: 82% center !important;
+  }
+  main.dept-page img[src*="reproductive-medicine"],
+  main.dept-page img[alt*="Reproductive Medicine"] {
+    object-position: 82% center !important;
+  }
+  main.dept-page img[src*="spine-care"],
+  main.dept-page img[alt*="Spine Care"] {
+    object-position: 82% center !important;
+  }
+
+  main.dept-page > div:has(> .hero-inner) > div:nth-child(2),
+  main.dept-page > div:first-of-type > div:nth-child(2),
+  .dept-page .dept-hero-overlay {
+    display: none !important;
+  }
+
+  .dept-page .hero-inner {
+    position: relative !important;
+    z-index: 2 !important;
+    padding: 24px 20px 28px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .dept-page .hero-inner > div:first-child {
+    margin-bottom: 14px !important;
+  }
+
+  .dept-page .hero-title {
+    font-size: clamp(24px, 6.5vw, 32px) !important;
+    line-height: 1.2 !important;
+    margin-bottom: 12px !important;
+  }
+
+  .dept-page .hero-inner p {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+}
