@@ -864,16 +864,33 @@
   }
 
   /* --- PATIENT STORY --- */
+  .home-page #stories .story-grid,
   .home-page .story-grid {
     grid-template-columns: 1fr !important;
     gap: 24px !important;
   }
 
+  .home-page #stories .story-image,
+  .home-page .story-image {
+    aspect-ratio: 4 / 3 !important;
+    height: auto !important;
+    min-height: 0 !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .home-page #stories .story-image img,
   .home-page .story-image img {
-    border-radius: 12px;
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    border-radius: 12px !important;
+    width: 100% !important;
+    height: 100% !important;
+    aspect-ratio: 4 / 3 !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   .home-page .story-quote {
