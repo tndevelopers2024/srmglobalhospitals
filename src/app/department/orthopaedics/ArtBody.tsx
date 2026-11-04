@@ -331,7 +331,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-1.png"
+                  src="/images/departments/Orthopaedics/image-1.png"
                   alt="Dr. Dilip Kumar Naidu. E"
                   width={280}
                   height={280}
@@ -445,7 +445,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-2.png"
+                  src="/images/departments/Orthopaedics/image-2.png"
                   alt="Dr. Prasad Dakshinamoorthy"
                   width={280}
                   height={280}
@@ -559,7 +559,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-3.png"
+                  src="/images/departments/Orthopaedics/image-3.png"
                   alt="Dr. Saravanan. J"
                   width={280}
                   height={280}
@@ -673,7 +673,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-4.png"
+                  src="/images/departments/Orthopaedics/image-4.png"
                   alt="Dr. S. Devi Prasad"
                   width={280}
                   height={280}
@@ -787,7 +787,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-5.png"
+                  src="/images/departments/Orthopaedics/image-5.png"
                   alt="Dr. Arun Karthik R"
                   width={280}
                   height={280}
@@ -901,7 +901,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-6.png"
+                  src="/images/departments/Orthopaedics/image-6.png"
                   alt="Dr. Vijay Anand. B"
                   width={280}
                   height={280}
@@ -1017,7 +1017,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/orthopaedics/image-7.png"
+                  src="/images/departments/Orthopaedics/image-7.png"
                   alt="Dr. N. Gowthaman"
                   width={280}
                   height={280}
