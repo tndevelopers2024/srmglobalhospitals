@@ -558,7 +558,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/neurology/image-3.png"
+                  src="/images/departments/Neurology/image-3.png"
                   alt="Dr. S. Robert Wilson"
                   width={280}
                   height={280}
