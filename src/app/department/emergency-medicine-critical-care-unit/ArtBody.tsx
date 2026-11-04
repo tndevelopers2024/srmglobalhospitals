@@ -396,8 +396,8 @@ export default function ArtBody() {
                   MBBS, MD, MBA
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -414,7 +414,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -510,8 +510,8 @@ export default function ArtBody() {
                   MBBS, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -528,7 +528,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -624,8 +624,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -642,7 +642,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -738,8 +738,8 @@ export default function ArtBody() {
                   MBBS, DNB, CPCDM
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -756,7 +756,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -852,8 +852,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -870,7 +870,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -966,8 +966,8 @@ export default function ArtBody() {
                   MBBS, MD, DNB, FID
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -984,7 +984,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -1080,8 +1080,8 @@ export default function ArtBody() {
                   MBBS, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1098,7 +1098,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -1194,8 +1194,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1212,7 +1212,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -1308,8 +1308,8 @@ export default function ArtBody() {
                   MBBS, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1326,7 +1326,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -1422,8 +1422,8 @@ export default function ArtBody() {
                   MBBS, MD, FNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1440,7 +1440,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -1516,8 +1516,8 @@ export default function ArtBody() {
             Book an appointment or call us directly. We&apos;ll connect you with the right doctor for your concern.
           </p>
           <div style={{ display: "inline-flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
-            <a
-              href="tel:+919644496444"
+            <Link
+              href="/book-an-appointment"
               style={{
                 background: "#fff",
                 color: "#8b3dff",
@@ -1532,7 +1532,7 @@ export default function ArtBody() {
               }}
             >
               Book Appointment
-            </a>
+            </Link>
             <a
               href="tel:+919644496444"
               style={{
