@@ -141,7 +141,7 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
             <div className="hero-trust">
               <span className="hero-trust-label">Accredited</span>
               <div className="hero-trust-badges">
-                <span className="hero-trust-badge">NABH</span><span className="hero-trust-badge">NABL</span><span className="hero-trust-badge">ISO 9001</span><span className="hero-trust-badge">Cashless · 100+ Insurers</span>
+                <span className="hero-trust-badge">NABL</span><span className="hero-trust-badge">ISO 9001</span><span className="hero-trust-badge">Cashless · 100+ Insurers</span>
               </div>
             </div>
           </div>

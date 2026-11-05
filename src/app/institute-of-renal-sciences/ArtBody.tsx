@@ -145,7 +145,6 @@ export default function ArtBody() {
       <p>The Department of Nephrology at SRM Global Hospitals provides comprehensive care for kidney disorders in adults and children, including chronic kidney disease, acute kidney injury, kidney stones, and glomerular diseases. Located in Chengalpattu on GST Road, it is staffed by consultant nephrologists supporting patients across Chengalpattu, Guduvancheri, Tambaram, and surrounding areas.</p>
       <p>Because hypertension and diabetes are leading causes of kidney disease, the team works closely with cardiology and diabetology on blood pressure and blood sugar control. Patients are typically referred to nephrology for changes in urine output, unexplained fatigue, swelling, or abnormal blood and urine test results.</p>
       <div className="about-features">
-        <div className="about-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>NABH Accredited</div>
         <div className="about-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>Adult &amp; Pediatric Nephrology</div>
         <div className="about-feat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>24/7 Dialysis Support</div>
       </div>
@@ -621,7 +620,7 @@ export default function ArtBody() {
           <h3>5. Which hospital and nephrologist is right for kidney care in Chennai?</h3>
           <div className="faq-toggle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="6 9 12 15 18 9" /></svg></div>
         </div>
-        <div className="faq-answer"><div className="faq-answer-inner">Rather than one best hospital or doctor, look for accreditation, a wide range of services, and a nephrologist experienced in your condition. SRM Global Hospitals in Chengalpattu is NABH accredited and treats both adult and pediatric kidney conditions.</div></div>
+        <div className="faq-answer"><div className="faq-answer-inner">Rather than one best hospital or doctor, look for accreditation, a wide range of services, and a nephrologist experienced in your condition. SRM Global Hospitals in Chengalpattu treats both adult and pediatric kidney conditions.</div></div>
       </div>
 
       <div className={`faq-item ${openFaqIndex === 5 ? 'open' : ''}`}>
