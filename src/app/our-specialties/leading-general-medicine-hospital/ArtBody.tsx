@@ -415,7 +415,7 @@ export default function ArtBody() {
               <div className="doctor-info">
                 <h4>Dr. Anupriya S</h4>
                 <p className="doctor-qualification">MBBS, MD</p>
-                <p>Registrar</p>
+                <p>Junior Consultant</p>
                 <a href="#appointment" className="btn-primary">Book Appointment</a>
               </div>
             </div>
