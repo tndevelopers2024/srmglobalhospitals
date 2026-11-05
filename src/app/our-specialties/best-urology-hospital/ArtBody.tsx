@@ -382,6 +382,15 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
+      <div className="doctor-card reveal">
+        <div className="doctor-photo"><Image src="/images/specialties/urology/dr-rajesh-paul.png" alt="Dr. Rajesh Paul" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
+        <div className="doctor-info">
+          <h4>Dr. Rajesh Paul</h4>
+          <p className="doctor-qualification">MBBS, MS, DrNB</p>
+          <p>Consultant, Urology</p>
+          <a href="#appointment" className="btn-primary">Book Appointment</a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
