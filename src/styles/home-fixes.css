@@ -68,18 +68,12 @@
   content: "";
   position: absolute;
   inset: 0;
-  width: var(--slide-image-width, 100%);
-  max-width: 100%;
-  height: 100%;
-  aspect-ratio: 16 / 9;
-  margin-left: auto;
   background-image: var(--slide-image);
   background-color: #faf8f4;
-  background-size: var(--slide-image-size, cover);
-  background-position: var(--slide-image-position, center);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   transform: scaleX(var(--slide-image-flip, 1));
-  mask-image: var(--slide-image-mask, none);
 }
 
 .home-page .hero-slide-background::after {
@@ -407,8 +401,6 @@
   }
 
   .home-page .hero-slide-background::before {
-    width: 100%;
-    mask-image: none;
     background-image: var(--slide-mobile-image) !important;
     background-size: cover !important;
     background-position: center top !important;
