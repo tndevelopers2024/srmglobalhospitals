@@ -61,6 +61,7 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  experimental: { agentUpgrade: "security" },
   trailingSlash: true,
   reactStrictMode: true,
   compress: true,
