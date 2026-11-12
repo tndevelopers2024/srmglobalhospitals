@@ -89,7 +89,8 @@ export default function HeroCarousel() {
             "--slide-image-flip": index === 0 ? -1 : 1,
             "--slide-image-size": index === 0 ? "cover" : "contain",
             "--slide-image-position": index === 0 ? "center" : "right center",
-            "--slide-image-mask": index === 0 ? "none" : "linear-gradient(to right, transparent 36%, black 60%)",
+            "--slide-image-width": index === 0 ? "100%" : "auto",
+            "--slide-image-mask": index === 0 ? "none" : "linear-gradient(to right, transparent, black 30%)",
             "--slide-mobile-image": `url('${slide.mobileImage}')`,
           } as CSSProperties}
         />
