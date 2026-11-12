@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useSyncExternalStore, type CSSProperties, type ReactNode } from "react";
+import { useEffect, useState, useSyncExternalStore, type CSSProperties } from "react";
 import { ArrowRight } from "lucide-react";
 
 const slides = [
@@ -17,8 +17,8 @@ const slides = [
     label: "Cardiac sciences",
     title: <>Every heartbeat,<br /> <em>cared for.</em></>,
     description: <>Comprehensive cardiac care built<br />around every beat of life.</>,
-    image: "/images/home/banner/desktop-banner-1-new2.jpeg",
-    mobileImage: "/images/home/banner/mobile-banner-1-new-2.jpeg",
+    image: "/images/home/banner/cardiac-care-family-banner.jpeg",
+    mobileImage: "/images/home/banner/cardiac-care-family-banner.jpeg",
     href: "/institute-of-cardiac-sciences",
     action: "Explore cardiac care",
   },
@@ -26,8 +26,8 @@ const slides = [
     label: "Digestive care",
     title: <>Your Gut <em>TALKS.</em><br /> We <em>LISTEN.</em></>,
     description: <>Every Digestive Concern<br />Deserves Expert Attention.</>,
-    image: "/images/home/banner/desktop-banner-2-new.jpeg",
-    mobileImage: "/images/home/banner/mobile-banner-2-new.jpeg",
+    image: "/images/home/banner/digestive-health-gut-brain-banner.jpeg",
+    mobileImage: "/images/home/banner/digestive-health-gut-brain-banner.jpeg",
     href: "/institute-of-gastro-and-liver-sciences",
     action: "Explore digestive care",
   },
@@ -35,8 +35,8 @@ const slides = [
     label: "Bone, joint and spine care",
     title: <>Move <em>without<br />limits.</em></>,
     description: <>Advanced orthopaedic and spine care<br />that gets you moving again.</>,
-    image: "/images/home/banner/desktop-banner-3-new.jpeg",
-    mobileImage: "/images/home/banner/mobile-banner-3-new.jpeg",
+    image: "/images/home/banner/bone-joint-spine-active-living-banner.jpeg",
+    mobileImage: "/images/home/banner/bone-joint-spine-active-living-banner.jpeg",
     href: "/centre-for-bone-joint-spine-care",
     action: "Explore bone, joint & spine care",
   },
@@ -52,7 +52,7 @@ function getReducedMotion() {
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
-export default function HeroCarousel({ children }: { children: ReactNode }) {
+export default function HeroCarousel() {
   const [active, setActive] = useState(0);
   const [playback, setPlayback] = useState<"auto" | "paused" | "playing">("auto");
   const reducedMotion = useSyncExternalStore(subscribeToMotionPreference, getReducedMotion, () => true);
@@ -86,6 +86,10 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
           aria-hidden="true"
           style={{
             "--slide-image": `url('${slide.image}')`,
+            "--slide-image-flip": index === 0 ? -1 : 1,
+            "--slide-image-size": index === 0 ? "cover" : "contain",
+            "--slide-image-position": index === 0 ? "center" : "right center",
+            "--slide-image-mask": index === 0 ? "none" : "linear-gradient(to right, transparent 36%, black 60%)",
             "--slide-mobile-image": `url('${slide.mobileImage}')`,
           } as CSSProperties}
         />
@@ -145,7 +149,6 @@ export default function HeroCarousel({ children }: { children: ReactNode }) {
               </div>
             </div>
           </div>
-          {children}
         </div>
       </div>
     </section>

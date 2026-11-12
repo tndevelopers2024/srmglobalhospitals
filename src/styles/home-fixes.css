@@ -29,19 +29,19 @@
 }
 
 /* ------------------------------------------------------------
-   2. DESKTOP HERO & CAROUSEL (Preserved Exactly)
+   2. DESKTOP HERO & CAROUSEL
    ------------------------------------------------------------ */
 .home-page .hero {
   position: relative;
   width: 100%;
   max-width: 1920px;
   margin-inline: auto;
-  aspect-ratio: 16 / 7.2;
-  min-height: clamp(520px, 68vh, 840px);
-  height: auto;
+  aspect-ratio: auto;
+  min-height: 600px;
+  height: clamp(600px, 39vw, 740px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   padding: clamp(24px, 2.4vw, 42px) 0 clamp(16px, 1.8vw, 28px);
   overflow: hidden;
   box-sizing: border-box;
@@ -58,13 +58,30 @@
 .home-page .hero-slide-background {
   position: absolute;
   inset: 0;
-  background-image: linear-gradient(to right, rgba(255,255,255,.84) 0%, rgba(255,255,255,.70) 30%, rgba(255,255,255,.32) 55%, rgba(255,255,255,0) 80%), var(--slide-image);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
   opacity: 0;
   transition: opacity .6s ease;
   pointer-events: none;
+  background-color: #faf8f4;
+}
+
+.home-page .hero-slide-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--slide-image);
+  background-color: #faf8f4;
+  background-size: var(--slide-image-size, cover);
+  background-position: var(--slide-image-position, center);
+  background-repeat: no-repeat;
+  transform: scaleX(var(--slide-image-flip, 1));
+  mask-image: var(--slide-image-mask, none);
+}
+
+.home-page .hero-slide-background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #faf8f4 0%, rgba(250,248,244,.98) 24%, rgba(250,248,244,.75) 42%, rgba(250,248,244,.08) 64%, rgba(250,248,244,0) 78%);
 }
 
 .home-page .hero-slide-background.is-active {
@@ -72,7 +89,7 @@
 }
 
 .home-page .hero-carousel .hero-content {
-  padding-top: clamp(64px, 1.8vw, 24px);
+  padding-top: 0;
 }
 
 .home-page .hero-carousel .hero-headline {
@@ -292,8 +309,8 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    padding-top: clamp(8px, 1.2vw, 20px);
+    justify-content: center;
+    padding-top: 0;
   }
 
   .home-page .hero-carousel .hero-grid {
@@ -384,7 +401,8 @@
     overflow: hidden;
   }
 
-  .home-page .hero-slide-background {
+  .home-page .hero-slide-background::before {
+    mask-image: none;
     background-image: var(--slide-mobile-image) !important;
     background-size: cover !important;
     background-position: center top !important;
