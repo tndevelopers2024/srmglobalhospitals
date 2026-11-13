@@ -73,7 +73,6 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transform: scaleX(var(--slide-image-flip, 1));
 }
 
 .home-page .hero-slide-background::after {
@@ -85,6 +84,14 @@
 
 .home-page .hero-slide-background.is-active {
   opacity: 1;
+}
+
+.home-page .hero-slide-background--photo::before {
+  background-position: right bottom;
+}
+
+.home-page .hero-slide-background--photo::after {
+  background: linear-gradient(to right, #faf8f4 0%, rgba(250,248,244,.97) 22%, rgba(250,248,244,.75) 35%, rgba(250,248,244,0) 58%);
 }
 
 .home-page .hero-carousel .hero-content {
@@ -419,6 +426,20 @@
       rgba(255, 255, 255, 0.35) 65%,
       rgba(255, 255, 255, 0.85) 100%
     );
+  }
+
+  /* Give the supplied landscape photos their own space below the copy. */
+  .home-page .hero-carousel--photo-banner {
+    padding-bottom: 260px !important;
+  }
+
+  .home-page .hero-slide-background--photo::before {
+    background-size: auto 280px !important;
+    background-position: right bottom !important;
+  }
+
+  .home-page .hero-slide-background--photo::after {
+    background: linear-gradient(to bottom, #faf8f4 0%, #faf8f4 calc(100% - 260px), rgba(250,248,244,0) calc(100% - 190px));
   }
 
   .home-page .hero-grid {

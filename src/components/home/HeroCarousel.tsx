@@ -8,8 +8,8 @@ const slides = [
     label: "Super speciality care",
     title: <>Super speciality care,<br /> held to a <em>higher</em> standard.</>,
     description: <>A 200-bed super speciality hospital with seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services. Every specialty, one campus.</>,
-    image: "/images/family-hero-banner-new1.jpeg",
-    mobileImage: "/images/family-hero-banner-mobile-view-new-2.jpeg",
+    image: "/images/home/banner/family-care-banner.jpeg",
+    mobileImage: "/images/home/banner/family-care-banner.jpeg",
     href: "/book-an-appointment",
     action: "Book an appointment",
   },
@@ -17,8 +17,8 @@ const slides = [
     label: "Cardiac sciences",
     title: <>Every heartbeat,<br /> <em>cared for.</em></>,
     description: <>Comprehensive cardiac care built<br />around every beat of life.</>,
-    image: "/images/home/banner/cardiac-care-family-banner.jpeg",
-    mobileImage: "/images/home/banner/cardiac-care-family-banner.jpeg",
+    image: "/images/home/banner/cardiac-couple-banner.jpeg",
+    mobileImage: "/images/home/banner/cardiac-couple-banner.jpeg",
     href: "/institute-of-cardiac-sciences",
     action: "Explore cardiac care",
   },
@@ -71,7 +71,7 @@ export default function HeroCarousel() {
 
   return (
     <section
-      className="hero hero-carousel relative overflow-hidden"
+      className={`hero hero-carousel relative overflow-hidden${active < 2 ? " hero-carousel--photo-banner" : ""}`}
       aria-label="SRM Global Hospitals highlights"
       aria-roledescription="carousel"
       onFocusCapture={(event) => {
@@ -82,11 +82,10 @@ export default function HeroCarousel() {
       {slides.map((slide, index) => (
         <div
           key={slide.label}
-          className={`hero-background hero-slide-background${active === index ? " is-active" : ""}`}
+          className={`hero-background hero-slide-background${index < 2 ? " hero-slide-background--photo" : ""}${active === index ? " is-active" : ""}`}
           aria-hidden="true"
           style={{
             "--slide-image": `url('${slide.image}')`,
-            "--slide-image-flip": index === 0 ? -1 : 1,
             "--slide-mobile-image": `url('${slide.mobileImage}')`,
           } as CSSProperties}
         />
