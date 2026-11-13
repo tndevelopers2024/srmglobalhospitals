@@ -15,7 +15,6 @@ import TechSection from "@/components/home/TechSection";
 import Doctors from "@/components/home/Doctors";
 import InternationalPatients from "@/components/home/InternationalPatients";
 import HealthInsights from "@/components/home/HealthInsights";
-import Quality from "@/components/home/Quality";
 import CtaTiles from "@/components/home/CtaTiles";
 import Insurance from "@/components/home/Insurance";
 import StickyBar from "@/components/home/StickyBar";
@@ -53,7 +52,6 @@ export default function Home() {
       <Doctors />
       <InternationalPatients />
       <HealthInsights />
-      <Quality />
       <CtaTiles />
       <Insurance />
       </main>

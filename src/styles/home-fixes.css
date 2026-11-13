@@ -28,6 +28,48 @@
   min-width: 0;
 }
 
+.home-page .coe-compact-icon {
+  color: #8050cf;
+  opacity: 1;
+}
+
+.home-page .coe-compact-icon svg {
+  width: 44px;
+  height: 44px;
+}
+
+.home-page .coe-compact-icon.emergency-icon {
+  color: #c44d57;
+}
+
+/* Light lavender keeps this section consistent with the homepage palette. */
+.home-page .why,
+.home-page .why-card {
+  background: #d8d0eb;
+  color: var(--ink);
+}
+
+.home-page .why-left .display-2,
+.home-page .why-card h3 {
+  color: var(--ink);
+}
+
+.home-page .why-left .eyebrow {
+  color: #7044b5;
+}
+
+.home-page .why-right {
+  background: rgba(26, 31, 92, 0.12);
+}
+
+.home-page .why-card:hover {
+  background: #ccc1e2;
+}
+
+.home-page .why-card p {
+  color: #555a76;
+}
+
 /* ------------------------------------------------------------
    2. DESKTOP HERO & CAROUSEL
    ------------------------------------------------------------ */
@@ -94,8 +136,23 @@
   background: linear-gradient(to right, #faf8f4 0%, rgba(250,248,244,.97) 22%, rgba(250,248,244,.75) 35%, rgba(250,248,244,0) 58%);
 }
 
+@media (min-width: 769px) {
+  .home-page .hero-slide-background--zoomed-out::before {
+    background-size: auto 100%;
+    background-position: right center;
+  }
+}
+
 .home-page .hero-carousel .hero-content {
   padding-top: 0;
+}
+
+.home-page .hero-specialty-label {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: clamp(14px, 1.2vw, 18px);
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .home-page .hero-carousel .hero-headline {

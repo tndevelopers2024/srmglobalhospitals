@@ -82,7 +82,7 @@ export default function HeroCarousel() {
       {slides.map((slide, index) => (
         <div
           key={slide.label}
-          className={`hero-background hero-slide-background${index < 2 ? " hero-slide-background--photo" : ""}${active === index ? " is-active" : ""}`}
+          className={`hero-background hero-slide-background${index < 2 ? " hero-slide-background--photo" : " hero-slide-background--zoomed-out"}${active === index ? " is-active" : ""}`}
           aria-hidden="true"
           style={{
             "--slide-image": `url('${slide.image}')`,
@@ -105,6 +105,9 @@ export default function HeroCarousel() {
                   id={`home-slide-${index}`}
                 >
                   <div className="hero-slide-text">
+                    {index === 1 && <p className="hero-specialty-label">Cardiac Science</p>}
+                    {index === 2 && <p className="hero-specialty-label">Gastro &amp; Liver Science</p>}
+                    {index === 3 && <p className="hero-specialty-label">Bone Joint &amp; Spine Care</p>}
                     {index === 0 ? (
                       <h1 className="hero-headline">{slide.title}</h1>
                     ) : (
@@ -137,12 +140,6 @@ export default function HeroCarousel() {
               <div className="hero-meta-item"><span className="num">7</span><span className="lbl">Centres of Excellence</span></div>
               <div className="hero-meta-item"><span className="num">40+</span><span className="lbl">Specialties</span></div>
               <div className="hero-meta-item"><span className="num">100+</span><span className="lbl">Senior Specialists</span></div>
-            </div>
-            <div className="hero-trust">
-              <span className="hero-trust-label">Accredited</span>
-              <div className="hero-trust-badges">
-                <span className="hero-trust-badge">NABL</span><span className="hero-trust-badge">ISO 9001</span><span className="hero-trust-badge">Cashless · 100+ Insurers</span>
-              </div>
             </div>
           </div>
         </div>
