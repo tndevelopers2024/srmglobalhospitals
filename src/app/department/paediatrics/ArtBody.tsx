@@ -330,7 +330,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-1.png"
+                  src="/images/departments/Paediatrics/image-1.png"
                   alt="Dr. S. Satyamanasa Gayatri Vinay"
                   width={280}
                   height={280}
@@ -379,8 +379,8 @@ export default function ArtBody() {
                   MBBS, DNB, MNAMS
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -397,7 +397,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -444,7 +444,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-2.png"
+                  src="/images/departments/Paediatrics/image-2.png"
                   alt="Dr. Deepa Ganapathi"
                   width={280}
                   height={280}
@@ -493,8 +493,8 @@ export default function ArtBody() {
                   MBBS, MD, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -511,7 +511,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -558,7 +558,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-3.png"
+                  src="/images/departments/Paediatrics/image-3.png"
                   alt="Dr. Parimelazhagan. R"
                   width={280}
                   height={280}
@@ -607,8 +607,8 @@ export default function ArtBody() {
                   MBBS, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -625,7 +625,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -672,7 +672,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-4.png"
+                  src="/images/departments/Paediatrics/image-4.png"
                   alt="Dr. Subash. S"
                   width={280}
                   height={280}
@@ -721,8 +721,8 @@ export default function ArtBody() {
                   MBBS, MD (Paediatrics)
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -739,7 +739,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -786,7 +786,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-5.png"
+                  src="/images/departments/Paediatrics/image-5.png"
                   alt="Dr. Vimalraj V"
                   width={280}
                   height={280}
@@ -835,8 +835,8 @@ export default function ArtBody() {
                   MBBS, DNB, IBPCCM
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -853,7 +853,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -900,7 +900,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-6.png"
+                  src="/images/departments/Paediatrics/image-6.png"
                   alt="Dr. R. Suresh"
                   width={280}
                   height={280}
@@ -949,8 +949,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -967,7 +967,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -1014,7 +1014,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-7.png"
+                  src="/images/departments/Paediatrics/image-7.png"
                   alt="Dr. Gayathri Priyadharshini. B"
                   width={280}
                   height={280}
@@ -1063,8 +1063,8 @@ export default function ArtBody() {
                   MBBS, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1081,7 +1081,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -1128,7 +1128,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-8.png"
+                  src="/images/departments/Paediatrics/image-8.png"
                   alt="Dr. Vaishnavi .S"
                   width={280}
                   height={280}
@@ -1177,8 +1177,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1195,7 +1195,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -1242,7 +1242,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-9.png"
+                  src="/images/departments/Paediatrics/image-9.png"
                   alt="Dr. Rakshana K."
                   width={280}
                   height={280}
@@ -1291,8 +1291,8 @@ export default function ArtBody() {
                   MBBS, MD (Paediatrics)
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1309,7 +1309,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -1356,7 +1356,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-10.png"
+                  src="/images/departments/Paediatrics/image-10.png"
                   alt="Dr. C. Balaji"
                   width={280}
                   height={280}
@@ -1405,8 +1405,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1423,7 +1423,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -1470,7 +1470,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-11.png"
+                  src="/images/departments/Paediatrics/image-11.png"
                   alt="Dr. O. M. Ramya"
                   width={280}
                   height={280}
@@ -1519,8 +1519,8 @@ export default function ArtBody() {
                   MBBS, MD, DNB
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1537,7 +1537,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -1584,7 +1584,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/paediatrics/image-12.png"
+                  src="/images/departments/Paediatrics/image-12.png"
                   alt="Dr. M. Swathi Priya"
                   width={280}
                   height={280}
@@ -1633,8 +1633,8 @@ export default function ArtBody() {
                   MBBS, MD
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -1651,7 +1651,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#f3ebff",
@@ -1727,8 +1727,8 @@ export default function ArtBody() {
             Book an appointment or call us directly. We&apos;ll connect you with the right doctor for your concern.
           </p>
           <div style={{ display: "inline-flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
-            <a
-              href="tel:+919644496444"
+            <Link
+              href="/book-an-appointment"
               style={{
                 background: "#fff",
                 color: "#8b3dff",
@@ -1743,7 +1743,7 @@ export default function ArtBody() {
               }}
             >
               Book Appointment
-            </a>
+            </Link>
             <a
               href="tel:+919644496444"
               style={{

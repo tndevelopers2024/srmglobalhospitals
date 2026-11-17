@@ -180,14 +180,6 @@ export default function DoctorCareersContent() {
             </div>
             <div>
               <div style={{ color: "#ffffff", fontSize: "28px", fontWeight: 700, fontFamily: "Poppins, sans-serif" }}>
-                NABH
-              </div>
-              <div style={{ color: "rgba(255, 255, 255, 0.75)", fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>
-                Quality Accredited
-              </div>
-            </div>
-            <div>
-              <div style={{ color: "#ffffff", fontSize: "28px", fontWeight: 700, fontFamily: "Poppins, sans-serif" }}>
                 24/7
               </div>
               <div style={{ color: "rgba(255, 255, 255, 0.75)", fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>

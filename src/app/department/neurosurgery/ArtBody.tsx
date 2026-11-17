@@ -330,7 +330,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/neurosurgery/image-1.png"
+                  src="/images/departments/NeuroSurgery/image-1.png"
                   alt="Dr. Ilankumaran"
                   width={280}
                   height={280}
@@ -379,8 +379,8 @@ export default function ArtBody() {
                   MBBS, MS, MCh
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -397,7 +397,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -444,7 +444,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/neurosurgery/image-2.png"
+                  src="/images/departments/NeuroSurgery/image-2.png"
                   alt="Dr. T.P. Jeya Selva Senthilkumar"
                   width={280}
                   height={280}
@@ -493,8 +493,8 @@ export default function ArtBody() {
                   MBBS, MCh
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -511,7 +511,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -558,7 +558,7 @@ export default function ArtBody() {
                 }}
               >
                 <Image
-                  src="/images/departments/neurosurgery/image-3.png"
+                  src="/images/departments/NeuroSurgery/image-3.png"
                   alt="Dr. Mohamed Naleer H"
                   width={280}
                   height={280}
@@ -607,8 +607,8 @@ export default function ArtBody() {
                   MBBS, MCh
                 </div>
                 <div style={{ display: "flex", gap: "10px", marginTop: "auto" }}>
-                  <a
-                    href="tel:+919644496444"
+                  <Link
+                    href="/book-an-appointment"
                     style={{
                       flex: 1,
                       background: "#8b3dff",
@@ -625,7 +625,7 @@ export default function ArtBody() {
                     }}
                   >
                     Book Appointment
-                  </a>
+                  </Link>
                   <div
                     style={{
                       background: "#e7f8fc",
@@ -701,8 +701,8 @@ export default function ArtBody() {
             Book an appointment or call us directly. We&apos;ll connect you with the right doctor for your concern.
           </p>
           <div style={{ display: "inline-flex", gap: "14px", flexWrap: "wrap", justifyContent: "center" }}>
-            <a
-              href="tel:+919644496444"
+            <Link
+              href="/book-an-appointment"
               style={{
                 background: "#fff",
                 color: "#8b3dff",
@@ -717,7 +717,7 @@ export default function ArtBody() {
               }}
             >
               Book Appointment
-            </a>
+            </Link>
             <a
               href="tel:+919644496444"
               style={{

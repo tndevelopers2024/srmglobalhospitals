@@ -26,14 +26,10 @@ export default function InternationalHero() {
             </p>
 
             {/* Trust and Clinical Highlights */}
-            <div className="intl-hero-stats">
+            <div className="intl-hero-stats" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>
               <div className="intl-hero-stat-item">
                 <span className="intl-hero-stat-num">200+ Beds</span>
                 <span className="intl-hero-stat-lbl">Super-Speciality Facility</span>
-              </div>
-              <div className="intl-hero-stat-item">
-                <span className="intl-hero-stat-num">NABH</span>
-                <span className="intl-hero-stat-lbl">National Accreditation</span>
               </div>
               <div className="intl-hero-stat-item">
                 <span className="intl-hero-stat-num">Dedicated Desk</span>

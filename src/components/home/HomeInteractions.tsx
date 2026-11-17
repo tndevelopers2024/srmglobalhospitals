@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 
 // Ports the reference page's vanilla JS behaviors: sticky nav, scroll reveal,
-// count-up counters, hero specialty tabs with auto-rotate, live bookings
+// count-up counters, live bookings
 // ticker, and the specialty search filter.
 export default function HomeInteractions() {
   useEffect(() => {
@@ -100,79 +100,6 @@ export default function HomeInteractions() {
     );
     document.querySelectorAll<HTMLElement>("[data-counter]").forEach((el) => counterObserver.observe(el));
     cleanups.push(() => counterObserver.disconnect());
-
-    // Hero panel tabs (specialty switcher)
-    const heroTabs = document.querySelectorAll<HTMLElement>(".hero-tab");
-    const panelContents = document.querySelectorAll<HTMLElement>(".panel-content");
-
-    heroTabs.forEach((tab) => {
-      const onClick = () => {
-        const spec = tab.dataset.spec;
-        heroTabs.forEach((t) => {
-          const selected = t === tab;
-          t.classList.toggle("active", selected);
-          t.setAttribute("aria-selected", String(selected));
-          t.tabIndex = selected ? 0 : -1;
-        });
-        panelContents.forEach((p) => {
-          const isActive = p.dataset.spec === spec;
-          p.classList.toggle("active", isActive);
-          // Reset and restart count-up on the newly active panel
-          if (isActive) {
-            p.querySelectorAll<HTMLElement>("[data-counter]").forEach((el) => {
-              el.dataset.counted = "1";
-              animateCount(el);
-            });
-          }
-        });
-      };
-      const onEnter = () => {
-        if (!tab.classList.contains("active")) tab.click();
-      };
-      const onKeyDown = (event: KeyboardEvent) => {
-        const index = Array.from(heroTabs).indexOf(tab);
-        let next = index;
-        if (event.key === "ArrowRight") next = (index + 1) % heroTabs.length;
-        else if (event.key === "ArrowLeft") next = (index - 1 + heroTabs.length) % heroTabs.length;
-        else if (event.key === "Home") next = 0;
-        else if (event.key === "End") next = heroTabs.length - 1;
-        else return;
-        event.preventDefault();
-        heroTabs[next].focus();
-        heroTabs[next].click();
-      };
-      tab.addEventListener("click", onClick);
-      tab.addEventListener("mouseenter", onEnter);
-      tab.addEventListener("keydown", onKeyDown);
-      cleanups.push(() => {
-        tab.removeEventListener("click", onClick);
-        tab.removeEventListener("mouseenter", onEnter);
-        tab.removeEventListener("keydown", onKeyDown);
-      });
-    });
-
-    // Auto-rotate panels every 6 seconds when user hasn't interacted
-    let autoRotate = !reducedMotion;
-    let rotateIndex = 0;
-    const heroPanel = document.querySelector(".hero-panel");
-    const stopRotate = () => {
-      autoRotate = false;
-    };
-    heroPanel?.addEventListener("mouseenter", stopRotate, { once: true });
-    heroPanel?.addEventListener("focusin", stopRotate);
-    heroPanel?.addEventListener("pointerdown", stopRotate);
-    cleanups.push(() => {
-      heroPanel?.removeEventListener("mouseenter", stopRotate);
-      heroPanel?.removeEventListener("focusin", stopRotate);
-      heroPanel?.removeEventListener("pointerdown", stopRotate);
-    });
-
-    const rotateTimer = setInterval(() => {
-      if (!autoRotate || document.hidden || heroTabs.length === 0) return;
-      rotateIndex = (rotateIndex + 1) % heroTabs.length;
-      heroTabs[rotateIndex].click();
-    }, 6000);
-    cleanups.push(() => clearInterval(rotateTimer));
 
     // Live bookings ticker
     const liveBookings = document.getElementById("live-bookings");

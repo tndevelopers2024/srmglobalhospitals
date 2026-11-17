@@ -373,7 +373,7 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
-    </div>
+     </div>
   </div>
 </section>
 

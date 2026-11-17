@@ -50,7 +50,7 @@ export default function StaffCareersContent() {
           "Active registration with respective regulatory councils where applicable",
         ],
         preferredCandidate: [
-          "Prior experience in multi-specialty or NABH accredited hospitals",
+          "Prior experience in multi-specialty hospitals",
           "Willingness to work in rotational shifts where applicable",
         ],
         keySkills: [
@@ -183,14 +183,6 @@ export default function StaffCareersContent() {
               </div>
               <div style={{ color: "rgba(255, 255, 255, 0.75)", fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>
                 Allied Health & Tech
-              </div>
-            </div>
-            <div>
-              <div style={{ color: "#ffffff", fontSize: "28px", fontWeight: 700, fontFamily: "Poppins, sans-serif" }}>
-                NABH
-              </div>
-              <div style={{ color: "rgba(255, 255, 255, 0.75)", fontSize: "12px", textTransform: "uppercase", letterSpacing: "1px" }}>
-                Quality Accredited
               </div>
             </div>
           </div>

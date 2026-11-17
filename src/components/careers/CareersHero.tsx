@@ -51,7 +51,7 @@ export default function CareersHero({ onExploreClick }: CareersHeroProps) {
             </div>
 
             {/* Hospital Stats Strip */}
-            <div className="careers-hero-stats">
+            <div className="careers-hero-stats" style={{ gridTemplateColumns: "repeat(3, 1fr)" }}>
               <div className="careers-hero-stat-item">
                 <span className="careers-hero-stat-num">200+</span>
                 <span className="careers-hero-stat-label">Super Speciality Beds</span>
@@ -63,10 +63,6 @@ export default function CareersHero({ onExploreClick }: CareersHeroProps) {
               <div className="careers-hero-stat-item">
                 <span className="careers-hero-stat-num">1,000+</span>
                 <span className="careers-hero-stat-label">Healthcare Professionals</span>
-              </div>
-              <div className="careers-hero-stat-item">
-                <span className="careers-hero-stat-num">NABH</span>
-                <span className="careers-hero-stat-label">Quality Accredited</span>
               </div>
             </div>
           </div>
