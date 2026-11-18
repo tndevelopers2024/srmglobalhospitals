@@ -23,7 +23,7 @@ const article = {
   description:
     "An L4-L5 disc bulge can compress nearby spinal nerves, causing sciatica, leg weakness, and back stiffness. Orthopaedic spine specialists at SRM Global Hospitals explain non-surgical, holistic, and surgical relief options.",
   path: "/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
-  image: "/images/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options/hero.png",
+  image: "/images/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options/hero.jpeg",
   author: "Spine Specialist",
   section: "Orthopaedics",
   publishedTime: "2028-01-05",
@@ -104,7 +104,7 @@ export default function ReliefStrategiesForL4L5DiscBulgeArticle() {
             },
             {
               href: "/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions",
-              image: "/images/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions/hero.png",
+              image: "/images/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions/hero.jpeg",
               title: "Effective L5-S1 disc bulge treatment: symptoms, causes, and solutions",
               meta: "15 min · Orthopaedics",
             },

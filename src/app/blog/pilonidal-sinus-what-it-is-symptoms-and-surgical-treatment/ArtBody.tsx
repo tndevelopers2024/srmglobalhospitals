@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -117,7 +118,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="pilonidal-sinus-surgery-recovery" data-toc-title="Recovery & aftercare">Pilonidal Sinus Surgery: Recovery and Aftercare</h2>
-      <img src="/images/blog/pilonidal-sinus-what-it-is-symptoms-and-surgical-treatment/image-2.jpg" alt="Pilonidal Sinus Surgery" />
+      <Image src="/images/blog/pilonidal-sinus-what-it-is-symptoms-and-surgical-treatment/image-2.jpg" alt="Pilonidal Sinus Surgery" width={3240} height={2160} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Recovery after pilonidal sinus surgery depends on the type of surgical treatment performed and the individual patient&apos;s healing. Most people can return to work within 2 to 3 weeks after surgery though those with physically demanding jobs may require a longer period of recovery.</p>
       <h3>Immediate Post-Operative Care</h3>
       <ul>

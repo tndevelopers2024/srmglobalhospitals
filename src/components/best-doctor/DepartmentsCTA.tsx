@@ -1,11 +1,16 @@
 
+import Image from "next/image";
+
 export default function DepartmentsCTA() {
   return (
     <div id="appointment" style={{ position: "relative", overflow: "hidden", scrollMarginTop: "80px" }}>
-      <img
+      <Image
         src="/images/best-doctor/hero-image.jpg"
         alt="Team"
-        style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }}
+        fill
+        sizes="100vw"
+        style={{ objectFit: "cover" }}
+        loading="lazy"
       />
       <div
         style={{

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutIcu() {
   return (
     <section className="about-icu-section" aria-label="Intensive Care Unit">
@@ -11,10 +13,14 @@ export default function AboutIcu() {
           </p>
         </div>
         <div className="about-icu-grid">
-          <img
+          <Image
             src="/images/about-us/icu/image-1.avif"
             alt="State-of-the-art Intensive Care Unit at SRM Global Hospitals"
             className="about-icu-img"
+            width={600}
+            height={400}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
           />
           <div className="about-icu-cards-grid">
             <div className="about-icu-card">

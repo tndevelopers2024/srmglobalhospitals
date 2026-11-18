@@ -22,7 +22,7 @@ const article = {
   title: "Effective Tail Bone Pain Treatment: Options for Relief and Recovery",
   description: "Tailbone pain (coccydynia) can make sitting or everyday movement difficult. Orthopaedic specialists at SRM Global Hospitals discuss common causes, effective home remedies, stretching exercises, and medical treatments for recovery.",
   path: "/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery",
-  image: "/images/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery/hero.png",
+  image: "/images/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2025-07-23",

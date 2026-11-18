@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -48,7 +49,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="cervical-cerclage" data-toc-title="Cervical cerclage">Cervical Cerclage</h2>{" "}
-      <img src="/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/image-2.jpeg" alt="Cervical Stitch Care" />{" "}
+      <Image src="/images/blog/cervical-stitch-pregnancy-strengthening-the-mothers-for-a-safer-delivery/image-2.jpeg" alt="Cervical Stitch Care" width={1600} height={1211} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>Cervical cerclage is a minor surgical procedure in which a strong stitch (cervical stitch) is placed around the cervix to keep it closed. The goal is to reduce the risk of miscarriage and preterm birth in women with cervical insufficiency or a short cervix. The procedure is usually performed between 12 and 24 weeks of pregnancy under the supervision of experienced obstetric specialists at SRM Global Hospitals. Research shows that cervical cerclage reduces preterm birth before 37 weeks in high-risk women and is also associated with reduced perinatal death compared with no treatment.</p>{" "}
 

@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -85,10 +86,7 @@ export default function ArtBody() {
       <h2 id="how-doctors-identify" data-toc-title="Diagnosis">
         How Doctors Identify Hip Impingement Early
       </h2>{" "}
-      <img
-        src="/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/image-2.jpeg"
-        alt="Doctor examining hip impingement in patient"
-      />{" "}
+      <Image src="/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/image-2.jpeg" alt="Doctor examining hip impingement in patient" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Often, hip impingement remains undiagnosed until it starts affecting walking or sleep.
       </p>{" "}
@@ -178,10 +176,7 @@ export default function ArtBody() {
       <h2 id="non-surgical-treatment" data-toc-title="Non-surgical treatment">
         Non-Surgical Recovery and Treatment
       </h2>{" "}
-      <img
-        src="/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/image-3.jpeg"
-        alt="Physical therapy for hip impingement recovery"
-      />{" "}
+      <Image src="/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/image-3.jpeg" alt="Physical therapy for hip impingement recovery" width={1600} height={971} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Not all hip impingement needs surgery. In many cases, conservative treatment and lifestyle change can reduce symptoms.
       </p>{" "}
@@ -204,10 +199,7 @@ export default function ArtBody() {
       <h2 id="when-surgery-needed" data-toc-title="Surgical options">
         When Surgery Becomes the Right Option
       </h2>{" "}
-      <img
-        src="/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/image-4.jpeg"
-        alt="Arthroscopic surgery for hip impingement"
-      />{" "}
+      <Image src="/images/blog/what-is-hip-impingement-signs-diagnosis-recovery-tips/image-4.jpeg" alt="Arthroscopic surgery for hip impingement" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         If your symptoms stay despite months of therapy, doctors may suggest surgical correction.
       </p>{" "}

@@ -22,7 +22,7 @@ const article = {
   title: "Why Is My Pregnant Belly Sometimes Hard and Sometimes Soft?",
   description: "Experiencing fluctuating belly tightness during pregnancy is common. Obstetricians and fetal medicine specialists at SRM Global Hospitals explain what causes belly hardening by trimester, Braxton Hicks contractions, and when to seek care.",
   path: "/blog/why-is-my-pregnant-belly-sometimes-hard-and-sometimes-soft",
-  image: "/images/blog/why-is-my-pregnant-belly-sometimes-hard-and-sometimes-soft/hero.png",
+  image: "/images/blog/why-is-my-pregnant-belly-sometimes-hard-and-sometimes-soft/hero.jpeg",
   author: "Obstetrics & Fetal Medicine Specialist",
   section: "Women's Health",
   publishedTime: "2025-05-24",

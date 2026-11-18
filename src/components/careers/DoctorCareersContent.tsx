@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import CareersApplicationModal from "./CareersApplicationModal";
 import CareerJobFilters from "./CareerJobFilters";
 import { ALL_JOBS, JobItem } from "./CareersFilterAndJobs";
@@ -69,18 +70,16 @@ export default function DoctorCareersContent() {
     <div className="doctors-careers-content">
       {/* 1. Hero Section matching Departments & Reference Style */}
       <section className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "380px" }}>
-        <img
+        <Image
           src="/images/careers/doctors-career-hero.jpg"
           alt="Doctors and surgeons at SRM Global Hospitals"
+          fill
+          sizes="100vw"
           style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
             objectFit: "cover",
             objectPosition: "center 25%",
           }}
+          preload
         />
         <div
           style={{

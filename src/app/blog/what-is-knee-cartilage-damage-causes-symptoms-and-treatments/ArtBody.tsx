@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -210,10 +211,7 @@ export default function ArtBody() {
       <h2 id="treatment-options" data-toc-title="Treatment options">
         Treatment Options for Knee Cartilage Damage
       </h2>{" "}
-      <img
-        src="/images/blog/what-is-knee-cartilage-damage-causes-symptoms-and-treatments/image-2.jpeg"
-        alt="Doctor examining patient knee for cartilage damage treatment options"
-      />{" "}
+      <Image src="/images/blog/what-is-knee-cartilage-damage-causes-symptoms-and-treatments/image-2.jpeg" alt="Doctor examining patient knee for cartilage damage treatment options" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Knee cartilage damage treatment depends on how severe the injury is, the patient&apos;s age, and activity level. Some recover with simple measures, while others need surgical intervention.
       </p>{" "}

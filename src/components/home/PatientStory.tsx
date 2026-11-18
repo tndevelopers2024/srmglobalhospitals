@@ -1,10 +1,20 @@
+import Image from "next/image";
+
 export default function PatientStory() {
   return (
     <section id="stories" className="section-mist reveal">
       <div className="container">
         <div className="story-grid">
           <div className="story-image">
-            <img src="/images/home/a-patient-story.png" alt="Patient and clinician during recovery consultation" />{" "}
+            <Image
+              src="/images/home/a-patient-story.png"
+              alt="Patient and clinician during recovery consultation"
+              width={1122}
+              height={1402}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            />{" "}
           </div>{" "}
           <div className="story-content">
             <span className="eyebrow">A patient story</span>{" "}

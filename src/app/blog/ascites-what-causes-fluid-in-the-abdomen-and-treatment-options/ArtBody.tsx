@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -31,7 +32,7 @@ export default function ArtBody() {
       <p>Ascites is also classified by its composition into transudative ascites caused by portal hypertension and low albumin states and exudative ascites, caused by infection, malignancy, or inflammation. This distinction guides the differential diagnosis and ascites treatment approach.</p>
 
       <h2 id="what-causes-ascites" data-toc-title="Causes of Ascites">What Causes Ascites?</h2>
-      <img src="/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/image-2.jpeg" alt="What Causes Ascites" />
+      <Image src="/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/image-2.jpeg" alt="What Causes Ascites" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
 
       <p>Ascites is not a disease but a sign of an underlying medical condition, with causes divided into liver-related and non-liver-related factors. Understanding the causes of ascites is essential for identifying the correct treatment and predicting prognosis.</p>
       <p>Cirrhosis is the predominant cause of ascites, accounting for approximately 80% of cases. The remaining 20% of ascites cases stem from conditions such as malignancy, heart failure, kidney failure, infections, or pancreatitis.</p>
@@ -125,7 +126,7 @@ export default function ArtBody() {
       <p>Further investigations for ascites diagnosed at SRM Global Hospitals include liver function tests, coagulation studies, serum albumin, kidney function tests to assess renal function, hepatitis B and hepatitis C serology, and CT imaging of the abdomen when malignancy, portal vein thrombosis, or hepatocellular carcinoma is suspected.</p>
 
       <h2 id="treatment-options" data-toc-title="Treatment Options">Ascites Treatment Options</h2>
-      <img src="/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/image-3.jpeg" alt="Ascites Treatment Options" />
+      <Image src="/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/image-3.jpeg" alt="Ascites Treatment Options" width={3240} height={2160} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
 
       <p>The goals of ascites treatment are to reduce fluid accumulation and peripheral oedema while maintaining adequate effective arterial blood volume typically achieved through sodium restriction, diuretic therapy, and paracentesis when required.</p>
 

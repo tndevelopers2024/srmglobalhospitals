@@ -22,7 +22,7 @@ const article = {
   title: "Understanding TEVAR: A Guide to Thoracic Endovascular Aneurysm Repair",
   description: "Thoracic Endovascular Aneurysm Repair (TEVAR) is a minimally invasive surgery to treat thoracic aortic aneurysms. Specialists at SRM Global Hospitals explain the procedure, benefits over open surgery, recovery timeline, and risks.",
   path: "/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair",
-  image: "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.png",
+  image: "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.jpeg",
   author: "Vascular Surgery Specialist",
   section: "Cardiology",
   publishedTime: "2025-07-30",
@@ -125,13 +125,13 @@ export default function TevarGuidePage() {
           relatedReading={[
           {
                   "href": "/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore",
-                  "image": "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.png",
+                  "image": "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.jpeg",
                   "title": "Understanding hypertension symptoms: key signs you shouldn't ignore",
                   "meta": "12 min · Cardiology"
           },
           {
                   "href": "/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management",
-                  "image": "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.png",
+                  "image": "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.jpeg",
                   "title": "Understanding mitral valve prolapse: symptoms, risks, and management",
                   "meta": "15 min · Cardiology"
           },

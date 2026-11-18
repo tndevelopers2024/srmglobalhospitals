@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AppointmentHero() {
   return (
@@ -34,10 +35,13 @@ export default function AppointmentHero() {
           {/* Consultation Visual Side with gradient mask matching Contact Hero */}
           <div className="appointment-hero-image-layer">
             <div className="appointment-hero-image-wrapper">
-              <img
+              <Image
                 src="/images/appointment/appointment-hero.jpg"
                 alt="Doctor consultation at SRM Global Hospitals"
                 className="appointment-hero-img"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                preload
               />
             </div>
           </div>

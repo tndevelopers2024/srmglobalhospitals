@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -24,7 +25,7 @@ export default function ArtBody() {
       <p>They are not surgeons though gastroenterologists perform a wide range of therapeutic endoscopic procedures. When surgical intervention is required for gastrointestinal disorders, gastroenterologists collaborate closely with gastrointestinal surgeons and colorectal surgeons.</p>
       <p>The term &quot;gastro&quot; refers to the stomach but the scope of gastroenterology extends far beyond the stomach alone. Gastroenterologists evaluate and treat the entire gastrointestinal tract from the mouth through the oesophagus, stomach, small intestine, large intestine, colon, rectum, and anus as well as accessory digestive organs including the liver, bile ducts, pancreas, and gall bladder.</p>
       <h2 id="what-does-a-gastroenterologist-treat" data-toc-title="Conditions treated">What Does a Gastroenterologist Treat?</h2>
-      <img src="/images/blog/gastroenterologist-what-they-treat-and-when-you-need-one/image-2.png" alt="What Does a Gastroenterologist Treat" />
+      <Image src="/images/blog/gastroenterologist-what-they-treat-and-when-you-need-one/image-2.png" alt="What Does a Gastroenterologist Treat" width={1448} height={1086} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Gastroenterologists treat a wide range of diseases, disorders, and conditions affecting the digestive system. Understanding what a gastroenterologist treats helps patients recognise when to consult a gastroenterologist rather than continuing to seek general medical care for persistent digestive symptoms.</p>
       <h3>Gastroesophageal Reflux Disease (GERD) and Oesophageal Disorders</h3>
       <p>Gastroesophageal reflux disease commonly called acid reflux or GERD occurs when stomach acid flows back into the oesophagus, causing heartburn, regurgitation, and damage to the oesophageal lining.</p>
@@ -131,7 +132,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="when-should-you-see-a-gastroenterologist" data-toc-title="When to see a specialist">When Should You See a Gastroenterologist?</h2>
-      <img src="/images/blog/gastroenterologist-what-they-treat-and-when-you-need-one/image-3.jpg" alt="When Should You See a Gastroenterologist" />
+      <Image src="/images/blog/gastroenterologist-what-they-treat-and-when-you-need-one/image-3.jpg" alt="When Should You See a Gastroenterologist" width={3236} height={2160} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Patients are generally referred to gastroenterologists by their primary care doctors when digestive symptoms become chronic, severe, or unexplained. However, patients can also consult a gastroenterologist directly when they experience concerning gastrointestinal symptoms.</p>
       <h3>Symptoms That Require You to Consult a Gastroenterologist</h3>
       <p>You should consider visiting a gastroenterologist if you experience persistent symptoms related to digestion. Common symptoms that may necessitate a gastroenterology consultation include:</p>

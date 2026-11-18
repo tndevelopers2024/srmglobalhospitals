@@ -22,7 +22,7 @@ const article = {
   title: "Understanding MICS Surgery: Benefits and Considerations for Patients",
   description: "Minimally Invasive Cardiac Surgery (MICS) offers heart surgery through small chest incisions without splitting the breastbone. Cardiothoracic surgeons at SRM Global Hospitals explain how MICS works, benefits, and key considerations.",
   path: "/blog/understanding-mics-surgery-benefits-and-considerations-for-patients",
-  image: "/images/blog/understanding-mics-surgery-benefits-and-considerations-for-patients/hero.png",
+  image: "/images/blog/understanding-mics-surgery-benefits-and-considerations-for-patients/hero.jpeg",
   author: "Cardiothoracic Surgery Specialist",
   section: "Cardiology",
   publishedTime: "2025-06-13",
@@ -113,19 +113,19 @@ export default function MicsSurgeryBenefitsPage() {
           relatedReading={[
           {
                   "href": "/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair",
-                  "image": "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.png",
+                  "image": "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.jpeg",
                   "title": "Understanding TEVAR: a guide to thoracic endovascular aneurysm repair",
                   "meta": "17 min · Cardiology"
           },
           {
                   "href": "/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management",
-                  "image": "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.png",
+                  "image": "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.jpeg",
                   "title": "Understanding mitral valve prolapse: symptoms, risks, and management",
                   "meta": "15 min · Cardiology"
           },
           {
                   "href": "/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore",
-                  "image": "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.png",
+                  "image": "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.jpeg",
                   "title": "Understanding hypertension symptoms: key signs you shouldn't ignore",
                   "meta": "12 min · Cardiology"
           }

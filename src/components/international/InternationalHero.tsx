@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function InternationalHero() {
   return (
     <section className="intl-hero-section" aria-label="International Hospital Introduction">
@@ -45,10 +47,13 @@ export default function InternationalHero() {
           {/* Authentic Photorealistic Healthcare Image Layer with gradient blend */}
           <div className="intl-hero-image-layer">
             <div className="intl-hero-image-wrapper">
-              <img
+              <Image
                 src="/images/international/hero-consultation.jpg"
                 alt="Senior Indian doctor consulting with an international patient and family at SRM Global Hospitals"
                 className="intl-hero-img"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                preload
               />
             </div>
           </div>

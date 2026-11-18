@@ -24,7 +24,7 @@ const article = {
     "Ascites is abnormal fluid buildup in the abdomen, predominantly caused by cirrhosis. Learn about SAAG diagnosis, paracentesis, diuretic therapy, and comprehensive treatment at SRM Global Hospitals.",
   path: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
   image:
-    "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpg",
+    "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpeg",
   author: "Gastro Specialist",
   section: "Gastro",
   publishedTime: "2026-10-22",

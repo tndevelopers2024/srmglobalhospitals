@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -22,7 +23,7 @@ export default function ArtBody() {
       <h2 id="low-bp-symptoms" data-toc-title="Low BP symptoms">Low BP Symptoms: What Does Low Blood Pressure Feel Like?</h2>
       <p>Low blood pressure symptoms arise because insufficient blood flow reaches the brain and other organs when blood pressure drops. The severity of low blood pressure symptoms depends on how low the blood pressure levels fall and how rapidly the drop in blood pressure occurs.</p>
       <h3>Common Low Blood Pressure Symptoms</h3>
-      <img src="/images/blog/low-blood-pressure-(hypotension)-symptoms-causes-and-when-to-see-a-doctor/066ba3ec-9e0b-4a30-ac3d-f0ab0c6211a2.png" alt="Common Low Blood Pressure Symptoms" />
+      <Image src="/images/blog/low-blood-pressure-(hypotension)-symptoms-causes-and-when-to-see-a-doctor/image-2.png" alt="Common Low Blood Pressure Symptoms" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <ul>
         <li><p><strong>Dizziness and lightheadedness</strong> — the most commonly reported low bp symptoms, particularly when transitioning rapidly from sitting or lying to a standing position. This form of low blood pressure is called orthostatic hypotension.</p></li>
         <li><p><strong>Fainting (syncope)</strong> — a temporary loss of consciousness due to insufficient blood flow to the brain. Fainting spells significantly increase the risk of falls, causing a loss of confidence in physical activities or driving.</p></li>
@@ -97,7 +98,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="what-causes-low-blood-pressure" data-toc-title="Causes of low BP">What Causes Low Blood Pressure?</h2>
-      <img src="/images/blog/low-blood-pressure-(hypotension)-symptoms-causes-and-when-to-see-a-doctor/image-3.png" alt="What Causes Low Blood Pressure?" />
+      <Image src="/images/blog/low-blood-pressure-(hypotension)-symptoms-causes-and-when-to-see-a-doctor/image-3.png" alt="What Causes Low Blood Pressure?" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Common causes of low blood pressure include dehydration, medications, pregnancy, heart problems, endocrine disorders, nutrient deficiencies, and sudden emergencies. Understanding the underlying cause of low blood pressure is essential for the healthcare provider to recommend the most effective treatment.</p>
       <h3>Dehydration</h3>
       <p>Dehydration can lead to low blood pressure as it decreases blood volume which can occur due to excessive sweating, vomiting, diarrhea, or inadequate water intake. Reduced blood volume means the cardiovascular system has less blood to circulate, causing blood pressure levels to fall. Drinking plenty of water at least two to three litres daily helps maintain adequate blood volume and is one of the most effective natural remedies for managing mild low blood pressure caused by dehydration.</p>

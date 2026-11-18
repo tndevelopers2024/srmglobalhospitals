@@ -23,7 +23,7 @@ const article = {
   description:
     "ACL injuries are graded 1 to 3 by severity, from mild sprain to complete rupture. Orthopaedic specialists at SRM Global Hospitals explain each grade, diagnosis, surgical and non-surgical treatment, and recovery timelines.",
   path: "/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options",
-  image: "/images/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options/hero.png",
+  image: "/images/blog/understanding-acl-tear-symptoms-treatment-and-recovery-options/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2027-08-11",

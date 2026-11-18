@@ -24,7 +24,7 @@ const article = {
     "An SGPT blood test measures alanine aminotransferase to evaluate liver health. Learn normal ranges for men and women, causes of high SGPT, and practical diet tips to lower elevated levels.",
   path: "/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips",
   image:
-    "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.webp",
+    "/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/hero.jpeg",
   author: "Gastro Specialist",
   section: "Gastro",
   publishedTime: "2026-10-22",
@@ -113,7 +113,7 @@ export default function SgptTestArticle() {
             {
               href: "/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options",
               image:
-                "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpg",
+                "/images/blog/ascites-what-causes-fluid-in-the-abdomen-and-treatment-options/hero.jpeg",
               title: "Ascites: What Causes Fluid in the Abdomen & Treatment Options",
               meta: "18 min · Gastro",
             },

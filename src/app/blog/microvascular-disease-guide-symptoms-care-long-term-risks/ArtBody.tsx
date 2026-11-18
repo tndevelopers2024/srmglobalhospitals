@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -251,10 +252,7 @@ export default function ArtBody() {
       <h2 id="treatment-pathways" data-toc-title="Treatment pathways">
         Treatment Pathways to Control Microvascular Disease
       </h2>{" "}
-      <img
-        src="/images/blog/microvascular-disease-guide-symptoms-care-long-term-risks/image-2.jpeg"
-        alt="Treatment Pathways to Control Microvascular Disease"
-      />{" "}
+      <Image src="/images/blog/microvascular-disease-guide-symptoms-care-long-term-risks/image-2.jpeg" alt="Treatment Pathways to Control Microvascular Disease" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Managing microvascular disease involves addressing its root causes and supporting long-term vessel health. Doctors typically recommend a holistic approach to reduce strain on microvessels and restore balanced blood flow.
       </p>{" "}

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function WhyChooseUsSection() {
   return (
     <section className="intl-section intl-section-alt" id="why-choose-us" aria-label="Why International Patients Choose Us">
@@ -49,9 +51,13 @@ export default function WhyChooseUsSection() {
 
           <div>
             <div className="intl-media-frame">
-              <img
+              <Image
                 src="/images/international/services-for-international-patients-1.jpg"
                 alt="SRM Global Hospitals International Patient Care"
+                width={1672}
+                height={941}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

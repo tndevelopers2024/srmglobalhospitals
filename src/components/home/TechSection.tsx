@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TechSection() {
   return (
     <section className="reveal">
@@ -48,7 +50,14 @@ export default function TechSection() {
             </div>{" "}
           </div>{" "}
           <div className="tech-visual">
-            <img src="/images/home/technology-in-practice.png" alt="" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', pointerEvents: 'none' }} />{" "}
+            <Image
+              src="/images/home/technology-in-practice.png"
+              alt=""
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              style={{ objectFit: 'cover', pointerEvents: 'none' }}
+              loading="lazy"
+            />{" "}
             <div style={{ position: 'absolute', inset: '0', background: 'linear-gradient(180deg, rgba(10, 15, 45, 0.70) 0%, rgba(10, 15, 45, 0.82) 100%)', pointerEvents: 'none' }} />{" "}
             <div style={{ position: 'relative', zIndex: 1 }}>
               <span className="tech-visual-eyebrow">AI-Assisted Care</span>{" "}

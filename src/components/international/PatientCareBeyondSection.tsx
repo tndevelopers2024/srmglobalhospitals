@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function PatientCareBeyondSection() {
   return (
     <section className="intl-section intl-section-alt" id="patient-care-beyond" aria-label="Patient Care Beyond Treatment">
@@ -28,9 +30,13 @@ export default function PatientCareBeyondSection() {
 
           <div>
             <div className="intl-media-frame">
-              <img
+              <Image
                 src="/images/international/patient-care-beyond-treatment-1.jpg"
                 alt="Patient Care Beyond Treatment at SRM Global Hospitals"
+                width={1672}
+                height={941}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

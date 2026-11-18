@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutCentresOfExcellence() {
   return (
@@ -12,10 +13,14 @@ export default function AboutCentresOfExcellence() {
         </div>
         <div className="about-coe-grid">
           <Link href="/#specialties" className="about-coe-card">
-            <img
+            <Image
               src="/images/about-us/centres-of-excellence/institute-of-renal-sciences.jpeg"
               alt="Institute of Renal Sciences"
               className="about-coe-card-img"
+              width={1200}
+              height={1600}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              loading="lazy"
             />
             <div className="about-coe-card-overlay">
               <h3 className="about-coe-card-title">Institute of Renal Sciences</h3>
@@ -23,10 +28,14 @@ export default function AboutCentresOfExcellence() {
           </Link>
 
           <Link href="/#specialties" className="about-coe-card">
-            <img
+            <Image
               src="/images/about-us/centres-of-excellence/institute-of-neuro-sciences.avif"
               alt="Institute of Neuro Sciences"
               className="about-coe-card-img"
+              width={1200}
+              height={1600}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              loading="lazy"
             />
             <div className="about-coe-card-overlay">
               <h3 className="about-coe-card-title">Institute of Neuro Sciences</h3>
@@ -34,10 +43,14 @@ export default function AboutCentresOfExcellence() {
           </Link>
 
           <Link href="/#specialties" className="about-coe-card">
-            <img
+            <Image
               src="/images/about-us/centres-of-excellence/institute-of-solid-organ-transplant.jpeg"
               alt="Institute of Solid Organ Transplant"
               className="about-coe-card-img"
+              width={1200}
+              height={1600}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              loading="lazy"
             />
             <div className="about-coe-card-overlay">
               <h3 className="about-coe-card-title">Institute of Solid Organ Transplant</h3>
@@ -45,10 +58,14 @@ export default function AboutCentresOfExcellence() {
           </Link>
 
           <Link href="/#specialties" className="about-coe-card">
-            <img
+            <Image
               src="/images/about-us/centres-of-excellence/institute-of-cardiac-sciences.jpeg"
               alt="Institute of Cardiac Sciences"
               className="about-coe-card-img"
+              width={1200}
+              height={1600}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+              loading="lazy"
             />
             <div className="about-coe-card-overlay">
               <h3 className="about-coe-card-title">Institute of Cardiac Sciences</h3>

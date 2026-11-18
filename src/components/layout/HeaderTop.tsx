@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import MobileNavigation from "./MobileNavigation";
 import type { Route } from "next";
 
@@ -52,10 +53,13 @@ export default function HeaderTop() {
       <div className="container">
         <div className="header-top-inner">
           <Link href="/" className="brand" aria-label="SRM Global Hospitals">
-            <img
+            <Image
               src="/images/srm-logo-final.png"
               alt="SRM Global Hospitals"
+              width={644}
+              height={184}
               className="brand-logo"
+              preload
             />{" "}
           </Link>{" "}
           <MobileNavigation />

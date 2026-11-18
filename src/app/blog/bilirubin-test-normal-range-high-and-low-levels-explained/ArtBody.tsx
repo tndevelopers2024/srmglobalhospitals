@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -169,7 +170,7 @@ export default function ArtBody() {
       </blockquote>
 
       <h2 id="when-to-seek-medical-advice" data-toc-title="When to see a doctor">When to Seek Professional Medical Advice for Bilirubin Results</h2>
-      <img src="/images/blog/bilirubin-test-normal-range-high-and-low-levels-explained/image-2.jpg" alt="When to Seek Professional Medical Advice for Bilirubin Results" />
+      <Image src="/images/blog/bilirubin-test-normal-range-high-and-low-levels-explained/image-2.jpg" alt="When to Seek Professional Medical Advice for Bilirubin Results" width={3246} height={2160} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Consult the healthcare provider or specialist at SRM Global Hospitals promptly if:</p>
       <ul>
         <li><p>Total bilirubin levels are above 1.2 mg/dL on a bilirubin test particularly if accompanied by jaundice, dark urine, or pale stools</p></li>

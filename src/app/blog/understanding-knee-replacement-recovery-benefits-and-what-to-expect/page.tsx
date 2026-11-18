@@ -22,7 +22,7 @@ const article = {
   title: "Understanding Knee Replacement: Recovery, Benefits, and What to Expect",
   description: "Knee replacement surgery restores mobility and relieves chronic joint pain. Joint replacement specialists at SRM Global Hospitals explain the procedure, preparation checklist, recovery phases, and physical therapy exercises.",
   path: "/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect",
-  image: "/images/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect/hero.png",
+  image: "/images/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2025-07-18",

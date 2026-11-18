@@ -1,12 +1,18 @@
+import Image from "next/image";
+
 export default function AboutLeader() {
   return (
     <section id="leader" className="about-leader-section" aria-label="Know Our Leader">
       <div className="about-leader-grid">
         <div className="about-leader-image-wrap">
-          <img
+          <Image
             src="/images/about-us/leader/image-1.avif"
             alt="Dr. P. Sathyanarayanan - Founder & Visionary Leader"
             className="about-leader-img"
+            width={768}
+            height={520}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
           />
           <div className="about-leader-card-overlay">
             <div className="about-leader-name">Dr. P. Sathyanarayanan</div>

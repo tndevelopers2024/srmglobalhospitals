@@ -23,7 +23,7 @@ const article = {
   description:
     "Mitral valve prolapse (MVP) affects how blood flows through the heart. Cardiologists at SRM Global Hospitals explain the 5 causes, 5 types, symptoms, mild vs severe risks, and complete treatment options.",
   path: "/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management",
-  image: "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.png",
+  image: "/images/blog/understanding-mitral-valve-prolapse-symptoms-risks-and-management/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2025-07-22",

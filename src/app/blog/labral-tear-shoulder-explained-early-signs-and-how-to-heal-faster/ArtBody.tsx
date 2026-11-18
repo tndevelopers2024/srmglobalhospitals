@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -168,10 +169,7 @@ export default function ArtBody() {
       <h2 id="diagnosis" data-toc-title="Diagnosis">
         Diagnosing a Labral Tear
       </h2>{" "}
-      <img
-        src="/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/image-2.jpeg"
-        alt="Clinical diagnosis and physical examination of a shoulder labral tear"
-      />{" "}
+      <Image src="/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/image-2.jpeg" alt="Clinical diagnosis and physical examination of a shoulder labral tear" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Diagnosis requires a mix of examination, imaging, and detailed patient history. Many shoulder problems mimic each other, so tests must be precise.
       </p>{" "}
@@ -221,10 +219,7 @@ export default function ArtBody() {
       <h2 id="treatment-options" data-toc-title="Treatment options">
         Treatment Options for Labral Tears
       </h2>{" "}
-      <img
-        src="/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/image-3.jpeg"
-        alt="Treatment options for shoulder labral tears"
-      />{" "}
+      <Image src="/images/blog/labral-tear-shoulder-explained-early-signs-and-how-to-heal-faster/image-3.jpeg" alt="Treatment options for shoulder labral tears" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Treatment depends on the severity of the tear, age, activity level, and symptoms. Many labrum tears heal with nonsurgical therapies, while others require arthroscopic surgery.
       </p>{" "}

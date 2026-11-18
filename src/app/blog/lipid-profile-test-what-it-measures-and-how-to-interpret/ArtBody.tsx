@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -34,7 +35,7 @@ export default function ArtBody() {
       </ul>
 
       <h2 id="what-does-a-lipid-profile-test-measure" data-toc-title="What it measures">What Does a Lipid Profile Test Measure?</h2>
-      <img src="/images/blog/lipid-profile-test-what-it-measures-and-how-to-interpret/image-2.jpeg" alt="What Does a Lipid Profile Test Measure" />
+      <Image src="/images/blog/lipid-profile-test-what-it-measures-and-how-to-interpret/image-2.jpeg" alt="What Does a Lipid Profile Test Measure" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>A lipid profile test measures various types of fats in the blood. The lipid profile test details include five key measurements each providing different and complementary information about cardiovascular health and the risk of developing cardiovascular disease.</p>
       
       <h3>Total Cholesterol</h3>
@@ -135,7 +136,7 @@ export default function ArtBody() {
       <p>The lipid profile test helps identify abnormal cholesterol and triglyceride levels that silently increase the risk of developing cardiovascular disease, coronary artery disease, heart attack, and stroke often before any symptoms appear. The lipid profile test is one of the most important diagnostic tools the healthcare provider uses to assess and manage long-term cardiovascular risk.</p>
       
       <h3>Common Reasons for a Lipid Profile Test</h3>
-      <img src="/images/blog/lipid-profile-test-what-it-measures-and-how-to-interpret/image-3.jpeg" alt="Common Reasons for a Lipid Profile Test" />
+      <Image src="/images/blog/lipid-profile-test-what-it-measures-and-how-to-interpret/image-3.jpeg" alt="Common Reasons for a Lipid Profile Test" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <ul>
         <li><p><strong>Routine cardiovascular health screening</strong> — regular lipid profile testing is recommended for adults, especially those over 30 or with a family history of heart disease, to monitor cardiovascular health and take preventive measures</p></li>
         <li><p><strong>Family history of heart disease or early cardiovascular disease</strong> — patients with a family history of premature heart attack or high cholesterol should prioritise regular lipid profiling for early detection</p></li>

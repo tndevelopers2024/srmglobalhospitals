@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -17,7 +18,7 @@ export default function ArtBody() {
       <p>Cardiac rehabilitation is a comprehensive, interprofessional program that supports recovery and long-term health for patients with cardiovascular diseases. It is designed to help patients regain confidence and physical ability after heart attacks, cardiac surgery, coronary angioplasty, coronary artery bypass grafting, heart valve repair, or heart failure. At SRM Global Hospitals, the cardiac rehabilitation program is delivered by the Physical Medicine &amp; Rehabilitation Department. It combines clinical cardiology, cardiovascular medicine, and compassionate care. The program focuses on restoring cardiovascular function, reducing cardiovascular risk, and preventing future complications.</p>{" "}
 
       <h2 id="what-is-cardiac-rehab" data-toc-title="What is cardiac rehabilitation">What is Cardiac Rehabilitation?</h2>{" "}
-      <img src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-2.jpeg" alt="" />{" "}
+      <Image src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-2.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Cardiac rehabilitation is a systematic process that goes beyond exercise. It begins with a detailed clinical assessment and continues with structured support to improve heart health, functional ability, and overall well-being.</p>{" "}
       <p>It integrates:</p>{" "}
       <ul>
@@ -44,7 +45,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="who-should-consider" data-toc-title="Who should consider it">Who Should Consider Cardiac Rehabilitation?</h2>{" "}
-      <img src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-3.jpeg" alt="" />{" "}
+      <Image src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-3.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Cardiac rehabilitation is recommended for patients with:</p>{" "}
       <ul>
         <li>Coronary artery disease or other cardiovascular diseases</li>{" "}
@@ -115,7 +116,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2>The Cardiac Rehabilitation Team</h2>{" "}
-      <img src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-4.jpeg" alt="" />{" "}
+      <Image src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-4.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>The cardiac rehabilitation team ensures seamless care for every patient:</p>{" "}
       <ul>
         <li><strong>Cardiologists and cardiac surgeons:</strong> Lead diagnosis, medical management, and post-procedure care</li>{" "}
@@ -155,7 +156,7 @@ export default function ArtBody() {
       </blockquote>{" "}
 
       <h2 id="health-benefits" data-toc-title="Health benefits">Health Benefits of Cardiac Rehabilitation</h2>{" "}
-      <img src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-5.jpeg" alt="" />{" "}
+      <Image src="/images/blog/get-back-with-the-stronger-heart-effective-cardiac-rehabilitation/image-5.jpeg" alt="" width={1600} height={1434} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Patients completing cardiac rehabilitation often experience:</p>{" "}
       <ul>
         <li>Reduced risk of future heart attacks</li>{" "}

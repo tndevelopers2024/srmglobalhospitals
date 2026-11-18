@@ -23,7 +23,7 @@ const article = {
   description:
     "The anomaly scan, performed around 18-22 weeks, is a detailed check of your baby's anatomy and development. Obstetric specialists at SRM Global Hospitals explain what's checked, how to prepare, and what results mean.",
   path: "/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand",
-  image: "/images/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand/hero.png",
+  image: "/images/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand/hero.jpeg",
   author: "Obstetrics & Fetal Medicine Specialist",
   section: "Women's Health",
   publishedTime: "2027-11-03",

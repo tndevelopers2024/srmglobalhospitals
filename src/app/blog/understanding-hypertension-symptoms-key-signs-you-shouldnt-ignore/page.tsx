@@ -23,7 +23,7 @@ const article = {
   description:
     "Hypertension is often symptomless, earning it the name silent killer. Cardiologists at SRM Global Hospitals explain the 10 warning signs, how symptoms differ by age and sex, and how to manage your blood pressure.",
   path: "/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore",
-  image: "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.png",
+  image: "/images/blog/understanding-hypertension-symptoms-key-signs-you-shouldnt-ignore/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2026-12-08",

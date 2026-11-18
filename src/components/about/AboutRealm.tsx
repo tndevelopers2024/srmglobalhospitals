@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutRealm() {
   return (
@@ -6,10 +7,14 @@ export default function AboutRealm() {
       <div className="about-realm-inner">
         <div className="about-realm-grid">
           <div className="about-realm-image-wrap">
-            <img
+            <Image
               src="/images/about-us/realm/image-1.avif"
               alt="SRM Global Hospitals advanced medical interior facility"
               className="about-realm-img"
+              width={1280}
+              height={420}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
             />
           </div>
           <div>

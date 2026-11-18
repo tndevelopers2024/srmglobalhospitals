@@ -23,7 +23,7 @@ const article = {
   description:
     "Esophageal ulcers form from prolonged acid exposure, most often linked to GERD. Gastroenterologists at SRM Global Hospitals explain 8 symptoms, 8 causes, diagnosis, treatment, and prevention.",
   path: "/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments",
-  image: "/images/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments/hero.png",
+  image: "/images/blog/understanding-esophageal-ulcer-symptoms-causes-and-treatments/hero.jpeg",
   author: "Gastroenterology Specialist",
   section: "Gastro",
   publishedTime: "2026-12-22",
@@ -110,7 +110,7 @@ export default function EsophagealUlcerArticle() {
             },
             {
               href: "/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained",
-              image: "/images/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained/hero.png",
+              image: "/images/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained/hero.jpeg",
               title: "Antral gastritis: causes, best treatments, and symptoms explained",
               meta: "10 min · Gastro",
             },

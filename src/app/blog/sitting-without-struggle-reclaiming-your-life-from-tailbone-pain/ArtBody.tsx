@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -55,7 +56,7 @@ export default function ArtBody() {
       <p>A physical examination and medical history review start the recovery process. A physical therapist checks for local tenderness. Diagnostic tests for tailbone pain may include X-rays, CT scans, or magnetic resonance imaging (MRI) to check for fractures or tumours.</p>{" "}
 
       <h2 id="tb-treatment" data-toc-title="Treatment">Treatment of Tailbone Pain</h2>{" "}
-      <img src="/images/blog/sitting-without-struggle-reclaiming-your-life-from-tailbone-pain/image-2.jpeg" alt="" />{" "}
+      <Image src="/images/blog/sitting-without-struggle-reclaiming-your-life-from-tailbone-pain/image-2.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Most people — around 90% of cases — find relief from tailbone pain through lifestyle modifications.</p>{" "}
       <ul>
         <li>Use a U-shaped cushioned seat to reduce pressure on the coccyx.</li>{" "}

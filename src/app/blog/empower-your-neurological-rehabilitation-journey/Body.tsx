@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArticleContent() {
     return (
         <article className="art-body">
@@ -13,7 +14,7 @@ export default function ArticleContent() {
             <h2 id="conditions" data-toc-title="Conditions Managed">
                 Conditions Managed
             </h2>
-<img src="/images/blog/empower-your-neurological-rehabilitation-journey/image-2.webp" alt="Doctor recording brain waves with a patient" />
+<Image src="/images/blog/empower-your-neurological-rehabilitation-journey/image-2.webp" alt="Doctor recording brain waves with a patient" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 SRM Neuro Rehabilitation Centre manages a wide range of neurological conditions:
             </p>
@@ -31,7 +32,7 @@ export default function ArticleContent() {
             <h2 id="tools-and-techniques" data-toc-title="Core Tools and Techniques">
                 Core Tools and Techniques
             </h2>
-<img src="/images/blog/empower-your-neurological-rehabilitation-journey/image-3.webp" alt="Patient undergoing advanced robotic leg rehabilitation" />
+<Image src="/images/blog/empower-your-neurological-rehabilitation-journey/image-3.webp" alt="Patient undergoing advanced robotic leg rehabilitation" width={1600} height={1287} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 SRM Global Hospitals employs advanced equipment and innovative therapies to maximise recovery.
             </p>
@@ -66,7 +67,7 @@ export default function ArticleContent() {
             <h2 id="expertise" data-toc-title="Expertise of the Centre">
                 Expertise of SRM Global Hospital&apos;s Neuro-Rehabilitation Centre
             </h2>
-            <img src="/images/blog/empower-your-neurological-rehabilitation-journey/image-4.webp" alt="Multidisciplinary neurology team discussing brain scans" />
+            <Image src="/images/blog/empower-your-neurological-rehabilitation-journey/image-4.webp" alt="Multidisciplinary neurology team discussing brain scans" width={1600} height={900} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 A multidisciplinary team at SRM Global Hospitals ensures high-quality care. The team includes:
             </p>

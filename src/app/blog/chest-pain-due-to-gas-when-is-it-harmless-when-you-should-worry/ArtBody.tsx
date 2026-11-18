@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -128,7 +129,7 @@ export default function ArtBody() {
       <h2 id="relief-and-prevention" data-toc-title="Relief and prevention">
         How to Relieve Gas Pain in the Chest?
       </h2>
-      <img src="/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/image-2.jpeg" alt=""></img>
+      <Image src="/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/image-2.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Most mild pain improves with simple supportive measures, such as:</p>
       <ul>
         <li>Drink warm water or sip hot water slowly</li>
@@ -166,7 +167,7 @@ export default function ArtBody() {
       <h2 id="when-to-seek-medical-advice" data-toc-title="When to seek medical advice">
         When to Seek Medical Advice?
       </h2>
-      <img src="/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/image-3.jpeg" alt=""></img>
+      <Image src="/images/blog/chest-pain-due-to-gas-when-is-it-harmless-when-you-should-worry/image-3.jpeg" alt="" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>
         Gas-related chest pain is usually harmless and temporary. However, certain symptoms demand immediate attention and require immediate evaluation by emergency physicians and cardiologists at SRM Global Hospitals, such as:
       </p>

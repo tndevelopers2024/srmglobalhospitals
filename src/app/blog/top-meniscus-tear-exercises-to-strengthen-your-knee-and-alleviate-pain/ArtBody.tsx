@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -70,7 +71,7 @@ export default function ArtBody() {
     </table>
 
     <h2 id="early-stage-exercises-to-reduce-pain-and-restore-basic-movement" data-toc-title="Early-Stage Exercises to Reduce Pain and Restore Basic Movement">Early-Stage Exercises to Reduce Pain and Restore Basic Movement</h2>
-      <img src="/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/image-2.jpeg" alt="" />
+      <Image src="/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/image-2.jpeg" alt="" width={1600} height={900} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Early-stage rehab focuses on healing and reducing swelling. The knee must remain safe, supported, and free from unnecessary strain. These exercises create controlled movement and gentle mobility without stressing the tear.</p>
 
     <h3>Heel Slides for Smooth Range of Motion</h3>
@@ -89,7 +90,7 @@ export default function ArtBody() {
     <p>Hold onto a wall for balance. Slowly raise your heel toward your hip to build the back of your thigh and reduce discomfort when bending.</p>
 
     <h2 id="mid-stage-exercises-to-build-strength-and-improve-joint-stability" data-toc-title="Mid-Stage Exercises to Build Strength and Improve Joint Stability">Mid-Stage Exercises to Build Strength and Improve Joint Stability</h2>
-      <img src="/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/image-3.jpeg" alt="" />
+      <Image src="/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/image-3.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Once early pain reduces, patients need exercises that build muscle support around the torn meniscus. These exercises help the knee handle daily tasks again. The aim is to increase strength without causing too much strain.</p>
 
     <h3>Mini Squats for Balanced Knee Strength</h3>
@@ -108,7 +109,7 @@ export default function ArtBody() {
     <p>Lie on your back with feet flat. Raise your hips while keeping only your heels and shoulders grounded. Bridges help strengthen the abdominal muscles and the hips.</p>
 
     <h2 id="advanced-exercises-for-full-meniscus-tear-recovery" data-toc-title="Advanced Exercises for Full Meniscus Tear Recovery">Advanced Exercises for Full Meniscus Tear Recovery</h2>
-      <img src="/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/image-4.jpeg" alt="" />
+      <Image src="/images/blog/top-meniscus-tear-exercises-to-strengthen-your-knee-and-alleviate-pain/image-4.jpeg" alt="" width={1600} height={1065} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>These movements help during the final recovery period. They improve balance, strength, and coordination, helping you return to normal activities. These exercises also ensure the knee can handle climbing stairs, walking long distances, and even sports if allowed.</p>
 
     <h3>Single-Leg Balance for Joint Control</h3>

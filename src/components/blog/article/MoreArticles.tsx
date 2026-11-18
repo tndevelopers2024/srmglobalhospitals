@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getRelatedArticles, MoreArticleItem } from "@/lib/blog-posts";
 
 export type { MoreArticleItem };
@@ -34,7 +35,15 @@ export default function MoreArticles({ items, currentSlug, category }: MoreArtic
         <div className="more-grid">
           {resolvedItems.map((item) => (
             <a key={item.href + item.title} href={item.href} className="more-card">
-              <img src={item.image} alt={item.title} loading="lazy" />
+              <Image
+                src={item.image}
+                alt={item.title}
+                width={640}
+                height={190}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                loading="lazy"
+                style={{ width: "100%", aspectRatio: "16/9", objectFit: "cover" }}
+              />
               <div className="more-card-body">
                 <span className="more-card-cat">{item.category}</span>
                 <h3>{item.title}</h3>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -25,7 +26,7 @@ export default function ArtBody() {
       </ul>
       <p>Understanding whether the excess bilirubin is unconjugated or conjugated is the first step toward identifying the underlying cause of jaundice and selecting appropriate treatment.</p>
       <h2 id="jaundice-symptoms" data-toc-title="Jaundice symptoms">Jaundice Symptoms: What Does Jaundice Look Like?</h2>
-      <img src="/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/image-2.png" alt="Jaundice Symptoms: What Does Jaundice Look Like" />
+      <Image src="/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/image-2.png" alt="Jaundice Symptoms: What Does Jaundice Look Like" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Jaundice symptoms vary depending on the underlying cause, the severity of bilirubin accumulation, and the patient&apos;s age. The most universally recognised jaundice symptom is the yellow color of the skin and eyes but jaundice is almost always accompanied by other symptoms that reflect the specific underlying condition driving bilirubin accumulation.</p>
       <h3>The Yellow Color of Skin and Eyes</h3>
       <p>The main sign of jaundice is the yellowing of the skin, which is most visible in natural light particularly on the face first. As bilirubin levels increase, the yellow color may spread from the face to the chest, abdomen, arms, and legs in a predictable cephalocaudal progression. The whites of the eyes (sclera) are often the earliest and most sensitive site of visible jaundice even mild jaundice may produce visible yellowing of the sclera before the skin colour changes.</p>
@@ -140,7 +141,7 @@ export default function ArtBody() {
       </ul>
       <p>These combined factors mean that most newborn babies experience some degree of bilirubin level elevation in the first week of life.</p>
       <h3>Types of Neonatal Jaundice</h3>
-      <img src="/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/image-3.png" alt="Types of Neonatal Jaundice" />
+      <Image src="/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/image-3.png" alt="Types of Neonatal Jaundice" width={1448} height={1086} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p><strong>Physiological Jaundice</strong></p>
       <p>Physiological jaundice is the most common type of jaundice in newborns, accounting for approximately 75% of cases of neonatal hyperbilirubinemia. It typically appears 24 hours after birth, peaks at 48 to 96 hours, and resolves by 2 to 3 weeks in most newborn babies. Physiological jaundice is caused by the normal transition from fetal to neonatal bilirubin metabolism and does not indicate underlying disease. However, even physiological jaundice must be monitored, as bilirubin levels can occasionally rise to levels requiring phototherapy treatment.</p>
       <p><strong>Breastfeeding Jaundice</strong></p>
@@ -209,7 +210,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="treatment-for-jaundice" data-toc-title="Treatment options">Treatment for Jaundice</h2>
-      <img src="/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/image-4.jpg" alt="Treatment for Jaundice" />
+      <Image src="/images/blog/jaundice-causes-symptoms-and-when-to-see-a-doctor/image-4.jpg" alt="Treatment for Jaundice" width={3000} height={2000} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Treatment for jaundice is directed at the underlying cause. The specific treatment approach depends on whether the jaundice is pre-hepatic, hepatic, or post-hepatic in origin and whether the patient is a newborn baby or an adult.</p>
       <h3>Treatment for Jaundice in Adults</h3>
       <p><strong>Viral Hepatitis:</strong> Hepatitis A and E are self-limiting and are managed with supportive care rest, adequate hydration, and avoidance of hepatotoxic substances including alcohol. Chronic hepatitis B and C require antiviral therapy prescribed by hepatologists at SRM Global Hospitals. Timely treatment of hepatitis B and C effectively suppresses viral replication, reduces liver injury, and prevents progression to cirrhosis.</p>

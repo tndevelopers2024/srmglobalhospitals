@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function OurRoleSection() {
   return (
     <section className="intl-section" id="our-role" aria-label="Our Role as the Best Hospital in Chennai">
@@ -5,9 +7,13 @@ export default function OurRoleSection() {
         <div className="intl-split-grid reverse">
           <div>
             <div className="intl-media-frame">
-              <img
+              <Image
                 src="/images/international/hero-consultation.jpg"
                 alt="SRM Global Hospitals senior doctors and clinical specialists"
+                width={1376}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

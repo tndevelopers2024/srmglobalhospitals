@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -111,10 +112,7 @@ export default function ArtBody() {
       <h2 id="diagnosis" data-toc-title="Diagnosis">
         How Doctors Diagnose Knee Cartilage Damage
       </h2>{" "}
-      <img
-        src="/images/blog/knee-cartilage-damage-explained-early-signs-you-shouldnt-ignore/image-1.jpeg"
-        alt="Doctor examining knee X-ray with patient"
-      />{" "}
+      <Image src="/images/blog/knee-cartilage-damage-explained-early-signs-you-shouldnt-ignore/image-1.jpeg" alt="Doctor examining knee X-ray with patient" width={1024} height={682} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         To confirm the injury, doctors use a combination of techniques:
       </p>{" "}
@@ -165,10 +163,7 @@ export default function ArtBody() {
       </p>{" "}
 
       <h3>Non-Surgical Options</h3>{" "}
-       <img
-        src="/images/blog/knee-cartilage-damage-explained-early-signs-you-shouldnt-ignore/image-2.jpeg"
-        alt="Physical therapy for knee rehabilitation"
-      />{" "}
+       <Image src="/images/blog/knee-cartilage-damage-explained-early-signs-you-shouldnt-ignore/image-2.jpeg" alt="Physical therapy for knee rehabilitation" width={1024} height={682} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <ul>
         <li><strong>Physical therapy:</strong> Builds supporting muscles and restores movement</li>{" "}
         <li><strong>Anti-inflammatory drugs:</strong> Reduce pain and swelling</li>{" "}

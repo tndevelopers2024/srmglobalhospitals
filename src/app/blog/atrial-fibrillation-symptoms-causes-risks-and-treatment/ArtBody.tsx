@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -63,10 +64,7 @@ export default function ArtBody() {
       <h3 id="heart-rate-rhythm" data-toc-title="Heart rate and rhythm">
         Heart Rate / Heart Rhythm
       </h3>{" "}
-      <img
-        src="/images/blog/atrial-fibrillation-symptoms-causes-risks-and-treatment/image-2.jpeg"
-        alt="Heart Rate / Heart Rhythm in Atrial Fibrillation"
-      />{" "}
+      <Image src="/images/blog/atrial-fibrillation-symptoms-causes-risks-and-treatment/image-2.jpeg" alt="Heart Rate / Heart Rhythm in Atrial Fibrillation" width={1600} height={1218} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         The abnormal electrical activity can lead to serious issues like stroke and heart failure by making the upper chambers of the heart beat rapidly (fibrillate) at a rate of over 100 beats per minute, instead of beating normally, like 60-100 beats per minute. When atrial fibrillation symptoms occur, the lower heart chambers may also beat fast.
       </p>{" "}
@@ -131,10 +129,7 @@ export default function ArtBody() {
       <h2 id="treatments" data-toc-title="Treatments">
         Atrial Fibrillation Treatments
       </h2>{" "}
-      <img
-        src="/images/blog/atrial-fibrillation-symptoms-causes-risks-and-treatment/image-3.jpeg"
-        alt="Atrial Fibrillation Treatments"
-      />{" "}
+      <Image src="/images/blog/atrial-fibrillation-symptoms-causes-risks-and-treatment/image-3.jpeg" alt="Atrial Fibrillation Treatments" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Finding the proper atrial fibrillation treatment depends on many factors. These include the type of atrial fibrillation and the patient&apos;s other risk factors.
       </p>{" "}

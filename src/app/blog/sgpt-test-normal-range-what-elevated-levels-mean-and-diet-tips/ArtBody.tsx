@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -72,7 +73,7 @@ export default function ArtBody() {
       <p>Very low SGPT levels may occasionally be seen with vitamin B6 deficiency, as B6 is a cofactor for the alanine aminotransferase enzyme. Low SGPT levels do not typically indicate liver disease or require further investigation unless other liver tests are also abnormal.</p>
 
       <h2 id="causes-high-sgpt" data-toc-title="Causes of High SGPT">What Causes High SGPT Levels?</h2>
-      <img src="/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/image-2.jpeg" alt="What Causes High SGPT Levels" />
+      <Image src="/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/image-2.jpeg" alt="What Causes High SGPT Levels" width={1448} height={1086} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
 
       <p>High SGPT elevated SGPT above the SGPT normal range indicates that liver cells are being damaged or stressed, releasing excess alanine aminotransferase into the bloodstream. The degree of elevation and the clinical context help the healthcare provider identify the underlying cause and assess the severity of liver injury.</p>
 
@@ -192,7 +193,7 @@ export default function ArtBody() {
       <p>The SGPT test price is affordable, making it accessible as a routine health screen. At SRM Global Hospitals, the SGPT test is available as an individual test and as part of comprehensive liver function tests panels and executive health checkup packages with same-day results and expert hepatologist consultation.</p>
 
       <h2 id="diet-tips-reduce-sgpt" data-toc-title="Diet &amp; Lifestyle Tips">Diet Tips to Reduce Elevated SGPT Levels</h2>
-      <img src="/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/image-3.jpeg" alt="Diet Tips to Reduce Elevated SGPT Levels" />
+      <Image src="/images/blog/sgpt-test-normal-range-what-elevated-levels-mean-and-diet-tips/image-3.jpeg" alt="Diet Tips to Reduce Elevated SGPT Levels" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
 
       <p>Dietary and lifestyle changes are the most effective strategy to reduce elevated SGPT levels particularly when caused by fatty liver disease, alcohol consumption, or metabolic factors.</p>
 

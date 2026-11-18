@@ -23,7 +23,7 @@ const article = {
   description:
     "Intermittent fasting can lower blood pressure and cholesterol, but it carries real risks for heart patients on medication. Cardiologists at SRM Global Hospitals explain the benefits, risks, and safe practices by condition.",
   path: "/blog/intermittent-fasting-and-heart-disease-risks-and-considerations-explained",
-  image: "/images/blog/intermittent-fasting-and-heart-disease-risks-and-considerations-explained/hero.png",
+  image: "/images/blog/intermittent-fasting-and-heart-disease-risks-and-considerations-explained/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2027-10-27",
@@ -105,7 +105,7 @@ export default function IntermittentFastingHeartDiseaseArticle() {
             },
             {
               href: "/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment",
-              image: "/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/hero.png",
+              image: "/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/hero.jpeg",
               title: "HFpEF (diastolic heart failure): causes, effects, and treatment",
               meta: "11 min · Cardiology",
             },

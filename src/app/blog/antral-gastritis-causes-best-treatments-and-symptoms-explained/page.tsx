@@ -23,7 +23,7 @@ const article = {
   description:
     "Antral gastritis is inflammation of the stomach's lower chamber. Gastroenterologists at SRM Global Hospitals explain causes, 8 symptoms, medical treatments, and gut health habits.",
   path: "/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained",
-  image: "/images/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained/hero.png",
+  image: "/images/blog/antral-gastritis-causes-best-treatments-and-symptoms-explained/hero.jpeg",
   author: "Gastroenterology Specialist",
   section: "Gastro",
   publishedTime: "2026-12-15",

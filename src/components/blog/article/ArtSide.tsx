@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface TocItem {
   id: string;
@@ -125,7 +126,14 @@ export default function ArtSide({
         <div className="side-related">
           {relatedReading.map((item) => (
             <a key={item.href + item.title} href={item.href}>
-              <img src={item.image} alt="" />{" "}
+              <Image
+                src={item.image}
+                alt=""
+                width={56}
+                height={56}
+                loading="lazy"
+                style={{ objectFit: "cover", borderRadius: "4px" }}
+              />{" "}
               <div className="side-related-info">
                 <h5>{item.title}</h5>{" "}
                 <span>{item.meta}</span>{" "}

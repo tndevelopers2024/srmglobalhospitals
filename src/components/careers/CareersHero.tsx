@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 
 interface CareersHeroProps {
   onExploreClick?: () => void;
@@ -74,10 +76,13 @@ export default function CareersHero({ onExploreClick }: CareersHeroProps) {
           {/* Right Column: Image with gradient mask like AboutHero */}
           <div className="careers-hero-image-layer">
             <div className="careers-hero-image-wrapper">
-              <img
+              <Image
                 src="/images/careers/careers-team.avif"
                 alt="Medical team and clinicians at SRM Global Hospitals"
                 className="careers-hero-img"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                preload
               />
             </div>
           </div>

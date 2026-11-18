@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { BlogPost } from "@/lib/blog-posts";
 import { specialtyColor } from "@/lib/blog-posts";
 
@@ -11,8 +12,17 @@ export default function FeatureStrip({ posts }: { posts: BlogPost[] }) {
 
   return (
     <section className="feature-strip reveal">
-      <a href={main.href} className="feature-main">
-        {main.image ? <img src={main.image} alt={main.title} /> : null}{" "}
+      <a href={main.href} className="feature-main" style={{ position: "relative" }}>
+        {main.image ? (
+          <Image
+            src={main.image}
+            alt={main.title}
+            fill
+            sizes="(max-width: 1024px) 100vw, 66vw"
+            style={{ objectFit: "cover" }}
+            preload
+          />
+        ) : null}{" "}
         <div className="feature-overlay">
           <span className="feature-tag">
             <span className="cdot" style={{ background: mainColor }} />

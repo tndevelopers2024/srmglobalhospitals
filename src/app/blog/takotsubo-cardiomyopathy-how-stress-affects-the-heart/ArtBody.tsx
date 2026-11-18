@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -17,7 +18,7 @@ export default function ArtBody() {
     <p>Many Indians feel sudden pressure in the chest during emotional stress or physical stress. It may happen after a family argument, a shocking emotional event, an unexpected loss, or even during intense physical or emotional stress at work. People fear that they might be experiencing a heart attack. But sometimes, the heart weakness has nothing to do with blocked coronary arteries. Instead, the issue may come from an unusual condition called Takotsubo cardiomyopathy, often known as broken heart syndrome, stress cardiomyopathy, or stress-induced cardiomyopathy. This condition brings temporary yet severe weakness to the heart muscle, especially in the left ventricle, the main chamber that pumps blood. Even though symptoms mimic acute coronary syndrome, acute myocardial infarction, or a typical heart attack, the underlying mechanism is different. In this comprehensive guide, we explore why this cardiac syndrome develops, how symptoms present, which tests confirm it, and how patients recover. You will also see how the left ventricle shows a distinctive shape called apical ballooning syndrome, or left ventricular apical ballooning, which distinguishes this condition from regular coronary artery disease.</p>
 
     <h2 id="takotsubo-cardiomyopathy-understanding-a-heart-under-sudden-stress" data-toc-title="Takotsubo Cardiomyopathy: Understanding a Heart Under Sudden Stress">Takotsubo Cardiomyopathy: Understanding a Heart Under Sudden Stress</h2>
-      <img src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-2.jpeg" alt="" />
+      <Image src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-2.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Takotsubo cardiomyopathy affects the left ventricle&apos;s contraction. When the heart faces extreme physical or emotional stress, stress hormones flood the bloodstream. These chemicals affect heart muscle cells, disturb wall motion, and trigger transient cardiac dysfunction. Some patients develop severe heart muscle weakness even though they never had significant coronary artery disease or obstructive coronary disease.</p>
     <p>The condition got its name from the Japanese word &quot;takotsubo,&quot; which refers to an octopus pot with a narrow neck and a round base. On imaging tests, the heart appears similar, primarily due to apical ballooning cardiomyopathy or transient left ventricular apical ballooning, and that&apos;s why many experts call it left ventricular apical ballooning syndrome.</p>
     <p>Many patients reach emergency rooms with symptoms similar to myocardial infarction:</p>
@@ -95,7 +96,7 @@ export default function ArtBody() {
     <p>These symptoms improve as the heart recovers.</p>
 
     <h2 id="triggers-behind-broken-heart-syndrome" data-toc-title="Triggers Behind Broken Heart Syndrome">Triggers Behind Broken Heart Syndrome</h2>
-      <img src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-3.jpeg" alt="" />
+      <Image src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-3.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Takotsubo syndrome does not arise randomly. It appears after severe emotional or physical stress. Many Indian patients experience it after arguments, losses, or health-related shocks. The common thread is the sudden intensity of the stress that overwhelms the nervous system.</p>
 
     <h3>Emotional Stress That Pushes the Heart to Its Limit</h3>
@@ -124,7 +125,7 @@ export default function ArtBody() {
     <p>Some situations combine emotional and physical stress. This double impact triggers stronger episodes of stress cardiomyopathy.</p>
 
     <h2 id="clinical-signs-that-doctors-observe-in-patients" data-toc-title="Clinical Signs That Doctors Observe in Patients">Clinical Signs That Doctors Observe in Patients</h2>
-      <img src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-4.jpeg" alt="" />
+      <Image src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-4.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Doctors look at the whole picture: symptoms, ECG results, biomarkers, imaging, and history of stress. Takotsubo cardiomyopathy diagnosis depends on ruling out significant coronary artery disease while confirming wall motion abnormalities.</p>
 
     <h3>Chest Pain That Feels Like a Heart Attack</h3>
@@ -189,7 +190,7 @@ export default function ArtBody() {
     <p>Although uncommon, extreme cases of Takotsubo syndrome can lead to sudden cardiac death. It typically results from a combination of severe ventricular dysfunction, arrhythmias, and circulatory failure. Early detection and rapid treatment are critical in preventing this rare but serious outcome.</p>
 
     <h2 id="treatment-approaches-for-broken-heart-syndrome" data-toc-title="Treatment Approaches for Broken Heart Syndrome">Treatment Approaches for Broken Heart Syndrome</h2>
-      <img src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-5.jpeg" alt="" />
+      <Image src="/images/blog/takotsubo-cardiomyopathy-how-stress-affects-the-heart/image-5.jpeg" alt="" width={1600} height={900} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Treatment focuses on allowing the heart to heal while managing symptoms and preventing complications. Because Takotsubo cardiomyopathy is usually reversible, the aim is to provide a supportive environment for recovery.</p>
 
     <h3>Broken Heart Syndrome Treatment With Medications</h3>

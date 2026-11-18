@@ -22,7 +22,7 @@ const article = {
   title: "Essential Seizure First Aid: What You Need to Know for Emergencies",
   description: "Knowing what to do during a seizure can save a life. Neurologists at SRM Global Hospitals explain essential seizure first aid steps, safety precautions, emergency warning signs, and care for children and infants.",
   path: "/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies",
-  image: "/images/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies/hero.png",
+  image: "/images/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies/hero.jpeg",
   author: "Emergency Medicine Specialist",
   section: "Emergency Medicine",
   publishedTime: "2025-06-13",

@@ -23,7 +23,7 @@ const article = {
   description:
     "Carotid endarterectomy removes plaque from the carotid artery to lower stroke risk. Vascular surgery specialists at SRM Global Hospitals explain who needs it, the procedure, benefits, costs, and recovery timeline.",
   path: "/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights",
-  image: "/images/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights/hero.png",
+  image: "/images/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights/hero.jpeg",
   author: "Vascular Surgery Specialist",
   section: "Cardiology",
   publishedTime: "2027-11-10",
@@ -107,7 +107,7 @@ export default function UnderstandingCarotidEndarterectomyArticle() {
             },
             {
               href: "/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair",
-              image: "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.png",
+              image: "/images/blog/understanding-tevar-a-guide-to-thoracic-endovascular-aneurysm-repair/hero.jpeg",
               title: "Understanding TEVAR: a guide to thoracic endovascular aneurysm repair",
               meta: "17 min · Cardiology",
             },

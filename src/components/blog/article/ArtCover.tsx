@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface ArtCoverProps {
   image: string;
   dotClass: string;
@@ -23,7 +25,14 @@ export default function ArtCover({
 }: ArtCoverProps) {
   return (
     <header className="art-cover">
-      <img src={image} alt="" />{" "}
+      <Image
+        src={image}
+        alt={title || ""}
+        fill
+        sizes="100vw"
+        style={{ objectFit: "cover" }}
+        preload
+      />{" "}
       <div className="art-cover-overlay" />{" "}
       <div className="art-cover-content">
         <div className="cover-cat-tag"><span className={`dot ${dotClass}`} />{category}</div>{" "}

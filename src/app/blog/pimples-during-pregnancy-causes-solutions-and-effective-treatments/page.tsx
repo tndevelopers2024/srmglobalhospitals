@@ -22,7 +22,7 @@ const article = {
   title: "Pimples During Pregnancy: Causes, Solutions, and Effective Treatments",
   description: "Hormonal changes during pregnancy frequently trigger acne breakouts. Dermatologists and obstetricians at SRM Global Hospitals explain safe skincare ingredients, natural remedies, prevention tips, and treatments for each trimester.",
   path: "/blog/pimples-during-pregnancy-causes-solutions-and-effective-treatments",
-  image: "/images/blog/pimples-during-pregnancy-causes-solutions-and-effective-treatments/hero.png",
+  image: "/images/blog/pimples-during-pregnancy-causes-solutions-and-effective-treatments/hero.jpeg",
   author: "Dermatology & Obstetrics Specialist",
   section: "Women's Health",
   publishedTime: "2025-06-12",
@@ -125,19 +125,19 @@ export default function PregnancyPimplesGuidePage() {
           relatedReading={[
           {
                   "href": "/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know",
-                  "image": "/images/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know/hero.png",
+                  "image": "/images/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know/hero.jpeg",
                   "title": "Understanding 2 weeks pregnant hCG levels: what you should know",
                   "meta": "10 min · Women's Health"
           },
           {
                   "href": "/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention",
-                  "image": "/images/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention/hero.png",
+                  "image": "/images/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention/hero.jpeg",
                   "title": "Effective solutions for pimples from the heat: causes and prevention",
                   "meta": "9 min · Women's Health"
           },
           {
                   "href": "/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand",
-                  "image": "/images/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand/hero.png",
+                  "image": "/images/blog/essential-guide-to-the-anomaly-scan-what-to-expect-and-understand/hero.jpeg",
                   "title": "Essential guide to the anomaly scan: what to expect and understand",
                   "meta": "11 min · Women's Health"
           }

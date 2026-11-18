@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -90,7 +91,7 @@ export default function ArtBody() {
     <p>If you are experiencing urinary incontinence, know that you are not alone. Many women face the same challenges after vaginal delivery. The key is recognising the signs early and starting a treatment plan with guidance from a healthcare provider.</p>
 
     <h2 id="remedies-&amp;-treatment-options" data-toc-title="Remedies &amp; Treatment Options">Remedies &amp; Treatment Options</h2>
-      <img src="/images/blog/urinary-incontinence-after-childbirth-causes-and-remedies/image-2.jpeg" alt="" />
+      <Image src="/images/blog/urinary-incontinence-after-childbirth-causes-and-remedies/image-2.jpeg" alt="" width={1600} height={1005} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Treatment for urinary incontinence after childbirth depends on severity, bladder function, and overall pelvic health. For some women, conservative therapy and lifestyle changes are enough. For others, medical or surgical procedures may be required to treat incontinence.</p>
 
     <h3>Pelvic Floor Exercises &amp; Lifestyle Changes</h3>

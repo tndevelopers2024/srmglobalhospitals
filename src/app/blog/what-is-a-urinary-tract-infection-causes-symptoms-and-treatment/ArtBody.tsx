@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -128,7 +129,7 @@ export default function ArtBody() {
     </ul>
 
     <h2 id="diagnosis-of-uti" data-toc-title="Diagnosis of UTI">Diagnosis of UTI</h2>
-      <img src="/images/blog/what-is-a-urinary-tract-infection-causes-symptoms-and-treatment/image-2.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-urinary-tract-infection-causes-symptoms-and-treatment/image-2.jpeg" alt="" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>When urinary tract infection symptoms appear, accurate diagnosis becomes the first step to effective treatment. A health care provider usually begins with a detailed medical history, including past UTIs, sexual activity, birth control use, and other risk factors. Physical examination of the genital area may follow, especially in recurrent infections or complicated UTIs. The aim is simple: confirm infection, locate the affected part of the urinary system, and identify the bacteria causing it.</p>
 
     <h3>Urine Sample and Urine Tests</h3>

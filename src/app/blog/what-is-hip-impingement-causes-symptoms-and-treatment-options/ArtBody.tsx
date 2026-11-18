@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -70,7 +71,7 @@ export default function ArtBody() {
       <p>As hip impingement progresses, muscles and supporting structures lose strength. Everyday tasks, climbing stairs, carrying groceries, or lifting moderate weight, begin to feel harder, reflecting the joint&apos;s compromised stability and weakened capacity.</p>{" "}
 
       <h2 id="diagnosing-hip-impingement" data-toc-title="Diagnosing hip impingement">Diagnosing Hip Impingement</h2>{" "}
-      <img src="/images/blog/what-is-hip-impingement-causes-symptoms-and-treatment-options/image-2.jpeg" alt="Diagnosing Hip Impingement" />{" "}
+      <Image src="/images/blog/what-is-hip-impingement-causes-symptoms-and-treatment-options/image-2.jpeg" alt="Diagnosing Hip Impingement" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Doctors usually start with a physical examination. They&apos;ll move the hip around, pushing and twisting to check for pain. The hip impingement test is often enough to suspect the condition.</p>{" "}
       <p>Imaging tests confirm it. X-ray scans show bone spurs or abnormal angles. CT scans help map the hip bones more clearly. Magnetic resonance imaging (MRI) checks for labral tears and cartilage damage. Together, these tools reveal femoroacetabular impingement in its early stages.</p>{" "}
 

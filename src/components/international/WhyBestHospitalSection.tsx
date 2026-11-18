@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function WhyBestHospitalSection() {
   return (
     <section className="intl-section intl-section-alt" id="why-best-hospital" aria-label="Why We Are the Best Hospital in Chennai for International Patients">
@@ -5,9 +7,13 @@ export default function WhyBestHospitalSection() {
         <div className="intl-split-grid reverse">
           <div>
             <div className="intl-media-frame">
-              <img
+              <Image
                 src="/images/international/best-hospital.jpg"
                 alt="SRM Global Hospitals compassionate care for international patients"
+                width={1829}
+                height={860}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import type { Route } from "next";
 import { siteConfig } from "@/lib/site";
 
@@ -108,7 +109,14 @@ export default function SiteFooter() {
         <div className="footer-top">
           <div className="footer-brand-block">
             <Link href="/" className="brand footer-brand" aria-label="SRM Global Hospitals">
-              <img src="/images/srm-logo-final.png" alt="SRM Global Hospitals" className="brand-logo" />{" "}
+              <Image
+                src="/images/srm-logo-final.png"
+                alt="SRM Global Hospitals"
+                width={644}
+                height={184}
+                className="brand-logo"
+                loading="lazy"
+              />{" "}
             </Link>{" "}
             <p>A 200-bed super speciality hospital in Chengalpattu, Chennai. Seven centres of excellence, AI-assisted patient monitoring, and dedicated international patient services.</p>{" "}
             <div style={{ margin: "14px 0 16px" }}>

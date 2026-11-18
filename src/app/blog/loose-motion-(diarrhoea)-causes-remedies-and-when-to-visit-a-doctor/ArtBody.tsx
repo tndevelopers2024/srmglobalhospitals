@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -25,7 +26,7 @@ export default function ArtBody() {
         <li><p><strong>Chronic diarrhea:</strong> Lasts more than four weeks suggests irritable bowel syndrome, inflammatory bowel disease, food intolerance, or another ongoing underlying condition</p></li>
       </ul>
       <h2 id="causes-of-loose-motion" data-toc-title="Causes of loose motion">Causes of Loose Motion</h2>
-      <img src="/images/blog/loose-motion-(diarrhoea)-causes-remedies-and-when-to-visit-a-doctor/image-2.png" alt="Causes of Loose Motion" />
+      <Image src="/images/blog/loose-motion-(diarrhoea)-causes-remedies-and-when-to-visit-a-doctor/image-2.png" alt="Causes of Loose Motion" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Loose motions can be caused by various factors including infections, food poisoning, irritable bowel syndrome, food intolerances, and stress. Identifying the cause of loose motion guides appropriate treatment and helps prevent recurrence.</p>
       <h3>Bacterial and Viral Infections</h3>
       <p>Bacterial infections are among the most common causes of acute diarrhea worldwide. Harmful bacteria including Salmonella, E. coli, Campylobacter, and Shigella infect the digestive tract through contaminated food and water, producing watery or loose stools, stomach cramps, and sometimes high fever.</p>
@@ -71,7 +72,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="home-remedies-for-loose-motion" data-toc-title="Home remedies">Home Remedies for Loose Motion</h2>
-      <img src="/images/blog/loose-motion-(diarrhoea)-causes-remedies-and-when-to-visit-a-doctor/image-3.png" alt="Home Remedies for Loose Motion" />
+      <Image src="/images/blog/loose-motion-(diarrhoea)-causes-remedies-and-when-to-visit-a-doctor/image-3.png" alt="Home Remedies for Loose Motion" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Mild cases of loose motion in otherwise healthy adults can be effectively managed at home with oral rehydration, dietary modifications, and natural remedies. The primary goals of home treatment are to prevent dehydration, restore lost electrolytes, support gut health, and allow the digestive system to recover.</p>
       <h3>Oral Rehydration Solution (ORS)</h3>
       <p>Oral rehydration solutions are the most important intervention for loose motion. Drinking at least 8 to 10 glasses of fluids daily is crucial to prevent dehydration during episodes of loose motion including oral rehydration solutions, soups, and herbal teas.</p>

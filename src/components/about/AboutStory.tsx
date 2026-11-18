@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutStory() {
   return (
     <section className="about-story-section" aria-label="Our Story">
@@ -22,10 +24,14 @@ export default function AboutStory() {
           </p>
         </div>
         <div className="about-story-image-wrap">
-          <img
+          <Image
             src="/images/about-us/story/image-1.avif"
             alt="SRM Global Hospitals building campus in Chengalpattu Chennai"
             className="about-story-img"
+            width={854}
+            height={750}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            loading="lazy"
           />
           <div className="about-story-accent-bar" aria-hidden="true" />
         </div>

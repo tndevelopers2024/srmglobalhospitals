@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -22,10 +23,7 @@ export default function ArtBody() {
       </p>{" "}
 
       <h2 id="what-is-fatty-liver" data-toc-title="What is fatty liver">What is Fatty Liver Disease?</h2>{" "}
-      <img
-        src="/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/image-2.jpeg"
-        alt="What is Fatty Liver Disease?"
-      />{" "}
+      <Image src="/images/blog/transform-your-health-overcoming-non-alcoholic-fatty-liver-disease/image-2.jpeg" alt="What is Fatty Liver Disease?" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Your liver is one of the largest organs in your body, acting as a factory that cleans your blood and supports digestion. Steatosis means extra fat is stored in the liver. Most of the time, some fat builds up, and this is okay. But when excess fat makes up more than 5% to 10% of your liver weight, you have fatty liver.
       </p>{" "}

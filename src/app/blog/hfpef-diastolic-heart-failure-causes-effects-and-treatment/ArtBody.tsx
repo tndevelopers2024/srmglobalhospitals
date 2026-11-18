@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -52,10 +53,7 @@ export default function ArtBody() {
       <h3 id="causes-and-effects" data-toc-title="Causes and effects">
         Heart Failure with Preserved Ejection Fraction - Causes and Effects
       </h3>{" "}
-      <img
-        src="/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/image-2.jpeg"
-        alt="Heart Failure with Preserved Ejection Fraction - Causes and Effects"
-      />{" "}
+      <Image src="/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/image-2.jpeg" alt="Heart Failure with Preserved Ejection Fraction - Causes and Effects" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Affected patients with HFpEF often show several key symptoms, such as exercise intolerance and feeling tired easily when moving around. For many HFpEF patients, the quality of life is severely reduced. The median distance walked in six minutes (a measure of exercise tolerance) for these patients is often less than 300 meters, which is much lower than that of healthy individuals. Apart from this, they could also be affected by other severe heart conditions due to high blood pressure, and, in severe cases, this can lead to fluid buildup in the lungs and the rest of the body. More than 75% of people with HFpEF have a history of high blood pressure, with other conditions like coronary artery disease or diabetes mellitus, which often worsen the problem. It is a significant risk factor, as over time, uncontrolled high blood pressure forces the left ventricle to work harder. It leads to a thickened heart muscle and a stiffened ventricle, further worsening diastolic dysfunction. In severe cases of heart failure associated with HFpEF, chronic obstructive pulmonary disease, valvular heart disease, and ischemic heart disease, the clinical status can change and raise the chance of cardiovascular death. Atrial dysfunction also adds stress on the left side of the heart, and these long-term issues increase the risk of severe heart failure and cardiovascular mortality.
       </p>{" "}
@@ -86,10 +84,7 @@ export default function ArtBody() {
       <h2 id="treatment-and-care" data-toc-title="Treatment and care">
         Patients with HFpEF - Treatment and Care
       </h2>{" "}
-      <img
-        src="/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/image-3.jpeg"
-        alt="Patients with HFpEF - Treatment and Care"
-      />{" "}
+      <Image src="/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/image-3.jpeg" alt="Patients with HFpEF - Treatment and Care" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         A good ejection fraction in HFpEF does not make the illness mild. Doctors, including those at SRM Global Hospitals, use advanced cardiac MRI to assess the heart&apos;s shape and muscle health for a precise diagnosis. Heart failure society groups and heart failure association bodies share clear clinical practice guidelines for care. A heart specialist checks the left atrium, left ventricular mass, cardiac structure, and cardiac function to spot early signs of severe heart failure, which may be elevated in HFpEF. The treatment plans and medications for HFpEF are simple yet highly proven. These steps from several clinical trials showed effective clinical outcomes, helping patients experience less breathlessness and relax from heart muscle stiffness.
       </p>{" "}

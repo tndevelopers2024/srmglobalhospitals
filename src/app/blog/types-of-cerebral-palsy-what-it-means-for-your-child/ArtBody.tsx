@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -51,7 +52,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="cp-types" data-toc-title="Types of cerebral palsy">Spastic Cerebral Palsy</h2>{" "}
-      <img src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-2.jpeg" alt="" />{" "}
+      <Image src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-2.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Spastic cerebral palsy is the most common type, accounting for about 77% to 80% of all cases. High muscle tone causes stiff muscles and jerky movements in this type. As the muscles remain tight, children struggle with transitions between different positions.</p>{" "}
 
       <h3>Spastic Hemiplegia</h3>{" "}
@@ -79,7 +80,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2>Dyskinetic Cerebral Palsy</h2>{" "}
-      <img src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-3.jpeg" alt="" />{" "}
+      <Image src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-3.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Involuntary movements and fluctuating muscle tone characterise dyskinetic cerebral palsy. Muscle tone shifts between stiff muscles and low muscle tone, which makes controlled movement difficult. This cerebral palsy includes several movement patterns, such as:</p>{" "}
 
       <h3>Athetoid Cerebral Palsy</h3>{" "}
@@ -132,7 +133,7 @@ export default function ArtBody() {
       </blockquote>{" "}
 
       <h2 id="cp-multidisciplinary" data-toc-title="Multidisciplinary treatment">Multidisciplinary Approach in Cerebral Palsy</h2>{" "}
-      <img src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-4.jpeg" alt="" />{" "}
+      <Image src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-4.jpeg" alt="" width={1600} height={1065} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Optimising care for Cerebral Palsy (CP) requires a collaborative, multidisciplinary strategy, as it affects movement, muscle tone, and posture in diverse ways. A team of specialists, including pediatric neurologists, orthopaedic surgeons, physiotherapists, occupational therapists, speech-language pathologists and psychiatrists at SRM Global Hospitals, works together to create a personalised plan that addresses the physical, communicative, and emotional needs of the individual.</p>{" "}
 
       <h3>Therapeutic Services</h3>{" "}
@@ -165,7 +166,7 @@ export default function ArtBody() {
       <p>Beyond physical challenges, individuals with cerebral palsy experience emotional stress, anxiety, or low self-esteem due to social and functional limitations. Pediatric psychiatrists provide counselling, psychological support, and inclusive social care that help build resilience, confidence, and overall well-being.</p>{" "}
 
       <h2>Receive Multidisciplinary Care for Your Child&apos;s Special Needs</h2>{" "}
-      <img src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-5.jpeg" alt="" />{" "}
+      <Image src="/images/blog/types-of-cerebral-palsy-what-it-means-for-your-child/image-5.jpeg" alt="" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>SRM Global Hospitals in Chennai offers structured, specialist-led care designed to address every stage of diagnosis, treatment, and rehabilitation.</p>{" "}
       <ul>
         <li><strong>Comprehensive evaluation</strong> by pediatric neurologists, neonatologists, and developmental specialists.</li>{" "}

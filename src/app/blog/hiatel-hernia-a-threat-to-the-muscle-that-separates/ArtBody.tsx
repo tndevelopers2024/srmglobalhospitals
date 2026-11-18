@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -120,7 +121,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="diagnosis" data-toc-title="Diagnosis">Hiatal Hernia Diagnosis: How Doctors Check</h2>{" "}
-      <img src="/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates/image-2.jpeg" alt="Hiatal Hernia Diagnosis" />{" "}
+      <Image src="/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates/image-2.jpeg" alt="Hiatal Hernia Diagnosis" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <h3>Type 1: Sliding Hiatal Hernias</h3>{" "}
       <p>Hiatal hernia diagnosis for Type 1 usually begins when a person reports a burning sensation.</p>{" "}
@@ -171,7 +172,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="treatment" data-toc-title="Treatment">Effective Hiatal Hernia Treatment</h2>{" "}
-      <img src="/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates/image-3.jpeg" alt="Lifestyle and Diet Guidance for Hiatal Hernia" />{" "}
+      <Image src="/images/blog/hiatel-hernia-a-threat-to-the-muscle-that-separates/image-3.jpeg" alt="Lifestyle and Diet Guidance for Hiatal Hernia" width={1600} height={1102} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>SRM Global Hospitals offers specific paths to fix each version of this condition. Doctors choose the method based on whether the stomach slides or stays trapped. All the treatments focus on fixing the stomach position, as it is the best way to ensure the digestive system works correctly. Specifically in type 4, the only way to move the top of your stomach back beneath your diaphragm is by having surgery.</p>{" "}
 

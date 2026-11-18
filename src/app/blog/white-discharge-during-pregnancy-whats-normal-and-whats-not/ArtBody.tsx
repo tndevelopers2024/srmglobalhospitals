@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -84,7 +85,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="risks-and-infections" data-toc-title="Risks and infections">Risks Involved in Abnormal Vaginal Discharge</h2>{" "}
-      <img src="/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/image-2.jpeg" alt="Risks Involved in Abnormal Vaginal Discharge" />{" "}
+      <Image src="/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/image-2.jpeg" alt="Risks Involved in Abnormal Vaginal Discharge" width={1600} height={1065} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Untreated abnormal white discharge could increase the risk of preterm labour, low birth weight, or uterine infection, conditions that obstetricians at SRM Global Hospitals monitor carefully. In some cases, they affect both maternal and fetal health.</p>{" "}
 
       <h3>Physical Change: Amniotic Fluid Leakage</h3>{" "}
@@ -152,7 +153,7 @@ export default function ArtBody() {
       </blockquote>{" "}
 
       <h2>Treatments of Abnormal White Discharge</h2>{" "}
-      <img src="/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/image-3.jpeg" alt="Treatments of Abnormal White Discharge" />{" "}
+      <Image src="/images/blog/white-discharge-during-pregnancy-whats-normal-and-whats-not/image-3.jpeg" alt="Treatments of Abnormal White Discharge" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Treatment depends on the underlying cause and involves pregnancy-safe antifungal creams, prescribed antibiotics, laboratory testing, or hospital evaluation by obstetric specialists at SRM Global Hospitals, depending on the diagnosis and severity of symptoms.</p>{" "}
 
       <h3>Yeast Infection</h3>{" "}

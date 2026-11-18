@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ContactHero() {
   return (
@@ -83,10 +84,13 @@ export default function ContactHero() {
           {/* Hospital Visual Side with gradient mask matching Careers Hero */}
           <div className="contact-hero-image-layer">
             <div className="contact-hero-image-wrapper">
-              <img
+              <Image
                 src="/images/home/hero-building.jpg"
                 alt="SRM Global Hospitals Healthcare Facility"
                 className="contact-hero-img"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                preload
               />
             </div>
           </div>

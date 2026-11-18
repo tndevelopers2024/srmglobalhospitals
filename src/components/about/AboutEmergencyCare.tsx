@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutEmergencyCare() {
   return (
     <section className="about-emergency-section" aria-label="24x7 Emergency Care">
@@ -91,10 +93,14 @@ export default function AboutEmergencyCare() {
             </div>
           </div>
           <div className="about-emergency-image-wrap">
-            <img
+            <Image
               src="/images/about-us/about-us-always-ready.png"
               alt="24x7 Emergency Care at SRM Global Hospitals"
               className="about-emergency-img"
+              width={1122}
+              height={700}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
             />
           </div>
         </div>

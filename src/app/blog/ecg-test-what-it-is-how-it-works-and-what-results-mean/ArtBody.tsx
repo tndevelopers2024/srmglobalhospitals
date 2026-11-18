@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -89,7 +90,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="types-of-ecg-tests" data-toc-title="Types of ECG tests">Types of ECG Tests</h2>{" "}
-      <img src="/images/blog/ecg-test-what-it-is-how-it-works-and-what-results-mean/image-2.jpeg" alt="Types of ECG Tests" />{" "}
+      <Image src="/images/blog/ecg-test-what-it-is-how-it-works-and-what-results-mean/image-2.jpeg" alt="Types of ECG Tests" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>There are primarily three types of ECG tests commonly performed the standard 12-lead resting ECG, Holter monitoring, and stress ECG. Experienced cardiologists at SRM Global Hospitals select the most appropriate type based on the patient&apos;s heart-related symptoms and medical history.</p>{" "}
 

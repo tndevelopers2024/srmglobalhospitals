@@ -1,20 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function DepartmentsHero() {
   return (
     <div className="page-hero-frame" style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
-      <img
+      <Image
         src="/images/best-doctor/our-department-1.avif"
         alt="SRM Global Hospitals Departments"
+        fill
+        sizes="100vw"
         style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
           objectFit: "cover",
           objectPosition: "center",
         }}
+        preload
       />
       <div
         style={{

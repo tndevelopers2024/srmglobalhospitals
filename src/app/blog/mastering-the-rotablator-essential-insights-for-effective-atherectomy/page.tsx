@@ -23,7 +23,7 @@ const article = {
   description:
     "Rotational atherectomy uses a diamond-tipped burr to break down calcified plaque that resists standard balloon angioplasty. Cardiologists at SRM Global Hospitals explain the mechanism, technique, and outcomes.",
   path: "/blog/mastering-the-rotablator-essential-insights-for-effective-atherectomy",
-  image: "/images/blog/mastering-the-rotablator-essential-insights-for-effective-atherectomy/hero.png",
+  image: "/images/blog/mastering-the-rotablator-essential-insights-for-effective-atherectomy/hero.jpeg",
   author: "Interventional Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2025-08-13",
@@ -111,7 +111,7 @@ export default function MasteringTheRotablatorPage() {
             },
             {
               href: "/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights",
-              image: "/images/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights/hero.png",
+              image: "/images/blog/understanding-carotid-endarterectomy-benefits-and-recovery-insights/hero.jpeg",
               title: "Understanding Carotid Endarterectomy: Benefits and Recovery Insights",
               meta: "13 min · Cardiology",
             },

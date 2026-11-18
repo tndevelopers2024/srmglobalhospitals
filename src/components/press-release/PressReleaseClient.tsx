@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { PRESS_RELEASES, type PressReleaseItem } from "@/lib/press-releases-data";
 
 export default function PressReleaseClient() {
@@ -17,18 +18,16 @@ export default function PressReleaseClient() {
     <div>
       {/* Hero */}
       <section style={{ position: "relative", overflow: "hidden", minHeight: "360px" }}>
-        <img
+        <Image
           src="/images/press-releases/press-release-hero.jpg"
           alt="SRM Global Hospitals Press Releases"
+          fill
+          sizes="100vw"
           style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
             objectFit: "cover",
             objectPosition: "center 30%",
           }}
+          preload
         />
         <div
           style={{
@@ -144,22 +143,16 @@ export default function PressReleaseClient() {
               }}
             >
               <div style={{ position: "relative", width: "100%", height: "230px", background: "#f3effa", overflow: "hidden" }}>
-                <img
+                <Image
                   src={item.localImage || item.image}
                   alt={item.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{
-                    width: "100%",
-                    height: "100%",
                     objectFit: "cover",
                     objectPosition: "top center",
-                    display: "block",
                   }}
-                  onError={(e) => {
-                    // Fallback to WP image if local fails
-                    if (e.currentTarget.src !== item.image) {
-                      e.currentTarget.src = item.image;
-                    }
-                  }}
+                  loading="lazy"
                 />
                 <span
                   style={{
@@ -328,9 +321,12 @@ export default function PressReleaseClient() {
                   background: "#ffffff",
                 }}
               >
-                <img
+                <Image
                   src={selectedItem.localImage || selectedItem.image}
                   alt={selectedItem.title}
+                  width={1200}
+                  height={800}
+                  sizes="(max-width: 768px) 100vw, 800px"
                   style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
@@ -370,13 +366,12 @@ export default function PressReleaseClient() {
                     Press Release
                   </div>
                   <div>
-                    <img
+                    <Image
                       src="/images/srm-logo-final.png"
                       alt="SRM Global Hospitals"
+                      width={644}
+                      height={184}
                       style={{ height: "38px", width: "auto", display: "block" }}
-                      onError={(e) => {
-                        e.currentTarget.style.display = "none";
-                      }}
                     />
                   </div>
                 </div>
@@ -434,9 +429,12 @@ export default function PressReleaseClient() {
                       background: "#f8fafc",
                     }}
                   >
-                    <img
+                    <Image
                       src={selectedItem.localImage}
                       alt={selectedItem.title}
+                      width={800}
+                      height={360}
+                      sizes="(max-width: 768px) 100vw, 800px"
                       style={{
                         width: "100%",
                         maxHeight: "360px",

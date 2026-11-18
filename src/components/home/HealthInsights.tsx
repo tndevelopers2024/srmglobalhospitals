@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function HealthInsights() {
   return (
     <section id="insights" className="reveal">
@@ -15,7 +17,14 @@ export default function HealthInsights() {
         <div className="insights-grid">
           <a href="/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief" className="insight-card">
             <div className="insight-image">
-              <img src="/images/blog-sciatica.jpg" alt="Sciatica pain treatment" />{" "}
+              <Image
+                src="/images/home/blog-sciatica.jpg"
+                alt="Sciatica pain treatment"
+                width={600}
+                height={338}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                loading="lazy"
+              />{" "}
             </div>{" "}
             <div className="insight-meta">
               <span>Spine Care</span>{" "}
@@ -27,7 +36,14 @@ export default function HealthInsights() {
           </a>{" "}
           <a href="/blog/types-of-cerebral-palsy-what-it-means-for-your-child" className="insight-card">
             <div className="insight-image">
-              <img src="/images/blog-cerebral-palsy.jpg" alt="Cerebral palsy in children" />{" "}
+              <Image
+                src="/images/home/blog-cerebral-palsy.jpg"
+                alt="Cerebral palsy in children"
+                width={600}
+                height={400}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                loading="lazy"
+              />{" "}
             </div>{" "}
             <div className="insight-meta">
               <span>Paediatrics</span>{" "}
@@ -39,7 +55,14 @@ export default function HealthInsights() {
           </a>{" "}
           <a href="/blog/multiple-sclerosis-treatment-what-expert-care-at-the-right-time-can-do" className="insight-card">
             <div className="insight-image">
-              <img src="/images/blog-multiple-sclerosis.jpg" alt="Multiple sclerosis treatment" />{" "}
+              <Image
+                src="/images/home/blog-multiple-sclerosis.jpg"
+                alt="Multiple sclerosis treatment"
+                width={600}
+                height={400}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                loading="lazy"
+              />{" "}
             </div>{" "}
             <div className="insight-meta">
               <span>Neurology</span>{" "}

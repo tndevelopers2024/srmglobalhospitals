@@ -23,7 +23,7 @@ const article = {
   description:
     "The L5-S1 disc bears more mechanical stress than any other in the lumbar spine, making it a common site for bulges and sciatica. Spine specialists at SRM Global Hospitals explain symptoms, causes, diagnosis, and treatment.",
   path: "/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions",
-  image: "/images/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions/hero.png",
+  image: "/images/blog/effective-l5-s1-disc-bulge-treatment-symptoms-causes-and-solutions/hero.jpeg",
   author: "Spine Specialist",
   section: "Orthopaedics",
   publishedTime: "2028-01-12",
@@ -96,7 +96,7 @@ export default function EffectiveL5S1DiscBulgeTreatmentArticle() {
           relatedReading={[
             {
               href: "/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options",
-              image: "/images/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options/hero.png",
+              image: "/images/blog/relief-strategies-for-l4-l5-disc-bulge-effective-care-options/hero.jpeg",
               title: "Relief strategies for L4-L5 disc bulge: effective care options",
               meta: "17 min · Orthopaedics",
             },

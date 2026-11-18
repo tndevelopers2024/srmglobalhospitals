@@ -23,7 +23,7 @@ const article = {
   description:
     "Struggling with summer breakouts? Dermatology specialists at SRM Global Hospitals explain why heat triggers pimples, 6 common causes, effective treatments, and actionable prevention tips.",
   path: "/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention",
-  image: "/images/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention/hero.png",
+  image: "/images/blog/effective-solutions-for-pimples-from-the-heat-causes-and-prevention/hero.jpeg",
   author: "Dermatology Specialist",
   section: "Dermatology",
   publishedTime: "2025-07-18",

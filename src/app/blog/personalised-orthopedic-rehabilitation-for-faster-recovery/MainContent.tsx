@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Content() {
     return (
         <article className="art-body">
@@ -8,7 +9,7 @@ export default function Content() {
             <h2 id="what-is" data-toc-title="What is the Program?">
                 What is the Orthopedic Rehabilitation Program?
             </h2>
-<img src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-2.webp" alt="Orthopedic doctor examining a patient's knee" />
+<Image src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-2.webp" alt="Orthopedic doctor examining a patient" width={1600} height={1133} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 The orthopedic Rehabilitation Program is a therapeutic process designed to restore mobility, strength, and function in patients affected by trauma, chronic illness, or surgery. Its primary goal is to help individuals regain independence and return to their daily routines safely and efficiently.
             </p>
@@ -20,7 +21,7 @@ export default function Content() {
                 <li>Postoperative recovery following joint replacement or spinal surgery</li>
                 <li>Preventing future injuries by improving stability and resilience</li>
             </ul>
-<img src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-3.webp" alt="Physiotherapist assisting patient with leg extensions" />
+<Image src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-3.webp" alt="Physiotherapist assisting patient with leg extensions" width={1600} height={900} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 Our multidisciplinary team, comprising expert orthopedic surgeons, rehabilitation physicians, physiotherapists, and occupational therapists, collaborates to deliver evidence-based care following international protocols.
             </p>
@@ -64,7 +65,7 @@ export default function Content() {
             </p>
 
             <h3>Manual Therapies (Orthopedic Physical Therapy)</h3>
-<img src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-4.webp" alt="Physiotherapist performing leg stretches on patient" />
+<Image src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-4.webp" alt="Physiotherapist performing leg stretches on patient" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 Manual therapies are skilled, hands-on techniques applied by our trained orthopedic physical therapists. They are designed to improve mobility, relieve pain, and restore proper musculoskeletal function. Key manual therapy techniques include:
             </p>
@@ -78,7 +79,7 @@ export default function Content() {
             </p>
 
             <h3>Cold &amp; Heat Therapy</h3>
-<img src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-5.webp" alt="Applying ice pack to knee" className="inline-img" />
+<Image src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-5.webp" alt="Applying ice pack to knee" width={334} height={151} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" className="inline-img" />
             <p>
                 Cryotherapy and thermotherapy are essential methods for managing pain, inflammation, and tissue healing:
             </p>
@@ -91,7 +92,7 @@ export default function Content() {
             </p>
 
             <h3>Occupational Therapy</h3>
-<img src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-6.webp" alt="Therapist helping elderly patient stretch arms" />
+<Image src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-6.webp" alt="Therapist helping elderly patient stretch arms" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 Occupational therapy (OT) at SRM focuses on helping patients regain independence in daily activities after orthopedic injuries or surgeries. Our expert occupational therapists work closely with patients to:
             </p>
@@ -106,7 +107,7 @@ export default function Content() {
             </p>
 
             <h3>Vocational Rehabilitation Therapy</h3>
-<img src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-7.webp" alt="Physiotherapist supporting patient during knee bends" />
+<Image src="/images/blog/personalised-orthopedic-rehabilitation-for-faster-recovery/image-7.webp" alt="Physiotherapist supporting patient during knee bends" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
             <p>
                 Vocational rehabilitation specialists support patients in returning to work safely after an orthopedic injury or surgery. This specialised therapy focuses on:
             </p>

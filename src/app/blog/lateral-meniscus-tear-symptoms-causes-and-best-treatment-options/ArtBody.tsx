@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -65,10 +66,7 @@ export default function ArtBody() {
       <h2 id="causes" data-toc-title="Causes of tears">
         Causes Behind Lateral Meniscus Tears
       </h2>{" "}
-      <img
-        src="/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/image-2.jpeg"
-        alt="Causes of lateral meniscus tears"
-      />{" "}
+      <Image src="/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/image-2.jpeg" alt="Causes of lateral meniscus tears" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         Most cases arise from sudden movements, but many people develop tears slowly due to wear and tear. Knowing the cause helps you prevent repeat injuries.
       </p>{" "}
@@ -150,10 +148,7 @@ export default function ArtBody() {
       <h2 id="diagnosis" data-toc-title="Diagnosis &amp; tests">
         How Doctors Diagnose a Lateral Meniscus Tear
       </h2>{" "}
-      <img
-        src="/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/image-3.jpeg"
-        alt="Doctor examining knee for lateral meniscus tear"
-      />{" "}
+      <Image src="/images/blog/lateral-meniscus-tear-symptoms-causes-and-best-treatment-options/image-3.jpeg" alt="Doctor examining knee for lateral meniscus tear" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         A correct diagnosis avoids unnecessary surgeries and ensures quick relief. Doctors use physical exams and imaging to confirm the condition.
       </p>{" "}

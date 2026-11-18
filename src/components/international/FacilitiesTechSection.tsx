@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function FacilitiesTechSection() {
   return (
     <section className="intl-section" id="facilities" aria-label="Facilities and Technology We Provide">
@@ -5,9 +7,13 @@ export default function FacilitiesTechSection() {
         <div className="intl-split-grid reverse">
           <div>
             <div className="intl-media-frame">
-              <img
+              <Image
                 src="/images/international/advanced-technology.jpg"
                 alt="SRM Global Hospitals advanced robotic surgery and medical technology suite"
+                width={1376}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

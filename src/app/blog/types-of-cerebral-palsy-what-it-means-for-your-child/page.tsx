@@ -101,12 +101,6 @@ export default function CerebralPalsyArticle() {
               meta: "12 min · Neurology",
             },
             {
-              href: "/blog/types-of-cerebral-palsy-what-it-means-for-your-child",
-              image: "https://images.unsplash.com/photo-1606206522398-de2884d8c8e1?w=120&q=85",
-              title: "Migraine vs tension headache: how a neurologist tells them apart",
-              meta: "6 min · Neurology",
-            },
-            {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
               image: "/images/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief/hero.jpeg",
               title: "Sciatica pain treatment: understand the cause and find the right relief",

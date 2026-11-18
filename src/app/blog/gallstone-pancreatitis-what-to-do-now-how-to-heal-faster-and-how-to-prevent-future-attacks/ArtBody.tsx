@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -31,10 +32,7 @@ export default function ArtBody() {
       <h2 id="warning-signs" data-toc-title="Warning signs">
         Warning Signs of Gallstone Pancreatitis: Common Symptoms and Advanced Symptoms
       </h2>{" "}
-      <img
-        src="/images/blog/gallstone-pancreatitis-what-to-do-now-how-to-heal-faster-and-how-to-prevent-future-attacks/image-2.jpeg"
-        alt="Warning Signs of Gallstone Pancreatitis"
-      />{" "}
+      <Image src="/images/blog/gallstone-pancreatitis-what-to-do-now-how-to-heal-faster-and-how-to-prevent-future-attacks/image-2.jpeg" alt="Warning Signs of Gallstone Pancreatitis" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <h3>Common Symptoms</h3>{" "}
       <p>

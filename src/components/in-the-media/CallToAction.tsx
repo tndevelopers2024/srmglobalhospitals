@@ -1,8 +1,16 @@
+import Image from "next/image";
+
 export default function CallToAction() {
   return (
     <div style={{ position: "relative", overflow: "hidden" }}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=1400&q=80" alt="Team" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", objectFit: "cover" }} />
+      <Image
+        src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=1400&q=80"
+        alt="Team"
+        fill
+        sizes="100vw"
+        style={{ objectFit: "cover" }}
+        loading="lazy"
+      />
       <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", background: "linear-gradient(135deg, rgba(107,74,152,0.92), rgba(34,148,211,0.88))" }}></div>
       <div style={{ position: "relative", zIndex: 1, textAlign: "center", padding: "80px 40px" }}>
         <h2 style={{ fontFamily: "'Source Serif 4', serif", fontSize: "38px", color: "#fff", margin: "0 0 16px", fontWeight: 700 }}>Media & Press Enquiries</h2>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 
 export default function AboutHero() {
@@ -28,10 +29,13 @@ export default function AboutHero() {
 
           <div className="about-hero-image-layer">
             <div className="about-hero-image-wrapper">
-              <img
+              <Image
                 src="/images/about-us/hero/about-hero.jpeg"
                 alt="Doctor consulting with patient at SRM Global Hospitals"
                 className="about-hero-img"
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                preload
               />
             </div>
             <div className="about-hero-badge">

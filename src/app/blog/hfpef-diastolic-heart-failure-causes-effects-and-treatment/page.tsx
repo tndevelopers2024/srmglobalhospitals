@@ -23,7 +23,7 @@ const article = {
   description:
     "HFpEF causes 19-25% of heart failure cases in India, where the heart pumps normally but can't relax to fill properly. Cardiologists at SRM Global Hospitals explain causes, effects, and treatment.",
   path: "/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment",
-  image: "/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/hero.png",
+  image: "/images/blog/hfpef-diastolic-heart-failure-causes-effects-and-treatment/hero.jpeg",
   author: "Cardiology Specialist",
   section: "Cardiology",
   publishedTime: "2027-04-07",

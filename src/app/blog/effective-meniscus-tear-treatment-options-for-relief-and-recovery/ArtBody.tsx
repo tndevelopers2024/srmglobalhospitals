@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -26,7 +27,7 @@ export default function ArtBody() {
 
       <h2 id="when-to-seek-treatment" data-toc-title="When to seek treatment">When to Seek Treatment</h2>{" "}
       <p>Not every knee injury needs surgery right away. But with meniscus tears, delaying the right care can make the injury worse. Many people try to ignore the pain, thinking it will settle in a few days. Sometimes, mild strains do heal with rest, ice, compression, and elevation. However, if the tear is deeper or involves damaged meniscus tissue, early treatment is safer. Untreated meniscal injury may lead to stiffness, knee locks, or even degenerative changes in the joint.</p>{" "}
-      <img src="/images/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery/effective-meniscus-tear-treatment-options-for-relief-and-recovery-image-2.jpeg" alt="When to seek treatment for a meniscus tear" />{" "}
+      <Image src="/images/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery/image-2.jpeg" alt="When to seek treatment for a meniscus tear" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>You should meet an orthopaedic surgeon if you notice:</p>{" "}
       <ul>
@@ -49,7 +50,7 @@ export default function ArtBody() {
       <p><strong>Key checks include:</strong> range of knee movement, joint line tenderness, locking or catching signs, and comparison with the normal side.</p>{" "}
 
       <h3>Imaging Tests: MRI Scans &amp; X-rays</h3>{" "}
-      <img src="/images/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery/effective-meniscus-tear-treatment-options-for-relief-and-recovery-image-3.jpeg" alt="Imaging tests for meniscus tear - MRI scans and X-rays" />{" "}
+      <Image src="/images/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery/image-3.jpeg" alt="Imaging tests for meniscus tear - MRI scans and X-rays" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>If the physical exam suggests a meniscal injury, imaging tests confirm the findings. Magnetic resonance imaging (MRI scans) is the gold standard for detecting a meniscus tear. MRI shows the soft tissues clearly and identifies the tear pattern, blood vessels involved, and damaged meniscus tissue. X-rays may also be taken to rule out fractures or degenerative changes in bones.</p>{" "}
       <p>Sometimes, an ultrasound is used to look for swelling or fluid in the joint. Imaging helps differentiate a medial meniscus tear from a lateral meniscus tear. It also gives clues about degenerative meniscus tears that develop with age, unlike acute meniscus tears in sports medicine.</p>{" "}
 
@@ -94,7 +95,7 @@ export default function ArtBody() {
       <p>Since only a few hours are needed for surgery and recovery starts quickly, patients often return home the same day. However, removing too much meniscus can reduce shock absorption and may increase the risk of developing arthritis later.</p>{" "}
 
       <h3>Meniscus Repair Techniques</h3>{" "}
-      <img src="/images/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery/effective-meniscus-tear-treatment-options-for-relief-and-recovery-image-4.jpeg" alt="Meniscus repair techniques and surgical suturing" />{" "}
+      <Image src="/images/blog/effective-meniscus-tear-treatment-options-for-relief-and-recovery/image-4.jpeg" alt="Meniscus repair techniques and surgical suturing" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>In young patients and fresh acute meniscus tears, meniscus repair is preferred. This surgery involves stitching the torn meniscus back together so it can heal naturally. Repair techniques are effective if the tear is near blood vessels, since the blood supply helps healing. Surgeons use advanced repair techniques with special surgical instruments, including inside-out, outside-in, and all-inside suturing methods.</p>{" "}
       <p>Meniscus repair helps preserve the shock absorbers of the knee joint and reduces the chance of degenerative changes. Although recovery takes longer than partial meniscectomy, outcomes are better in the long run.</p>{" "}
 

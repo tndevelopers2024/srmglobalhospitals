@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -20,7 +21,7 @@ export default function ArtBody() {
       <p>Sports rehabilitation is a specialised, multidisciplinary branch of healthcare designed to help athletes recover from injuries, reduce pain, and regain peak performance. It primarily focuses on musculoskeletal injuries, which can have immediate and significant effects on physical function. These injuries threaten professional careers and impact long-term quality of life. Whether an injury results from competitive athletics or recreational physical activity, a structured recovery plan is essential for effective healing and performance restoration.</p>{" "}
 
       <h2 id="sr-injuries" data-toc-title="Core injuries treated">Core Sports Injuries We Treat</h2>{" "}
-      <img src="/images/blog/power-your-comeback-through-sports-rehabilitation/image-2.jpeg" alt="" />{" "}
+      <Image src="/images/blog/power-your-comeback-through-sports-rehabilitation/image-2.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>SRM Global Hospitals treats a wide range of common injuries that occur as macro-traumatic injuries result from sudden impacts and micro-traumatic injuries develop due to repetitive training loads, such as:</p>{" "}
       <ul>
         <li><strong>Ligament injuries and tendon ruptures:</strong> Complex ACL tears, PCL injuries, and Achilles tendon damage.</li>{" "}
@@ -30,7 +31,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="sr-team" data-toc-title="Rehabilitation team">Our Multidisciplinary Rehabilitation Team</h2>{" "}
-      <img src="/images/blog/power-your-comeback-through-sports-rehabilitation/image-3.jpeg" alt="" />{" "}
+      <Image src="/images/blog/power-your-comeback-through-sports-rehabilitation/image-3.jpeg" alt="" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>A collaborative, multidisciplinary team manages recovery at SRM Global Hospitals. A physician serves as the leader and coordinator of care, ensuring that every aspect of the treatment plan aligns with clinical reasoning.</p>{" "}
       <ul>
         <li><strong>Sports medicine physicians:</strong> Diagnose conditions and oversee the rehabilitation process.</li>{" "}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -43,10 +44,7 @@ export default function ArtBody() {
       <h2 id="what-is-meniscus-tear" data-toc-title="What is a meniscus tear">
         What Is a Meniscus Tear?
       </h2>{" "}
-      <img
-        src="/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/image-2.jpeg"
-        alt="What is a meniscus tear"
-      />{" "}
+      <Image src="/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/image-2.jpeg" alt="What is a meniscus tear" width={1600} height={897} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         A meniscus tear happens when the rubbery cartilage in the knee gets torn due to sudden twisting, squatting, or age-related wear and tear. There are two broad categories of meniscal tears:
       </p>{" "}
@@ -153,10 +151,7 @@ export default function ArtBody() {
       <h2 id="diagnosis" data-toc-title="Diagnosis &amp; tests">
         How Doctors Diagnose a Meniscus Tear
       </h2>{" "}
-      <img
-        src="/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/image-3.jpeg"
-        alt="How doctors diagnose a meniscus tear"
-      />{" "}
+      <Image src="/images/blog/what-is-a-meniscus-tear-signs-treatment-recovery-guide/image-3.jpeg" alt="How doctors diagnose a meniscus tear" width={1600} height={914} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>
         You may wonder how doctors confirm a meniscus tear diagnosis. It&apos;s not always visible from the outside. So, they rely on tests and scans.
       </p>{" "}

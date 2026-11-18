@@ -22,7 +22,7 @@ const article = {
   title: "Understanding Left Arm Pain from Shoulder to Hand: Causes and Relief",
   description: "Left arm pain from shoulder to hand can stem from nerve compression, muscle strain, or cardiac emergencies. Orthopaedic and cardiology specialists at SRM Global Hospitals explain warning signs, causes, and relief options.",
   path: "/blog/understanding-left-arm-pain-from-shoulder-to-hand-causes-and-relief",
-  image: "/images/blog/understanding-left-arm-pain-from-shoulder-to-hand-causes-and-relief/hero.png",
+  image: "/images/blog/understanding-left-arm-pain-from-shoulder-to-hand-causes-and-relief/hero.jpeg",
   author: "Orthopaedic Specialist",
   section: "Orthopaedics",
   publishedTime: "2025-07-18",
@@ -127,13 +127,13 @@ export default function LeftArmPainCausesPage() {
           },
           {
                   "href": "/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery",
-                  "image": "/images/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery/hero.png",
+                  "image": "/images/blog/effective-tail-bone-pain-treatment-options-for-relief-and-recovery/hero.jpeg",
                   "title": "Effective tail bone pain treatment: options for relief and recovery",
                   "meta": "11 min · Orthopaedics"
           },
           {
                   "href": "/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect",
-                  "image": "/images/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect/hero.png",
+                  "image": "/images/blog/understanding-knee-replacement-recovery-benefits-and-what-to-expect/hero.jpeg",
                   "title": "Understanding knee replacement: recovery, benefits, and what to expect",
                   "meta": "16 min · Orthopaedics"
           }

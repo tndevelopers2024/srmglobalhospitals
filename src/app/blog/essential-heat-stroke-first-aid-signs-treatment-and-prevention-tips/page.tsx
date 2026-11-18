@@ -22,7 +22,7 @@ const article = {
   title: "Essential Heat Stroke First Aid: Signs, Treatment, and Prevention Tips",
   description: "Heat stroke is a medical emergency that requires immediate cooling and urgent care. Emergency medicine specialists at SRM Global Hospitals outline key symptoms, step-by-step first aid, what to avoid, and prevention tips.",
   path: "/blog/essential-heat-stroke-first-aid-signs-treatment-and-prevention-tips",
-  image: "/images/blog/essential-heat-stroke-first-aid-signs-treatment-and-prevention-tips/hero.png",
+  image: "/images/blog/essential-heat-stroke-first-aid-signs-treatment-and-prevention-tips/hero.jpeg",
   author: "Emergency Medicine Specialist",
   section: "Emergency Medicine",
   publishedTime: "2025-06-13",
@@ -125,7 +125,7 @@ export default function HeatStrokeFirstAidGuidePage() {
           relatedReading={[
           {
                   "href": "/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies",
-                  "image": "/images/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies/hero.png",
+                  "image": "/images/blog/essential-seizure-first-aid-what-you-need-to-know-for-emergencies/hero.jpeg",
                   "title": "Essential seizure first aid: what you need to know for emergencies",
                   "meta": "12 min · Neurology"
           },

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ServicesSection() {
   const services = [
     {
@@ -85,9 +87,13 @@ export default function ServicesSection() {
 
           <div>
             <div className="intl-media-frame">
-              <img
+              <Image
                 src="/images/international/international-desk-coordinator.jpg"
                 alt="SRM Global Hospitals international patient coordinator assisting patient family"
+                width={1376}
+                height={768}
+                sizes="(max-width: 768px) 100vw, 50vw"
+                loading="lazy"
               />
             </div>
           </div>

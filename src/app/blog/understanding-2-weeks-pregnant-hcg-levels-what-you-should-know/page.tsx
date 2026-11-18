@@ -23,7 +23,7 @@ const article = {
   description:
     "Curious about your hCG levels at 2 weeks pregnant? Obstetrics & Fetal Medicine specialists at SRM Global Hospitals explain what hCG is, normal ranges, testing methods, and when to consult a doctor.",
   path: "/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know",
-  image: "/images/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know/hero.png",
+  image: "/images/blog/understanding-2-weeks-pregnant-hcg-levels-what-you-should-know/hero.jpeg",
   author: "Obstetrics & Fetal Medicine Specialist",
   section: "Women's Health",
   publishedTime: "2025-07-21",

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { BlogPost } from "@/lib/blog-posts";
 import { specialtyColor } from "@/lib/blog-posts";
 
@@ -39,7 +40,17 @@ export default function CardSection({ posts, visibleCount, onLoadMore }: Props) 
               style={i < visibleCount ? undefined : { display: "none" }}
             >
               <div className={post.image ? "disc-card-img" : "disc-card-img no-image"}>
-                {post.image ? <img src={post.image} alt={post.title} loading="lazy" /> : null}{" "}
+                {post.image ? (
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    width={640}
+                    height={360}
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    loading="lazy"
+                    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                  />
+                ) : null}{" "}
                 <span className="disc-card-cat">
                   <span className="cdot" style={{ background: color }} />
                   {post.specialty}

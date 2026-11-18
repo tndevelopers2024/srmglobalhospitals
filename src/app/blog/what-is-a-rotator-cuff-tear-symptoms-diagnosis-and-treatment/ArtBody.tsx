@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -44,27 +45,27 @@ export default function ArtBody() {
     <p>A rotator cuff injury might begin with mild shoulder pain and progress into a cuff tear that limits every move. Doctors use the following categories to explain and treat different kinds of rotator cuff disease.</p>
 
     <h3>Partial Rotator Cuff Tear</h3>
-      <img src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-2.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-2.jpeg" alt="" width={560} height={320} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>A partial rotator cuff tear means the tendon is damaged but not fully detached from the upper arm bone. The rotator cuff tendon may be frayed, thin, or partly split, but it still holds the joint together. Patients usually complain of ongoing shoulder pain, especially with overhead motion.</p>
     <p>This kind of rotator cuff injury often develops slowly due to wear and tear. Although painful, many partial cuff tears respond to physical therapy and nonsurgical treatment. Proper care prevents it from progressing into severe rotator cuff disease.</p>
 
     <h3>Complete Rotator Cuff Tear</h3>
-      <img src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-3.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-3.jpeg" alt="" width={750} height={389} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>A complete rotator cuff tear is when the tendon fully separates from the upper arm bone. Here, the rotator cuff tendon can no longer anchor the muscle, leading to sharp shoulder pain and immediate weakness. Lifting the arm becomes extremely difficult, and daily tasks are disrupted.</p>
     <p>This type of rotator cuff injury doesn&apos;t heal on its own. Surgery is usually required to reattach the tendon and restore function. Untreated, a complete cuff tear can worsen shoulder pain and lead to long-term rotator cuff disease.</p>
 
     <h3>Acute Tear</h3>
-      <img src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-4.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-4.jpeg" alt="" width={1600} height={1068} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>An acute rotator cuff tear happens suddenly, often from accidents or sports injuries. A fall on the shoulder or lifting a heavy weight may snap the rotator cuff tendon. Patients describe hearing a pop followed by severe shoulder pain and loss of movement.</p>
     <p>Unlike degenerative tears, acute cuff tears appear without warning and affect even younger people. The tendon pulls off the upper arm bone forcefully, creating immediate dysfunction. Quick diagnosis is essential, as untreated acute rotator cuff injuries can progress into chronic rotator cuff disease.</p>
 
     <h3>Degenerative Tear</h3>
-      <img src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-5.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-5.jpeg" alt="" width={1600} height={900} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>A degenerative rotator cuff tear develops gradually. Years of repetitive lifting, poor posture, or untreated shoulder pain wear down the rotator cuff tendon. With time, the tendon weakens, fibers fray, and a cuff tear forms. This is common in patients with long-term rotator cuff disease.</p>
     <p>Since the tendon connects the shoulder blade to the upper arm bone, its breakdown reduces strength and flexibility. Degenerative rotator cuff injuries are often ignored until the pain becomes severe. Left untreated, they may progress into irreparable rotator cuff tears.</p>
 
     <h3>Irreparable Rotator Cuff Tears</h3>
-      <img src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-6.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-6.jpeg" alt="" width={1600} height={1201} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>In some cases, the rotator cuff tendon is too damaged to repair. These are called irreparable rotator cuff tears. Years of rotator cuff disease, delayed treatment, or severe injury can lead to tendon retraction, scarring, and muscle loss. Patients usually experience constant shoulder pain and very poor arm function.</p>
     <p>The upper arm bone may shift abnormally due to lack of tendon support. Surgery options like tendon transfer or reverse shoulder replacement are often suggested. Without treatment, an irreparable rotator cuff tear makes even simple movements nearly impossible.</p>
 
@@ -112,7 +113,7 @@ export default function ArtBody() {
     </div>
 
     <h2 id="non-surgical-treatment-options" data-toc-title="Non-Surgical Treatment Options">Non-Surgical Treatment Options</h2>
-      <img src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-7.jpeg" alt="" />
+      <Image src="/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/image-7.jpeg" alt="" width={1200} height={800} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Not every rotator cuff injury needs surgery. Many improve with nonsurgical treatment and patience. Doctors usually try these before recommending surgery.</p>
     <p><strong>Rest and Activity Change:</strong> Stop overhead lifting and repetitive stress. Rest gives the torn tendon time to recover.</p>
 

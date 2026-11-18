@@ -1,10 +1,20 @@
+import Image from "next/image";
+
 export default function InternationalPatients() {
   return (
     <section id="intl" className="intl reveal">
       <div className="container">
         <div className="intl-grid">
           <div className="intl-image">
-            <img src="/images/home/international-patient-services.jpeg" alt="International patient services coordinator at SRM Global Hospitals" />{" "}
+            <Image
+              src="/images/home/international-patient-services.jpeg"
+              alt="International patient services coordinator at SRM Global Hospitals"
+              width={1122}
+              height={1402}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              loading="lazy"
+              style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            />{" "}
             <div className="intl-image-overlay">
               <strong>Care without borders.</strong>{" "}
               <span>Patients from 18+ countries, every year.</span>{" "}

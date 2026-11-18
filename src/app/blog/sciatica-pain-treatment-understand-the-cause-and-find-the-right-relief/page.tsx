@@ -100,12 +100,6 @@ export default function SciaticaArticle() {
             },
             {
               href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
-              image: "https://images.unsplash.com/photo-1606206522398-de2884d8c8e1?w=120&q=85",
-              title: "Migraine vs tension headache: how a neurologist tells them apart",
-              meta: "6 min · Neurology",
-            },
-            {
-              href: "/blog/sciatica-pain-treatment-understand-the-cause-and-find-the-right-relief",
               image: "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?w=120&q=85",
               title: "Knee pain after 40: when it's arthritis, and when it isn't",
               meta: "8 min · Orthopaedics",

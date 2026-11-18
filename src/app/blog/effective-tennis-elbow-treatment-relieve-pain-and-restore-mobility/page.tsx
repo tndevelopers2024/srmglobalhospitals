@@ -98,8 +98,8 @@ export default function EffectiveTennisElbowTreatmentPage() {
           ]}
           relatedReading={[
             {
-              href: "/blog/what-is-rotator-cuff-tear-symptoms-diagnosis-and-treatment",
-              image: "/images/blog/what-is-rotator-cuff-tear-symptoms-diagnosis-and-treatment/hero.jpeg",
+              href: "/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment",
+              image: "/images/blog/what-is-a-rotator-cuff-tear-symptoms-diagnosis-and-treatment/hero.jpeg",
               title: "What is a Rotator Cuff Tear? Symptoms, Diagnosis, and Treatment",
               meta: "13 min · Orthopaedics",
             },

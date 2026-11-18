@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -46,7 +47,7 @@ export default function ArtBody() {
     <p>Overactive bladder causes are often complex. Knowing these helps in diagnosing and choosing the right overactive bladder treatment.</p>
 
     <h2 id="diagnosing-overactive-bladder" data-toc-title="Diagnosing Overactive Bladder">Diagnosing Overactive Bladder</h2>
-      <img src="/images/blog/managing-overactive-bladder-effective-solutions-and-relief-options/image-2.jpeg" alt="" />
+      <Image src="/images/blog/managing-overactive-bladder-effective-solutions-and-relief-options/image-2.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
     <p>Seeking treatment for OAB starts with accurate diagnosis. Many people delay, thinking symptoms of overactive bladder are part of ageing. However, overactive bladder diagnosed early improves outcomes. Doctors use multiple steps to check bladder function and rule out other bladder symptoms or urinary tract issues.</p>
 
     <h3>Medical History and Physical Exam</h3>

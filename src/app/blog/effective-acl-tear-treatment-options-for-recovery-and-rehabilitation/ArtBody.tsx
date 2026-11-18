@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -182,7 +183,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="role-of-physiotherapy" data-toc-title="Role of physiotherapy">Role of Physiotherapy</h2>{" "}
-      <img src="/images/blog/effective-acl-tear-treatment-options-for-recovery-and-rehabilitation/image-2.jpeg" alt="Role of Physiotherapy in ACL Rehabilitation" />{" "}
+      <Image src="/images/blog/effective-acl-tear-treatment-options-for-recovery-and-rehabilitation/image-2.jpeg" alt="Role of Physiotherapy in ACL Rehabilitation" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>A physical therapist is central to ACL tear treatment without surgery and after ACL reconstruction surgery. From improving range of motion to preventing knee osteoarthritis, physiotherapy ensures long-term knee health. It also reduces the risk of re-injury and improves patient outcomes.</p>{" "}
 
       <h2 id="psychological-support" data-toc-title="Psychological support">Psychological Support in Recovery</h2>{" "}

@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -87,7 +88,7 @@ export default function ArtBody() {
 
       <h2 id="types-of-angiogram" data-toc-title="Types of angiogram">Types of Angiogram</h2>{" "}
       <p>Different types of angiograms are used depending on the area of the body and the clinical question being investigated. Cardiologists, neurologists, and vascular surgeons at SRM Global Hospitals select the most appropriate type based on the patient&apos;s medical history, symptoms, and diagnostic accuracy requirements.</p>{" "}
-      <img src="/images/blog/what-is-an-angiogram-procedure-risks-and-recovery/image-2.jpeg" alt="Types of Angiogram" />{" "}
+      <Image src="/images/blog/what-is-an-angiogram-procedure-risks-and-recovery/image-2.jpeg" alt="Types of Angiogram" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <h3>Coronary Angiography (Invasive Coronary Angiography)</h3>{" "}
       <p>Coronary angiography also called invasive coronary angiography is the definitive diagnostic tool for coronary artery disease. It directly visualises the coronary arteries supplying the heart muscle and identifies any narrowed artery, coronary stenosis, or complete blockage that is restricting blood flow. The diagnostic accuracy of coronary angiography is unmatched for identifying the precise location and severity of blockages.</p>{" "}
@@ -323,7 +324,7 @@ export default function ArtBody() {
 
       <h2 id="how-to-prepare" data-toc-title="How to prepare">How to Prepare for an Angiogram</h2>{" "}
       <p>Cardiologists and the nursing healthcare team at SRM Global Hospitals provide personalised preparation instructions before the coronary angiogram procedure. Following these guidelines carefully helps ensure diagnostic accuracy and reduces the risk of complications.</p>{" "}
-      <img src="/images/blog/what-is-an-angiogram-procedure-risks-and-recovery/image-3.jpeg" alt="How to Prepare for an Angiogram" />{" "}
+      <Image src="/images/blog/what-is-an-angiogram-procedure-risks-and-recovery/image-3.jpeg" alt="How to Prepare for an Angiogram" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <ul>
         <li><p><strong>Fasting:</strong> Avoid solid food for at least six hours before the angiogram test. Clear liquids may be allowed up to two hours before, as directed by the cardiologist.</p></li>{" "}
         <li><p><strong>Caffeine restriction:</strong> Avoid caffeine for at least 12 hours before the test particularly before a CT coronary angiogram as caffeine raises heart rate and reduces the clarity of images.</p></li>{" "}

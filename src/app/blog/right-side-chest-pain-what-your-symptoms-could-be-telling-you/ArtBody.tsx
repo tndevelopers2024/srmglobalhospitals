@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -43,7 +44,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2>Common Causes of Right-Side Chest Pain</h2>{" "}
-      <img src="/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/image-2.jpeg" alt="" />{" "}
+      <Image src="/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/image-2.jpeg" alt="" width={1600} height={900} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Right-sided chest pain can originate from multiple body systems, such as those evaluated by cardiologists, pulmonologists, gastroenterologists, orthopaedic specialists, and emergency physicians at SRM Global Hospitals.</p>{" "}
 
       <h2 id="rc-musculoskeletal" data-toc-title="Musculoskeletal causes">Musculoskeletal Causes</h2>{" "}
@@ -104,7 +105,7 @@ export default function ArtBody() {
       </div>{" "}
 
       <h2 id="rc-cardiac" data-toc-title="Cardiac causes">Cardiac Causes</h2>{" "}
-      <img src="/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/image-3.jpeg" alt="" />{" "}
+      <Image src="/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/image-3.jpeg" alt="" width={1600} height={983} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Although right-sided chest pain is less frequently linked to a heart attack than left-sided chest pain, cardiac causes must never be ignored and are carefully evaluated by cardiologists at SRM Global Hospitals, such as:</p>{" "}
       <ul>
         <li>Chest tightness or pressure</li>{" "}
@@ -157,7 +158,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2>Treatment for Right Side Chest Pain</h2>{" "}
-      <img src="/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/image-4.jpeg" alt="" />{" "}
+      <Image src="/images/blog/right-side-chest-pain-what-your-symptoms-could-be-telling-you/image-4.jpeg" alt="" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Treatment of right-sided chest pain depends entirely on the underlying cause, which includes management plans designed by multidisciplinary specialists at SRM Global Hospitals, including:</p>{" "}
       <ul>
         <li><strong>Muscle strain:</strong> Rest, pain relievers, and avoiding strenuous upper body activity</li>{" "}

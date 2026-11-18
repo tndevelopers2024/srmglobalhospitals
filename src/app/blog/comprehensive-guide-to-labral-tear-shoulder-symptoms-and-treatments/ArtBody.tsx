@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -109,7 +110,7 @@ export default function ArtBody() {
       <p>Treatment depends on tear size, location, and symptoms. Some patients recover with simple methods, while others need surgery. Doctors decide after checking the severity and lifestyle needs.</p>{" "}
 
       <h2 id="non-surgical-treatments" data-toc-title="Non-surgical treatments">Non-Surgical Treatments</h2>{" "}
-      <img src="/images/blog/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments-image-2.jpeg" alt="Non-Surgical Treatments" />{" "}
+      <Image src="/images/blog/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments-image-2.jpeg" alt="Non-Surgical Treatments" width={1024} height={681} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>Not all labrum tears require surgery. For small tears or mild symptoms, doctors suggest nonsurgical treatment first.</p>{" "}
       <ul>
@@ -121,7 +122,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2 id="surgical-treatments" data-toc-title="Surgical treatments">Surgical Treatments</h2>{" "}
-      <img src="/images/blog/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments-image-3.jpeg" alt="Surgical Treatments" />{" "}
+      <Image src="/images/blog/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments/comprehensive-guide-to-labral-tear-shoulder-symptoms-and-treatments-image-3.jpeg" alt="Surgical Treatments" width={1600} height={1067} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
       <p>Surgical treatment is needed when symptoms do not improve or if the tear occurs after a major injury.</p>{" "}
       <ul>
         <li>Shoulder labral tear surgery is often done with arthroscopic surgery, using a small incision and special tools.</li>{" "}

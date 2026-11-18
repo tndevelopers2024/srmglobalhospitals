@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -29,7 +30,7 @@ export default function ArtBody() {
       </ul>
       <p>Most mouth ulcers are harmless and heal within one to two weeks. Major ulcers are larger and deeper than minor ulcers, can be more painful, and may take several weeks to heal often leaving scars once healed.</p>
       <h2 id="types-of-mouth-ulcers" data-toc-title="Types of mouth ulcers">Types of Mouth Ulcers</h2>
-      <img src="/images/blog/mouth-ulcers-why-they-happen-and-how-to-treat-them-fast/image-2.png" alt="Types of Mouth Ulcers" />
+      <Image src="/images/blog/mouth-ulcers-why-they-happen-and-how-to-treat-them-fast/image-2.png" alt="Types of Mouth Ulcers" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Understanding the types of mouth ulcers helps identify the appropriate mouth ulcer treatment and assess the need for further investigation.</p>
       <h3>Minor Aphthous Ulcers</h3>
       <p>Minor ulcers are the most common type of mouth ulcer accounting for the majority of canker sores seen in clinical practice. Minor ulcers are usually small, round, or oval with a white or yellow centre and a red border, healing within one to two weeks without leaving scars. Minor ulcers are typically less than 1 cm in diameter and cause moderate pain that intensifies when eating or drinking.</p>
@@ -83,7 +84,7 @@ export default function ArtBody() {
       </div>
 
       <h2 id="mouth-ulcer-home-remedies" data-toc-title="Home remedies & fast relief">Mouth Ulcer Home Remedies: How to Treat Mouth Ulcers Fast</h2>
-      <img src="/images/blog/mouth-ulcers-why-they-happen-and-how-to-treat-them-fast/image-3.png" alt="Mouth Ulcer Home Remedies: How to Treat Mouth Ulcers Fast" />
+      <Image src="/images/blog/mouth-ulcers-why-they-happen-and-how-to-treat-them-fast/image-3.png" alt="Mouth Ulcer Home Remedies: How to Treat Mouth Ulcers Fast" width={1536} height={1024} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />
       <p>Most mouth ulcers heal on their own within one to two weeks. The primary goals of mouth ulcer treatment are to relieve pain, promote healing, prevent infection, and reduce inflammation during the healing process. Several effective home remedies and natural remedies help achieve these goals.</p>
       <h3>Saltwater Mouth Rinse</h3>
       <p>Dissolving a teaspoon of salt in half a cup of warm water and rinsing the mouth for 30 to 60 seconds can help reduce swelling and disinfect the ulcer promoting healing when done two to three times a day. Saltwater mouth rinses are one of the most accessible and evidence-supported home remedies for mouth ulcers. The salt creates a hypertonic environment that draws fluid out of the swollen tissue and helps prevent bacterial infection.</p>

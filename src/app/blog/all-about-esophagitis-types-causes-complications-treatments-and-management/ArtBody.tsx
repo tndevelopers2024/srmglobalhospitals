@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function ArtBody() {
   return (
     <article className="art-body">
@@ -26,7 +27,7 @@ export default function ArtBody() {
       </ul>{" "}
 
       <h2>Reflux Esophagitis</h2>{" "}
-      <img src="/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/image-2.jpeg" alt="Types of Esophagitis" />{" "}
+      <Image src="/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/image-2.jpeg" alt="Types of Esophagitis" width={1600} height={1200} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>Stomach acid flows back into the food pipe and causes reflux esophagitis. Usually, the muscle ring at the lower end of the food pipe blocks acid rising from the stomach and swallowing opens the ring for food passage, after which the muscle should close firmly. In reflux esophagitis, weak closure of the muscle ring at the lower end of the food pipe allows acidic digestive fluid to move upward from the stomach. Strong acid damages the soft inner lining of the food pipe, and raw sores may form inside the chest and throat. A burning sensation in the chest after a heavy meal usually reflects this condition, and pain increases when the body fails to stop repeated acid backflow.</p>{" "}
 
@@ -60,7 +61,7 @@ export default function ArtBody() {
       <p>Eosinophilic Esophagitis is a chronic immune system disease. In this condition, inflammatory cells called eosinophils gather in the food pipe. The eosinophilic accumulation makes the pipe stiff and narrow. It is often linked to food allergies, atopic dermatitis (skin rash), and allergic rhinitis (nose allergies). Eosinophilic Esophagitis can occur in both children and adults, although it was first described in children. The current estimates in 2024-25 on the global prevalence of this condition have increased from 1 to 6 per 10,000 persons to 40 per 10,000 persons. In India, about 1.14% of patients with swallowing difficulties are found to have EoE. EoE is often missed because its symptoms resemble regular acid reflux, and it is low in India.</p>{" "}
 
       <h2>Drug-Induced Esophagitis</h2>{" "}
-      <img src="/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/image-3.jpeg" alt="Diagnosis of Esophagitis" />{" "}
+      <Image src="/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/image-3.jpeg" alt="Diagnosis of Esophagitis" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <p>Sometimes, medicines can get stuck and cause a chemical injury to the pipe, which is known as pill esophagitis. Common causes include naproxen sodium, certain antibiotics, or iron pills.</p>{" "}
 
@@ -192,7 +193,7 @@ export default function ArtBody() {
       </table>{" "}
 
       <h2 id="diagnosis" data-toc-title="Diagnosis and treatment">How do Doctors Confirm Esophagitis?</h2>{" "}
-      <img src="/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/image-4.jpeg" alt="Treatment of Esophagitis" />{" "}
+      <Image src="/images/blog/all-about-esophagitis-types-causes-complications-treatments-and-management/image-4.jpeg" alt="Treatment of Esophagitis" width={1600} height={1066} sizes="(max-width: 768px) 100vw, 720px" loading="lazy" />{" "}
 
       <h3>Reflux Esophagitis</h3>{" "}
       <ul>

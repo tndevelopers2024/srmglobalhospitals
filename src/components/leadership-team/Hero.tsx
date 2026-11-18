@@ -1,20 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
     return (
         <div className="page-hero-frame leadership-hero-frame">
-            <img
+            <Image
                 src="/images/leadership-team/leadership-team-hero.jpg"
                 alt="SRM Global Hospitals Leadership Team"
+                fill
+                sizes="100vw"
                 style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
                     objectFit: "cover",
                     objectPosition: "center 25%",
                 }}
+                preload
             />
             <div
                 style={{

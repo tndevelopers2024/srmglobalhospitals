@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface MediaCardProps {
   imageSrc: string;
   imageAlt: string;
@@ -34,8 +36,15 @@ export default function MediaCard({
 
   return (
     <div className="media-card" style={{ background: "#fff", borderRadius: "16px", overflow: "hidden", border: "1px solid rgba(0,0,0,0.05)" }}>
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={imageSrc} alt={imageAlt} style={{ width: "100%", aspectRatio: "16/9", objectFit: "cover", background: "#f3eff8" }} />
+      <Image
+        src={imageSrc}
+        alt={imageAlt}
+        width={450}
+        height={200}
+        sizes="(max-width: 768px) 100vw, 33vw"
+        loading="lazy"
+        style={{ width: "100%", aspectRatio: "16/9", objectFit: "cover", background: "#f3eff8" }}
+      />
       <div style={{ padding: "20px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "10px" }}>
           <div style={{ background: badgeColors.bg, borderRadius: "6px", padding: "4px 10px", fontFamily: "Inter, sans-serif", fontSize: "11px", fontWeight: 600, color: badgeColors.text }}>
