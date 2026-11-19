@@ -92,6 +92,14 @@ export default function MobileNavigation() {
         <div className="mobile-menu-actions">
           <a href="tel:+919644496444" onClick={() => setOpen(false)}> Emergency</a>
           <Link href="/book-an-appointment" onClick={() => setOpen(false)}>Book an Appointment</Link>
+          <a
+            href="https://srmglobalhospital.srmist.edu.in/docapponline/DocApp/tLoginAuth.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setOpen(false)}
+          >
+            Book Online
+          </a>
         </div>
       </nav>
     </div>
