@@ -399,7 +399,7 @@ export default function ArtBody() {
         <div className="doctor-info">
           <h4>Dr. Ahalya Kandasamy</h4>
           <p className="doctor-qualification">MBBS, MD</p>
-          <p>Consultant, Radiology</p>
+          <p>Junior Consultant</p>
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
