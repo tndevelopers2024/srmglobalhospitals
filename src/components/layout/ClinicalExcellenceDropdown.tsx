@@ -41,6 +41,10 @@ export const COE_ITEMS: CoeItem[] = [
     label: "Institute of Solid Organ Transplants",
     href: "/institute-of-solid-organ-transplants",
   },
+  {
+    label: "Pediatric Centre of Excellence",
+    href: "/pediatric-centre-of-excellence" as Route,
+  },
 ];
 
 interface ClinicalExcellenceDropdownProps {

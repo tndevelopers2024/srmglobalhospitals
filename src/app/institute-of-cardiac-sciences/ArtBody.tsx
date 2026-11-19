@@ -81,7 +81,7 @@ export default function ArtBody() {
       <div className="hero-breadcrumb">
         <Link href="/">Home</Link>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="9 18 15 12 9 6" /></svg>
-        <Link href="/#coe">Our Specialties</Link>
+        <Link href="/clinical-excellence">Clinical Excellence</Link>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="9 18 15 12 9 6" /></svg>
         <span>Institute of Cardiac Sciences</span>
       </div>
