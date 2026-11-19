@@ -394,7 +394,7 @@ export default function ArtBody() {
           <a href="#appointment" className="btn-primary">Book Appointment</a>
         </div>
       </div>
-            <div className="doctor-card reveal">
+        <div className="doctor-card reveal">
         <div className="doctor-photo"><Image src="/images/specialties/radiology/dr-ahalya-kandasamy.png" alt="Dr. Ahalya Kandasamy" width={400} height={400} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center" }} /></div>
         <div className="doctor-info">
           <h4>Dr. Ahalya Kandasamy</h4>
