@@ -137,7 +137,7 @@ export default function HeroCarousel() {
               <span className="hero-carousel-count" aria-hidden="true">{String(active + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}</span>
             </div>
             <div className="hero-meta">
-              <div className="hero-meta-item"><span className="num">7</span><span className="lbl">Centres of Excellence</span></div>
+              <div className="hero-meta-item"><span className="num">9</span><span className="lbl">Centres of Excellence</span></div>
               <div className="hero-meta-item"><span className="num">40+</span><span className="lbl">Specialties</span></div>
               <div className="hero-meta-item"><span className="num">100+</span><span className="lbl">Senior Specialists</span></div>
             </div>
