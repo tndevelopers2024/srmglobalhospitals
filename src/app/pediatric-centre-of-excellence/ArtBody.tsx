@@ -145,49 +145,14 @@ export default function ArtBody() {
               </div>
             </div>
             <div className="hero-image">
-              <div
-                className="hero-image-wrapper"
-                style={{
-                  maskImage: "none",
-                  WebkitMaskImage: "none",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "flex-end",
-                  paddingRight: "48px",
-                }}
-              >
-                <div
-                  className="hero-image-placeholder"
-                  style={{
-                    width: "380px",
-                    maxWidth: "90%",
-                    aspectRatio: "4/3",
-                    borderRadius: "24px",
-                    border: "2px dashed rgba(255,255,255,0.3)",
-                    background: "rgba(255,255,255,0.06)",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    gap: "12px",
-                    color: "rgba(255,255,255,0.7)",
-                    fontSize: "14px",
-                  }}
-                >
-                  <svg
-                    width="48"
-                    height="48"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                  >
-                    <rect x="3" y="3" width="18" height="18" rx="2" />
-                    <circle cx="8.5" cy="8.5" r="1.5" />
-                    <path d="M21 15l-5-5L5 21" />
-                  </svg>
-                  <span>Pediatrics Team Photo</span>
-                </div>
+              <div className="hero-image-wrapper">
+                <Image
+                  src="/images/coe/pediatric/hero-1.avif"
+                  alt="Pediatric Centre of Excellence"
+                  fill
+                  priority
+                  style={{ objectFit: "cover", objectPosition: "center center" }}
+                />
               </div>
             </div>
           </div>
@@ -256,7 +221,15 @@ export default function ArtBody() {
               Learn More
             </a>
           </div>
-          <div className="about-image">Image Placeholder</div>
+          <div className="about-image">
+            <Image
+              src="/images/coe/pediatric/team-new.avif"
+              alt="Pediatric Centre of Excellence Team"
+              width={600}
+              height={450}
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+            />
+          </div>
         </div>
       </section>
 
@@ -556,7 +529,15 @@ export default function ArtBody() {
           </div>
 
           <div className={`tab-panel ${activeTab === "preventive" ? "active" : ""}`} id="tab-preventive">
-            <div className="tab-image">Image Placeholder</div>
+            <div className="tab-image">
+              <Image
+                src="/images/coe/pediatric/preventive-care.avif"
+                alt="Preventive Care"
+                width={600}
+                height={400}
+                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
             <div className="tab-content">
               <h3>Preventive Care</h3>
               <p>
@@ -589,7 +570,15 @@ export default function ArtBody() {
           </div>
 
           <div className={`tab-panel ${activeTab === "diagnosis" ? "active" : ""}`} id="tab-diagnosis">
-            <div className="tab-image">Image Placeholder</div>
+            <div className="tab-image">
+              <Image
+                src="/images/coe/pediatric/diagnosis-and-treatment.png"
+                alt="Diagnosis and Treatment"
+                width={600}
+                height={400}
+                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
             <div className="tab-content">
               <h3>Diagnosis and Treatment</h3>
               <p>
@@ -622,7 +611,15 @@ export default function ArtBody() {
           </div>
 
           <div className={`tab-panel ${activeTab === "surgery" ? "active" : ""}`} id="tab-surgery">
-            <div className="tab-image">Image Placeholder</div>
+            <div className="tab-image">
+              <Image
+                src="/images/coe/pediatric/emergency-and-surgery.avif"
+                alt="Emergency and Surgery"
+                width={600}
+                height={400}
+                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+              />
+            </div>
             <div className="tab-content">
               <h3>Emergency and Surgery</h3>
               <p>
@@ -668,7 +665,15 @@ export default function ArtBody() {
           </div>
           <div className="tech-grid">
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder</div>
+              <div className="tech-card-img">
+                <Image
+                  src="/images/coe/pediatric/paediatric-emergency-care.avif"
+                  alt="Pediatric Emergency Care"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <div className="tech-card-body">
                 <h3>Pediatric Emergency Care</h3>
                 <p>An emergency department equipped for acute childhood illnesses and injuries, open 24/7.</p>
@@ -676,7 +681,15 @@ export default function ArtBody() {
             </div>
 
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder</div>
+              <div className="tech-card-img">
+                <Image
+                  src="/images/coe/pediatric/neonatal-care-unit.avif"
+                  alt="Neonatal Care Unit"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <div className="tech-card-body">
                 <h3>Neonatal Care Unit</h3>
                 <p>Intensive support for premature infants, with trained nurses and constant monitoring.</p>
@@ -684,7 +697,15 @@ export default function ArtBody() {
             </div>
 
             <div className="tech-card">
-              <div className="tech-card-img">Image Placeholder</div>
+              <div className="tech-card-img">
+                <Image
+                  src="/images/coe/pediatric/pediatric-diagnostics.avif"
+                  alt="Pediatric Diagnostics"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <div className="tech-card-body">
                 <h3>Pediatric Diagnostics</h3>
                 <p>On-site laboratory and imaging for faster results and fewer visits.</p>
@@ -895,7 +916,15 @@ export default function ArtBody() {
           </div>
           <div className="articles-grid">
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img">
+                <Image
+                  src="/images/coe/pediatric/article-1.avif"
+                  alt="Vaccination Guide for Parents"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <div className="article-body">
                 <span className="article-tag">Prevention</span>
                 <h3>Vaccination Guide for Parents</h3>
@@ -907,7 +936,15 @@ export default function ArtBody() {
             </div>
 
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img">
+                <Image
+                  src="/images/coe/pediatric/article-2.avif"
+                  alt="Building a Healthy Plate for Kids"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <div className="article-body">
                 <span className="article-tag">Nutrition</span>
                 <h3>Building a Healthy Plate for Kids</h3>
@@ -919,7 +956,15 @@ export default function ArtBody() {
             </div>
 
             <div className="article-card">
-              <div className="article-img">Image Placeholder</div>
+              <div className="article-img">
+                <Image
+                  src="/images/coe/pediatric/article-3.avif"
+                  alt="When to Visit a Pediatrician"
+                  width={600}
+                  height={400}
+                  style={{ width: "100%", height: "100%", objectFit: "cover" }}
+                />
+              </div>
               <div className="article-body">
                 <span className="article-tag">Care</span>
                 <h3>When to Visit a Pediatrician</h3>

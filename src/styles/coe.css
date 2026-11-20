@@ -453,6 +453,9 @@
   .coe-page .hero-image-wrapper img[src*="solid-organ-transplants"] {
     object-position: 76% center !important;
   }
+  .coe-page .hero-image-wrapper img[src*="pediatric"] {
+    object-position: 80% center !important;
+  }
 }
 
 /* ── TRUST BAR ── */
