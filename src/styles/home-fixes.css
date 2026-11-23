@@ -489,8 +489,14 @@
     background: linear-gradient(
       to bottom,
       #faf8f4 0%,
-      #faf8f4 calc(100% - var(--mobile-banner-height)),
-      rgba(250, 248, 244, 0) calc(100% - var(--mobile-banner-height) + 24px)
+      rgba(250, 248, 244, 0.98) calc(100% - var(--mobile-banner-height) - 70px),
+      rgba(250, 248, 244, 0.97) calc(100% - var(--mobile-banner-height)),
+      rgba(250, 248, 244, 0.95) calc(100% - var(--mobile-banner-height) + 12px),
+      rgba(250, 248, 244, 0.85) calc(100% - var(--mobile-banner-height) + 40px),
+      rgba(250, 248, 244, 0.58) calc(100% - var(--mobile-banner-height) + 80px),
+      rgba(250, 248, 244, 0.25) calc(100% - var(--mobile-banner-height) + 125px),
+      rgba(250, 248, 244, 0.05) calc(100% - var(--mobile-banner-height) + 165px),
+      rgba(250, 248, 244, 0) calc(100% - var(--mobile-banner-height) + 205px)
     ) !important;
   }
 
