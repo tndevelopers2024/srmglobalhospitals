@@ -483,27 +483,15 @@
     background: linear-gradient(
       to bottom,
       #faf8f4 0%,
-      #faf8f4 calc(100% - 260px),
-      rgba(250, 248, 244, 0) calc(100% - 190px)
+      #faf8f4 calc(100% - var(--mobile-banner-height)),
+      rgba(250, 248, 244, 0) calc(100% - var(--mobile-banner-height) + 24px)
     ) !important;
   }
 
-  /* Reserved banner area below the copy across all mobile hero slides. */
-  .home-page .hero-carousel,
-  .home-page .hero-carousel--photo-banner {
-    padding-bottom: 260px !important;
-  }
-
-  /* 4th hero carousel banner (bone, joint & spine care): fine-tuned position for complete subject framing */
-  .home-page .hero-slide-background[style*="bone-joint-spine-active-living-banner"]::before,
-  .home-page .hero-slide-background--zoomed-out[style*="bone-joint-spine-active-living-banner"]::before,
-  .home-page .hero-slide-background:nth-of-type(4)::before,
-  .home-page .hero-slide-background:nth-child(4)::before {
-    background-image: var(--slide-mobile-image) !important;
-    background-size: cover !important;
-    background-position: center 80% !important;
-    background-repeat: no-repeat !important;
-    background-color: transparent !important;
+  /* Reserve space below the copy for the portrait artwork. */
+  .home-page .hero-carousel {
+    --mobile-banner-height: clamp(360px, 128vw, 984px);
+    padding-bottom: var(--mobile-banner-height) !important;
   }
 
   .home-page .hero-grid {
