@@ -138,8 +138,14 @@
 
 @media (min-width: 769px) {
   .home-page .hero-slide-background--zoomed-out::before {
+    /* Fade the left edge of the landscape image into the hero background. */
+    left: auto;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
     background-size: auto 100%;
     background-position: right center;
+    mask-image: linear-gradient(to right, transparent, black 16%);
   }
 }
 
